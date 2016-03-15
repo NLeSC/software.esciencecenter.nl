@@ -19,3 +19,12 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+collections:
+  software:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: software
+    values:
+      layout: software
