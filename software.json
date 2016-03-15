@@ -1,10 +1,9 @@
 ---
 layout: null
 ---
-{ "software": [
-      {% for item in site.software %}
-        {{ item | jsonify |raw }}
-        {% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    ]
-}
+[
+  {% for item in site.software %}
+    {{ item | jsonify |raw }}
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

@@ -50,7 +50,7 @@ d3.json("software.json", function (software_data) {
     	})
     .size(100)
     .columns([
-        function(d) { return d.name; },
+        function(d) { return '<a href="' + d['@id'].replace('http://estep.esciencecenter.nl', '') + '.html">' + d.name + '</a>'; },
         function(d) { return d.tagLine; }
     ])
     .sortBy(function(d){ return d.name; })
@@ -125,7 +125,7 @@ d3.json("software.json", function (software_data) {
           });
           // dimension.filter(filter);
           return filter; // set the actual filter value to the new value
-        }) 
+        })
         .elasticX(true);
 
 
