@@ -1,0 +1,9 @@
+---
+layout: page
+title: organization
+---
+<ul>
+    {% for p in site.organization %}
+    <li><a href="{{ p.url }}">{{ p.name }}</a></li>
+    {% endfor %}
+</ul>

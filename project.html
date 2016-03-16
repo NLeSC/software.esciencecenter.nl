@@ -1,0 +1,9 @@
+---
+layout: page
+title: project
+---
+<ul>
+    {% for p in site.project %}
+    <li><a href="{{ p.url }}">{{ p.name }}</a></li>
+    {% endfor %}
+</ul>
