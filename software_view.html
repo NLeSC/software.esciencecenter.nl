@@ -36,26 +36,6 @@ d3.json("software.json", function (software_data) {
 	var programmingLanguageDimension =  ndx.dimension(function (d) { return d['programmingLanguage']; });
 	var disciplineDimension = ndx.dimension(function(d) { return d.discipline; });
 
-	var programmingLanguageCount = programmingLanguageDimension.group().reduceCount();
-
-
-	languageChart.width(400).height(400)
-		.dimension(programmingLanguageDimension)
-		.group(programmingLanguageCount)
-		.elasticX(true);
-
-	dataTable.width(800).height(800)
-    	.dimension(softwareDimension)
-    	.group(function(d) { return "List of all Selected Software Projects"
-    	})
-    .size(100)
-    .columns([
-        function(d) { return d.name; },
-        function(d) { return d.tagLine; }
-    ])
-    .sortBy(function(d){ return d.name; })
-    // (optional) sort order, :default ascending
-    .order(d3.ascending);
 
       function reduceFieldsAdd(fields) {
         return function(p, v) {
@@ -107,6 +87,26 @@ d3.json("software.json", function (software_data) {
           return result;
         }
       };
+
+	var programmingLanguageCount = programmingLanguageDimension.group().reduceCount();
+
+
+	languageChart.width(400).height(400)
+		.dimension(programmingLanguageDimension)
+		.group(programmingLanguageCount)
+		.elasticX(true);
+
+	dataTable.width(800).height(800)
+    	.dimension(softwareDimension)
+    	.group(function(d) { return d.competence[0]; })
+    .size(100)
+    .columns([
+        function(d) { return '<a href="' + d['@id'] + '">' + d.name + '</a>'; },
+        function(d) { return d.tagLine; }
+    ])
+    .sortBy(function(d){ return d.name; })
+    // (optional) sort order, :default ascending
+    .order(d3.ascending);
 
       disciplineChart
         .width(200)
