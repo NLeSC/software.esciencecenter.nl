@@ -71,22 +71,88 @@ layout: default
 {% for d in page.dependency %}
 <li>
 	{% if d contains site.url %}
-	<a href="{{ d }}">
-	{% for s in site.software %}
-		{% capture sname %}{{ d }}{% endcapture %}
-		{% capture urlx %}{{ site.url }}{{ s.id }}{% endcapture %}
-		{% if d == urlx %}
-			{% capture sname %}{{ s.name }}{% endcapture %}
-		{% endif %}
-	{% endfor %}
-	{{ sname }}
-	</a>
+		<a href="{{ d }}">
+		{% for s in site.software %}
+			{% capture sname %}{{ d }}{% endcapture %}
+			{% capture urlx %}{{ site.url }}{{ s.id }}{% endcapture %}
+			{% if d == urlx %}
+				{% capture sname %}{{ s.name }}{% endcapture %}
+			{% endif %}
+		{% endfor %}
+		{{ sname }}
+		</a>
 	{% else %}
-	{{ d }}
+		{{ d }}
 	{% endif %}
 </li>
 {% endfor %}
 </ul>
 
+<h3>Contributors</h3>
+<ul class="contributor-list">
+{% for d in page.contributor %}
+<li>
+	{% if d contains site.url %}
+		<a href="{{ d }}">
+		{% for p in site.person %}
+			{% capture pname %}{{ d }}{% endcapture %}
+			{% capture urlx %}{{ site.url }}{{ p.id }}{% endcapture %}
+			{% if d == urlx %}
+				{% capture pname %}{{ p.name }}{% endcapture %}
+			{% endif %}
+		{% endfor %}
+		{{ pname }}
+		</a>
+	{% elsif d.name %}
+		{% if d.link %}
+			<a href="{{ d.link[0].url }}">
+		{% endif %}
+			{{ d.name }}
+		{% if d.link %}
+			</a>
+		{% endif %}
+	{% else %}
+		{{ d }}
+	{% endif %}
+</li>
+{% endfor %}
+</ul>
+
+<h3>Involved Organizations</h3>
+<ul class="involved-organization-list">
+{% for d in page.involvedOrganization %}
+	{% capture dict %}
+		{% if d contains "/person/" %}
+			{{site.person}}
+		{% else %}
+			{{site.organization}}
+		{% endif %}
+	{% endcapture %}
+<li>
+	{% if d contains site.url %}
+		<a href="{{ d }}">
+		{% for p in dict %}
+			{% capture pname %}{{ d }}{% endcapture %}
+			{% capture urlx %}{{ site.url }}{{ p.id }}{% endcapture %}
+			{% if d == urlx %}
+				{% capture pname %}{{ p.name }}{% endcapture %}
+			{% endif %}
+		{% endfor %}
+		{{ pname }}
+		</a>
+	{% elsif d.name %}
+		{% if d.link %}
+			<a href="{{ d.link[0].url }}">
+		{% endif %}
+			{{ d.name }}
+		{% if d.link %}
+			</a>
+		{% endif %}
+	{% else %}
+		{{ d }}
+	{% endif %}
+</li>
+{% endfor %}
+</ul>
 
 {{ page.content }}

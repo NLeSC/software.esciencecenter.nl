@@ -1,6 +1,4 @@
 ---
-schema: http://estep.esciencecenter.nl/schema/software
-'@id': http://estep.esciencecenter.nl/software/xenon
 name: Xenon
 tagLine: A middleware abstraction library that provides a simple programming interface to various compute and storage resources.
 link:
@@ -9,8 +7,10 @@ link:
 - description: nlescWebsite
   url: https://www.esciencecenter.nl/technology/software/xenon
 logo: http://estep.esciencecenter.nl/media/k2/items/cache/2fa67f482133f1c934235b73c2a03954_XL.jpg
-programmingLanguage: Java
-license: apache-2.0
+programmingLanguage: 
+- Java
+license: 
+- apache-2.0
 competence:
 - Optimized Data Handling
 discipline:
@@ -29,9 +29,9 @@ contributor:
 user:
 - http://estep.esciencecenter.nl/person/j.maassen
 - http://estep.esciencecenter.nl/person/n.drost
-- http://estep.esciencecenter.nl/institute/nlesc
+- http://estep.esciencecenter.nl/organization/nlesc
 involvedOrganization:
-- http://estep.esciencecenter.nl/institute/nlesc
+- http://estep.esciencecenter.nl/organization/nlesc
 usedIn:
 - http://estep.esciencecenter.nl/project/beyond-the-data-explosion
 startDate: '2013-04-12'

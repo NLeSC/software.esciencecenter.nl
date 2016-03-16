@@ -1,7 +1,4 @@
 ---
-layout: software
-schema: http://estep.esciencecenter.nl/schema/software
-'@id': http://estep.esciencecenter.nl/software/noodles
 name: Noodles
 tagLine: Programmable workflow engine for Python.
 link:
@@ -14,8 +11,10 @@ link:
 - description: documentation
   url: http://nlesc.github.io/noodles/sphinxdoc/html/index.html
 logo: 
-programmingLanguage: Python
-license: lgpl-3.0
+programmingLanguage: 
+- Python
+license: 
+- lgpl-3.0
 competence:
 - Efficient Computing
 discipline:
@@ -34,10 +33,17 @@ contributor:
   - description: github
     url: https://github.com/felipeZ
 user:
-- http://estep.esciencecenter.nl/institute/nlesc
-- http://estep.esciencecenter.nl/institute/vua
+- http://estep.esciencecenter.nl/organization/nlesc
+- name: VU University Amsterdam
+  link:
+  - description: website
+    url: http://www.vu.nl/
 involvedOrganization:
-- http://estep.esciencecenter.nl/institute/vua
+- http://estep.esciencecenter.nl/organization/nlesc
+- name: VU University Amsterdam
+  link:
+  - description: website
+    url: http://www.vu.nl/
 usedIn:
 - http://estep.esciencecenter.nl/project/computational-chemistry-made-easy
 startDate: '2015-10-11'
