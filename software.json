@@ -4,6 +4,7 @@ layout: null
 [
   {% for item in site.software %}
     {
+      "@id": {{ item.id | prepend:site.url | jsonify }},
       {% for kv in item %}
         {% unless kv[0] == 'next' or kv[0] == 'previous' %}
           {{ kv[0] | jsonify }}: {{ kv[1] | jsonify }}

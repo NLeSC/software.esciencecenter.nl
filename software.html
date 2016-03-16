@@ -1,33 +1,27 @@
 ---
-layout: default
+layout: page
+title: software
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Software</h1>
 
   <div id="dc-languages-chart"></div>
 
   <div id="dc-discipline-chart"></div>
 
-  <div class='row-fluid'>
-    <div class='span12 table-graph'>
-        <h4>Software Projects</h4>
-        <table class='table table-hover dc-data-table' id='dc-table-graph'>
-            <thead>
-                <tr class='header'>
-                    <th>Name</th>
-                    <th>Tag Line</th>
-                </tr>
-            </thead>
-        </table>
-    </div>
-  </div>
+  <table class='table table-hover dc-data-table' id='dc-table-graph'>
+      <thead>
+          <tr class='header'>
+              <th>Name</th>
+              <th>Tag Line</th>
+          </tr>
+      </thead>
+  </table>
 
 </div>
 
 <script type="text/javascript">
-d3.json("software.json", function (software_data) {
+d3.json("/software.json", function (software_data) {
 	var dataTable = dc.dataTable("#dc-table-graph");
 	var languageChart = dc.rowChart("#dc-languages-chart");
 	var disciplineChart = dc.rowChart("#dc-discipline-chart");
@@ -37,25 +31,6 @@ d3.json("software.json", function (software_data) {
 	var disciplineDimension = ndx.dimension(function(d) { return d.discipline; });
 
 	var programmingLanguageCount = programmingLanguageDimension.group().reduceCount();
-
-
-	languageChart.width(400).height(400)
-		.dimension(programmingLanguageDimension)
-		.group(programmingLanguageCount)
-		.elasticX(true);
-
-	dataTable.width(800).height(800)
-    	.dimension(softwareDimension)
-    	.group(function(d) { return "List of all Selected Software Projects"
-    	})
-    .size(100)
-    .columns([
-        function(d) { return '<a href="' + d['@id'].replace('http://estep.esciencecenter.nl', '') + '.html">' + d.name + '</a>'; },
-        function(d) { return d.tagLine; }
-    ])
-    .sortBy(function(d){ return d.name; })
-    // (optional) sort order, :default ascending
-    .order(d3.ascending);
 
       function reduceFieldsAdd(fields) {
         return function(p, v) {
@@ -111,42 +86,42 @@ d3.json("software.json", function (software_data) {
 	var programmingLanguageCount = programmingLanguageDimension.group().reduceCount();
 
 
-	languageChart.width(400).height(400)
+	languageChart.width(340).height(340)
 		.dimension(programmingLanguageDimension)
 		.group(programmingLanguageCount)
 		.elasticX(true);
 
-	dataTable.width(800).height(800)
-    	.dimension(softwareDimension)
-    	.group(function(d) { return d.competence[0]; })
+  disciplineChart
+    .width(340)
+    .height(340)
+    .dimension(disciplineDimension)
+    .group(fakeDisciplineGroup)
+    .filterHandler(function(dimension, filter){
+      dimension.filterFunction(function(d) {
+        var result = true;
+        filter.forEach(function(f) {
+          if (result === true && d.indexOf(f) === -1) {
+            result = false;
+          }
+        });
+        return result;
+      });
+      // dimension.filter(filter);
+      return filter; // set the actual filter value to the new value
+    })
+    .elasticX(true);
+
+  dataTable.width(800).height(800)
+      .dimension(softwareDimension)
+      .group(function(d) { return d.competence[0]; })
     .size(100)
     .columns([
-        function(d) { return '<a href="' + d['@id'] + '">' + d.name + '</a>'; },
+        function(d) { return '<a href="' + d['@id'].replace('http://estep.esciencecenter.nl', '') + '">' + d.name + '</a>'; },
         function(d) { return d.tagLine; }
     ])
     .sortBy(function(d){ return d.name; })
     // (optional) sort order, :default ascending
     .order(d3.ascending);
-
-      disciplineChart
-        .width(200)
-        .height(200)
-        .dimension(disciplineDimension)
-        .group(fakeDisciplineGroup)
-        .filterHandler(function(dimension, filter){
-          dimension.filterFunction(function(d) {
-            var result = true;
-            filter.forEach(function(f) {
-              if (result === true && d.indexOf(f) === -1) {
-                result = false;
-              }
-            });
-            return result;
-          });
-          // dimension.filter(filter);
-          return filter; // set the actual filter value to the new value
-        })
-        .elasticX(true);
 
 
 	dc.renderAll();

@@ -16,13 +16,14 @@ github_username:  eStep
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 collections:
   software:
     output: true
-    permalink: /software/:path
 defaults:
   - scope:
       path: ""
       type: software
     values:
       layout: software
+      schema: http://estep.esciencecenter.nl/schema/software
