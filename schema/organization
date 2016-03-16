@@ -1,0 +1,63 @@
+{
+	"properties" : {
+		"schema": {
+			"type": "string",
+			"format": "uri",
+			"enum": [ "http://estep.esciencecenter.nl/schema/organization" ]
+		},
+		"name" : {
+			"type" : "string"
+		},
+		"@id" : {
+			"type" : "string",
+			"format" : "uri"
+		},
+		"link" : {
+			"type" : "array",
+			"items" : {
+				"type" : "object",
+				"properties" : {
+					"url" : {
+						"type" : "string",
+						"format" : "uri"
+					},
+					"description" : {
+						"type" : "string",
+						"enum" : [ "website", "researchgate", "linkedin", "twitter"]
+					}
+				}
+			}
+		},
+		"tagLine" : {
+			"type" : "string"
+		},
+		"logo" : {
+			"type" : "string",
+			"format" : "uri"
+		},
+		"involvedIn" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri",
+				"description" : "project URI"
+			}
+		},
+		"organizationOf" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri",
+				"description" : "Used to describe employee relationships"
+			}
+		},
+		"ownerOf" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri",
+				"description" : "Used to describe project relationships"
+			}
+		}
+	}
+}
