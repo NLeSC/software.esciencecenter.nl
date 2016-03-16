@@ -35,14 +35,15 @@ def object2jekyll(data, contentProperty):
     return "---\n{0}\n---\n{1}".format(metadata, content)
 
 
-def jekyllfile2object(filename, contentProperty='description', uriPrefix='http://estep.esciencecenter.nl'):
+def jekyllfile2object(filename, schemaType=None, contentProperty='description', uriPrefix='http://estep.esciencecenter.nl'):
     with open(filename) as f:
         obj = jekyll2object(f.read(), contentProperty)
 
     fullpath = os.path.abspath(filename)
     path, filename = os.path.split(fullpath)
     name = os.path.splitext(filename)[0]
-    schemaType = os.path.basename(path)
+    if schemaType is None:
+        schemaType = os.path.basename(path)
 
     if '@id' not in obj:
         obj['@id'] = uriPrefix + '/' + schemaType + '/' + name

@@ -33,7 +33,7 @@
 		},
 		"organization" : {
 			"anyOf" : [
-				 { "$ref": "NLeSC_organization_schema.json" },
+				 { "$ref": "organization" },
 				 {
 				 	"properties" : {
 				 		"id" : {

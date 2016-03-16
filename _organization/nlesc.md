@@ -3,7 +3,7 @@ name: NLeSC
 link:
 - description: website
   url: http://www.esciencecenter.nl/
-- description: estep
+- description: website
   url: http://estep.esciencecenter.nl/
 tagLine: Netherlands eScience Center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg,

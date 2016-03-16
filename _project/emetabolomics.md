@@ -19,10 +19,11 @@ dataFormat:
 - CSV
 - JSON
 contactPerson: http://estep.esciencecenter.nl/person/s.verhoeven
-coordinator: http://estep.esciencecenter.nl/person/l.ridder
+coordinator: http://estep.esciencecenter.nl/person/r.vannieuwpoort
 engineer:
 - http://estep.esciencecenter.nl/person/s.verhoeven
 principalInvestigator:
+- http://estep.esciencecenter.nl/person/l.ridder
 involvedOrganization:
 - http://estep.esciencecenter.nl/organization/nlesc
 uses:

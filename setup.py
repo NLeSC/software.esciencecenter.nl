@@ -36,11 +36,11 @@ setup(name='estep',
       author_email='j.borgdorff@esciencecenter.nl',
       url='https://github.com/eStep/eStep',
       packages=['estep'],
-      install_requires=['docopt', 'PyYAML', 'python-frontmatter'],
+      install_requires=['docopt', 'PyYAML', 'python-frontmatter', 'jsonschema'],
       tests_require=['nose', 'pyflakes', 'pep8', 'coverage'],
       entry_points={
         'console_scripts': [
-            'validate_estep = estep.validate.main'
+            'validate_estep = estep.validate:main'
         ]
       }
      )

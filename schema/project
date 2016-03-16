@@ -83,7 +83,7 @@
 		},
 		"contactPerson" : {
 			"anyOf" : [
-				 { "$ref": "NLeSC_person_schema.json" },
+				 { "$ref": "person" },
 				 {
 				 	"properties" : {
 				 		"id" : {
@@ -96,7 +96,7 @@
 		},
 		"coordinator" : {
 			"anyOf" : [
-				 { "$ref": "NLeSC_person_schema.json" },
+				 { "$ref": "person" },
 				 {
 				 	"properties" : {
 				 		"id" : {
@@ -111,7 +111,7 @@
 			"type" : "array",
 			"items" : {
 				"anyOf" : [
-					 { "$ref": "NLeSC_person_schema.json" },
+					 { "$ref": "person" },
 					 {
 					 	"properties" : {
 					 		"id" : {
@@ -127,7 +127,7 @@
 			"type" : "array",
 			"items" : {
 				"anyOf" : [
-					 { "$ref": "NLeSC_person_schema.json" },
+					 { "$ref": "person" },
 					 {
 					 	"properties" : {
 					 		"id" : {
@@ -143,7 +143,7 @@
 			"type" : "array",
 			"items" : {
 				"anyOf" : [
-					 { "$ref": "NLeSC_organization_schema.json" },
+					 { "$ref": "organization" },
 					 {
 					 	"properties" : {
 					 		"id" : {
@@ -159,7 +159,7 @@
 			"type" : "array",
 			"items" : {
 				"anyOf" : [
-					 { "$ref": "NLeSC_software_schema.json" },
+					 { "$ref": "software" },
 					 {
 					 	"properties" : {
 					 		"id" : {

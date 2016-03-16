@@ -16,10 +16,8 @@ contributorOf:
 - http://estep.esciencecenter.nl/software/xenon
 userOf:
 - http://estep.esciencecenter.nl/software/xenon
-coordinatorOf:
 engineerOf:
 - http://estep.esciencecenter.nl/project/emetabolomics
-principalInvestigatorOf:
 ---
 Stefan worked a decade within the Bioinformatics/Cheminformatics department in the pharma industry, where he administrated the Unix infrastructure and maintained/developed applications. Stefan helped scientists run their computations on clusters and maintained bioinformatics tools.
 Most of the applications he made use a rich web interface or are web service based.
