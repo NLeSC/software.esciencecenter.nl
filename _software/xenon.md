@@ -34,6 +34,7 @@ involvedOrganization:
 - http://estep.esciencecenter.nl/organization/nlesc
 usedIn:
 - http://estep.esciencecenter.nl/project/beyond-the-data-explosion
+- http://estep.esciencecenter.nl/project/emetabolomics
 startDate: '2013-04-12'
 status: active
 dependency:

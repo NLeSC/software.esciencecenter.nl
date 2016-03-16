@@ -24,7 +24,7 @@ expertise:
 - Orchestrated Computing
 supportLevel: specialized
 contactPerson: http://estep.esciencecenter.nl/person/j.hidding
-owner: http://estep.esciencecenter.nl/person/s.verhoeven
+owner: http://estep.esciencecenter.nl/person/j.hidding
 contributor:
 - http://estep.esciencecenter.nl/person/j.hidding
 - http://estep.esciencecenter.nl/person/b.weel
