@@ -35,10 +35,8 @@ involvedOrganization:
 usedIn:
 - http://estep.esciencecenter.nl/project/beyond-the-data-explosion
 startDate: '2013-04-12'
-updatedDate: '2015-12-16'
 status: active
 dependency:
-- ''
 technologyTag:
 - Distributed
 - Library
