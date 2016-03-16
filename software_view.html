@@ -36,6 +36,26 @@ d3.json("software.json", function (software_data) {
 	var programmingLanguageDimension =  ndx.dimension(function (d) { return d['programmingLanguage']; });
 	var disciplineDimension = ndx.dimension(function(d) { return d.discipline; });
 
+	var programmingLanguageCount = programmingLanguageDimension.group().reduceCount();
+
+
+	languageChart.width(400).height(400)
+		.dimension(programmingLanguageDimension)
+		.group(programmingLanguageCount)
+		.elasticX(true);
+
+	dataTable.width(800).height(800)
+    	.dimension(softwareDimension)
+    	.group(function(d) { return "List of all Selected Software Projects"
+    	})
+    .size(100)
+    .columns([
+        function(d) { return '<a href="' + d['@id'].replace('http://estep.esciencecenter.nl', '') + '.html">' + d.name + '</a>'; },
+        function(d) { return d.tagLine; }
+    ])
+    .sortBy(function(d){ return d.name; })
+    // (optional) sort order, :default ascending
+    .order(d3.ascending);
 
       function reduceFieldsAdd(fields) {
         return function(p, v) {
@@ -125,7 +145,7 @@ d3.json("software.json", function (software_data) {
           });
           // dimension.filter(filter);
           return filter; // set the actual filter value to the new value
-        }) 
+        })
         .elasticX(true);
 
 
