@@ -1,0 +1,104 @@
+{
+	"properties" : {
+		"schema": {
+			"type": "string",
+			"format": "uri",
+			"enum": [ "http://estep.esciencecenter.nl/schema/person" ]
+		},
+		"name" : {
+			"type" : "string"
+		},
+		"@id" : {
+			"type" : "string",
+			"format" : "uri"
+		},
+		"link" : {
+			"type" : "array",
+			"items" : {
+				"type" : "object",
+				"properties" : {
+					"url" : {
+						"type" : "string",
+						"format" : "uri"
+					},
+					"description" : {
+						"type" : "string",
+						"enum" : ["nlescWebsite", "website", "researchgate", "linkedin", "twitter", "github"]
+					}
+				}
+			}
+		},
+		"jobTitle" : {
+			"type" : "string"
+		},
+		"organization" : {
+			"anyOf" : [
+				 { "$ref": "NLeSC_organization_schema.json" },
+				 {
+				 	"properties" : {
+				 		"id" : {
+				 			"type" : "string",
+				 			"format" : "uri"
+				 		}
+				 	}
+				 }
+			]
+		},
+		"description" : {
+			"type" : "string"
+		},
+		"photo" : {
+			"type" : "string",
+			"format" : "uri"
+		},
+		"contactPersonOf" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"ownerOf" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"contributorOf" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"userOf" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"coordinatorOf" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"engineerOf" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"principalInvestigatorOf" : {
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri"
+			}
+		}
+	}
+}

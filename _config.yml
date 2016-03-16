@@ -20,6 +20,12 @@ permalink: pretty
 collections:
   software:
     output: true
+  project:
+    output: true
+  person:
+    output: true
+  organization:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -27,3 +33,21 @@ defaults:
     values:
       layout: software
       schema: http://estep.esciencecenter.nl/schema/software
+  - scope:
+      path: ""
+      type: project
+    values:
+      layout: project
+      schema: http://estep.esciencecenter.nl/schema/project
+  - scope:
+      path: ""
+      type: person
+    values:
+      layout: person
+      schema: http://estep.esciencecenter.nl/schema/person
+  - scope:
+      path: ""
+      type: organization
+    values:
+      layout: organization
+      schema: http://estep.esciencecenter.nl/schema/organization

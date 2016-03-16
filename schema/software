@@ -1,0 +1,192 @@
+{
+	"properties" : {
+		"schema": {
+			"type": "string",
+			"format": "uri",
+			"enum": [ "http://estep.esciencecenter.nl/schema/software" ]
+		},
+		"name" : {
+			"type" : "string"
+		},
+		"tagLine" : {
+			"type" : "string"
+		},
+		"description" : {
+			"type" : "string"
+		},
+		"@id" : {
+			"type" : "string",
+			"format" : "uri"
+		},
+		"link" : {
+			"type" : "array",
+			"items" : {
+				"type" : "object",
+				"properties" : {
+					"url" : {
+						"type" : "string",
+						"format" : "uri"
+					},
+					"description" : {
+						"type" : "string",
+						"enum" : ["repository", "nlescWebsite", "documentation", "package", "doi"]
+					}
+				}
+			}
+		},
+		"logo" : {
+			"type" : "string",
+			"format" : "uri"
+		},
+		"programmingLanguage" : {
+			"type" : "string",
+			"description" : "e.g. C, C++, Java, Python, R, JavaScript, PHP, TypeScript, etc. See https://github.com/github/linguist"
+		},
+		"license" : {
+			"type" : "string",
+			"description" : "e.g. apache-2.0, gpl-3.0, etc. See https://developer.github.com/v3/licenses/"
+		},
+		"competence" : {
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"enum" : ["Big Data Analytics", "Optimized Data Handling", "Efficient Computing"]
+			}
+		},
+		"discipline" : {
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"enum" : ["Physics & Beyond", "Environment & Sustainability", "Life Sciences & eHealth", "Humanities & Social Sciences", "eScience Methodology"]
+			}
+		},
+		"expertise" : {
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"enum" : ["Text Mining", "Machine Learning", "Information Visualization", "Scientific Visualization", "Information Retrieval", "Computer Vision",
+				          "Handling Sensor Data", "Linked Data", "Information Integration", "Databases", "Data Assimilation",
+				          "Distributed Computing", "Accellerated Computing", "Low Power Computing", "Orchestrated Computing", "High Performance Computing"]
+			}
+		},
+		"supportLevel" : {
+			"type" : "string",
+			"enum" : ["basic", "advanced", "specialized"]
+		},
+		"contactPerson" : {
+			"anyOf" : [
+				 { "$ref": "NLeSC_person_schema.json" },
+				 {
+				 	"properties" : {
+				 		"id" : {
+				 			"type" : "string",
+				 			"format" : "uri"
+				 		}
+				 	}
+				 }
+			]
+		},
+		"owner" : {
+			"anyOf" : [
+				 { "$ref": "NLeSC_person_schema.json" },
+				 { "$ref": "NLeSC_organization_schema.json" },
+				 {
+				 	"properties" : {
+				 		"id" : {
+				 			"type" : "string",
+				 			"format" : "uri"
+				 		}
+				 	}
+				 }
+			]
+		},
+		"contributor" : {
+			"type" : "array",
+			"items" : {
+				"anyOf" : [
+					 { "$ref": "NLeSC_person_schema.json" },
+					 {
+					 	"properties" : {
+					 		"id" : {
+					 			"type" : "string",
+					 			"format" : "uri"
+					 		}
+					 	}
+					 }
+				]
+			}
+		},
+		"user" : {
+			"type" : "array",
+			"items" : {
+				"anyOf" : [
+					 { "$ref": "NLeSC_person_schema.json" },
+					 { "$ref": "NLeSC_organization_schema.json" },
+					 {
+					 	"properties" : {
+					 		"id" : {
+					 			"type" : "string",
+					 			"format" : "uri"
+					 		}
+					 	}
+					 }
+				]
+			}
+		},
+		"involvedOrganization" : {
+			"type" : "array",
+			"items" : {
+				"anyOf" : [
+					 { "$ref": "NLeSC_organization_schema.json" },
+					 {
+					 	"properties" : {
+					 		"id" : {
+					 			"type" : "string",
+					 			"format" : "uri"
+					 		}
+					 	}
+					 }
+				]
+			}
+		},
+		"usedIn" : {
+			"type" : "array",
+			"items" : {
+				"anyOf" : [
+					 { "$ref": "NLeSC_project_schema.json" },
+					 {
+					 	"properties" : {
+					 		"id" : {
+					 			"type" : "string",
+					 			"format" : "uri"
+					 		}
+					 	}
+					 }
+				]
+			}
+		},
+		"startDate" : {
+			"type" : "string",
+			"format" : "date-time"
+		},
+		"status" : {
+			"type" : "string",
+			"description" : "See http://www.repostatus.org",
+			"enum" : ["concept", "wip", "suspended", "abandoned", "active", "inactive", "unsupported"]
+		},
+		"dependency" : {
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"description" : "e.g. internal sofware as URI (http://estep.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc."
+			}
+		},
+		"technologyTag" : {
+			"type" : "array",
+			"items" : {
+					"type" : "string",
+					"description" : "e.g. Simulation, Modeling, MultiModel, ImageClassification, NER, NeuralNetworks, etc."
+			}
+		}
+	}
+}

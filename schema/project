@@ -1,0 +1,183 @@
+{
+	"properties" : {
+		"schema": {
+			"type": "string",
+			"format": "uri",
+			"enum": [ "http://estep.esciencecenter.nl/schema/project" ]
+		},
+		"name" : {
+			"type" : "string"
+		},
+		"@id" : {
+			"type" : "string",
+			"format" : "uri"
+		},
+		"tagLine" : {
+			"type" : "string"
+		},
+		"description" : {
+			"type" : "string",
+			"description" : "Technical project description"
+		},
+		"descriptionNonTech" : {
+			"type" : "string",
+			"description" : "Non-technical project description"
+		},
+		"link" : {
+			"type" : "array",
+			"items" : {
+				"type" : "object",
+				"properties" : {
+					"url" : {
+						"type" : "string",
+						"format" : "uri"
+					},
+					"description" : {
+						"type" : "string",
+						"enum" : ["nlescWebsite", "website"]
+					}
+				}
+			}
+		},
+		"logo" : {
+			"type" : "string",
+			"format" : "uri"
+		},
+		"competence" : {
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"enum" : ["Big Data Analytics", "Optimized Data Handling", "Efficient Computing"]
+			}
+		},
+		"discipline" : {
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"enum" : ["Physics & Beyond", "Environment & Sustainability", "Life Sciences & eHealth", "Humanities & Social Sciences", "eScience Methodology"]
+			}
+		},
+		"expertise" : {
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"enum" : ["Text Mining", "Machine Learning", "Information Visualization", "Scientific Visualization", "Information Retrieval", "Computer Vision",
+				          "Handling Sensor Data", "Linked Data", "Information Integration", "Databases", "Data Assimilation",
+				          "Distributed Computing", "Accellerated Computing", "Low Power Computing", "Orchestrated Computing", "High Performance Computing"]
+			}
+		},
+		"infrastructure" : {
+			"type" : "string",
+			"description" : "What kind of infrastructure the project uses, e.g. Supercomputer, cloud, laptop, etc."
+		},
+		"dataMagnitude" : {
+			"type" : "string",
+			"enum" : ["KB","MB","GB","TB","PB","EB","ZB","YB","HB"]
+		},
+		"dataFormat" : {
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"description" : "Data format used in the project, e.g. NetCDF, RDF, CSV, JSON, etc."
+			}
+		},
+		"contactPerson" : {
+			"anyOf" : [
+				 { "$ref": "NLeSC_person_schema.json" },
+				 {
+				 	"properties" : {
+				 		"id" : {
+				 			"type" : "string",
+				 			"format" : "uri"
+				 		}
+				 	}
+				 }
+			]
+		},
+		"coordinator" : {
+			"anyOf" : [
+				 { "$ref": "NLeSC_person_schema.json" },
+				 {
+				 	"properties" : {
+				 		"id" : {
+				 			"type" : "string",
+				 			"format" : "uri"
+				 		}
+				 	}
+				 }
+			]
+		},
+		"engineer" : {
+			"type" : "array",
+			"items" : {
+				"anyOf" : [
+					 { "$ref": "NLeSC_person_schema.json" },
+					 {
+					 	"properties" : {
+					 		"id" : {
+					 			"type" : "string",
+					 			"format" : "uri"
+					 		}
+					 	}
+					 }
+				]
+			}
+		},
+		"principalInvestigator" : {
+			"type" : "array",
+			"items" : {
+				"anyOf" : [
+					 { "$ref": "NLeSC_person_schema.json" },
+					 {
+					 	"properties" : {
+					 		"id" : {
+					 			"type" : "string",
+					 			"format" : "uri"
+					 		}
+					 	}
+					 }
+				]
+			}
+		},
+		"involvedOrganization" : {
+			"type" : "array",
+			"items" : {
+				"anyOf" : [
+					 { "$ref": "NLeSC_organization_schema.json" },
+					 {
+					 	"properties" : {
+					 		"id" : {
+					 			"type" : "string",
+					 			"format" : "uri"
+					 		}
+					 	}
+					 }
+				]
+			}
+		},
+		"uses" : {
+			"type" : "array",
+			"items" : {
+				"anyOf" : [
+					 { "$ref": "NLeSC_software_schema.json" },
+					 {
+					 	"properties" : {
+					 		"id" : {
+					 			"type" : "string",
+					 			"format" : "uri"
+					 		}
+					 	}
+					 }
+				]
+			}
+		},
+		"startDate" : {
+			"type" : "string",
+			"format" : "date-time"
+		},
+		"endDate" : {
+			"type" : "string",
+			"format" : "date-time"
+		}
+	}
+}
