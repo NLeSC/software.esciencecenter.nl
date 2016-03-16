@@ -22,6 +22,9 @@ title: software
 
 <script type="text/javascript">
 d3.json("/software.json", function (software_data) {
+  var disciplineFilter = purl().fparam('discipline');
+  var programmingLanguageFilter = purl().fparam('programmingLanguage');
+
 	var dataTable = dc.dataTable("#dc-table-graph");
 	var languageChart = dc.rowChart("#dc-languages-chart");
 	var disciplineChart = dc.rowChart("#dc-discipline-chart");
@@ -89,7 +92,11 @@ d3.json("/software.json", function (software_data) {
 	languageChart.width(340).height(340)
 		.dimension(programmingLanguageDimension)
 		.group(programmingLanguageCount)
-		.elasticX(true);
+		.elasticX(true)
+        .colors(d3.scale.category20());
+  if (programmingLanguageFilter) {
+    languageChart.filter(programmingLanguageFilter);
+  }
 
   disciplineChart
     .width(340)
@@ -109,7 +116,11 @@ d3.json("/software.json", function (software_data) {
       // dimension.filter(filter);
       return filter; // set the actual filter value to the new value
     })
-    .elasticX(true);
+    .elasticX(true)
+    .colors(d3.scale.category20());
+  if (disciplineFilter) {
+    disciplineChart.filter(disciplineFilter);
+  }
 
   dataTable.width(800).height(800)
       .dimension(softwareDimension)

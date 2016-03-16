@@ -2,4 +2,91 @@
 layout: default
 ---
 <h1>{{ page.name }}</h1>
+
+{% unless page.logo == null %}
+<img src="{{ page.logo }}" class="logo"/>
+{% endunless %}
+
+<h3>Links</h3>
+<ul class="link-list">
+{% for d in page.link %}
+<li><a href="{{ d.url }}">{{ d.description }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Start Date</h3>
+<div class="start-date">
+{{ page.startDate }}
+</div>
+
+<h3>Status</h3>
+<div class="status">
+<a href="/software#status={{ page.status | cgi_escape }}">{{ page.status }}</a>
+</div>
+
+<h3>Discipline</h3>
+<ul class="discipline-list">
+{% for d in page.discipline %}
+<li><a href="/software#discipline={{ d | cgi_escape }}">{{ d }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Competence</h3>
+<ul class="competence-list">
+{% for d in page.competence %}
+<li><a href="/software#competence={{ d | cgi_escape }}">{{ d }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Expertise</h3>
+<ul class="expertise-list">
+{% for d in page.expertise %}
+<li><a href="/software#expertise={{ d | cgi_escape }}">{{ d }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Programming Language</h3>
+<ul class="programming-language-list">
+{% for d in page.programmingLanguage %}
+<li><a href="/software#programmingLanguage={{ d | cgi_escape }}">{{ d }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>License</h3>
+<ul class="license-list">
+{% for d in page.license %}
+<li><a href="/software#license={{ d | cgi_escape }}">{{ d }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Tags</h3>
+<ul class="technology-tag-list">
+{% for d in page.technologyTag %}
+<li><a href="/software#technologyTag={{ d | cgi_escape }}">{{ d }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Dependencies</h3>
+<ul class="dependency-list">
+{% for d in page.dependency %}
+<li>
+	{% if d contains site.url %}
+	<a href="{{ d }}">
+	{% for s in site.software %}
+		{% capture sname %}{{ d }}{% endcapture %}
+		{% capture urlx %}{{ site.url }}{{ s.id }}{% endcapture %}
+		{% if d == urlx %}
+			{% capture sname %}{{ s.name }}{% endcapture %}
+		{% endif %}
+	{% endfor %}
+	{{ sname }}
+	</a>
+	{% else %}
+	{{ d }}
+	{% endif %}
+</li>
+{% endfor %}
+</ul>
+
+
 {{ page.content }}
