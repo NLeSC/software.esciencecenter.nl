@@ -29,7 +29,7 @@
 					},
 					"description" : {
 						"type" : "string",
-						"enum" : ["repository", "nlescWebsite", "documentation", "package", "doi"]
+						"enum" : ["repository", "nlescWebsite", "website", "documentation", "package", "doi"]
 					}
 				}
 			}
@@ -181,6 +181,13 @@
 			"enum" : ["concept", "wip", "suspended", "abandoned", "active", "inactive", "unsupported"]
 		},
 		"dependency" : {
+			"type" : "array",
+			"items" : {
+				"type" : "string",
+				"description" : "e.g. internal sofware as URI (http://estep.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc."
+			}
+		},
+		"dependencyOf" : {
 			"type" : "array",
 			"items" : {
 				"type" : "string",

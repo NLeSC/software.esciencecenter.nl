@@ -51,6 +51,7 @@ status: active
 dependency:
 - http://estep.esciencecenter.nl/software/xenon
 - http://estep.esciencecenter.nl/software/pyxenon
+dependencyOf:
 technologyTag:
 - Workflow
 ---

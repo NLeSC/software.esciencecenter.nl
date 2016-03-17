@@ -38,6 +38,8 @@ usedIn:
 startDate: '2013-04-12'
 status: active
 dependency:
+dependencyOf:
+- http://estep.esciencecenter.nl/software/noodles
 technologyTag:
 - Distributed
 - Library

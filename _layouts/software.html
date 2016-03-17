@@ -90,6 +90,31 @@ layout: default
 </ul>
 {% endif %}
 
+{% if page.dependency %}
+<h3>Dependency of</h3>
+<ul class="dependency-of-list">
+{% for d in page.dependencyOf %}
+<li>
+	{% if d contains site.url %}
+		<a href="{{ d }}">
+		{% for s in site.software %}
+			{% capture sname %}{{ d }}{% endcapture %}
+			{% capture urlx %}{{ site.url }}{{ s.id }}{% endcapture %}
+			{% if d == urlx %}
+				{% capture sname %}{{ s.name }}{% endcapture %}
+			{% endif %}
+		{% endfor %}
+		{{ sname }}
+		</a>
+	{% else %}
+		{{ d }}
+	{% endif %}
+</li>
+{% endfor %}
+</ul>
+{% endif %}
+
+
 <h3>Contact Person</h3>
 {% capture d %}{{ page.contactPerson }}{% endcapture %}
 {% if d contains site.url %}
