@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# eStep 
+# eStep
 #
 # Copyright 2015 Netherlands eScience Center
 #
@@ -29,18 +29,20 @@ except ImportError:
 from glob import glob
 import os
 
+exec(open('estep/version.py').read())
+
 setup(name='estep',
-      version='0.1.0',
+      version=__version__,
       description='eStep utilities.',
       author='Joris Borgdorff',
       author_email='j.borgdorff@esciencecenter.nl',
       url='https://github.com/eStep/eStep',
       packages=['estep'],
-      install_requires=['docopt', 'PyYAML', 'python-frontmatter', 'jsonschema'],
+      install_requires=['docopt', 'PyYAML', 'python-frontmatter', 'jsonschema', 'requests'],
       tests_require=['nose', 'pyflakes', 'pep8', 'coverage'],
       entry_points={
         'console_scripts': [
-            'validate_estep = estep.validate:main'
+            'estep = estep.script:main'
         ]
-      }
-     )
+      },
+      )

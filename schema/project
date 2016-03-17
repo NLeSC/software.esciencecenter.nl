@@ -1,4 +1,7 @@
 {
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "http://estep.esciencecenter.nl/schema/project",
+	"type": "object",
 	"properties" : {
 		"schema": {
 			"type": "string",
@@ -62,8 +65,8 @@
 			"items" : {
 				"type" : "string",
 				"enum" : ["Text Mining", "Machine Learning", "Information Visualization", "Scientific Visualization", "Information Retrieval", "Computer Vision",
-				          "Handling Sensor Data", "Linked Data", "Information Integration", "Databases", "Data Assimilation",
-				          "Distributed Computing", "Accellerated Computing", "Low Power Computing", "Orchestrated Computing", "High Performance Computing"]
+						  "Handling Sensor Data", "Linked Data", "Information Integration", "Databases", "Data Assimilation",
+						  "Distributed Computing", "Accellerated Computing", "Low Power Computing", "Orchestrated Computing", "High Performance Computing"]
 			}
 		},
 		"infrastructure" : {

@@ -5,7 +5,7 @@ import os
 import datetime
 
 
-def json_serial(obj):
+def json_serializer(obj):
     """JSON serializer for objects not serializable by default json code"""
 
     if isinstance(obj, datetime.datetime) or isinstance(obj, datetime.date) or isinstance(obj, datetime.time):
@@ -36,6 +36,9 @@ def object2jekyll(data, contentProperty):
 
 
 def jekyllfile2object(filename, schemaType=None, contentProperty='description', uriPrefix='http://estep.esciencecenter.nl'):
+    """
+    Converts a Jekyll file to a python dict. The schema and @id properties are deduced from
+    """
     with open(filename) as f:
         obj = jekyll2object(f.read(), contentProperty)
 
@@ -72,13 +75,37 @@ def jekyll2object(dataString, contentProperty='description'):
         del obj['id']
 
     obj[contentProperty] = fm.content
-    return obj
+
+    return convert_empty(obj)
+
+def convert_empty(value):
+    if isinstance(value, dict):
+        return remove_empty_from_dict(value)
+    elif isinstance(value, (list, tuple)):
+        return remove_empty_from_list(value)
+    else:
+        return value
+
+def remove_empty_from_dict(obj):
+    updated = {}
+    for key, value in obj.items():
+        new_value = convert_empty(value)
+        if new_value is not None:
+            updated[key] = new_value
+
+    return updated
+
+def remove_empty_from_list(obj):
+    updated = []
+    for value in obj:
+        new_value = convert_empty(value)
+        if new_value is not None:
+            updated.append(new_value)
+    return updated
 
 def jekyll2json(filename, outputDir, contentProperty='description'):
     """
-    Converts a Jekyll file to JSON and saves it in given output directory. It uses the contentProperty property to
-    set
-
+    Converts a Jekyll file to JSON and saves it in given output directory.
     """
     with open(filename, 'r') as f:
         dataString = f.read()

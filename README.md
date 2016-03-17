@@ -1,21 +1,32 @@
-# eStep.github.io
+# eStep website
 
-eStep website with projects software and people.
+[![Build Status](https://travis-ci.org/eStep/eStep.github.io.svg?branch=master)](https://travis-ci.org/eStep/eStep.github.io)
+
+Data on projects, people and software in eStep
+
+## Installation
+
+Install the converter by running
+```
+pip install -r requirements.txt
+```
 
 ## How to edit
 
-In the `_person/`, `software/`, `_project/` and  `_organization` directories, add a Markdown file with frontmatter, as in the python-frontmatter project.
+In the `person/`, `software/`, `project/` and `organizations/` directories, add a Markdown file with frontmatter, as in the python-frontmatter project.
 
-## Validate Markdown files
-
-Install the validator by running
-
+After editing data, test the validity of the entered data with
 ```
-pip install -r requirements.txt
-pip install -e .
+estep validate
 ```
 
-Run validator by
+## Preview website
+
+The website uses Jekyll powered Github pages.
+
+To preview locally use docker:
 ```
-validate_estep
+docker run --rm --volume=$(pwd):/srv/jekyll -i -t  -p 127.0.0.1:80:80 jekyll/jekyll:pages
 ```
+The website can be viewed on http://localhost:80
+

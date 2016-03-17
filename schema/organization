@@ -1,4 +1,7 @@
 {
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "http://estep.esciencecenter.nl/schema/organization",
+	"type": "object",
 	"properties" : {
 		"schema": {
 			"type": "string",

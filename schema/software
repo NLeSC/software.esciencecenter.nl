@@ -1,4 +1,7 @@
 {
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "http://estep.esciencecenter.nl/schema/software",
+	"type": "object",
 	"properties" : {
 		"schema": {
 			"type": "string",
@@ -40,10 +43,10 @@
 		},
 		"programmingLanguage" : {
 			"type" : "array",
-				"items" : {
+			"items" : {
 					"type" : "string",
 					"description" : "e.g. C, C++, Java, Python, R, JavaScript, PHP, TypeScript, etc. See https://github.com/github/linguist"
-			},
+			}
 		},
 		"license" : {
 			"type" : "array",
