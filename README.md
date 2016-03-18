@@ -6,14 +6,16 @@ Data on projects, people and software in eStep
 
 ## Installation
 
-Install the converter by running
+Install the estep website utility by running
 ```
 pip install -r requirements.txt
 ```
 
 ## How to edit
 
-In the `person/`, `software/`, `project/` and `organizations/` directories, add a Markdown file with frontmatter, as in the python-frontmatter project.
+In the `_person/`, `_software/`, `_project/` and `_organizations/` directories, add a Markdown file with frontmatter (https://jekyllrb.com/docs/frontmatter/).
+
+The frontmatter is in yaml format and must adhere to json schemas defined in the `schema/` directory.
 
 After editing data, test the validity of the entered data with
 ```
