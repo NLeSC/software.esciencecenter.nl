@@ -13,6 +13,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://estep.esciencecenter.nl" # the base hostname & protocol for your site
 twitter_username: esciencecenter
 github_username:  eStep
+json_excludes:
+- next
+- previous
+- output
+- path
+- layout
+- relative_path
+- content  # renamed to 'description'
+- url  # renamed to '@id'
+- collection
 
 # Build settings
 markdown: kramdown
