@@ -75,7 +75,7 @@ layout: default
 		<a href="{{ d }}">
 		{% for s in site.software %}
 			{% capture sname %}{{ d }}{% endcapture %}
-			{% capture urlx %}{{ site.url }}{{ s.id }}{% endcapture %}
+			{% capture urlx %}{{ s.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture sname %}{{ s.name }}{% endcapture %}
 			{% endif %}
@@ -98,8 +98,8 @@ layout: default
 	{% if d contains site.url %}
 		<a href="{{ d }}">
 		{% for s in site.software %}
-			{% capture sname %}{{ d }}{% endcapture %}
-			{% capture urlx %}{{ site.url }}{{ s.id }}{% endcapture %}
+			{% capture sname %}dsdas{{ d }}{% endcapture %}
+			{% capture urlx %}{{ s.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture sname %}{{ s.name }}{% endcapture %}
 			{% endif %}
@@ -114,14 +114,13 @@ layout: default
 </ul>
 {% endif %}
 
-
 <h3>Contact Person</h3>
 {% capture d %}{{ page.contactPerson }}{% endcapture %}
 {% if d contains site.url %}
 	<a href="{{ d }}">
 	{% capture pname %}{{ d }}{% endcapture %}
 	{% for p in site.person %}
-		{% capture urlx %}{{ site.url }}{{ p.id }}{% endcapture %}
+		{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 		{% if d == urlx %}
 			{% capture pname %}{{ p.name }}{% endcapture %}
 		{% endif %}
@@ -146,13 +145,13 @@ layout: default
 	<a href="{{ d }}">
 	{% capture pname %}{{ d }}{% endcapture %}
 	{% for p in site.person %}
-		{% capture urlx %}{{ site.url }}{{ p.id }}{% endcapture %}
+		{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 		{% if d == urlx %}
 			{% capture pname %}{{ p.name }}{% endcapture %}
 		{% endif %}
 	{% endfor %}
 	{% for p in site.organization %}
-		{% capture urlx %}{{ site.url }}{{ p.id }}{% endcapture %}
+		{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 		{% if d == urlx %}
 			{% capture pname %}{{ p.name }}{% endcapture %}
 		{% endif %}
@@ -179,7 +178,7 @@ layout: default
 		<a href="{{ d }}">
 		{% capture pname %}{{ d }}{% endcapture %}
 		{% for p in site.person %}
-			{% capture urlx %}{{ site.url }}{{ p.id }}{% endcapture %}
+			{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture pname %}{{ p.name }}{% endcapture %}
 			{% endif %}
@@ -209,7 +208,7 @@ layout: default
 		<a href="{{ d }}">
 		{% capture oname %}{{ d }}{% endcapture %}
 		{% for o in site.organization %}
-			{% capture urlx %}{{ site.url }}{{ o.id }}{% endcapture %}
+			{% capture urlx %}{{ o.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture oname %}{{ o.name }}{% endcapture %}
 			{% endif %}
@@ -240,13 +239,13 @@ layout: default
 		<a href="{{ d }}">
 		{% capture pname %}{{ d }}{% endcapture %}
 		{% for p in site.person %}
-			{% capture urlx %}{{ site.url }}{{ p.id }}{% endcapture %}
+			{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture pname %}{{ p.name }}{% endcapture %}
 			{% endif %}
 		{% endfor %}
 		{% for p in site.organization %}
-			{% capture urlx %}{{ site.url }}{{ p.id }}{% endcapture %}
+			{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture pname %}{{ p.name }}{% endcapture %}
 			{% endif %}
@@ -276,7 +275,7 @@ layout: default
 		<a href="{{ d }}">
 		{% capture pname %}{{ d }}{% endcapture %}
 		{% for p in site.project %}
-			{% capture urlx %}{{ site.url }}{{ p.id }}{% endcapture %}
+			{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture pname %}{{ p.name }}{% endcapture %}
 			{% endif %}

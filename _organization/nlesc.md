@@ -1,5 +1,5 @@
 ---
-name: NLeSC
+name: Netherlands eScience Center
 link:
 - description: website
   url: http://www.esciencecenter.nl/
