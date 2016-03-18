@@ -38,7 +38,7 @@ class Collection(object):
         self.schema = schema
 
     def documents(self):
-        return recurse_directory(self.directory, self.name)
+        return recurseDirectory(self.directory, self.name)
 
 
 class Config(object):
@@ -103,7 +103,7 @@ def main(argv=sys.argv[1:]):
         validate(schemadir=arguments['--schemadir'])
 
 
-def recurse_directory(directory, schemaType):
+def recurseDirectory(directory, schemaType):
     obj = []
     for dirpath, dirnames, filenames in os.walk(directory):
         for filename in filenames:
@@ -112,3 +112,4 @@ def recurse_directory(directory, schemaType):
                 path = os.path.join(dirpath, filename)
                 obj.append((path, jekyllfile2object(path, schemaType=schemaType)))
     return obj
+
