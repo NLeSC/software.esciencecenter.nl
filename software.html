@@ -152,7 +152,9 @@ d3.json("/software.json", function (software_data) {
       .group(function(d) { return d.competence[0]; })
     .size(100)
     .columns([
-        function(d) { return '<a href="' + d['@id'].replace('http://estep.esciencecenter.nl', '') + '">' + d.name + '</a>'; },
+        function(d) {
+            return '<a href="' + d['@id'].replace('{{ site.url }}', '') + '">' + d.name + '</a>';
+        },
         function(d) { return d.tagLine; }
     ])
     .sortBy(function(d){ return d.name; })
