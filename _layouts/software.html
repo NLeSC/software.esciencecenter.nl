@@ -73,8 +73,8 @@ layout: default
 <li>
 	{% if d contains site.url %}
 		<a href="{{ d }}">
+		{% capture sname %}{{ d }}{% endcapture %}
 		{% for s in site.software %}
-			{% capture sname %}{{ d }}{% endcapture %}
 			{% capture urlx %}{{ s.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture sname %}{{ s.name }}{% endcapture %}
@@ -97,8 +97,8 @@ layout: default
 <li>
 	{% if d contains site.url %}
 		<a href="{{ d }}">
+		{% capture sname %}{{ d }}{% endcapture %}
 		{% for s in site.software %}
-			{% capture sname %}{{ d }}{% endcapture %}
 			{% capture urlx %}{{ s.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture sname %}{{ s.name }}{% endcapture %}
