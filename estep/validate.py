@@ -19,26 +19,7 @@ import jsonschema
 import requests
 
 
-def local_schema_store(base_uri='http://estep.esciencecenter.nl/schema/'):
-    """
-    Loads the schemas from the local module.
-
-    :param base_uri: URI to prefix schema with.
-    :return: dict with the file uri and the base_uri both pointing to the local schema.
-    """
-    store = {}
-    base_path = os.path.abspath(os.path.join(module_dirpath(), '..', 'schema'))
-    for filename in os.listdir(base_path):
-        if os.path.splitext(filename.lower())[1] != '.json':
-            continue
-
-        filepath = os.path.join(base_path, filename)
-        with open(filepath) as f:
-            schema = json.load(f)
-        store['file://' + filepath] = schema
-        store[base_uri + filename] = schema
-        store[base_uri + os.path.splitext(filename)[0]] = schema
-    return store
+LOGGER = logging.getLogger('estep')
 
 
 class Validator(object):
@@ -54,11 +35,11 @@ class Validator(object):
                 try:
                     request.raise_for_status()
                 except requests.exceptions.HTTPError as ex:
-                    logging.error("cannot load schema %s:\n\t%s\nUse --schemadir=schema to load local schemas.".format(schema_uri, ex))
+                    LOGGER.error("cannot load schema %s:\n\t%s\nUse --schemadir=schema to load local schemas.".format(schema_uri, ex))
 
                 store[schema_uri] = request.json()
             else:
-                logging.debug('Loading schema %s from %s', schema_uri, schemadir)
+                LOGGER.debug('Loading schema %s from %s', schema_uri, schemadir)
                 schema_fn = schema_uri.replace('http://estep.esciencecenter.nl/schema', schemadir)
                 with open(schema_fn) as f:
                     store[schema_uri] = json.load(f)
@@ -82,10 +63,10 @@ class Validator(object):
         errors = list(self.validators[schema_uri].iter_errors(instance))
         has_errors = len(errors) == 0
         if has_errors:
-            logging.info('Document: %s OK', name)
+            LOGGER.info('Document: %s OK', name)
         else:
-            logging.warning ('Document: %s BAD (schema:%s)\n-------------------------------------------------\n', name, schema_uri)
+            LOGGER.warning('Document: %s BAD (schema:%s)\n-------------------------------------------------\n', name, schema_uri)
             for error in errors:
-                logging.warning(error)
-            logging.warning ('-------------------------------------------------')
+                LOGGER.warning(error)
+            LOGGER.warning('-------------------------------------------------')
         return len(errors)

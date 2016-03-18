@@ -15,28 +15,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""
-Internal setup of the xenon package.
-
-Use make install instead for correct dependency detection.
-"""
+"""eStep utilities"""
 
 try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
 
-from glob import glob
-import os
-
 exec(open('estep/version.py').read())
 
 setup(name='estep',
       version=__version__,
-      description='eStep utilities.',
+      description=__doc__,
       author='Joris Borgdorff',
       author_email='j.borgdorff@esciencecenter.nl',
-      url='https://github.com/eStep/eStep',
+      url='https://github.com/eStep/eStep.github.io',
       packages=['estep'],
       install_requires=['docopt', 'PyYAML', 'python-frontmatter', 'jsonschema', 'requests'],
       tests_require=['nose', 'pyflakes', 'pep8', 'coverage'],
@@ -45,4 +38,11 @@ setup(name='estep',
             'estep = estep.script:main'
         ]
       },
+      classifiers=[
+        'Environment :: Console',
+        'License :: OSI Approved :: Apache Software License',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Topic :: Utilities',
+      ],
       )

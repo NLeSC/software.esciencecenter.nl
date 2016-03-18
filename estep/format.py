@@ -25,7 +25,7 @@ def json_serializer(obj):
     if isinstance(obj, datetime.datetime) or isinstance(obj, datetime.date) or isinstance(obj, datetime.time):
         serial = obj.isoformat()
         return serial
-    raise TypeError ("Type not serializable: " + str(obj))
+    raise TypeError("Type not serializable: " + str(obj))
 
 
 def object2jekyll(data, contentProperty):
@@ -92,6 +92,7 @@ def jekyll2object(dataString, contentProperty='description'):
 
     return convert_empty(obj)
 
+
 def convert_empty(value):
     if isinstance(value, dict):
         return remove_empty_from_dict(value)
@@ -99,6 +100,7 @@ def convert_empty(value):
         return remove_empty_from_list(value)
     else:
         return value
+
 
 def remove_empty_from_dict(obj):
     updated = {}
@@ -109,6 +111,7 @@ def remove_empty_from_dict(obj):
 
     return updated
 
+
 def remove_empty_from_list(obj):
     updated = []
     for value in obj:
@@ -116,6 +119,7 @@ def remove_empty_from_list(obj):
         if new_value is not None:
             updated.append(new_value)
     return updated
+
 
 def jekyll2json(filename, outputDir, contentProperty='description'):
     """
