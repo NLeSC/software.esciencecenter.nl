@@ -14,12 +14,34 @@
 
 import datetime
 import json
+from os.path import isfile
 import logging
 import jsonschema
 import requests
-
+from jsonschema._validators import ref as reforig
 
 LOGGER = logging.getLogger('estep')
+
+
+def refping(validator, ref, instance, schema):
+    reforig(validator, ref, instance, schema)
+
+    # Check if Markdown file belonging to url exists
+    if validator.is_type(instance, "string"):
+        instance_fn = instance.replace('http://estep.esciencecenter.nl/', '_') + '.md'
+        if not isfile(instance_fn):
+            err = "{} not found locally as {}".format(instance, instance_fn)
+            LOGGER.debug(err)
+            # FIXME yield is not captured as an error
+            yield jsonschema.ValidationError(err)
+
+
+Draft4Validator4eStep = jsonschema.validators.extend(
+    validator=jsonschema.validators.Draft4Validator,
+    validators={
+        u"$ref": refping,
+    }
+)
 
 
 class Validator(object):
@@ -52,11 +74,17 @@ class Validator(object):
         str_types.append(datetime.date)
         types = {u'string': tuple(str_types)}
 
+        format_checker = jsonschema.draft4_format_checker
+
         self.validators = {}
         for schema_uri in schema_uris:
             schema = store[schema_uri]
             resolver = jsonschema.RefResolver(schema_uri, schema,  store=store)
-            self.validators[schema_uri] = jsonschema.Draft4Validator(schema, resolver=resolver, types=types)
+            self.validators[schema_uri] = Draft4Validator4eStep(schema,
+                                                                resolver=resolver,
+                                                                types=types,
+                                                                format_checker=format_checker,
+                                                                )
 
     def validate(self, name, instance):
         schema_uri = instance['schema']

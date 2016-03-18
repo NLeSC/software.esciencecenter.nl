@@ -31,7 +31,7 @@ setup(name='estep',
       author_email='j.borgdorff@esciencecenter.nl',
       url='https://github.com/eStep/eStep.github.io',
       packages=['estep'],
-      install_requires=['docopt', 'PyYAML', 'python-frontmatter', 'jsonschema', 'requests'],
+      install_requires=['docopt', 'PyYAML', 'python-frontmatter', 'jsonschema', 'requests', 'rfc3987'],
       tests_require=['nose', 'pyflakes', 'pep8', 'coverage'],
       entry_points={
         'console_scripts': [

@@ -6,7 +6,7 @@ link:
 - description: github
   url: https://github.com/sverhoeven
 jobTitle: eScience Research Engineer
-organization: http://estep.esciencecenter.nl/institute/nlesc
+organization: http://estep.esciencecenter.nl/organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/stefan-verhoeven-new.jpg
 contactPersonOf:
 - http://estep.esciencecenter.nl/software/xenon
