@@ -35,7 +35,7 @@ class Validator(object):
                 try:
                     request.raise_for_status()
                 except requests.exceptions.HTTPError as ex:
-                    LOGGER.error("cannot load schema %s:\n\t%s\nUse --schemadir=schema to load local schemas.".format(schema_uri, ex))
+                    LOGGER.error("cannot load schema %s:\n\t%s\nUse --schemadir=schema to load local schemas.", schema_uri, ex)
 
                 store[schema_uri] = request.json()
             else:
