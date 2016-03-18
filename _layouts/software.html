@@ -98,7 +98,7 @@ layout: default
 	{% if d contains site.url %}
 		<a href="{{ d }}">
 		{% for s in site.software %}
-			{% capture sname %}dsdas{{ d }}{% endcapture %}
+			{% capture sname %}{{ d }}{% endcapture %}
 			{% capture urlx %}{{ s.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
 			{% if d == urlx %}
 				{% capture sname %}{{ s.name }}{% endcapture %}
