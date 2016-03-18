@@ -1,6 +1,7 @@
 # eStep website
 
 [![Build Status](https://travis-ci.org/eStep/eStep.github.io.svg?branch=master)](https://travis-ci.org/eStep/eStep.github.io)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/cbf6d30b4b004e219f14bb6f7b10943e)](https://www.codacy.com/app/NLeSC/eStephub-io)
 
 Data on projects, people and software in eStep
 
