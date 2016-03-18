@@ -65,6 +65,7 @@ d3.json("/software.json", function (software_data) {
   var dataTable = dc.dataTable("#dc-table-graph");
   var programmingLanguageChart = dc.rowChart("#dc-languages-chart");
   var disciplineChart = dc.rowChart("#dc-discipline-chart");
+  var statusChart = dc.rowChart("#dc-status-chart");
 
   var ndx = crossfilter(software_data);
 
@@ -85,6 +86,7 @@ d3.json("/software.json", function (software_data) {
   var fakeExpertiseGroup = fakify(expertiseDimension.groupAll().reduce(reduceFieldsAdd(expertiseValues), reduceFieldsRemove(expertiseValues), reduceFieldsInitial(expertiseValues)));
   var programmingLanguageValues = uniqueFieldValues(software_data,'programmingLanguage');
   var fakeProgrammingLanguageGroup = fakify(programmingLanguageDimension.groupAll().reduce(reduceFieldsAdd(programmingLanguageValues), reduceFieldsRemove(programmingLanguageValues), reduceFieldsInitial(programmingLanguageValues)));
+  var statusGroup = statusDimension.group().reduceCount();
 
   var programmingLanguageCount = programmingLanguageDimension.group().reduceCount();
 
@@ -121,6 +123,17 @@ d3.json("/software.json", function (software_data) {
     .colors(d3.scale.category20());
   if (disciplineFilter) {
     disciplineChart.filter(disciplineFilter);
+  }
+
+  statusChart
+    .width(340)
+    .height(340)
+    .dimension(statusDimension)
+    .group(statusGroup)
+    .elasticX(true)
+    .colors(d3.scale.category20());
+  if (statusFilter) {
+    statusChart.filter(statusFilter);
   }
 
   dataTable.width(800).height(800)
