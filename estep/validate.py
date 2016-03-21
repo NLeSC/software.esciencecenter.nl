@@ -50,8 +50,6 @@ class Validator(object):
         for schema_uri in schema_uris:
             if schemadir is None:
                 u = schema_uri
-                # TODO remove replace when domains are fixed
-                u = u.replace('estep.esciencecenter.nl', 'estep.github.io')
                 request = requests.get(u)
                 # do not accept failed calls
                 try:
