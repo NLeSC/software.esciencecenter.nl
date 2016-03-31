@@ -2,20 +2,25 @@
 	"$schema": "http://json-schema.org/draft-04/schema#",
 	"id": "http://estep.esciencecenter.nl/schema/organization",
 	"type": "object",
+	"description": "An organization such as a university, company or foundation.",
 	"properties" : {
 		"schema": {
+			"description": "Fixed property, to validate the JSON object with the current schema.",
 			"type": "string",
 			"format": "uri",
 			"enum": [ "http://estep.esciencecenter.nl/schema/organization" ]
 		},
 		"name" : {
+			"description": "Name of the organization.",
 			"type" : "string"
 		},
 		"@id" : {
+			"description" : "ID of the organization. This is preferably an URI where the organization metadata can be resolved, e.g., http://estep.esciencecenter.nl/organization/nlesc",
 			"type" : "string",
 			"format" : "uri"
 		},
 		"link" : {
+			"description" : "Links to accessible URIs of the organization.",
 			"type" : "array",
 			"items" : {
 				"type" : "object",
@@ -25,6 +30,7 @@
 						"format" : "uri"
 					},
 					"description" : {
+						"description" : "Type of URI provided: main organization website, or respective social media profiles.",
 						"type" : "string",
 						"enum" : [ "website", "researchgate", "linkedin", "twitter"]
 					}
@@ -32,34 +38,39 @@
 			}
 		},
 		"tagLine" : {
+			"description" : "One-sentence description of the organization.",
 			"type" : "string"
 		},
 		"logo" : {
+			"description" : "URL to an image of the logo of the organization.",
 			"type" : "string",
 			"format" : "uri"
 		},
 		"involvedIn" : {
+			"description" : "Projects that the organization is involved in.",
 			"type": "array",
 			"items": {
 				"type" : "string",
 				"format" : "uri",
-				"description" : "project URI"
+				"description" : "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics"
 			}
 		},
 		"organizationOf" : {
+			"description" : "People that the organization employs.",
 			"type": "array",
 			"items": {
+				"description" : "ID of a person, preferably an URI where the person's metadata can be resolved, e.g., http://estep.esciencecenter.nl/person/s.verhoeven",
 				"type" : "string",
-				"format" : "uri",
-				"description" : "Used to describe employee relationships"
+				"format" : "uri"
 			}
 		},
 		"ownerOf" : {
+			"description" : "Projects that the organization is the owner of.",
 			"type": "array",
 			"items": {
+				"description" : "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
-				"format" : "uri",
-				"description" : "Used to describe project relationships"
+				"format" : "uri"
 			}
 		}
 	}
