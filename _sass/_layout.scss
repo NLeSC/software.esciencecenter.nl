@@ -249,7 +249,6 @@
 }
 
 .diagram {
-    font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -270,4 +269,9 @@
 .dc-table-group {
   display: none;
   visibility: collapse;
+}
+
+.blurb {
+    margin-bottom: 10px;
+    font-weight: bold;
 }

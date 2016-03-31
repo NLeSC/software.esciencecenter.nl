@@ -2,4 +2,19 @@
 layout: default
 ---
 <h1>{{ page.name }}</h1>
+
+<h3>{{ page.jobTitle }}</h3>
+
+{% unless page.photo == null %}
+<img src="{{ page.photo }}" class="logo"/>
+{% endunless %}
+
+<h3>Links</h3>
+<ul class="link-list">
+{% for d in page.link %}
+<li><a href="{{ d.url }}">{{ d.description }}</a></li>
+{% endfor %}
+</ul>
+
+
 {{ page.content }}
