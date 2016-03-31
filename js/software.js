@@ -89,9 +89,9 @@ function bagFilterHandler(dimension, filter){
 
 
 var chartwidth = 250;
-var barheight = 30;
-var gapheight = 5;
-var margin = 50;
+var barheight = 25;
+var gapheight = 1;
+var margin = 0;
 
 function chartheight(nvalues) {
   return (nvalues-1) * gapheight + (barheight * nvalues) + margin;
@@ -152,6 +152,8 @@ d3.json("/software.json", function (software_data) {
     .group(fakeProgrammingLanguageGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],2)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (programmingLanguageFilter) {
@@ -166,6 +168,8 @@ d3.json("/software.json", function (software_data) {
     .group(fakeCompetenceGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set1[3],3)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (competenceFilter) {
@@ -179,6 +183,8 @@ d3.json("/software.json", function (software_data) {
     .dimension(expertiseDimension)
     .group(fakeExpertiseGroup)
     .filterHandler(bagFilterHandler)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
     .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Spectral[11],5)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
@@ -193,6 +199,8 @@ d3.json("/software.json", function (software_data) {
     .dimension(disciplineDimension)
     .group(fakeDisciplineGroup)
     .filterHandler(bagFilterHandler)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
     .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Spectral[11],6)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
@@ -207,6 +215,8 @@ d3.json("/software.json", function (software_data) {
     .dimension(technologyTagDimension)
     .group(fakeTechnologyTagGroup)
     .filterHandler(bagFilterHandler)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
     .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],7)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
@@ -220,6 +230,8 @@ d3.json("/software.json", function (software_data) {
     .fixedBarHeight(barheight)
     .dimension(statusDimension)
     .group(statusGroup)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
     .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],8)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
@@ -233,6 +245,8 @@ d3.json("/software.json", function (software_data) {
     .fixedBarHeight(barheight)
     .dimension(supportLevelDimension)
     .group(supportLevelGroup)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
     .colors(d3.scale.ordinal().range(colorbrewer.Reds[3]))
     .xAxis().tickFormat(d3.format("d")).ticks(1);

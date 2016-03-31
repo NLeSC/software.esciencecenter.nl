@@ -248,6 +248,11 @@
     width: 400px;
 }
 
+.diagram {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 /**
  * Software overview page
  */
@@ -260,4 +265,9 @@
 }
 
 #items {
+}
+
+.dc-table-group {
+  display: none;
+  visibility: collapse;
 }
