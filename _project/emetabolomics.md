@@ -18,16 +18,16 @@ dataMagnitude: TB
 dataFormat:
 - CSV
 - JSON
-contactPerson: http://estep.esciencecenter.nl/person/s.verhoeven
-coordinator: http://estep.esciencecenter.nl/person/r.vannieuwpoort
+contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
+coordinator: http://software.esciencecenter.nl/person/r.vannieuwpoort
 engineer:
-- http://estep.esciencecenter.nl/person/s.verhoeven
+- http://software.esciencecenter.nl/person/s.verhoeven
 principalInvestigator:
-- http://estep.esciencecenter.nl/person/l.ridder
+- http://software.esciencecenter.nl/person/l.ridder
 involvedOrganization:
-- http://estep.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/nlesc
 uses:
-- http://estep.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/xenon
 startDate: '2015-01-01'
 endDate: '2017-01-01'
 ---

@@ -6,18 +6,18 @@ link:
 - description: github
   url: https://github.com/sverhoeven
 jobTitle: eScience Research Engineer
-organization: http://estep.esciencecenter.nl/organization/nlesc
+organization: http://software.esciencecenter.nl/organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/stefan-verhoeven-new.jpg
 contactPersonOf:
-- http://estep.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/xenon
 ownerOf:
-- http://estep.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/xenon
 contributorOf:
-- http://estep.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/xenon
 userOf:
-- http://estep.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/xenon
 engineerOf:
-- http://estep.esciencecenter.nl/project/emetabolomics
+- http://software.esciencecenter.nl/project/emetabolomics
 ---
 Stefan worked a decade within the Bioinformatics/Cheminformatics department in the pharma industry, where he administrated the Unix infrastructure and maintained/developed applications. Stefan helped scientists run their computations on clusters and maintained bioinformatics tools.
 Most of the applications he made use a rich web interface or are web service based.

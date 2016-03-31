@@ -49,7 +49,7 @@ def object2jekyll(data, contentProperty):
     return "---\n{0}\n---\n{1}".format(metadata, content)
 
 
-def jekyllfile2object(filename, schemaType=None, contentProperty='description', uriPrefix='http://estep.esciencecenter.nl'):
+def jekyllfile2object(filename, schemaType=None, contentProperty='description', uriPrefix='http://software.esciencecenter.nl'):
     """
     Converts a Jekyll file to a python dict. The schema and @id properties are deduced from
     """
