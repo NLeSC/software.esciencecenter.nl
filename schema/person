@@ -4,18 +4,22 @@
 	"type": "object",
 	"properties" : {
 		"schema": {
+			"description": "Fixed property, to validate the JSON object with the current schema.",
 			"type": "string",
 			"format": "uri",
 			"enum": [ "http://estep.esciencecenter.nl/schema/person" ]
 		},
 		"name" : {
+			"description": "Full name of the person.",
 			"type" : "string"
 		},
 		"@id" : {
+			"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://estep.esciencecenter.nl/person/s.verhoeven.",
 			"type" : "string",
 			"format" : "uri"
 		},
 		"link" : {
+			"description" : "Links to accessible URIs of the person.",
 			"type" : "array",
 			"items" : {
 				"type" : "object",
@@ -25,6 +29,7 @@
 						"format" : "uri"
 					},
 					"description" : {
+						"description" : "Type of URI provided: NLeSC website, personal website, or respective online profiles.",
 						"type" : "string",
 						"enum" : ["nlescWebsite", "website", "researchgate", "linkedin", "twitter", "github"]
 					}
@@ -32,6 +37,7 @@
 			}
 		},
 		"jobTitle" : {
+			"description" : "The job title of the person (for example, eScience Research Engineer).",
 			"type" : "string"
 		},
 		"organization" : {
