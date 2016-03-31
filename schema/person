@@ -1,20 +1,20 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "http://estep.esciencecenter.nl/schema/person",
+	"id": "http://software.esciencecenter.nl/schema/person",
 	"type": "object",
 	"properties" : {
 		"schema": {
 			"description": "Fixed property, to validate the JSON object with the current schema.",
 			"type": "string",
 			"format": "uri",
-			"enum": [ "http://estep.esciencecenter.nl/schema/person" ]
+			"enum": [ "http://software.esciencecenter.nl/schema/person" ]
 		},
 		"name" : {
 			"description": "Full name of the person.",
 			"type" : "string"
 		},
 		"@id" : {
-			"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://estep.esciencecenter.nl/person/s.verhoeven.",
+			"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
 			"type" : "string",
 			"format" : "uri"
 		},

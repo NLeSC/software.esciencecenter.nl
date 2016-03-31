@@ -1,12 +1,12 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "http://estep.esciencecenter.nl/schema/project",
+	"id": "http://software.esciencecenter.nl/schema/project",
 	"type": "object",
 	"properties" : {
 		"schema": {
 			"type": "string",
 			"format": "uri",
-			"enum": [ "http://estep.esciencecenter.nl/schema/project" ]
+			"enum": [ "http://software.esciencecenter.nl/schema/project" ]
 		},
 		"name" : {
 			"type" : "string"
