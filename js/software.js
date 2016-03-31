@@ -1,3 +1,24 @@
+function deterministicShuffle(a,seed){
+    // A little error handling, whynot!
+    if(!seed)
+        throw new Error("deterministicShuffle: seed not given, or 0");
+
+    var temp,j,array=a.slice(0);
+
+    for(var i=0; i<array.length; i++){
+        // Select a "random" position.
+        j = (seed % (i+1) + i) % array.length;
+
+        // Swap the current element with the "random" one.
+        temp=array[i];
+        array[i]=array[j];
+        array[j]=temp;
+
+    }
+
+    return array;
+}
+
 function reduceFieldsAdd(fields,fieldname) {
   return function(p, v) {
     var values = v[fieldname];
@@ -66,6 +87,7 @@ function bagFilterHandler(dimension, filter){
   return filter; // set the actual filter value to the new value
 }
 
+
 var chartwidth = 250;
 var barheight = 30;
 var gapheight = 5;
@@ -130,6 +152,7 @@ d3.json("/software.json", function (software_data) {
     .group(fakeProgrammingLanguageGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],2)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (programmingLanguageFilter) {
     languageChart.filter(programmingLanguageFilter);
@@ -143,7 +166,7 @@ d3.json("/software.json", function (software_data) {
     .group(fakeCompetenceGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .colors(d3.scale.category20())
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set1[3],3)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (competenceFilter) {
     competenceChart.filter(competenceFilter);
@@ -157,7 +180,7 @@ d3.json("/software.json", function (software_data) {
     .group(fakeExpertiseGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .colors(d3.scale.category20())
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Spectral[11],5)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (expertiseFilter) {
     expertiseChart.filter(expertiseFilter);
@@ -171,7 +194,7 @@ d3.json("/software.json", function (software_data) {
     .group(fakeDisciplineGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .colors(d3.scale.category20())
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Spectral[11],6)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (disciplineFilter) {
     disciplineChart.filter(disciplineFilter);
@@ -185,7 +208,7 @@ d3.json("/software.json", function (software_data) {
     .group(fakeTechnologyTagGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .colors(d3.scale.category20())
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],7)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (technologyTagFilter) {
     technologyTagChart.filter(technologyTagFilter);
@@ -198,7 +221,7 @@ d3.json("/software.json", function (software_data) {
     .dimension(statusDimension)
     .group(statusGroup)
     .elasticX(true)
-    .colors(d3.scale.category20())
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],8)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (statusFilter) {
     statusChart.filter(statusFilter);
@@ -211,7 +234,7 @@ d3.json("/software.json", function (software_data) {
     .dimension(supportLevelDimension)
     .group(supportLevelGroup)
     .elasticX(true)
-    .colors(d3.scale.category20())
+    .colors(d3.scale.ordinal().range(colorbrewer.Reds[3]))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (supportLevelFilter) {
     supportLevelChart.filter(supportLevelFilter);
