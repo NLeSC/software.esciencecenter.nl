@@ -66,7 +66,18 @@ function bagFilterHandler(dimension, filter){
   return filter; // set the actual filter value to the new value
 }
 
+var chartwidth = 250;
+var barheight = 30;
+var gapheight = 5;
+var margin = 50;
+
+function chartheight(nvalues) {
+  return (nvalues-1) * gapheight + (barheight * nvalues) + margin;
+}
+
+
 d3.json("/software.json", function (software_data) {
+
   var disciplineFilter = purl().fparam('discipline');
   var competenceFilter = purl().fparam('competence');
   var expertiseFilter = purl().fparam('expertise');
@@ -112,88 +123,101 @@ d3.json("/software.json", function (software_data) {
   var programmingLanguageCount = programmingLanguageDimension.group().reduceCount();
 
   programmingLanguageChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(programmingLanguageValues.length))
+    .fixedBarHeight(barheight)
     .dimension(programmingLanguageDimension)
     .group(fakeProgrammingLanguageGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .xAxis().tickFormat(d3.format("d"));
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (programmingLanguageFilter) {
     languageChart.filter(programmingLanguageFilter);
   }
 
   competenceChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(competenceValues.length))
+    .fixedBarHeight(barheight)
     .dimension(competenceDimension)
     .group(fakeCompetenceGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.category20())
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (competenceFilter) {
     competenceChart.filter(competenceFilter);
   }
 
   expertiseChart
-    .width(200)
-    .height(180)
+    .width(chartwidth)
+    .height(chartheight(expertiseValues.length))
+    .fixedBarHeight(barheight)
     .dimension(expertiseDimension)
     .group(fakeExpertiseGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.category20())
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (expertiseFilter) {
     expertiseChart.filter(expertiseFilter);
   }
 
   disciplineChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(disciplineValues.length))
+    .fixedBarHeight(barheight)
     .dimension(disciplineDimension)
     .group(fakeDisciplineGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.category20())
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (disciplineFilter) {
     disciplineChart.filter(disciplineFilter);
   }
 
   technologyTagChart
-    .width(200)
-    .height(180)
+    .width(chartwidth)
+    .height(chartheight(technologyTagValues.length))
+    .fixedBarHeight(barheight)
     .dimension(technologyTagDimension)
     .group(fakeTechnologyTagGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.category20())
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (technologyTagFilter) {
     technologyTagChart.filter(technologyTagFilter);
   }
 
   statusChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(statusGroup.all().length))
+    .fixedBarHeight(barheight)
     .dimension(statusDimension)
     .group(statusGroup)
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.category20())
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (statusFilter) {
     statusChart.filter(statusFilter);
   }
 
   supportLevelChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(supportLevelGroup.all().length))
+    .fixedBarHeight(barheight)
     .dimension(supportLevelDimension)
     .group(supportLevelGroup)
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.category20())
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (supportLevelFilter) {
     supportLevelChart.filter(supportLevelFilter);
   }
 
-  dataTable.width(650).height(800)
+  dataTable.width(800)
       .dimension(softwareDimension)
       .group(function(d) { return d.competence[0]; })
     .size(100)
