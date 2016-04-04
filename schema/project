@@ -4,29 +4,34 @@
 	"type": "object",
 	"properties" : {
 		"schema": {
+			"description": "Fixed property, to validate the JSON object with the current schema.",
 			"type": "string",
 			"format": "uri",
 			"enum": [ "http://software.esciencecenter.nl/schema/project" ]
 		},
 		"name" : {
+			"description": "Project name.",
 			"type" : "string"
 		},
 		"@id" : {
+			"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
 			"type" : "string",
 			"format" : "uri"
 		},
 		"tagLine" : {
+			"description" : "One-sentence description of the project.",
 			"type" : "string"
 		},
 		"description" : {
-			"type" : "string",
-			"description" : "Technical project description"
+			"description" : "Technical project description",
+			"type" : "string"
 		},
 		"descriptionNonTech" : {
-			"type" : "string",
-			"description" : "Non-technical project description"
+			"description" : "Non-technical project description",
+			"type" : "string"
 		},
 		"link" : {
+			"description" : "Links to accessible URIs of the project.",
 			"type" : "array",
 			"items" : {
 				"type" : "object",
@@ -36,6 +41,7 @@
 						"format" : "uri"
 					},
 					"description" : {
+						"description" : "Type of URI provided: NLeSC website or other project websites.",
 						"type" : "string",
 						"enum" : ["nlescWebsite", "website"]
 					}
@@ -43,10 +49,12 @@
 			}
 		},
 		"logo" : {
+			"description": "An URI to associated logo image.",
 			"type" : "string",
 			"format" : "uri"
 		},
 		"competence" : {
+			"description": "NLeSC core competences associated to the project.",
 			"type" : "array",
 			"items" : {
 				"type" : "string",
@@ -54,6 +62,7 @@
 			}
 		},
 		"discipline" : {
+			"description": "NLeSC disciplines associated to the project.",
 			"type" : "array",
 			"items" : {
 				"type" : "string",
@@ -61,6 +70,7 @@
 			}
 		},
 		"expertise" : {
+			"description": "NLeSC expertises associated to the project.",
 			"type" : "array",
 			"items" : {
 				"type" : "string",
@@ -70,26 +80,29 @@
 			}
 		},
 		"infrastructure" : {
-			"type" : "string",
-			"description" : "What kind of infrastructure the project uses, e.g. Supercomputer, cloud, laptop, etc."
+			"description" : "What kind of infrastructure the project uses, e.g. Supercomputer, cloud, laptop, etc.",
+			"type" : "string"
 		},
 		"dataMagnitude" : {
+			"description" : "Total data size of all data stored, collected or generated.",
 			"type" : "string",
 			"enum" : ["KB","MB","GB","TB","PB","EB","ZB","YB","HB"]
 		},
 		"dataFormat" : {
+			"description" : "Data formats used in the project, e.g. NetCDF, RDF, CSV, JSON, etc.",
 			"type" : "array",
 			"items" : {
-				"type" : "string",
-				"description" : "Data format used in the project, e.g. NetCDF, RDF, CSV, JSON, etc."
+				"type" : "string"
 			}
 		},
 		"contactPerson" : {
+			"description" : "Contact person of the project.",
 			"anyOf" : [
 				 { "$ref": "person" },
 				 {
 				 	"properties" : {
 				 		"id" : {
+							"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
 				 			"type" : "string",
 				 			"format" : "uri"
 				 		}
@@ -98,11 +111,13 @@
 			]
 		},
 		"coordinator" : {
+			"description" : "Coordinator of the project.",
 			"anyOf" : [
 				 { "$ref": "person" },
 				 {
 				 	"properties" : {
 				 		"id" : {
+							"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
 				 			"type" : "string",
 				 			"format" : "uri"
 				 		}
@@ -111,6 +126,7 @@
 			]
 		},
 		"engineer" : {
+			"description" : "Engineers on the project.",
 			"type" : "array",
 			"items" : {
 				"anyOf" : [
@@ -118,6 +134,7 @@
 					 {
 					 	"properties" : {
 					 		"id" : {
+								"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
 					 			"type" : "string",
 					 			"format" : "uri"
 					 		}
@@ -127,6 +144,7 @@
 			}
 		},
 		"principalInvestigator" : {
+			"description" : "PI of the project.",
 			"type" : "array",
 			"items" : {
 				"anyOf" : [
@@ -134,6 +152,7 @@
 					 {
 					 	"properties" : {
 					 		"id" : {
+								"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
 					 			"type" : "string",
 					 			"format" : "uri"
 					 		}
@@ -143,6 +162,7 @@
 			}
 		},
 		"involvedOrganization" : {
+			"description" : "Organizations involved in the project.",
 			"type" : "array",
 			"items" : {
 				"anyOf" : [
@@ -150,6 +170,7 @@
 					 {
 					 	"properties" : {
 					 		"id" : {
+								"description" : "ID of the organization. This is preferably an URI where the organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/organization/nlesc.",
 					 			"type" : "string",
 					 			"format" : "uri"
 					 		}
@@ -159,6 +180,7 @@
 			}
 		},
 		"uses" : {
+			"description" : "Software used in the project.",
 			"type" : "array",
 			"items" : {
 				"anyOf" : [
@@ -166,6 +188,7 @@
 					 {
 					 	"properties" : {
 					 		"id" : {
+								"description" : "ID of the software. This is preferably an URI where the software's metadata can be resolved, e.g., http://software.esciencecenter.nl/software/xenon.",
 					 			"type" : "string",
 					 			"format" : "uri"
 					 		}
@@ -175,10 +198,12 @@
 			}
 		},
 		"startDate" : {
+			"description": "Project's official start date.",
 			"type" : "string",
 			"format" : "date-time"
 		},
 		"endDate" : {
+			"description": "Project's official end date.",
 			"type" : "string",
 			"format" : "date-time"
 		}
