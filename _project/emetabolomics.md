@@ -1,11 +1,8 @@
 ---
 name: eMetabolomics
 tagLine: The eMetabolomics project is funded by the Netherlands eScience Center
-link:
-- description: nlescWebsite
-  url: https://www.esciencecenter.nl/project/chemical-informatics-for-metabolite-identification-and-biochemical-network
-- description: website
-  url: http://www.emetabolomics.org
+nlescWebsite: https://www.esciencecenter.nl/project/chemical-informatics-for-metabolite-identification-and-biochemical-network
+website: http://www.emetabolomics.org
 logo: https://www.esciencecenter.nl/img/projects/1.P001-large.jpg
 competence:
 - Efficient Computing

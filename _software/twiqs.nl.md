@@ -1,9 +1,7 @@
 ---
 name: twiqs.nl
 tagLine: Searchable Dutch tweets
-link:
-- description: website
-  url: http://twiqs.nl/
+website: http://twiqs.nl/
 programmingLanguage:
 - Perl
 - Java

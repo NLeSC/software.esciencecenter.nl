@@ -1,9 +1,7 @@
 ---
 name: TwiNL
 tagLine: Analysis of social media messages
-link:
-- description: nlescWebsite
-  url: https://www.esciencecenter.nl/project/twinl
+nlescWebsite: https://www.esciencecenter.nl/project/twinl
 competence:
   - Big Data Analytics
 discipline:
