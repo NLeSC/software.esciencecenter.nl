@@ -6,7 +6,7 @@ link:
   url: https://github.com/NLeSC/Xenon
 - description: nlescWebsite
   url: https://www.esciencecenter.nl/technology/software/xenon
-logo: http://estep.esciencecenter.nl/media/k2/items/cache/2fa67f482133f1c934235b73c2a03954_XL.jpg
+logo: http://software.esciencecenter.nl/media/k2/items/cache/2fa67f482133f1c934235b73c2a03954_XL.jpg
 programmingLanguage: 
 - Java
 license: 
@@ -19,27 +19,27 @@ discipline:
 expertise:
 - Distributed Computing
 supportLevel: specialized
-contactPerson: http://estep.esciencecenter.nl/person/s.verhoeven
-owner: http://estep.esciencecenter.nl/person/s.verhoeven
+contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
+owner: http://software.esciencecenter.nl/person/s.verhoeven
 contributor:
-- http://estep.esciencecenter.nl/person/s.verhoeven
-- http://estep.esciencecenter.nl/person/j.maassen
-- http://estep.esciencecenter.nl/person/n.drost
-- http://estep.esciencecenter.nl/person/r.vannieuwpoort
+- http://software.esciencecenter.nl/person/s.verhoeven
+- http://software.esciencecenter.nl/person/j.maassen
+- http://software.esciencecenter.nl/person/n.drost
+- http://software.esciencecenter.nl/person/r.vannieuwpoort
 user:
-- http://estep.esciencecenter.nl/person/j.maassen
-- http://estep.esciencecenter.nl/person/n.drost
-- http://estep.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/person/j.maassen
+- http://software.esciencecenter.nl/person/n.drost
+- http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
-- http://estep.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/nlesc
 usedIn:
-- http://estep.esciencecenter.nl/project/beyond-the-data-explosion
-- http://estep.esciencecenter.nl/project/emetabolomics
+- http://software.esciencecenter.nl/project/beyond-the-data-explosion
+- http://software.esciencecenter.nl/project/emetabolomics
 startDate: '2013-04-12'
 status: active
 dependency:
 dependencyOf:
-- http://estep.esciencecenter.nl/software/noodles
+- http://software.esciencecenter.nl/software/noodles
 technologyTag:
 - Distributed
 - Library

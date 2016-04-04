@@ -23,34 +23,34 @@ discipline:
 expertise:
 - Orchestrated Computing
 supportLevel: specialized
-contactPerson: http://estep.esciencecenter.nl/person/j.hidding
-owner: http://estep.esciencecenter.nl/person/j.hidding
+contactPerson: http://software.esciencecenter.nl/person/j.hidding
+owner: http://software.esciencecenter.nl/person/j.hidding
 contributor:
-- http://estep.esciencecenter.nl/person/j.hidding
-- http://estep.esciencecenter.nl/person/b.weel
+- http://software.esciencecenter.nl/person/j.hidding
+- http://software.esciencecenter.nl/person/b.weel
 - name: Felipe Zapata
   link:
   - description: github
     url: https://github.com/felipeZ
 user:
-- http://estep.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/nlesc
 - name: VU University Amsterdam
   link:
   - description: website
     url: http://www.vu.nl/
 involvedOrganization:
-- http://estep.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/nlesc
 - name: VU University Amsterdam
   link:
   - description: website
     url: http://www.vu.nl/
 usedIn:
-- http://estep.esciencecenter.nl/project/computational-chemistry-made-easy
+- http://software.esciencecenter.nl/project/computational-chemistry-made-easy
 startDate: '2015-10-11'
 status: active
 dependency:
-- http://estep.esciencecenter.nl/software/xenon
-- http://estep.esciencecenter.nl/software/pyxenon
+- http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/pyxenon
 dependencyOf:
 technologyTag:
 - Workflow

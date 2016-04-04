@@ -4,16 +4,16 @@ link:
 - description: website
   url: http://www.esciencecenter.nl/
 - description: website
-  url: http://estep.esciencecenter.nl/
+  url: http://software.esciencecenter.nl/
 tagLine: Netherlands eScience Center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg,
 involvedIn:
-- http://estep.esciencecenter.nl/project/emetabolomics
+- http://software.esciencecenter.nl/project/emetabolomics
 organizationOf:
-- http://estep.esciencecenter.nl/person/s.verhoeven
+- http://software.esciencecenter.nl/person/s.verhoeven
 ownerOf:
-- http://estep.esciencecenter.nl/software/xenon
-- http://estep.esciencecenter.nl/software/noodles
+- http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/noodles
 ---
 Historically, scientific domains were defined by their own unique tools (microscopes, telescopes, distillation glass). Nowadays, the most important tool in all scientific disciplines is the computer. In this digital era, eScience is the developing discipline that provides the domain overarching software instruments (software, workflows and protocols) to support diverse scientific initiatives – making possible the creation of new, even unforeseen, applications – with the potential to transform current scientific practice, optimize scientific investments and significantly accelerate scientific discovery. eScience has the potential to underpin all scientific endeavor in the same way that applied mathematics currently does.
 

@@ -248,13 +248,30 @@
     width: 400px;
 }
 
+.diagram {
+    margin-bottom: 10px;
+}
+
 /**
  * Software overview page
  */
 #facets {
-        
+
+}
+
+#home {
+
 }
 
 #items {
-    
+}
+
+.dc-table-group {
+  display: none;
+  visibility: collapse;
+}
+
+.blurb {
+    margin-bottom: 10px;
+    font-weight: bold;
 }

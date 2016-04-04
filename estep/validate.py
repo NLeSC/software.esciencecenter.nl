@@ -28,7 +28,7 @@ def refping(validator, ref, instance, schema):
 
     # Check if Markdown file belonging to url exists
     if validator.is_type(instance, "string"):
-        instance_fn = instance.replace('http://estep.esciencecenter.nl/', '_') + '.md'
+        instance_fn = instance.replace('http://software.esciencecenter.nl/', '_') + '.md'
         if not isfile(instance_fn):
             err = "{} not found locally as {}".format(instance, instance_fn)
             LOGGER.debug(err)
@@ -60,7 +60,7 @@ class Validator(object):
                 store[schema_uri] = request.json()
             else:
                 LOGGER.debug('Loading schema %s from %s', schema_uri, schemadir)
-                schema_fn = schema_uri.replace('http://estep.esciencecenter.nl/schema', schemadir)
+                schema_fn = schema_uri.replace('http://software.esciencecenter.nl/schema', schemadir)
                 with open(schema_fn) as f:
                     store[schema_uri] = json.load(f)
 

@@ -1,18 +1,19 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "http://estep.esciencecenter.nl/schema/software",
+	"id": "http://software.esciencecenter.nl/schema/software",
 	"type": "object",
 	"properties" : {
 		"schema": {
 			"type": "string",
 			"format": "uri",
-			"enum": [ "http://estep.esciencecenter.nl/schema/software" ]
+			"enum": [ "http://software.esciencecenter.nl/schema/software" ]
 		},
 		"name" : {
 			"type" : "string"
 		},
 		"tagLine" : {
-			"type" : "string"
+			"type" : "string",
+			"description": "Short description used in lists"
 		},
 		"description" : {
 			"type" : "string"
@@ -187,14 +188,14 @@
 			"type" : "array",
 			"items" : {
 				"type" : "string",
-				"description" : "e.g. internal sofware as URI (http://estep.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc."
+				"description" : "e.g. internal software as URI (http://software.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc."
 			}
 		},
 		"dependencyOf" : {
 			"type" : "array",
 			"items" : {
 				"type" : "string",
-				"description" : "e.g. internal sofware as URI (http://estep.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc."
+				"description" : "e.g. internal software as URI (http://software.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc."
 			}
 		},
 		"technologyTag" : {

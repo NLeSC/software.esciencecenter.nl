@@ -1,3 +1,24 @@
+function deterministicShuffle(a,seed){
+    // A little error handling, whynot!
+    if(!seed)
+        throw new Error("deterministicShuffle: seed not given, or 0");
+
+    var temp,j,array=a.slice(0);
+
+    for(var i=0; i<array.length; i++){
+        // Select a "random" position.
+        j = (seed % (i+1) + i) % array.length;
+
+        // Swap the current element with the "random" one.
+        temp=array[i];
+        array[i]=array[j];
+        array[j]=temp;
+
+    }
+
+    return array;
+}
+
 function reduceFieldsAdd(fields,fieldname) {
   return function(p, v) {
     var values = v[fieldname];
@@ -66,7 +87,19 @@ function bagFilterHandler(dimension, filter){
   return filter; // set the actual filter value to the new value
 }
 
+
+var chartwidth = 250;
+var barheight = 25;
+var gapheight = 1;
+var margin = 0;
+
+function chartheight(nvalues) {
+  return (nvalues-1) * gapheight + (barheight * nvalues) + margin;
+}
+
+
 d3.json("/software.json", function (software_data) {
+
   var disciplineFilter = purl().fparam('discipline');
   var competenceFilter = purl().fparam('competence');
   var expertiseFilter = purl().fparam('expertise');
@@ -112,88 +145,116 @@ d3.json("/software.json", function (software_data) {
   var programmingLanguageCount = programmingLanguageDimension.group().reduceCount();
 
   programmingLanguageChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(programmingLanguageValues.length))
+    .fixedBarHeight(barheight)
     .dimension(programmingLanguageDimension)
     .group(fakeProgrammingLanguageGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .xAxis().tickFormat(d3.format("d"));
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],2)))
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (programmingLanguageFilter) {
     languageChart.filter(programmingLanguageFilter);
   }
 
   competenceChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(competenceValues.length))
+    .fixedBarHeight(barheight)
     .dimension(competenceDimension)
     .group(fakeCompetenceGroup)
     .filterHandler(bagFilterHandler)
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set1[3],3)))
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (competenceFilter) {
     competenceChart.filter(competenceFilter);
   }
 
   expertiseChart
-    .width(200)
-    .height(180)
+    .width(chartwidth)
+    .height(chartheight(expertiseValues.length))
+    .fixedBarHeight(barheight)
     .dimension(expertiseDimension)
     .group(fakeExpertiseGroup)
     .filterHandler(bagFilterHandler)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Spectral[11],5)))
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (expertiseFilter) {
     expertiseChart.filter(expertiseFilter);
   }
 
   disciplineChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(disciplineValues.length))
+    .fixedBarHeight(barheight)
     .dimension(disciplineDimension)
     .group(fakeDisciplineGroup)
     .filterHandler(bagFilterHandler)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Spectral[11],6)))
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (disciplineFilter) {
     disciplineChart.filter(disciplineFilter);
   }
 
   technologyTagChart
-    .width(200)
-    .height(180)
+    .width(chartwidth)
+    .height(chartheight(technologyTagValues.length))
+    .fixedBarHeight(barheight)
     .dimension(technologyTagDimension)
     .group(fakeTechnologyTagGroup)
     .filterHandler(bagFilterHandler)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],7)))
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (technologyTagFilter) {
     technologyTagChart.filter(technologyTagFilter);
   }
 
   statusChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(statusGroup.all().length))
+    .fixedBarHeight(barheight)
     .dimension(statusDimension)
     .group(statusGroup)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],8)))
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (statusFilter) {
     statusChart.filter(statusFilter);
   }
 
   supportLevelChart
-    .width(200)
-    .height(140)
+    .width(chartwidth)
+    .height(chartheight(supportLevelGroup.all().length))
+    .fixedBarHeight(barheight)
     .dimension(supportLevelDimension)
     .group(supportLevelGroup)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
-    .colors(d3.scale.category20());
+    .colors(d3.scale.ordinal().range(colorbrewer.Reds[3]))
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (supportLevelFilter) {
     supportLevelChart.filter(supportLevelFilter);
   }
 
-  dataTable.width(650).height(800)
+  dataTable.width(800)
       .dimension(softwareDimension)
       .group(function(d) { return d.competence[0]; })
     .size(100)
