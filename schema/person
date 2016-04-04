@@ -67,7 +67,7 @@
 			"description": "Projects that a person is contact person of.",
 			"type": "array",
 			"items": {
-				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics",
+				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
 				"format" : "uri"
 			}
@@ -76,7 +76,7 @@
 			"description": "Software that a person is the owner of.",
 			"type": "array",
 			"items": {
-				"description": "ID of a software package, preferably an URI where the software's metadata can be resolved, e.g., http://estep.esciencecenter.nl/software/xenon",
+				"description": "ID of a software package, preferably an URI where the software's metadata can be resolved, e.g., http://software.esciencecenter.nl/software/xenon",
 				"type" : "string",
 				"format" : "uri"
 			}
@@ -85,7 +85,7 @@
 			"description": "Software that a person is a contributor of.",
 			"type": "array",
 			"items": {
-				"description": "ID of a software package, preferably an URI where the software's metadata can be resolved, e.g., http://estep.esciencecenter.nl/software/xenon",
+				"description": "ID of a software package, preferably an URI where the software's metadata can be resolved, e.g., http://software.esciencecenter.nl/software/xenon",
 				"type" : "string",
 				"format" : "uri"
 			}
@@ -94,7 +94,7 @@
 			"description": "Software that a person is a user of.",
 			"type": "array",
 			"items": {
-				"description": "ID of a software package, preferably an URI where the software's metadata can be resolved, e.g., http://estep.esciencecenter.nl/software/xenon",
+				"description": "ID of a software package, preferably an URI where the software's metadata can be resolved, e.g., http://software.esciencecenter.nl/software/xenon",
 				"type" : "string",
 				"format" : "uri"
 			}
@@ -103,7 +103,7 @@
 			"description": "Projects that a person is coordinator of.",
 			"type": "array",
 			"items": {
-				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics",
+				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
 				"format" : "uri"
 			}
@@ -112,7 +112,7 @@
 			"description": "Projects that a person is engineer of.",
 			"type": "array",
 			"items": {
-				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics",
+				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
 				"format" : "uri"
 			}
@@ -121,7 +121,7 @@
 			"description": "Projects that a person is PI of.",
 			"type": "array",
 			"items": {
-				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics",
+				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
 				"format" : "uri"
 			}
