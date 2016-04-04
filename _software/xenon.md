@@ -6,7 +6,7 @@ link:
   url: https://github.com/NLeSC/Xenon
 - description: nlescWebsite
   url: https://www.esciencecenter.nl/technology/software/xenon
-logo: http://software.esciencecenter.nl/media/k2/items/cache/2fa67f482133f1c934235b73c2a03954_XL.jpg
+logo: http://nlesc.github.io/Xenon/images/NLeSC_Xenon_logo.png
 programmingLanguage: 
 - Java
 license: 

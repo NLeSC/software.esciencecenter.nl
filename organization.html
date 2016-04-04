@@ -1,9 +1,9 @@
 ---
 layout: page
-title: organization
+title: Organizations
 ---
-<ul>
+<div class="organization-container">
     {% for p in site.organization %}
-    <li><a href="{{ p.url }}">{{ p.name }}</a></li>
+    <div class="organization-logo-container"><a href="{{ p.url }}"><img src="{{ p.logo }}" class="organization-logo"></a><a href="{{ p.url }}" class="organization-link">{{ p.name }}</a></div>
     {% endfor %}
-</ul>
+</div>

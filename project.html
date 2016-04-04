@@ -1,9 +1,11 @@
 ---
 layout: page
-title: project
+title: Projects
 ---
-<ul>
+
+<div class="project-container">
     {% for p in site.project %}
-    <li><a href="{{ p.url }}">{{ p.name }}</a></li>
+    <div class="project-logo-container"><a href="{{ p.url }}">{% if p.logo != null %}<img src="{{ p.logo }}" class="project-logo">{% else %}<img src="/images/gray.png" class="empty project-logo">{% endif %}</a><a href="{{ p.url }}" class="project-link">{{ p.name }}</a></div>
     {% endfor %}
-</ul>
+</div>
+

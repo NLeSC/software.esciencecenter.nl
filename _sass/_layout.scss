@@ -275,3 +275,111 @@
     margin-bottom: 10px;
     font-weight: bold;
 }
+
+.deselected {opacity:0} 
+
+.chart-container {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+.chart-container-container {
+    flex-wrap: wrap;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+div.dc-chart {
+    float: none !important;
+}
+
+
+/*
+ * Person
+ */
+img.photo {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    clear: both;
+}
+
+ul {
+    display: inline;
+    list-style: none;
+    margin-left: 0px;
+}
+ul li {
+    display: inline;
+}
+ul li:after {
+    content: ", ";
+}
+ul li:last-child:after {
+    content: "";
+}
+
+.person-container, .project-container, .organization-container {
+    flex-wrap: wrap;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.project-logo-container, .organization-logo-container {
+    margin-bottom: 50px;
+}
+
+.person-container {
+    text-align: center;
+    vertical-align: middle;
+}
+.person-photo {
+    width: 125px;
+    display: block;
+    margin: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.project-logo, .organization-logo {
+    border: 1px solid #DDD;
+    padding: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 250px;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.project-link:link, .organization-link:link,
+.project-link:visited, .organization-link:visited {
+    color: #bfc2d7;
+}
+.project-link:active, .organization-link:active {
+    color: #000;
+}
+.project-link:hover, .organization-link:hover {
+    color: #00a3e3;
+    text-decoration: none;
+}
+img.empty {
+    height: 227px;
+    width: 250px;
+}

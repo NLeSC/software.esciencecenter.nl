@@ -2,4 +2,132 @@
 layout: default
 ---
 <h1>{{ page.name }}</h1>
+
+<h4>{{ page.tagLine }}</h4>
+
+<hr/>
+
+{% unless page.logo == null %}
+<img src="{{ page.logo }}" class="logo"/>
+{% endunless %}
+
+
+<h3>Links</h3>
+<ul class="link-list">
+{% for d in page.link %}
+<li><a href="{{ d.url }}">{{ d.description }}</a></li>
+{% endfor %}
+</ul>
+
+
+<h3>Start Date</h3>
+<div class="start-date">
+{{ page.startDate }}
+</div>
+
+<h3>End Date</h3>
+<div class="start-date">
+{{ page.endDate }}
+</div>
+
+
+
+<h3>Discipline</h3>
+<ul class="discipline-list">
+{% for d in page.discipline %}
+<li><a href="/software#discipline={{ d | cgi_escape }}">{{ d }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Competence</h3>
+<ul class="competence-list">
+{% for d in page.competence %}
+<li><a href="/software#competence={{ d | cgi_escape }}">{{ d }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Expertise</h3>
+<ul class="expertise-list">
+{% for d in page.expertise %}
+<li><a href="/software#expertise={{ d | cgi_escape }}">{{ d }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Data formats used</h3>
+<ul class="data-format-list">
+{% for d in page.dataFormat %}
+<li>{{ d }}</li>
+{% endfor %}
+</ul>
+
+<h3>Data magnitude</h3>
+<ul class="data-magnitude-list">
+{% for d in page.dataMagnitude %}
+<li>{{ d }}</li>
+{% endfor %}
+</ul>
+
+
+<h3>Contact person</h3>
+{% capture d %}{{ page.contactPerson }}{% endcapture %}
+{% if d contains site.url %}
+	<a href="{{ d }}">
+	{% capture pname %}{{ d }}{% endcapture %}
+	{% for p in site.person %}
+		{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
+		{% if d == urlx %}
+			{% capture pname %}{{ p.name }}{% endcapture %}
+		{% endif %}
+	{% endfor %}
+	{{ pname }}
+	</a>
+{% elsif d.name %}
+	{% if d.link %}
+		<a href="{{ d.link[0].url }}">
+	{% endif %}
+		{{ d.name }}
+	{% if d.link %}
+		</a>
+	{% endif %}
+{% else %}
+	{{ d }}
+{% endif %}
+
+<h3>Principal investigator</h3>
+<ul class="principal-investigator-list">
+{% for d in page.principalInvestigator %}
+	<li>{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.project %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if d == urlx %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.link[0].url }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+
+<h3>Project coordinator</h3>
+<ul class="coordinator-list">
+{% for d in page.coordinator %}
+	<li>{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.project %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if d == urlx %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.link[0].url }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+<h3>Involved organizations</h3>
+<ul class="involved-organization-list">
+{% for d in page.involvedOrganization %}
+	<li>{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.project %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if d == urlx %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.link[0].url }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+
+<h3>Uses software</h3>
+<ul class="uses-list">
+{% for d in page.uses %}
+	<li>{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.project %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if d == urlx %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.link[0].url }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+<hr/>
+
+<h1>Description</h1>
+
 {{ page.content }}
+
+
+
