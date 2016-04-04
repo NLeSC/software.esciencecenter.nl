@@ -246,5 +246,6 @@
 					"type" : "string"
 			}
 		}
-	}
+	},
+	"additionalProperties": false
 }
