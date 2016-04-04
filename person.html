@@ -1,9 +1,10 @@
 ---
 layout: page
-title: person
+title: People
 ---
-<ul>
+<div class="person-container">
     {% for p in site.person %}
-    <li><a href="{{ p.url }}">{{ p.name }}</a></li>
+    <div class="person-photo-container"><a href="{{ p.url }}"><img src="{{ p.photo }}" class="person-photo"></a><a href="{{ p.url }}" class="person-link">{{ p.name }}</a></div>
     {% endfor %}
-</ul>
+</div>
+

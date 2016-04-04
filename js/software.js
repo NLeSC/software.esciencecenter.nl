@@ -202,7 +202,7 @@ d3.json("/software.json", function (software_data) {
     .gap(1)
     .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
-    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Spectral[11],6)))
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Spectral[11],1)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (disciplineFilter) {
     disciplineChart.filter(disciplineFilter);
@@ -218,7 +218,7 @@ d3.json("/software.json", function (software_data) {
     .gap(1)
     .margins({top:0,bottom:-1,right:0,left:0})
     .elasticX(true)
-    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],7)))
+    .colors(d3.scale.ordinal().range(deterministicShuffle(colorbrewer.Set3[12],800)))
     .xAxis().tickFormat(d3.format("d")).ticks(1);
   if (technologyTagFilter) {
     technologyTagChart.filter(technologyTagFilter);

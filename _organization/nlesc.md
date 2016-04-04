@@ -6,7 +6,7 @@ link:
 - description: website
   url: http://software.esciencecenter.nl/
 tagLine: Netherlands eScience Center
-logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg,
+logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
 involvedIn:
 - http://software.esciencecenter.nl/project/emetabolomics
 organizationOf:
