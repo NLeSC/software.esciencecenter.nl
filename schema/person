@@ -41,6 +41,7 @@
 			"type" : "string"
 		},
 		"organization" : {
+			"description": "Organization that person is employee of.",
 			"anyOf" : [
 				 { "$ref": "organization" },
 				 {
@@ -54,57 +55,73 @@
 			]
 		},
 		"description" : {
+			"description": "Person description, bio and/or CV.",
 			"type" : "string"
 		},
 		"photo" : {
+			"description": "Person's portrait.",
 			"type" : "string",
 			"format" : "uri"
 		},
 		"contactPersonOf" : {
+			"description": "Projects that a person is contact person of.",
 			"type": "array",
 			"items": {
+				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
 				"format" : "uri"
 			}
 		},
 		"ownerOf" : {
+			"description": "Software that a person is the owner of.",
 			"type": "array",
 			"items": {
+				"description": "ID of a software package, preferably an URI where the software's metadata can be resolved, e.g., http://estep.esciencecenter.nl/software/xenon",
 				"type" : "string",
 				"format" : "uri"
 			}
 		},
 		"contributorOf" : {
+			"description": "Software that a person is a contributor of.",
 			"type": "array",
 			"items": {
+				"description": "ID of a software package, preferably an URI where the software's metadata can be resolved, e.g., http://estep.esciencecenter.nl/software/xenon",
 				"type" : "string",
 				"format" : "uri"
 			}
 		},
 		"userOf" : {
+			"description": "Software that a person is a user of.",
 			"type": "array",
 			"items": {
+				"description": "ID of a software package, preferably an URI where the software's metadata can be resolved, e.g., http://estep.esciencecenter.nl/software/xenon",
 				"type" : "string",
 				"format" : "uri"
 			}
 		},
 		"coordinatorOf" : {
+			"description": "Projects that a person is coordinator of.",
 			"type": "array",
 			"items": {
+				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
 				"format" : "uri"
 			}
 		},
 		"engineerOf" : {
+			"description": "Projects that a person is engineer of.",
 			"type": "array",
 			"items": {
+				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
 				"format" : "uri"
 			}
 		},
 		"principalInvestigatorOf" : {
+			"description": "Projects that a person is PI of.",
 			"type": "array",
 			"items": {
+				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://estep.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
 				"format" : "uri"
 			}
