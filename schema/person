@@ -160,5 +160,6 @@
 			}
 		}
 	},
+	"required": ["@id", "name", "affiliation"],
 	"additionalProperties": false
 }
