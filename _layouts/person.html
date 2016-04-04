@@ -15,12 +15,30 @@ layout: default
 <hr/>
 
 
+{% if page.nlescWebsite != null || page.website != null || page.twitterUrl != null || page.linkedInUrl != null || page.githubUrl != null || page.researchgateUrl != null %}
 <h3>Links</h3>
 <ul class="link-list">
-{% for d in page.link %}
-<li><a href="{{ d.url }}">{{ d.description }}</a></li>
-{% endfor %}
+{% unless page.website == null %}
+<li><a href="{{ d.website }}">website</a></li>
+{% endunless %}
+{% unless page.nlescWebsite == null %}
+<li><a href="{{ d.nlescWebsite }}">NLeSC website</a></li>
+{% endunless %}
+{% unless page.researchgateUrl == null %}
+<li><a href="{{ d.researchgateUrl }}">ResearchGate</a></li>
+{% endunless %}
+{% unless page.githubUrl == null %}
+<li><a href="{{ d.githubUrl }}">GitHub</a></li>
+{% endunless %}
+{% unless page.twitterUrl == null %}
+<li><a href="{{ d.twitterUrl }}">Twitter</a></li>
+{% endunless %}
+{% unless page.linkedInUrl == null %}
+<li><a href="{{ d.linkedInUrl }}">LinkedIn</a></li>
+{% endunless %}
 </ul>
+{% endif %}
+
 
 {% capture d %}{{ page.contactPersonOf }}{% endcapture %}
 {% if d != empty %}
