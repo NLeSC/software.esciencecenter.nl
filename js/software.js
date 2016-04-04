@@ -87,7 +87,6 @@ function bagFilterHandler(dimension, filter){
   return filter; // set the actual filter value to the new value
 }
 
-
 var chartwidth = 250;
 var barheight = 25;
 var gapheight = 1;
@@ -96,7 +95,6 @@ var margin = 0;
 function chartheight(nvalues) {
   return (nvalues-1) * gapheight + (barheight * nvalues) + margin;
 }
-
 
 d3.json("/software.json", function (software_data) {
 

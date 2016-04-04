@@ -301,6 +301,10 @@ div.dc-chart {
     float: none !important;
 }
 
+.reset-button {
+    color: darkred;
+    font-weight: bold;
+}
 
 /*
  * Person
@@ -355,7 +359,9 @@ ul li:last-child:after {
     display: block;
     margin: 30px;
     margin-bottom: 10px;
-    margin-top: 50px;
+}
+.person-link {
+    margin-bottom: 50px;
 }
 
 .project-logo, .organization-logo {
