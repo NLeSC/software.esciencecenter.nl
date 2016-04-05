@@ -80,6 +80,6 @@
 			}
 		}
 	},
-	"required": ["@id", "name"],
+	"required": ["name"],
 	"additionalProperties": false
 }
