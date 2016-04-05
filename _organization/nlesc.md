@@ -1,10 +1,6 @@
 ---
 name: Netherlands eScience Center
-link:
-- description: website
-  url: http://www.esciencecenter.nl/
-- description: website
-  url: http://software.esciencecenter.nl/
+website: http://www.esciencecenter.nl/
 tagLine: Netherlands eScience Center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
 involvedIn:

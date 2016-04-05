@@ -1,12 +1,10 @@
 ---
 name: Stefan Verhoeven
-link:
-- description: nlescWebsite
-  url: https://www.esciencecenter.nl/profile/ing.-stefan-verhoeven
-- description: github
-  url: https://github.com/sverhoeven
+nlescWebsite: https://www.esciencecenter.nl/profile/ing.-stefan-verhoeven
+githubUrl: https://github.com/sverhoeven
 jobTitle: eScience Research Engineer
-organization: http://software.esciencecenter.nl/organization/nlesc
+affiliation:
+- http://software.esciencecenter.nl/organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/stefan-verhoeven-new.jpg
 contactPersonOf:
 - http://software.esciencecenter.nl/software/xenon
