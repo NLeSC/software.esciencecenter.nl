@@ -1,38 +1,33 @@
 ---
-name: TwiNL
-tagLine: Analysis of social media messages
-link:
-- description: nlescWebsite
-  url: https://www.esciencecenter.nl/project/twinl
+name: Automated Parallel Calculation of Collaborative Statistical Models
+tagLine: Looking for unconfirmed or unknown fundamental physics
+nlescWebsite: https://www.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
 competence:
-  - Big Data Analytics
+  - Optimized Data Handling
+  - Efficient Computing
 discipline:
-  - Humanities & Social Sciences
+  - Physics & Beyond
 expertise:
-  - Text Mining
-  - Information Retrieval
-infrastructure: Cloud for data ingestion and retrieval, Hadoop for indexing and searching
+  - Accellerated Computing
+  - High Performance Computing
+infrastructure: DAS5 and NIKHEF computer cluster for testing and benchmarking
 dataMagnitude: TB
 dataFormat:
-- CSV
-- JSON
-contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
+- ROOT binary format
+contactPerson: http://software.esciencecenter.nl/person/p.bos
 engineer:
-- http://software.esciencecenter.nl/person/e.tjongkimsang
+- http://software.esciencecenter.nl/person/p.bos
 principalInvestigator:
-  - name: Prof. Antal van den Bosch
-    organization: http://software.esciencecenter.nl/organization/radboud.university.nijmegen
+  - name: Dr. Wouter Verkerke
+    organization: http://software.esciencecenter.nl/organization/nikhef
     link:
     - description: website
-      url: http://antalvandenbosch.ruhosting.nl/
+      url: https://www.nikhef.nl/en/for-nikhef-users/departments/scientific-departments/atlas/atlas-staff/?groupview=0&search=Wouter%20Verkerke
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/surfsara
-uses:
-- http://software.esciencecenter.nl/software/twiqs
-startDate: '2013-02-01'
-endDate: '2015-09-01'
+- http://software.esciencecenter.nl/organization/nikhef
+startDate: '2016-05-15'
+endDate: '2019-12-31'
 ---
 
-Developing a centralized service for gathering, storing, and analyzing Twitter messages
+Large scale statistical data analysis in particle physics
