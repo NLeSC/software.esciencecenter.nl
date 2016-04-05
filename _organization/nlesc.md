@@ -1,6 +1,9 @@
 ---
 name: Netherlands eScience Center
 website: http://www.esciencecenter.nl/
+researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
+linkedInUrl: https://www.linkedin.com/company/netherlands-escience-center
+twitterUrl: https://twitter.com/esciencecenter
 tagLine: Netherlands eScience Center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
 involvedIn:

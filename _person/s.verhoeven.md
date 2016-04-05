@@ -1,6 +1,8 @@
 ---
 name: Stefan Verhoeven
 nlescWebsite: https://www.esciencecenter.nl/profile/ing.-stefan-verhoeven
+researchgateUrl: https://www.researchgate.net/profile/Stefan_Verhoeven
+linkedInUrl: https://www.linkedin.com/in/stefan-verhoeven-15381122
 githubUrl: https://github.com/sverhoeven
 jobTitle: eScience Research Engineer
 affiliation:

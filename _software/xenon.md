@@ -4,6 +4,12 @@ tagLine: A middleware abstraction library that provides a simple programming int
 codeRepository: https://github.com/NLeSC/Xenon
 nlescWebsite: https://www.esciencecenter.nl/technology/software/xenon
 website: https://nlesc.github.io/Xenon
+website: http://nlesc.github.io/Xenon/
+codeRepository: https://github.com/NLeSC/Xenon
+nlescWebsite: https://www.esciencecenter.nl/technology/software/xenon
+documentationUrl: http://nlesc.github.io/Xenon/versions/1.1.0/javadoc
+downloadUrl: https://bintray.com/nlesc/xenon/xenon/view
+doi: http://dx.doi.org/10.5281/zenodo.35415
 logo: http://nlesc.github.io/Xenon/images/NLeSC_Xenon_logo.png
 programmingLanguage:
 - Java
