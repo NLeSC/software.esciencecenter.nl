@@ -1,38 +1,44 @@
 ---
-name: TwiNL
-tagLine: Analysis of social media messages
+name: Hadrianus
+tagLine: Visualizing Dutch presence in the Eternal City
 link:
 - description: nlescWebsite
-  url: https://www.esciencecenter.nl/project/twinl
+  url: https://www.esciencecenter.nl/project/handrianvs-a-digital-gateway-to-the-dutch-presence-in-rome-through-the-ages
 competence:
-  - Big Data Analytics
+  - Optimized Data Handling
 discipline:
   - Humanities & Social Sciences
 expertise:
-  - Text Mining
-  - Information Retrieval
-infrastructure: Cloud for data ingestion and retrieval, Hadoop for indexing and searching
-dataMagnitude: TB
+  - Linked Data
+  - Information Visualization
+infrastructure: OpenLink Virtuoso for hosting and serving the Linked Data view on the data
+dataMagnitude: GB
 dataFormat:
-- CSV
-- JSON
-contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
+- Tabular text
+- Images
+contactPerson: http://software.esciencecenter.nl/person/p.bos
 engineer:
-- http://software.esciencecenter.nl/person/e.tjongkimsang
+- http://software.esciencecenter.nl/person/p.bos
 principalInvestigator:
-  - name: Prof. Antal van den Bosch
-    organization: http://software.esciencecenter.nl/organization/radboud.university.nijmegen
+  - name: Dr. Arthur Weststeijn
+    organization: http://software.esciencecenter.nl/organization/knir
     link:
     - description: website
-      url: http://antalvandenbosch.ruhosting.nl/
+      url: http://www.knir.it/en/arthur-weststeijn.html
+  - name: Dr. Marieke van den Doel
+    organization:
+    - http://software.esciencecenter.nl/organization/university.of.amsterdam
+    - http://software.esciencecenter.nl/organization/knir
+    link:
+    - description: website
+      url: http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/d/o/m.j.e.vandendoel/m.j.e.vandendoel.html
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/surfsara
+- http://software.esciencecenter.nl/organization/knir
+- http://software.esciencecenter.nl/organization/university.of.amsterdam
 uses:
-- http://software.esciencecenter.nl/software/twiqs
-startDate: '2013-02-01'
-endDate: '2015-09-01'
+startDate: '2014-09-01'
+endDate: '2016-04-01'
 ---
 
-Developing a centralized service for gathering, storing, and analyzing Twitter messages
+A digital gateway to the Dutch presence in Rome through the ages

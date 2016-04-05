@@ -1,5 +1,5 @@
 ---
-name: PIDIMEHS: Pillarization and depillarization tested in digitized media historical sources
+name: "PIDIMEHS: Pillarization and depillarization tested in digitized media historical sources"
 tagLine: Visualizing relations between politics and media during 'Verzuiling' in the Netherlands
 link:
 - description: nlescWebsite
@@ -27,10 +27,16 @@ principalInvestigator:
     link:
     - description: website
       url: http://www.huubwijfjes.nl/
+  - name: Prof. Gerrit Voerman
+    organization: http://software.esciencecenter.nl/organization/university.of.groningen
+    link:
+    - description: website
+      url: http://www.rug.nl/staff/g.voerman/
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/university.of.groningen
 - http://software.esciencecenter.nl/organization/university.of.amsterdam
+- http://software.esciencecenter.nl/organization/surfsara
 uses:
 startDate: '2014-09-01'
 endDate: '2016-04-01'
