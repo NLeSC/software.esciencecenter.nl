@@ -1,15 +1,19 @@
 ---
 name: Xenon
 tagLine: A middleware abstraction library that provides a simple programming interface to various compute and storage resources.
-link:
-- description: repository
-  url: https://github.com/NLeSC/Xenon
-- description: nlescWebsite
-  url: https://www.esciencecenter.nl/technology/software/xenon
+codeRepository: https://github.com/NLeSC/Xenon
+nlescWebsite: https://www.esciencecenter.nl/technology/software/xenon
+website: https://nlesc.github.io/Xenon
+website: http://nlesc.github.io/Xenon/
+codeRepository: https://github.com/NLeSC/Xenon
+nlescWebsite: https://www.esciencecenter.nl/technology/software/xenon
+documentationUrl: http://nlesc.github.io/Xenon/versions/1.1.0/javadoc
+downloadUrl: https://bintray.com/nlesc/xenon/xenon/view
+doi: http://dx.doi.org/10.5281/zenodo.35415
 logo: http://nlesc.github.io/Xenon/images/NLeSC_Xenon_logo.png
-programmingLanguage: 
+programmingLanguage:
 - Java
-license: 
+license:
 - apache-2.0
 competence:
 - Optimized Data Handling
@@ -35,7 +39,7 @@ involvedOrganization:
 usedIn:
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/emetabolomics
-startDate: '2013-04-12'
+startDate: 2013-04-12
 status: active
 dependency:
 dependencyOf:

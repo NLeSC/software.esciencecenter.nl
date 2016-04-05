@@ -26,28 +26,16 @@
 			"description" : "Technical project description",
 			"type" : "string"
 		},
-		"descriptionNonTech" : {
-			"description" : "Non-technical project description",
-			"type" : "string"
-		},
-		"link" : {
-			"description" : "Links to accessible URIs of the project.",
-			"type" : "array",
-			"items" : {
-				"type" : "object",
-				"properties" : {
-					"url" : {
-						"type" : "string",
-						"format" : "uri"
-					},
-					"description" : {
-						"description" : "Type of URI provided: NLeSC website or other project websites.",
-						"type" : "string",
-						"enum" : ["nlescWebsite", "website"]
-					}
-				}
-			}
-		},
+    "nlescWebsite": {
+      "description": "Link to the associated page on the NLeSC website (e.g. https://www.esciencecenter.nl/project/chemical-informatics-for-metabolite-identification-and-biochemical-network).",
+      "type": "string",
+      "format": "uri"
+    },
+    "website": {
+      "description": "Link to the main website.",
+      "type": "string",
+      "format": "uri"
+    },
 		"logo" : {
 			"description": "An URI to associated logo image.",
 			"type" : "string",
@@ -207,5 +195,7 @@
 			"type" : "string",
 			"format" : "date-time"
 		}
-	}
+	},
+	"required": ["@id", "name"],
+	"additionalProperties": false
 }

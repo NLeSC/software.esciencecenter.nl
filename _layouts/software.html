@@ -9,12 +9,29 @@ layout: default
 <img src="{{ page.logo }}" class="logo"/>
 {% endunless %}
 
+{% if page.codeRepository != null || page.nlescWebsite != null || page.website != null || page.documentationUrl != null || page.downloadUrl != null || page.doi != null %}
 <h3>Links</h3>
 <ul class="link-list">
-{% for d in page.link %}
-<li><a href="{{ d.url }}">{{ d.description }}</a></li>
-{% endfor %}
+{% unless page.website == null %}
+<li><a href="{{ d.website }}">website</a></li>
+{% endunless %}
+{% unless page.nlescWebsite == null %}
+<li><a href="{{ d.nlescWebsite }}">NLeSC website</a></li>
+{% endunless %}
+{% unless page.codeRepository == null %}
+<li><a href="{{ d.codeRepository }}">Source code</a></li>
+{% endunless %}
+{% unless page.downloadUrl == null %}
+<li><a href="{{ d.downloadUrl }}">Download</a></li>
+{% endunless %}
+{% unless page.documentationUrl == null %}
+<li><a href="{{ d.documentationUrl }}">Documentation</a></li>
+{% endunless %}
+{% unless page.doi == null %}
+<li><a href="{{ d.doi }}">DOI</a></li>
+{% endunless %}
 </ul>
+{% endif %}
 
 <h3>Start Date</h3>
 <div class="start-date">
