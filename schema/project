@@ -195,5 +195,7 @@
 			"type" : "string",
 			"format" : "date-time"
 		}
-	}
+	},
+	"required": ["@id", "name"],
+	"additionalProperties": false
 }

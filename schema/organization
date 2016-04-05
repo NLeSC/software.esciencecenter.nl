@@ -79,5 +79,7 @@
 				"format" : "uri"
 			}
 		}
-	}
+	},
+	"required": ["@id", "name"],
+	"additionalProperties": false
 }

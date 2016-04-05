@@ -246,5 +246,7 @@
 					"type" : "string"
 			}
 		}
-	}
+	},
+	"required": ["@id", "name"],
+	"additionalProperties": false
 }

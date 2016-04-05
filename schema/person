@@ -141,5 +141,7 @@
 				"format" : "uri"
 			}
 		}
-	}
+	},
+	"required": ["@id", "name", "affiliation"],
+	"additionalProperties": false
 }
