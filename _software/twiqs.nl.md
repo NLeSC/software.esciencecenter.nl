@@ -1,9 +1,7 @@
 ---
 name: twiqs.nl
 tagLine: Searchable Dutch tweets
-link:
-- description: website
-  url: http://twiqs.nl/
+website: http://twiqs.nl/
 programmingLanguage:
 - Perl
 - Java
@@ -25,7 +23,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/surfsara
 usedIn:
 - http://software.esciencecenter.nl/project/twinl
-startDate: '2013-02-22'
+startDate: 2013-02-22
 status: inactive
 technologyTag:
 - Hadoop
