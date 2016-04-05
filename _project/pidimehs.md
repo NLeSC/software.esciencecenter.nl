@@ -11,28 +11,29 @@ discipline:
 expertise:
   - Text Mining
   - Information Retrieval
-infrastructure: Cloud for data ingestion and retrieval, Hadoop for indexing and searching
+  - Information Visualization
+  - Data Assimilation
+infrastructure: Elasticsearch for indexing and searching newspaper data, iPython notebook for interactive analysis
 dataMagnitude: TB
 dataFormat:
-- CSV
 - JSON
-contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
+- XML
+contactPerson: http://software.esciencecenter.nl/person/p.bos
 engineer:
-- http://software.esciencecenter.nl/person/e.tjongkimsang
+- http://software.esciencecenter.nl/person/p.bos
 principalInvestigator:
-  - name: Prof. Antal van den Bosch
-    organization: http://software.esciencecenter.nl/organization/radboud.university.nijmegen
+  - name: Prof. Huub Wijfjes
+    organization: http://software.esciencecenter.nl/organization/university.of.groningen
     link:
     - description: website
-      url: http://antalvandenbosch.ruhosting.nl/
+      url: http://www.huubwijfjes.nl/
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/surfsara
+- http://software.esciencecenter.nl/organization/university.of.groningen
+- http://software.esciencecenter.nl/organization/university.of.amsterdam
 uses:
-- http://software.esciencecenter.nl/software/twiqs
-startDate: '2013-02-01'
-endDate: '2015-09-01'
+startDate: '2014-09-01'
+endDate: '2016-04-01'
 ---
 
-Developing a centralized service for gathering, storing, and analyzing Twitter messages
+Visualizing relations between politics and media during 'Verzuiling' in the Netherlands
