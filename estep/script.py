@@ -46,9 +46,9 @@ class Config(object):
         with open(filename) as f:
             self.config = yaml.load(f)
 
-    def validator(self, schemadir):
+    def validator(self, schemadir, resolve):
         schema_uris = list(self.schemas().values())
-        return Validator(schema_uris, schemadir)
+        return Validator(schema_uris, schemadir, resolve)
 
     def schemas(self):
         schemas = {}
@@ -65,9 +65,9 @@ class Config(object):
         return collections
 
 
-def validate(schemadir):
+def validate(schemadir, resolve):
     config = Config()
-    validator = config.validator(schemadir)
+    validator = config.validator(schemadir, resolve)
     nr_errors = 0
     for collection in config.collections():
         LOGGER.info('Collection: %s', collection.name)
@@ -85,13 +85,13 @@ def main(argv=sys.argv[1:]):
     Utility for estep website.
 
     Usage:
-      estep validate [--schemadir=<dir>] [-v]
+      estep validate [--local] [--resolve] [-v]
 
     Options:
       -h, --help            Show this screen.
       -v, --verbose         Show more output.
-      --schemadir=<dir>     Use local schema directory instead of remote schemas
-
+      -l, --local           Use local schemas and data instead of remote schemas
+      -r, --resolve         Resolve remote URLs.
     """
     arguments = docopt(main.__doc__, argv, version=__version__)
 
@@ -100,7 +100,10 @@ def main(argv=sys.argv[1:]):
         LOGGER.setLevel(logging.DEBUG)
 
     if arguments['validate']:
-        validate(schemadir=arguments['--schemadir'])
+        schemadir = None
+        if arguments['--local']:
+            schemadir = 'schema'
+        validate(schemadir=schemadir, resolve=arguments['--resolve'])
 
 
 def recurseDirectory(directory, schemaType):

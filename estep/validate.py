@@ -28,6 +28,10 @@ except ImportError:
 LOGGER = logging.getLogger('estep')
 
 
+def url_ref(instance):
+    return url_local_ref(instance) and url_resolve(instance)
+
+
 def url_local_ref(instance):
     if not is_uri_orig(instance):
         return False
@@ -46,6 +50,20 @@ def url_local_ref(instance):
     return True
 
 
+def url_resolve(instance):
+    if not is_uri_orig(instance):
+        return False
+
+    try:
+        result = requests.head(instance)
+        if result.status_code == 404:
+            raise ValueError("Remote URL {0} cannot be resolved".format(ex))
+    except IOError as ex:
+        raise ValueError("Remote URL {0} cannot be resolved".format(ex))
+
+    return True
+
+
 def log_error(error, prefix=""):
     msg = prefix + error.message
     if error.cause is not None:
@@ -54,7 +72,7 @@ def log_error(error, prefix=""):
 
 
 class Validator(object):
-    def __init__(self, schema_uris, schemadir=None):
+    def __init__(self, schema_uris, schemadir=None, resolve=False):
         store = {}
         for schema_uri in schema_uris:
             if schemadir is None:
@@ -64,7 +82,7 @@ class Validator(object):
                 try:
                     request.raise_for_status()
                 except requests.exceptions.HTTPError as ex:
-                    LOGGER.error("cannot load schema %s:\n\t%s\nUse --schemadir=schema to load local schemas.", schema_uri, ex)
+                    LOGGER.error("cannot load schema %s:\n\t%s\nUse --local to load local schemas.", schema_uri, ex)
 
                 store[schema_uri] = request.json()
             else:
@@ -82,7 +100,16 @@ class Validator(object):
         types = {u'string': tuple(str_types)}
 
         format_checker = jsonschema.draft4_format_checker
-        format_checker.checkers['uri'] = (url_local_ref, ValueError)
+        if schemadir is not None:
+            if resolve:
+                LOGGER.debug("Resolving URLs and locating local references")
+                format_checker.checkers['uri'] = (url_ref, ValueError)
+            else:
+                LOGGER.debug("Locating local references")
+                format_checker.checkers['uri'] = (url_local_ref, ValueError)
+        elif resolve:
+            LOGGER.debug("Resolving URLs")
+            format_checker.checkers['uri'] = (url_resolve, ValueError)
 
         self.validators = {}
         for schema_uri in schema_uris:
