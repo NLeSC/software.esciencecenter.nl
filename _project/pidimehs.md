@@ -36,8 +36,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/university.of.amsterdam
 - http://software.esciencecenter.nl/organization/surfsara
 uses:
-startDate: '2014-09-01'
-endDate: '2016-04-01'
+startDate: 2014-09-01
+endDate: 2016-04-01
 ---
 
 Visualizing relations between politics and media during 'Verzuiling' in the Netherlands

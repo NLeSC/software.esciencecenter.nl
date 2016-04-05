@@ -26,8 +26,8 @@ principalInvestigator:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/nikhef
-startDate: '2016-05-15'
-endDate: '2019-12-31'
+startDate: 2016-05-15
+endDate: 2019-12-31
 ---
 
 Large scale statistical data analysis in particle physics

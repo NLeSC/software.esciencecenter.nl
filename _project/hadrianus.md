@@ -35,8 +35,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/knir
 - http://software.esciencecenter.nl/organization/university.of.amsterdam
 uses:
-startDate: '2014-09-01'
-endDate: '2016-04-01'
+startDate: 2014-09-01
+endDate: 2016-04-01
 ---
 
 A digital gateway to the Dutch presence in Rome through the ages
