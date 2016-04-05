@@ -106,7 +106,7 @@ class Validator(object):
                 log_error(error)
                 if len(error.context) > 0:
                     LOGGER.warning("Reasons:")
-                    for c in context:
-                        self.log_error(c, prefix="\t")
+                    for c in error.context:
+                        log_error(c, prefix="\t")
             LOGGER.warning('-------------------------------------------------')
         return len(errors)
