@@ -1,16 +1,14 @@
 ---
 name: Common Sense
 tagLine: Userfriendly web application for showing (GIS) data on a map.
-link:
-- description: repository
-  url: https://github.com/TNOCS/csWeb/
-- description: website
-  url: https://tnocs.github.io/csWeb/
-- description: documentation
-  url: https://github.com/TNOCS/csWeb/wiki/Getting-started
+codeRepository: https://github.com/TNOCS/csWeb/
+nlescWebsite:
+website: https://tnocs.github.io/csWeb/
+documentationUrl: https://github.com/TNOCS/csWeb/wiki/Getting-started
 logo:
 programmingLanguage:
-- Javascript, TypeScript
+- Javascript
+- TypeScript
 license:
 - mit
 competence:

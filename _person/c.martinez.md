@@ -1,12 +1,12 @@
 ---
 name: Carlos Martinez-Ortiz
-link:
-- description: nlescWebsite
-  url: https://www.esciencecenter.nl/profile/dr.-carlos-martinez-ortiz
-- description: github
-  url: https://github.com/c-martinez/
+nlescWebsite: https://www.esciencecenter.nl/profile/dr.-carlos-martinez-ortiz
+researchgateUrl: https://www.researchgate.net/profile/Carlos_Martinez_Ortiz
+linkedInUrl: https://www.linkedin.com/in/carlosmartinezortiz
+githubUrl: https://github.com/c-martinez
 jobTitle: eScience Research Engineer
-organization: http://software.esciencecenter.nl/organization/nlesc
+affiliation:
+- http://software.esciencecenter.nl/organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/carlos-martinez-ortiz.jpg
 contactPersonOf:
 - http://software.esciencecenter.nl/software/common-sense
