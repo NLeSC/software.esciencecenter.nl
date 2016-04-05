@@ -113,13 +113,9 @@
 			"anyOf" : [
 				 { "$ref": "person" },
 				 {
-				 	"properties" : {
-				 		"id" : {
-							"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
-				 			"type" : "string",
-				 			"format" : "uri"
-				 		}
-				 	}
+					"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+					"type" : "string",
+					"format" : "uri"
 				 }
 			]
 		},
@@ -129,13 +125,9 @@
 				 { "$ref": "person" },
 				 { "$ref": "organization" },
 				 {
-				 	"properties" : {
-				 		"id" : {
-							"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
-				 			"type" : "string",
-				 			"format" : "uri"
-				 		}
-				 	}
+					"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+					"type" : "string",
+					"format" : "uri"
 				 }
 			]
 		},
@@ -146,13 +138,9 @@
 				"anyOf" : [
 					 { "$ref": "person" },
 					 {
-					 	"properties" : {
-					 		"id" : {
-								"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
-					 			"type" : "string",
-					 			"format" : "uri"
-					 		}
-					 	}
+						"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"type" : "string",
+						"format" : "uri"
 					 }
 				]
 			}
@@ -165,13 +153,9 @@
 					 { "$ref": "person" },
 					 { "$ref": "organization" },
 					 {
-					 	"properties" : {
-					 		"id" : {
-								"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
-					 			"type" : "string",
-					 			"format" : "uri"
-					 		}
-					 	}
+						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"type" : "string",
+						"format" : "uri"
 					 }
 				]
 			}
@@ -183,13 +167,9 @@
 				"anyOf" : [
 					 { "$ref": "organization" },
 					 {
-					 	"properties" : {
-					 		"id" : {
-								"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
-					 			"type" : "string",
-					 			"format" : "uri"
-					 		}
-					 	}
+						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
+						"type" : "string",
+						"format" : "uri"
 					 }
 				]
 			}
@@ -201,13 +181,9 @@
 				"anyOf" : [
 					 { "$ref": "project" },
 					 {
-					 	"properties" : {
-					 		"id" : {
-								"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
-					 			"type" : "string",
-					 			"format" : "uri"
-					 		}
-					 	}
+						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
+						"type" : "string",
+						"format" : "uri"
 					 }
 				]
 			}
