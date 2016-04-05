@@ -93,6 +93,8 @@ class Validator(object):
         else:
             LOGGER.warning('Document: %s BAD (schema:%s)\n-------------------------------------------------\n', name, schema_uri)
             for error in errors:
-                LOGGER.warning(' > ' + error.message)
+                LOGGER.warning('Error > ')
+                LOGGER.warning('  Message    : ' + error.message)
+                LOGGER.warning('  On property: ' + '.'.join(error.relative_schema_path))
             LOGGER.warning('-------------------------------------------------')
         return len(errors)
