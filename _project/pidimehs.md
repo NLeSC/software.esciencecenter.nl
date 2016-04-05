@@ -1,9 +1,9 @@
 ---
-name: TwiNL
-tagLine: Analysis of social media messages
+name: PIDIMEHS: Pillarization and depillarization tested in digitized media historical sources
+tagLine: Visualizing relations between politics and media during 'Verzuiling' in the Netherlands
 link:
 - description: nlescWebsite
-  url: https://www.esciencecenter.nl/project/twinl
+  url: https://www.esciencecenter.nl/project/pidimehs
 competence:
   - Big Data Analytics
 discipline:
