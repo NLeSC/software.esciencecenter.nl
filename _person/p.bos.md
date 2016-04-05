@@ -1,21 +1,14 @@
 ---
 name: Patrick Bos
-link:
-- description: nlescWebsite
-  url: https://www.esciencecenter.nl/profile/patrick-bos-msc
-- description: github
-  url: https://github.com/egpbos
-- description: linkedin
-  url: https://www.linkedin.com/in/egpbos
-- description: website
-  url: http://egpbos.nl
-- description: researchgate
-  url: https://www.researchgate.net/profile/E_G_Patrick_Bos
+nlescWebsite: https://www.esciencecenter.nl/profile/patrick-bos-msc
+githubUrl: https://github.com/egpbos
+linkedInUrl: https://www.linkedin.com/in/egpbos
+website: http://egpbos.nl
+researchgateUrl: https://www.researchgate.net/profile/E_G_Patrick_Bos
 jobTitle: eScience Research Engineer
-organization: http://software.esciencecenter.nl/organization/nlesc
+affiliation:
+- http://software.esciencecenter.nl/organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/patrick-bos-new.jpg
-contactPersonOf:
-ownerOf:
 contributorOf:
 - http://software.esciencecenter.nl/software/pattyvis
 - http://software.esciencecenter.nl/software/cptm
