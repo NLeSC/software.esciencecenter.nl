@@ -41,7 +41,7 @@
       "type": "string",
       "format": "uri"
     },
-    "documentation": {
+    "documentationUrl": {
       "description": "Link to the documenation pages.",
       "type": "string",
       "format": "uri"

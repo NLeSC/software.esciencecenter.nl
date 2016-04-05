@@ -9,7 +9,7 @@ layout: default
 <img src="{{ page.logo }}" class="logo"/>
 {% endunless %}
 
-{% if page.codeRepository != null || page.nlescWebsite != null || page.website != null || page.documentation != null || page.downloadUrl != null || page.doi != null %}
+{% if page.codeRepository != null || page.nlescWebsite != null || page.website != null || page.documentationUrl != null || page.downloadUrl != null || page.doi != null %}
 <h3>Links</h3>
 <ul class="link-list">
 {% unless page.website == null %}
@@ -19,13 +19,13 @@ layout: default
 <li><a href="{{ d.nlescWebsite }}">NLeSC website</a></li>
 {% endunless %}
 {% unless page.codeRepository == null %}
-<li><a href="{{ d.codeRepository }}">Code repository</a></li>
+<li><a href="{{ d.codeRepository }}">Source code</a></li>
 {% endunless %}
 {% unless page.downloadUrl == null %}
 <li><a href="{{ d.downloadUrl }}">Download</a></li>
 {% endunless %}
-{% unless page.documentation == null %}
-<li><a href="{{ d.documentation }}">Documentation</a></li>
+{% unless page.documentationUrl == null %}
+<li><a href="{{ d.documentationUrl }}">Documentation</a></li>
 {% endunless %}
 {% unless page.doi == null %}
 <li><a href="{{ d.doi }}">DOI</a></li>
