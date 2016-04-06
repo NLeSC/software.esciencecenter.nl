@@ -46,9 +46,9 @@ class Config(object):
         with open(filename) as f:
             self.config = yaml.load(f)
 
-    def validator(self, schemadir, resolve):
+    def validator(self, schemadir, resolve_local, resolve_remote):
         schema_uris = list(self.schemas().values())
-        return Validator(schema_uris, schemadir, resolve)
+        return Validator(schema_uris, schemadir, resolve_local, resolve_remote)
 
     def schemas(self):
         schemas = {}
@@ -65,9 +65,9 @@ class Config(object):
         return collections
 
 
-def validate(schemadir, resolve):
+def validate(schemadir, resolve_local=True, resolve_remote=False):
     config = Config()
-    validator = config.validator(schemadir, resolve)
+    validator = config.validator(schemadir, resolve_local, resolve_remote)
     nr_errors = 0
     for collection in config.collections():
         LOGGER.info('Collection: %s', collection.name)
@@ -85,13 +85,14 @@ def main(argv=sys.argv[1:]):
     Utility for estep website.
 
     Usage:
-      estep validate [--local] [--resolve] [-v]
+      estep validate [--local] [--resolve] [--no-local-resolve] [-v]
 
     Options:
-      -h, --help            Show this screen.
-      -v, --verbose         Show more output.
-      -l, --local           Use local schemas and data instead of remote schemas
-      -r, --resolve         Resolve remote URLs.
+      -h, --help              Show this screen.
+      -v, --verbose           Show more output.
+      -l, --local             Use local schemas instead of remote schemas
+      -R, --no-local-resolve  Do not resolve local URLs
+      -r, --resolve           Resolve remote URLs
     """
     arguments = docopt(main.__doc__, argv, version=__version__)
 
@@ -103,7 +104,9 @@ def main(argv=sys.argv[1:]):
         schemadir = None
         if arguments['--local']:
             schemadir = 'schema'
-        validate(schemadir=schemadir, resolve=arguments['--resolve'])
+        validate(schemadir=schemadir,
+                 resolve_remote=arguments['--resolve'],
+                 resolve_local=not arguments['--no-local-resolve'])
 
 
 def recurseDirectory(directory, schemaType):
@@ -115,4 +118,3 @@ def recurseDirectory(directory, schemaType):
                 path = os.path.join(dirpath, filename)
                 obj.append((path, jekyllfile2object(path, schemaType=schemaType)))
     return obj
-
