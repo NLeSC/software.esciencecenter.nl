@@ -72,7 +72,7 @@ function fakify(group) {
 }
 
 function uniqueFieldValues(data,field) {
-  return _.uniq(_.flatten(_.map(data, function(x){ return _.get(x,field) || 'None'; })));
+  return _.uniq(_.flatten(_.map(data, function(x){ return _.get(x, field) || 'None'; })));
 }
 
 function bagFilterHandler(dimension, filter){
@@ -121,13 +121,13 @@ d3.json("/software.json", function (software_data) {
   var ndx = crossfilter(software_data);
 
   var softwareDimension = ndx.dimension(function(d) { return d['@id']; });
-  var disciplineDimension = ndx.dimension(function(d) { return d.discipline; });
-  var competenceDimension = ndx.dimension(function(d) { return d.competence; });
-  var expertiseDimension = ndx.dimension(function(d) { return d.expertise; });
-  var programmingLanguageDimension =  ndx.dimension(function(d) { return d.programmingLanguage; });
-  var supportLevelDimension = ndx.dimension(function(d) { return d.supportLevel; });
-  var statusDimension = ndx.dimension(function(d) { return d.status; });
-  var technologyTagDimension = ndx.dimension(function(d) { return d.technologyTag; });
+  var disciplineDimension = ndx.dimension(function(d) { return d.discipline || 'None'; });
+  var competenceDimension = ndx.dimension(function(d) { return d.competence || 'None'; });
+  var expertiseDimension = ndx.dimension(function(d) { return d.expertise || 'None'; });
+  var programmingLanguageDimension =  ndx.dimension(function(d) { return d.programmingLanguage || 'None'; });
+  var supportLevelDimension = ndx.dimension(function(d) { return d.supportLevel || 'None'; });
+  var statusDimension = ndx.dimension(function(d) { return d.status || 'None'; });
+  var technologyTagDimension = ndx.dimension(function(d) { return d.technologyTag || 'None'; });
 
   var disciplineValues = uniqueFieldValues(software_data,'discipline');
   var fakeDisciplineGroup = fakify(disciplineDimension.groupAll().reduce(reduceFieldsAdd(disciplineValues,'discipline'), reduceFieldsRemove(disciplineValues,'discipline'), reduceFieldsInitial(disciplineValues)));
