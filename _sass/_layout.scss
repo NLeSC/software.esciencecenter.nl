@@ -252,6 +252,24 @@
     margin-bottom: 10px;
 }
 
+.properties {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+
+.property {
+  /* keep property in single column. */
+  overflow: hidden; /* fix for Firefox */
+  break-inside: avoid-column;
+  page-break-inside: avoid-column;
+  -webkit-column-break-inside: avoid;
+}
+
+.properties h3, .property h3 {
+  font-size: 1.1em;
+}
+
 /**
  * Software overview page
  */
@@ -323,7 +341,7 @@
     font-weight: bold;
 }
 
-.deselected {opacity:0} 
+.deselected {opacity:0}
 
 .chart-container {
     margin-right: 15px;

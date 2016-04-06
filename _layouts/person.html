@@ -14,8 +14,9 @@ layout: default
 
 <hr/>
 
-
+<div class="properties">
 {% if page.nlescWebsite != null || page.website != null || page.twitterUrl != null || page.linkedInUrl != null || page.githubUrl != null || page.researchgateUrl != null %}
+<div class="property">
 <h3>Links</h3>
 <ul class="link-list">
 {% unless page.website == null %}
@@ -37,32 +38,38 @@ layout: default
 <li><a href="{{ page.linkedInUrl }}">LinkedIn</a></li>
 {% endunless %}
 </ul>
+</div>
 {% endif %}
 
 
 {% capture d %}{{ page.contactPersonOf }}{% endcapture %}
 {% if d != empty %}
+<div class="property">
 	<h3>Contact person of</h3>
 	<ul class="contact-person-of-list">
 	{% for d in page.contactPersonOf %}
 		<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d }}">{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 	</ul>
+</div>
 {% endif %}
 
 {% capture d %}{{ page.ownerOf }}{% endcapture %}
 {% if d != empty %}
+<div class="property">
 	<h3>Owner of</h3>
 	<ul class="owner-of-list">
 	{% for d in page.ownerOf %}
 		<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d }}">{% for p in site.software %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
 	{% endfor %}
 	</ul>
+</div>
 {% endif %}
 
 
 {% capture d %}{{ page.engineerOf }}{% endcapture %}
 {% if d != empty %}
+<div class="property">
 	<h3>eScience Engineer in</h3>
 	<ul class="engineer-of-list">
 	{% for d in page.engineerOf %}
@@ -83,10 +90,12 @@ layout: default
 	</li>
 	{% endfor %}
 	</ul>
+</div>
 {% endif %}
 
 {% capture d %}{{ page.contributorOf }}{% endcapture %}
 {% if d != empty %}
+<div class="property">
 	<h3>Contributes to</h3>
 	<ul class="contributor-of-list">
 	{% for d in page.contributorOf %}
@@ -107,10 +116,12 @@ layout: default
 	</li>
 	{% endfor %}
 	</ul>
+</div>
 {% endif %}
 
 {% capture d %}{{ page.userOf }}{% endcapture %}
 {% if d != empty %}
+<div class="property">
 	<h3>User of</h3>
 	<ul class="user-of-list">
 	{% for d in page.userOf %}
@@ -131,7 +142,9 @@ layout: default
 	</li>
 	{% endfor %}
 	</ul>
+</div>
 {% endif %}
+</div>
 
 <hr/>
 
