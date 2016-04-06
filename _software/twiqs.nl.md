@@ -13,10 +13,21 @@ expertise:
 - Text Mining
 - Information Retrieval
 supportLevel: basic
-contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
-owner: http://software.esciencecenter.nl/person/e.tjongkimsang
+contactPerson:
+  name: Erik Tjong Kim Sang
+  affiliation:
+  - http://software.esciencecenter.nl/organization/meertens
+  website: http://ifarm.nl/erikt/
+owner:
+  name: Erik Tjong Kim Sang
+  affiliation:
+  - http://software.esciencecenter.nl/organization/meertens
+  website: http://ifarm.nl/erikt/
 contributor:
-- http://software.esciencecenter.nl/person/e.tjongkimsang
+- name: Erik Tjong Kim Sang
+  affiliation:
+  - http://software.esciencecenter.nl/organization/meertens
+  website: http://ifarm.nl/erikt/
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/radboud.university.nijmegen

@@ -1,8 +1,7 @@
 ---
 name: Common Sense
-tagLine: Userfriendly web application for showing (GIS) data on a map.
+tagLine: User-friendly web application for showing (GIS) data on a map.
 codeRepository: https://github.com/TNOCS/csWeb/
-nlescWebsite:
 website: https://tnocs.github.io/csWeb/
 documentationUrl: https://github.com/TNOCS/csWeb/wiki/Getting-started
 logo:
@@ -19,7 +18,7 @@ expertise:
 - Information Visualization
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/c.martinez
-owner: 
+owner:
   name: Erik Vullings
   githubUrl: https://github.com/erikvullings
   affiliation:
