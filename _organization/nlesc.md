@@ -13,6 +13,8 @@ organizationOf:
 - http://software.esciencecenter.nl/person/j.maassen
 - http://software.esciencecenter.nl/person/n.drost
 - http://software.esciencecenter.nl/person/r.vannieuwpoort
+- http://software.esciencecenter.nl/person/j.hidding
+- http://software.esciencecenter.nl/person/b.weel
 ownerOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/noodles
