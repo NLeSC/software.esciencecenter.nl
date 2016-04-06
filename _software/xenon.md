@@ -30,21 +30,25 @@ contributor:
 - http://software.esciencecenter.nl/person/j.maassen
 - http://software.esciencecenter.nl/person/n.drost
 - http://software.esciencecenter.nl/person/r.vannieuwpoort
+- http://software.esciencecenter.nl/person/j.borgdorff
 user:
 - http://software.esciencecenter.nl/person/j.maassen
 - http://software.esciencecenter.nl/person/n.drost
 - http://software.esciencecenter.nl/person/s.verhoeven
+- http://software.esciencecenter.nl/person/j.borgdorff
 - http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 usedIn:
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/emetabolomics
+- http://software.esciencecenter.nl/project/simcity
 startDate: 2013-04-12
 status: active
 dependency:
 dependencyOf:
 - http://software.esciencecenter.nl/software/noodles
+- http://software.esciencecenter.nl/software/pyxenon
 technologyTag:
 - Distributed
 - Library

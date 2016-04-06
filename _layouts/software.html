@@ -13,22 +13,22 @@ layout: default
 <h3>Links</h3>
 <ul class="link-list">
 {% unless page.website == null %}
-<li><a href="{{ d.website }}">website</a></li>
+<li><a href="{{ page.website }}">website</a></li>
 {% endunless %}
 {% unless page.nlescWebsite == null %}
-<li><a href="{{ d.nlescWebsite }}">NLeSC website</a></li>
+<li><a href="{{ page.nlescWebsite }}">NLeSC website</a></li>
 {% endunless %}
 {% unless page.codeRepository == null %}
-<li><a href="{{ d.codeRepository }}">Source code</a></li>
+<li><a href="{{ page.codeRepository }}">Source code</a></li>
 {% endunless %}
 {% unless page.downloadUrl == null %}
-<li><a href="{{ d.downloadUrl }}">Download</a></li>
+<li><a href="{{ page.downloadUrl }}">Download</a></li>
 {% endunless %}
 {% unless page.documentationUrl == null %}
-<li><a href="{{ d.documentationUrl }}">Documentation</a></li>
+<li><a href="{{ page.documentationUrl }}">Documentation</a></li>
 {% endunless %}
 {% unless page.doi == null %}
-<li><a href="{{ d.doi }}">DOI</a></li>
+<li><a href="{{ page.doi }}">DOI</a></li>
 {% endunless %}
 </ul>
 {% endif %}

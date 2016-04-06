@@ -14,6 +14,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/xenon
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/pyxenon
 userOf:
 - http://software.esciencecenter.nl/software/xenon
 engineerOf:
