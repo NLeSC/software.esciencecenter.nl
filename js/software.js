@@ -72,7 +72,7 @@ function fakify(group) {
 }
 
 function uniqueFieldValues(data,field) {
-  return _.uniq(_.flatten(_.map(data, function(x){ return _.get(x,field) || None; })));
+  return _.uniq(_.flatten(_.map(data, function(x){ return _.get(x,field) || 'None'; })));
 }
 
 function bagFilterHandler(dimension, filter){
