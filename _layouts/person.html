@@ -19,22 +19,22 @@ layout: default
 <h3>Links</h3>
 <ul class="link-list">
 {% unless page.website == null %}
-<li><a href="{{ d.website }}">website</a></li>
+<li><a href="{{ page.website }}">website</a></li>
 {% endunless %}
 {% unless page.nlescWebsite == null %}
-<li><a href="{{ d.nlescWebsite }}">NLeSC website</a></li>
+<li><a href="{{ page.nlescWebsite }}">NLeSC website</a></li>
 {% endunless %}
 {% unless page.researchgateUrl == null %}
-<li><a href="{{ d.researchgateUrl }}">ResearchGate</a></li>
+<li><a href="{{ page.researchgateUrl }}">ResearchGate</a></li>
 {% endunless %}
 {% unless page.githubUrl == null %}
-<li><a href="{{ d.githubUrl }}">GitHub</a></li>
+<li><a href="{{ page.githubUrl }}">GitHub</a></li>
 {% endunless %}
 {% unless page.twitterUrl == null %}
-<li><a href="{{ d.twitterUrl }}">Twitter</a></li>
+<li><a href="{{ page.twitterUrl }}">Twitter</a></li>
 {% endunless %}
 {% unless page.linkedInUrl == null %}
-<li><a href="{{ d.linkedInUrl }}">LinkedIn</a></li>
+<li><a href="{{ page.linkedInUrl }}">LinkedIn</a></li>
 {% endunless %}
 </ul>
 {% endif %}
