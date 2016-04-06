@@ -42,7 +42,7 @@
 			"format": "uri"
 		},
 		"documentationUrl": {
-			"description": "Link to the documenation pages.",
+			"description": "Link to the documentation pages.",
 			"type": "string",
 			"format": "uri"
 		},
@@ -62,7 +62,7 @@
 			"format" : "uri"
 		},
 		"programmingLanguage" : {
-			"description": "Programming languages used in the sofware or supported by the software.",
+			"description": "Programming languages used in the software or supported by the software.",
 			"type" : "array",
 			"items" : {
 					"description" : "e.g. C, C++, Java, Python, R, JavaScript, PHP, TypeScript, etc. See https://github.com/github/linguist",
