@@ -128,12 +128,20 @@ class Validator(object):
         if has_errors:
             LOGGER.info('Document: %s OK', name)
         else:
-            LOGGER.warning('Document: %s BAD (schema:%s)\n-------------------------------------------------\n', name, schema_uri)
+            warning_msg = 'Document: {0} BAD (schema: {1})'.format(name, schema_uri)
+            separator = '-'*len(warning_msg)
+            LOGGER.warning(separator)
+            LOGGER.warning(warning_msg)
+            LOGGER.warning(separator + '\n')
             for error in errors:
-                log_error(error)
+                LOGGER.warning('* Error      : ' + error.message)
+                if error.cause is not None:
+                    LOGGER.warning('  Cause      : ' + str(error.cause))
+                LOGGER.warning('  On property: ' + '.'.join(list(error.relative_schema_path)[1:]))
                 if len(error.context) > 0:
-                    LOGGER.warning("Reasons:")
+                    LOGGER.warning('  Reasons    :')
                     for c in error.context:
-                        log_error(c, prefix="\t")
-            LOGGER.warning('-------------------------------------------------')
+                        LOGGER.warning('  - Error: ' + c.message)
+                        if c.cause is not None:
+                            LOGGER.warning('    Cause: ' + str(c.cause))
         return len(errors)
