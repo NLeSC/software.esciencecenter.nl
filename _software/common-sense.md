@@ -19,26 +19,23 @@ expertise:
 - Information Visualization
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/c.martinez
-owner: http://software.esciencecenter.nl/person/erikvullings
+owner: 
+  name: Erik Vullings
+  githubUrl: https://github.com/erikvullings
+  affiliation:
+  - http://software.esciencecenter.nl/organization/tno
 contributor:
 - http://software.esciencecenter.nl/person/c.martinez
-- http://software.esciencecenter.nl/person/
 - name: Erik Vullings
-  link:
-  - description: github
-    url: https://github.com/erikvullings
+  githubUrl: https://github.com/erikvullings
+  affiliation:
+  - http://software.esciencecenter.nl/organization/tno
 user:
 - http://software.esciencecenter.nl/organization/nlesc
-- name: TNO
-  link:
-  - description: website
-    url: https://github.com/TNOCS/
+- http://software.esciencecenter.nl/organization/tno
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-- name: TNO
-  link:
-  - description: website
-    url: https://github.com/TNOCS/
+- http://software.esciencecenter.nl/organization/tno
 usedIn:
 - http://software.esciencecenter.nl/project/simcity
 startDate: '2014-09-11'
