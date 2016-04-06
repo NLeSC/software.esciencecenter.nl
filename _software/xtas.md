@@ -19,10 +19,9 @@ expertise:
 - Text Mining
 - Distributed Computing
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/l.buitinck
-owner: http://software.esciencecenter.nl/person/l.buitinck
+contactPerson: 
+owner: 
 contributor:
-- http://software.esciencecenter.nl/person/l.buitinck
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva
