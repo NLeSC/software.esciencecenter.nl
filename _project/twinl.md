@@ -16,7 +16,10 @@ dataFormat:
 - JSON
 contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
 engineer:
-- http://software.esciencecenter.nl/person/e.tjongkimsang
+- name: Erik Tjong Kim Sang
+  affiliation:
+  - http://software.esciencecenter.nl/organization/meertens
+  website: http://ifarm.nl/erikt/
 principalInvestigator:
   - name: Prof. Antal van den Bosch
     affiliation:
