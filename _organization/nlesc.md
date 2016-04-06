@@ -10,9 +10,14 @@ involvedIn:
 - http://software.esciencecenter.nl/project/emetabolomics
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven
+- http://software.esciencecenter.nl/person/j.maassen
+- http://software.esciencecenter.nl/person/n.drost
+- http://software.esciencecenter.nl/person/r.vannieuwpoort
 ownerOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/noodles
+userOf:
+- http://software.esciencecenter.nl/software/xenon
 ---
 Historically, scientific domains were defined by their own unique tools (microscopes, telescopes, distillation glass). Nowadays, the most important tool in all scientific disciplines is the computer. In this digital era, eScience is the developing discipline that provides the domain overarching software instruments (software, workflows and protocols) to support diverse scientific initiatives – making possible the creation of new, even unforeseen, applications – with the potential to transform current scientific practice, optimize scientific investments and significantly accelerate scientific discovery. eScience has the potential to underpin all scientific endeavor in the same way that applied mathematics currently does.
 
