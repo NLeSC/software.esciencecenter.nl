@@ -15,9 +15,9 @@ contributorOf:
 userOf:
 - http://software.esciencecenter.nl/software/xtas
 engineerOf:
-- https://software.esciencecenter.nl/project/pidimehs
-- https://software.esciencecenter.nl/project/hadrianus
-- https://software.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
+- http://software.esciencecenter.nl/project/pidimehs
+- http://software.esciencecenter.nl/project/hadrianus
+- http://software.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
 ---
 Patrick has studied astronomy and philosophy and is finishing his PhD in cosmology at the Kapteyn Astronomical Institute of the University of Groningen. Patrick has worked on theoretical and observational problems in cosmology and extragalactic astronomy and has always taken a strongly computational approach.
 
