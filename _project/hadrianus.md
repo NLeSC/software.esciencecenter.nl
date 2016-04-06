@@ -19,17 +19,14 @@ engineer:
 - http://software.esciencecenter.nl/person/p.bos
 principalInvestigator:
   - name: Dr. Arthur Weststeijn
-    organization: http://software.esciencecenter.nl/organization/knir
-    link:
-    - description: website
-      url: http://www.knir.it/en/arthur-weststeijn.html
+    affiliation:
+    - http://software.esciencecenter.nl/organization/knir
+    website: http://www.knir.it/en/arthur-weststeijn.html
   - name: Dr. Marieke van den Doel
-    organization:
+    affiliation:
     - http://software.esciencecenter.nl/organization/university.of.amsterdam
     - http://software.esciencecenter.nl/organization/knir
-    link:
-    - description: website
-      url: http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/d/o/m.j.e.vandendoel/m.j.e.vandendoel.html
+    website: http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/d/o/m.j.e.vandendoel/m.j.e.vandendoel.html
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/knir

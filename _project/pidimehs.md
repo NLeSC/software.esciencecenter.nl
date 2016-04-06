@@ -21,15 +21,13 @@ engineer:
 - http://software.esciencecenter.nl/person/p.bos
 principalInvestigator:
   - name: Prof. Huub Wijfjes
-    organization: http://software.esciencecenter.nl/organization/university.of.groningen
-    link:
-    - description: website
-      url: http://www.huubwijfjes.nl/
+    affiliation:
+    - http://software.esciencecenter.nl/organization/university.of.groningen
+    website: http://www.huubwijfjes.nl/
   - name: Prof. Gerrit Voerman
-    organization: http://software.esciencecenter.nl/organization/university.of.groningen
-    link:
-    - description: website
-      url: http://www.rug.nl/staff/g.voerman/
+    affiliation:
+    - http://software.esciencecenter.nl/organization/university.of.groningen
+    website: http://www.rug.nl/staff/g.voerman/
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/university.of.groningen

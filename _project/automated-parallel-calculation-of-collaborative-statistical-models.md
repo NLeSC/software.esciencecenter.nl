@@ -19,10 +19,9 @@ engineer:
 - http://software.esciencecenter.nl/person/p.bos
 principalInvestigator:
   - name: Dr. Wouter Verkerke
-    organization: http://software.esciencecenter.nl/organization/nikhef
-    link:
-    - description: website
-      url: https://www.nikhef.nl/en/for-nikhef-users/departments/scientific-departments/atlas/atlas-staff/?groupview=0&search=Wouter%20Verkerke
+    affiliation:
+    - http://software.esciencecenter.nl/organization/nikhef
+    website: https://www.nikhef.nl/en/for-nikhef-users/departments/scientific-departments/atlas/atlas-staff/?groupview=0&search=Wouter%20Verkerke
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/nikhef
