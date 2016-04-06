@@ -89,7 +89,7 @@ layout: default
 <h3>Dependencies</h3>
 <ul class="dependency-list">
 {% for d in page.dependency %}
-	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.project %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.website != null %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.website != null %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.software %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{% if pname %}{{ p.name }}{% else %}{{ pname }}{% endif %}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.website != null %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.website != null %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
 	{% endfor %}
 </ul>
 {% endif %}
@@ -98,7 +98,7 @@ layout: default
 <h3>Dependency of</h3>
 <ul class="dependency-of-list">
 {% for d in page.dependencyOf %}
-	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.project %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.website != null %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.website != null %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.software %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{% if pname %}{{ p.name }}{% else %}{{ pname }}{% endif %}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.website != null %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.website != null %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
 	{% endfor %}
 </ul>
 {% endif %}
