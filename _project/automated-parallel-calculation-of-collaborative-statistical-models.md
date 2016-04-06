@@ -8,7 +8,7 @@ competence:
 discipline:
   - Physics & Beyond
 expertise:
-  - Accellerated Computing
+  - Accelerated Computing
   - High Performance Computing
 infrastructure: DAS5 and NIKHEF computer cluster for testing and benchmarking
 dataMagnitude: TB
