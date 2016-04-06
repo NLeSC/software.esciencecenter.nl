@@ -1,8 +1,7 @@
 ---
 name: Common Sense
-tagLine: Userfriendly web application for showing (GIS) data on a map.
+tagLine: User-friendly web application for showing (GIS) data on a map.
 codeRepository: https://github.com/TNOCS/csWeb/
-nlescWebsite:
 website: https://tnocs.github.io/csWeb/
 documentationUrl: https://github.com/TNOCS/csWeb/wiki/Getting-started
 logo:
@@ -19,26 +18,16 @@ expertise:
 - Information Visualization
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/c.martinez
-owner: http://software.esciencecenter.nl/person/erikvullings
+owner: http://software.esciencecenter.nl/person/e.vullings
 contributor:
 - http://software.esciencecenter.nl/person/c.martinez
-- http://software.esciencecenter.nl/person/
-- name: Erik Vullings
-  link:
-  - description: github
-    url: https://github.com/erikvullings
+- http://software.esciencecenter.nl/person/e.vullings
 user:
 - http://software.esciencecenter.nl/organization/nlesc
-- name: TNO
-  link:
-  - description: website
-    url: https://github.com/TNOCS/
+- http://software.esciencecenter.nl/organization/tno
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-- name: TNO
-  link:
-  - description: website
-    url: https://github.com/TNOCS/
+- http://software.esciencecenter.nl/organization/tno
 usedIn:
 - http://software.esciencecenter.nl/project/simcity
 startDate: '2014-09-11'
