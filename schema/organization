@@ -23,11 +23,11 @@
 			"description": "Organization description.",
 			"type" : "string"
 		},
-    "website": {
-      "description": "Link to the main website.",
-      "type": "string",
-      "format": "uri"
-    },
+		"website": {
+		  "description": "Link to the main website.",
+		  "type": "string",
+		  "format": "uri"
+		},
 		"researchgateUrl": {
 			"description": "Institution ResearchGate profile (e.g. https://www.researchgate.net/institution/Netherlands_eScience_Center).",
 			"type": "string",
@@ -75,6 +75,15 @@
 			"type": "array",
 			"items": {
 				"description" : "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics",
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"userOf" : {
+			"description" : "Software that the organization uses.",
+			"type": "array",
+			"items": {
+				"description" : "ID of software, preferably an URI where the software's metadata can be resolved, e.g., http://software.esciencecenter.nl/software/xenon",
 				"type" : "string",
 				"format" : "uri"
 			}

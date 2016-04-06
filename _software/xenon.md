@@ -33,6 +33,7 @@ contributor:
 user:
 - http://software.esciencecenter.nl/person/j.maassen
 - http://software.esciencecenter.nl/person/n.drost
+- http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
