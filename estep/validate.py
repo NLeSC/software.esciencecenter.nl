@@ -38,7 +38,10 @@ def url_local_ref(instance):
 
     # lookup local files locally
     if '://software.esciencecenter.nl/' in instance:
-        path = instance.split('://software.esciencecenter.nl/')[1]
+        prefix, path = instance.split('://software.esciencecenter.nl/')
+        if prefix == 'https':
+            raise ValueError('For the time being, use http instead of https prefixes for http://software.esciencecenter.nl')
+
         # remove additional indicator
         path = path.split('#')[0]
         location = '_' + path + '.md'
