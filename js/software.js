@@ -22,12 +22,13 @@ function deterministicShuffle(a,seed){
 function reduceFieldsAdd(fields,fieldname) {
   return function(p, v) {
     var values = v[fieldname];
-
-    fields.forEach(function(f) {
-      if (values.indexOf(f) > -1) {
-        p[f] += 1;
-      }
-    });
+    if (values) {
+      fields.forEach(function(f) {
+        if (values.indexOf(f) > -1) {
+          p[f] += 1;
+        }
+      });
+    }
     return p;
   };
 }
@@ -35,11 +36,13 @@ function reduceFieldsRemove(fields,fieldname) {
   return function(p, v) {
     var values = v[fieldname];
 
-    fields.forEach(function(f) {
-      if (values.indexOf(f) > -1) {
-        p[f] -= 1;
-      }
-    });
+    if (values) {
+      fields.forEach(function(f) {
+        if (f && values.indexOf(f) > -1) {
+          p[f] -= 1;
+        }
+      });
+    }
     return p;
   };
 }
@@ -66,11 +69,11 @@ function fakify(group) {
       }
       return result;
     }
-  }
-};
+  };
+}
 
 function uniqueFieldValues(data,field) {
-  return _.uniq(_.flatten(_.map(data,function(x){return _.get(x,field)})));
+  return _.uniq(_.flatten(_.map(data,function(x){return _.get(x,field);})));
 }
 
 function bagFilterHandler(dimension, filter){
@@ -265,7 +268,6 @@ d3.json("/software.json", function (software_data) {
     .sortBy(function(d){ return d.name; })
     // (optional) sort order, :default ascending
     .order(d3.ascending);
-
 
   dc.renderAll();
 });
