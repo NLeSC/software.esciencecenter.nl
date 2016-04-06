@@ -35,7 +35,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/vua
 usedIn:
 - http://software.esciencecenter.nl/project/computational-chemistry-made-easy
-startDate: '2015-10-11'
+startDate: 2015-10-11
 status: active
 dependency:
 - http://software.esciencecenter.nl/software/xenon

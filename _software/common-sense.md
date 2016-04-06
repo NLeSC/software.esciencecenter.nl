@@ -37,7 +37,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/tno
 usedIn:
 - http://software.esciencecenter.nl/project/simcity
-startDate: '2014-09-11'
+startDate: 2014-09-11
 status: active
 dependency:
 dependencyOf:
