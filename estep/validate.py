@@ -38,7 +38,10 @@ def url_local_ref(instance):
 
     # lookup local files locally
     if '://software.esciencecenter.nl/' in instance:
-        path = instance.split('://software.esciencecenter.nl/')[1]
+        prefix, path = instance.split('://software.esciencecenter.nl/')
+        if prefix == 'https':
+            raise ValueError('For the time being, use http instead of https prefixes for http://software.esciencecenter.nl')
+
         # remove additional indicator
         path = path.split('#')[0]
         location = '_' + path + '.md'
@@ -57,9 +60,9 @@ def url_resolve(instance):
     try:
         result = requests.head(instance)
         if result.status_code == 404:
-            raise ValueError("Remote URL {0} cannot be resolved".format(ex))
+            raise ValueError("Remote URL {0} cannot be resolved: not found.".format(instance))
     except IOError as ex:
-        raise ValueError("Remote URL {0} cannot be resolved".format(ex))
+        raise ValueError("Remote URL {0} cannot be resolved: {1}".format(instance, ex))
 
     return True
 
@@ -72,7 +75,7 @@ def log_error(error, prefix=""):
 
 
 class Validator(object):
-    def __init__(self, schema_uris, schemadir=None, resolve=False):
+    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False):
         store = {}
         for schema_uri in schema_uris:
             if schemadir is None:
@@ -100,14 +103,13 @@ class Validator(object):
         types = {u'string': tuple(str_types)}
 
         format_checker = jsonschema.draft4_format_checker
-        if schemadir is not None:
-            if resolve:
-                LOGGER.debug("Resolving URLs and locating local references")
-                format_checker.checkers['uri'] = (url_ref, ValueError)
-            else:
-                LOGGER.debug("Locating local references")
-                format_checker.checkers['uri'] = (url_local_ref, ValueError)
-        elif resolve:
+        if resolve_local and resolve_remote:
+            LOGGER.debug("Resolving URLs and locating local references")
+            format_checker.checkers['uri'] = (url_ref, ValueError)
+        elif resolve_local:
+            LOGGER.debug("Locating local references")
+            format_checker.checkers['uri'] = (url_local_ref, ValueError)
+        elif resolve_remote:
             LOGGER.debug("Resolving URLs")
             format_checker.checkers['uri'] = (url_resolve, ValueError)
 
