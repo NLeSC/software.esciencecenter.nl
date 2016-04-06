@@ -104,9 +104,10 @@ layout: default
 {% endif %}
 
 <h3>Contact Person</h3>
-{% capture d %}{{ page.contactPerson }}{% endcapture %}
+{% capture d %}{{ page.contactPerson.name }}{% endcapture %}
 {% capture pname %}{% endcapture %}
-{% if d contains site.url %}
+{% if page.contactPerson.name == null %}
+{% capture d %}{{ page.contactPerson }}{% endcapture %}
 	<a href="{{ d }}">
 	{% capture pname %}{{ d }}{% endcapture %}
 	{% for p in site.person %}

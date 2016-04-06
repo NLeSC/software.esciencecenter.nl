@@ -386,7 +386,7 @@ ul li:last-child:after {
     text-align: center;
     vertical-align: middle;
 }
-.person-photo {
+.person-photo, .empty-person-photo  {
     width: 125px;
     display: block;
     margin: 30px;
@@ -427,6 +427,7 @@ img.empty {
  */
 .project-page-logo, .organization-page-logo {
     border: 1px solid #DDD;
+    width: 400px;
     padding: 30px;
     padding-bottom: 50px;
     padding-top: 50px;
