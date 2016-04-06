@@ -25,14 +25,14 @@ contributor:
 - http://software.esciencecenter.nl/person/b.weel
 - name: Felipe Zapata
   githubUrl: https://github.com/felipeZ
+  affiliation:
+    - http://software.esciencecenter.nl/organization/vua
 user:
 - http://software.esciencecenter.nl/organization/nlesc
-- name: VU University Amsterdam
-  website: http://www.vu.nl/
+- http://software.esciencecenter.nl/organization/vua
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-- name: VU University Amsterdam
-  website: http://www.vu.nl/
+- http://software.esciencecenter.nl/organization/vua
 usedIn:
 - http://software.esciencecenter.nl/project/computational-chemistry-made-easy
 startDate: '2015-10-11'

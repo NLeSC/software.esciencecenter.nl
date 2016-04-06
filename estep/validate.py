@@ -14,34 +14,43 @@
 
 import datetime
 import json
-from os.path import isfile
+import os
 import logging
 import jsonschema
 import requests
-from jsonschema._validators import ref as reforig
+
+try:
+    from jsonschema._format import is_uri as is_uri_orig
+except ImportError:
+    def is_uri_orig(instance):
+        pass
 
 LOGGER = logging.getLogger('estep')
 
 
-def refping(validator, ref, instance, schema):
-    reforig(validator, ref, instance, schema)
+def url_local_ref(instance):
+    if not is_uri_orig(instance):
+        return False
 
-    # Check if Markdown file belonging to url exists
-    if validator.is_type(instance, "string"):
-        instance_fn = instance.replace('http://software.esciencecenter.nl/', '_') + '.md'
-        if not isfile(instance_fn):
-            err = "{} not found locally as {}".format(instance, instance_fn)
-            LOGGER.debug(err)
-            # FIXME yield is not captured as an error
-            yield jsonschema.ValidationError(err)
+    # lookup local files locally
+    if '://software.esciencecenter.nl/' in instance:
+        path = instance.split('://software.esciencecenter.nl/')[1]
+        # remove additional indicator
+        path = path.split('#')[0]
+        location = '_' + path + '.md'
+        # do not look for missing directories.
+        if os.path.isdir(os.path.dirname(location)) and not os.path.isfile(location):
+            err = "{} not found locally as {}".format(instance, location)
+            raise ValueError(err)
+
+    return True
 
 
-Draft4Validator4eStep = jsonschema.validators.extend(
-    validator=jsonschema.validators.Draft4Validator,
-    validators={
-        u"$ref": refping,
-    }
-)
+def log_error(error, prefix=""):
+    msg = prefix + error.message
+    if error.cause is not None:
+        msg += ": " + str(error.cause)
+    LOGGER.warning(msg)
 
 
 class Validator(object):
@@ -73,16 +82,17 @@ class Validator(object):
         types = {u'string': tuple(str_types)}
 
         format_checker = jsonschema.draft4_format_checker
+        format_checker.checkers['uri'] = (url_local_ref, ValueError)
 
         self.validators = {}
         for schema_uri in schema_uris:
             schema = store[schema_uri]
             resolver = jsonschema.RefResolver(schema_uri, schema,  store=store)
-            self.validators[schema_uri] = Draft4Validator4eStep(schema,
-                                                                resolver=resolver,
-                                                                types=types,
-                                                                format_checker=format_checker,
-                                                                )
+            self.validators[schema_uri] = jsonschema.validators.Draft4Validator(schema,
+                                                                                resolver=resolver,
+                                                                                types=types,
+                                                                                format_checker=format_checker,
+                                                                                )
 
     def validate(self, name, instance):
         schema_uri = instance['schema']
@@ -95,6 +105,13 @@ class Validator(object):
             for error in errors:
                 LOGGER.warning('Error > ')
                 LOGGER.warning('  Message    : ' + error.message)
+                if error.cause is not None:
+                    LOGGER.warning('  Cause      : ' + str(error.cause))
                 LOGGER.warning('  On property: ' + '.'.join(error.relative_schema_path))
-            LOGGER.warning('-------------------------------------------------')
+                if len(error.context) > 0:
+                    LOGGER.warning('  Underlying :')
+                    for c in error.context:
+                        LOGGER.warning('  - Message: ' + c.message)
+                        if c.cause is not None:
+                            LOGGER.warning('    Cause  : ' + str(c.cause))
         return len(errors)
