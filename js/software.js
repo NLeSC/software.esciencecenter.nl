@@ -21,7 +21,7 @@ function deterministicShuffle(a,seed){
 
 function reduceFieldsAdd(fields,fieldname) {
   return function(p, v) {
-    var values = v[fieldname];
+    var values = v[fieldname] || 'None';
 
     fields.forEach(function(f) {
       if (values.indexOf(f) > -1) {
@@ -34,7 +34,7 @@ function reduceFieldsAdd(fields,fieldname) {
 }
 function reduceFieldsRemove(fields,fieldname) {
   return function(p, v) {
-    var values = v[fieldname];
+    var values = v[fieldname] || 'None';
 
     fields.forEach(function(f) {
       if (values.indexOf(f) > -1) {
