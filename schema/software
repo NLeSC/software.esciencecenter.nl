@@ -31,31 +31,31 @@
 			"type": "string",
 			"format": "uri"
 		},
-    "nlescWebsite": {
-      "description": "Link to the associated page on the NLeSC website (e.g. https://www.esciencecenter.nl/technology/software/xenon).",
-      "type": "string",
-      "format": "uri"
-    },
-    "website": {
-      "description": "Link to the main website.",
-      "type": "string",
-      "format": "uri"
-    },
-    "documentationUrl": {
-      "description": "Link to the documenation pages.",
-      "type": "string",
-      "format": "uri"
-    },
-    "downloadUrl": {
+		"nlescWebsite": {
+			"description": "Link to the associated page on the NLeSC website (e.g. https://www.esciencecenter.nl/technology/software/xenon).",
+			"type": "string",
+			"format": "uri"
+		},
+		"website": {
+			"description": "Link to the main website.",
+			"type": "string",
+			"format": "uri"
+		},
+		"documentationUrl": {
+			"description": "Link to the documenation pages.",
+			"type": "string",
+			"format": "uri"
+		},
+		"downloadUrl": {
 			"description": "Link to download page (e.g. Github releases, PyPi, npm, jcenter).",
 			"type": "string",
-    	"format": "uri"
-    },
-    "doi": {
-      "description": "URL of a relevant DOI (e.g. http://dx.doi.org/10.5281/zenodo.35415).",
-      "type": "string",
-      "format": "uri"
-    },
+			"format": "uri"
+		},
+		"doi": {
+			"description": "URL of a relevant DOI (e.g. http://dx.doi.org/10.5281/zenodo.35415).",
+			"type": "string",
+			"format": "uri"
+		},
 		"logo" : {
 			"description" : "URL to an image of the logo of the organization.",
 			"type" : "string",
@@ -99,8 +99,8 @@
 			"items" : {
 				"type" : "string",
 				"enum" : ["Text Mining", "Machine Learning", "Information Visualization", "Scientific Visualization", "Information Retrieval", "Computer Vision",
-						  "Handling Sensor Data", "Linked Data", "Information Integration", "Databases", "Data Assimilation",
-						  "Distributed Computing", "Accellerated Computing", "Low Power Computing", "Orchestrated Computing", "High Performance Computing"]
+				          "Handling Sensor Data", "Linked Data", "Information Integration", "Databases", "Data Assimilation",
+				          "Distributed Computing", "Accellerated Computing", "Low Power Computing", "Orchestrated Computing", "High Performance Computing"]
 			}
 		},
 		"supportLevel" : {
@@ -113,13 +113,9 @@
 			"anyOf" : [
 				 { "$ref": "person" },
 				 {
-				 	"properties" : {
-				 		"id" : {
-							"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
-				 			"type" : "string",
-				 			"format" : "uri"
-				 		}
-				 	}
+					"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+					"type" : "string",
+					"format" : "uri"
 				 }
 			]
 		},
@@ -129,13 +125,9 @@
 				 { "$ref": "person" },
 				 { "$ref": "organization" },
 				 {
-				 	"properties" : {
-				 		"id" : {
-							"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
-				 			"type" : "string",
-				 			"format" : "uri"
-				 		}
-				 	}
+					"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+					"type" : "string",
+					"format" : "uri"
 				 }
 			]
 		},
@@ -146,13 +138,9 @@
 				"anyOf" : [
 					 { "$ref": "person" },
 					 {
-					 	"properties" : {
-					 		"id" : {
-								"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
-					 			"type" : "string",
-					 			"format" : "uri"
-					 		}
-					 	}
+						"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"type" : "string",
+						"format" : "uri"
 					 }
 				]
 			}
@@ -165,13 +153,9 @@
 					 { "$ref": "person" },
 					 { "$ref": "organization" },
 					 {
-					 	"properties" : {
-					 		"id" : {
-								"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
-					 			"type" : "string",
-					 			"format" : "uri"
-					 		}
-					 	}
+						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"type" : "string",
+						"format" : "uri"
 					 }
 				]
 			}
@@ -183,13 +167,9 @@
 				"anyOf" : [
 					 { "$ref": "organization" },
 					 {
-					 	"properties" : {
-					 		"id" : {
-								"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
-					 			"type" : "string",
-					 			"format" : "uri"
-					 		}
-					 	}
+						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
+						"type" : "string",
+						"format" : "uri"
 					 }
 				]
 			}
@@ -201,13 +181,9 @@
 				"anyOf" : [
 					 { "$ref": "project" },
 					 {
-					 	"properties" : {
-					 		"id" : {
-								"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
-					 			"type" : "string",
-					 			"format" : "uri"
-					 		}
-					 	}
+						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
+						"type" : "string",
+						"format" : "uri"
 					 }
 				]
 			}
@@ -247,6 +223,6 @@
 			}
 		}
 	},
-	"required": ["@id", "name"],
+	"required": ["name"],
 	"additionalProperties": false
 }

@@ -266,6 +266,53 @@
 #items {
 }
 
+.reset-button:link, .reset-button:visited, .reset-button:active
+{
+    font-weight: normal;
+    border: 1px solid #888888;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    background-color: #AAAAAA;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.discipline-list li:after,
+.expertise-list li:after,
+.technology-tag-list li:after,
+.competence-list li:after,
+.programming-language-list li:after {
+    content: "";
+}
+
+.status,
+.discipline-list li,
+.expertise-list li,
+.technology-tag-list li,
+.competence-list li,
+.programming-language-list li
+{
+    border: 1px solid #01769D;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    background-color: #01A2DA;
+    color: #ffffff;
+    display: inline-block;
+}
+.status a:visited, .status a:active, .status a:link,
+.discipline-list li a:visited, .discipline-list li a:active, .discipline-list li a:link,
+.expertise-list li a:visited, .expertise-list li a:active, .expertise-list li a:link,
+.technology-tag-list li a:visited, .technology-tag-list li a:active, .technology-tag-list li a:link,
+.programming-language-list li a:visited, .programming-language-list li a:active, .programming-language-list li a:link,
+.competence-list li a:visited, .competence-list li a:active, .competence-list li a:link
+{
+    color: #ffffff;
+}
+
 .dc-table-group {
   display: none;
   visibility: collapse;
@@ -299,11 +346,6 @@
 
 div.dc-chart {
     float: none !important;
-}
-
-.reset-button {
-    color: darkred;
-    font-weight: bold;
 }
 
 /*
@@ -354,7 +396,7 @@ ul li:last-child:after {
     text-align: center;
     vertical-align: middle;
 }
-.person-photo {
+.person-photo, .empty-person-photo  {
     width: 125px;
     display: block;
     margin: 30px;
@@ -388,4 +430,18 @@ ul li:last-child:after {
 img.empty {
     height: 227px;
     width: 250px;
+}
+
+/*
+ * Organization
+ */
+.project-page-logo, .organization-page-logo {
+    border: 1px solid #DDD;
+    width: 400px;
+    padding: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 15px;
 }

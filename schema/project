@@ -196,6 +196,6 @@
 			"format" : "date-time"
 		}
 	},
-	"required": ["@id", "name"],
+	"required": ["name"],
 	"additionalProperties": false
 }
