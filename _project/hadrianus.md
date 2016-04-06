@@ -24,13 +24,13 @@ principalInvestigator:
     website: http://www.knir.it/en/arthur-weststeijn.html
   - name: Dr. Marieke van den Doel
     affiliation:
-    - http://software.esciencecenter.nl/organization/university.of.amsterdam
+    - http://software.esciencecenter.nl/organization/uva
     - http://software.esciencecenter.nl/organization/knir
     website: http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/d/o/m.j.e.vandendoel/m.j.e.vandendoel.html
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/knir
-- http://software.esciencecenter.nl/organization/university.of.amsterdam
+- http://software.esciencecenter.nl/organization/uva
 uses:
 startDate: 2014-09-01
 endDate: 2016-04-01

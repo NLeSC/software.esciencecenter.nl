@@ -31,7 +31,7 @@ principalInvestigator:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/university.of.groningen
-- http://software.esciencecenter.nl/organization/university.of.amsterdam
+- http://software.esciencecenter.nl/organization/uva
 - http://software.esciencecenter.nl/organization/surfsara
 uses:
 startDate: 2014-09-01
