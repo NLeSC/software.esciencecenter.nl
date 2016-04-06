@@ -7,7 +7,11 @@ twitterUrl: https://twitter.com/esciencecenter
 tagLine: Netherlands eScience Center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
 involvedIn:
+- http://software.esciencecenter.nl/project/beyond-the-data-explosion
+- http://software.esciencecenter.nl/project/computational-chemistry-made-easy
+- http://software.esciencecenter.nl/project/simcity
 - http://software.esciencecenter.nl/project/emetabolomics
+- http://software.esciencecenter.nl/project/twinl
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen
@@ -15,6 +19,7 @@ organizationOf:
 - http://software.esciencecenter.nl/person/r.vannieuwpoort
 - http://software.esciencecenter.nl/person/j.hidding
 - http://software.esciencecenter.nl/person/b.weel
+- http://software.esciencecenter.nl/person/j.borgdorff
 ownerOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/noodles
