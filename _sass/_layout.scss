@@ -279,6 +279,7 @@
     display: inline-block;
 }
 
+.status-list li:after,
 .discipline-list li:after,
 .expertise-list li:after,
 .technology-tag-list li:after,
@@ -287,6 +288,7 @@
     content: "";
 }
 
+.status-list li,
 .discipline-list li,
 .expertise-list li,
 .technology-tag-list li,
@@ -302,6 +304,7 @@
     color: #ffffff;
     display: inline-block;
 }
+.status-list li a:visited, .status-list li a:active, .status-list li a:link,
 .discipline-list li a:visited, .discipline-list li a:active, .discipline-list li a:link,
 .expertise-list li a:visited, .expertise-list li a:active, .expertise-list li a:link,
 .technology-tag-list li a:visited, .technology-tag-list li a:active, .technology-tag-list li a:link,
