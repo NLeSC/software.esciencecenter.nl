@@ -1,0 +1,26 @@
+---
+name: Daniela Remenska
+nlescWebsite: https://www.esciencecenter.nl/profile/dr.-daniela-remenska
+linkedInUrl: https://www.linkedin.com/in/remenska
+githubUrl: https://github.com/remenska
+jobTitle: eScience Research Engineer
+affiliation:
+- http://software.esciencecenter.nl/organization/nlesc
+photo: https://www.esciencecenter.nl/img/team/daniela_remenska-web.jpg
+contactPersonOf:
+- http://software.esciencecenter.nl/project/pandas-root
+ownerOf:
+- http://software.esciencecenter.nl/software/root-conda-recipes
+engineerOf: 
+- http://software.esciencecenter.nl/project/pandas-root
+
+---
+Daniela graduated from the Institute of Informatics in Macedonia as an informatics engineer. During her last year of study, she was also a lab assistant at the institute, teaching basic computer science courses. After graduating, she worked about one and a half year as a Java software developer for a large company specializing in enterprise medical software.
+
+Daniela moved to the Netherlands in October 2008. She obtained a PDEng (Professional Doctorate in Engineering) degree in software technology from the Eindhoven University of Technology in 2010. She carried out her final software design project on the topic of Optimization of Large Scale HEP Data Analysis at NIKHEF, which has to do with efficient access to high energy physics data gathered from the Large Hadron Collider at CERN.
+
+She started her PhD studies in 2010 as a joint initiative between NIKHEF and the VU University Amsterdam. Her thesis is focused on bridging the gap between common software engineering practices and model verification techniques, with a focus on concurrent and distributed systems.
+
+Her interests have been shifting ever since she owned a PC: from astronomy, dark matter and black holes (high school), to simulation, probability and stochastic theory (university), to distributed/grid systems.
+
+Daniela joined the Netherlands eScience Center in June 2015.
