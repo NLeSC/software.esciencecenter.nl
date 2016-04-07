@@ -15,6 +15,8 @@ ownerOf:
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/pyxenon
+- http://software.esciencecenter.nl/software/root-conda-recipes
+
 userOf:
 - http://software.esciencecenter.nl/software/xenon
 engineerOf:

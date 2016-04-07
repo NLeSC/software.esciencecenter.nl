@@ -23,9 +23,8 @@ engineer:
 - http: http://software.esciencecenter.nl/person/d.remenska
 principalInvestigator:
   - name: Dr. Christopher Tunnell
-    affiliation:
-    - http:
-    website: http://www.nikhef.nl/~decowski/Group.html
+    affiliation: Postdoc
+  - http: http://www.nikhef.nl/~decowski/Group.html
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/nikhef
