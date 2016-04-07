@@ -27,7 +27,8 @@ principalInvestigator:
     - http:
     website: http://www.nikhef.nl/~decowski/Group.html
 involvedOrganization:
-- http: http://software.esciencecenter.nl/organization/nikhef
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/nikhef
 startDate: 2015-06-20
 endDate: 2016-03-01
 ---
