@@ -13,8 +13,8 @@ ownerOf:
 contributorOf:
 - http://software.esciencecenter.nl/software/metrochart
 userOf:
-
+- http://software.esciencecenter.nl/software/metrochart
 engineerOf:
-
+- sherlock
 ---
 Jurriaan description TODO
