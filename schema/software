@@ -120,16 +120,19 @@
 			]
 		},
 		"owner" : {
-			"description": "Entity that is the copyright holder of the software.",
-			"anyOf" : [
-				 { "$ref": "person" },
-				 { "$ref": "organization" },
-				 {
-					"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
-					"type" : "string",
-					"format" : "uri"
-				 }
-			]
+			"description": "Entity that is the copyright holder of the software (usually NLeSC and project partners).",
+			"type": "array",
+			"items": {
+				"anyOf" : [
+					 { "$ref": "person" },
+					 { "$ref": "organization" },
+					 {
+						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"type" : "string",
+						"format" : "uri"
+					 }
+				]
+			}
 		},
 		"contributor" : {
 			"description": "Contributor to the software",

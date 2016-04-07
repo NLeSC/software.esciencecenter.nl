@@ -14,7 +14,10 @@ expertise:
 - Information Retrieval
 supportLevel: basic
 contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
-owner: http://software.esciencecenter.nl/person/e.tjongkimsang
+owner:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
+- http://software.esciencecenter.nl/organization/surfsara
 contributor:
 - http://software.esciencecenter.nl/person/e.tjongkimsang
 involvedOrganization:
