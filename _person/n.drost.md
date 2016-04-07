@@ -19,6 +19,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/sfm
 userOf:
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/cesium-ncwms
 - http://software.esciencecenter.nl/software/openda
 engineerOf:
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
