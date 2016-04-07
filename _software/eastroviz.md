@@ -1,5 +1,5 @@
----
-name: eAstroVis
+1---
+name: eAstroViz
 tagLine: This tool can convert and visualize radio astronomy measurement sets, as well as most LOFAR intermediate data producs. It also does RFI mitigation.
 codeRepository: https://github.com/NLeSC/eAstroViz
 programmingLanguage:
