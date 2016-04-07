@@ -13,6 +13,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/project/dilipad
 - http://software.esciencecenter.nl/project/texcavator
 - http://software.esciencecenter.nl/software/texcavator
+- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
 
 ownerOf:
 
@@ -25,6 +26,7 @@ userOf:
 engineerOf:
 - http://software.esciencecenter.nl/project/dilipad
 - http://software.esciencecenter.nl/project/texcavator
+- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
 
 ---
 In 2014, Janneke van der Zwaan obtained her PhD in Human-Computer Interaction at the Delft University of Technology. During her PhD research, she explored how Embodied Conversational Agents can provide emotional support in non task-oriented contexts by designing, implementing, evaluating a prototype of an 'empathic virtual buddy' that provides emotional support to victims of cyberbullying between the ages of 10 and 14.

@@ -14,6 +14,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/twinl
 - http://software.esciencecenter.nl/project/dilipad
 - http://software.esciencecenter.nl/project/texcavator
+- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen
