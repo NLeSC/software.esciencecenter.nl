@@ -24,7 +24,8 @@ expertise:
 - Distributed Computing
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
-owner: http://software.esciencecenter.nl/person/s.verhoeven
+owner:
+- http://software.esciencecenter.nl/organization/nlesc
 contributor:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen

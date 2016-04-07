@@ -79,10 +79,10 @@
 			"format" : "uri"
 		},
 		"contactPersonOf" : {
-			"description": "Projects that a person is contact person of.",
+			"description": "Projects or software that a person is contact person of.",
 			"type": "array",
 			"items": {
-				"description": "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics",
+				"description": "ID of a project or software, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics",
 				"type" : "string",
 				"format" : "uri"
 			}

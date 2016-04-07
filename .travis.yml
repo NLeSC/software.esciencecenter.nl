@@ -5,4 +5,10 @@ branches:
     - /^.*$/
 install:
   - pip install -r requirements.txt
-script: estep validate -v
+script:
+  - python -m doctest estep/validate.py
+  - if [ $TRAVIS_BRANCH == "gh-pages" || $TRAVIS_PULL_REQUEST ]; then
+    estep validate -v --resolve
+    else
+    estep validate -v
+    fi

@@ -16,7 +16,8 @@ expertise:
 - Distributed Computing
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/j.borgdorff
-owner: http://software.esciencecenter.nl/organization/nlesc
+owner:
+- http://software.esciencecenter.nl/organization/nlesc
 contributor:
 - http://software.esciencecenter.nl/person/j.borgdorff
 - http://software.esciencecenter.nl/person/j.hidding
