@@ -14,7 +14,8 @@ competence:
 discipline:
 - eScience Methodology
 expertise:
-- Orchestrated Computing
+- Information Visualization
+- Scientific Visualization
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/j.spaaks
 owner:
