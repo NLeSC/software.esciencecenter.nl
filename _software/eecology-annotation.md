@@ -34,6 +34,8 @@ user:
 - http://software.esciencecenter.nl/organization/uva
 startDate: 2013-03-21
 status: active
+dependency:
+- http://software.esciencecenter.nl/software/extjs-datetime
 technologyTag:
 - GIS
 - Website
