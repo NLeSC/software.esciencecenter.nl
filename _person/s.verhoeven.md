@@ -16,13 +16,18 @@ ownerOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/eecology-tracker-calendar
+- http://software.esciencecenter.nl/software/osmium
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/pyxenon
+- http://software.esciencecenter.nl/software/root-conda-recipes
+- http://software.esciencecenter.nl/software/osmium
+- http://software.esciencecenter.nl/software/magma
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/eecology-tracker-calendar
 userOf:
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/osmium
 engineerOf:
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/eecology

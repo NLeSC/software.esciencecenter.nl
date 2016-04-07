@@ -68,14 +68,19 @@ class Config(object):
         return collections
 
 
-def validate(schemadir, resolve_local=True, resolve_remote=False):
+def validate(schemadir, resolve_local=True, resolve_remote=False, path=None, schema_type=None):
     config = Config()
     validator = config.validator(schemadir, resolve_local, resolve_remote)
-    nr_errors = 0
-    for collection in config.collections():
-        LOGGER.info('Collection: %s', collection.name)
-        for docname, document in collection.documents():
-            nr_errors += validator.validate(docname, document)
+
+    if path is None:
+        nr_errors = 0
+        for collection in config.collections():
+            LOGGER.info('Collection: %s', collection.name)
+            for docname, document in collection.documents():
+                nr_errors += validator.validate(docname, document)
+    else:
+        nr_errors = validator.validate(path, jekyllfile2object(path, schemaType=schema_type))
+
     LOGGER.info('--------------------------')
     nr_errors += validator.finalize()
     if nr_errors:
@@ -140,7 +145,7 @@ def main(argv=sys.argv[1:]):
       generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
 
     Usage:
-      estep validate [--local] [--resolve] [--no-local-resolve] [-v | -vv]
+      estep validate [--local] [--resolve] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
       estep generate reciprocal [-v | -vv]
 
     Options:
@@ -149,6 +154,8 @@ def main(argv=sys.argv[1:]):
       -l, --local             Use local schemas instead of remote schemas
       -R, --no-local-resolve  Do not resolve local URLs
       -r, --resolve           Resolve remote URLs
+      <schema_type>           One of (person, software, organization, project)
+      <file>                  Single file to validate
     """
     arguments = docopt(main.__doc__, argv, version=__version__)
 
@@ -164,7 +171,10 @@ def main(argv=sys.argv[1:]):
             schemadir = 'schema'
         validate(schemadir=schemadir,
                  resolve_remote=arguments['--resolve'],
-                 resolve_local=not arguments['--no-local-resolve'])
+                 resolve_local=not arguments['--no-local-resolve'],
+                 path=arguments['<file>'],
+                 schema_type=arguments['<schema_type>'],
+                 )
     elif arguments['generate'] and arguments['reciprocal']:
         generate_reciprocal()
 
