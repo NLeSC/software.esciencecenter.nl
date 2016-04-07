@@ -17,8 +17,6 @@ import json
 import os
 import logging
 
-import collections
-
 import jsonschema
 import requests
 import six
@@ -88,7 +86,7 @@ class AbstractValidator(object):
         return 0
 
 
-class AbstractValidators(AbstractValidator, collections.UserList):
+class AbstractValidators(AbstractValidator, six.moves.UserList):
     def validate(self, name, instance):
         nr_errors = 0
         for validator in self.data:
