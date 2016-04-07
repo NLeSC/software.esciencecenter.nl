@@ -33,6 +33,8 @@ principalInvestigator:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
 uses:
+- http://software.esciencecenter.nl/eecology-tracker-calendar
+- http://software.esciencecenter.nl/eecology-annotation
 
 ---
 # Bridging the gap between the worlds of ecology and technology
