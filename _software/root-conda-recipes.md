@@ -2,13 +2,13 @@
 name: ROOT-conda-recipes
 tagLine: Conda recipes for building CERN ROOT binaries and its dependencies, with Python 3 support. It provides a "pythonic" interface (pandas DataFrames) to the ROOT I/O format.
 
-codeRepository: https://github.com/NLeSC/root-conda-recipes
-nlescWebsite: https://www.gitbook.com/book/nlesc/cern-root-conda-recipes/details
-website: https://www.gitbook.com/book/nlesc/cern-root-conda-recipes/details
-codeRepository: https://github.com/NLeSC/root-conda-recipes
-nlescWebsite: https://www.esciencecenter.nl/technology/software/root-conda-recipes
-documentationUrl: https://www.gitbook.com/book/nlesc/cern-root-conda-recipes/details
-downloadUrl: https://github.com/NLeSC/root-conda-recipes/archive/master.zip
+codeRepository: http://github.com/NLeSC/root-conda-recipes
+nlescWebsite: http://www.gitbook.com/book/nlesc/cern-root-conda-recipes/details
+website: http://www.gitbook.com/book/nlesc/cern-root-conda-recipes/details
+codeRepository: http://github.com/NLeSC/root-conda-recipes
+nlescWebsite: http://www.esciencecenter.nl/technology/software/root-conda-recipes
+documentationUrl: http://www.gitbook.com/book/nlesc/cern-root-conda-recipes/details
+downloadUrl: http://github.com/NLeSC/root-conda-recipes/archive/master.zip
 doi: http://dx.doi.org/10.5281/zenodo.47512
 programmingLanguage:
 - Python
