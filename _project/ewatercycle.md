@@ -1,13 +1,13 @@
 ---
 name: "eWaterCycle: Data-intensive modeling of the global water cycle"
-tagline: Global water information when it matters
+tagLine: Global water information when it matters
 website: http://ewatercycle.org
 nlescWebsite: http://www.esciencecenter.nl/project/ewatercycle
 logo: http://www.esciencecenter.nl/img/projects/1.P011-large.jpg
 competence:
 - Efficient Computing
 discipline:
-- Sustainability & Environment
+- Environment & Sustainability
 expertise:
 - High Performance Computing
 infrastructure: Supercomputer

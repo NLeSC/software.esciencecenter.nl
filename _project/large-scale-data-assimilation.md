@@ -1,12 +1,12 @@
 ---
 name: Large Scale Data Assimilation
-tagline: Handling data assimilation on a large scale
+tagLine: Handling data assimilation on a large scale
 nlescWebsite: https://www.esciencecenter.nl/project/large-scale-data-assimilation
 logo: https://www.esciencecenter.nl/img/projects/1P045-large.jpg
 competence:
 - Efficient Computing
 discipline:
-- Sustainability & Environment
+- Environment & Sustainability
 expertise:
 - High Performance Computing
 infrastructure: Supercomputer
