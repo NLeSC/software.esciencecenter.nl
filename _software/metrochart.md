@@ -2,7 +2,7 @@
 name: metrochart.js
 tagLine: Graph visualization using metrolines.
 codeRepository: https://github.com/jspaaks/metrochart
-website: http://jspaaks.github.io/metrochart/
+website: http://jspaaks.github.io/metrochart
 documentationUrl: http://jspaaks.github.io/metrochart/tsdoc
 logo:
 programmingLanguage:
