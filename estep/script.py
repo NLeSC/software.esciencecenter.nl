@@ -113,7 +113,7 @@ def generate_reciprocal():
             doc = faulty_docs[url]
             schema = schemas[doc['schema']]
             LOGGER.error((url, property_name, value, schema))
-            if schema['properties'][property_name]['type'] == 'array':
+            if 'type' in schema['properties'][property_name] and schema['properties'][property_name]['type'] == 'array':
                 if property_name not in doc:
                     doc[property_name] = []
                 doc[property_name].append(value)

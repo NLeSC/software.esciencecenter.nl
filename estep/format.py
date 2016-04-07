@@ -37,16 +37,15 @@ def object2jekyll(data, contentProperty):
     """
     d = {}
     for key, value in data.items():
-        if key == contentProperty:
+        if key in (contentProperty, '@id', 'schema'):
             continue
 
-        key = key.lstrip('@')
         d[key] = value
 
     metadata = yaml.safe_dump(d, default_flow_style=False)
 
     content = data[contentProperty]
-    return "---\n{0}\n---\n{1}".format(metadata, content)
+    return "---\n{0}\n---\n{1}\n".format(metadata, content)
 
 
 def jekyllfile2object(filename, schemaType=None, contentProperty='description', uriPrefix='http://software.esciencecenter.nl'):
