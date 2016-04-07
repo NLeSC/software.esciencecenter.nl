@@ -67,7 +67,18 @@ function fakify(group) {
         });
       }
       return result;
-    }
+    },
+    top: function(k) {
+      tops = _.take(_.sortBy(_.keys(group.value()),function(item) { return group.value()[item] * -1 }),k);
+      var result = [];
+      for (var k in tops) {
+        result.push({
+          key: tops[k],
+          value: group.value()[tops[k]]
+        });
+      }
+      return result;
+    } 
   };
 }
 
@@ -159,6 +170,7 @@ d3.json("/software.json", function (software_data) {
   if (programmingLanguageFilter) {
     languageChart.filter(programmingLanguageFilter);
   }
+  programmingLanguageChart.ordering(function(d){ return -d.value });
 
   competenceChart
     .width(chartwidth)
@@ -175,10 +187,11 @@ d3.json("/software.json", function (software_data) {
   if (competenceFilter) {
     competenceChart.filter(competenceFilter);
   }
+  competenceChart.ordering(function(d){ return -d.value });
 
   expertiseChart
     .width(chartwidth)
-    .height(chartheight(expertiseValues.length))
+    .height(chartheight(Math.min(expertiseValues.length,8)))
     .fixedBarHeight(barheight)
     .dimension(expertiseDimension)
     .group(fakeExpertiseGroup)
@@ -191,6 +204,7 @@ d3.json("/software.json", function (software_data) {
   if (expertiseFilter) {
     expertiseChart.filter(expertiseFilter);
   }
+  expertiseChart.ordering(function(d){ return -d.value }).rowsCap(8).othersGrouper(false);
 
   disciplineChart
     .width(chartwidth)
@@ -207,10 +221,11 @@ d3.json("/software.json", function (software_data) {
   if (disciplineFilter) {
     disciplineChart.filter(disciplineFilter);
   }
+  disciplineChart.ordering(function(d){ return -d.value });
 
   technologyTagChart
     .width(chartwidth)
-    .height(chartheight(technologyTagValues.length))
+    .height(chartheight(Math.min(technologyTagValues.length,8)))
     .fixedBarHeight(barheight)
     .dimension(technologyTagDimension)
     .group(fakeTechnologyTagGroup)
@@ -223,6 +238,7 @@ d3.json("/software.json", function (software_data) {
   if (technologyTagFilter) {
     technologyTagChart.filter(technologyTagFilter);
   }
+  technologyTagChart.ordering(function(d){ return -d.value }).rowsCap(8).othersGrouper(false);
 
   statusChart
     .width(chartwidth)
@@ -238,6 +254,7 @@ d3.json("/software.json", function (software_data) {
   if (statusFilter) {
     statusChart.filter(statusFilter);
   }
+  statusChart.ordering(function(d){ return -d.value });
 
   supportLevelChart
     .width(chartwidth)
@@ -253,7 +270,8 @@ d3.json("/software.json", function (software_data) {
   if (supportLevelFilter) {
     supportLevelChart.filter(supportLevelFilter);
   }
-
+  supportLevelChart.ordering(function(d){ return -d.value });
+  
   dataTable.width(800)
       .dimension(softwareDimension)
       .group(function(d) { return d.competence[0]; })
