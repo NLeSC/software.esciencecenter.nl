@@ -15,6 +15,8 @@ involvedIn:
 - http://software.esciencecenter.nl/project/dilipad
 - http://software.esciencecenter.nl/project/texcavator
 - http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
+- http://software.esciencecenter.nl/project/pandas-root
+
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen

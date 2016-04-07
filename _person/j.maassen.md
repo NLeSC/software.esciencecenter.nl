@@ -6,4 +6,6 @@ contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 userOf:
 - http://software.esciencecenter.nl/software/xenon
+coordinatorOf:
+- http://software.esciencecenter.nl/project/pandas-root
 ---
