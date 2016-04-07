@@ -27,7 +27,7 @@ userOf:
 - http://software.esciencecenter.nl/software/pyxenon
 
 engineerOf:
-- http://software.esciencecenter.nl/project/ERA-URBAN
+- http://software.esciencecenter.nl/project/era-urban
 
 ---
 Ronald joined the Netherlands eScience Center in 2015 to work as an eScience research engineer on the ERA-URBAN project. The project is aimed at developing an environmental re-analysis specifically on the scale of the urban environment, a long-term archive of urban energy and water balances at very high resolution (~100m).

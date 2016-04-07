@@ -30,7 +30,7 @@ user:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 usedIn:
-- http://software.esciencecenter.nl/project/ERA-URBAN
+- http://software.esciencecenter.nl/project/era-urban
 startDate: 2015-10-15
 status: wip
 dependency:
