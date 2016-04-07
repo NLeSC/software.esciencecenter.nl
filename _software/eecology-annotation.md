@@ -41,10 +41,10 @@ technologyTag:
 - Website
 ---
 Rich web interface to virtualize & annotate GPS measurements.
-The visualization has been applied to [http://www.uva-bits.nl](http://www.uva-bits.nl) tracking devices, but can be used for any spatial-temporal data.
+The visualization has been applied to [uva-bits tracking devices](http://www.uva-bits.nl/system) , but can be used for any spatial-temporal data.
 The annotation tool is a [Virtual lab](http://uva-bits.nl/virtual-lab) of the uva-bits project.
 
 ![Screenshot of annotation application](https://github.com/NLeSC/eEcology-Annotation-UI/raw/master/resources/screenshot.png "Screenshot")
 
-The production web application is hosted at SurfSARA.
+The production web application is hosted at SurfSARA and requires membership of the UvA-BiTS community.
 A demo available [here](http://nlesc.github.io/eEcology-Annotation-UI/demo/demo.html) or without annotations [here](http://nlesc.github.io/eEcology-Annotation-UI/demo/demo-na.html).
