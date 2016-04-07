@@ -202,7 +202,8 @@ class Validator(AbstractValidator):
         self.crossValidators.append(PropertyTypoValidator('programmingLanguage'))
         self.crossValidators.append(PropertyTypoValidator('technologyTag'))
         # From software
-        self.crossValidators += relationship.get_validators()
+        # TODO disable relationship validator, until problems with it have been resolved
+        #self.crossValidators += relationship.get_validators()
 
     def validate(self, name, instance):
         schema_uri = instance['schema']
