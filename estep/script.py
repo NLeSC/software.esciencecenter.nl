@@ -112,11 +112,12 @@ def generate_reciprocal():
 
             doc = faulty_docs[url]
             schema = schemas[doc['schema']]
-            LOGGER.error((url, property_name, value, schema))
+
             if 'type' in schema['properties'][property_name] and schema['properties'][property_name]['type'] == 'array':
                 if property_name not in doc:
                     doc[property_name] = []
-                doc[property_name].append(value)
+                if value not in doc[property_name]:
+                    doc[property_name].append(value)
             else:
                 doc[property_name] = value
 
@@ -127,7 +128,7 @@ def generate_reciprocal():
             with open(path, 'w') as f:
                 f.write(object2jekyll(document, 'description'))
 
-        LOGGER.warning('Fixed %d missing relationships in %d documents', nr_errors, len(faulty_docs))
+        LOGGER.warning('Fixed missing relationships in %d documents', len(faulty_docs))
 
 
 def main(argv=sys.argv[1:]):
