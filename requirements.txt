@@ -5,5 +5,3 @@ PyYAML==3.11
 requests==2.9.1
 six==1.10.0
 rfc3987==1.3.5
-functools32
--e .
