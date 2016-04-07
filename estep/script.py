@@ -104,16 +104,22 @@ def generate_reciprocal():
             if url not in faulty_docs:
                 path = url_to_path(url)
                 collection_name = url_to_collection_name(url)
-                faulty_docs[url] = jekyllfile2object(path, schemaType=collection_name)
+                try:
+                    faulty_docs[url] = jekyllfile2object(path, schemaType=collection_name)
+                except IOError as ex:
+                    LOGGER.warning("Cannot read path %s to fix missing relationship %s#%s: %s", path, url, property_name, value)
+                    continue
 
             doc = faulty_docs[url]
             schema = schemas[doc['schema']]
+            LOGGER.error((url, property_name, value, schema))
             if schema['properties'][property_name]['type'] == 'array':
                 if property_name not in doc:
-                    doc = []
+                    doc[property_name] = []
                 doc[property_name].append(value)
             else:
                 doc[property_name] = value
+
 
         for url, document in faulty_docs.items():
             path = url_to_path(url)

@@ -193,16 +193,14 @@ class RelationshipValidator(AbstractValidator):
                 if myvalue in self.memory2 and myid in self.memory2[myvalue]:
                     pass
                 else:
-                    LOGGER.info("* Found missing relationship {0}#{1} to {2}".format(myid, self.prop2, myvalue))
-                    yield (myid, self.prop2, myvalue)
+                    yield (myvalue, self.prop2, myid)
 
         for myid, myvalues in six.iteritems(self.memory2):
             for myvalue in myvalues:
                 if myvalue in self.memory1 and myid in self.memory1[myvalue]:
                     pass
                 else:
-                    LOGGER.info("* Found missing relationship {0}#{1}: {2}".format(myid, self.prop1, myvalue))
-                    yield (myid, self.prop1, myvalue)
+                    yield (myvalue, self.prop1, myid)
 
     def finalize(self):
         nr_errors = 0
