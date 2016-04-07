@@ -1,9 +1,8 @@
 ---
 name: ClusterViz
 tagLine: A 3D web tool for interactive visualization of hierarchically clustered big data
-codeRepository: https://github.com/sonjageorgievska/GraphViz
-nlescWebsite: https://www.esciencecenter.nl/technology/software/cluster_viz
-website: https://nlesc.github.io/cluster_viz
+codeRepository: http://github.com/sonjageorgievska/GraphViz
+nlescWebsite: http://www.esciencecenter.nl/technology/software/cluster_viz
 programmingLanguage:
 - JavaScript
 license:
@@ -25,7 +24,7 @@ user:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 usedIn:
-- https://www.esciencecenter.nl/project/massive-biological-data-clustering-reporting-and-visualization-tools
+- http://www.esciencecenter.nl/project/massive-biological-data-clustering-reporting-and-visualization-tools
 startDate: 2015-05-01
 status: active
 technologyTag:
