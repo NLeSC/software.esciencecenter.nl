@@ -26,4 +26,4 @@ involvedOrganization:
 startDate: 2015-06-20
 endDate: 2016-03-01
 ---
-This project presents a way to harmonize these two ecosystems. The goal is to organize software and data such that researchers can work with existing particle physics infrastructure, yet still use modern communal Big Data tools. 
+This project presents a way to harmonize two ecosystems: High Energy Physics and the Big Data Analytics. The goal is to organize software and data such that researchers can work with existing particle physics infrastructure, yet still use modern communal Big Data tools. 
