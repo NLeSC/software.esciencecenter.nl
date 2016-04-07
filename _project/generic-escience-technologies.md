@@ -20,7 +20,7 @@ principalInvestigator:
     website: http://delaat.net/
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/vu
+- http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/organization/cwi
 - http://software.esciencecenter.nl/organization/nlesc
 startDate: 2013-01-01
