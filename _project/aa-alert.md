@@ -1,4 +1,3 @@
----
 name: Access and Acceleration of the Apertif Legacy Exploration of the Radio Transient Sky
 tagLine: A mystery of modern astrophysics
 nlescWebsite: https://www.esciencecenter.nl/project/aa-alert
@@ -12,7 +11,7 @@ expertise:
 - Accelerated Computing
 - Handling Sensor Data
 - High Performance Computing
-infrastructure: Apertif
+infrastructure: Apertif, A 75-GPU cluster and 10 PB storage
 dataMagnitude: PB
 coordinator: http://software.esciencecenter.nl/person/j.attema
 engineer:
