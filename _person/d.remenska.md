@@ -8,15 +8,15 @@ affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/daniela_remenska-web.jpg
 contactPersonOf:
-- http://software.esciencecenter.nl/software/pandas-root/
+- http://software.esciencecenter.nl/software/pandas-root
 ownerOf:
 
 contributorOf:
-- http://software.esciencecenter.nl/software/pandas-root/
+- http://software.esciencecenter.nl/software/pandas-root
 userOf:
 
 engineerOf: 
-- http://software.esciencecenter.nl/project/pandas-root/
+- http://software.esciencecenter.nl/project/pandas-root
 
 ---
 Daniela graduated from the Institute of Informatics in Macedonia as an informatics engineer. During her last year of study, she was also a lab assistant at the institute, teaching basic computer science courses. After graduating, she worked about one and a half year as a Java software developer for a large company specializing in enterprise medical software.

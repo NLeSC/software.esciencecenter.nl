@@ -30,10 +30,9 @@ contributor:
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nikhef/
+- http://software.esciencecenter.nl/organization/nikhef
 usedIn:
-- http://software.esciencecenter.nl/project/pandas-root/
-startDate: tbd
+- http://software.esciencecenter.nl/project/pandas-root
 status: active
 dependency:
 - ROOT
