@@ -15,7 +15,6 @@ contributorOf:
 userOf:
 - http://software.esciencecenter.nl/software/xenon
 engineerOf:
-- http://software.esciencecenter.nl/project/estep
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/generic-escience-technologies
 ---
