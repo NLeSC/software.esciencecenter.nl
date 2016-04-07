@@ -68,6 +68,10 @@ def url_resolve(instance):
     if not is_uri_orig(instance):
         return False
 
+    # do not resolve URLs of current code
+    if '://software.esciencecenter.nl/' in instance:
+        return True
+
     try:
         result = requests.head(instance)
         if result.status_code == 404:
@@ -198,7 +202,8 @@ class Validator(AbstractValidator):
         self.crossValidators.append(PropertyTypoValidator('programmingLanguage'))
         self.crossValidators.append(PropertyTypoValidator('technologyTag'))
         # From software
-        self.crossValidators += relationship.get_validators()
+        # TODO disable relationship validator, until problems with it have been resolved
+        #self.crossValidators += relationship.get_validators()
 
     def validate(self, name, instance):
         schema_uri = instance['schema']
