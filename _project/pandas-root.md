@@ -1,8 +1,8 @@
 ---
-name: Giving pandas ROOT  To Chew On
+name: Giving pandas ROOT To Chew On
 tagLine: Modern Big Data front and backends in the hunt for Dark Matter.
 nlescWebsite: https://www.esciencecenter.nl/project/giving-pandas-a-root-to-chew-on
-website: http://www.xenon1t.org/
+website: http://www.xenon1t.org
 logo: https://www.esciencecenter.nl/img/projects/1.p047-small.jpg
 competence:
   - Optimized Data Handling
