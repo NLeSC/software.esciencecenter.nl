@@ -12,7 +12,7 @@ description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://software.esciencecenter.nl" # the base hostname & protocol for your site
 twitter_username: esciencecenter
-github_username:  eStep
+github_username: NLeSC
 json_excludes:
 - next
 - previous

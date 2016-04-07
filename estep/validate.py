@@ -16,8 +16,12 @@ import datetime
 import json
 import os
 import logging
+
 import jsonschema
 import requests
+import six
+from . import relationship
+from .relationship import AbstractValidator
 
 try:
     from jsonschema._format import is_uri as is_uri_orig
@@ -27,6 +31,19 @@ except ImportError:
 
 LOGGER = logging.getLogger('estep')
 
+
+def url_to_path(url):
+    prefix, path = url.split('://software.esciencecenter.nl/')
+    if prefix == 'https':
+        raise ValueError('For the time being, use http instead of https prefixes for http://software.esciencecenter.nl')
+
+    # remove additional indicator
+    path = path.split('#')[0]
+    return '_' + path + '.md'
+
+def url_to_collection_name(url):
+    path = url.split('://software.esciencecenter.nl/')[1]
+    return path.split('/')[0]
 
 def url_ref(instance):
     return url_local_ref(instance) and url_resolve(instance)
@@ -38,13 +55,7 @@ def url_local_ref(instance):
 
     # lookup local files locally
     if '://software.esciencecenter.nl/' in instance:
-        prefix, path = instance.split('://software.esciencecenter.nl/')
-        if prefix == 'https':
-            raise ValueError('For the time being, use http instead of https prefixes for http://software.esciencecenter.nl')
-
-        # remove additional indicator
-        path = path.split('#')[0]
-        location = '_' + path + '.md'
+        location = url_to_path(instance)
         # do not look for missing directories.
         if os.path.isdir(os.path.dirname(location)) and not os.path.isfile(location):
             err = "{} not found locally as {}".format(instance, location)
@@ -56,6 +67,10 @@ def url_local_ref(instance):
 def url_resolve(instance):
     if not is_uri_orig(instance):
         return False
+
+    # do not resolve URLs of current code
+    if '://software.esciencecenter.nl/' in instance:
+        return True
 
     try:
         result = requests.head(instance)
@@ -74,25 +89,86 @@ def log_error(error, prefix=""):
     LOGGER.warning(msg)
 
 
-class Validator(object):
-    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False):
-        store = {}
-        for schema_uri in schema_uris:
-            if schemadir is None:
-                u = schema_uri
-                request = requests.get(u)
-                # do not accept failed calls
-                try:
-                    request.raise_for_status()
-                except requests.exceptions.HTTPError as ex:
-                    LOGGER.error("cannot load schema %s:\n\t%s\nUse --local to load local schemas.", schema_uri, ex)
+class AbstractValidators(AbstractValidator, six.moves.UserList):
+    def validate(self, name, instance):
+        nr_errors = 0
+        for validator in self.data:
+            nr_errors += validator.validate(name, instance)
+        return nr_errors
 
-                store[schema_uri] = request.json()
-            else:
-                LOGGER.debug('Loading schema %s from %s', schema_uri, schemadir)
-                schema_fn = schema_uri.replace('http://software.esciencecenter.nl/schema', schemadir)
-                with open(schema_fn) as f:
-                    store[schema_uri] = json.load(f)
+    def finalize(self):
+        nr_errors = 0
+        for validator in self.data:
+            nr_errors += validator.finalize()
+        return nr_errors
+
+    def missing(self):
+        for validator in self.data:
+            for missing_tuple in validator.missing():
+                yield missing_tuple
+
+class PropertyTypoValidator(AbstractValidator):
+    """
+
+    >>> validator = PropertyTypoValidator('programmingLanguage')
+    >>> validator.validate('noodles', {'programmingLanguage': ['Python']})
+    0
+    >>> validator.validate('xtas', {'programmingLanguage': ['python']})
+    1
+    >>> validator.validate('xenon', {'programmingLanguage': ['Java']})
+    0
+
+    """
+    def __init__(self, property_name):
+        self.name = property_name
+        self.seen_values = set()
+        self.seen_normalized_values = {}
+
+    def validate(self, name, instance):
+        if self.name not in instance.keys():
+            return 0
+
+        values = instance[self.name]
+
+        nr_errors = 0
+        for value in values:
+            normalized_value = value.lower()
+            if value not in self.seen_values and normalized_value in self.seen_normalized_values:
+                error = 'Typo "{0}", already seen as "{1}"'.format(value, self.seen_normalized_values[normalized_value])
+                LOGGER.warning('* Error      : ' + error)
+                LOGGER.warning('  On property: ' + self.name)
+                nr_errors += 1
+            self.seen_values.add(value)
+            self.seen_normalized_values[normalized_value] = value
+
+        return nr_errors
+
+
+def load_schemas(schema_uris, schemadir=None):
+    store = {}
+    for schema_uri in schema_uris:
+        if schemadir is None:
+            u = schema_uri
+            request = requests.get(u)
+            # do not accept failed calls
+            try:
+                request.raise_for_status()
+            except requests.exceptions.HTTPError as ex:
+                LOGGER.error("cannot load schema %s:\n\t%s\nUse --local to load local schemas.", schema_uri, ex)
+
+            store[schema_uri] = request.json()
+        else:
+            LOGGER.debug('Loading schema %s from %s', schema_uri, schemadir)
+            schema_fn = schema_uri.replace('http://software.esciencecenter.nl/schema', schemadir)
+            with open(schema_fn) as f:
+                store[schema_uri] = json.load(f)
+    return store
+
+
+
+class Validator(AbstractValidator):
+    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False):
+        store = load_schemas(schema_uris, schemadir)
 
         # Resolve date-time as dates as well as strings
         if isinstance(jsonschema.compat.str_types, type):
@@ -122,6 +198,12 @@ class Validator(object):
                                                                                 types=types,
                                                                                 format_checker=format_checker,
                                                                                 )
+        self.crossValidators = AbstractValidators()
+        self.crossValidators.append(PropertyTypoValidator('programmingLanguage'))
+        self.crossValidators.append(PropertyTypoValidator('technologyTag'))
+        # From software
+        # TODO disable relationship validator, until problems with it have been resolved
+        #self.crossValidators += relationship.get_validators()
 
     def validate(self, name, instance):
         schema_uri = instance['schema']
@@ -146,4 +228,10 @@ class Validator(object):
                         LOGGER.warning('  - Error: ' + c.message)
                         if c.cause is not None:
                             LOGGER.warning('    Cause: ' + str(c.cause))
-        return len(errors)
+
+        nr_errors = len(errors)
+        nr_errors += self.crossValidators.validate(name, instance)
+        return nr_errors
+
+    def finalize(self):
+        return self.crossValidators.finalize()
