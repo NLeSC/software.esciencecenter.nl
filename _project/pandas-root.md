@@ -30,6 +30,8 @@ principalInvestigator:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/nikhef
+uses:
+- http://software.esciencecenter.nl/software/root-conda-recipes
 startDate: 2015-06-20
 endDate: 2016-03-01
 ---
