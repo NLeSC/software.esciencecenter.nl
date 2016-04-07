@@ -25,6 +25,7 @@ contributor:
 user:
 - http://software.esciencecenter.nl/person/j.borgdorff
 - http://software.esciencecenter.nl/person/j.hidding
+- http://software.esciencecenter.nl/person/r.vanharen
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 usedIn:

@@ -13,7 +13,7 @@ Requirements:
 
 Install the estep website utility by running
 ```
-pip install -r requirements.txt
+pip install -e .
 ```
 
 ## How to edit

@@ -1,6 +1,6 @@
 ---
-name: Cross-perspective Topic Modeling
-tagLine: A Gibbs sampler that implements Cross-Perspective Topic Modeling
+name: ReciPy
+tagLine: Effortless provenance in Python
 codeRepository: https://github.com/NLeSC/cptm
 nlescWebsite:
 website:

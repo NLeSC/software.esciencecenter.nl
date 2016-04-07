@@ -12,6 +12,11 @@ involvedIn:
 - http://software.esciencecenter.nl/project/simcity
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/twinl
+- http://software.esciencecenter.nl/project/dilipad
+- http://software.esciencecenter.nl/project/texcavator
+- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
+- http://software.esciencecenter.nl/project/pandas-root
+
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen
@@ -20,10 +25,12 @@ organizationOf:
 - http://software.esciencecenter.nl/person/j.hidding
 - http://software.esciencecenter.nl/person/b.weel
 - http://software.esciencecenter.nl/person/j.borgdorff
+- http://software.esciencecenter.nl/person/j.vanderzwaan
 ownerOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/noodles
 - http://software.esciencecenter.nl/software/metrochart
+- http://software.esciencecenter.nl/software/cptm
 userOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/metrochart
