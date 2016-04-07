@@ -12,7 +12,7 @@ contactPersonOf:
 ownerOf:
 - http://software.esciencecenter.nl/software/root-conda-recipes
 engineerOf: 
-- http://software.esciencecenter.nl/software/root-conda-recipes
+- http://software.esciencecenter.nl/project/pandas-root
 
 ---
 Daniela graduated from the Institute of Informatics in Macedonia as an informatics engineer. During her last year of study, she was also a lab assistant at the institute, teaching basic computer science courses. After graduating, she worked about one and a half year as a Java software developer for a large company specializing in enterprise medical software.
