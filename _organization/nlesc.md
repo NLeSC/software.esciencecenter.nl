@@ -13,6 +13,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/twinl
 - http://software.esciencecenter.nl/project/dilipad
+- http://software.esciencecenter.nl/project/texcavator
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen
