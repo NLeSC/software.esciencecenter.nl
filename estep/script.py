@@ -58,7 +58,7 @@ class Config(object):
 
     def collections(self):
         collections = []
-        for colname in self.config['collections'].keys():
+        for colname in sorted(self.config['collections'].keys()):
             colschema = self.schemas()[colname]
             collection = Collection(colname, directory='_' + colname, schema=colschema)
             collections.append(collection)
@@ -73,6 +73,8 @@ def validate(schemadir, resolve_local=True, resolve_remote=False):
         LOGGER.info('Collection: %s', collection.name)
         for docname, document in collection.documents():
             nr_errors += validator.validate(docname, document)
+    LOGGER.info('--------------------------')
+    nr_errors += validator.finalize()
     if nr_errors:
         LOGGER.warning('%i error(s) found', nr_errors)
         sys.exit(1)
@@ -80,12 +82,24 @@ def validate(schemadir, resolve_local=True, resolve_remote=False):
         LOGGER.info('No errors found')
 
 
+def generate_reciprocal():
+    # TODO read all relationships
+    # TODO find missing relationships
+    # TODO update Markdown with missing relationships
+    raise NotImplementedError
+
+
 def main(argv=sys.argv[1:]):
     """
     Utility for estep website.
 
+    Available commands:
+      validate                Validates content.
+      generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
+
     Usage:
-      estep validate [--local] [--resolve] [--no-local-resolve] [-v]
+      estep validate [--local] [--resolve] [--no-local-resolve] [-v | -vv]
+      estep generate reciprocal [-v | -vv]
 
     Options:
       -h, --help              Show this screen.
@@ -97,8 +111,10 @@ def main(argv=sys.argv[1:]):
     arguments = docopt(main.__doc__, argv, version=__version__)
 
     logging.basicConfig(format='%(message)s', level=logging.WARN)
-    if arguments['--verbose']:
+    if arguments['--verbose'] > 1:
         LOGGER.setLevel(logging.DEBUG)
+    elif arguments['--verbose'] > 0:
+        LOGGER.setLevel(logging.INFO)
 
     if arguments['validate']:
         schemadir = None
@@ -107,6 +123,8 @@ def main(argv=sys.argv[1:]):
         validate(schemadir=schemadir,
                  resolve_remote=arguments['--resolve'],
                  resolve_local=not arguments['--no-local-resolve'])
+    elif arguments['generate'] and arguments['reciprocal']:
+        generate_reciprocal()
 
 
 def recurseDirectory(directory, schemaType):
