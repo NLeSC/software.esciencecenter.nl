@@ -68,6 +68,10 @@ def url_resolve(instance):
     if not is_uri_orig(instance):
         return False
 
+    # do not resolve URLs of current code
+    if '://software.esciencecenter.nl/' in instance:
+        return True
+
     try:
         result = requests.head(instance)
         if result.status_code == 404:
