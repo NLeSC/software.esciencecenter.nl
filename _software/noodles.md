@@ -19,7 +19,8 @@ expertise:
 - Orchestrated Computing
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/j.hidding
-owner: http://software.esciencecenter.nl/person/j.hidding
+owner:
+- http://software.esciencecenter.nl/organization/nlesc
 contributor:
 - http://software.esciencecenter.nl/person/j.hidding
 - http://software.esciencecenter.nl/person/b.weel
