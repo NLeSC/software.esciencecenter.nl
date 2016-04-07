@@ -12,6 +12,8 @@ involvedIn:
 - http://software.esciencecenter.nl/project/simcity
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/twinl
+- http://software.esciencecenter.nl/project/pandas-root
+
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen

@@ -9,14 +9,16 @@ affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/stefan-verhoeven-new.jpg
 contactPersonOf:
-- http://software.esciencecenter.nl/software/xenon
-ownerOf:
-- http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/osmium
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/pyxenon
+- http://software.esciencecenter.nl/software/root-conda-recipes
+- http://software.esciencecenter.nl/software/osmium
+- http://software.esciencecenter.nl/software/magma
 userOf:
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/osmium
 engineerOf:
 - http://software.esciencecenter.nl/project/emetabolomics
 ---
