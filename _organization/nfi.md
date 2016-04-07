@@ -8,8 +8,6 @@ involvedIn:
 - http://software.esciencecenter.nl/project/sherlock
 organizationOf:
 ownerOf:
-user:
-- http://software.esciencecenter.nl/project/sherlock
 userOf:
 - http://software.esciencecenter.nl/project/sherlock
 - http://software.esciencecenter.nl/software/metrochart

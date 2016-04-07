@@ -19,6 +19,7 @@ supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/j.spaaks
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
+ownerOf:
 contributor:
 - http://software.esciencecenter.nl/person/j.spaaks
 user:
