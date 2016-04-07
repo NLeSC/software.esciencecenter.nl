@@ -19,9 +19,10 @@ import logging
 
 from docopt import docopt
 import yaml
-from .format import jekyllfile2object
-from .validate import Validator
+from .format import jekyllfile2object, object2jekyll
+from .validate import Validator, AbstractValidators, url_to_path, url_to_collection_name, load_schemas
 from .version import __version__
+from . import relationship
 
 
 LOGGER = logging.getLogger('estep')
@@ -47,14 +48,16 @@ class Config(object):
             self.config = yaml.load(f)
 
     def validator(self, schemadir, resolve_local, resolve_remote):
-        schema_uris = list(self.schemas().values())
-        return Validator(schema_uris, schemadir, resolve_local, resolve_remote)
+        return Validator(self.schema_uris(), schemadir, resolve_local, resolve_remote)
 
     def schemas(self):
         schemas = {}
         for default in self.config['defaults']:
             schemas[default['scope']['type']] = default['values']['schema']
         return schemas
+
+    def schema_uris(self):
+        return list(self.schemas().values())
 
     def collections(self):
         collections = []
@@ -83,10 +86,42 @@ def validate(schemadir, resolve_local=True, resolve_remote=False):
 
 
 def generate_reciprocal():
-    # TODO read all relationships
-    # TODO find missing relationships
-    # TODO update Markdown with missing relationships
-    raise NotImplementedError
+    config = Config()
+    validator = AbstractValidators(relationship.get_validators())
+
+    nr_errors = 0
+    for collection in config.collections():
+        LOGGER.info('Collection: %s', collection.name)
+        for docname, document in collection.documents():
+            nr_errors += validator.validate(docname, document)
+
+    schemas = load_schemas(config.schema_uris())
+
+    if nr_errors > 0:
+        faulty_docs = {}
+        for (url, property_name, value) in validator.missing():
+            LOGGER.debug("* Found missing relationship {0}#{1}: {2}".format(url, property_name, value))
+            if url not in faulty_docs:
+                path = url_to_path(url)
+                collection_name = url_to_collection_name(url)
+                faulty_docs[url] = jekyllfile2object(path, schemaType=collection_name)
+
+            doc = faulty_docs[url]
+            schema = schemas[doc['schema']]
+            if schema['properties'][property_name]['type'] == 'array':
+                if property_name not in doc:
+                    doc = []
+                doc[property_name].append(value)
+            else:
+                doc[property_name] = value
+
+        for url, document in faulty_docs.items():
+            path = url_to_path(url)
+            LOGGER.info("Writing fixed file %s", path)
+            with open(path, 'w') as f:
+                f.write(object2jekyll(document, 'description'))
+
+        LOGGER.warning('Fixed %d missing relationships in %d documents', nr_errors, len(faulty_docs))
 
 
 def main(argv=sys.argv[1:]):
