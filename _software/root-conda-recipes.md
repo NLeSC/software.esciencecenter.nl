@@ -28,7 +28,7 @@ contributor:
 - http://software.esciencecenter.nl/person/d.remenska
 - http://software.esciencecenter.nl/person/s.verhoeven
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/nikhef
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nikhef
 usedIn:
