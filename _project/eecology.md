@@ -29,6 +29,7 @@ principalInvestigator:
   affiliation:
   - http://software.esciencecenter.nl/organization/uva
   photo: https://www.esciencecenter.nl/img/team/willem-bouten-bw.jpg
+  website: http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/b/o/w.bouten/w.bouten.html
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
 uses:
