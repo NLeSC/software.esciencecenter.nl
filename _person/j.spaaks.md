@@ -15,6 +15,6 @@ contributorOf:
 userOf:
 - http://software.esciencecenter.nl/software/metrochart
 engineerOf:
-- sherlock
+- http://software.esciencecenter.nl/project/sherlock
 ---
 Jurriaan description TODO
