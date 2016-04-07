@@ -20,14 +20,16 @@ dataFormat:
   - CSV
 contactPerson: http://software.esciencecenter.nl/person/j.attema
 engineer:
-- http://software.esciencecenter.nl/person/j.attema
+  - http://software.esciencecenter.nl/person/j.attema
+coordinator:
+  - http://software.esciencecenter.nl/person/e.ranguelova
 principalInvestigator:
   - name: Prof. dr. Bert Holtslag
     affiliation:
     - http://software.esciencecenter.nl/organization/wur
     website: http://www.wageningenur.nl/en/Persons/prof.dr.-AAM-Bert-Holtslag.htm
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/wur
+  - http://software.esciencecenter.nl/organization/wur
 uses:
 startDate: 2013-01-21
 endDate: 2016-09-01
