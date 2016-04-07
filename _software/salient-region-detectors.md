@@ -19,7 +19,7 @@ expertise:
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
 owner:
-- http://software.esciencecenter.nl/organization/nlesc/
+- http://software.esciencecenter.nl/organization/nlesc
 contributor:
 - http://software.esciencecenter.nl/person/e.ranguelova
 - http://software.esciencecenter.nl/person/d.vankuppevelt

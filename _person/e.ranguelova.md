@@ -8,10 +8,12 @@ affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 photo: 
 contactPersonOf:
+- http://software.esciencecenter.nl/software/salient-region-detectors
 
 ownerOf:
 
 contributorOf:
+- http://software.esciencecenter.nl/software/salient-region-detectors
 
 userOf:
 

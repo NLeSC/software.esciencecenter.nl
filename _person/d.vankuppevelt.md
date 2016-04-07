@@ -12,7 +12,7 @@ contactPersonOf:
 ownerOf:
 
 contributorOf:
-
+- http://software.esciencecenter.nl/software/salient-region-detectors
 userOf:
 
 engineerOf:
