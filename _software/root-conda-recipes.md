@@ -40,7 +40,9 @@ dependency:
 - rootpy
 dependencyOf:
 technologyTag:
-- Anaconda, pandas DataFrame, Computing model
+- Anaconda
+- pandas DataFrame
+- Computing model
 ---
 
 
