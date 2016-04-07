@@ -13,6 +13,7 @@ contactPersonOf:
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/pyxenon
+- http://software.esciencecenter.nl/software/root-conda-recipes
 - http://software.esciencecenter.nl/software/osmium
 - http://software.esciencecenter.nl/software/magma
 userOf:
