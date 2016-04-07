@@ -1,7 +1,7 @@
 ---
 name: eAstroVis
 tagLine: This tool can convert and visualize radio astronomy measurement sets, as well as most LOFAR intermediate data producs. It also does RFI mitigation.
-codeRepository: https://github.com/NLeSC/eAstroVis
+codeRepository: https://github.com/NLeSC/eAstroViz
 programmingLanguage:
 - Java
 license:
