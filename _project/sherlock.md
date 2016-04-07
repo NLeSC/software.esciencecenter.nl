@@ -32,6 +32,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nfi
 uses:
 - http://software.esciencecenter.nl/software/rig
+- http://software.esciencecenter.nl/software/metrochart
 startDate: 2015-10-20
 ---
 
