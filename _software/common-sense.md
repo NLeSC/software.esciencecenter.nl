@@ -6,7 +6,7 @@ website: https://tnocs.github.io/csWeb/
 documentationUrl: https://github.com/TNOCS/csWeb/wiki/Getting-started
 logo:
 programmingLanguage:
-- Javascript
+- JavaScript
 - TypeScript
 license:
 - mit

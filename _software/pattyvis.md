@@ -9,7 +9,7 @@ logo:
 programmingLanguage:
 - JavaScript
 license:
-- Apache 2.0
+- apache-2.0
 competence:
 - Big Data Analytics
 discipline:
