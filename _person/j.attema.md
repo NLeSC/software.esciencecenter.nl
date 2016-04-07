@@ -9,7 +9,7 @@ affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/jisk-attema-new.jpg
 contactPersonOf:
-- https://www.esciencecenter.nl/project/summer-in-the-city
+- http://software.esciencecenter.nl/project/summer-in-the-city
 ownerOf:
 
 contributorOf:
@@ -17,8 +17,8 @@ contributorOf:
 userOf:
 
 engineerOf:
-- https://www.esciencecenter.nl/project/summer-in-the-city
-- https://www.esciencecenter.nl/project/aa-alert
+- http://software.esciencecenter.nl/project/summer-in-the-city
+- http://software.esciencecenter.nl/project/aa-alert
 
 ---
 Jisk studied physics at the University of Groningen, graduating with honors from the theoretical physics program. After that he did his PhD on the topic of numerical solid state physics at the university of Nijmegen. His thesis focuses on the search for new (magnetic) materials for use in the semiconductor industry; this by using computational methods (density functional theory). This ignited his passion for high performance computing and big data. After finishing his PhD Jisk worked at SURFsara, the national HPC and e-science support center.
