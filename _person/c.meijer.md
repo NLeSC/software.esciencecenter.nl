@@ -16,9 +16,7 @@ contributorOf:
 userOf:
 
 engineerOf:
-- https://www.esciencecenter.nl/project/error-detection-and-error-localization
-- https://www.esciencecenter.nl/project/eecology
-- https://www.esciencecenter.nl/project/dive
+
 
 ---
 Christiaan has studied Psychology, Physics and Artificial Intelligence, all at the University of Amsterdam (UvA). Christiaan received his MSc in both Psychology and Artificial Intelligence, track Intelligent Systems. In his thesis he applied reinforcement learning to the problem of learning new behavior in the field of robotics. His specialties include machine learning, computer vision, reinforcement learning and deep learning.
