@@ -19,10 +19,7 @@ expertise:
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/c.martinez
 owner:
-  name: Erik Vullings
-  githubUrl: https://github.com/erikvullings
-  affiliation:
-  - http://software.esciencecenter.nl/organization/tno
+- http://software.esciencecenter.nl/organization/tno
 contributor:
 - http://software.esciencecenter.nl/person/c.martinez
 - name: Erik Vullings
