@@ -6,4 +6,4 @@ linkedInUrl: https://www.linkedin.com/edu/wageningen-university-15454
 tagLine: For quality of life
 logo: https://www.esciencecenter.nl/img/partners/wur.jpg
 ---
-
+Wageningen UR is a collaboration between Wageningen University and the DLO foundation.
