@@ -6,11 +6,15 @@ branches:
 install:
   - pip install -e .
   - pip install nose
+  - gem install github-pages
 script:
   - nosetests
-  - if [ $TRAVIS_BRANCH == "gh-pages" ] || [ $TRAVIS_PULL_REQUEST ]; then
+  - if [ $TRAVIS_BRANCH == "gh-pages" or $TRAVIS_PULL_REQUEST ]; then
     estep validate -v --resolve;
     else
     estep validate -v;
     fi
-cache: pip
+  - jekyll build
+cache: 
+- pip
+- bundler
