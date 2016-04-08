@@ -12,8 +12,15 @@ involvedIn:
 - http://software.esciencecenter.nl/project/simcity
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/twinl
+<<<<<<< HEAD
 - http://software.esciencecenter.nl/project/pandas-root
 - http://software.esciencecenter.nl/project/idark
+=======
+- http://software.esciencecenter.nl/project/dilipad
+- http://software.esciencecenter.nl/project/texcavator
+- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
+- http://software.esciencecenter.nl/project/pandas-root
+>>>>>>> origin/gh-pages
 
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven
@@ -23,12 +30,19 @@ organizationOf:
 - http://software.esciencecenter.nl/person/j.hidding
 - http://software.esciencecenter.nl/person/b.weel
 - http://software.esciencecenter.nl/person/j.borgdorff
+<<<<<<< HEAD
 - http://software.esciencecenter.nl/person/f.diblen
+=======
+- http://software.esciencecenter.nl/person/j.vanderzwaan
+>>>>>>> origin/gh-pages
 ownerOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/noodles
+- http://software.esciencecenter.nl/software/metrochart
+- http://software.esciencecenter.nl/software/cptm
 userOf:
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/metrochart
 ---
 Historically, scientific domains were defined by their own unique tools (microscopes, telescopes, distillation glass). Nowadays, the most important tool in all scientific disciplines is the computer. In this digital era, eScience is the developing discipline that provides the domain overarching software instruments (software, workflows and protocols) to support diverse scientific initiatives – making possible the creation of new, even unforeseen, applications – with the potential to transform current scientific practice, optimize scientific investments and significantly accelerate scientific discovery. eScience has the potential to underpin all scientific endeavor in the same way that applied mathematics currently does.
 
