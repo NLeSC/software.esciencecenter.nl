@@ -11,7 +11,7 @@ install:
   - pip install nose
 script:
   - nosetests
-  - if [ $TRAVIS_BRANCH == "gh-pages" or -v $TRAVIS_PULL_REQUEST ]; then
+  - if [ $TRAVIS_BRANCH == "gh-pages" -o -v $TRAVIS_PULL_REQUEST ]; then
     estep validate -v --resolve;
     else
     estep validate -v;
