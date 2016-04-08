@@ -1,8 +1,7 @@
-language: 
-  - python
-  - ruby
-rvm:
-  - 2.2.4
+language: python
+sudo: true
+services:
+  - docker
 branches:
   only:
     - gh-pages
@@ -18,7 +17,7 @@ script:
     else
     estep validate -v;
     fi
-  - jekyll build
+  - docker run --rm --volume=$(pwd):/srv/jekyll jekyll/jekyll:pages jekyll build
 cache: 
 - pip
 - bundler
