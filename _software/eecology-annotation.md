@@ -1,44 +1,45 @@
 ---
-name: eEcology Annotation Tool
-tagLine: Visualize & annotate GPS measurements of bird movements
-website: https://services.e-ecology.sara.nl/aws/
 codeRepository: https://github.com/NLeSC/eEcology-Annotation-WS
-downloadUrl: https://github.com/NLeSC/eEcology-Annotation-WS/releases
-doi: http://dx.doi.org/10.5281/zenodo.45200
-programmingLanguage:
-- Python
-- JavaScript
 competence:
 - Optimized Data Handling
+contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
+contributor:
+- http://software.esciencecenter.nl/person/s.verhoeven
+dependency:
+- http://software.esciencecenter.nl/software/extjs-datetime
 discipline:
 - Environment & Sustainability
+doi: http://dx.doi.org/10.5281/zenodo.45200
+downloadUrl: https://github.com/NLeSC/eEcology-Annotation-WS/releases
 expertise:
 - Handling Sensor Data
 - Information Retrieval
 - Scientific Visualization
 - Databases
-supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
-owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-contributor:
-- http://software.esciencecenter.nl/person/s.verhoeven
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva
 - http://software.esciencecenter.nl/organization/surfsara
+name: eEcology Annotation Tool
+owner:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/uva
+- http://software.esciencecenter.nl/person/s.verhoeven
+programmingLanguage:
+- Python
+- JavaScript
+startDate: 2013-03-21
+status: active
+supportLevel: specialized
+tagLine: Visualize & annotate GPS measurements of bird movements
+technologyTag:
+- GIS
+- Website
 usedIn:
 - http://software.esciencecenter.nl/project/eecology
 user:
 - http://software.esciencecenter.nl/organization/uva
-startDate: 2013-03-21
-status: active
-dependency:
-- http://software.esciencecenter.nl/software/extjs-datetime
-technologyTag:
-- GIS
-- Website
+website: https://services.e-ecology.sara.nl/aws/
 ---
 Rich web interface to virtualize & annotate GPS measurements.
 The visualization has been applied to [uva-bits tracking devices](http://www.uva-bits.nl/system) , but can be used for any spatial-temporal data.
