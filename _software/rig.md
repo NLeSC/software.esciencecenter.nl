@@ -1,18 +1,13 @@
 ---
-name: Rig
-tagLine: Big data cleaning toolkit
 codeRepository: https://github.com/nlesc-sherlock/Rig
-nlescWebsite:
-website:
-documentationUrl:
-logo: https://raw.githubusercontent.com/nlesc-sherlock/Rig/develop/app/images/noun_95045_cc.png
-programmingLanguage:
-- Python
-- JavaScript
-license:
-- apache-2.0
 competence:
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contributor:
+- http://software.esciencecenter.nl/person/j.vanderzwaan
+- http://software.esciencecenter.nl/person/w.vanhage
+- http://software.esciencecenter.nl/person/o.rubi
+- http://software.esciencecenter.nl/person/l.buitinck
 discipline:
 - eScience Methodology
 expertise:
@@ -20,29 +15,27 @@ expertise:
 - Information Visualization
 - Databases
 - Distributed Computing
-supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
-owner:
-- http://software.esciencecenter.nl/organization/nlesc
-contributor:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
-- http://software.esciencecenter.nl/person/w.vanhage
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/l.buitinck
-
-user:
-- http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-
-usedIn:
-
+license:
+- apache-2.0
+logo: https://raw.githubusercontent.com/nlesc-sherlock/Rig/develop/app/images/noun_95045_cc.png
+name: Rig
+owner:
+- http://software.esciencecenter.nl/organization/nlesc
+programmingLanguage:
+- Python
+- JavaScript
 startDate: 2016-02-16
 status: active
-dependency:
-dependencyOf:
+supportLevel: specialized
+tagLine: Big data cleaning toolkit
 technologyTag:
 - Spark
+usedIn:
+- http://software.esciencecenter.nl/project/sherlock
+user:
+- http://software.esciencecenter.nl/organization/nlesc
 ---
 Every data analysis project starts with exploring and cleaning data. For tabular data, there are some tools available that facilitate data pre-processing, such as OpenRefine and Trifacta Wrangler. However, these tools one big disadvantage; they don't scale to really big data sets. Also, Trifacta Wrangler is not open source. For full text data, no tools for data cleanup exist.
 

@@ -12,11 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import yaml
-import json
-import frontmatter
-import os
 import datetime
+import os
+import json
+
+import yaml
+import frontmatter
 
 
 def json_serializer(obj):

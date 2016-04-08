@@ -19,8 +19,11 @@ import logging
 
 from docopt import docopt
 import yaml
+
 from .format import jekyllfile2object, object2jekyll
-from .validate import Validator, AbstractValidators, url_to_path, url_to_collection_name, load_schemas
+from .validate import Validators, EStepValidator, log_error
+from .schema import load_schemas
+from .utils import url_to_path, url_to_collection_name
 from .version import __version__
 from . import relationship
 
@@ -39,7 +42,14 @@ class Collection(object):
         self.schema = schema
 
     def documents(self):
-        return recurseDirectory(self.directory, self.name)
+        docs = []
+        for dirpath, dirnames, filenames in os.walk(self.directory):
+            for filename in filenames:
+                ext = os.path.splitext(filename)[1]
+                if ext.lower() in ['.md', '.markdown', '.mdown']:
+                    path = os.path.join(dirpath, filename)
+                    docs.append((path, jekyllfile2object(path, schemaType=self.name)))
+        return docs
 
 
 class Config(object):
@@ -48,7 +58,7 @@ class Config(object):
             self.config = yaml.load(f)
 
     def validator(self, schemadir, resolve_local, resolve_remote):
-        return Validator(self.schema_uris(), schemadir, resolve_local, resolve_remote)
+        return EStepValidator(self.schema_uris(), schemadir, resolve_local, resolve_remote)
 
     def schemas(self):
         schemas = {}
@@ -68,50 +78,82 @@ class Config(object):
         return collections
 
 
+def validate_document(validator, document):
+    docid = document['@id']
+    docfn = url_to_path(docid)
+
+    errors = list(validator.iter_errors(document))
+    nr_errors = len(errors)
+    has_errors = nr_errors == 0
+    if has_errors:
+        LOGGER.info('Document: %s OK', docfn)
+    else:
+        warning_msg = 'Document: {0} BAD'.format(docfn)
+        separator = '-' * len(warning_msg)
+        LOGGER.warning(separator)
+        LOGGER.warning(warning_msg)
+        LOGGER.warning(separator + '\n')
+        for error in errors:
+            log_error(error)
+    return nr_errors
+
+
 def validate(schemadir, resolve_local=True, resolve_remote=False, path=None, schema_type=None):
     config = Config()
     validator = config.validator(schemadir, resolve_local, resolve_remote)
 
+    nr_errors = 0
     if path is None:
-        nr_errors = 0
         for collection in config.collections():
             LOGGER.info('Collection: %s', collection.name)
             for docname, document in collection.documents():
-                nr_errors += validator.validate(docname, document)
+                nr_errors += validate_document(validator, document)
     else:
-        nr_errors = validator.validate(path, jekyllfile2object(path, schemaType=schema_type))
+        document = jekyllfile2object(path, schemaType=schema_type)
+        nr_errors += validate_document(validator, document)
 
-    LOGGER.info('--------------------------')
-    nr_errors += validator.finalize()
+    errors = list(validator.finalize())
+    nr_errors += len(errors)
+    if len(errors) == 0:
+        LOGGER.info('Relationships: OK')
+    else:
+        LOGGER.info('Relationships: BAD')
+        for error in errors:
+            log_error(error)
+
     if nr_errors:
         LOGGER.warning('%i error(s) found', nr_errors)
         sys.exit(1)
     else:
-        LOGGER.info('No errors found')
+        LOGGER.warning('No errors found')
 
 
 def generate_reciprocal():
     config = Config()
-    validator = AbstractValidators(relationship.get_validators())
+    validator = Validators(relationship.get_validators())
 
-    nr_errors = 0
+    LOGGER.info('Parsing documents')
     for collection in config.collections():
         LOGGER.info('Collection: %s', collection.name)
         for docname, document in collection.documents():
-            nr_errors += validator.validate(docname, document)
+            LOGGER.debug('Document: %s', docname)
+            # Must loop over whole iterator, otherwise no items are stored.
+            list(validator.iter_errors(document))
 
     schemas = load_schemas(config.schema_uris())
 
+    missings = list(validator.missing())
+    nr_errors = len(missings)
     if nr_errors > 0:
         faulty_docs = {}
-        for (url, property_name, value) in validator.missing():
+        for (url, property_name, value) in missings:
             LOGGER.debug("* Found missing relationship {0}#{1}: {2}".format(url, property_name, value))
             if url not in faulty_docs:
                 path = url_to_path(url)
                 collection_name = url_to_collection_name(url)
                 try:
                     faulty_docs[url] = jekyllfile2object(path, schemaType=collection_name)
-                except IOError as ex:
+                except IOError:
                     LOGGER.warning("Cannot read path %s to fix missing relationship %s#%s: %s", path, url, property_name, value)
                     continue
 
@@ -126,14 +168,15 @@ def generate_reciprocal():
             else:
                 doc[property_name] = value
 
-
         for url, document in faulty_docs.items():
             path = url_to_path(url)
             LOGGER.info("Writing fixed file %s", path)
             with open(path, 'w') as f:
                 f.write(object2jekyll(document, 'description'))
 
-        LOGGER.warning('Fixed missing relationships in %d documents', len(faulty_docs))
+        LOGGER.warning('Fixed %d missing relationships in %d documents', nr_errors, len(faulty_docs))
+    else:
+        LOGGER.warning('Everything is OK, no missing relationships found')
 
 
 def main(argv=sys.argv[1:]):
@@ -177,14 +220,3 @@ def main(argv=sys.argv[1:]):
                  )
     elif arguments['generate'] and arguments['reciprocal']:
         generate_reciprocal()
-
-
-def recurseDirectory(directory, schemaType):
-    obj = []
-    for dirpath, dirnames, filenames in os.walk(directory):
-        for filename in filenames:
-            ext = os.path.splitext(filename)[1]
-            if ext.lower() in ['.md', '.markdown', '.mdown']:
-                path = os.path.join(dirpath, filename)
-                obj.append((path, jekyllfile2object(path, schemaType=schemaType)))
-    return obj

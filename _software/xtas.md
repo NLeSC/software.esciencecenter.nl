@@ -1,48 +1,45 @@
 ---
-name: xtas
-tagLine: the eXtensible Text Analysis Suite
 codeRepository: https://github.com/NLeSC/xtas
-nlescWebsite: https://www.esciencecenter.nl/technology/software/xtas
-website: http://nlesc.github.io/xtas/
-documentationUrl: http://nlesc.github.io/xtas/setup.html
-logo:
-programmingLanguage:
-- Java
-- Python
-license:
-- apache-2.0
 competence:
 - Efficient Computing
 - Big Data Analytics
+contributor:
+- http://software.esciencecenter.nl/organization/vua
+- http://software.esciencecenter.nl/person/l.veen
 discipline:
 - Humanities & Social Sciences
+documentationUrl: http://nlesc.github.io/xtas/setup.html
 expertise:
 - Text Mining
 - Distributed Computing
 - Information Retrieval
-supportLevel: none
-contactPerson: 
-owner: 
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-contributor:
-- http://software.esciencecenter.nl/organization/vua
-user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva
-usedIn:
+license:
+- apache-2.0
+name: xtas
+nlescWebsite: https://www.esciencecenter.nl/technology/software/xtas
+owner:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/uva
+programmingLanguage:
+- Java
+- Python
 startDate: 2013-01-01
 status: active
-dependency:
-dependencyOf:
+supportLevel: none
+tagLine: the eXtensible Text Analysis Suite
 technologyTag:
 - NER
 - NLP
 - Parsing
 - Sentiment analysis
+user:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/uva
+- http://software.esciencecenter.nl/person/p.bos
+website: http://nlesc.github.io/xtas/
 ---
 xtas is a collection of natural language processing and text mining tools, brought together in a single software package with built-in distributed computing and support for the Elasticsearch document store.
 

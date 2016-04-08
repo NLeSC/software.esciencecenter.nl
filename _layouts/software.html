@@ -46,7 +46,9 @@ layout: default
 <div class="property">
 <h3>Status</h3>
 <div class="status">
+{% if page.status %}
 <a href="/software#status={{ page.status | cgi_escape }}">{{ page.status }}</a>
+{% endif %}
 </div>
 </div>
 
