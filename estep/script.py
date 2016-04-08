@@ -132,17 +132,21 @@ def generate_reciprocal():
     config = Config()
     validator = Validators(relationship.get_validators())
 
-    nr_errors = 0
+    LOGGER.info('Parsing documents')
     for collection in config.collections():
         LOGGER.info('Collection: %s', collection.name)
         for docname, document in collection.documents():
-            nr_errors += validator.validate(docname, document)
+            LOGGER.debug('Document: %s', docname)
+            # Must loop over whole iterator, otherwise no items are stored.
+            list(validator.iter_errors(document))
 
     schemas = load_schemas(config.schema_uris())
 
+    missings = list(validator.missing())
+    nr_errors = len(missings)
     if nr_errors > 0:
         faulty_docs = {}
-        for (url, property_name, value) in validator.missing():
+        for (url, property_name, value) in missings:
             LOGGER.debug("* Found missing relationship {0}#{1}: {2}".format(url, property_name, value))
             if url not in faulty_docs:
                 path = url_to_path(url)
@@ -170,7 +174,9 @@ def generate_reciprocal():
             with open(path, 'w') as f:
                 f.write(object2jekyll(document, 'description'))
 
-        LOGGER.warning('Fixed missing relationships in %d documents', len(faulty_docs))
+        LOGGER.warning('Fixed %d missing relationships in %d documents', nr_errors, len(faulty_docs))
+    else:
+        LOGGER.warning('Everything is OK, no missing relationships found')
 
 
 def main(argv=sys.argv[1:]):
