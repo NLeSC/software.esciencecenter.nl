@@ -9,7 +9,6 @@ branches:
 install:
   - pip install -e .
   - pip install nose
-  - gem install github-pages
 script:
   - nosetests
   - if [ $TRAVIS_BRANCH == "gh-pages" or $TRAVIS_PULL_REQUEST ]; then
@@ -18,6 +17,4 @@ script:
     estep validate -v;
     fi
   - docker run --rm --volume=$(pwd):/srv/jekyll jekyll/jekyll:pages jekyll build
-cache: 
-- pip
-- bundler
+cache: pip
