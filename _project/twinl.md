@@ -29,7 +29,6 @@ principalInvestigator:
 startDate: 2013-02-01
 tagLine: Analysis of social media messages
 uses:
-- http://software.esciencecenter.nl/software/twiqs
 - http://software.esciencecenter.nl/software/twiqs.nl
 ---
 Developing a centralized service for gathering, storing, and analyzing Twitter messages
