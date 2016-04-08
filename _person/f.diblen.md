@@ -4,9 +4,7 @@ jobTitle: eScience Research Engineer
 affiliation:
 - http://sofware.esciencecenter.nl/organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/idarklib
+- https://www.esciencecenter.nl/project/idark
 engineerOf:
-- http://software.esciencecenter.nl/software/idarklib
-userOf:
-- http://software.esciencecenter.nl/software/idarklib
+- https://www.esciencecenter.nl/project/idark
 ---
