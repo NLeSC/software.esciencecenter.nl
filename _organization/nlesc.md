@@ -12,6 +12,9 @@ involvedIn:
 - http://software.esciencecenter.nl/project/simcity
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/twinl
+- http://software.esciencecenter.nl/project/pandas-root
+- http://software.esciencecenter.nl/project/idark
+
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen
@@ -20,6 +23,7 @@ organizationOf:
 - http://software.esciencecenter.nl/person/j.hidding
 - http://software.esciencecenter.nl/person/b.weel
 - http://software.esciencecenter.nl/person/j.borgdorff
+- http://software.esciencecenter.nl/person/f.diblen
 ownerOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/noodles
