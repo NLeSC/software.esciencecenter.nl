@@ -1,4 +1,6 @@
-language: ruby
+language: 
+  - python
+  - ruby
 rvm:
   - 2.2.4
 branches:
