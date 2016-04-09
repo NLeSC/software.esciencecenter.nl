@@ -1,41 +1,37 @@
 ---
-name: Sherlock
-tagLine: Sherlock is an NLeSC-wide project in which all eScience Research engineers of the NLeSC work together.
-nlescWebsite:
-website: https://github.com/nlesc-sherlock
-logo:
 competence:
-  - Big Data Analytics
-  - Optimized Data Handling
-  - Efficient Computing
-discipline:
-  - eScience Methodology
-expertise:
-  - Text Mining
-  - Machine Learning
-  - Information Visualization
-  - Information Retrieval
-  - Computer Vision
-  - Distributed Computing
-  - High Performance Computing
-infrastructure:
-dataMagnitude: GB
+- Big Data Analytics
+- Optimized Data Handling
+- Efficient Computing
+contactPerson: http://software.esciencecenter.nl/person/j.maassen
 dataFormat:
 - JSON
-contactPerson: http://software.esciencecenter.nl/person/j.maassen
+dataMagnitude: GB
+discipline:
+- eScience Methodology
 engineer:
 - http://software.esciencecenter.nl/person/j.vanderzwaan
-principalInvestigator:
-
+- http://software.esciencecenter.nl/person/j.spaaks
+expertise:
+- Text Mining
+- Machine Learning
+- Information Visualization
+- Information Retrieval
+- Computer Vision
+- Distributed Computing
+- High Performance Computing
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/nfi
+name: Sherlock
+startDate: 2015-10-20
+tagLine: Sherlock is an NLeSC-wide project in which all eScience Research engineers
+  of the NLeSC work together.
 uses:
 - http://software.esciencecenter.nl/software/rig
 - http://software.esciencecenter.nl/software/metrochart
-startDate: 2015-10-20
+website: https://github.com/nlesc-sherlock
 ---
-
 Sherlock is an NLeSC-wide project in which all eScience Research engineers of the NLeSC work together. The goals of Sherlock are:
 
   - Team building: get to know your (new) colleagues, their interests, skills, knowledge, etc.
