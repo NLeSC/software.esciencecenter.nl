@@ -1,34 +1,38 @@
 ---
-name: twiqs.nl
-tagLine: Searchable Dutch tweets
-website: http://twiqs.nl/
-programmingLanguage:
-- Perl
-- Java
 competence:
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
+contributor:
+- http://software.esciencecenter.nl/person/e.tjongkimsang
 discipline:
 - Humanities & Social Sciences
 expertise:
 - Text Mining
 - Information Retrieval
-supportLevel: basic
-contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
-owner: http://software.esciencecenter.nl/person/e.tjongkimsang
-contributor:
-- http://software.esciencecenter.nl/person/e.tjongkimsang
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/radboud.university.nijmegen
 - http://software.esciencecenter.nl/organization/surfsara
-usedIn:
-- http://software.esciencecenter.nl/project/twinl
+name: twiqs.nl
+owner:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
+- http://software.esciencecenter.nl/organization/surfsara
+- http://software.esciencecenter.nl/person/e.tjongkimsang
+programmingLanguage:
+- Perl
+- Java
 startDate: 2013-02-22
 status: inactive
+supportLevel: basic
+tagLine: Searchable Dutch tweets
 technologyTag:
 - Hadoop
 - Twitter
 - Website
+usedIn:
+- http://software.esciencecenter.nl/project/twinl
+website: http://twiqs.nl/
 ---
 twiqs.nl provides researchers and students the opportunity to search through Dutch tweets. You can look up words and find out where, when and how often they are used, by whom and with what other words they frequently occur together.
 

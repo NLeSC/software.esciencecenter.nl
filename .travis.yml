@@ -4,5 +4,13 @@ branches:
     - gh-pages
     - /^.*$/
 install:
-  - pip install -r requirements.txt
-script: estep validate -v
+  - pip install -e .
+  - pip install nose
+script:
+  - nosetests
+  - if [ $TRAVIS_BRANCH == "gh-pages" ] || [ $TRAVIS_PULL_REQUEST ]; then
+    estep validate -v --resolve;
+    else
+    estep validate -v;
+    fi
+cache: pip

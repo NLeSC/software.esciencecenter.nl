@@ -1,42 +1,47 @@
 ---
-name: pyxenon
-tagLine: Python wrapper for the Xenon programming interface to various compute and storage resources.
 codeRepository: https://github.com/NLeSC/pyxenon
-downloadUrl: https://pypi.python.org/pypi/pyxenon
-programmingLanguage:
-- Python
-license:
-- apache-2.0
 competence:
 - Optimized Data Handling
-discipline:
-- Physics & Beyond
-- eScience Methodology
-expertise:
-- Distributed Computing
-supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/j.borgdorff
-owner: http://software.esciencecenter.nl/organization/nlesc
 contributor:
 - http://software.esciencecenter.nl/person/j.borgdorff
 - http://software.esciencecenter.nl/person/j.hidding
 - http://software.esciencecenter.nl/person/s.verhoeven
-user:
-- http://software.esciencecenter.nl/person/j.borgdorff
-- http://software.esciencecenter.nl/person/j.hidding
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-usedIn:
-- http://software.esciencecenter.nl/project/simcity
-startDate: 2015-11-29
-status: active
 dependency:
 - http://software.esciencecenter.nl/software/xenon
 dependencyOf:
 - http://software.esciencecenter.nl/software/noodles
+- http://software.esciencecenter.nl/software/wrfpy
+discipline:
+- Physics & Beyond
+- eScience Methodology
+downloadUrl: https://pypi.python.org/pypi/pyxenon
+expertise:
+- Distributed Computing
+involvedOrganization:
+- http://software.esciencecenter.nl/organization/nlesc
+license:
+- apache-2.0
+name: pyxenon
+owner:
+- http://software.esciencecenter.nl/organization/nlesc
+programmingLanguage:
+- Python
+startDate: 2015-11-29
+status: active
+supportLevel: specialized
+tagLine: Python wrapper for the Xenon programming interface to various compute and
+  storage resources.
 technologyTag:
 - Distributed
 - Library
+usedIn:
+- http://software.esciencecenter.nl/project/simcity
+- http://software.esciencecenter.nl/project/era-urban
+user:
+- http://software.esciencecenter.nl/person/j.borgdorff
+- http://software.esciencecenter.nl/person/j.hidding
+- http://software.esciencecenter.nl/person/r.vanharen
 ---
 Xenon is a middleware abstraction library. It provides a simple
 programming interface to various pieces of software that can be used to
