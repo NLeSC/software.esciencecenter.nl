@@ -1,6 +1,6 @@
 ---
-name: FAIRDataPoint
-tagLine: FAIRDataPoint Metadata Service
+name: FAIR Data Point
+tagLine: FAIR Data Point Metadata Service
 codeRepository: https://github.com/NLeSC/ODEX-FAIRDataPoint
 nlescWebsite: https://www.esciencecenter.nl/technology/software/fairdatapoint
 documentationUrl:
@@ -24,8 +24,6 @@ supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/a.kuzniar
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/lumc
-- http://software.esciencecenter.nl/organization/dtl
 
 contributor:
 - http://software.esciencecenter.nl/person/a.kuzniar
@@ -35,6 +33,7 @@ contributor:
     - http://software.esciencecenter.nl/organization/lumc
 user:
 - http://software.esciencecenter.nl/person/a.kuzniar
+- http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/lumc
 - http://software.esciencecenter.nl/organization/wur
 

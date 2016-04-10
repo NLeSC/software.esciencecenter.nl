@@ -3,6 +3,7 @@ name: ODEX4all
 tagLine: 'ODEX4all: Open discovery and exchange for all'
 nlescWebsite: https://www.esciencecenter.nl/project/odex4all
 website:
+logo: https://www.esciencecenter.nl/img/projects/1.P021-small.jpg
 competence:
 - 'Optimized Data Handling' 
 discipline:
@@ -16,7 +17,7 @@ dataMagnitude: 'TB'
 dataFormat:
 - 'RDF serializations'
 - 'JSON-LD'
-contactPerson: http://software.esciencecenter.nl/person/a.kuzniar
+contactPerson:
 coordinator: http://software.esciencecenter.nl/person/l.ridder
 engineer:
 - http://software.esciencecenter.nl/person/a.kuzniar
@@ -35,5 +36,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/wur
 uses:
 - http://software.esciencecenter.nl/software/fairdatapoint
+startDate: 2015-06-01
+endDate: 2017-06-01
 ---
 The ODEX4all project aims at the development and sustainability of an environment where diverse sources of (big) data are published so that both computers and humans can 'understand' and process them effectively. To that end, semantic web and computer sciences are combined.

@@ -11,8 +11,7 @@ affiliation:
 photo: https://www.esciencecenter.nl/img/team/Arnold-Kuzniar-web.jpg
 
 contactPersonOf:
-- http://software.esciencecenter.nl/project/odex4all
-- http://software.esciencecenter.nl/project/candygene
+- http://software.esciencecenter.nl/software/fairdatapoint
 
 contributorOf:
 - http://software.esciencecenter.nl/software/fairdatapoint
@@ -30,6 +29,6 @@ Arnold obtained his PhD in Bioinformatics at the Laboratory of Bioinformatics, W
 
 In 2011 Arnold moved to Switzerland and joined the Department of Ecology and Evolution at the University of Lausanne, Swiss Institute of Bioinformatics. He worked on an e-Science project aimed at speeding up the detection of positive selection in animal genomes using the Swiss Multi Science Grid (SMSCG).
 
-In 2012 Arnold returned to the Netherlands and carried out research in computational proteomics at the Department of Genetics at the Erasmus Medical Center in Rotterdam. Here he focused on reliable mass spectrometry(MS)-based detection of cellular responses (pathways) upon exposure to non-ionizing electromagnetic fields. To facilitate the MS data handling and statistical analyses, Arnold developed the PIQMIe proteomics web server.
+In 2012 Arnold returned to the Netherlands and carried out research in computational mass spectrometry(MS)-based proteomics at the Department of Genetics at the Erasmus Medical Center in Rotterdam. Here he focused on reliable MS-based detection of cellular responses (pathways) upon exposure to non-ionizing electromagnetic fields. To facilitate the MS data handling and statistical analyses, Arnold developed the [PIQMIe](http://www.bioinformatics.nl/piqmie) proteomics web server.
 
 At the Netherlands eScience Center, Arnold works on the ODEX4all and candYgene projects, which involve Linked Data/Semantic Web technologies, worlflows and Big data analytics.

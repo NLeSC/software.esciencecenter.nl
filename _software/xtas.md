@@ -25,10 +25,12 @@ contributor:
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva
+- http://software/esciencecenter.nl/organization/wur
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva
 usedIn:
+- http://software.esciencecenter.nl/project/candygene
 startDate: 2013-01-01
 status: active
 dependency:
