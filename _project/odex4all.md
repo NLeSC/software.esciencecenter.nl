@@ -20,7 +20,6 @@ contactPerson: http://software.esciencecenter.nl/person/a.kuzniar
 coordinator: http://software.esciencecenter.nl/person/l.ridder
 engineer:
 - http://software.esciencecenter.nl/person/a.kuzniar
-- http://software.esciencecenter.nl/person/a.gavai
 principalInvestigator:
 - name: Barend Mons
   affiliation:
@@ -33,8 +32,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/lumc
 - http://software.esciencecenter.nl/organization/dtl
-- http://software.esciencecenter.nl/organization/surfsara
-
+- http://software.esciencecenter.nl/organization/wur
 uses:
 - http://software.esciencecenter.nl/software/fairdatapoint
 ---

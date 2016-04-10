@@ -5,6 +5,8 @@ logo: https://www.lumc.nl/images/html5/logo-lumc-eng.png
 linkedInUrl: https://www.linkedin.com/company/lumc
 involvedIn:
 - http://software.esciencecenter.nl/project/odex4all
+ownerOf:
+- http://software.esciencecenter.nl/software/fairdatapoint
 userOf:
 - http://software.esciencecenter.nl/software/fairdatapoint
 ---

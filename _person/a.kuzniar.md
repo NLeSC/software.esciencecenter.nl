@@ -11,10 +11,8 @@ affiliation:
 photo: https://www.esciencecenter.nl/img/team/Arnold-Kuzniar-web.jpg
 
 contactPersonOf:
-- http://software.esciencecenter.nl/software/fairdatapoint
-
-ownerOf:
-- http://software.esciencecenter.nl/software/fairdatapoint
+- http://software.esciencecenter.nl/project/odex4all
+- http://software.esciencecenter.nl/project/candygene
 
 contributorOf:
 - http://software.esciencecenter.nl/software/fairdatapoint
@@ -24,7 +22,7 @@ userOf:
 
 engineerOf:
 - http://software.esciencecenter.nl/project/odex4all
-- https://www.esciencecenter.nl/project/prediction-of-candidate-genes-for-traits-using-interoperable-genome-annotat
+- http://software.esciencecenter.nl/project/candygene
 ---
 Arnold studied Molecular Biology at the Comenius University in Bratislava, Slovakia. In the last year of his masters, he received a scholarship to study bioinformatics at the Wageningen University and Research Centre (WUR), the Netherlands. He completed his thesis on comparative genomics of White spot syndrome (shrimp) virus isolates. During this period he also developed bioinformatics tools to mine these genomes for epidemiologically relevant biomarkers.
 

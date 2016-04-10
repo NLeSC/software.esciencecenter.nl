@@ -6,7 +6,7 @@ nlescWebsite: https://www.esciencecenter.nl/technology/software/fairdatapoint
 documentationUrl:
 logo:
 downloadUrl: https://github.com/NLeSC/ODEX-FAIRDataPoint
-website:
+website: http://fdp.biotools.nl:8080
 programmingLanguage:
 - Python
 - Java
@@ -34,7 +34,7 @@ contributor:
   affiliation:
     - http://software.esciencecenter.nl/organization/lumc
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/person/a.kuzniar
 - http://software.esciencecenter.nl/organization/lumc
 - http://software.esciencecenter.nl/organization/wur
 
@@ -52,6 +52,7 @@ status: active
 dependency:
 dependencyOf:
 technologyTag:
+- 'FAIR Data'
 - 'Linked Data'
 - 'Semantic Web'
 - 'RDF'
@@ -59,13 +60,9 @@ technologyTag:
 - 'Turtle'
 - 'RDF/XML'
 - 'N-Triples'
-- 'LDP'
-- 'Metadata standards'
 - 'DCAT'
 - 'Dublin Core metadata'
-- 'FAIR Data'
 - 'RESTful API'
-- 'Swagger UI'
 ---
 FAIR Data Point (FDP) is one of the components of the FAIR Data e-infrastructure. FDP enables both i) data owners to expose data sets in compliance with the FAIR Data Principles and ii) data users to discover information about the data sets available (metadata). Specifically, the FDP addresses the first facet of FAIR Data i.e., the issue of findability or discoverability of data, by providing metadata at four complementary levels: FDP itself, data catalog, data set including its distributions and data record. The FDP software has been developed as a stand-alone Web application in both Python and Java languanges.
 
