@@ -17,6 +17,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/eecology-tracker-calendar
 - http://software.esciencecenter.nl/software/extjs-datetime
+- http://software.esciencecenter.nl/software/pattyvis
 engineerOf:
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/eecology

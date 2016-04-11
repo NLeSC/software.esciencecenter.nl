@@ -16,6 +16,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 - http://software.esciencecenter.nl/project/sherlock
 - http://software.esciencecenter.nl/project/what-works-when-for-whom
+- http://software.esciencecenter.nl/project/idark
 linkedInUrl: https://www.linkedin.com/company/netherlands-escience-center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
 name: Netherlands eScience Center
@@ -46,6 +47,8 @@ ownerOf:
 - http://software.esciencecenter.nl/software/extjs-datetime
 - http://software.esciencecenter.nl/software/storyteller
 - http://software.esciencecenter.nl/software/kernel_tuner
+- http://software.esciencecenter.nl/software/cclustera
+- http://software.esciencecenter.nl/software/salient-region-detectors
 researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
@@ -60,6 +63,8 @@ userOf:
 - http://software.esciencecenter.nl/software/xtas
 - http://software.esciencecenter.nl/software/rig
 - http://software.esciencecenter.nl/software/storyteller
+- http://software.esciencecenter.nl/software/cclustera
+- http://software.esciencecenter.nl/software/salient-region-detectors
 website: http://www.esciencecenter.nl/
 ---
 Historically, scientific domains were defined by their own unique tools (microscopes, telescopes, distillation glass). Nowadays, the most important tool in all scientific disciplines is the computer. In this digital era, eScience is the developing discipline that provides the domain overarching software instruments (software, workflows and protocols) to support diverse scientific initiatives – making possible the creation of new, even unforeseen, applications – with the potential to transform current scientific practice, optimize scientific investments and significantly accelerate scientific discovery. eScience has the potential to underpin all scientific endeavor in the same way that applied mathematics currently does.

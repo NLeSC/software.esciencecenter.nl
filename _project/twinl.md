@@ -2,6 +2,7 @@
 competence:
 - Big Data Analytics
 contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
+logo: http://www.esciencecenter.nl/img/projects/1.P018-large.jpg
 dataFormat:
 - CSV
 - JSON
