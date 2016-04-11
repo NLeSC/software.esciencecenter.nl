@@ -1,41 +1,43 @@
 ---
-name: eEcology
-tagLine: 'Virtual laboratories for inspiration and discovery in ecology'
-nlescWebsite: https://www.esciencecenter.nl/project/eecology
-website: http://www.uva-bits.nl/
 competence:
 - Big Data Analytics
-discipline:
-- Environment & Sustainability
-expertise:
-- 'Machine Learning'
-- 'Information Visualization'
-- 'Scientific Visualization'
-- 'Handling Sensor Data'
-- 'Databases'
-infrastructure: 'Dedicated cluster'
-dataMagnitude: 'TB'
+contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
+coordinator: http://software.esciencecenter.nl/person/e.ranguelova
 dataFormat:
 - CSV
 - MATLAB
-contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
-coordinator: http://software.esciencecenter.nl/person/e.ranguelova
+dataMagnitude: TB
+discipline:
+- Environment & Sustainability
 engineer:
 - http://software.esciencecenter.nl/person/c.meijer
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.spaaks
-principalInvestigator:
-- name: Willem Bouten
-  affiliation:
-  - http://software.esciencecenter.nl/organization/uva
-  photo: https://www.esciencecenter.nl/img/team/willem-bouten-bw.jpg
-  website: http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/b/o/w.bouten/w.bouten.html
+expertise:
+- Machine Learning
+- Information Visualization
+- Scientific Visualization
+- Handling Sensor Data
+- Databases
+infrastructure: Dedicated cluster
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
+name: eEcology
+nlescWebsite: https://www.esciencecenter.nl/project/eecology
+principalInvestigator:
+- affiliation:
+  - http://software.esciencecenter.nl/organization/uva
+  name: Willem Bouten
+  photo: https://www.esciencecenter.nl/img/team/willem-bouten-bw.jpg
+  website: http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/b/o/w.bouten/w.bouten.html
+tagLine: Virtual laboratories for inspiration and discovery in ecology
 uses:
 - http://software.esciencecenter.nl/eecology-tracker-calendar
 - http://software.esciencecenter.nl/eecology-annotation
-
+- http://software.esciencecenter.nl/software/eecology-annotation
+- http://software.esciencecenter.nl/software/eecology-tracker-calendar
+- http://software.esciencecenter.nl/software/extjs-datetime
+website: http://www.uva-bits.nl/
 ---
 # Bridging the gap between the worlds of ecology and technology
 

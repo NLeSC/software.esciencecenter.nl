@@ -15,7 +15,7 @@ layout: default
 <h3>Links</h3>
 <ul class="link-list">
 {% unless page.website == null %}
-<li><a href="{{ page.website }}">website</a></li>
+<li><a href="{{ page.website }}">Website</a></li>
 {% endunless %}
 {% unless page.nlescWebsite == null %}
 <li><a href="{{ page.nlescWebsite }}">NLeSC website</a></li>
@@ -46,7 +46,9 @@ layout: default
 <div class="property">
 <h3>Status</h3>
 <div class="status">
+{% if page.status %}
 <a href="/software#status={{ page.status | cgi_escape }}">{{ page.status }}</a>
+{% endif %}
 </div>
 </div>
 
@@ -90,7 +92,19 @@ layout: default
 <h3>License</h3>
 <ul class="license-list">
 {% for d in page.license %}
-<li>{{ d }}</li>
+<li>
+<a href="/software#license={{ d | cgi_escape }}">{% case d %}
+{% when 'apache-2.0' %}
+Apache 2.0
+{% when 'mit' %}
+MIT
+{% when 'mpl-2.0' %}
+Mozilla Public License 2.0
+{% else %}
+{{ d }}
+{% endcase %}
+</a>
+</li>
 {% endfor %}
 </ul>
 </div>
@@ -163,42 +177,7 @@ layout: default
 <h3>Owner(s)</h3>
 <ul>
 {% for owner in page.owner %}
-<li>
-	{% capture d %}{{ owner.name }}{% endcapture %}
-	{% capture pname %}{% endcapture %}
-	{% if d == empty %}
-		<a href="{{ owner }}">
-		{% capture pname %}{{ owner }}{% endcapture %}
-		{% for p in site.person %}
-			{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
-			{% if urlx contains owner %}
-				{% capture pname %}{{ p.name }}{% endcapture %}
-			{% endif %}
-		{% endfor %}
-		{% for p in site.organization %}
-			{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
-			{% if urlx contains owner %}
-				{% capture pname %}{{ p.name }}{% endcapture %}
-			{% endif %}
-		{% endfor %}
-			{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}
-		</a>
-	{% elsif owner.name %}
-		{% if owner.githubUrl %}
-			<a href="{{ owner.githubUrl }}">{{ owner.name }}</a>
-		{% elsif owner.linkedInUrl %}
-			<a href="{{ owner.linkedInUrl }}">{{ owner.name }}</a>
-		{% elsif owner.twitterUrl %}
-			<a href="{{ owner.twitterUrl }}">{{ owner.name }}</a>
-		{% elsif owner.website %}
-			<a href="{{ owner.website }}">{{ owner.name }}</a>
-	  {% else %}
-	     {{ owner.name }}
-		{% endif %}
-	{% else %}
-		{{ d }}
-	{% endif %}
-</li>
+<li>{% capture d %}{{ owner.name }}{% endcapture %}{% capture pname %}{% endcapture %}{% if d == empty %}<a href="{{ owner }}">{% capture pname %}{{ owner }}{% endcapture %}{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains owner %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains owner %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif owner.name %}{% if owner.githubUrl %}<a href="{{ owner.githubUrl }}">{{ owner.name }}</a>{% elsif owner.linkedInUrl %}<a href="{{ owner.linkedInUrl }}">{{ owner.name }}</a>{% elsif owner.twitterUrl %}<a href="{{ owner.twitterUrl }}">{{ owner.name }}</a>{% elsif owner.website %}<a href="{{ owner.website }}">{{ owner.name }}</a>{% else %}{{ owner.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>

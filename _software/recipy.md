@@ -1,66 +1,61 @@
 ---
 name: ReciPy
 tagLine: Effortless provenance in Python
-codeRepository: https://github.com/NLeSC/cptm
+codeRepository: https://github.com/recipy/recipy
 nlescWebsite:
 website:
 documentationUrl:
 logo:
 programmingLanguage:
 - Python
-- Cython
 license:
-- Apache2.0
+- apache-2.0
 competence:
 - Big Data Analytics
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
-- Text Mining
-supportLevel: specialized
+
+supportLevel: advanced
 contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
 owner:
+- name: Robin Wilson
+  affiliation:
+  - http://software.esciencecenter.nl/organization/uva
+  website: http://www.rtwilson.com
 - http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
 contributor:
+- name: Robin Wilson
+  affiliation:
+  - http://software.esciencecenter.nl/organization/uva
+  website: http://www.rtwilson.com
 - http://software.esciencecenter.nl/person/j.vanderzwaan
-- http://software.esciencecenter.nl/person/l.buitinck
-- http://software.esciencecenter.nl/person/p.bos
+
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
+
 usedIn:
-- http://software.esciencecenter.nl/project/dilipad
-startDate: 2016-05-18
-status: inactive
+
+startDate: 2015-03-27
+status: active
 dependency:
 dependencyOf:
 technologyTag:
-- Topic Modeling
-- Latent Dirichlet Allocation
-- Gibbs Sampler
+- Provenance
 ---
-A Gibbs sampler that implements Cross-Perspective Topic Modeling, as described in
+Imagine the situation: You’ve written some wonderful Python code which produces a beautiful graph as an output. You save that graph, naturally enough, as `graph.png`. You run the code a couple of times, each time making minor modifications. You come back to it the next week/month/year. Do you know how you created that graph? What input data? What version of your code? If you’re anything like me then the answer will often, frustratingly, be “no”. Of course, you then waste lots of time trying to work out how you created it, or even give up and never use it in that journal paper that will win you a Nobel Prize…
 
-> Fang, Si, Somasundaram, & Yu (2012). Mining Contrastive Opinions on Political Texts using Cross-Perspective Topic Model. In proceedings of the fifth ACM international conference on Web Search and Data Mining. http://dl.acm.org/citation.cfm?id=2124306
+ReciPy (from *recipe* and *python*) is a Python module that will save you from this situation! (Although it can’t guarantee that your resulting paper will win a Nobel Prize!) With the addition of a single line of code to the top of your Python files, ReciPy will log each run of your code to a database, keeping track of the input files, output files and the version of your code, and then let you query this database to find out how you actually did create `graph.png`.
 
-The cross-perspective topic model is an extended form of Latent Dirichlet Allocation
-(LDA). Topics are learned by doing LDA on the topic words (nouns) in
-the corpus. Opinions are learned from a separate LDA process using opinion words
-(adjectives, verbs, and adverbs). A topic is a probability distribution
-over topic words. An opinion is a probability distribution over opinion words.
-While the topics are shared among the entire corpus, opinions depend on the perspective
-a document belongs to. A document can only belong to a single perspective, and the
-division of the corpus in perspectives is fixed and must be known in advance.
+When you import recipy it adds a number of classes to `sys.meta_path`. These are then used by Python as part of the importing procedure for modules. The classes that we add are classes derived from `PatchImporter`, often using the easier interface provided by `PatchSimple`, which allow us to wrap functions that do input/output in a function that calls recipy first to log the information.
 
-The imaginary process for generating documents is: one first selects a topic,
-based on the topic mixture of that document. Then a topic word is drawn from the
-topic. This procedure is repeated until all topic words have been selected.
-Next, one selects an opinion based on the frequency of topic words associated
-with the topics in the document. The more words associated with a certain topic,
-the higher the chance that the corresponding opinion will be selected. The
-contents of the opinion (i.e., probabilities of opinion words) depend on the
-generator's perspective. Next, an opinion word is drawn from the selected opinion.
-This procedure is again repeated until all opinion words have been selected.
+Currently, ReciPy provides patches for:
+
+* numpy
+* pandas
+* matplotlib.pyplot
+* gdal
+* sklearn
+* nibabel
