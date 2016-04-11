@@ -4,6 +4,8 @@ affiliation:
 contactPersonOf:
 - http://software.esciencecenter.nl/project/ewatercycle
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
+- http://software.esciencecenter.nl/software/amuse
+- http://software.esciencecenter.nl/project/amuse
 contributorOf:
 - http://software.esciencecenter.nl/software/openda
 - http://software.esciencecenter.nl/software/cesium-ncwms
@@ -33,4 +35,4 @@ Niels defended his PhD "Real-World Distributed Supercomputing" in 2010. He is al
 
 In 2010, he became a Postdoc at the VU University, continuing his work on high-performance distributed computing. Niels was a part-time guest researcher at the Leiden Observatory, in the Computational Astrophysics group of Prof. Simon Portegies Zwart. There, he applied distributed computing techniques to the AMUSE computational astronomy simulation framework.
 
-Niels joined the Netherlands eScience Center in 2011.
+Niels joined the Netherlands eScience Center in 2012, where he is working as an eScience Research Engineer. He has worked on the AMUSE as well as eWaterCycle, OpenDA, and EDS project.
