@@ -7,21 +7,28 @@ githubUrl: https://github.com/romulogoncalves
 jobTitle: eScience Research Engineer
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
-photo: 
+photo: http://www.esciencecenter.nl/img/team/Romulo-Pereira-Goncalves-new.jpg
 
 contactPersonOf:
-- https://www.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
-- https://www.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- http://software.esciencecenter.nl/software/monetdb
+- http://software.esciencecenter.nl/software/datavaults
+- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
 
 ownerOf:
 
 contributorOf:
-- https://www.esciencecenter.nl/project/massive-point-clouds-for-esciences
+- http://software.esciencecenter.nl/software/monetdb
+- http://software.esciencecenter.nl/software/datavaults
 
 userOf:
+- http://software.esciencecenter.nl/software/monetdb
+- http://software.esciencecenter.nl/software/datavaults
 
 engineerOf:
 - http://www.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
+- http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
+- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
 
 ---
 In March 2014 Romulo joined Netherlands eScience Center after his post-doctoral research at IBM Almaden research center.
