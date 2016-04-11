@@ -2,7 +2,6 @@
 codeRepository: https://github.com/NLeSC/Xenon
 competence:
 - Optimized Data Handling
-contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
 contributor:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen

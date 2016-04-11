@@ -7,8 +7,10 @@ contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 coordinatorOf:
 - http://software.esciencecenter.nl/project/pandas-root
-name: Jason Maassen
+- http://software.esciencecenter.nl/project/ewatercycle
+- http://software.esciencecenter.nl/project/large-scale-data-assimilation
 jobTitle: Technology Lead Efficient Computing
+name: Jason Maassen
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-jason-maassen
 photo: https://www.esciencecenter.nl/img/team/jason-maassen-new.jpg
 userOf:
@@ -19,5 +21,3 @@ Jason studied Computer Science at the VU University Amsterdam, where he graduate
 Between 2003 and 2012 he has participated in several research projects, where he has looked at a range of topics related to large scale distributed computing. During this time he has developed a monitoring system for a world-wide Grid, robust communication libraries, programming models for computing on heterogenous distributed systems, and several eScience applications that use dynamically allocatable lightpaths. In addition, he is one of the initiators and main developers of the Ibis project (2002-present).
 
 Jason joined the NLeSC in 2012, where he will work on the climate research project.
-
-

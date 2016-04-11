@@ -2,7 +2,6 @@
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/eecology-tracker-calendar
 - http://software.esciencecenter.nl/software/osmium
