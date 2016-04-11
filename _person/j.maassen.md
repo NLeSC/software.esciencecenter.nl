@@ -10,6 +10,9 @@ contributorOf:
 - http://software.esciencecenter.nl/software/magnesium
 coordinatorOf:
 - http://software.esciencecenter.nl/project/pandas-root
+- http://software.esciencecenter.nl/project/esalsa
+- http://software.esciencecenter.nl/project/amuse
+- http://software.esciencecenter.nl/project/abcmuse
 githubUrl: https://github.com/jmaassen
 jobTitle: Technology Lead Efficient Computing
 linkedInUrl: https://nl.linkedin.com/in/jason-maassen-6795ba4
