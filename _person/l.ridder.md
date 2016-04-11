@@ -13,5 +13,8 @@ userOf:
 - http://software.esciencecenter.nl/software/magma
 - http://software.esciencecenter.nl/software/osmium
 - http://software.esciencecenter.nl/software/noodles
+coordinatorOf:
+- http://software.esciencecenter.nl/project/candygene
+- http://software.esciencecenter.nl/project/odex4all
 ---
 
