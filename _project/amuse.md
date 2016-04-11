@@ -23,10 +23,10 @@ involvedOrganization:
 logo: https://www.esciencecenter.nl/img/projects/1.P020-large.jpg
 nlescWebsite: https://www.esciencecenter.nl/project/amuse
 principalInvestigator:
-- affiliation:
-  - http://software.esciencecenter.nl/organization/lu
-  name: Simon Portegies Zwart
-  website: http://home.strw.leidenuniv.nl/~spz/
+  - name: Simon Portegies Zwart
+    affiliation:
+    - http://software.esciencecenter.nl/organization/lu
+website: http://home.strw.leidenuniv.nl/~spz/
 ---
 ##The evolution of embedded star clusters
 
