@@ -7,6 +7,7 @@ coordinatorOf:
 - http://software.esciencecenter.nl/project/emetabolomics
 engineerOf:
 - http://software.esciencecenter.nl/project/viaappia-patty
+- http://software.esciencecenter.nl/project/biomarker
 name: Rob van Nieuwpoort
 jobTitle: Director eScience Technology & Project Leader
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-rob-van-nieuwpoort

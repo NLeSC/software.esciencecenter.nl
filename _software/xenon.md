@@ -44,13 +44,14 @@ technologyTag:
 - Distributed
 - Library
 usedIn:
-- http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/simcity
 - http://software.esciencecenter.nl/project/viaappia-patty
 - http://software.esciencecenter.nl/project/esalsa
 - http://software.esciencecenter.nl/project/amuse
 - http://software.esciencecenter.nl/project/abcmuse
+- http://software.esciencecenter.nl/project/biomarker
+- http://software.esciencecenter.nl/project/computational-chemistry-made-easy
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/j.maassen
