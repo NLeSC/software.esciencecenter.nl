@@ -93,14 +93,17 @@ layout: default
 <ul class="license-list">
 {% for d in page.license %}
 <li>
-{% case d %}
+<a href="/software#license={{ d | cgi_escape }}">{% case d %}
 {% when 'apache-2.0' %}
 Apache 2.0
 {% when 'mit' %}
 MIT
+{% when 'mpl-2.0' %}
+Mozilla Public License 2.0
 {% else %}
 {{ d }}
 {% endcase %}
+</a>
 </li>
 {% endfor %}
 </ul>
