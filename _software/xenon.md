@@ -2,9 +2,10 @@
 codeRepository: https://github.com/NLeSC/Xenon
 competence:
 - Optimized Data Handling
+contactPerson: http://software.esciencecenter.nl/person/j.maassen
 contributor:
-- http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.maassen
+- http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/n.drost
 - http://software.esciencecenter.nl/person/r.vannieuwpoort
 - http://software.esciencecenter.nl/person/j.borgdorff
@@ -31,7 +32,7 @@ name: Xenon
 nlescWebsite: https://www.esciencecenter.nl/technology/software/xenon
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/s.verhoeven
+- http://software.esciencecenter.nl/person/j.maassen
 programmingLanguage:
 - Java
 startDate: 2013-04-12
@@ -46,12 +47,16 @@ usedIn:
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/simcity
+- http://software.esciencecenter.nl/project/esalsa
+- http://software.esciencecenter.nl/project/amuse
+- http://software.esciencecenter.nl/project/abcmuse
+- http://software.esciencecenter.nl/project/via-appia
 user:
+- http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/j.maassen
 - http://software.esciencecenter.nl/person/n.drost
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.borgdorff
-- http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/b.vanwerkhoven
 website: http://nlesc.github.io/Xenon/
 ---
