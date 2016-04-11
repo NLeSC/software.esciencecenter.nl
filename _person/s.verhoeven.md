@@ -25,7 +25,6 @@ linkedInUrl: https://www.linkedin.com/in/stefan-verhoeven-15381122
 name: Stefan Verhoeven
 nlescWebsite: https://www.esciencecenter.nl/profile/ing.-stefan-verhoeven
 ownerOf:
-- http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/eecology-tracker-calendar
 - http://software.esciencecenter.nl/software/osmium

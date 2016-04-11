@@ -20,7 +20,8 @@ owner:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/j.maassen
 programmingLanguage:
-- C, Java
+- C
+- Java
 startDate: 2012-05-1
 status: active
 supportLevel: specialized
@@ -33,10 +34,6 @@ usedIn:
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/j.maassen
-- http://software.esciencecenter.nl/person/n.drost
-- http://software.esciencecenter.nl/person/s.verhoeven
-- http://software.esciencecenter.nl/person/j.borgdorff
-- http://software.esciencecenter.nl/person/b.vanwerkhoven
 ---
 Magnesium is an MPI wrapper library that allows traditional MPI 
 applications to be run on a combination of multiple supercomputers 
