@@ -59,6 +59,7 @@ user:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.borgdorff
 - http://software.esciencecenter.nl/person/b.vanwerkhoven
+- http://software.esciencecenter.nl/person/r.vannieuwpoort
 website: http://nlesc.github.io/Xenon/
 ---
 Xenon is a middleware abstraction library. It provides a simple

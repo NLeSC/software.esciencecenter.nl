@@ -19,6 +19,14 @@ involvedIn:
 - http://software.esciencecenter.nl/project/sherlock
 - http://software.esciencecenter.nl/project/what-works-when-for-whom
 - http://software.esciencecenter.nl/project/idark
+- http://software.esciencecenter.nl/project/error-detection-and-error-localization
+- http://software.esciencecenter.nl/project/aa-alert
+- http://software.esciencecenter.nl/project/generic-escience-technologies
+- http://software.esciencecenter.nl/project/generic-escience-technologies
+- http://software.esciencecenter.nl/project/generic-escience-technologies
+- http://software.esciencecenter.nl/project/generic-escience-technologies
+
+
 - http://software.esciencecenter.nl/project/ewatercycle
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
 - http://software.esciencecenter.nl/project/amuse
@@ -38,6 +46,7 @@ organizationOf:
 ownerOf:
 - http://software.esciencecenter.nl/software/fairdatapoint
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/eastroviz
 - http://software.esciencecenter.nl/software/noodles
 - http://software.esciencecenter.nl/software/metrochart
 - http://software.esciencecenter.nl/software/cptm

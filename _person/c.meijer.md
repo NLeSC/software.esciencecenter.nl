@@ -5,6 +5,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 engineerOf:
 - http://software.esciencecenter.nl/project/eecology
+- http://software.esciencecenter.nl/project/error-detection-and-error-localization
 githubUrl: https://github.com/cwmeijer
 jobTitle: eScience Research Engineer
 name: Christiaan Meijer
