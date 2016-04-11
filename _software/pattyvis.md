@@ -1,34 +1,25 @@
 ---
-name: PattyVis
-tagLine: tbd
 codeRepository: https://github.com/NLeSC/pattyvis
-nlescWebsite:
-website:
-documentationUrl:
-logo:
-programmingLanguage:
-- JavaScript
-license:
-- apache-2.0
 competence:
 - Big Data Analytics
+contributor:
+- http://software.esciencecenter.nl/person/p.bos
 discipline:
 - Humanities & Social Sciences
 expertise:
 - Scientific Visualization
-supportLevel: specialized
-contactPerson:
-owner:
-contributor:
-user:
-- http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-usedIn:
+license:
+- apache-2.0
+name: PattyVis
+programmingLanguage:
+- JavaScript
 startDate: 2013-01-01
 status: active
-dependency:
-dependencyOf:
-technologyTag:
+supportLevel: specialized
+tagLine: tbd
+user:
+- http://software.esciencecenter.nl/organization/nlesc
 ---
 tbd
