@@ -24,7 +24,7 @@ user:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 usedIn:
-- http://www.esciencecenter.nl/project/massive-biological-data-clustering-reporting-and-visualization-tools
+- http://software.esciencecenter.nl/project/massive-biological-data-clustering-reporting-and-visualization-tools
 startDate: 2015-05-01
 status: active
 technologyTag:
