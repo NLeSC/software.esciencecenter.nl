@@ -2,6 +2,7 @@
 name: What Works When for Whom?
 tagLine: Advancing therapy change process research
 nlescWebsite: https://www.esciencecenter.nl/project/what-works-when-for-whom
+logo: http://www.esciencecenter.nl/img/projects/p66-large.jpg
 competence:
   - Big Data Analytics
 discipline:

@@ -1,4 +1,5 @@
 ---
+logo: http://www.esciencecenter.nl/img/projects/1.p049-large.jpg
 contactPerson: http://software.esciencecenter.nl/person/v.hees
 engineer:
 - http://software.esciencecenter.nl/person/v.hees
