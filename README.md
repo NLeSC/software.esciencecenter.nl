@@ -12,9 +12,11 @@ Requirements:
 * libyaml, C library and development headers
 
 Install the estep website utility by running
-```
+```shell
+pip install -r requirements.txt
 pip install -e .
 ```
+Use `virtualenv` or equivalent to ensure that a recent version of the `six` library is used.
 
 ## How to edit
 
