@@ -1,5 +1,6 @@
 ---
 name: University of Twente
+logo: https://www.utwente.nl/repository/utwente/ws2013/img/en/inv-utlogo.png
 website: https://www.utwente.nl/
 involvedIn:
 - http://software.esciencecenter.nl/project/what-works-when-for-whom

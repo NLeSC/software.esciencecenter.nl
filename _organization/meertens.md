@@ -1,5 +1,6 @@
 ---
 name: Meertens Institute
+logo: https://www.meertens.knaw.nl/cms/templates/mi_hetgelaat/css/images/logo_meertens_full.png
 website: http://www.meertens.knaw.nl
 involvedIn:
 - http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions

@@ -22,6 +22,8 @@ owner:
 programmingLanguage:
 - Perl
 - Java
+license:
+- apache-2.0
 startDate: 2013-02-22
 status: inactive
 supportLevel: basic
