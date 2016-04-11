@@ -16,6 +16,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/eecology-tracker-calendar
 - http://software.esciencecenter.nl/software/texcavator
 - http://software.esciencecenter.nl/software/extjs-datetime
+- http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
 userOf:
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/xtas
