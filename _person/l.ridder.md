@@ -12,5 +12,6 @@ principalInvestigatorOf:
 userOf:
 - http://software.esciencecenter.nl/software/magma
 - http://software.esciencecenter.nl/software/osmium
+- http://software.esciencecenter.nl/software/noodles
 ---
 
