@@ -6,8 +6,6 @@ affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 contactPersonOf:
 - http://software.esciencecenter.nl/software/cclustera
-ownerOf:
-- http://software.esciencecenter.nl/software/cclustera
 contributorOf:
 - http://software.esciencecenter.nl/software/cclustera
 engineerOf:
