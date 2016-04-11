@@ -7,6 +7,7 @@ affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 contributorOf:
 - http://software.esciencecenter.nl/software/rig
+- http://software.esciencecenter.nl/software/pattyvis
 engineerOf:
 - http://software.esciencecenter.nl/project/aa-alert
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences

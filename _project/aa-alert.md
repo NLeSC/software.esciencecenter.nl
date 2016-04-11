@@ -2,7 +2,7 @@
 name: Access and Acceleration of the Apertif Legacy Exploration of the Radio Transient Sky
 tagLine: A mystery of modern astrophysics
 nlescWebsite: https://www.esciencecenter.nl/project/aa-alert
-logo: http://imgsrc.hubblesite.org/hu/db/images/hs-2006-46-a-web.jpg
+logo: http://www.esciencecenter.nl/img/projects/p55-large.jpg
 competence:
 - Big Data Analytics
 - Efficient Computing

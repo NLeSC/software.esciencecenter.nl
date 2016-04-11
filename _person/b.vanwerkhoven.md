@@ -15,6 +15,7 @@ ownerOf:
 contributorOf:
 - http://software.esciencecenter.nl/software/kernel_tuner
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/pattyvis
 userOf:
 - http://software.esciencecenter.nl/software/kernel_tuner
 - http://software.esciencecenter.nl/software/xenon

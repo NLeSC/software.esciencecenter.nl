@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 name: An eScience infrastructure for huge interferometric datasets
 tagLine: Big Data for the Big Bang
 nlescWebsite: https://www.esciencecenter.nl/project/beyond-the-data-explosion
@@ -23,6 +24,9 @@ principalInvestigator:
     affiliation:
     - http://software.esciencecenter.nl/organization/astron
     website: https://www.linkedin.com/in/devoscm
+=======
+logo: http://www.esciencecenter.nl/img/projects/1.P006-large.jpg
+>>>>>>> 77bba43bfd99652b873ae878d0d23ef96a786c3a
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/astron
 - http://software.esciencecenter.nl/organization/nlesc
