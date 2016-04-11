@@ -296,7 +296,7 @@ d3.json("/software.json", function (software_data) {
 
   dataTable.width(800)
       .dimension(softwareDimension)
-      .group(function(d) { return d.competence[0]; })
+      .group(function(d) { return 1; })
     .size(100)
     .columns([
         function(d) {
@@ -304,7 +304,7 @@ d3.json("/software.json", function (software_data) {
         },
         function(d) { return d.tagLine; }
     ])
-    .sortBy(function(d){ return d.name; })
+    .sortBy(function(d){ return d.name.toLowerCase(); })
     // (optional) sort order, :default ascending
     .order(d3.ascending);
 

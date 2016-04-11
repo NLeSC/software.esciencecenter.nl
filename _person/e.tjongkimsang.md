@@ -14,7 +14,6 @@ jobTitle: eScience Research Engineer
 name: Erik Tjong Kim Sang
 ownerOf:
 - http://software.esciencecenter.nl/software/twiqs.nl
-photo: http://ifarm.nl/erikt/images/eriktks-small.jpg
 website: http://ifarm.nl/erikt/
 ---
 Erik studied electrical engineering at the Delft University of Technology and obtained a PhD degree from the University of Groningen, after a project in which he compared three machine learning algorithms for building models for Dutch monosyllabic words. He successively obtained research and teaching positions as a computational linguist at the universities of Uppsala (Sweden), Antwerp (Belgium), Amsterdam (UvA) and Groningen, before joining the eScienceCenter as an eScience engineer in 2012. Erik is working on a project in which he develops tools for analyzing Twitter data.
