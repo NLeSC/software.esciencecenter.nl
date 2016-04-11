@@ -15,6 +15,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/texcavator
 - http://software.esciencecenter.nl/software/recipy
 - http://software.esciencecenter.nl/software/rig
+- http://software.esciencecenter.nl/software/pattyvis
 - http://software.esciencecenter.nl/software/storyteller
 engineerOf:
 - http://software.esciencecenter.nl/project/dilipad
