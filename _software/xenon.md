@@ -44,7 +44,6 @@ technologyTag:
 - Distributed
 - Library
 usedIn:
-- http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/simcity
 - http://software.esciencecenter.nl/project/esalsa
@@ -58,6 +57,7 @@ user:
 - http://software.esciencecenter.nl/person/s.verhoeven
 - http://software.esciencecenter.nl/person/j.borgdorff
 - http://software.esciencecenter.nl/person/b.vanwerkhoven
+- http://software.esciencecenter.nl/person/r.vannieuwpoort
 website: http://nlesc.github.io/Xenon/
 ---
 Xenon is a middleware abstraction library. It provides a simple

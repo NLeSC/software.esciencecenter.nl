@@ -7,13 +7,19 @@ githubUrl: https://github.com/RvanNieuwpoort
 jobTitle: director of Technology
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
-  photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
+photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
+coordinatorOf:
+- http://software.esciencecenter.nl/project/emetabolomics
+- http://software.esciencecenter.nl/project/generic-escience-technologies
+- http://software.esciencecenter.nl/project/beyond-the-data-explosion
 contactPersonOf:
-- http://software.esciencecenter.nl/software/xenon
-contributorOf:
-- http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/eastroviz
 userOf:
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/eastroviz
+contributorOf:
+- http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/eastroviz
 engineerOf:
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/generic-escience-technologies

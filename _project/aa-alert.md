@@ -15,6 +15,7 @@ expertise:
 infrastructure: Apertif, A 75-GPU cluster and 10 PB storage
 dataMagnitude: PB
 coordinator: http://software.esciencecenter.nl/person/j.attema
+contactPerson: http://software.esciencecenter.nl/person/j.attema
 engineer:
 - http://software.esciencecenter.nl/person/j.attema
 - http://software.esciencecenter.nl/person/o.rubi

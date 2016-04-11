@@ -23,6 +23,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/organization/cwi
 - http://software.esciencecenter.nl/organization/nlesc
+engineer:
+- http://software.esciencecenter.nl/person/r.vannieuwpoort
 startDate: 2013-01-01
 ---
 This project addresses several research challenges in computer science

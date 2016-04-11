@@ -1,6 +1,4 @@
 ---
-ASTRON
-=======
 name: ASTRON
 website: http://www.astron.nl/
 tagLine: Netherlands Institute for Radio Astronomy

@@ -17,7 +17,7 @@ dataMagnitude: PB
 coordinator: http://software.esciencecenter.nl/person/e.ranguelova
 engineer:
 - http://software.esciencecenter.nl/person/c.meijer
-- http://software.esciencecenter.nl/person/h.spreeuw
+#- http://software.esciencecenter.nl/person/h.spreeuw
 principalInvestigator:
   - name: Dr. Albert-Jan Boonstra
     affiliation:
