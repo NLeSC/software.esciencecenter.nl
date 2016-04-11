@@ -24,7 +24,6 @@ nlescWebsite: https://www.esciencecenter.nl/technology/software/xtas
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/wur
 usedIn:
 - http://software.esciencecenter.nl/project/candygene
 programmingLanguage:
