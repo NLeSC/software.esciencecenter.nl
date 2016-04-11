@@ -8,6 +8,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/pyxenon
 - http://software.esciencecenter.nl/software/osmium
+- http://software.esciencecenter.nl/software/pattyanalytics
 engineerOf:
 - http://software.esciencecenter.nl/project/simcity
 githubUrl: https://github.com/blootsvoets

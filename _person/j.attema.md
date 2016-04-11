@@ -4,11 +4,14 @@ affiliation:
 contactPersonOf:
 - http://software.esciencecenter.nl/project/summer-in-the-city
 - http://software.esciencecenter.nl/project/aa-alert
+contributorOf:
+- http://software.esciencecenter.nl/software/pattyanalytics
 coordinatorOf:
 - http://software.esciencecenter.nl/project/aa-alert
 engineerOf:
 - http://software.esciencecenter.nl/project/summer-in-the-city
 - http://software.esciencecenter.nl/project/aa-alert
+- http://software.esciencecenter.nl/project/viaappia-patty
 githubUrl: https://github.com/jiskattema
 jobTitle: eScience Coordinator
 linkedInUrl: https://www.linkedin.com/in/jiskattema

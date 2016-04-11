@@ -1,13 +1,14 @@
 ---
-name: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
-tagLine: 'Improving Open-Source Photogrammetric Workflows for Processing Big Datasets'
-logo: https://www.esciencecenter.nl/img/projects/P053-large2.jpg
 contactPerson: http://software.esciencecenter.nl/person/o.rubi
 engineer:
 - http://software.esciencecenter.nl/person/o.rubi
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/utwente
 - http://software.esciencecenter.nl/organization/ign
+- http://software.esciencecenter.nl/organization/nlesc
+logo: https://www.esciencecenter.nl/img/projects/P053-large2.jpg
+name: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
+tagLine: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
 uses:
 - http://software.esciencecenter.nl/software/micmac
 - http://software.esciencecenter.nl/software/noodles
@@ -19,5 +20,3 @@ Nowadays, the need of high performance hardware represents one of the main bottl
 Two case studies are used to test the developed tools. The first considers how to make photogrammetric workflows accessible to end-users lacking advanced hardware, such as city planners in developing countries. In 2015, 16.000 images covering 150 hectare were collected over informal settlements in Kigali, Rwanda using a low-cost UAV. To analyze the potential of UAVs to provide accurate geo-information to support informal settlement upgrading projects, the workflow should be completed using consumer-grade computers.
 
 The second case study is related to mapping applications. Recently, projects have been developed to update national 3D models, for example the Dutch digital height model (AHN), through DIM from aerial images. The goal is to automatically process this enormous block using a consumer-grade PC. The dataset over Rotterdam will be used for this task.
-
-

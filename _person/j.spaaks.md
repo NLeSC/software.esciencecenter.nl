@@ -5,6 +5,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/software/metrochart
 contributorOf:
 - http://software.esciencecenter.nl/software/metrochart
+- http://software.esciencecenter.nl/software/sfm
 engineerOf:
 - http://software.esciencecenter.nl/project/sherlock
 - http://software.esciencecenter.nl/project/eecology

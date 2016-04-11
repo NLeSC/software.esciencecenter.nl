@@ -5,6 +5,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/project/sherlock
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/sfm
 coordinatorOf:
 - http://software.esciencecenter.nl/project/pandas-root
 name: Jason Maassen

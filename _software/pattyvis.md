@@ -21,5 +21,10 @@ supportLevel: specialized
 tagLine: tbd
 user:
 - http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/person/o.rubi
+usedIn:
+- http://software.esciencecenter.nl/project/viaappia-patty
+owner: 
+- http://software.esciencecenter.nl/organization/nlesc
 ---
 tbd

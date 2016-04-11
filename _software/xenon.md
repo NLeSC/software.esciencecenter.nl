@@ -47,6 +47,7 @@ usedIn:
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/simcity
+- http://software.esciencecenter.nl/project/viaappia-patty
 user:
 - http://software.esciencecenter.nl/person/j.maassen
 - http://software.esciencecenter.nl/person/n.drost
