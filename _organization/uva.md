@@ -6,6 +6,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/dilipad
 - http://software.esciencecenter.nl/project/texcavator
 - http://software.esciencecenter.nl/project/eecology
+- http://software.esciencecenter.nl/project/idark
 logo: http://static.uva.nl/binaries/content/gallery/logos/p-z/uva-logo_en.jpg
 name: University of Amsterdam
 ownerOf:
