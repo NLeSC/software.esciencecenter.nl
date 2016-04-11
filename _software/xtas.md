@@ -3,6 +3,7 @@ codeRepository: https://github.com/NLeSC/xtas
 competence:
 - Efficient Computing
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/j.attema
 contributor:
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/person/l.veen
