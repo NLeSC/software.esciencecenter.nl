@@ -46,3 +46,6 @@ To preview locally use docker:
 docker run --rm --volume=$(pwd):/srv/jekyll -i -t  -p 127.0.0.1:80:80 jekyll/jekyll:pages
 ```
 The website can be viewed on http://localhost:80
+
+The docker container will fail when there is a virtualenv in the currend working directory.
+Resolve by putting virtualenv somewhere else or prefixing it with '.'.
