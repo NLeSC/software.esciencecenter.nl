@@ -1,5 +1,15 @@
 ---
 codeRepository: https://www.monetdb.org/Downloads
+website: http://www.monetdb.org/
+website: https://github.com/MonetDB
+website: https://en.wikipedia.org/wiki/MonetDB
+nlescWebsite: 
+documentationUrl: https://www.monetdb.org/Documentation
+downloadUrl: https://www.monetdb.org/Downloads
+doi: 
+logo: http://dev.monetdb.org/imgs/monetdb-final-500.png
+programmingLanguage:
+- C
 competence:
 - Optimized Data Handling
 contactPerson: http://software.esciencecenter.nl/person/r.goncalves

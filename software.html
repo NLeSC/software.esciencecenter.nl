@@ -8,7 +8,15 @@ title: Software
   <div id="facets" class="col-md-4">
     <div class="blurb">
       Click on the bars to find software projects.<br/>
-      <a onclick="javascript:dc.filterAll(); dc.renderAll();" href="javascript:void(0);" class="reset-button">reset all filters</a>
+      <div class="dc-data-count">
+        <span>
+          <span class="filter-count"></span>
+           selected out of 
+          <span class="total-count"></span>
+           records <br/> 
+          <a href="javascript:dc.filterAll(); dc.renderAll();">Reset All</a>
+        </span>
+      </div>
     </div>
     <div class="chart-container-container">
     <div class="chart-container">
@@ -38,6 +46,10 @@ title: Software
     <div class="chart-container">
       <div class="diagram-header">Programming Languages</div>
       <div id="dc-languages-chart" class="diagram"></div>
+    </div>
+    <div class="chart-container">
+      <div class="diagram-header">License</div>
+      <div id="dc-license-chart" class="diagram"></div>
     </div>
   </div>
 </div>

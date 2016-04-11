@@ -12,7 +12,7 @@ logo:
 programmingLanguage:
 - C
 license:
-- Mozilla Public License, version 2.0
+- mpl-2.0
 competence:
 - Optimized Data Handling
 discipline:
