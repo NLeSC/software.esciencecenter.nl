@@ -9,6 +9,8 @@ coordinatorOf:
 - http://software.esciencecenter.nl/project/eecology
 - http://software.esciencecenter.nl/project/summer-in-the-city
 - http://software.esciencecenter.nl/software/salient-region-detectors
+contributorOf:
+- http://software.esciencecenter.nl/software/salient-region-detectors
 githubUrl: https://github.com/elboyran
 jobTitle: eScience Coordinator
 name: Elena Ranguelova
@@ -21,4 +23,4 @@ Since 2003 she works in the Netherlands on variety of interdisciplinary projects
 
 In 2007 she worked at the Multimedia group of the Dutch center for applied research TNO on object recognition tools for assisting the police investigators in their work. Between 2008 and 2012 she has worked as part of the R&D team of Prime Vision, B.V., Delft on OCR and indicia recognition projects for the postal industry. In 2012 Elena has also worked at the Software Engineering group at CWI on a project for automatic monitoring via camera and other sensor networks for assessing the risk of forest fires in cultural heritage regions of Southern Europe.
 
-Elena joined the Netherlands eScience Center as eScience engineer in January 2013 to work on medical imaging and other multidisciplinary projects.
+Elena joined the Netherlands eScience Center as eScience engineer in January 2013 to work on multidisciplinary projects with computer vision and machine learning components.
