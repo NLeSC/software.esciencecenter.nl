@@ -15,6 +15,7 @@ competence:
 contactPerson: http://software.esciencecenter.nl/person/r.goncalves
 contributor:
 - http://software.esciencecenter.nl/person/r.goncalves
+- http://software.esciencecenter.nl/person/v.hees
 dependency:
 - http://software.esciencecenter.nl/software/datavaults
 discipline:
