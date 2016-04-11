@@ -1,19 +1,15 @@
 ---
-name: Distributed AMUSE
-tagLine: Simulating complex astrophysical phenomena using Distributed Computing.
-engineer:
-- http://software.esciencecenter.nl/person/n.drost
-coordinator: http://software.esciencecenter.nl/person/j.maassen
-uses:
-- http://software.esciencecenter.nl/software/xenon
 competence:
 - Efficient Computing
 contactPerson: http://software.esciencecenter.nl/person/n.drost
+coordinator: http://software.esciencecenter.nl/person/j.maassen
 dataFormat:
 - HDF5
 dataMagnitude: TB
-discipline: 
+discipline:
 - Physics & Beyond
+engineer:
+- http://software.esciencecenter.nl/person/n.drost
 expertise:
 - High Performance Computing
 infrastructure: Supercomputer
@@ -21,11 +17,16 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/lu
 logo: https://www.esciencecenter.nl/img/projects/1.P020-large.jpg
+name: Distributed AMUSE
 nlescWebsite: https://www.esciencecenter.nl/project/amuse
 principalInvestigator:
-  - name: Simon Portegies Zwart
-    affiliation:
-    - http://software.esciencecenter.nl/organization/lu
+- affiliation:
+  - http://software.esciencecenter.nl/organization/lu
+  name: Simon Portegies Zwart
+tagLine: Simulating complex astrophysical phenomena using Distributed Computing.
+uses:
+- http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/amuse
 website: http://home.strw.leidenuniv.nl/~spz/
 ---
 ##The evolution of embedded star clusters
@@ -39,4 +40,3 @@ In the past decade, our picture of star and cluster formation has changed hugely
 AMUSE provides a homogeneous interface to a wide variety of packages enabling the study of astrophysical phenomena where complex interactions occur between different physical domains, such as stellar evolution and dynamics, (magneto-)hydrodynamics, radiative transfer, and astrochemistry. Applications are numerous. For example, AMSUSE enables studying the co-evolution of planetary systems within cluster environments, the formation and evolution of black holes in galaxies, or the interplay of gas, radiation, and chemistry in star formation process. These simulations lead to new understandings of the processes involved, and their effects on the current state of our Universe.
 
 The above is only one example of the possibilities of AMUSE. Based on the work done in the Ibis project at the VU University Amsterdam, we are building a robust, stable system for running these large scale simulations on a possibly distributed set of resources, including supercomputers. This will allow astrophysicists from around the world to scale up their simulations, increasing our understanding of the Universe.
-

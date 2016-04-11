@@ -4,6 +4,8 @@ affiliation:
 contactPersonOf:
 - http://software.esciencecenter.nl/project/ewatercycle
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
+- http://software.esciencecenter.nl/software/amuse
+- http://software.esciencecenter.nl/project/amuse
 contributorOf:
 - http://software.esciencecenter.nl/software/openda
 - http://software.esciencecenter.nl/software/cesium-ncwms
