@@ -2,6 +2,7 @@
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 contactPersonOf:
+- http://software.esciencecenter.nl/software/xtas
 - http://software.esciencecenter.nl/project/summer-in-the-city
 - http://software.esciencecenter.nl/project/aa-alert
 contributorOf:

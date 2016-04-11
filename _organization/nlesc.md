@@ -19,6 +19,9 @@ involvedIn:
 - http://software.esciencecenter.nl/project/idark
 - http://software.esciencecenter.nl/project/viaappia-patty
 - http://software.esciencecenter.nl/project/improving-photogrammetry
+- http://software.esciencecenter.nl/project/ewatercycle
+- http://software.esciencecenter.nl/project/large-scale-data-assimilation
+
 linkedInUrl: https://www.linkedin.com/company/netherlands-escience-center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
 name: Netherlands eScience Center
@@ -50,6 +53,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/extjs-datetime
 - http://software.esciencecenter.nl/software/storyteller
 - http://software.esciencecenter.nl/software/kernel_tuner
+- http://software.esciencecenter.nl/software/cclustera
 - http://software.esciencecenter.nl/software/salient-region-detectors
 - http://software.esciencecenter.nl/software/massivepotreeconverter
 - http://software.esciencecenter.nl/software/ahn2webviewer
@@ -57,7 +61,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/pattyvis
 - http://software.esciencecenter.nl/software/pattyanalytics
 - http://software.esciencecenter.nl/software/sfm
-
+- http://software.esciencecenter.nl/software/magnesium
 researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
@@ -72,6 +76,7 @@ userOf:
 - http://software.esciencecenter.nl/software/xtas
 - http://software.esciencecenter.nl/software/rig
 - http://software.esciencecenter.nl/software/storyteller
+- http://software.esciencecenter.nl/software/cclustera
 - http://software.esciencecenter.nl/software/salient-region-detectors
 - http://software.esciencecenter.nl/software/potree
 - http://software.esciencecenter.nl/software/potreeconverter
@@ -82,9 +87,9 @@ userOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
 - http://software.esciencecenter.nl/software/pattyanalytics
 - http://software.esciencecenter.nl/software/sfm
-
+- http://software.esciencecenter.nl/software/magnesium
 website: http://www.esciencecenter.nl/
 ---
-Historically, scientific domains were defined by their own unique tools (microscopes, telescopes, distillation glass). Nowadays, the most important tool in all scientific disciplines is the computer. In this digital era, eScience is the developing discipline that provides the domain overarching software instruments (software, workflows and protocols) to support diverse scientific initiatives – making possible the creation of new, even unforeseen, applications – with the potential to transform current scientific practice, optimize scientific investments and significantly accelerate scientific discovery. eScience has the potential to underpin all scientific endeavor in the same way that applied mathematics currently does.
+Historically, scientific domains were defined by their own unique tools (microscopes, telescopes, distillation glass). Nowadays, the most important tool in all scientific disciplines is the computer. In this digital era, eScience is the developing discipline that provides the domain overarching software instruments (software, workflows and protocols) to support diverse scientific initiatives - making possible the creation of new, even unforeseen, applications - with the potential to transform current scientific practice, optimize scientific investments and significantly accelerate scientific discovery. eScience has the potential to underpin all scientific endeavor in the same way that applied mathematics currently does.
 
 The Netherlands eScience Center (NLeSC) is tasked with coordinating a collaborative scientific program, working with both academia and industry, to conduct funded projects fostering the development of overarching tools for the benefit of a broad scientific community. The success of NLeSC will be measurable by the growing adoption of eScience tools as a fundamental approach within diverse research domains. Based on its multidisciplinary collaborations and technological advances, NLeSC aims to become recognized as one of the leading eScience expertise centers in the world.
