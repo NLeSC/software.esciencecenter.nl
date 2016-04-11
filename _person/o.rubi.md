@@ -1,16 +1,19 @@
 ---
+name: Oscar Martinez Rubi
+photo: http://www.esciencecenter.nl/img/team/oscar-martinez-rubi-new.jpg
+jobTitle: eScience Research Engineer
+nlescWebsite: https://www.esciencecenter.nl/profile/oscar-martinez-rubi-msc
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 contributorOf:
 - http://software.esciencecenter.nl/software/rig
 engineerOf:
 - http://software.esciencecenter.nl/project/aa-alert
-name: Oscar Martinez Rubi
+- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
 userOf:
 - http://software.esciencecenter.nl/software/monetdb
-jobTitle: eScience Research Engineer
-nlescWebsite: https://www.esciencecenter.nl/profile/oscar-martinez-rubi-msc
-photo: https://www.esciencecenter.nl/img/team/oscar-martinez-rubi-new.jpg
+contactPersonOf:
+- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
 ---
 Oscar did Telecommunications Engineering in the Polytechnic University of Catalonia (UPC) in Barcelona. Later on, he obtained a Master's degree in Astrophysics, focusing in software engineering challenges in astronomical projects.
 
