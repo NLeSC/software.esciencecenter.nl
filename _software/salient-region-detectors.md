@@ -2,11 +2,11 @@
 name: Salient Region Detectors
 tagLine: Software package for detecting salient regions in images.
 codeRepository: https://github.com/NLeSC/LargeScaleImaging
-website: 
+website:
 documentationUrl: https://github.com/NLeSC/LargeScaleImaging/blob/master/Software/Python/README.md
 logo:
 programmingLanguage:
-- Matlab
+- MATLAB
 - Python
 license:
 - apache-2.0
@@ -38,4 +38,4 @@ technologyTag:
 ---
 This package provide functionality to detect salient regions in images. Salient regions, or features, are regions in the image that are 'interesting', such as corners, lines and blobs. The detectors in this package specifically find blob-like regions. The detected regions could be used, for example, to match photos of the same object, taken under different conditions. These salient regions are invariant under transformations such as blurring, light change and rotation.
 
-The software is implemented both in Matlab and Python.
+The software is implemented both in MATLAB and Python.
