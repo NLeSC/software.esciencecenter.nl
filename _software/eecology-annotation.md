@@ -11,6 +11,8 @@ discipline:
 - Environment & Sustainability
 doi: http://dx.doi.org/10.5281/zenodo.45200
 downloadUrl: https://github.com/NLeSC/eEcology-Annotation-WS/releases
+license:
+- apache-2.0
 expertise:
 - Handling Sensor Data
 - Information Retrieval

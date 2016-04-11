@@ -28,7 +28,7 @@ programmingLanguage:
 - Python
 startDate: 2013-01-01
 status: active
-supportLevel: none
+supportLevel: basic
 tagLine: the eXtensible Text Analysis Suite
 technologyTag:
 - NER
