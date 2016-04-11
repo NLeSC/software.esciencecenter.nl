@@ -11,20 +11,14 @@ doi:
 logo: 
 programmingLanguage:
 - C
-interfaces:
-- SQL
-- R
-- Python
-- ODBC
-- JDBC
 license:
-- Mozilla Public License, version 2.0
+- mpl-2.0
 competence:
 - Optimized Data Handling
 discipline:
 - eScience Methodology
 expertise:
-- Database Management and Processing
+- Databases
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/r.goncalves
 contributor:

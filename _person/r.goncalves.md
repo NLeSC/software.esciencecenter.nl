@@ -10,15 +10,19 @@ affiliation:
 photo: 
 
 contactPersonOf:
-- https://www.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
-- https://www.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- http://software.esciencecenter.nl/software/monetdb
+- http://software.esciencecenter.nl/software/datavaults
+- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
 
 ownerOf:
 
 contributorOf:
-- https://www.esciencecenter.nl/project/massive-point-clouds-for-esciences
+- http://software.esciencecenter.nl/software/monetdb
+- http://software.esciencecenter.nl/software/datavaults
 
 userOf:
+- http://software.esciencecenter.nl/software/monetdb
+- http://software.esciencecenter.nl/software/datavaults
 
 engineerOf:
 - http://www.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain

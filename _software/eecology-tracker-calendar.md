@@ -17,6 +17,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
 - http://software.esciencecenter.nl/organization/surfsara
 name: eEcology Tracker calendar
+license:
+- apache-2.0
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva

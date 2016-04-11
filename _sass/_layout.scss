@@ -301,6 +301,7 @@
 .expertise-list li:after,
 .technology-tag-list li:after,
 .competence-list li:after,
+.license-list li:after,
 .programming-language-list li:after {
     content: "";
 }
@@ -310,6 +311,7 @@
 .expertise-list li,
 .technology-tag-list li,
 .competence-list li,
+.license-list li,
 .programming-language-list li
 {
     border: 1px solid #01769D;
@@ -322,6 +324,7 @@
     display: inline-block;
 }
 .status a:visited, .status a:active, .status a:link,
+.license-list a:visited, .license-list a:active, .license-list a:link,
 .discipline-list li a:visited, .discipline-list li a:active, .discipline-list li a:link,
 .expertise-list li a:visited, .expertise-list li a:active, .expertise-list li a:link,
 .technology-tag-list li a:visited, .technology-tag-list li a:active, .technology-tag-list li a:link,

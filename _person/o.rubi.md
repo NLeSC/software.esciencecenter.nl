@@ -6,5 +6,7 @@ contributorOf:
 engineerOf:
 - http://software.esciencecenter.nl/project/aa-alert
 name: Oscar Rubi
+userOf:
+- http://software.esciencecenter.nl/software/monetdb
 ---
 
