@@ -2,6 +2,7 @@
 name: "Digging into Parliamentary Data (DiLiPaD)"
 tagLine: A new approach to the history of parliamentary communication and discourse
 nlescWebsite: https://www.esciencecenter.nl/project/dilipad
+logo: http://www.esciencecenter.nl/img/projects/1P044-large.jpg
 competence:
   - Big Data Analytics
 discipline:

@@ -1,4 +1,5 @@
 ---
+logo: http://www.esciencecenter.nl/img/projects/1P038-large.jpg
 competence:
 - Big Data Analytics
 contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen

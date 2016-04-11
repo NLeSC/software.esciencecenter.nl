@@ -1,4 +1,5 @@
 ---
+logo: http://avatars2.githubusercontent.com/u/15137410?v=3&s=200
 competence:
 - Big Data Analytics
 - Optimized Data Handling
