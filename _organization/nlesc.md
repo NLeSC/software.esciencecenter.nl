@@ -47,6 +47,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/extjs-datetime
 - http://software.esciencecenter.nl/software/storyteller
 - http://software.esciencecenter.nl/software/kernel_tuner
+- http://software.esciencecenter.nl/software/cclustera
 - http://software.esciencecenter.nl/software/salient-region-detectors
 researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
 tagLine: Netherlands eScience Center
@@ -62,6 +63,7 @@ userOf:
 - http://software.esciencecenter.nl/software/xtas
 - http://software.esciencecenter.nl/software/rig
 - http://software.esciencecenter.nl/software/storyteller
+- http://software.esciencecenter.nl/software/cclustera
 - http://software.esciencecenter.nl/software/salient-region-detectors
 website: http://www.esciencecenter.nl/
 ---
