@@ -10,6 +10,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/openda
 - http://software.esciencecenter.nl/software/cesium-ncwms
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/sfm
 - http://software.esciencecenter.nl/software/amuse
 - http://software.esciencecenter.nl/software/ewaterleaf
 - http://software.esciencecenter.nl/software/sfm
@@ -17,6 +18,7 @@ engineerOf:
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
 - http://software.esciencecenter.nl/project/ewatercycle
 - http://software.esciencecenter.nl/project/amuse
+- http://software.esciencecenter.nl/project/viaappia-patty
 githubUrl: https://github.com/nielsdrost
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/niels-drost-664698a

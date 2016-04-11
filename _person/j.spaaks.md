@@ -6,6 +6,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
 contributorOf:
 - http://software.esciencecenter.nl/software/metrochart
+- http://software.esciencecenter.nl/software/sfm
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
 engineerOf:
 - http://software.esciencecenter.nl/project/sherlock

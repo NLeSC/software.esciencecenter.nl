@@ -38,10 +38,12 @@ technologyTag:
 - Workflow
 usedIn:
 - http://software.esciencecenter.nl/project/computational-chemistry-made-easy
+- http://software.esciencecenter.nl/project/improving-photogrammetry
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/person/j.hidding
+- http://software.esciencecenter.nl/person/o.rubi
 - http://software.esciencecenter.nl/person/l.ridder
 website: http://nlesc.github.io/noodles/
 ---

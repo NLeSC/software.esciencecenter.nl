@@ -16,10 +16,15 @@ contributorOf:
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/eecology-tracker-calendar
 - http://software.esciencecenter.nl/software/extjs-datetime
+- http://software.esciencecenter.nl/software/massivepotreeconverter
+- http://software.esciencecenter.nl/software/ahn2webviewer
+- http://software.esciencecenter.nl/software/potree
 - http://software.esciencecenter.nl/software/pattyvis
 engineerOf:
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/eecology
+- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
+- http://software.esciencecenter.nl/project/viaappia-patty
 githubUrl: https://github.com/sverhoeven
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/stefan-verhoeven-15381122

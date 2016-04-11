@@ -46,10 +46,10 @@ technologyTag:
 usedIn:
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/simcity
+- http://software.esciencecenter.nl/project/viaappia-patty
 - http://software.esciencecenter.nl/project/esalsa
 - http://software.esciencecenter.nl/project/amuse
 - http://software.esciencecenter.nl/project/abcmuse
-- http://software.esciencecenter.nl/project/via-appia
 - http://software.esciencecenter.nl/project/biomarker
 - http://software.esciencecenter.nl/project/computational-chemistry-made-easy
 user:

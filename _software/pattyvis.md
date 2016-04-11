@@ -36,6 +36,11 @@ dependency:
 - Potree
 user:
 - http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/person/o.rubi
+usedIn:
+- http://software.esciencecenter.nl/project/viaappia-patty
+owner: 
+- http://software.esciencecenter.nl/organization/nlesc
 ---
 [![Build Status](https://travis-ci.org/NLeSC/PattyVis.svg?branch=master)](https://travis-ci.org/NLeSC/PattyVis)
 [![Code Climate](https://codeclimate.com/github/NLeSC/PattyVis/badges/gpa.svg)](https://codeclimate.com/github/NLeSC/PattyVis)

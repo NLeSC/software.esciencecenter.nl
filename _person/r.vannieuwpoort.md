@@ -10,9 +10,13 @@ affiliation:
 photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
 coordinatorOf:
 - http://software.esciencecenter.nl/project/emetabolomics
+- http://software.esciencecenter.nl/project/biomarker
 - http://software.esciencecenter.nl/project/generic-escience-technologies
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
-- http://software.esciencecenter.nl/project/biomarker
+engineerOf:
+- http://software.esciencecenter.nl/project/viaappia-patty
+- http://software.esciencecenter.nl/project/generic-escience-technologies
+- http://software.esciencecenter.nl/project/beyond-the-data-explosion
 contactPersonOf:
 - http://software.esciencecenter.nl/software/eastroviz
 userOf:
@@ -21,9 +25,6 @@ userOf:
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/eastroviz
-engineerOf:
-- http://software.esciencecenter.nl/project/beyond-the-data-explosion
-- http://software.esciencecenter.nl/project/generic-escience-technologies
 photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
 ---
 Rob received his PhD at VU University Amsterdam for work on "Efficient

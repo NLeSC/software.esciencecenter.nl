@@ -19,14 +19,14 @@ involvedIn:
 - http://software.esciencecenter.nl/project/sherlock
 - http://software.esciencecenter.nl/project/what-works-when-for-whom
 - http://software.esciencecenter.nl/project/idark
+- http://software.esciencecenter.nl/project/viaappia-patty
+- http://software.esciencecenter.nl/project/improving-photogrammetry
 - http://software.esciencecenter.nl/project/error-detection-and-error-localization
 - http://software.esciencecenter.nl/project/aa-alert
 - http://software.esciencecenter.nl/project/generic-escience-technologies
 - http://software.esciencecenter.nl/project/generic-escience-technologies
 - http://software.esciencecenter.nl/project/generic-escience-technologies
 - http://software.esciencecenter.nl/project/generic-escience-technologies
-
-
 - http://software.esciencecenter.nl/project/ewatercycle
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
 - http://software.esciencecenter.nl/project/amuse
@@ -43,6 +43,7 @@ organizationOf:
 - http://software.esciencecenter.nl/person/j.borgdorff
 - http://software.esciencecenter.nl/person/a.kuzniar
 - http://software.esciencecenter.nl/person/j.vanderzwaan
+- http://software.esciencecenter.nl/person/o.rubi
 ownerOf:
 - http://software.esciencecenter.nl/software/fairdatapoint
 - http://software.esciencecenter.nl/software/xenon
@@ -65,6 +66,12 @@ ownerOf:
 - http://software.esciencecenter.nl/software/kernel_tuner
 - http://software.esciencecenter.nl/software/cclustera
 - http://software.esciencecenter.nl/software/salient-region-detectors
+- http://software.esciencecenter.nl/software/massivepotreeconverter
+- http://software.esciencecenter.nl/software/ahn2webviewer
+- http://software.esciencecenter.nl/software/pattydata
+- http://software.esciencecenter.nl/software/pattyvis
+- http://software.esciencecenter.nl/software/pattyanalytics
+- http://software.esciencecenter.nl/software/sfm
 - http://software.esciencecenter.nl/software/magnesium
 researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
 tagLine: Netherlands eScience Center
@@ -83,6 +90,15 @@ userOf:
 - http://software.esciencecenter.nl/software/fairdatapoint
 - http://software.esciencecenter.nl/software/cclustera
 - http://software.esciencecenter.nl/software/salient-region-detectors
+- http://software.esciencecenter.nl/software/potree
+- http://software.esciencecenter.nl/software/potreeconverter
+- http://software.esciencecenter.nl/software/pattydata
+- http://software.esciencecenter.nl/software/pdal
+- http://software.esciencecenter.nl/software/massivepotreeconverter
+- http://software.esciencecenter.nl/software/micmac
+- http://software.esciencecenter.nl/software/ahn2webviewer
+- http://software.esciencecenter.nl/software/pattyanalytics
+- http://software.esciencecenter.nl/software/sfm
 - http://software.esciencecenter.nl/software/magnesium
 - http://software.esciencecenter.nl/software/amuse
 website: http://www.esciencecenter.nl/

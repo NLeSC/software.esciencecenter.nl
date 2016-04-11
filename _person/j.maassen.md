@@ -7,6 +7,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/project/sherlock
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
+- http://software.esciencecenter.nl/software/sfm
 - http://software.esciencecenter.nl/software/magnesium
 coordinatorOf:
 - http://software.esciencecenter.nl/project/pandas-root
