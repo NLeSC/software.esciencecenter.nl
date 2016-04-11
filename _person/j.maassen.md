@@ -10,6 +10,8 @@ contributorOf:
 - http://software.esciencecenter.nl/software/magnesium
 coordinatorOf:
 - http://software.esciencecenter.nl/project/pandas-root
+- http://software.esciencecenter.nl/project/ewatercycle
+- http://software.esciencecenter.nl/project/large-scale-data-assimilation
 - http://software.esciencecenter.nl/project/esalsa
 - http://software.esciencecenter.nl/project/amuse
 - http://software.esciencecenter.nl/project/abcmuse
