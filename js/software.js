@@ -130,6 +130,7 @@ d3.json("/software.json", function (software_data) {
   var statusChart = dc.rowChart("#dc-status-chart");
 
   var ndx = crossfilter(software_data);
+  var all = ndx.groupAll();
 
   var softwareDimension = ndx.dimension(function(d) { return d['@id']; });
   var disciplineDimension = ndx.dimension(function(d) { return d.discipline || 'None'; });
@@ -285,6 +286,12 @@ d3.json("/software.json", function (software_data) {
     .sortBy(function(d){ return d.name; })
     // (optional) sort order, :default ascending
     .order(d3.ascending);
+
+
+  dc.dataCount(".dc-data-count")
+    .dimension(ndx)
+    .group(all);
+
 
   dc.renderAll();
 });
