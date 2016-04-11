@@ -16,6 +16,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 - http://software.esciencecenter.nl/project/sherlock
 - http://software.esciencecenter.nl/project/what-works-when-for-whom
+- http://software.esciencecenter.nl/project/idark
 linkedInUrl: https://www.linkedin.com/company/netherlands-escience-center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
 name: Netherlands eScience Center

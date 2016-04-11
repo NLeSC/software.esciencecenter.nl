@@ -2,6 +2,7 @@
 involvedIn:
 - http://software.esciencecenter.nl/software/twiqs.nl
 - http://software.esciencecenter.nl/project/twinl
+- http://software.esciencecenter.nl/project/idark
 logo: http://www.ru.nl/views/ru-baseline/images/extra/logo-l.png
 name: Radboud University Nijmegen
 ownerOf:
