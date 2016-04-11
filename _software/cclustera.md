@@ -2,7 +2,6 @@
 name: CClusTera
 tagLine: A 3D web tool for interactive visualization of hierarchically clustered big data
 codeRepository: http://github.com/NLeSC/CClusTera
-nlescWebsite: http://www.esciencecenter.nl/technology/software/cclustera
 programmingLanguage:
 - JavaScript
 license:
@@ -28,7 +27,8 @@ usedIn:
 startDate: 2015-05-01
 status: active
 technologyTag:
-- 3D visualization of hierarchically clustered big data
+- 3D graphics
+- Website
 ---
 CClusTera enables interactive and web based 3D visualization of hierarchically clustered data. The application also enables colorizing points based on features other than their clusters. 
 
