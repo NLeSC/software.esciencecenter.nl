@@ -26,10 +26,8 @@ userOf:
 - http://software.esciencecenter.nl/software/datavaults
 
 engineerOf:
-- http://www.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
 - http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
 - http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
-
 ---
 In March 2014 Romulo joined Netherlands eScience Center after his post-doctoral research at IBM Almaden research center.
 

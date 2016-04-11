@@ -15,6 +15,22 @@ involvedOrganization:
 uses:
 - http://software.esciencecenter.nl/software/monetdb
 - http://software.esciencecenter.nl/software/datavaults
+competence:
+- Optimized Data Handling
+- Big Data Analytics
+discipline:
+- eScience Methodology
+expertise:
+- Information Visualization
+- Information Integration
+- Databases
+dataMagnitude: TB
+dataFormat:
+- LAS/LAZ
+- GML
+- NetCDF
+- GeoJson
+- ShapeFiles
 ---
 55% of The Netherlands is below sea level. This area contains 60% of the population and generates 65% of the Gross National Product. Obviously, The Netherlands requires efficient risk and water management.
 
