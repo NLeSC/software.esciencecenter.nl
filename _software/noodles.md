@@ -44,6 +44,7 @@ user:
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/person/j.hidding
 - http://software.esciencecenter.nl/person/o.rubi
+- http://software.esciencecenter.nl/person/l.ridder
 website: http://nlesc.github.io/noodles/
 ---
 Noodles is a programmable workflow engine for Python. It can be used to parallelize your code with minimal effort.
