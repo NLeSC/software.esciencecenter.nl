@@ -7,7 +7,7 @@ githubUrl: https://github.com/romulogoncalves
 jobTitle: eScience Research Engineer
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
-photo: 
+photo: https://www.esciencecenter.nl/img/team/Romulo-Pereira-Goncalves-new.jpg
 
 contactPersonOf:
 - http://software.esciencecenter.nl/software/monetdb
