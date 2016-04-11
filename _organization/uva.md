@@ -6,6 +6,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/dilipad
 - http://software.esciencecenter.nl/project/texcavator
 - http://software.esciencecenter.nl/project/eecology
+- http://software.esciencecenter.nl/project/esibayes
 logo: http://static.uva.nl/binaries/content/gallery/logos/p-z/uva-logo_en.jpg
 name: University of Amsterdam
 ownerOf:
@@ -16,6 +17,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/texcavator
 - http://software.esciencecenter.nl/software/extjs-datetime
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
+- http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
 userOf:
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/xtas

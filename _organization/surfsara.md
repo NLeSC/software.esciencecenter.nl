@@ -4,6 +4,7 @@ involvedIn:
 - http://software.esciencecenter.nl/software/twiqs.nl
 - http://software.esciencecenter.nl/project/texcavator
 - http://software.esciencecenter.nl/project/pidimehs
+- http://software.esciencecenter.nl/project/esibayes
 logo: https://userinfo.surfsara.nl/sites/all/themes/surfsara27/images/logo.png
 name: SURFsara
 ownerOf:
