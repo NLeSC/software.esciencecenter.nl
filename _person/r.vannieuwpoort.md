@@ -4,7 +4,7 @@ nlescWebsite: https://www.esciencecenter.nl/profile/dr.-rob-van-nieuwpoort
 researchgateUrl: https://www.researchgate.net/profile/Rob_Van_Nieuwpoort2
 linkedInUrl: https://www.linkedin.com/in/rob-van-nieuwpoort-132918
 githubUrl: https://github.com/RvanNieuwpoort
-jobTitle: director of Technology
+jobTitle: Director eScience Technology & Project Leader
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
@@ -12,6 +12,7 @@ coordinatorOf:
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/generic-escience-technologies
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
+- http://software.esciencecenter.nl/project/biomarker
 contactPersonOf:
 - http://software.esciencecenter.nl/software/eastroviz
 userOf:
@@ -23,6 +24,8 @@ contributorOf:
 engineerOf:
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/generic-escience-technologies
+- http://software.esciencecenter.nl/project/biomarker
+photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
 ---
 Rob received his PhD at VU University Amsterdam for work on "Efficient
 Java-Centric Grid Computing". Rob has designed and implemented the

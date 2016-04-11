@@ -25,4 +25,4 @@ userOf:
 - http://software.esciencecenter.nl/software/extjs-datetime
 website: http://www.uva.nl
 ---
-The UvA is a broad, research-intensive institution rooted in the history of Amsterdam, an internationally oriented academic community that can compete with leading universities in the Netherlands and around the world. The UvA provides academic training in all areas of science and scholarship, and welcomes students and staff – from all backgrounds, cultures and faiths – who wish to devote their talents to the development and transfer of academic knowledge as a rich cultural resource and foundation for sustainable progress.
+The UvA is a broad, research-intensive institution rooted in the history of Amsterdam, an internationally oriented academic community that can compete with leading universities in the Netherlands and around the world. The UvA provides academic training in all areas of science and scholarship, and welcomes students and staff - from all backgrounds, cultures and faiths - who wish to devote their talents to the development and transfer of academic knowledge as a rich cultural resource and foundation for sustainable progress.

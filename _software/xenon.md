@@ -50,6 +50,8 @@ usedIn:
 - http://software.esciencecenter.nl/project/amuse
 - http://software.esciencecenter.nl/project/abcmuse
 - http://software.esciencecenter.nl/project/via-appia
+- http://software.esciencecenter.nl/project/biomarker
+- http://software.esciencecenter.nl/project/computational-chemistry-made-easy
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/j.maassen
