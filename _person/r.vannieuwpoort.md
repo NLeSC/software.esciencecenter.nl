@@ -24,7 +24,6 @@ contributorOf:
 engineerOf:
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/generic-escience-technologies
-- http://software.esciencecenter.nl/project/biomarker
 photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
 ---
 Rob received his PhD at VU University Amsterdam for work on "Efficient
