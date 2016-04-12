@@ -7,7 +7,7 @@ contributor:
 - http://software.esciencecenter.nl/person/m.vanmeersbergen
 - http://software.esciencecenter.nl/person/s.verhoeven
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Databases
 involvedOrganization:

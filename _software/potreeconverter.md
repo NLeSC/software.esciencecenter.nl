@@ -5,7 +5,7 @@ competence:
 contributor:
 - http://software.esciencecenter.nl/person/o.rubi
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Scientific Visualization
 involvedOrganization:
