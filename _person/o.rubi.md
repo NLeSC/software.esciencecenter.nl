@@ -3,6 +3,9 @@ name: Oscar Martinez Rubi
 photo: http://www.esciencecenter.nl/img/team/oscar-martinez-rubi-new.jpg
 jobTitle: eScience Research Engineer
 nlescWebsite: https://www.esciencecenter.nl/profile/oscar-martinez-rubi-msc
+githubUrl: https://github.com/oscarmartinezrubi
+linkedInUrl: https://nl.linkedin.com/in/oscarmartinezrubi/en
+researchgateUrl: https://www.researchgate.net/profile/Oscar_Martinez_Rubi
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 contributorOf:
@@ -33,6 +36,7 @@ userOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
 - http://software.esciencecenter.nl/software/micmac
 - http://software.esciencecenter.nl/software/noodles
+- http://software.esciencecenter.nl/software/python-pcl
 contactPersonOf:
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
 - http://software.esciencecenter.nl/project/viaappia-patty

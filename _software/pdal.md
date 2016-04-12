@@ -17,7 +17,7 @@ programmingLanguage:
 startDate: 2011-01-01
 status: active
 supportLevel: specialized
-tagLine: C++ library for translating and manipulating point cloud data.
+tagLine: C++ Library for translating and manipulating point cloud data.
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi

@@ -1,5 +1,5 @@
 ---
-codeRepository: https://github.com/NLeSC/PattyAnalytics
+codeRepository: https://github.com/NLeSC/python-pcl
 competence:
 - Big Data Analytics
 contributor:
@@ -10,19 +10,18 @@ contributor:
 discipline:
 - eScience Methodology
 expertise:
-- Databases
 - Handling Sensor Data
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 license:
 - apache-2.0
-name: PattyAnalytics
+name: python-pcl
 programmingLanguage:
 - Python
-startDate: 2013-10-01
+startDate: 2014-10-01
 status: active
 supportLevel: specialized
-tagLine: Reusable point cloud analytics software (segmentation, registration, file format conversion)
+tagLine: Python bindings to Point Cloud Library (PCL)
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
@@ -30,11 +29,18 @@ usedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 owner: 
 - http://software.esciencecenter.nl/organization/nlesc
-dependency:
-- http://software.esciencecenter.nl/software/python-pcl
+dependencyOf:
+- http://software.esciencecenter.nl/software/pattyanalytics
 technologyTag:
 - Point clouds
-- GIS
-- PCL
 ---
-Reusable point cloud analytics software. Includes segmentation, registration, file format conversion. This makes use of the python bindings of the Point Cloud Library (PCL; <https://github.com/NLeSC/python-pcl>).
+This is a small python binding to the pointcloud library. Currently, the following parts of the API are wrapped (all methods operate on PointXYZRGB) point types
+
+- I/O and integration; saving and loading PCD files
+- segmentation
+- SAC
+- smoothing
+- filtering
+
+The code tries to follow the Point Cloud API, and also provides helper function for interacting with NumPy.
+

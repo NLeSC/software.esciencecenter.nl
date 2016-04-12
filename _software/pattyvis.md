@@ -13,7 +13,7 @@ contributor:
 - http://software.esciencecenter.nl/person/b.vanwerkhoven
 - http://software.esciencecenter.nl/person/l.kulik
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Scientific Visualization
 involvedOrganization:
@@ -32,8 +32,10 @@ technologyTag:
 - Point clouds
 - WebGL
 - 3d mesh
+- GIS
 dependency:
-- Potree
+- http://software.esciencecenter.nl/software/potree
+- http://software.esciencecenter.nl/software/potreeconverter
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
