@@ -5,6 +5,7 @@ competence:
 contributor:
 - http://software.esciencecenter.nl/person/o.rubi
 discipline:
+- eScience Methodology
 expertise:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc

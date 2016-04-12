@@ -7,5 +7,7 @@ usedIn:
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
 user:
 - http://software.esciencecenter.nl/person/n.drost
+discipline:
+- Environment & Sustainability
+- eScience Methodology
 ---
-OpenDA

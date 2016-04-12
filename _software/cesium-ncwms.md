@@ -4,5 +4,7 @@ contributor:
 name: Cesium-ncWMS
 user:
 - http://software.esciencecenter.nl/person/n.drost
+discipline:
+- Environment & Sustainability
 ---
 
