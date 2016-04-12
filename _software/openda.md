@@ -5,8 +5,7 @@ name: OpenDA
 usedIn:
 - http://software.esciencecenter.nl/project/ewatercycle
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
-contactPerson:
-- http://software.esciencecenter.nl/person/n.drost
+contactPerson: http://software.esciencecenter.nl/person/n.drost
 user:
 - http://software.esciencecenter.nl/person/n.drost
 discipline:
