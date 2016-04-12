@@ -15,19 +15,22 @@ expertise:
 infrastructure: Supercomputer
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/lu
+- http://software.esciencecenter.nl/organization/leiden-university
 logo: https://www.esciencecenter.nl/img/projects/1.P020-large.jpg
 name: Distributed AMUSE
 nlescWebsite: https://www.esciencecenter.nl/project/amuse
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/lu
+  - http://software.esciencecenter.nl/organization/leiden-university
   name: Simon Portegies Zwart
+  website: http://home.strw.leidenuniv.nl/~spz/
 tagLine: Simulating complex astrophysical phenomena using Distributed Computing.
 uses:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/amuse
-website: http://home.strw.leidenuniv.nl/~spz/
+technologyTag:
+- Simulation
+- MultiModel
 ---
 ##The evolution of embedded star clusters
 
