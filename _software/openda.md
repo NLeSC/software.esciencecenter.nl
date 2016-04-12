@@ -10,4 +10,12 @@ user:
 discipline:
 - Environment & Sustainability
 - eScience Methodology
+competence:
+- Optimized Data Handling
+expertise:
+- Data Assimilation
+programmingLanguage:
+- Java
+license:
+- lgpl-3
 ---

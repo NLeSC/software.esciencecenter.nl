@@ -34,6 +34,6 @@ owner:
 technologyTag:
 - Point clouds
 - Website
-- 3d
+- 3D
 ---
 WebGL point cloud visualization of the Actuele Hoogtekaart Nederland (2) based on http://potree.org
