@@ -4,6 +4,7 @@ nlescWebsite: https://www.esciencecenter.nl/profile/dr.-arnold-kuzniar
 researchgateUrl: https://www.researchgate.net/profile/Arnold_Kuzniar
 linkedInUrl: https://www.linkedin.com/in/arnold-kuzniar-06312210
 githubUrl: https://github.com/arnikz
+ORCID: http://orcid.org/0000-0003-1711-7961
 jobTitle: eScience Research Engineer
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
