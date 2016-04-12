@@ -17,6 +17,10 @@ technologyTag:
 - Website
 supportLevel: basic
 status: inactive
+startDate: 2014-06-06
+contactPerson: http://software.esciencecenter.nl/person/n.drost
+owner: 
+- http://software.esciencecenter.nl/organization/nlesc
 ---
 eWaterLeaf is a simple web-based visualization for the eWaterCycle project. It relies heavily on the Leaflet Javascript library, and ncWMS Web Map Service implementation.
 

@@ -25,8 +25,7 @@ programmingLanguage:
 - Java
 license:
 - apache-2.0
-startDate:
-- 2009-06-26
+startDate: 2009-06-26
 tagLine: 3D Globe Visualization of NetCDF data.
 codeRepository: https://github.com/NLeSC/Cesium-NcWMS
 contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
