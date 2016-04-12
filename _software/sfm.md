@@ -34,4 +34,4 @@ technologyTag:
 - Point clouds
 - Photogrammetry
 ---
-This repo contains a complete Structure from Motion pipeline. Structure from Motion is a technique to construct a 3-D point cloud from a set of images (or a video) of an object. The software in this repository relies heavily on a number of third party libaries, notably Bundler, CMVS, PMVS, and SIFT.
+This repo contains a complete Structure from Motion pipeline. Structure from Motion is a technique to construct a 3d point cloud from a set of images (or a video) of an object. The software in this repository relies heavily on a number of third party libaries, notably Bundler, CMVS, PMVS, and SIFT.

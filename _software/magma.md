@@ -6,9 +6,11 @@ website: http://www.emetabolomics.org/magma
 codeRepository: https://github.com/NLeSC/Osmium
 programmingLanguage:
 - Python
+- JavaScript
 license:
 - apache-2.0
 competence:
+- Big Data Analytics
 - Efficient Computing
 discipline:
 - Life Sciences & eHealth
@@ -23,8 +25,10 @@ owner:
 contributor:
 - http://software.esciencecenter.nl/person/l.ridder
 - http://software.esciencecenter.nl/person/s.verhoeven
+- http://software.esciencecenter.nl/person/m.sanders
 user:
 - http://software.esciencecenter.nl/person/l.ridder
+- http://software.esciencecenter.nl/person/m.sanders
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/wur

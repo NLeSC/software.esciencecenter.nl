@@ -34,4 +34,4 @@ technologyTag:
 - Point clouds
 - GIS
 ---
-This repository is related to the data management for the Via Appia 3D GIS.
+This repository is related to the data management for the Via Appia 3d GIS.

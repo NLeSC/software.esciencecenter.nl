@@ -12,6 +12,10 @@ principalInvestigatorOf:
 userOf:
 - http://software.esciencecenter.nl/software/magma
 - http://software.esciencecenter.nl/software/osmium
+- http://software.esciencecenter.nl/software/noodles
+coordinatorOf:
+- http://software.esciencecenter.nl/project/candygene
+- http://software.esciencecenter.nl/project/odex4all
 jobTitle: eScience Coordinator
 photo: https://www.esciencecenter.nl/img/team/lars_ridder_web.jpg
 ---

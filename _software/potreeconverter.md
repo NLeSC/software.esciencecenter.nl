@@ -12,7 +12,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/potree
 license:
-- FreeBSD
+- bsd-2-clause
 name: PotreeConverter
 programmingLanguage:
 - C++

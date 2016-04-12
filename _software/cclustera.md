@@ -5,7 +5,7 @@ codeRepository: http://github.com/NLeSC/CClusTera
 programmingLanguage:
 - JavaScript
 license:
-- Free Licence
+- afl-3.0
 competence:
 - Big Data Analytics
 discipline:

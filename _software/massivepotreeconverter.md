@@ -15,7 +15,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/potree
 license:
-- FreeBSD
+- bsd-2-clause
 name: Massive-PotreeConverter
 programmingLanguage:
 - Python
@@ -37,4 +37,8 @@ dependency:
 technologyTag:
 - Point clouds
 ---
+<<<<<<< HEAD
 This repository extends the PotreeConverter (<http://software.esciencecenter.nl/software/potreeconverter>) through a bunch of Python scripts to make it able to convert massive point clouds to the potree format (octree).
+=======
+This repository extends the PotreeConverter through a collection of Python scripts to make it able to convert massive point clouds to the potree format (octree). Done for Linux environments.
+>>>>>>> origin/gh-pages

@@ -1,5 +1,6 @@
 ---
 codeRepository: https://github.com/NLeSC/ahn-pointcloud-viewer
+website: http://ahn2.pointclouds.nl/
 competence:
 - Big Data Analytics
 contributor:

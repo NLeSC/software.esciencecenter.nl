@@ -21,7 +21,7 @@ programmingLanguage:
 startDate: 2013-10-01
 status: active
 supportLevel: specialized
-tagLine: Photogrammetry toolset (from images to point clouds)
+tagLine: Open Source photogrammetry toolset (from images to point clouds)
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
@@ -33,4 +33,8 @@ technologyTag:
 - Point clouds
 - Photogrammetry
 ---
+<<<<<<< HEAD
 MicMac is an open source set of tools that executes the various steps of the photogrammetric workflow (from images to a point cloud).
+=======
+MicMac is an open source set of tools that executes the various steps of the photogrammetric workflow. Moreover, it contains additional tools to perform other auxiliary tasks. 
+>>>>>>> origin/gh-pages
