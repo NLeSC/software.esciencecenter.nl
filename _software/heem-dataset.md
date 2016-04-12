@@ -1,13 +1,7 @@
 ---
 name: Historic Embodied Emotions Model (HEEM) dataset
 tagLine: 279 17th and 18th century Dutch theater texts with HEEM labels
-codeRepository:
-nlescWebsite:
-website:
-documentationUrl:
-logo:
 doi: http://dx.doi.org/10.5281/zenodo.47751
-programmingLanguage:
 license:
 - cc-by
 competence:
@@ -33,8 +27,6 @@ usedIn:
 - http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 startDate: 2016-03-17
 status: inactive
-dependency:
-dependencyOf:
 technologyTag:
 - Dataset
 - Emotion Mining
