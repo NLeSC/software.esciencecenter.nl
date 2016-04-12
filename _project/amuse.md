@@ -28,9 +28,6 @@ tagLine: Simulating complex astrophysical phenomena using Distributed Computing.
 uses:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/amuse
-technologyTag:
-- Simulation
-- MultiModel
 ---
 ##The evolution of embedded star clusters
 

@@ -34,6 +34,9 @@ expertise:
 - High Performance Computing 
 competence:
 - Efficient Computing
+technologyTag:
+- Simulation
+- MultiModel
 ---
 AMUSE is the Astrophysical Multipurpose Software Environment.
 
