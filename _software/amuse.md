@@ -15,7 +15,7 @@ programmingLanguage:
 - CUDA
 - OpenCL
 license:
-- GPL
+- gpl-2.0
 codeRepository: https://github.com/amusecode/amuse
 discipline:
 - Physics & Beyond
