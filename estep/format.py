@@ -46,7 +46,10 @@ def object2jekyll(data, contentProperty):
     metadata = yaml.safe_dump(d, default_flow_style=False)
 
     content = data[contentProperty]
-    return "---\n{0}---\n{1}\n".format(metadata, content)
+    try:
+        return "---\n{0}---\n{1}\n".format(metadata, content)
+    except UnicodeEncodeError:
+        return unicode("---\n{0}---\n{1}\n").format(unicode(metadata), unicode(content)).encode('UTF-8')
 
 
 def jekyllfile2object(filename, schemaType=None, contentProperty='description', uriPrefix='http://software.esciencecenter.nl'):
