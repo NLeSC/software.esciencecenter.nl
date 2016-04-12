@@ -5,8 +5,11 @@ contactPersonOf:
 - http://software.esciencecenter.nl/software/xtas
 - http://software.esciencecenter.nl/project/summer-in-the-city
 - http://software.esciencecenter.nl/project/aa-alert
+- http://software.esciencecenter.nl/software/python-pcl
+- http://software.esciencecenter.nl/software/pattyanalytics
 contributorOf:
 - http://software.esciencecenter.nl/software/pattyanalytics
+- http://software.esciencecenter.nl/software/python-pcl
 coordinatorOf:
 - http://software.esciencecenter.nl/project/aa-alert
 engineerOf:

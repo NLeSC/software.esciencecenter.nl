@@ -6,6 +6,7 @@ tagLine: Data Assimilation Toolbox
 usedIn:
 - http://software.esciencecenter.nl/project/ewatercycle
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
+contactPerson: http://software.esciencecenter.nl/person/n.drost
 user:
 - http://software.esciencecenter.nl/person/n.drost
 discipline:
@@ -30,7 +31,7 @@ involvedOrganization:
 startDate: 2010-01-01
 contactPerson: http://software.esciencecenter.nl/person/n.drost
 technologyTag:
-- Data Assimilation
+- Calibration
 ---
 OpenDA is an open interface standard for (and free implementation of) a set of tools to quickly implement data-assimilation and calibration for arbitrary numerical models. OpenDA wants to stimulate the use of data-assimilation and calibration by lowering the implementation costs and enhancing the exchange of software among researchers and end-users.
 A model that conforms to the OpenDA standard can use all the tools that are available in OpenDA. This allows experimentation with data-assimilation/calibration methods without the need for extensive programming. Reversely, developers of data-assimilation/calibration software that make their implementations compatible with the OpenDA interface will make their new methods usable for all OpenDA users (either for free or on a commercial basis).

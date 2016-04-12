@@ -1,4 +1,5 @@
 ---
+contactPerson: http://software.esciencecenter.nl/person/n.drost
 contributor:
 - http://software.esciencecenter.nl/person/n.drost
 name: eWaterLeaf

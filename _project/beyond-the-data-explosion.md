@@ -15,6 +15,7 @@ expertise:
 - Low Power Computing
 infrastructure: LOFAR
 dataMagnitude: PB
+contactPerson: http://software.esciencecenter.nl/person/r.vannieuwpoort
 coordinator: http://software.esciencecenter.nl/person/r.vannieuwpoort
 engineer:
 - http://software.esciencecenter.nl/person/r.vannieuwpoort

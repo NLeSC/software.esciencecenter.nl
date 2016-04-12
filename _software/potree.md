@@ -2,6 +2,7 @@
 codeRepository: https://github.com/potree/potree
 competence:
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
 contributor:
 - http://software.esciencecenter.nl/person/m.vanmeersbergen
 - http://software.esciencecenter.nl/person/o.rubi
@@ -26,7 +27,7 @@ programmingLanguage:
 startDate: 2011-01-01
 status: active
 supportLevel: specialized
-tagLine: WebGL point cloud viewer
+tagLine: WebGL point cloud viewer 
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
@@ -35,18 +36,12 @@ usedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 dependencyOf: 
 - http://software.esciencecenter.nl/software/ahn2webviewer
-- http://software.esciencecenter.nl/software/massivepotreeconverter
+- http://software.esciencecenter.nl/software/pattyvis
 owner: 
 - http://software.esciencecenter.nl/organization/potree
 technologyTag:
-- Website
-- OpenGL
 - Point clouds
-usedIn:
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-- http://software.esciencecenter.nl/project/viaappia-patty
-user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/o.rubi
+- WebGL
+- Website
 ---
-WebGL point cloud viewer for large datasets http://potree.org
+WebGL point cloud viewer for large datasets (<http://potree.org>)

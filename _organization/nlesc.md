@@ -74,6 +74,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/pattyanalytics
 - http://software.esciencecenter.nl/software/sfm
 - http://software.esciencecenter.nl/software/magnesium
+- http://software.esciencecenter.nl/software/python-pcl
 - http://software.esciencecenter.nl/software/topic-coherence-for-dutch
 - http://software.esciencecenter.nl/software/heem-dataset
 researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
@@ -103,6 +104,7 @@ userOf:
 - http://software.esciencecenter.nl/software/pattyanalytics
 - http://software.esciencecenter.nl/software/sfm
 - http://software.esciencecenter.nl/software/magnesium
+- http://software.esciencecenter.nl/software/python-pcl
 - http://software.esciencecenter.nl/software/amuse
 - http://software.esciencecenter.nl/software/topic-coherence-for-dutch
 - http://software.esciencecenter.nl/software/heem-dataset
