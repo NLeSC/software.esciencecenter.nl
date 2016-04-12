@@ -50,4 +50,4 @@ xtas functionality consists partly of wrappers for existing packages, with autom
 
 A basic installation of xtas works like a Python module. Built-in package management and a simple, uniform interface take away the hassle of installing, configuring and using many existing NLP tools.
 
-xtas’s open architecture makes it possible to include custom code, run this in a distributed fashion and have it communicate with Elasticsearch to provide document storage and retrieval.
+xtas's open architecture makes it possible to include custom code, run this in a distributed fashion and have it communicate with Elasticsearch to provide document storage and retrieval.
