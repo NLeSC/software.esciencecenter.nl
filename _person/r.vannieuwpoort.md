@@ -19,6 +19,8 @@ engineerOf:
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 contactPersonOf:
 - http://software.esciencecenter.nl/software/eastroviz
+- http://software.esciencecenter.nl/project/generic-escience-technologies
+- http://software.esciencecenter.nl/project/biomarker
 userOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/eastroviz

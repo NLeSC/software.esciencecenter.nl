@@ -2,6 +2,7 @@
 name: Generic eScience Technologies
 tagLine: Making breakthroughs in data-driven research
 nlescWebsite: https://www.esciencecenter.nl/project/generic-escience-technologies
+logo: https://www.esciencecenter.nl/img/projects/1.P010-large.jpg
 competence:
 - Big Data Analytics
 - Efficient Computing
@@ -13,6 +14,7 @@ expertise:
 infrastructure: DAS-5
 dataMagnitude: TB
 coordinator: http://software.esciencecenter.nl/person/r.vannieuwpoort
+contactPerson: http://software.esciencecenter.nl/person/r.vannieuwpoort
 principalInvestigator:
   - name: Prof. Cees de Laat
     affiliation:

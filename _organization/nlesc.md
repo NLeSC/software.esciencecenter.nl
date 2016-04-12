@@ -3,6 +3,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
 - http://software.esciencecenter.nl/project/computational-chemistry-made-easy
 - http://software.esciencecenter.nl/project/simcity
+- http://software.esciencecenter.nl/project/biomarker
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/twinl
 - http://software.esciencecenter.nl/project/odex4all

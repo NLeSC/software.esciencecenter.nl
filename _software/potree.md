@@ -30,6 +30,7 @@ usedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 dependencyOf: 
 - http://software.esciencecenter.nl/software/ahn2webviewer
+- http://software.esciencecenter.nl/software/massivepotreeconverter
 owner: 
 - http://software.esciencecenter.nl/organization/potree
 technologyTag:
