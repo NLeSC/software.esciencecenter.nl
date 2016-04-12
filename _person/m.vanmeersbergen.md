@@ -11,6 +11,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/potree
 - http://software.esciencecenter.nl/software/ahn2webviewer
 - http://software.esciencecenter.nl/software/pattyvis
+- http://software.esciencecenter.nl/software/cesium-ncwms
 engineerOf:
 - http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
