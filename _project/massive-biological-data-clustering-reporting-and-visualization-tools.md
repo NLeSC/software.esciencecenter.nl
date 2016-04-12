@@ -9,6 +9,8 @@ competence:
 expertise:
 - Information Visualization
 contactPerson: http://software.esciencecenter.nl/person/s.georgievska
+involvedOrganization:
+- http://software.esciencecenter.nl/organization/cbs-knaw
 uses:
 - http://software.esciencecenter.nl/software/cclustera
 ---

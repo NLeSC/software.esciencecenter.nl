@@ -31,7 +31,6 @@ tagLine: WebGL point cloud visualization of the Via Appia based on potree
 technologyTag:
 - Point clouds
 - WebGL
-- 3d mesh
 - GIS
 dependency:
 - http://software.esciencecenter.nl/software/potree

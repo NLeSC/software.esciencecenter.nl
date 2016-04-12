@@ -1,10 +1,23 @@
 ---
+contactPerson: http://software.esciencecenter.nl/person/n.drost
 contributor:
 - http://software.esciencecenter.nl/person/n.drost
 name: eWaterLeaf
 tagLine: Web-based visualization for the eWaterCycle project
 license:
 - apache-2.0
+discipline:
+- Environment & Sustainability
+competence:
+- Big Data Analytics
+expertise:
+- Scientific Visualization
+programmingLanguage:
+- JavaScript
+technologyTag:
+- Website
+supportLevel: basic
+status: inactive
 ---
 eWaterLeaf is a simple web-based visualization for the eWaterCycle project. It relies heavily on the Leaflet Javascript library, and ncWMS Web Map Service implementation.
 
