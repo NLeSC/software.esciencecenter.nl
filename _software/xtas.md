@@ -3,6 +3,7 @@ codeRepository: https://github.com/NLeSC/xtas
 competence:
 - Efficient Computing
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/j.attema
 contributor:
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/person/l.veen
@@ -23,9 +24,9 @@ nlescWebsite: https://www.esciencecenter.nl/technology/software/xtas
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva
-- http://software/esciencecenter.nl/organization/wur
 usedIn:
 - http://software.esciencecenter.nl/project/candygene
+- http://software.esciencecenter.nl/project/texcavator
 programmingLanguage:
 - Java
 - Python
