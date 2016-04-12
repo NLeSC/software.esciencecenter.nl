@@ -189,7 +189,7 @@ def main(argv=sys.argv[1:]):
       generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
 
     Usage:
-      estep validate [--local] [--resolve] [--resolve-cache-timeout] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
+      estep validate [--local] [--resolve] [--resolve-cache-expire] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
       estep generate reciprocal [-v | -vv]
 
     Options:
