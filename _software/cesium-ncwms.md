@@ -1,35 +1,34 @@
 ---
+codeRepository: https://github.com/NLeSC/Cesium-NcWMS
+competence:
+- Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/n.drost
 contributor:
 - http://software.esciencecenter.nl/person/n.drost
 - http://software.esciencecenter.nl/person/m.vanmeersbergen
-name: Cesium-ncWMS
-contactPerson: http://software.esciencecenter.nl/person/n.drost
-user:
-- http://software.esciencecenter.nl/person/n.drost
 discipline:
 - Environment & Sustainability
-competence:
-- Big Data Analytics
 expertise:
 - Scientific Visualization
+license:
+- apache-2.0
+name: Cesium-ncWMS
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
+programmingLanguage:
+- JavaScript
+- Java
+startDate: 2014-10-08
+status: active
+tagLine: 3D Globe Visualization of NetCDF data.
 technologyTag:
 - Visualization
 - WebGL
 - 3D
-status: active
 usedIn:
 - http://software.esciencecenter.nl/project/ewatercycle
-programmingLanguage:
-- JavaScript
-- Java
-license:
-- apache-2.0
-startDate: 2014-10-08
-tagLine: 3D Globe Visualization of NetCDF data.
-codeRepository: https://github.com/NLeSC/Cesium-NcWMS
-contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
+user:
+- http://software.esciencecenter.nl/person/n.drost
 ---
 Cesium (cesiumjs.org) based visualization using ncWMS to serve NetCDF data and D3 (d3js.org) to display graphs.
 A live running version of this software can be found at http://forecast.ewatercycle.org
