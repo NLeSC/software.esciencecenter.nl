@@ -28,5 +28,8 @@ usedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 owner: 
 - http://software.esciencecenter.nl/organization/potree
+technologyTag:
+- Point clouds
+- Library
 ---
 Builds a potree octree from las, laz, binary ply, xyz or ptx files.

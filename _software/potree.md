@@ -32,5 +32,9 @@ dependencyOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
 owner: 
 - http://software.esciencecenter.nl/organization/potree
+technologyTag:
+- Website
+- OpenGL
+- Point clouds
 ---
 WebGL point cloud viewer for large datasets http://potree.org

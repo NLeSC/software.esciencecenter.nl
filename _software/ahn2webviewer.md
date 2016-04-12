@@ -31,5 +31,9 @@ usedIn:
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
 owner: 
 - http://software.esciencecenter.nl/organization/nlesc
+technologyTag:
+- Point clouds
+- Website
+- 3d
 ---
 WebGL point cloud visualization of the Actuele Hoogtekaart Nederland (2) based on http://potree.org

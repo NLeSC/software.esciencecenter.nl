@@ -29,5 +29,7 @@ usedIn:
 - http://software.esciencecenter.nl/project/improving-photogrammetry
 owner: 
 - http://software.esciencecenter.nl/organization/ign
+technologyTag:
+- Photogrammetry
 ---
 MicMac is an open source set of tools that executes the various steps of the photogrammetric workflow. Moreover, it contains additional tools to perform other auxiliary tasks. 
