@@ -50,7 +50,7 @@ def object2jekyll(data, contentProperty):
     try:
         return "---\n{0}---\n{1}\n".format(metadata, content)
     except UnicodeEncodeError:
-        return unicode("---\n{0}---\n{1}\n").format(unicode(metadata), unicode(content)).encode('UTF-8')
+        return unicode("---\n{0}---\n{1}\n").format(metadata, content)
 
 
 def jekyllfile2object(filename, schemaType=None, contentProperty='description', uriPrefix='http://software.esciencecenter.nl'):
