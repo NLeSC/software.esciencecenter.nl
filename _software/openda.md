@@ -18,4 +18,12 @@ programmingLanguage:
 - Java
 license:
 - lgpl-3
+supportLevel: basic
+owner:
+- name: OpenDA Association
+status: active
+involvedOrganization:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/tu-delft
+- http://software.esciencecenter.nl/organization/deltares
 ---
