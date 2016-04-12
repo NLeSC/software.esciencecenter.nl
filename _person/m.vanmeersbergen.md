@@ -25,6 +25,6 @@ Maarten studied Computer Science at the VU University in Amsterdam, where he spe
 
 After graduation, Maarten was employed by the VU University as a Scientific Programmer to continue his work in visualization. His work was used to promote the Ibis eScience framework and a sample application in Astrophysics at the Supercomputing conference in Seattle in 2011. He also played a major role in the overhaul of the Computer Graphics course at the VU University, by introducing a framework for OpenGL 3+ and GLSL shader programming.
 
-Today, Maarten is employed by the Netherlands eScience Center as a core team eScience Engineer, where he also focuses on visualization.
+Since 2012, Maarten is employed by the Netherlands eScience Center as a core team eScience Engineer, where he also focuses on visualization.
 
 
