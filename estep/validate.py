@@ -79,9 +79,11 @@ class PropertyTypoValidator(AbstractValidator):
 
 
 class EStepValidator(Validators):
-    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False):
+    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False,
+                 resolve_cache_expire=5):
         super(EStepValidator, self).__init__()
-        schema_validator = SchemaValidator(schema_uris, schemadir, resolve_local, resolve_remote)
+        schema_validator = SchemaValidator(schema_uris, schemadir, resolve_local, resolve_remote,
+                                           resolve_cache_expire=resolve_cache_expire)
         self.data.append(schema_validator)
         self.data.append(PropertyTypoValidator('programmingLanguage'))
         self.data.append(PropertyTypoValidator('technologyTag'))
