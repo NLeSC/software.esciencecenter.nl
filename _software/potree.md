@@ -7,7 +7,7 @@ contributor:
 - http://software.esciencecenter.nl/person/o.rubi
 - http://software.esciencecenter.nl/person/s.verhoeven
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Scientific Visualization
 involvedOrganization:
@@ -21,7 +21,7 @@ programmingLanguage:
 startDate: 2011-01-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: WebGL point cloud viewer for large datasets 
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
@@ -30,7 +30,11 @@ usedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 dependencyOf: 
 - http://software.esciencecenter.nl/software/ahn2webviewer
+- http://software.esciencecenter.nl/software/pattyvis
 owner: 
 - http://software.esciencecenter.nl/organization/potree
+technologyTag:
+- Point clouds
+- WebGL
 ---
-WebGL point cloud viewer for large datasets http://potree.org
+WebGL point cloud viewer for large datasets (<http://potree.org>)

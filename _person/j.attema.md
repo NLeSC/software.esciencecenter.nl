@@ -7,6 +7,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/project/aa-alert
 contributorOf:
 - http://software.esciencecenter.nl/software/pattyanalytics
+- http://software.esciencecenter.nl/software/python-pcl
 coordinatorOf:
 - http://software.esciencecenter.nl/project/aa-alert
 engineerOf:

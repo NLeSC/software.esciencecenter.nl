@@ -13,7 +13,7 @@ contributor:
 - http://software.esciencecenter.nl/person/b.vanwerkhoven
 - http://software.esciencecenter.nl/person/l.kulik
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Scientific Visualization
 involvedOrganization:
@@ -27,13 +27,15 @@ programmingLanguage:
 startDate: 2013-01-01
 status: active
 supportLevel: specialized
-tagLine: Webgl pointcloud visualization of the Via Appia based on potree
+tagLine: WebGL point cloud visualization of the Via Appia based on potree
 technologyTag:
 - Point clouds
 - WebGL
 - 3d mesh
+- GIS
 dependency:
-- Potree
+- http://software.esciencecenter.nl/software/potree
+- http://software.esciencecenter.nl/software/potreeconverter
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi

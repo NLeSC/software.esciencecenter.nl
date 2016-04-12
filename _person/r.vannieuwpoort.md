@@ -5,6 +5,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 coordinatorOf:
 - http://software.esciencecenter.nl/project/emetabolomics
+- http://software.esciencecenter.nl/project/biomarker
 engineerOf:
 - http://software.esciencecenter.nl/project/viaappia-patty
 - http://software.esciencecenter.nl/project/biomarker

@@ -7,9 +7,8 @@ contributor:
 - http://software.esciencecenter.nl/person/e.ranguelova
 - http://software.esciencecenter.nl/person/r.goncalves
 - http://software.esciencecenter.nl/person/r.vanharen
-
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Databases
 - Handling Sensor Data
@@ -23,7 +22,7 @@ programmingLanguage:
 startDate: 2013-10-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: Data Management scripts for the Via Appia 3D GIS
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
@@ -31,5 +30,8 @@ usedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 owner: 
 - http://software.esciencecenter.nl/organization/nlesc
+technologyTag:
+- Point clouds
+- GIS
 ---
 This repository is related to the data management for the Via Appia 3D GIS.

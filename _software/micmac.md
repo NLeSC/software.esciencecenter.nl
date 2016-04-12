@@ -5,7 +5,7 @@ competence:
 contributor:
 - http://software.esciencecenter.nl/person/o.rubi
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Handling Sensor Data
 - High Performance Computing
@@ -21,7 +21,7 @@ programmingLanguage:
 startDate: 2013-10-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: Photogrammetry toolset (from images to point clouds)
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
@@ -29,5 +29,8 @@ usedIn:
 - http://software.esciencecenter.nl/project/improving-photogrammetry
 owner: 
 - http://software.esciencecenter.nl/organization/ign
+technologyTag:
+- Point clouds
+- Photogrammetry
 ---
-MicMac is an open source set of tools that executes the various steps of the photogrammetric workflow. Moreover, it contains additional tools to perform other auxiliary tasks. 
+MicMac is an open source set of tools that executes the various steps of the photogrammetric workflow (from images to a point cloud).
