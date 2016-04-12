@@ -33,6 +33,6 @@ user:
 Cesium (cesiumjs.org) based visualization using ncWMS to serve NetCDF data and D3 (d3js.org) to display graphs.
 A live running version of this software can be found at http://forecast.ewatercycle.org
 
--![logo](https://github.com/NLeSC/Cesium-NcWMS/raw/master/DOC/images/ewa-saturation.png "Screenshot 1")
+![logo](https://github.com/NLeSC/Cesium-NcWMS/raw/master/DOC/images/ewa-saturation.png "Screenshot 1")
 
--![logo](https://github.com/NLeSC/Cesium-NcWMS/raw/master/DOC/images/ewa-discharge.png "Screenshot 2")
+![logo](https://github.com/NLeSC/Cesium-NcWMS/raw/master/DOC/images/ewa-discharge.png "Screenshot 2")
