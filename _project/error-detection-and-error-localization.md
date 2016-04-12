@@ -2,6 +2,7 @@
 name: "Error Detection and Error Localization Approaches for Radio Telescope System Health Management"
 tagLine: Machine Learning for System Health Management in radio astronomy
 nlescWebsite: https://www.esciencecenter.nl/project/error-detection-and-error-localization
+logo: https://www.esciencecenter.nl/img/projects/p62-large.jpg
 competence:
 - Big Data Analytics
 - Efficient Computing
@@ -15,6 +16,7 @@ expertise:
 infrastructure: LOFAR
 dataMagnitude: PB
 coordinator: http://software.esciencecenter.nl/person/e.ranguelova
+contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
 engineer:
 - http://software.esciencecenter.nl/person/c.meijer
 #- http://software.esciencecenter.nl/person/h.spreeuw
@@ -22,6 +24,7 @@ principalInvestigator:
   - name: Dr. Albert-Jan Boonstra
     affiliation:
     - http://software.esciencecenter.nl/organization/astron
+    website: https://www.astron.nl/r-d-laboratory/competence-and-support-groups/staff/albert-jan-boonstra/albert-jan-boonstra
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/astron
 - http://software.esciencecenter.nl/organization/nlesc
@@ -39,7 +42,7 @@ This is not only beneficial for maintenance, operations, and cost. It
 also is crucial for the scientific results, as accurate knowledge of
 the state of the telescope is essential for calibrating the
 system. Data analytics and more specifically Machine Learning (ML)
-have shown to be able to “learn” from data.
+have shown to be able to "learn" from data.
 
 The purpose of this project is to investigate the applicability of
 novel approaches such as ML for SHM in radio astronomy. Although this

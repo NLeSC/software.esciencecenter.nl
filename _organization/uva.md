@@ -18,6 +18,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/texcavator
 - http://software.esciencecenter.nl/software/extjs-datetime
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
+- http://software.esciencecenter.nl/software/topic-coherence-for-dutch
 userOf:
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/xtas

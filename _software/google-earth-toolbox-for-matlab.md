@@ -33,8 +33,8 @@ status: inactive
 supportLevel: specialized
 tagLine: Export data from MATLAB to GoogleEarth's KML format.
 technologyTag:
-- visualization
-- maps
+- Visualization
+- Maps
 - GoogleEarth
 - MATLAB
 usedIn:

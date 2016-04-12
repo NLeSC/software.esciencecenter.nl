@@ -33,5 +33,6 @@ owner:
 technologyTag:
 - Point clouds
 - GIS
+- Dataset
 ---
 This repository is related to the data management for the Via Appia 3d GIS.

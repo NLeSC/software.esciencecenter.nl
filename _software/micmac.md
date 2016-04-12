@@ -33,8 +33,4 @@ technologyTag:
 - Point clouds
 - Photogrammetry
 ---
-<<<<<<< HEAD
 MicMac is an open source set of tools that executes the various steps of the photogrammetric workflow (from images to a point cloud).
-=======
-MicMac is an open source set of tools that executes the various steps of the photogrammetric workflow. Moreover, it contains additional tools to perform other auxiliary tasks. 
->>>>>>> origin/gh-pages

@@ -6,7 +6,7 @@ engineer:
 - http://software.esciencecenter.nl/person/m.vanmeersbergen
 - http://software.esciencecenter.nl/person/s.verhoeven
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/tudelft
+- http://software.esciencecenter.nl/organization/tu-delft
 - http://software.esciencecenter.nl/organization/cwi
 - http://software.esciencecenter.nl/organization/fugro
 - http://software.esciencecenter.nl/organization/oracle

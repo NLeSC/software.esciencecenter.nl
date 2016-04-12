@@ -9,7 +9,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/cwi
 - http://software.esciencecenter.nl/organization/monetdb
 - http://software.esciencecenter.nl/organization/geodan
-- http://software.esciencecenter.nl/organization/tudelft
+- http://software.esciencecenter.nl/organization/tu-delft
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/organization/fugro
 uses:

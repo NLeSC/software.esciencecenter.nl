@@ -34,5 +34,6 @@ dependencyOf:
 - http://software.esciencecenter.nl/software/pattyvis
 technologyTag:
 - Point clouds
+- Library
 ---
 Builds a potree octree from las, laz, binary ply, xyz or ptx files. This is required by any Potree-based renderer. For massive point clouds use the Massive-PotreeConverter (<http://software.esciencecenter.nl/software/massivepotreeconverter>)

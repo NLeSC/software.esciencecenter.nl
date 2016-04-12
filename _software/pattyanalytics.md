@@ -35,5 +35,6 @@ dependency:
 technologyTag:
 - Point clouds
 - GIS
+- PCL
 ---
 Reusable point cloud analytics software. Includes segmentation, registration, file format conversion. This makes use of the python bindings of the Point Cloud Library (PCL; <https://github.com/NLeSC/python-pcl>).

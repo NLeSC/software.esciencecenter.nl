@@ -6,6 +6,9 @@ contributor:
 - http://software.esciencecenter.nl/person/m.vanmeersbergen
 - http://software.esciencecenter.nl/person/o.rubi
 - http://software.esciencecenter.nl/person/s.verhoeven
+dependencyOf:
+- http://software.esciencecenter.nl/software/ahn2webviewer
+- http://software.esciencecenter.nl/software/massivepotreeconverter
 discipline:
 - eScience Methodology
 expertise:
@@ -16,6 +19,8 @@ involvedOrganization:
 license:
 - bsd-2-clause
 name: Potree
+owner:
+- http://software.esciencecenter.nl/organization/potree
 programmingLanguage:
 - JavaScript
 startDate: 2011-01-01
@@ -36,5 +41,6 @@ owner:
 technologyTag:
 - Point clouds
 - WebGL
+- Website
 ---
 WebGL point cloud viewer for large datasets (<http://potree.org>)
