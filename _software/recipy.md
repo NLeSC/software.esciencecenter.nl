@@ -10,7 +10,8 @@ competence:
 - Big Data Analytics
 discipline:
 - eScience Methodology
-expertise: Reproducible Research
+expertise: 
+- Reproducible Research
 supportLevel: advanced
 contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
 owner:
