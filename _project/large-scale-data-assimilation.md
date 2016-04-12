@@ -28,6 +28,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/deltares
 uses:
 - http://software.esciencecenter.nl/software/openda
+- http://software.esciencecenter.nl/software/xenon
 startDate: 2015-01-01
 endDate: 2016-12-31
 ---
