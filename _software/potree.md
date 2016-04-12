@@ -28,8 +28,9 @@ user:
 usedIn:
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
 - http://software.esciencecenter.nl/project/viaappia-patty
-dependencyOf: 
+dependencyOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
+- http://software.esciencecenter.nl/software/massivepotreeconverter
 owner: 
 - http://software.esciencecenter.nl/organization/potree
 technologyTag:
