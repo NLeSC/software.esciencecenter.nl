@@ -28,7 +28,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
 - http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
 ---
-Jurriaan’s main responsibility as an eScience engineer is the implementation of inverse modeling algorithms such as DREAM, SCEM-UA, and SODA on cluster computers while improving the usability of these algorithms in the cluster environment.
+Jurriaan's main responsibility as an eScience engineer is the implementation of inverse modeling algorithms such as DREAM, SCEM-UA, and SODA on cluster computers while improving the usability of these algorithms in the cluster environment.
 
 After completing his BSc and MSc in Earth Sciences at the University of Amsterdam, Jurriaan worked as a PhD in the Computational Geo-Ecology group of Willem Bouten ([link](http://ibed.uva.nl/research/research-groups/content/computational-geo-ecology/computational-geo-ecology.html)). The thesis work covers the application of inverse modeling algorithms such as DREAM, SCEM-UA, and SODA ([link](http://faculty.sites.uci.edu/jasper/publications/)) for improved diagnosis of model structure error in hydrological models ([link](http://www.hydrol-earth-syst-sci.net/17/3455/2013/hess-17-3455-2013.pdf)).
 

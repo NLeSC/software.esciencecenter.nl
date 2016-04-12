@@ -5,7 +5,7 @@ name: AMUSE
 tagLine: The Astrophysical Multipurpose Simulation Environment
 website: http://amusecode.org/
 documentationUrl: http://amusecode.org/doc/
-logo: http://amusecode.org/chrome/site/AmuseLogo.png
+logo: http://amusecode.org/raw-attachment/wiki/WikiStart/AmuseLogo.png
 programmingLanguage:
 - Python
 - Java
@@ -15,8 +15,10 @@ programmingLanguage:
 - CUDA
 - OpenCL
 license:
-- GPL
+- gpl-2.0
 codeRepository: https://github.com/amusecode/amuse
+discipline:
+- Physics & Beyond
 contactPerson: http://software.esciencecenter.nl/person/n.drost
 status: active
 usedIn:
@@ -25,13 +27,16 @@ usedIn:
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 owner:
-- http://software.esciencecenter.nl/organization/lu
+- http://software.esciencecenter.nl/organization/leiden-university
 expertise:
 - Distributed Computing
 - Accelerated Computing
 - High Performance Computing 
 competence:
 - Efficient Computing
+technologyTag:
+- Simulation
+- MultiModel
 ---
 AMUSE is the Astrophysical Multipurpose Software Environment.
 

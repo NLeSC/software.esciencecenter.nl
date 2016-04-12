@@ -25,7 +25,7 @@ status: active
 supportLevel: specialized
 tagLine: Graph visualization using metrolines.
 technologyTag:
-- visualization
+- Visualization
 - Website
 - Graph
 - Timeline

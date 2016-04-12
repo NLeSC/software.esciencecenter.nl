@@ -5,6 +5,8 @@ contactPersonOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/magnesium
 - http://software.esciencecenter.nl/project/sherlock
+- http://software.esciencecenter.nl/project/abcmuse
+- http://software.esciencecenter.nl/project/esalsa
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/sfm

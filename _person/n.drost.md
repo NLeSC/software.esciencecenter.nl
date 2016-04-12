@@ -6,6 +6,10 @@ contactPersonOf:
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
 - http://software.esciencecenter.nl/software/amuse
 - http://software.esciencecenter.nl/project/amuse
+- http://software.esciencecenter.nl/software/sfm
+- http://software.esciencecenter.nl/software/cesium-ncwms
+- http://software.esciencecenter.nl/software/ewaterleaf
+- http://software.esciencecenter.nl/software/openda
 contributorOf:
 - http://software.esciencecenter.nl/software/openda
 - http://software.esciencecenter.nl/software/cesium-ncwms

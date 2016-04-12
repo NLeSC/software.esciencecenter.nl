@@ -39,13 +39,13 @@ originate far outside our Galaxy, and must be exceedingly energetic.
 These bursts are buried far below the instrument noise. Through
 processing algorithms that for example recognize tenuous intergalactic
 matter, and through subsequent classification in a many-parameter
-space, the project leader’s team already made a series of
+space, the project leader's team already made a series of
 ground-breaking detections, resulting in 6 Science and Nature
 papers. Still the origin of the extragalactic bursts remains a mystery
 at the forefront of modern astrophysics.
 
 The goal of this project is to understand both kinds of luminous
-bursts. The project leader’s team started a highly innovative survey,
+bursts. The project leader's team started a highly innovative survey,
 ALERT, with the rejuvenated, upgraded Westerbork Telescope - the most
 sensitive such experiment in the world by over an order of
 magnitude. ALERT includes a 75-GPU cluster and 10 PB storage.
