@@ -1,4 +1,7 @@
 ---
+affiliation:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/vua
 contactPersonOf:
 - http://software.esciencecenter.nl/software/eastroviz
 - http://software.esciencecenter.nl/project/generic-escience-technologies
