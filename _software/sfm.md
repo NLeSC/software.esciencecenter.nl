@@ -23,7 +23,7 @@ programmingLanguage:
 startDate: 2013-10-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: Structure from motion pipeline.
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
@@ -32,4 +32,4 @@ usedIn:
 owner: 
 - http://software.esciencecenter.nl/organization/nlesc
 ---
-This repo contains a complete Structure from Motion pipeline. Structure from Motion is a technique to construct a 3-D point cloud from a set of images (or a video) of an object. The software in this repository relies heavily on a number of third party libaries, notably Bundler, CMVS, PMVS, and SIFT.
+This repo contains a complete Structure from Motion pipeline. Structure from Motion is a technique to construct a 3d point cloud from a set of images (or a video) of an object. The software in this repository relies heavily on a number of third party libaries, notably Bundler, CMVS, PMVS, and SIFT.

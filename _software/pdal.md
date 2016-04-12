@@ -9,14 +9,14 @@ expertise:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 license:
-- FreeBSD
+- bsd-2-clause
 name: PDAL
 programmingLanguage:
 - C++
 startDate: 2011-01-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: C++ library for translating and manipulating point cloud data.
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi

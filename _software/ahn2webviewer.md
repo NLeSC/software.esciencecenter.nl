@@ -1,5 +1,6 @@
 ---
 codeRepository: https://github.com/NLeSC/ahn-pointcloud-viewer
+website: http://ahn2.pointclouds.nl/
 competence:
 - Big Data Analytics
 contributor:
@@ -16,13 +17,13 @@ license:
 - apache-2.0
 dependency:
 - http://software.esciencecenter.nl/software/potree
-name: AHN2 pointcloud viewer
+name: AHN2 point cloud viewer
 programmingLanguage:
 - JavaScript
 startDate: 2014-04-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: WebGL point cloud visualization of the Actuele Hoogtekaart Nederland (AHN2)
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
@@ -31,4 +32,4 @@ usedIn:
 owner: 
 - http://software.esciencecenter.nl/organization/nlesc
 ---
-Webgl pointcloud visualization of the Actuele Hoogtekaart Nederland (2) based on http://potree.org
+WebGL point cloud visualization of the Actuele Hoogtekaart Nederland (2) based on http://potree.org

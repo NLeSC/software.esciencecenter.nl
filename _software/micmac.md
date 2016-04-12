@@ -21,7 +21,7 @@ programmingLanguage:
 startDate: 2013-10-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: Open Source tool suite for Photogrammetry
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi

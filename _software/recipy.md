@@ -2,10 +2,6 @@
 name: ReciPy
 tagLine: Effortless provenance in Python
 codeRepository: https://github.com/recipy/recipy
-nlescWebsite:
-website:
-documentationUrl:
-logo:
 programmingLanguage:
 - Python
 license:
@@ -14,8 +10,7 @@ competence:
 - Big Data Analytics
 discipline:
 - eScience Methodology
-expertise:
-
+expertise: Reproducible Research
 supportLevel: advanced
 contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
 owner:
@@ -30,18 +25,12 @@ contributor:
   - http://software.esciencecenter.nl/organization/uva
   website: http://www.rtwilson.com
 - http://software.esciencecenter.nl/person/j.vanderzwaan
-
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
-
-usedIn:
-
 startDate: 2015-03-27
 status: active
-dependency:
-dependencyOf:
 technologyTag:
 - Provenance
 ---

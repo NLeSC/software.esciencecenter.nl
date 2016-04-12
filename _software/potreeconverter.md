@@ -12,14 +12,14 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/potree
 license:
-- FreeBSD
+- bsd-2-clause
 name: PotreeConverter
 programmingLanguage:
 - C++
 startDate: 2011-01-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: Convertor from LAS, LAZ, PLY, XYZ and PTX files to Octree format
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi

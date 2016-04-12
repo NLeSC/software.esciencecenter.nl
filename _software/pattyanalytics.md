@@ -7,7 +7,6 @@ contributor:
 - http://software.esciencecenter.nl/person/l.buitinck
 - http://software.esciencecenter.nl/person/j.borgdorff
 - http://software.esciencecenter.nl/person/c.martinez
-
 discipline:
 - Humanities & Social Sciences
 expertise:
@@ -23,7 +22,7 @@ programmingLanguage:
 startDate: 2013-10-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: Point cloud analytics
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi

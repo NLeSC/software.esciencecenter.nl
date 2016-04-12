@@ -7,7 +7,6 @@ contributor:
 - http://software.esciencecenter.nl/person/e.ranguelova
 - http://software.esciencecenter.nl/person/r.goncalves
 - http://software.esciencecenter.nl/person/r.vanharen
-
 discipline:
 - Humanities & Social Sciences
 expertise:
@@ -23,7 +22,7 @@ programmingLanguage:
 startDate: 2013-10-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: Via Appia 3d GIS data management
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
@@ -32,4 +31,4 @@ usedIn:
 owner: 
 - http://software.esciencecenter.nl/organization/nlesc
 ---
-This repository is related to the data management for the Via Appia 3D GIS.
+This repository is related to the data management for the Via Appia 3d GIS.

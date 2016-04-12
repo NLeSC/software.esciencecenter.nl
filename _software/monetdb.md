@@ -28,12 +28,12 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/cwi
 - http://software.esciencecenter.nl/organization/monetdb
 license:
-- Mozilla Public License, version 2.0
+- mpl-2.0
 logo: http://dev.monetdb.org/imgs/monetdb-final-500.png
 name: MonetDB
 programmingLanguage:
 - C
-startDate: 2014-03-1
+startDate: 2014-03-01
 status: active
 supportLevel: specialized
 tagLine: A relational column-oriented Database Management System.

@@ -7,7 +7,7 @@ programmingLanguage:
 - FORTRAN
 license:
 - apache-2.0
-- extended bsd-3-clause (custom)
+- bsd-3-clause (custom extension)
 competence:
 - Big Data Analytics
 discipline:

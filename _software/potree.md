@@ -14,14 +14,14 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/potree
 license:
-- FreeBSD
+- bsd-2-clause
 name: Potree
 programmingLanguage:
 - JavaScript
 startDate: 2011-01-01
 status: active
 supportLevel: specialized
-tagLine: tbd
+tagLine: WebGL point cloud viewer
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
