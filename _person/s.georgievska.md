@@ -7,6 +7,7 @@ affiliation:
 photo: https://www.esciencecenter.nl/img/team/sonja_georgievska-web.jpg
 contactPersonOf:
 - http://software.esciencecenter.nl/software/cclustera
+- http://software.esciencecenter.nl/project/massive-biological-data-clustering-reporting-and-visualization-tools
 contributorOf:
 - http://software.esciencecenter.nl/software/cclustera
 engineerOf:

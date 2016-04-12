@@ -10,7 +10,7 @@ dependencyOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
 - http://software.esciencecenter.nl/software/massivepotreeconverter
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Scientific Visualization
 involvedOrganization:
@@ -27,6 +27,17 @@ startDate: 2011-01-01
 status: active
 supportLevel: specialized
 tagLine: WebGL point cloud viewer
+user:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/person/o.rubi
+usedIn:
+- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
+- http://software.esciencecenter.nl/project/viaappia-patty
+dependencyOf: 
+- http://software.esciencecenter.nl/software/ahn2webviewer
+- http://software.esciencecenter.nl/software/massivepotreeconverter
+owner: 
+- http://software.esciencecenter.nl/organization/potree
 technologyTag:
 - Website
 - OpenGL
