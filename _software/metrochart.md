@@ -25,11 +25,10 @@ status: active
 supportLevel: specialized
 tagLine: Graph visualization using metrolines.
 technologyTag:
-- visualization
-- web
-- graph
-- network
-- timeline
+- Visualization
+- Website
+- Graph
+- Timeline
 usedIn:
 - http://software.esciencecenter.nl/project/sherlock
 user:

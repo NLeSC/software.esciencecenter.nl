@@ -8,6 +8,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/project/esibayes
 contributorOf:
 - http://software.esciencecenter.nl/software/metrochart
+- http://software.esciencecenter.nl/software/sfm
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
 - http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
 engineerOf:
