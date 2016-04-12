@@ -29,6 +29,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/organization/meertens
 uses:
+- http://software.esciencecenter.nl/software/heem-dataset
 startDate: 2015-03-01
 endDate: 2015-06-30
 ---
