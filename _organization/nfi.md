@@ -1,5 +1,6 @@
 ---
 name: Nederlands Forensisch Instituut
+logo: http://www.nederlandsforensischinstituut.nl/Images/logo-justitie-NFI.gif
 website: http://www.nederlandsforensischinstituut.nl/
 linkedInUrl: https://www.linkedin.com/company/nederlands-forensisch-instituut
 twitterUrl: https://twitter.com/nedforinst

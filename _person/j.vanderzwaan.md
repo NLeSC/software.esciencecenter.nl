@@ -10,12 +10,17 @@ contactPersonOf:
 - http://software.esciencecenter.nl/software/recipy
 - http://software.esciencecenter.nl/software/rig
 - http://software.esciencecenter.nl/project/what-works-when-for-whom
+- http://software.esciencecenter.nl/software/topic-coherence-for-dutch
+- http://software.esciencecenter.nl/software/heem-dataset
 contributorOf:
 - http://software.esciencecenter.nl/software/cptm
 - http://software.esciencecenter.nl/software/texcavator
 - http://software.esciencecenter.nl/software/recipy
 - http://software.esciencecenter.nl/software/rig
+- http://software.esciencecenter.nl/software/pattyvis
 - http://software.esciencecenter.nl/software/storyteller
+- http://software.esciencecenter.nl/software/topic-coherence-for-dutch
+- http://software.esciencecenter.nl/software/heem-dataset
 engineerOf:
 - http://software.esciencecenter.nl/project/dilipad
 - http://software.esciencecenter.nl/project/texcavator
@@ -23,7 +28,6 @@ engineerOf:
 - http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 - http://software.esciencecenter.nl/project/sherlock
 - http://software.esciencecenter.nl/project/what-works-when-for-whom
-- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
 githubUrl: https://github.com/jvdzwaan
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/jvdzwaan

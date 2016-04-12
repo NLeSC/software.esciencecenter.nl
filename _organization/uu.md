@@ -1,7 +1,9 @@
 ---
 involvedIn:
 - http://software.esciencecenter.nl/project/texcavator
-logo: http://www.uu.nl/sites/default/files/cm_hs_uu-logoengels_rgb.png
+- http://software.esciencecenter.nl/project/ewatercycle
+- http://software.esciencecenter.nl/project/abcmuse
+logo: http://www.uu.nl/sites/all/themes/uubasetheme/images/logo-en.svg
 name: Utrecht University
 ownerOf:
 - http://software.esciencecenter.nl/software/texcavator
