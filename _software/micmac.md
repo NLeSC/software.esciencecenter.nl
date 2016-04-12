@@ -2,6 +2,7 @@
 codeRepository: https://geoportail.forge.ign.fr/hg/culture3d
 competence:
 - Optimized Data Handling
+contactPerson: http://software.esciencecenter.nl/person/o.rubi
 contributor:
 - http://software.esciencecenter.nl/person/o.rubi
 discipline:

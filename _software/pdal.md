@@ -2,6 +2,7 @@
 codeRepository: http://www.pdal.io/
 competence:
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/o.rubi
 contributor:
 - http://software.esciencecenter.nl/person/o.rubi
 discipline:

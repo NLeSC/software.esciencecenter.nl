@@ -3,6 +3,7 @@ codeRepository: https://github.com/NLeSC/ahn-pointcloud-viewer
 website: http://ahn2.pointclouds.nl/
 competence:
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
 contributor:
 - http://software.esciencecenter.nl/person/m.vanmeersbergen
 - http://software.esciencecenter.nl/person/o.rubi

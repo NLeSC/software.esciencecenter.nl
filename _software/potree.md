@@ -2,6 +2,7 @@
 codeRepository: https://github.com/potree/potree
 competence:
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
 contributor:
 - http://software.esciencecenter.nl/person/m.vanmeersbergen
 - http://software.esciencecenter.nl/person/o.rubi

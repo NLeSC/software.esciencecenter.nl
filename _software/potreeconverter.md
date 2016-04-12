@@ -2,6 +2,7 @@
 codeRepository: https://github.com/potree/PotreeConverter
 competence:
 - Optimized Data Handling
+contactPerson: http://software.esciencecenter.nl/person/o.rubi
 contributor:
 - http://software.esciencecenter.nl/person/o.rubi
 discipline:

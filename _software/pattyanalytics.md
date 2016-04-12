@@ -2,6 +2,7 @@
 codeRepository: https://github.com/NLeSC/PattyAnalytics
 competence:
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/j.attema
 contributor:
 - http://software.esciencecenter.nl/person/j.attema
 - http://software.esciencecenter.nl/person/l.buitinck

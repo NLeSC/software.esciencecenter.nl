@@ -2,6 +2,7 @@
 codeRepository: https://github.com/NLeSC/Massive-PotreeConverter
 competence:
 - Optimized Data Handling
+contactPerson: http://software.esciencecenter.nl/person/o.rubi
 contributor:
 - http://software.esciencecenter.nl/person/o.rubi
 - http://software.esciencecenter.nl/person/m.vanmeersbergen
