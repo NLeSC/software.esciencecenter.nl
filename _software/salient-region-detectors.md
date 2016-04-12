@@ -3,7 +3,7 @@ name: Salient Region Detectors
 tagLine: Software package for detecting salient regions in images.
 codeRepository: https://github.com/NLeSC/LargeScaleImaging
 website:
-documentationUrl: https://github.com/NLeSC/LargeScaleImaging/blob/master/Software/Python/README.md
+documentationUrl: https://github.com/NLeSC/SalientDetector-python/blob/master/README.md
 logo:
 programmingLanguage:
 - MATLAB
