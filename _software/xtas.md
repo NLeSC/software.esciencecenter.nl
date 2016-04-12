@@ -5,7 +5,6 @@ competence:
 - Big Data Analytics
 contactPerson: http://software.esciencecenter.nl/person/j.attema
 contributor:
-- http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/person/l.veen
 discipline:
 - Humanities & Social Sciences
@@ -26,6 +25,7 @@ owner:
 - http://software.esciencecenter.nl/organization/uva
 usedIn:
 - http://software.esciencecenter.nl/project/candygene
+- http://software.esciencecenter.nl/project/texcavator
 programmingLanguage:
 - Java
 - Python
@@ -43,6 +43,7 @@ user:
 - http://software.esciencecenter.nl/organization/uva
 - http://software.esciencecenter.nl/person/p.bos
 website: http://nlesc.github.io/xtas/
+website: http://xtas.net/
 ---
 xtas is a collection of natural language processing and text mining tools, brought together in a single software package with built-in distributed computing and support for the Elasticsearch document store.
 
