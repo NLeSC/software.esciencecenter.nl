@@ -1,6 +1,8 @@
 ---
 involvedIn:
 - http://software.esciencecenter.nl/project/texcavator
+- http://software.esciencecenter.nl/project/ewatercycle
+- http://software.esciencecenter.nl/project/abcmuse
 logo: http://www.uu.nl/sites/all/themes/uubasetheme/logo.svg
 name: Utrecht University
 ownerOf:

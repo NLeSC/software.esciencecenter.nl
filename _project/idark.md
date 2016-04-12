@@ -2,7 +2,7 @@
 name: iDark
 tagLine: Project combines the worldwide data within the most general models of Dark Matter. 
 nlescWebsite: http://www.esciencecenter.nl/project/idark
-logo: http://idark-project.github.io/idark_logo.png
+logo: http://www.esciencecenter.nl/img/projects/p63-large.jpg
 competence:
 - Efficient Computing
 - Optimized Data Handling

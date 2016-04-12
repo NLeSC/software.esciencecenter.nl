@@ -3,6 +3,7 @@ codeRepository: https://github.com/NLeSC/xtas
 competence:
 - Efficient Computing
 - Big Data Analytics
+contactPerson: http://software.esciencecenter.nl/person/j.attema
 contributor:
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/person/l.veen
@@ -23,6 +24,8 @@ nlescWebsite: https://www.esciencecenter.nl/technology/software/xtas
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva
+usedIn:
+- http://software.esciencecenter.nl/project/candygene
 programmingLanguage:
 - Java
 - Python
@@ -47,4 +50,4 @@ xtas functionality consists partly of wrappers for existing packages, with autom
 
 A basic installation of xtas works like a Python module. Built-in package management and a simple, uniform interface take away the hassle of installing, configuring and using many existing NLP tools.
 
-xtas’s open architecture makes it possible to include custom code, run this in a distributed fashion and have it communicate with Elasticsearch to provide document storage and retrieval.
+xtas's open architecture makes it possible to include custom code, run this in a distributed fashion and have it communicate with Elasticsearch to provide document storage and retrieval.

@@ -100,7 +100,7 @@
 				"type" : "string",
 				"enum" : ["Text Mining", "Machine Learning", "Information Visualization", "Scientific Visualization", "Information Retrieval", "Computer Vision",
 				          "Handling Sensor Data", "Linked Data", "Information Integration", "Databases", "Data Assimilation",
-				          "Distributed Computing", "Accelerated Computing", "Low Power Computing", "Orchestrated Computing", "High Performance Computing"]
+				          "Distributed Computing", "Accelerated Computing", "Low Power Computing", "Orchestrated Computing", "High Performance Computing", "Reproducible Research"]
 			}
 		},
 		"supportLevel" : {
