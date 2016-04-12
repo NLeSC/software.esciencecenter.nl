@@ -4,10 +4,12 @@ affiliation:
 contactPersonOf:
 - http://software.esciencecenter.nl/software/metrochart
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
+- http://software.esciencecenter.nl/software/matrix-of-scatter
 contributorOf:
 - http://software.esciencecenter.nl/software/metrochart
 - http://software.esciencecenter.nl/software/sfm
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
+- http://software.esciencecenter.nl/software/matrix-of-scatter
 engineerOf:
 - http://software.esciencecenter.nl/project/sherlock
 - http://software.esciencecenter.nl/project/eecology
@@ -19,8 +21,10 @@ photo: https://www.esciencecenter.nl/img/team/jurriaan-spaaks-cropped-bw-new.jpg
 userOf:
 - http://software.esciencecenter.nl/software/metrochart
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
+- http://software.esciencecenter.nl/software/matrix-of-scatter
 ownerOf:
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
+- http://software.esciencecenter.nl/software/matrix-of-scatter
 ---
 Jurriaan's main responsibility as an eScience engineer is the implementation of inverse modeling algorithms such as DREAM, SCEM-UA, and SODA on cluster computers while improving the usability of these algorithms in the cluster environment.
 
