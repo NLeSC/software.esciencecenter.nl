@@ -54,7 +54,8 @@ def load_schemas(schema_uris, schemadir=None):
 
 
 class SchemaValidator(AbstractValidator):
-    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False):
+    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False,
+                 resolve_cache_expire=5):
         store = load_schemas(schema_uris, schemadir)
 
         if resolve_local and resolve_remote:
@@ -67,8 +68,9 @@ class SchemaValidator(AbstractValidator):
         self.resolve_local = resolve_local
         self.resolve_remote = resolve_remote
         self.resolve_cache = {}
+        self.resolve_cache_expire = resolve_cache_expire
 
-        if resolve_remote:
+        if resolve_remote and resolve_cache_expire > 0:
             try:
                 with open('.cache/resolve/resolve.yml') as f:
                     urls = yaml.load(f)
@@ -77,7 +79,7 @@ class SchemaValidator(AbstractValidator):
             else:
                 now = datetime.datetime.now()
                 for url, stamp in urls.items():
-                    if (now - stamp).days <= 5:
+                    if (now - stamp).days <= resolve_cache_expire:
                         self.resolve_cache[url] = stamp
 
         # Resolve date-time as dates as well as strings
@@ -138,14 +140,15 @@ class SchemaValidator(AbstractValidator):
             yield error
 
     def finalize(self):
-        cache_str = yaml.safe_dump(self.resolve_cache, default_flow_style=False)
-        try:
-            if not os.path.isdir('.cache/resolve'):
-                os.makedirs('.cache/resolve')
-            with open('.cache/resolve/resolve.yml', 'w') as f:
-                f.write(cache_str)
-            LOGGER.debug('Stored resolve cache (.cache/resolve/resolve.yml)')
-        except IOError:
-            LOGGER.warning('Cannot write to resolve cache (.cache/resolve/resolve.yml)')
+        if self.resolve_cache_expire > 0:
+            cache_str = yaml.safe_dump(self.resolve_cache, default_flow_style=False)
+            try:
+                if not os.path.isdir('.cache/resolve'):
+                    os.makedirs('.cache/resolve')
+                with open('.cache/resolve/resolve.yml', 'w') as f:
+                    f.write(cache_str)
+                LOGGER.debug('Stored resolve cache (.cache/resolve/resolve.yml)')
+            except IOError:
+                LOGGER.warning('Cannot write to resolve cache (.cache/resolve/resolve.yml)')
 
         return []
