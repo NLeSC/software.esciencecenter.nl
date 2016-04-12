@@ -30,5 +30,9 @@ usedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 owner: 
 - http://software.esciencecenter.nl/organization/nlesc
+dependency:
+- PCL
+technologyTag:
+- Point clouds
 ---
 Reusable point cloud analytics software. Includes segmentation, registration, file format conversion. This makes use of the python bindings of the Point Cloud Library (PCL; <https://github.com/NLeSC/python-pcl>).

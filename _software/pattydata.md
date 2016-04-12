@@ -30,5 +30,7 @@ usedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 owner: 
 - http://software.esciencecenter.nl/organization/nlesc
+technologyTag:
+- Dataset
 ---
 This repository is related to the data management for the Via Appia 3d GIS.

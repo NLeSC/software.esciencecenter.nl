@@ -31,5 +31,7 @@ usedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 owner: 
 - http://software.esciencecenter.nl/organization/nlesc
+technologyTag:
+- Point clouds
 ---
 This repo contains a complete Structure from Motion pipeline. Structure from Motion is a technique to construct a 3d point cloud from a set of images (or a video) of an object. The software in this repository relies heavily on a number of third party libaries, notably Bundler, CMVS, PMVS, and SIFT.

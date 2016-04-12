@@ -22,5 +22,8 @@ user:
 - http://software.esciencecenter.nl/person/o.rubi
 usedIn:
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
+technologyTag:
+- Point clouds
+- Library
 ---
 PDAL is a C++ BSD library for translating and manipulating point cloud data. It is very much like the GDAL library which handles raster and vector data. 
