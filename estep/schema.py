@@ -16,6 +16,7 @@ import datetime
 import json
 import os
 import logging
+import yaml
 
 import jsonschema
 import requests
@@ -29,43 +30,6 @@ except ImportError:
         pass
 
 LOGGER = logging.getLogger('estep')
-
-
-def url_ref(instance):
-    return url_local_ref(instance) and url_resolve(instance)
-
-
-def url_local_ref(instance):
-    if not is_uri_orig(instance):
-        return False
-
-    # lookup local files locally
-    if '://software.esciencecenter.nl/' in instance:
-        location = url_to_path(instance)
-        # do not look for missing directories.
-        if os.path.isdir(os.path.dirname(location)) and not os.path.isfile(location):
-            err = "{} not found locally as {}".format(instance, location)
-            raise ValueError(err)
-
-    return True
-
-
-def url_resolve(instance):
-    if not is_uri_orig(instance):
-        return False
-
-    # do not resolve URLs of current code
-    if '://software.esciencecenter.nl/' in instance:
-        return True
-
-    try:
-        result = requests.head(instance)
-        if result.status_code == 404:
-            raise ValueError("Remote URL {0} cannot be resolved: not found.".format(instance))
-    except IOError as ex:
-        raise ValueError("Remote URL {0} cannot be resolved: {1}".format(instance, ex))
-
-    return True
 
 
 def load_schemas(schema_uris, schemadir=None):
@@ -90,8 +54,33 @@ def load_schemas(schema_uris, schemadir=None):
 
 
 class SchemaValidator(AbstractValidator):
-    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False):
+    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False,
+                 resolve_cache_expire=5):
         store = load_schemas(schema_uris, schemadir)
+
+        if resolve_local and resolve_remote:
+            LOGGER.debug("Resolving URLs and locating local references")
+        elif resolve_local:
+            LOGGER.debug("Locating local references")
+        elif resolve_remote:
+            LOGGER.debug("Resolving URLs")
+
+        self.resolve_local = resolve_local
+        self.resolve_remote = resolve_remote
+        self.resolve_cache = {}
+        self.resolve_cache_expire = resolve_cache_expire
+
+        if resolve_remote and resolve_cache_expire > 0:
+            try:
+                with open('.cache/resolve/resolve.yml') as f:
+                    urls = yaml.load(f)
+            except IOError:
+                LOGGER.debug('No resolve cache available (.cache/resolve/resolve.yml)')
+            else:
+                now = datetime.datetime.now()
+                for url, stamp in urls.items():
+                    if (now - stamp).days <= resolve_cache_expire:
+                        self.resolve_cache[url] = stamp
 
         # Resolve date-time as dates as well as strings
         if isinstance(jsonschema.compat.str_types, type):
@@ -102,15 +91,7 @@ class SchemaValidator(AbstractValidator):
         types = {u'string': tuple(str_types)}
 
         format_checker = jsonschema.draft4_format_checker
-        if resolve_local and resolve_remote:
-            LOGGER.debug("Resolving URLs and locating local references")
-            format_checker.checkers['uri'] = (url_ref, ValueError)
-        elif resolve_local:
-            LOGGER.debug("Locating local references")
-            format_checker.checkers['uri'] = (url_local_ref, ValueError)
-        elif resolve_remote:
-            LOGGER.debug("Resolving URLs")
-            format_checker.checkers['uri'] = (url_resolve, ValueError)
+        format_checker.checkers['uri'] = (self.url_ref, ValueError)
 
         self.validators = {}
         for schema_uri in schema_uris:
@@ -122,7 +103,52 @@ class SchemaValidator(AbstractValidator):
                                                                                 format_checker=format_checker,
                                                                                 )
 
+    def url_ref(self, instance):
+        # only consider valid uris
+        if not is_uri_orig(instance):
+            return False
+
+        # handle local urls
+        if self.resolve_local and '://software.esciencecenter.nl/' in instance:
+            location = url_to_path(instance)
+            # do not look for missing directories.
+            if os.path.isdir(os.path.dirname(location)) and not os.path.isfile(location):
+                err = "{} not found locally as {}".format(instance, location)
+                raise ValueError(err)
+
+        # handle remote urls
+        if self.resolve_remote and '://software.esciencecenter.nl/' not in instance:
+            self.resolve(instance)
+
+        return True
+
+    def resolve(self, url):
+        if url in self.resolve_cache:
+            return True
+
+        try:
+            result = requests.head(url)
+            if result.status_code == 404:
+                raise ValueError("Remote URL {0} cannot be resolved: not found.".format(url))
+            self.resolve_cache[url] = datetime.datetime.now()
+        except IOError as ex:
+            raise ValueError("Remote URL {0} cannot be resolved: {1}".format(url, ex))
+
     def iter_errors(self, instance):
         schema_uri = instance['schema']
         for error in self.validators[schema_uri].iter_errors(instance):
             yield error
+
+    def finalize(self):
+        if self.resolve_cache_expire > 0:
+            cache_str = yaml.safe_dump(self.resolve_cache, default_flow_style=False)
+            try:
+                if not os.path.isdir('.cache/resolve'):
+                    os.makedirs('.cache/resolve')
+                with open('.cache/resolve/resolve.yml', 'w') as f:
+                    f.write(cache_str)
+                LOGGER.debug('Stored resolve cache (.cache/resolve/resolve.yml)')
+            except IOError:
+                LOGGER.warning('Cannot write to resolve cache (.cache/resolve/resolve.yml)')
+
+        return []
