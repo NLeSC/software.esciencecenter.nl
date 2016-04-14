@@ -1,61 +1,3 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.node {
-  font: 300 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  fill: #bbb;
-}
-
-.node:hover {
-  fill: #000;
-}
-
-.link {
-  stroke: steelblue;
-  stroke-opacity: .4;
-  fill: none;
-  pointer-events: none;
-}
-
-.node:hover,
-.node--source,
-.node--target {
-  font-weight: 700;
-}
-
-.node--source {
-  fill: #2ca02c;
-}
-
-.node--target {
-  fill: #d62728;
-}
-
-.link--source,
-.link--target {
-  stroke-opacity: 1;
-  stroke-width: 2px;
-}
-
-.link--source {
-  stroke: #d62728;
-}
-
-.link--target {
-  stroke: #2ca02c;
-}
-
-</style>
-<body>
-<h2>Software used in Projects</h2>
-<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script> 
-<script src="../js/d3.v3.min.js"></script>
-<script>
-
 var diameter = 960,
     radius = diameter / 2,
     innerRadius = radius - 120;
@@ -90,11 +32,8 @@ $.ajax({
   timeout:10000,
   success: function(data){
     if(data){
-//      console.log(data);
       var names = {};
       for (i in data) {
-//        if (data[i].competence == null) { continue; }
-//        var competence = data[i].competence[0].replace(/\W+/g,"_");
         var expertise = "Unknown_Expertise";
         if (data[i].expertise != null) { 
           var expertise = data[i].expertise[0].replace(/\W+/g,"_");
@@ -112,6 +51,7 @@ $.ajax({
           if (names[data[i].usedIn[u].replace(/\/$/,"")] == undefined) {
             entries.push({
               "name" : "Project.Project." + data[i].usedIn[u].replace(/^.*\//,""),
+              "link" : data[i].usedIn[u],
               "size" : 8000,
               "imports" : []
             });
@@ -120,6 +60,7 @@ $.ajax({
         }
         var entry = {
           "name" : names[data[i]["@id"].replace(/\/$/,"")],
+          "link" : data[i]["@id"],
           "size" : 8000,
           "imports" : usedIn
         };
@@ -146,7 +87,15 @@ $.ajax({
       .text(function(d) { return d.key; })
       .on("mouseover", mouseovered)
       .on("mouseout", mouseouted);
-//});
+
+  node.on("click", function(d){
+    if(d3.event.defaultPrevented) {
+      return;
+    } else {
+      $(location).attr('href', d.link);
+      window.location = d.link;
+    }
+  }); 
 
 function mouseovered(d) {
   node
@@ -227,26 +176,4 @@ function packageImports(nodes) {
     console.log(textStatus + ', ' + errorThrown);
   }
 });
-
-/*
-$.ajax({
-          type: "GET",
-          url: "readme-flare-imports.json",
-          async: true,
-          cache: false,
-          timeout:10000,
-          success: function(data){
-               if(data){
-
-
-               }
-          },
-          error: function(XMLHttpRequest, textStatus, errorThrown){
-               console.log(textStatus + ', ' + errorThrown);
-          }
-     });
-
-*/
-
-</script>
 
