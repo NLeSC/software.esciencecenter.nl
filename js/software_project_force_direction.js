@@ -2,11 +2,12 @@ var graph_filler = function(data,graph) {
   var names = {};
   var expertise_n = 0;
   var expertise_id = {};
+  var type_id = {};
   var name_n = -1;
   var name_id = {};
 
   for (i in data) {
-    var expertise = "Unknown_Expertise";
+    var expertise = "Unspecified";
     if (data[i].expertise != null) { 
       var expertise = data[i].expertise[0].replace(/\W+/g,"_");
     }
@@ -17,6 +18,7 @@ var graph_filler = function(data,graph) {
     if (expertise_id[expertise] == null) {
       expertise_n = expertise_n + 1;
       expertise_id[expertise] = expertise_n;
+      type_id[expertise_n] = expertise;
     }
     if (name_id[name] == null) {
       name_n = name_n + 1;
@@ -47,4 +49,5 @@ var graph_filler = function(data,graph) {
       });
     }
   }
+  return type_id;
 }

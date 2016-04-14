@@ -1,4 +1,4 @@
-var diameter = 700,
+var diameter = 600,
     radius = diameter / 2,
     innerRadius = radius - 120;
 
@@ -34,7 +34,7 @@ $.ajax({
     if(data){
       var names = {};
       for (i in data) {
-        var expertise = "Unknown_Expertise";
+        var expertise = "Unspecified";
         if (data[i].expertise != null) { 
           var expertise = data[i].expertise[0].replace(/\W+/g,"_");
         }
@@ -66,7 +66,12 @@ $.ajax({
       .on("mouseout", mouseouted);
 
   node.append("title")
-      .text(function(d) { return d.name.replace(/^.*\./,""); });
+      .text(function(d) { 
+        var label = d.name.replace(/^.*\./,"") + " - " +
+          d.parent.key; 
+        return label;
+
+      });
 
   node.on("click", function(d){
     if(d3.event.defaultPrevented) {

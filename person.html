@@ -4,7 +4,7 @@ title: People
 ---
 <div class="person-container">
     {% for p in site.person %}
-    <div class="person-photo-container"><a href="{{ p.url }}">{% if p.photo != null %}<img src="{{ p.photo }}" class="person-photo">{% else %}<img src="/images/gray.png" class="empty-person-photo">{% endif %}</a><a href="{{ p.url }}" class="person-link">{{ p.name }}</a></div>
+    <div class="person-photo-container"><a href="{{ p.url }}">{% if p.photo != null %}<img src="{{ p.photo }}" class="person-photo">{% else %}<img src="https://www.esciencecenter.nl/css/assets/team_default.png" class="empty-person-photo">{% endif %}</a><a href="{{ p.url }}" class="person-link">{{ p.name }}</a></div>
     {% endfor %}
 </div>
 
@@ -21,3 +21,4 @@ title: People
 <script src="/js/software_person_force_direction.js"></script>
 <script src="/js/force_direction.js"></script>
 </div>
+
