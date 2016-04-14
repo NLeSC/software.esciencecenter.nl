@@ -473,6 +473,7 @@ img.empty {
     width: 220px;
 }
 
+
 /*
  * Organization
  */
@@ -492,28 +493,6 @@ img.empty {
     width: 300px;
 }
 
-/*
- * Analytics
- */
-h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.node {
-  stroke: #FFF;
-  stroke-width: 1.5px;
-}
-
-
-.link {
-  stroke: #999;
-  stroke-opacity: .6;
-}
-
-text {
-  pointer-events: none;
-  stroke: #000;
-  font: 10px sans-serif;
-  stroke-width: 0px;
-
+#network-graph {
+    margin-left: 30px;
 }

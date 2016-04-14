@@ -1,4 +1,4 @@
-var diameter = 960,
+var diameter = 700,
     radius = diameter / 2,
     innerRadius = radius - 120;
 
@@ -15,7 +15,7 @@ var line = d3.svg.line.radial()
     .radius(function(d) { return d.y; })
     .angle(function(d) { return d.x / 180 * Math.PI; });
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#network-graph").append("svg")
     .attr("width", diameter)
     .attr("height", diameter)
   .append("g")
@@ -53,7 +53,6 @@ $.ajax({
       .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
       .attr("class", "link")
       .attr("d", line);
-
   node = node
       .data(nodes.filter(function(n) { return !n.children; }))
     .enter().append("text")
