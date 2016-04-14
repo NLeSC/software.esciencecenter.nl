@@ -53,6 +53,7 @@ $.ajax({
       .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
       .attr("class", "link")
       .attr("d", line);
+
   node = node
       .data(nodes.filter(function(n) { return !n.children; }))
     .enter().append("text")
@@ -63,6 +64,9 @@ $.ajax({
       .text(function(d) { return d.key; })
       .on("mouseover", mouseovered)
       .on("mouseout", mouseouted);
+
+  node.append("title")
+      .text(function(d) { return d.name.replace(/^.*\./,""); });
 
   node.on("click", function(d){
     if(d3.event.defaultPrevented) {

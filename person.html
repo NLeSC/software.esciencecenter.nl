@@ -2,57 +2,6 @@
 layout: page
 title: People
 ---
-<style>
-h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.node {
-  font: 300 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  fill: #bbb;
-}
-
-.node:hover {
-  fill: #000;
-}
-
-.link {
-  stroke: steelblue;
-  stroke-opacity: .4;
-  fill: none;
-  pointer-events: none;
-}
-
-.node:hover,
-.node--source,
-.node--target {
-  font-weight: 700;
-}
-
-.node--source {
-  fill: #2ca02c;
-}
-
-.node--target {
-  fill: #d62728;
-}
-
-.link--source,
-.link--target {
-  stroke-opacity: 1;
-  stroke-width: 2px;
-}
-
-.link--source {
-  stroke: #d62728;
-}
-
-.link--target {
-  stroke: #2ca02c;
-}
-
-</style>
-
 <div class="person-container">
     {% for p in site.person %}
     <div class="person-photo-container"><a href="{{ p.url }}">{% if p.photo != null %}<img src="{{ p.photo }}" class="person-photo">{% else %}<img src="/images/gray.png" class="empty-person-photo">{% endif %}</a><a href="{{ p.url }}" class="person-link">{{ p.name }}</a></div>
@@ -62,6 +11,7 @@ h2 {
 <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script> 
 <script src="/js/d3.v3.min.js"></script>
 
+<h2>eStep contributions by eScience Research Engineers</h2>
 <div id="network-eb-graph">
 <script src="/js/software_person_edge_bundling.js"></script>
 <script src="/js/edge_bundling.js"></script>
