@@ -7,6 +7,7 @@ twitterUrl: https://twitter.com/nedforinst
 tagLine: In feiten het beste
 involvedIn:
 - http://software.esciencecenter.nl/project/sherlock
+- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 organizationOf:
 ownerOf:
 userOf:

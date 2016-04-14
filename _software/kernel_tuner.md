@@ -29,6 +29,8 @@ technologyTag:
 - GPU Computing
 user:
 - http://software.esciencecenter.nl/person/b.vanwerkhoven
+usedIn:
+- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis/
 website: http://benvanwerkhoven.github.io/kernel_tuner/
 ---
 The goal of this project is to provide a - as simple as possible - tool for tuning CUDA and OpenCL kernels.
