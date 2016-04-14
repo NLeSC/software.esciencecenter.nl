@@ -9,7 +9,7 @@ h2 {
 
 .node {
   font: 300 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  fill: #bbb !important;
+  fill: #bbb;
 }
 
 .node:hover {
@@ -59,9 +59,15 @@ h2 {
     {% endfor %}
 </div>
 
-<div id="network-graph">
 <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script> 
-<script src="../js/d3.v3.min.js"></script>
-<script src="../analytics/software_person_edge_bundling.js"></script>
-<script src="../analytics/edge_bundling.js"></script>
+<script src="/js/d3.v3.min.js"></script>
+
+<div id="network-eb-graph">
+<script src="/js/software_person_edge_bundling.js"></script>
+<script src="/js/edge_bundling.js"></script>
+</div>
+
+<div id="network-fd-graph">
+<script src="/js/software_person_force_direction.js"></script>
+<script src="/js/force_direction.js"></script>
 </div>

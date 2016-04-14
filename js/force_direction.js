@@ -1,5 +1,4 @@
-
-var width = 960,
+var width = 700,
     height = 500;
 
 var color = d3.scale.category20();
@@ -9,7 +8,7 @@ var force = d3.layout.force()
     .linkDistance(30)
     .size([width, height]);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#network-fd-graph").append("svg")
     .attr("width", width)
     .attr("height", height);
 
@@ -21,57 +20,12 @@ $.ajax({
   timeout:10000,
   success: function(data){
     if(data){
-      var names = {};
-      var expertise_n = 0;
-      var expertise_id = {};
-      var name_n = -1;
-      var name_id = {};
       var graph = { 
         "nodes" : [],
         "links" : []
       };
-      for (i in data) {
-        var expertise = "Unknown_Expertise";
-        if (data[i].expertise != null) { 
-          var expertise = data[i].expertise[0].replace(/\W+/g,"_");
-        }
-        var name = data[i].name.replace(/\W+/g,"_");
-        names[data[i]["@id"].replace(/\/$/,"")] = //competence + "." + 
-        expertise + "." + name;
-        var exp_id = -1;
-        if (expertise_id[expertise] == null) {
-          expertise_n = expertise_n + 1;
-          expertise_id[expertise] = expertise_n;
-        }
-        if (name_id[name] == null) {
-          name_n = name_n + 1;
-          name_id[name] = name_n;
-          graph.nodes.push({"name":name, "group":expertise_id[expertise], "nr":name_id[name], "link":data[i]["@id"], "type":"software"});
-        }
-      }
 
-      for (i in data) {
-        if (data[i].usedIn == null) { continue; }
-        for (u in data[i].usedIn) {
-          var name = data[i].usedIn[u].replace(/^.*\//,"")
-          var expertise = "Project";
-          var exp_id = -1;
-          if (expertise_id[expertise] == null) {
-            expertise_n = expertise_n + 1;
-            expertise_id[expertise] = expertise_n;
-          }
-          if (name_id[name] == null) {
-            name_n = name_n + 1;
-            name_id[name] = name_n;
-            graph.nodes.push({"name":name, "group":expertise_id[expertise], "link":"http://software.esciencecenter.nl/project/" + name, "type" : "project"});
-          }
-          graph.links.push({
-            "source" : name_id[data[i].name.replace(/\W+/g,"_")],
-            "target" : name_id[name],
-            "value" : 1
-          });
-        }
-      }
+      graph_filler(data,graph);
 
       force
           .nodes(graph.nodes)
@@ -89,7 +43,7 @@ $.ajax({
     .enter()
     .append("g")
       .attr("class", "node")
-      .attr("class", function(d) {
+      .attr("class",function(d){
         return d.type;
       })
       .call(force.drag);
@@ -100,7 +54,7 @@ $.ajax({
       .attr("r", 5)
       .style("fill", function(d) { return color(d.group); })
 
-      d3.selectAll(".project")
+      d3.selectAll(".person, .project")
       .append("rect")
       .attr("class", "node")
       .attr("x",-5)
@@ -109,14 +63,6 @@ $.ajax({
       .attr("height", 10)
       .style("fill", function(d) { return color(d.group); })
 
-      node.on("click", function(d){
-        if(d3.event.defaultPrevented) {
-          return;
-        } else {
-          $(location).attr('href', d.link);
-          window.location = d.link;
-        }
-      }); 
 
       node.append("title")
           .text(function(d) { return d.name; });
@@ -130,6 +76,15 @@ $.ajax({
             } else {
               return d.name;
             }});
+
+      node.on("click", function(d){
+        if(d3.event.defaultPrevented) {
+          return;
+        } else {
+          $(location).attr('href', d.link);
+          window.location = d.link;
+        }
+      }); 
 
       force.on("tick", function() {
         link.attr("x1", function(d) { return d.source.x; })
