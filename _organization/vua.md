@@ -6,6 +6,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 - http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
 - http://software.esciencecenter.nl/project/viaappia-patty
+- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 linkedInUrl: https://www.linkedin.com/company/vrije-universiteit-amsterdam
 logo: https://www.esciencecenter.nl/img/partners/VUlogo_EN_Wit_HR_RGB_tcm9-201385.png
 name: VU University Amsterdam

@@ -7,6 +7,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/project/sherlock
 - http://software.esciencecenter.nl/project/abcmuse
 - http://software.esciencecenter.nl/project/esalsa
+- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/sfm
@@ -18,6 +19,8 @@ coordinatorOf:
 - http://software.esciencecenter.nl/project/esalsa
 - http://software.esciencecenter.nl/project/amuse
 - http://software.esciencecenter.nl/project/abcmuse
+engineerOf:
+- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 githubUrl: https://github.com/jmaassen
 jobTitle: Technology Lead Efficient Computing
 linkedInUrl: https://nl.linkedin.com/in/jason-maassen-6795ba4
