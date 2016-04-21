@@ -10,7 +10,7 @@ competence:
 - Big Data Analytics
 discipline:
 - eScience Methodology
-expertise: 
+expertise:
 - Reproducible Research
 supportLevel: advanced
 contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan

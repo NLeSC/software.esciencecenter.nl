@@ -29,12 +29,13 @@ user:
 - http://software.esciencecenter.nl/person/o.rubi
 usedIn:
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-owner: 
+owner:
 - http://software.esciencecenter.nl/organization/nlesc
 dependencyOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
 dependency:
 - http://software.esciencecenter.nl/software/potreeconverter
+- http://software.esciencecenter.nl/software/potree
 technologyTag:
 - Point clouds
 ---

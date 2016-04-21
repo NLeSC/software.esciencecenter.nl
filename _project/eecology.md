@@ -23,6 +23,7 @@ expertise:
 infrastructure: Dedicated cluster
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
+- http://software.esciencecenter.nl/organization/nlesc
 name: eEcology
 nlescWebsite: https://www.esciencecenter.nl/project/eecology
 principalInvestigator:

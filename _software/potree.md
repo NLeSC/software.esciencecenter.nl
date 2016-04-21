@@ -27,17 +27,18 @@ programmingLanguage:
 startDate: 2011-01-01
 status: active
 supportLevel: specialized
-tagLine: WebGL point cloud viewer 
+tagLine: WebGL point cloud viewer
 user:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/o.rubi
 usedIn:
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
 - http://software.esciencecenter.nl/project/viaappia-patty
-dependencyOf: 
+dependencyOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
+- http://software.esciencecenter.nl/software/massivepotreeconverter
 - http://software.esciencecenter.nl/software/pattyvis
-owner: 
+owner:
 - http://software.esciencecenter.nl/organization/potree
 technologyTag:
 - Point clouds
