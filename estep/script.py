@@ -16,6 +16,7 @@ from __future__ import print_function
 import os
 import sys
 import logging
+import codecs
 
 from docopt import docopt
 import yaml
@@ -172,7 +173,7 @@ def generate_reciprocal():
         for url, document in faulty_docs.items():
             path = url_to_path(url)
             LOGGER.info("Writing fixed file %s", path)
-            with open(path, 'w') as f:
+            with codecs.open(path, encoding='utf-8', mode='w') as f:
                 f.write(object2jekyll(document, 'description'))
 
         LOGGER.warning('Fixed %d missing relationships in %d documents', nr_errors, len(faulty_docs))

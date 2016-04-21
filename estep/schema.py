@@ -17,7 +17,7 @@ import json
 import os
 import logging
 import yaml
-
+import codecs
 import jsonschema
 import requests
 
@@ -48,7 +48,7 @@ def load_schemas(schema_uris, schemadir=None):
         else:
             LOGGER.debug('Loading schema %s from %s', schema_uri, schemadir)
             schema_fn = schema_uri.replace('http://software.esciencecenter.nl/schema', schemadir)
-            with open(schema_fn) as f:
+            with codecs.open(schema_fn, encoding='utf-8') as f:
                 store[schema_uri] = json.load(f)
     return store
 
