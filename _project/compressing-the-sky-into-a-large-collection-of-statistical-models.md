@@ -5,7 +5,7 @@ engineer:
 - http://software.esciencecenter.nl/person/v.hees
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/cwi
-name: Compressing-the-Sky-Into-a-Large-Collection-of-Statistical-Models
+name: Compressing the Sky Into a Large Collection of Statistical Models
 tagLine: 'PathFinder project: Compressing the sky into a large collection of statistical models'
 uses:
 - http://software.esciencecenter.nl/software/monetdb

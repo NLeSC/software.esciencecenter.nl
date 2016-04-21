@@ -13,7 +13,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/rijkswaterstaat
 - http://software.esciencecenter.nl/organization/potree
 logo: http://www.esciencecenter.nl/img/projects/1.P017-large.jpg
-name: Massive-Point-Clouds-for-eSciences
+name: Massive Point Clouds for eSciences
 tagLine: Massive Point-Clouds for eSciences
 uses:
 - http://software.esciencecenter.nl/software/monetdb

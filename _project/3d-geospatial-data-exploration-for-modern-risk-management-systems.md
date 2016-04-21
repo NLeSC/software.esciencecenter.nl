@@ -1,5 +1,5 @@
 ---
-name: 3D-Geospatial-Data-Exploration-for-Modern-Risk-Management-Systems
+name: 3D Geospatial Data Exploration for Modern Risk Management Systems
 tagLine: 'COMMIT valorization project: 3D geospatial data exploration for modern risk management systems'
 contactPerson: http://software.esciencecenter.nl/person/r.goncalves
 logo: http://www.esciencecenter.nl/img/projects/p054-large.jpg
@@ -27,11 +27,12 @@ expertise:
 - Databases
 dataMagnitude: TB
 dataFormat:
-- LAS/LAZ
+- LAS
+- LAZ
 - GML
 - NetCDF
-- GeoJson
-- ShapeFiles
+- GeoJSON
+- Shapefiles
 ---
 55% of The Netherlands is below sea level. This area contains 60% of the population and generates 65% of the Gross National Product. Obviously, The Netherlands requires efficient risk and water management.
 

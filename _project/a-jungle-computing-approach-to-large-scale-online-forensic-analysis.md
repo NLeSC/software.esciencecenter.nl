@@ -1,7 +1,9 @@
 ---
-name: A-Jungle-Computing-approach-to-large-scale-online-Forensic-Analysis
+name: A Jungle Computing approach to large scale online Forensic Analysis
 tagLine: 'Programming tools that simplify application development and deployment'
 contactPerson: http://software.esciencecenter.nl/person/j.maassen
+nlescWebsite: https://www.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+logo: https://www.esciencecenter.nl/img/projects/1.P027-large.jpg
 engineer:
 - http://software.esciencecenter.nl/person/j.maassen
 - http://software.esciencecenter.nl/person/b.vanwerkhoven
