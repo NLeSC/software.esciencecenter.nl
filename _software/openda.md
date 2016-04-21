@@ -2,6 +2,7 @@
 contributor:
 - http://software.esciencecenter.nl/person/n.drost
 name: OpenDA
+tagLine: Data Assimilation Toolbox
 usedIn:
 - http://software.esciencecenter.nl/project/ewatercycle
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
@@ -18,12 +19,19 @@ expertise:
 programmingLanguage:
 - Java
 license:
-- lgpl-3.0
+- lgpl-3
+supportLevel: basic
+owner:
+- name: OpenDA Association
 status: active
-tagLine: Integrating models and observations
+involvedOrganization:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/tu-delft
+- http://software.esciencecenter.nl/organization/deltares
+startDate: 2010-01-01
+contactPerson: http://software.esciencecenter.nl/person/n.drost
 technologyTag:
 - Calibration
-startDate: 2014-06-27
 ---
 OpenDA is an open interface standard for (and free implementation of) a set of tools to quickly implement data-assimilation and calibration for arbitrary numerical models. OpenDA wants to stimulate the use of data-assimilation and calibration by lowering the implementation costs and enhancing the exchange of software among researchers and end-users.
 A model that conforms to the OpenDA standard can use all the tools that are available in OpenDA. This allows experimentation with data-assimilation/calibration methods without the need for extensive programming. Reversely, developers of data-assimilation/calibration software that make their implementations compatible with the OpenDA interface will make their new methods usable for all OpenDA users (either for free or on a commercial basis).

@@ -19,13 +19,13 @@ engineerOf:
 - http://software.esciencecenter.nl/project/generic-escience-technologies
 - http://software.esciencecenter.nl/project/viaappia-patty
 - http://software.esciencecenter.nl/project/beyond-the-data-explosion
+photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
 userOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/eastroviz
 name: Rob van Nieuwpoort
 jobTitle: Director eScience Technology & Project Leader
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-rob-van-nieuwpoort
-photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
 ---
 Rob received his PhD at VU University Amsterdam for work on "Efficient Java-Centric Grid Computing". Rob has designed and implemented the Manta, Ibis, Satin, and JavaGAT systems (now standardized in OGF as SAGA) and worked on the EU GridLab project, and the Dutch Virtual Labs for eScience project.
 
