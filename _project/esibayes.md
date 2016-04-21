@@ -18,6 +18,7 @@ expertise:
 - Data Assimilation
 - Distributed Computing
 - High Performance Computing
+logo: https://www.esciencecenter.nl/img/projects/1.P019-large.jpg
 infrastructure: surfSARA's LISA cluster
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
