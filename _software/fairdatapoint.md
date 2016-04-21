@@ -31,6 +31,11 @@ contributor:
   githubUrl: https://github.com/rajaram5
   affiliation:
     - http://software.esciencecenter.nl/organization/lumc
+- name: Luiz Olavo Bonino da Silva Santos
+  linkedInUrl: http://www.linkedin.com/in/luizolavo
+  affiliation:
+    - http://software.esciencecenter.nl/organization/dtl
+
 user:
 - http://software.esciencecenter.nl/person/a.kuzniar
 - http://software.esciencecenter.nl/organization/nlesc
@@ -63,5 +68,5 @@ technologyTag:
 - 'Dublin Core metadata'
 - 'RESTful API'
 ---
-FAIR Data Point (FDP) is one of the components of the FAIR Data e-infrastructure. FDP enables both i) data owners to expose data sets in compliance with the FAIR Data Principles and ii) data users to discover information about the data sets available (metadata). Specifically, the FDP addresses the first facet of FAIR Data i.e., the issue of findability or discoverability of data, by providing metadata at four complementary levels: FDP itself, data catalog, data set including its distributions and data record. The FDP software has been developed as a stand-alone Web application in both Python and Java languanges.
+FAIR Data Point (FDP) is one of the components of the FAIR Data e-infrastructure. FDP enables both i) the data owners to expose data sets in compliance with the [FAIR Data Guiding Principles](http://www.force11.org/group/fairgroup/fairprinciples) and ii) the data users to discover more information about available data sets. Specifically, the FDP addresses the first facet of the FAIRness, namely the findability or discoverability of data, by providing metadata at four complementary levels: about FDP itself, data catalog(s), data set(s) including available distribution(s). The FDP software has been developed as a stand-alone Web application in both Python and Java languages.
 
