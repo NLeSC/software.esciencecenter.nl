@@ -2,10 +2,22 @@
 layout: page
 title: Projects
 ---
-
 <div class="project-container">
     {% for p in site.project %}
     <div class="project-logo-container"><a href="{{ p.url }}">{% if p.logo != null %}<img src="{{ p.logo }}" class="project-logo">{% else %}<img src="/images/gray.png" class="empty project-logo">{% endif %}</a><a href="{{ p.url }}" class="project-link">{{ p.name }}</a></div>
     {% endfor %}
 </div>
 
+<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script> 
+<script src="/js/d3.v3.min.js"></script>
+
+<h2>eStep Software used in Projects</h2>
+<div id="network-eb-graph">
+<script src="/js/software_project_edge_bundling.js"></script>
+<script src="/js/edge_bundling.js"></script>
+</div>
+
+<div id="network-fd-graph">
+<script src="/js/software_project_force_direction.js"></script>
+<script src="/js/force_direction.js"></script>
+</div>
