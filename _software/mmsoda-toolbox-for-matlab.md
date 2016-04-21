@@ -43,16 +43,15 @@ status: inactive
 supportLevel: specialized
 tagLine: MATLAB toolbox for global optimization and state estimation of dynamic models using distributed computing
 technologyTag:
-- cluster computing
-- global optimization
-- inverse modeling
+- Cluster Computing
+- Global Optimization
+- Inverse Modeling
 - SCEM-UA
 - SODA
-- single-objective
-- multi-objective
-- data assimilation
-- dynamic modeling
-- uncertainty estimation
+- Single-objective
+- Multi-objective
+- Dynamic Modeling
+- Uncertainty Estimation
 usedIn:
 - http://software.esciencecenter.nl/project/esibayes
 user:

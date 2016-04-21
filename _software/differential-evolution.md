@@ -32,9 +32,9 @@ supportLevel: specialized
 tagLine: Differential Evolution global optimization algorithm, with Metropolis for uncertainty estimation
 technologyTag:
 - Visualization
-- Global optimization
-- Uncertainty estimation
-- Parameter estimation
+- Global Optimization
+- Uncertainty Estimation
+- Parameter Estimation
 - Calibration
 usedIn:
 user:
