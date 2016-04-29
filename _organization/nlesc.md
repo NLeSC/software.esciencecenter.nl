@@ -31,6 +31,10 @@ involvedIn:
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
 - http://software.esciencecenter.nl/project/amuse
 - http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+- http://software.esciencecenter.nl/project/dive-plus
+- http://software.esciencecenter.nl/project/drwatson
+- http://software.esciencecenter.nl/project/shico
+- http://software.esciencecenter.nl/project/beyond-the-book
 linkedInUrl: https://www.linkedin.com/company/netherlands-escience-center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
 name: Netherlands eScience Center

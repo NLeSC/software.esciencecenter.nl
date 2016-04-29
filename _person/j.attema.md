@@ -12,6 +12,10 @@ contributorOf:
 - http://software.esciencecenter.nl/software/python-pcl
 coordinatorOf:
 - http://software.esciencecenter.nl/project/aa-alert
+- http://software.esciencecenter.nl/project/dive-plus
+- http://software.esciencecenter.nl/project/shico
+- http://software.esciencecenter.nl/project/drwatson
+- http://software.esciencecenter.nl/project/beyond-the-book
 engineerOf:
 - http://software.esciencecenter.nl/project/summer-in-the-city
 - http://software.esciencecenter.nl/project/aa-alert
