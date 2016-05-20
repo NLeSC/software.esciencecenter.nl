@@ -31,6 +31,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/large-scale-data-assimilation
 - http://software.esciencecenter.nl/project/amuse
 - http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+- http://software.esciencecenter.nl/project/3d-e-chem
 linkedInUrl: https://www.linkedin.com/company/netherlands-escience-center
 logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
 name: Netherlands eScience Center
@@ -81,6 +82,9 @@ ownerOf:
 - http://software.esciencecenter.nl/software/cesium-ncwms
 - http://software.esciencecenter.nl/software/ewaterleaf
 - http://software.esciencecenter.nl/software/differential-evolution
+- http://software.esciencecenter.nl/software/3d-e-chem-vm
+- http://software.esciencecenter.nl/software/knime-archetype
+- http://software.esciencecenter.nl/software/chemical-analytics-platform
 researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
