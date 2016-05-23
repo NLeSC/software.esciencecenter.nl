@@ -1,4 +1,7 @@
 language: python
+cache:
+  directories:
+    - .cache/resolve
 branches:
   only:
     - gh-pages

@@ -219,21 +219,7 @@ Mozilla Public License 2.0
 <h3>Used in Projects</h3>
 <ul class="used-in-list">
 {% for d in page.usedIn %}
-	<li>
-		{% capture pname %}{% endcapture %}
-		{% if d.name == null %}
-		<a href="{{ d }}">
-			{% for p in site.project %}
-				{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
-				{% if urlx contains d %}
-					{% capture pname %}{{ p.name }}{% endcapture %}
-				{% endif %}
-			{% endfor %}
-			{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>
-		{% else %}
-			{{ d }}
-		{% endif %}
-	</li>
+	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d }}">{% for p in site.project %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>

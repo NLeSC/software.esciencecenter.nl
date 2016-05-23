@@ -30,6 +30,11 @@ principalInvestigator:
   jobTitle: PostDoc
   name: Dr. Christopher Tunnell
   website: http://www.nikhef.nl/~decowski/Group.html
+involvedOrganization:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/nikhef
+uses:
+- http://software.esciencecenter.nl/software/root-conda-recipes
 startDate: 2015-06-20
 tagLine: Modern Big Data front and backends in the hunt for Dark Matter.
 uses:

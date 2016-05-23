@@ -31,6 +31,7 @@ tagLine: Sherlock is an NLeSC-wide project in which all eScience Research engine
 uses:
 - http://software.esciencecenter.nl/software/rig
 - http://software.esciencecenter.nl/software/metrochart
+- http://software.esciencecenter.nl/software/matrix-of-scatter
 website: https://github.com/nlesc-sherlock
 ---
 Sherlock is an NLeSC-wide project in which all eScience Research engineers of the NLeSC work together. The goals of Sherlock are:

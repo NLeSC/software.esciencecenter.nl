@@ -23,6 +23,7 @@ expertise:
 infrastructure: Dedicated cluster
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
+- http://software.esciencecenter.nl/organization/nlesc
 name: eEcology
 nlescWebsite: https://www.esciencecenter.nl/project/eecology
 principalInvestigator:
@@ -46,4 +47,4 @@ This project shows that ecology is evolving into a data and computationally inte
 
 # The Bird Movement Modeling Virtual Lab
 
-Most effort has gone into the Bird Movement Modeling Virtual Lab. This Virtual Lab has a growing international user community, whose users are mainly field biologists using the VL to track individual birds. In the VL, the track data from the UvA-BiTS system can be combined with, for example, landscape data, weather data, and tidal data to gain new insights on the influence of the environment on the bird’s behavior.
+Most effort has gone into the Bird Movement Modeling Virtual Lab. This Virtual Lab has a growing international user community, whose users are mainly field biologists using the VL to track individual birds. In the VL, the track data from the UvA-BiTS system can be combined with, for example, landscape data, weather data, and tidal data to gain new insights on the influence of the environment on the bird's behavior.

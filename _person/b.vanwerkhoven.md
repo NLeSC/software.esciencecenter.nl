@@ -20,6 +20,7 @@ userOf:
 - http://software.esciencecenter.nl/software/kernel_tuner
 - http://software.esciencecenter.nl/software/xenon
 engineerOf:
+- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 ---
 Ben van Werkhoven did his BSc in Computer Science and a research masters in Parallel and Distributed Computer Systems at the VU University Amsterdam. The focus of his PhD research was developing programming models and performance models for the efficiently using Graphics Processing Units within Supercomputing applications.
 

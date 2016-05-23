@@ -245,7 +245,8 @@
  * Software
  */
 .logo {
-    width: 400px;
+    max-width: 400px;
+    max-height: 350px;
 }
 
 .diagram {
@@ -472,6 +473,7 @@ img.empty {
     width: 220px;
 }
 
+
 /*
  * Organization
  */
@@ -489,4 +491,64 @@ img.empty {
 
 .nlesc-logo {
     width: 300px;
+}
+
+#network-eb-graph {
+    margin: 30px;
+}
+
+#network-fd-graph {
+    margin: 30px;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.node {
+  font: 300 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: #bbb;
+}
+
+.node:hover {
+  fill: #000;
+}
+
+.link {
+  stroke: steelblue;
+  stroke-opacity: .4;
+  fill: none;
+  pointer-events: none;
+}
+
+.node:hover,
+.node--source,
+.node--target {
+  font-weight: 700;
+}
+
+.node--source {
+  fill: #2ca02c;
+}
+
+.node--target {
+  fill: #d62728;
+}
+
+.link--source,
+.link--target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+
+.link--source {
+  stroke: #d62728;
+}
+
+.link--target {
+  stroke: #2ca02c;
+}
+
+g.legend text {
+  font-size: x-small;
 }
