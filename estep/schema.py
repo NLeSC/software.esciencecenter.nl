@@ -56,6 +56,11 @@ def load_schemas(schema_uris, schemadir=None):
 class SchemaValidator(AbstractValidator):
     def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False,
                  resolve_cache_expire=5):
+
+        self.http_session = requests.session()
+        self.http_session.mount('http://', requests.adapters.HTTPAdapter(max_retries=3))
+        self.http_session.mount('https://', requests.adapters.HTTPAdapter(max_retries=3))
+
         store = load_schemas(schema_uris, schemadir)
 
         if resolve_local and resolve_remote:
@@ -127,7 +132,7 @@ class SchemaValidator(AbstractValidator):
             return True
 
         try:
-            result = requests.head(url)
+            result = self.http_session.head(url)
             if result.status_code == 404:
                 raise ValueError("Remote URL {0} cannot be resolved: not found.".format(url))
             self.resolve_cache[url] = datetime.datetime.now()
