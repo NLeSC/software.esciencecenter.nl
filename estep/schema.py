@@ -57,7 +57,7 @@ class SchemaValidator(AbstractValidator):
     def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False,
                  resolve_cache_expire=5):
 
-        self.http_session = requests.session()
+        self.http_session = requests.Session()
         self.http_session.mount('http://', requests.adapters.HTTPAdapter(max_retries=3))
         self.http_session.mount('https://', requests.adapters.HTTPAdapter(max_retries=3))
 
