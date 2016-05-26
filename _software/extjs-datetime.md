@@ -14,6 +14,8 @@ expertise:
 - Information Retrieval
 - Scientific Visualization
 - Databases
+license:
+- apache-2.0
 supportLevel: specialized
 contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
 owner:

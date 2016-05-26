@@ -2,6 +2,7 @@
 name: Emotional styles on the Dutch stage between 1600-1800
 tagLine: Tracing emotion styles in theater texts
 nlescWebsite: https://www.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
+logo: http://www.esciencecenter.nl/img/projects/1.P031-large.jpg
 competence:
   - Big Data Analytics
 discipline:
@@ -28,6 +29,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/organization/meertens
 uses:
+- http://software.esciencecenter.nl/software/heem-dataset
 startDate: 2015-03-01
 endDate: 2015-06-30
 ---

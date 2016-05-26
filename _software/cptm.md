@@ -6,11 +6,12 @@ nlescWebsite:
 website:
 documentationUrl:
 logo:
+doi: http://dx.doi.org/10.5281/zenodo.47756
 programmingLanguage:
 - Python
 - Cython
 license:
-- Apache2.0
+- apache-2.0
 competence:
 - Big Data Analytics
 discipline:
@@ -33,7 +34,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
 usedIn:
 - http://software.esciencecenter.nl/project/dilipad
-startDate: 2016-05-18
+startDate: 2016-03-17
 status: inactive
 dependency:
 dependencyOf:

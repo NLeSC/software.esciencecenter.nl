@@ -1,11 +1,13 @@
 ---
 name: Nederlands Forensisch Instituut
+logo: http://www.nederlandsforensischinstituut.nl/Images/logo-justitie-NFI.gif
 website: http://www.nederlandsforensischinstituut.nl/
 linkedInUrl: https://www.linkedin.com/company/nederlands-forensisch-instituut
 twitterUrl: https://twitter.com/nedforinst
 tagLine: In feiten het beste
 involvedIn:
 - http://software.esciencecenter.nl/project/sherlock
+- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 organizationOf:
 ownerOf:
 userOf:

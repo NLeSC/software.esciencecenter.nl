@@ -8,6 +8,7 @@ contactPersonOf:
 contributorOf:
 - http://software.esciencecenter.nl/software/netcdf2littler
 - http://software.esciencecenter.nl/software/wrfpy
+- http://software.esciencecenter.nl/software/pattydata
 engineerOf:
 - http://software.esciencecenter.nl/project/era-urban
 githubUrl: https://github.com/rvanharen

@@ -48,6 +48,11 @@
 			"type": "string",
 			"format": "uri"
 		},
+		"ORCID": {
+			"description": "Person's ORCID ID (e.g. http://orcid.org/0000-0002-4510-0385).",
+			"type": "string",
+			"format": "uri"
+		},
 		"jobTitle" : {
 			"description" : "The job title of the person (for example, eScience Research Engineer).",
 			"type" : "string"

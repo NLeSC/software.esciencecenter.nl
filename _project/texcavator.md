@@ -2,6 +2,7 @@
 name: "Texcavator"
 tagLine: Facilitating and supporting large-scale text mining in the field of digital humanities
 nlescWebsite: https://www.esciencecenter.nl/project/texcavator
+logo: http://www.esciencecenter.nl/img/projects/1.P023-large.jpg
 competence:
   - Big Data Analytics
 discipline:
@@ -38,6 +39,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/surfsara
 uses:
 - http://software.esciencecenter.nl/software/texcavator
+- http://software.esciencecenter.nl/software/xtas
 startDate: 2013-12-04
 endDate: 2015-03-20
 ---

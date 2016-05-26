@@ -16,6 +16,7 @@ from __future__ import print_function
 import os
 import sys
 import logging
+import codecs
 
 from docopt import docopt
 import yaml
@@ -57,8 +58,9 @@ class Config(object):
         with open(filename) as f:
             self.config = yaml.load(f)
 
-    def validator(self, schemadir, resolve_local, resolve_remote):
-        return EStepValidator(self.schema_uris(), schemadir, resolve_local, resolve_remote)
+    def validator(self, schemadir, resolve_local, resolve_remote, resolve_cache_expire=5):
+        return EStepValidator(self.schema_uris(), schemadir, resolve_local, resolve_remote,
+                              resolve_cache_expire=resolve_cache_expire)
 
     def schemas(self):
         schemas = {}
@@ -98,9 +100,9 @@ def validate_document(validator, document):
     return nr_errors
 
 
-def validate(schemadir, resolve_local=True, resolve_remote=False, path=None, schema_type=None):
+def validate(schemadir, resolve_local=True, resolve_remote=False, path=None, schema_type=None, resolve_cache_expire=5):
     config = Config()
-    validator = config.validator(schemadir, resolve_local, resolve_remote)
+    validator = config.validator(schemadir, resolve_local, resolve_remote, resolve_cache_expire=resolve_cache_expire)
 
     nr_errors = 0
     if path is None:
@@ -171,7 +173,7 @@ def generate_reciprocal():
         for url, document in faulty_docs.items():
             path = url_to_path(url)
             LOGGER.info("Writing fixed file %s", path)
-            with open(path, 'w') as f:
+            with codecs.open(path, encoding='utf-8', mode='w') as f:
                 f.write(object2jekyll(document, 'description'))
 
         LOGGER.warning('Fixed %d missing relationships in %d documents', nr_errors, len(faulty_docs))
@@ -188,7 +190,7 @@ def main(argv=sys.argv[1:]):
       generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
 
     Usage:
-      estep validate [--local] [--resolve] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
+      estep validate [--local] [--resolve] [--resolve-cache-expire] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
       estep generate reciprocal [-v | -vv]
 
     Options:
@@ -197,6 +199,7 @@ def main(argv=sys.argv[1:]):
       -l, --local             Use local schemas instead of remote schemas
       -R, --no-local-resolve  Do not resolve local URLs
       -r, --resolve           Resolve remote URLs
+      --resolve-cache-expire  Timeout in days after the resolve cache expires, use 0 to disable cache [default: 5].
       <schema_type>           One of (person, software, organization, project)
       <file>                  Single file to validate
     """
@@ -214,6 +217,7 @@ def main(argv=sys.argv[1:]):
             schemadir = 'schema'
         validate(schemadir=schemadir,
                  resolve_remote=arguments['--resolve'],
+                 resolve_cache_expire=int(arguments['--resolve-cache-expire']),
                  resolve_local=not arguments['--no-local-resolve'],
                  path=arguments['<file>'],
                  schema_type=arguments['<schema_type>'],

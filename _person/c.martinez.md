@@ -14,6 +14,8 @@ ownerOf:
 
 contributorOf:
 - http://software.esciencecenter.nl/software/common-sense
+- http://software.esciencecenter.nl/software/pattyanalytics
+- http://software.esciencecenter.nl/software/python-pcl
 userOf:
 
 engineerOf:

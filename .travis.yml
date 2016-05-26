@@ -1,7 +1,11 @@
 language: python
-sudo: true
+sudo: required
 services:
   - docker
+cache:
+  pip: true
+  directories:
+    - .cache/resolve
 branches:
   only:
     - gh-pages
@@ -11,10 +15,9 @@ install:
   - pip install nose
 script:
   - nosetests
-  - if [ $TRAVIS_BRANCH == "gh-pages" -o -v $TRAVIS_PULL_REQUEST ]; then
+  - if [ $TRAVIS_BRANCH == "gh-pages" ] || [ $TRAVIS_PULL_REQUEST ]; then
     estep validate -v --resolve;
     else
     estep validate -v;
     fi
   - docker run --rm --volume=$(pwd):/srv/jekyll jekyll/jekyll:pages jekyll build
-cache: pip
