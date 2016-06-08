@@ -48,5 +48,6 @@ PIDIlib is a collection of scripts used in the PIDIMEHS project. It is mainly pr
 - Using Pandas to analyze the queried aggregations
 - Visualization using Matplotlib
 - Data used for 'indicators of pillarization' in the PIDIMEHS project
+- Jupyter notebooks that were used to produce the results presented in the PIDIMEHS technical paper.
 
 The KB newspaper data can be freely obtained from [Delpher](www.delpher.nl). It is not allowed to redistribute this data, so we cannot give access to our own instance. To use PIDIlib, one will have to set up their own Elasticsearch instance. Alternatively, one may contact the KB or SURFsara to request access to the SURFsara instance (which we used as well).
