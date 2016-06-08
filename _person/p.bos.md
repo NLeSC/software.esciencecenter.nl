@@ -5,9 +5,11 @@ contactPersonOf:
 - http://software.esciencecenter.nl/project/hadrianus
 - http://software.esciencecenter.nl/project/pidimehs
 - http://software.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
+- http://software.esciencecenter.nl/software/pidilib
 contributorOf:
 - http://software.esciencecenter.nl/software/pattyvis
 - http://software.esciencecenter.nl/software/cptm
+- http://software.esciencecenter.nl/software/pidilib
 engineerOf:
 - http://software.esciencecenter.nl/project/pidimehs
 - http://software.esciencecenter.nl/project/hadrianus

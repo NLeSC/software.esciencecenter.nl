@@ -81,6 +81,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/cesium-ncwms
 - http://software.esciencecenter.nl/software/ewaterleaf
 - http://software.esciencecenter.nl/software/differential-evolution
+- http://software.esciencecenter.nl/software/pidilib
 researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
