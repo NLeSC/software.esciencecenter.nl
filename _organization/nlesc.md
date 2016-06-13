@@ -86,6 +86,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/cesium-ncwms
 - http://software.esciencecenter.nl/software/ewaterleaf
 - http://software.esciencecenter.nl/software/differential-evolution
+- http://software.esciencecenter.nl/software/pidilib
 - http://software.esciencecenter.nl/software/3d-e-chem-vm
 - http://software.esciencecenter.nl/software/knime-archetype
 - http://software.esciencecenter.nl/software/chemical-analytics-platform
