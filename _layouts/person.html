@@ -102,6 +102,21 @@ layout: default
 	</ul>
 </div>
 {% endif %}
+
+
+{% capture d %}{{ page.authorOfReport }}{% endcapture %}
+{% if d != empty %}
+<div class="property">
+  <h3>Author of reports</h3>
+  <ul class="author-of-report-list">
+  {% for d in page.authorOfReport %}
+  <li>{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.report %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.title }}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.link[0].url }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+  {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
+
 </div>
 
 <hr/>
