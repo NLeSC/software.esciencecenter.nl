@@ -145,6 +145,15 @@
 				"type" : "string",
 				"format" : "uri"
 			}
+		},
+		"authorOfReport" : {
+			"description": "Report that a person is an author of.",
+			"type": "array",
+			"items": {
+				"description": "ID of a report, an URI where the reports's metadata can be resolved, e.g., http://software.esciencecenter.nl/report/guide",
+				"type" : "string",
+				"format" : "uri"
+			}
 		}
 	},
 	"required": ["name", "affiliation"],
