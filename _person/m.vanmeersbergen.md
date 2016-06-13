@@ -21,6 +21,8 @@ engineerOf:
 - http://software.esciencecenter.nl/project/viaappia-patty
 jobTitle: eScience Research Engineer
 name: Maarten van Meersbergen
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/maarten-van-meersbergen-msc
 photo: https://www.esciencecenter.nl/img/team/maarten-van-meersbergen-new.jpg
 ---

@@ -37,6 +37,8 @@ githubUrl: https://github.com/sverhoeven
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/stefan-verhoeven-15381122
 name: Stefan Verhoeven
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/ing.-stefan-verhoeven
 ownerOf:
 - http://software.esciencecenter.nl/software/eecology-annotation

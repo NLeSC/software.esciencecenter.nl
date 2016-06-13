@@ -1,5 +1,7 @@
 ---
 name: Carlos Martinez-Ortiz
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-carlos-martinez-ortiz
 researchgateUrl: https://www.researchgate.net/profile/Carlos_Martinez_Ortiz
 linkedInUrl: https://www.linkedin.com/in/carlosmartinezortiz

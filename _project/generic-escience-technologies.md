@@ -1,5 +1,7 @@
 ---
 name: Generic eScience Technologies
+inGroup:
+- NLeSC
 tagLine: Making breakthroughs in data-driven research
 nlescWebsite: https://www.esciencecenter.nl/project/generic-escience-technologies
 logo: https://www.esciencecenter.nl/img/projects/1.P010-large.jpg

@@ -1,5 +1,7 @@
 ---
 name: Ben van Werkhoven
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-ben-van-werkhoven
 researchgateUrl: https://www.researchgate.net/profile/Ben_Van_Werkhoven
 linkedInUrl: https://nl.linkedin.com/in/ben-van-werkhoven-3010528b

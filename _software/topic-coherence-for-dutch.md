@@ -1,5 +1,7 @@
 ---
 name: Palmetto position storing Lucene index of Dutch Wikipedia
+inGroup:
+- NLeSC
 tagLine: Dutch language resource for calculating topic coherence with Palmetto
 codeRepository:
 nlescWebsite:

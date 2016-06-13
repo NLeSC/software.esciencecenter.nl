@@ -119,6 +119,14 @@
 				 }
 			]
 		},
+		"inGroup" : {
+			"description": "Organizations that endorse this entry, e.g. software made by, owned by, or used by the this organization; person employed by this organization; publication written at an organization. Used for grouping items on the website per organization.",
+			"type": "array",
+			"items": {
+				"description" : "Tag of the group, e.g., NLeSC, for use in the website.",
+				"type" : "string"
+			}
+		},
 		"owner" : {
 			"description": "Entity that is the copyright holder of the software (usually NLeSC and project partners).",
 			"type": "array",

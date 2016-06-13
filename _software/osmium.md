@@ -23,6 +23,8 @@ license:
 - apache-2.0
 logo: https://raw.githubusercontent.com/NLeSC/osmium/master/src/site/resources/images/logo.png
 name: Osmium
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/technology/software/osmium
 owner:
 - http://software.esciencecenter.nl/organization/nlesc

@@ -1,5 +1,7 @@
 ---
 name: ExtJS-DateTime
+inGroup:
+- NLeSC
 tagLine: DateTime form input field for ExtJS
 website: https://github.com/NLeSC/ExtJS-DateTime
 codeRepository: https://github.com/NLeSC/ExtJS-DateTime

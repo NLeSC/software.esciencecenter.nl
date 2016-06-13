@@ -18,6 +18,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: PattyData
+inGroup:
+- NLeSC
 programmingLanguage:
 - Python
 startDate: 2013-10-01

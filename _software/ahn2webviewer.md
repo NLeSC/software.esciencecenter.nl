@@ -21,6 +21,8 @@ dependency:
 - http://software.esciencecenter.nl/software/potreeconverter
 - http://software.esciencecenter.nl/software/massivepotreeconverter
 name: AHN2 pointcloud viewer
+inGroup:
+- NLeSC
 programmingLanguage:
 - JavaScript
 startDate: 2014-04-01

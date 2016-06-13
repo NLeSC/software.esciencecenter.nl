@@ -22,6 +22,8 @@ engineerOf:
 githubUrl: https://github.com/jspaaks
 jobTitle: eScience Research Engineer
 name: Jurriaan H. Spaaks
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/drs-jurriaan-spaaks
 photo: https://www.esciencecenter.nl/img/team/jurriaan-spaaks-cropped-bw-new.jpg
 userOf:

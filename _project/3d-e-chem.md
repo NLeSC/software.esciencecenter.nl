@@ -1,5 +1,7 @@
 ---
 name: 3D-e-Chem
+inGroup:
+- NLeSC
 competence:
 - Optimized Data Handling
 contactPerson: http://software.esciencecenter.nl/person/s.verhoeven

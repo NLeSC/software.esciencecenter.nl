@@ -1,5 +1,7 @@
 ---
 name: Faruk Diblen
+inGroup:
+- NLeSC
 jobTitle: eScience Research Engineer
 affiliation:
 - http://sofware.esciencecenter.nl/organization/nlesc

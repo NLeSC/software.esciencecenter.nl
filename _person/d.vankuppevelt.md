@@ -1,5 +1,7 @@
 ---
 name: Dafne van Kuppevelt
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dafne-van-kuppevelt-msc
 linkedInUrl: https://nl.linkedin.com/in/dafne-van-kuppevelt-45416753
 githubUrl: https://github.com/dafnevk

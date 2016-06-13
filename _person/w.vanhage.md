@@ -15,6 +15,8 @@ twitterUrl: http://twitter.com/wrvhage
 website: http://wrvhage.nl/
 photo: https://www.esciencecenter.nl/img/team/willem_van_hage_web.jpg
 name: Willem van Hage
+inGroup:
+- NLeSC
 ---
 Willem received his PhD at VU University Amsterdam and TNO for work on Ontology Alignment for Information Integration. His main research topics in the past 10 years are semantics, augmented sense making, visual analytics, information integration, and text mining.
 

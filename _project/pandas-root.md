@@ -23,6 +23,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nikhef
 logo: https://www.esciencecenter.nl/img/projects/1.p047-small.jpg
 name: Giving pandas ROOT To Chew On
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/giving-pandas-a-root-to-chew-on
 principalInvestigator:
 - affiliation:
