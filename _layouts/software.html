@@ -36,6 +36,13 @@ layout: default
 </div>
 {% endif %}
 
+{% if page.badges != null %}
+<div class="property">
+<h3>Badges</h3>
+{% for d in page.badges %}{{ d | markdownify }}{% endfor %}
+</div>
+{% endif %}
+
 <div class="property">
 <h3>Start Date</h3>
 <div class="start-date">

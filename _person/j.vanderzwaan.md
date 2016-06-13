@@ -32,12 +32,18 @@ githubUrl: https://github.com/jvdzwaan
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/jvdzwaan
 name: Janneke van der Zwaan
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-janneke-van-der-zwaan
 photo: https://www.esciencecenter.nl/img/team/Janneke-van-der-Zwaan-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/Janneke_Van_der_Zwaan
 ---
-In 2014, Janneke van der Zwaan obtained her PhD in Human-Computer Interaction at the Delft University of Technology. During her PhD research, she explored how Embodied Conversational Agents can provide emotional support in non task-oriented contexts by designing, implementing, evaluating a prototype of an 'empathic virtual buddy' that provides emotional support to victims of cyberbullying between the ages of 10 and 14.
 
-Janneke has a background in Artificial Intelligence (2006, University of Amsterdam, cum laude) and Science Communication (2008, VU University), but started her academic career in humanities (Dutch Linguistics and Literature, University of Amsterdam).
+Janneke van der Zwaan has a background in Artificial Intelligence (2006, University of Amsterdam, cum laude). During her Master's project, she worked on medical text classification in cooperation with the Dutch national network and registry of histo- and cytopathology (Stichting PALGA). She also completed a
+Master's specialization in Science Communication (2008, VU University).
 
-At the eScience Center, she works as an eScience engineer on the Texcavator and From Sentiment Mining to Mining Embodied Emotions projects.
+In 2014, she obtained a PhD in Human-Computer Interaction at Delft University of Technology.
+The goal of her research was to understand how Embodied Conversational Agents (ECAs) can provide social support in non task-oriented settings.
+
+Currently, Janneke works as an eScience Research Engineer at the Netherlands eScience Center.
+Her main expertise is text mining.

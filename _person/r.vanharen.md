@@ -14,6 +14,8 @@ engineerOf:
 githubUrl: https://github.com/rvanharen
 jobTitle: eScience Research Engineer
 name: Ronald van Haren
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-ronald-van-haren
 ownerOf:
 - http://software.esciencecenter.nl/software/netcdf2littler

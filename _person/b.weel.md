@@ -1,5 +1,7 @@
 ---
 name: Berend Weel
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/berend-weel-msc
 researchgateUrl: https://www.researchgate.net/profile/Berend_Weel
 githubUrl: https://github.com/bpmweel

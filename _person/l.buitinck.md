@@ -6,7 +6,10 @@ contributorOf:
 - http://software.esciencecenter.nl/software/rig
 - http://software.esciencecenter.nl/software/pattyanalytics
 - http://software.esciencecenter.nl/software/python-pcl
+- http://software.esciencecenter.nl/software/pidilib
 name: Lars Buitinck
+inGroup:
+- NLeSC
 jobTitle: eScience Research Engineer
 nlescWebsite: https://www.esciencecenter.nl/profile/drs.-lars-buitinck
 ---

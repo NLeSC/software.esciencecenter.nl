@@ -1,5 +1,7 @@
 ---
 name: Texcavator
+inGroup:
+- NLeSC
 tagLine: Texcavator is a text mining application used for historical research
 codeRepository: https://github.com/UUDigitalHumanitieslab/texcavator
 nlescWebsite:
@@ -40,6 +42,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/uu
 usedIn:
 - http://software.esciencecenter.nl/project/texcavator
+- http://software.esciencecenter.nl/project/shico
 startDate: 2013-12-04
 status: inactive
 dependency:

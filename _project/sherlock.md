@@ -25,6 +25,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/nfi
 name: Sherlock
+inGroup:
+- NLeSC
 startDate: 2015-10-20
 tagLine: Sherlock is an NLeSC-wide project in which all eScience Research engineers
   of the NLeSC work together.

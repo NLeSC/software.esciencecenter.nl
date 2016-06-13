@@ -12,6 +12,10 @@ contributorOf:
 - http://software.esciencecenter.nl/software/python-pcl
 coordinatorOf:
 - http://software.esciencecenter.nl/project/aa-alert
+- http://software.esciencecenter.nl/project/dive-plus
+- http://software.esciencecenter.nl/project/shico
+- http://software.esciencecenter.nl/project/drwatson
+- http://software.esciencecenter.nl/project/beyond-the-book
 engineerOf:
 - http://software.esciencecenter.nl/project/summer-in-the-city
 - http://software.esciencecenter.nl/project/aa-alert
@@ -20,6 +24,8 @@ githubUrl: https://github.com/jiskattema
 jobTitle: eScience Coordinator
 linkedInUrl: https://www.linkedin.com/in/jiskattema
 name: Jisk Attema
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-jisk-attema
 photo: https://www.esciencecenter.nl/img/team/jisk-attema-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/Jisk_Attema

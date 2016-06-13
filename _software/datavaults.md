@@ -1,5 +1,7 @@
 ---
 name: DataVaults
+inGroup:
+- NLeSC
 tagLine: Technology of Attachment to a DBMS of large file repositories.
 codeRepository: https://github.com/MonetDB/data-vaults
 website: https://github.com/MonetDB/data-vaults

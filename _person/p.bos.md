@@ -5,9 +5,11 @@ contactPersonOf:
 - http://software.esciencecenter.nl/project/hadrianus
 - http://software.esciencecenter.nl/project/pidimehs
 - http://software.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
+- http://software.esciencecenter.nl/software/pidilib
 contributorOf:
 - http://software.esciencecenter.nl/software/pattyvis
 - http://software.esciencecenter.nl/software/cptm
+- http://software.esciencecenter.nl/software/pidilib
 engineerOf:
 - http://software.esciencecenter.nl/project/pidimehs
 - http://software.esciencecenter.nl/project/hadrianus
@@ -16,6 +18,8 @@ githubUrl: https://github.com/egpbos
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/egpbos
 name: Patrick Bos
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/patrick-bos-msc
 photo: https://www.esciencecenter.nl/img/team/patrick-bos-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/E_G_Patrick_Bos

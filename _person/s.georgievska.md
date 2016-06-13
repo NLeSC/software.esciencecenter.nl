@@ -1,5 +1,7 @@
 ---
 name: Sonja Georgievska
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-sonja-georgievska
 jobTitle: eScience Research Engineer
 affiliation:

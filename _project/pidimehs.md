@@ -1,5 +1,7 @@
 ---
 name: "PIDIMEHS: Pillarization and depillarization tested in digitized media historical sources"
+inGroup:
+- NLeSC
 tagLine: Visualizing relations between politics and media during 'Verzuiling' in the Netherlands
 nlescWebsite: https://www.esciencecenter.nl/project/pidimehs
 logo: http://www.esciencecenter.nl/img/projects/1.P034-large.jpg
@@ -35,6 +37,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
 - http://software.esciencecenter.nl/organization/surfsara
 uses:
+- http://software.esciencecenter.nl/software/pidilib
 startDate: 2014-09-01
 endDate: 2016-04-01
 ---

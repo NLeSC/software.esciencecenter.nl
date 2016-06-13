@@ -13,6 +13,8 @@ involvedOrganization:
 license:
 - bsd-2-clause
 name: PDAL
+inGroup:
+- NLeSC
 programmingLanguage:
 - C++
 startDate: 2011-01-01

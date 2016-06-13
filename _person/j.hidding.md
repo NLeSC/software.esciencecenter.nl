@@ -1,5 +1,7 @@
 ---
 name: Johannes Hidding
+inGroup:
+- NLeSC
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
 contactPersonOf:

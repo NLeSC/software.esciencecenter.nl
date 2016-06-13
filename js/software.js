@@ -111,22 +111,24 @@ function chartheight(nvalues) {
 
 d3.json("/software.json", function (software_data) {
 
+  var partyFilter = purl().fparam('inGroup');
   var disciplineFilter = purl().fparam('discipline');
   var competenceFilter = purl().fparam('competence');
   var expertiseFilter = purl().fparam('expertise');
   var programmingLanguageFilter = purl().fparam('programmingLanguage');
-  var supportLevelFilter = purl().fparam('supportLevel');
+  //var supportLevelFilter = purl().fparam('supportLevel');
   var statusFilter = purl().fparam('status');
   var technologyTagFilter = purl().fparam('technologyTag');
   var licenseFilter = purl().fparam('license');
 
   var dataTable = dc.dataTable("#dc-table-graph");
   var programmingLanguageChart = dc.rowChart("#dc-languages-chart");
+  var partyChart = dc.rowChart("#dc-party-chart");
   var disciplineChart = dc.rowChart("#dc-discipline-chart");
   var competenceChart = dc.rowChart("#dc-competence-chart");
   var expertiseChart = dc.rowChart("#dc-expertise-chart");
   var technologyTagChart = dc.rowChart("#dc-technology-tag-chart");
-  var supportLevelChart = dc.rowChart("#dc-support-level-chart");
+  //var supportLevelChart = dc.rowChart("#dc-support-level-chart");
   var statusChart = dc.rowChart("#dc-status-chart");
   var licenseChart = dc.rowChart("#dc-license-chart");
 
@@ -134,15 +136,18 @@ d3.json("/software.json", function (software_data) {
   var all = ndx.groupAll();
 
   var softwareDimension = ndx.dimension(function(d) { return d['@id']; });
+  var partyDimension = ndx.dimension(function(d) { return d.inGroup || 'Other'; });
   var disciplineDimension = ndx.dimension(function(d) { return d.discipline || 'None'; });
   var competenceDimension = ndx.dimension(function(d) { return d.competence || 'None'; });
   var expertiseDimension = ndx.dimension(function(d) { return d.expertise || 'None'; });
   var programmingLanguageDimension =  ndx.dimension(function(d) { return d.programmingLanguage || 'None'; });
-  var supportLevelDimension = ndx.dimension(function(d) { return d.supportLevel || 'None'; });
+  //var supportLevelDimension = ndx.dimension(function(d) { return d.supportLevel || 'None'; });
   var statusDimension = ndx.dimension(function(d) { return d.status || 'None'; });
   var technologyTagDimension = ndx.dimension(function(d) { return d.technologyTag || 'None'; });
   var licenseDimension = ndx.dimension(function(d) { return d.license || 'None'; });
 
+  var partyValues = uniqueFieldValues(software_data,'inGroup');
+  var fakePartyGroup = fakify(partyDimension.groupAll().reduce(reduceFieldsAdd(partyValues,'inGroup'), reduceFieldsRemove(partyValues,'inGroup'), reduceFieldsInitial(partyValues)));
   var disciplineValues = uniqueFieldValues(software_data,'discipline');
   var fakeDisciplineGroup = fakify(disciplineDimension.groupAll().reduce(reduceFieldsAdd(disciplineValues,'discipline'), reduceFieldsRemove(disciplineValues,'discipline'), reduceFieldsInitial(disciplineValues)));
   var competenceValues = uniqueFieldValues(software_data,'competence');
@@ -156,7 +161,7 @@ d3.json("/software.json", function (software_data) {
   var licenseValues = uniqueFieldValues(software_data,'license');
   var fakeLicenseGroup = fakify(licenseDimension.groupAll().reduce(reduceFieldsAdd(licenseValues,'license'), reduceFieldsRemove(licenseValues,'license'), reduceFieldsInitial(licenseValues)));
   var statusGroup = statusDimension.group().reduceCount();
-  var supportLevelGroup = supportLevelDimension.group().reduceCount();
+  //var supportLevelGroup = supportLevelDimension.group().reduceCount();
 
   var programmingLanguageCount = programmingLanguageDimension.group().reduceCount();
 
@@ -211,6 +216,23 @@ d3.json("/software.json", function (software_data) {
   }
   expertiseChart.ordering(function(d){ return -d.value }).rowsCap(8).othersGrouper(false);
 
+  partyChart
+    .width(chartwidth)
+    .height(chartheight(partyValues.length))
+    .fixedBarHeight(barheight)
+    .dimension(partyDimension)
+    .group(fakePartyGroup)
+    .filterHandler(bagFilterHandler)
+    .gap(1)
+    .margins({top:0,bottom:-1,right:0,left:0})
+    .elasticX(true)
+    .colors(d3.scale.ordinal().range(['#00a3e3','#cccccc']))
+    .xAxis().tickFormat(d3.format("d")).ticks(1);
+  if (partyFilter) {
+    partyChart.filter(partyFilter);
+  }
+  partyChart.ordering(function(d){ return -d.value });
+
   disciplineChart
     .width(chartwidth)
     .height(chartheight(disciplineValues.length))
@@ -260,7 +282,7 @@ d3.json("/software.json", function (software_data) {
     statusChart.filter(statusFilter);
   }
   statusChart.ordering(function(d){ return -d.value });
-
+  /*
   supportLevelChart
     .width(chartwidth)
     .height(chartheight(supportLevelGroup.all().length))
@@ -276,7 +298,7 @@ d3.json("/software.json", function (software_data) {
     supportLevelChart.filter(supportLevelFilter);
   }
   supportLevelChart.ordering(function(d){ return -d.value });
-  
+  */
   licenseChart
     .width(chartwidth)
     .height(chartheight(licenseValues.length))

@@ -1,5 +1,7 @@
 ---
 name: candYgene
+inGroup:
+- NLeSC
 tagLine: 'Candidate genes for traits: Enabling precision breeding'
 nlescWebsite: https://www.esciencecenter.nl/project/prediction-of-candidate-genes-for-traits-using-interoperable-genome-annotat
 website: https://www.eu-sol.wur.nl

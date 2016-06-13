@@ -25,6 +25,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/surfsara
 - http://software.esciencecenter.nl/organization/nlesc
 name: esibayes
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/esibayes
 principalInvestigator:
 - affiliation:

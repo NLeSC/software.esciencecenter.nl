@@ -7,6 +7,10 @@ contactPersonOf:
 - http://software.esciencecenter.nl/software/osmium
 - http://software.esciencecenter.nl/software/extjs-datetime
 - http://software.esciencecenter.nl/project/emetabolomics
+- http://software.esciencecenter.nl/project/3d-e-chem
+- http://software.esciencecenter.nl/software/knime-archetype
+- http://software.esciencecenter.nl/software/3d-e-chem-vm
+- http://software.esciencecenter.nl/software/chemical-analytics-platform
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/pyxenon
@@ -20,15 +24,21 @@ contributorOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
 - http://software.esciencecenter.nl/software/potree
 - http://software.esciencecenter.nl/software/pattyvis
+- http://software.esciencecenter.nl/software/3d-e-chem-vm
+- http://software.esciencecenter.nl/software/knime-archetype
+- http://software.esciencecenter.nl/software/chemical-analytics-platform
 engineerOf:
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/eecology
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
 - http://software.esciencecenter.nl/project/viaappia-patty
+- http://software.esciencecenter.nl/project/3d-e-chem
 githubUrl: https://github.com/sverhoeven
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/stefan-verhoeven-15381122
 name: Stefan Verhoeven
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/ing.-stefan-verhoeven
 ownerOf:
 - http://software.esciencecenter.nl/software/eecology-annotation

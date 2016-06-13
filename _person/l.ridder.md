@@ -10,8 +10,11 @@ contributorOf:
 coordinatorOf:
 - http://software.esciencecenter.nl/project/candygene
 - http://software.esciencecenter.nl/project/odex4all
+- http://software.esciencecenter.nl/project/3d-e-chem
 jobTitle: eScience Coordinator
 name: Lars Ridder
+inGroup:
+- NLeSC
 photo: https://www.esciencecenter.nl/img/team/lars_ridder_web.jpg
 principalInvestigatorOf:
 - http://software.esciencecenter.nl/project/emetabolomics

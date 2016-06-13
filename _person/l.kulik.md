@@ -1,5 +1,7 @@
 ---
 name: Lode Kulik
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/lode-kulik-msc
 jobTitle: Communications Advisor
 linkedInUrl: https://nl.linkedin.com/in/lodekulik

@@ -1,5 +1,7 @@
 ---
 name: Hadrianus
+inGroup:
+- NLeSC
 tagLine: Visualizing Dutch presence in the Eternal City
 nlescWebsite: https://www.esciencecenter.nl/project/handrianvs-a-digital-gateway-to-the-dutch-presence-in-rome-through-the-ages
 logo: http://www.esciencecenter.nl/img/projects/1.P033-large.jpg

@@ -49,5 +49,5 @@ docker run --rm --volume=$(pwd):/srv/jekyll -i -t  -p 127.0.0.1:4000:4000 jekyll
 ```
 The website can be viewed on http://localhost:4000
 
-The docker container will fail when there is a virtualenv in the currend working directory.
+The docker container will fail when there is a virtualenv in the current working directory.
 Resolve by putting virtualenv somewhere else or prefixing it with '.'.

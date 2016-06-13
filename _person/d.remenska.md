@@ -12,6 +12,8 @@ githubUrl: https://github.com/remenska
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/remenska
 name: Daniela Remenska
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-daniela-remenska
 ownerOf:
 - http://software.esciencecenter.nl/software/root-conda-recipes
