@@ -190,18 +190,18 @@ def main(argv=sys.argv[1:]):
       generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
 
     Usage:
-      estep validate [--local] [--resolve] [--resolve-cache-expire] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
+      estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
       estep generate reciprocal [-v | -vv]
 
     Options:
-      -h, --help              Show this screen.
-      -v, --verbose           Show more output.
-      -l, --local             Use local schemas instead of remote schemas
-      -R, --no-local-resolve  Do not resolve local URLs
-      -r, --resolve           Resolve remote URLs
-      --resolve-cache-expire  Timeout in days after the resolve cache expires, use 0 to disable cache [default: 5].
-      <schema_type>           One of (person, software, organization, project)
-      <file>                  Single file to validate
+      -h, --help                     Show this screen.
+      -v, --verbose                  Show more output.
+      -l, --local                    Use local schemas instead of remote schemas
+      -R, --no-local-resolve         Do not resolve local URLs
+      -r, --resolve                  Resolve remote URLs
+      --resolve-cache-expire=<days>  Timeout in days after the resolve cache expires, use 0 to disable cache [default: 14].
+      <schema_type>                  One of (person, software, organization, project)
+      <file>                         Single file to validate
     """
     arguments = docopt(main.__doc__, argv, version=__version__)
 
