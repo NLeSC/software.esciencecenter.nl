@@ -35,6 +35,8 @@ ownerOf:
 - http://software.esciencecenter.nl/software/differential-evolution
 - http://software.esciencecenter.nl/software/matrix-of-scatter
 - http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
+authorOfReport:
+- http://software.esciencecenter.nl/report/xenon-tutorial
 ---
 Jurriaan's main responsibility as an eScience engineer is the implementation of inverse modeling algorithms such as DREAM, SCEM-UA, and SODA on cluster computers while improving the usability of these algorithms in the cluster environment.
 
