@@ -18,6 +18,7 @@ githubUrl: https://github.com/romulogoncalves
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/romulo-goncalves-6999b341
 name: Romulo Goncalves
+email: r.goncalves@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-romulo-pereira-goncalves

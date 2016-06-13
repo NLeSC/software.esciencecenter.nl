@@ -1,5 +1,6 @@
 ---
 name: Sonja Georgievska
+email: s.georgievska@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-sonja-georgievska

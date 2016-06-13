@@ -9,6 +9,7 @@ engineerOf:
 githubUrl: https://github.com/cwmeijer
 jobTitle: eScience Research Engineer
 name: Christiaan Meijer
+email: c.meijer@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/christiaan-meijer-msc

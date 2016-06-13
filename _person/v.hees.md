@@ -1,5 +1,6 @@
 ---
 name: Vincent van Hees
+email: v.hees@esciencecenter.nl
 inGroup:
 - NLeSC
 jobTitle: eScience Research Engineer

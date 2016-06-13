@@ -1,5 +1,6 @@
 ---
 name: Ben van Werkhoven
+email: b.vanwerkhoven@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-ben-van-werkhoven

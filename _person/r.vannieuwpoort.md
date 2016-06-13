@@ -24,6 +24,7 @@ userOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/eastroviz
 name: Rob van Nieuwpoort
+email: r.vannieuwpoort@esciencecenter.nl
 inGroup:
 - NLeSC
 jobTitle: Director eScience Technology & Project Leader

@@ -15,6 +15,7 @@ twitterUrl: http://twitter.com/wrvhage
 website: http://wrvhage.nl/
 photo: https://www.esciencecenter.nl/img/team/willem_van_hage_web.jpg
 name: Willem van Hage
+email: w.vanhage@esciencecenter.nl
 inGroup:
 - NLeSC
 ---
