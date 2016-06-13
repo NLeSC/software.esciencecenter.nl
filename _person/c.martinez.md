@@ -25,6 +25,7 @@ engineerOf:
 - http://software.esciencecenter.nl/project/dive-plus
 - http://software.esciencecenter.nl/project/drwatson
 - http://software.esciencecenter.nl/project/shico
+email: c.martinez@esciencecenter.nl
 ---
 Carlos obtained his BSc in computer engineering at La Salle University in Mexico City. At the University of Exeter, he obtained his MSc in applied artificial intelligence and PhD on the topic of shape descriptors for image classification.
 

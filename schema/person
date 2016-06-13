@@ -153,6 +153,11 @@
 				"description" : "Tag of the group, e.g., NLeSC, for use in the website.",
 				"type" : "string"
 			}
+		},
+		"email": {
+			"description": "Email address of the person",
+			"type": "string",
+			"format": "email"
 		}
 	},
 	"required": ["name", "affiliation"],
