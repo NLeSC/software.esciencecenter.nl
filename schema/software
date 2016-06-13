@@ -224,6 +224,26 @@
 					"description" : "e.g. Simulation, Modeling, MultiModel, ImageClassification, NER, NeuralNetworks, etc.",
 					"type" : "string"
 			}
+		},
+		"badges": {
+			"description": "List of badges",
+			"type": "array",
+			"items": {
+				"description": "Single badge",
+				"type": "object",
+				"required": [ "name", "image", "url"],
+				"properties": {
+					"name": { "type": "string" },
+					"image": {
+						"type": "string",
+						"format" : "uri"
+					},
+					"url": {
+						"type": "string",
+						"format" : "uri"
+					}
+				}
+			}
 		}
 	},
 	"required": ["name"],

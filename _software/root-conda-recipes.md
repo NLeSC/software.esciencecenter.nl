@@ -43,6 +43,16 @@ technologyTag:
 - Anaconda
 - pandas DataFrame
 - Computing model
+badges:
+- name: Build Status
+  image: https://api.travis-ci.org/NLeSC/root-conda-recipes.svg
+  url: https://travis-ci.org/NLeSC/root-conda-recipes/
+- name: DOI
+  image: https://zenodo.org/badge/20885/NLeSC/root-conda-recipes.svg
+  url: https://zenodo.org/badge/latestdoi/20885/NLeSC/root-conda-recipes
+- name: Join the chat at https://gitter.im/NLeSC/root-conda-recipes
+  image: https://badges.gitter.im/NLeSC/root-conda-recipes.svg
+  url: https://gitter.im/NLeSC/root-conda-recipes?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 ---
 
 
