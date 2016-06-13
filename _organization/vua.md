@@ -8,6 +8,8 @@ involvedIn:
 - http://software.esciencecenter.nl/project/viaappia-patty
 - http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 - http://software.esciencecenter.nl/project/3d-e-chem
+- http://software.esciencecenter.nl/project/dive-plus
+- http://software.esciencecenter.nl/project/drwatson
 linkedInUrl: https://www.linkedin.com/company/vrije-universiteit-amsterdam
 logo: https://www.esciencecenter.nl/img/partners/VUlogo_EN_Wit_HR_RGB_tcm9-201385.png
 name: VU University Amsterdam

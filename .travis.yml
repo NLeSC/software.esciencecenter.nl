@@ -1,5 +1,9 @@
 language: python
+sudo: required
+services:
+  - docker
 cache:
+  pip: true
   directories:
     - .cache/resolve
 branches:
@@ -16,4 +20,4 @@ script:
     else
     estep validate -v;
     fi
-cache: pip
+  - docker run --rm --volume=$(pwd):/srv/jekyll jekyll/jekyll:pages jekyll build
