@@ -12,9 +12,11 @@ Requirements:
 * libyaml, C library and development headers
 
 Install the estep website utility by running
-```
+```shell
+pip install -r requirements.txt
 pip install -e .
 ```
+Use `virtualenv` or equivalent to ensure that a recent version of the `six` library is used.
 
 ## How to edit
 
@@ -43,6 +45,9 @@ The website uses Jekyll powered Github pages.
 
 To preview locally use docker:
 ```
-docker run --rm --volume=$(pwd):/srv/jekyll -i -t  -p 127.0.0.1:80:80 jekyll/jekyll:pages
+docker run --rm --volume=$(pwd):/srv/jekyll -i -t  -p 127.0.0.1:4000:4000 jekyll/jekyll:pages
 ```
-The website can be viewed on http://localhost:80
+The website can be viewed on http://localhost:4000
+
+The docker container will fail when there is a virtualenv in the currend working directory.
+Resolve by putting virtualenv somewhere else or prefixing it with '.'.

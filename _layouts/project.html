@@ -18,7 +18,7 @@ layout: default
 <h3>Links</h3>
 <ul class="link-list">
 {% unless page.website == null %}
-<li><a href="{{ page.website }}">website</a></li>
+<li><a href="{{ page.website }}">Website</a></li>
 {% endunless %}
 {% unless page.nlescWebsite == null %}
 <li><a href="{{ page.nlescWebsite }}">NLeSC website</a></li>
@@ -72,6 +72,7 @@ layout: default
 </ul>
 </div>
 
+{% if page.dataFormat != null %}
 <div class="property">
 <h3>Data formats used</h3>
 <ul class="data-format-list">
@@ -80,7 +81,9 @@ layout: default
 {% endfor %}
 </ul>
 </div>
+{% endif %}
 
+{% if page.dataMagnitude != null %}
 <div class="property">
 <h3>Data magnitude</h3>
 <ul class="data-magnitude-list">
@@ -89,6 +92,7 @@ layout: default
 {% endfor %}
 </ul>
 </div>
+{% endif %}
 
 <div class="property">
 <h3>Contact person</h3>

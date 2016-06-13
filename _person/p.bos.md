@@ -1,23 +1,27 @@
 ---
-name: Patrick Bos
-nlescWebsite: https://www.esciencecenter.nl/profile/patrick-bos-msc
-githubUrl: https://github.com/egpbos
-linkedInUrl: https://www.linkedin.com/in/egpbos
-website: http://egpbos.nl
-researchgateUrl: https://www.researchgate.net/profile/E_G_Patrick_Bos
-jobTitle: eScience Research Engineer
 affiliation:
 - http://software.esciencecenter.nl/organization/nlesc
-photo: https://www.esciencecenter.nl/img/team/patrick-bos-new.jpg
+contactPersonOf:
+- http://software.esciencecenter.nl/project/hadrianus
+- http://software.esciencecenter.nl/project/pidimehs
+- http://software.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
 contributorOf:
 - http://software.esciencecenter.nl/software/pattyvis
 - http://software.esciencecenter.nl/software/cptm
-userOf:
-- http://software.esciencecenter.nl/software/xtas
 engineerOf:
 - http://software.esciencecenter.nl/project/pidimehs
 - http://software.esciencecenter.nl/project/hadrianus
 - http://software.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
+githubUrl: https://github.com/egpbos
+jobTitle: eScience Research Engineer
+linkedInUrl: https://www.linkedin.com/in/egpbos
+name: Patrick Bos
+nlescWebsite: https://www.esciencecenter.nl/profile/patrick-bos-msc
+photo: https://www.esciencecenter.nl/img/team/patrick-bos-new.jpg
+researchgateUrl: https://www.researchgate.net/profile/E_G_Patrick_Bos
+userOf:
+- http://software.esciencecenter.nl/software/xtas
+website: http://egpbos.nl
 ---
 Patrick has studied astronomy and philosophy and is finishing his PhD in cosmology at the Kapteyn Astronomical Institute of the University of Groningen. Patrick has worked on theoretical and observational problems in cosmology and extragalactic astronomy and has always taken a strongly computational approach.
 
