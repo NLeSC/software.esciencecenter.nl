@@ -40,8 +40,8 @@ collections:
     output: true
   organization:
     output: true
-  publication:
-    output: true
+#  publication:
+#    output: true
   report:
     output: true
 defaults:
@@ -69,12 +69,12 @@ defaults:
     values:
       layout: organization
       schema: http://software.esciencecenter.nl/schema/organization
-  - scope:
-      path: ""
-      type: publication
-    values:
-      layout: publication
-      schema: http://software.esciencecenter.nl/schema/publication
+#  - scope:
+#      path: ""
+#      type: publication
+#    values:
+#      layout: publication
+#      schema: http://software.esciencecenter.nl/schema/publication
   - scope:
       path: ""
       type: report
