@@ -1,0 +1,25 @@
+<div class="report">
+        <a href="{{ report.link }}">
+            <img class="cover" src="{{ report.cover | replace: 'http://software.esciencecenter.nl/','/'  }}"/>
+            <h2>{{ report.title }}</h2>
+	</a>
+<h3>
+
+<ul>
+{% for author in report.author %}
+
+<li>{% capture d %}{{ author.name }}{% endcapture %}{% capture pname %}{% endcapture %}{% if d == empty %}<a href="{{ author }}">{% capture pname %}{{ author }}{% endcapture %}{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains author %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains author %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif author.name %}{% if author.githubUrl %}<a href="{{ author.githubUrl }}">{{ author.name }}</a>{% elsif author.linkedInUrl %}<a href="{{ author.linkedInUrl }}">{{ author.name }}</a>{% elsif author.twitterUrl %}<a href="{{ author.twitterUrl }}">{{ author.name }}</a>{% elsif author.website %}<a href="{{ author.website }}">{{ author.name }}</a>{% else %}{{ author.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
+{% endfor %}
+</ul>
+
+
+</h3>
+
+        <a href="{{ report.link }}">
+
+            <h3>{{ report.date | date: "%B %Y" }}</h3>
+            <div style="clear:both;"></div>
+	    
+            {{ report.content }}
+       </a>
+</div>

@@ -1,7 +1,7 @@
 ---
 title: NLeSC Guide
 link: https://nlesc.gitbooks.io/guide/content/
-cover: http://software.esciencecenter.nl/guide-cover.png
+cover: http://software.esciencecenter.nl/assets/report/covers/guide-cover.png
 author:
 - http://software.esciencecenter.nl/organization/nlesc
 ---

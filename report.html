@@ -12,16 +12,9 @@ The NLeSC Knowledge Base captures eScience knowledge and best practices. It is c
 <div class="reports">
     {% assign sorted = (site.report | sort: 'date') | reverse %}
     {% for report in sorted %}
-    <div class="report">
-        <a href="{{ report.link }}">
-	    <img class="cover" src="{{ report.cover }}"/>
-	    <h2>{{ report.title }}</h2>
-	    <h3>{{ report.author }}</h3>
-	    <h3>{{ report.date | date: "%B %Y" }}</h3>
-	    <div style="clear:both;"></div>
- 	    <p>{{ report.content }}</p>
-       </a>
-    </div>
+
+    {% include report.html %}
+
     {% endfor %}
 </div>
 

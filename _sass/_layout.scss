@@ -565,15 +565,14 @@ g.legend text {
 }
 
 .report {
-    box-shadow: 0px 0px 3px 1px $grey-color-light;
-    margin: 5px;
-    padding: 5px;
-    overflow: auto;
-    color: inherit;
-    display: block;
-    text-decoration: none;
-    height: 315px;
-    width: 425px;
+   box-shadow: 0px 0px 3px 1px $grey-color-light;
+   margin: 5px;
+   padding: 5px;
+   overflow: auto;
+   display: block;
+   text-decoration: none;
+   height: 315px;
+   width: 425px;
 }
 
 .report a {
@@ -616,4 +615,5 @@ g.legend text {
 .report p {
     margin-bottom: 2px;
     text-decoration: none;
+    color: $text-color;
 }   
