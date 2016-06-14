@@ -130,7 +130,7 @@ Mozilla Public License 2.0
 <h3>Dependencies</h3>
 <ul class="dependency-list">
 {% for d in page.dependency %}
-	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.software %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{% if pname %}{{ p.name }}{% else %}{{ pname }}{% endif %}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.website != null %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.website != null %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d | replace: site.url,'' }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.software %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{% if pname %}{{ p.name }}{% else %}{{ pname }}{% endif %}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.website != null %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.website != null %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
 	{% endfor %}
 </ul>
 </div>
@@ -141,7 +141,7 @@ Mozilla Public License 2.0
 <h3>Dependency of</h3>
 <ul class="dependency-of-list">
 {% for d in page.dependencyOf %}
-	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.software %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{% if pname %}{{ p.name }}{% else %}{{ pname }}{% endif %}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.website != null %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.website != null %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d | replace: site.url,'' }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.software %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{% if pname %}{{ p.name }}{% else %}{{ pname }}{% endif %}{% endcapture %}{% endif %}{% endfor %}{{ pname }}</a>{% elsif d.name %}{% if d.website != null %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.website != null %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
 	{% endfor %}
 </ul>
 </div>
@@ -153,7 +153,7 @@ Mozilla Public License 2.0
 {% capture pname %}{% endcapture %}
 {% if page.contactPerson.name == null %}
 {% capture d %}{{ page.contactPerson }}{% endcapture %}
-	<a href="{{ d }}">
+	<a href="{{ d | replace: site.url,'' }}">
 	{% capture pname %}{{ d }}{% endcapture %}
 	{% for p in site.person %}
 		{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
@@ -184,7 +184,7 @@ Mozilla Public License 2.0
 <h3>Owner(s)</h3>
 <ul>
 {% for owner in page.owner %}
-<li>{% capture d %}{{ owner.name }}{% endcapture %}{% capture pname %}{% endcapture %}{% if d == empty %}<a href="{{ owner }}">{% capture pname %}{{ owner }}{% endcapture %}{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains owner %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains owner %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif owner.name %}{% if owner.githubUrl %}<a href="{{ owner.githubUrl }}">{{ owner.name }}</a>{% elsif owner.linkedInUrl %}<a href="{{ owner.linkedInUrl }}">{{ owner.name }}</a>{% elsif owner.twitterUrl %}<a href="{{ owner.twitterUrl }}">{{ owner.name }}</a>{% elsif owner.website %}<a href="{{ owner.website }}">{{ owner.name }}</a>{% else %}{{ owner.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
+<li>{% capture d %}{{ owner.name }}{% endcapture %}{% capture pname %}{% endcapture %}{% if d == empty %}<a href="{{ owner | replace: site.url,'' }}">{% capture pname %}{{ owner }}{% endcapture %}{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains owner %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains owner %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif owner.name %}{% if owner.githubUrl %}<a href="{{ owner.githubUrl }}">{{ owner.name }}</a>{% elsif owner.linkedInUrl %}<a href="{{ owner.linkedInUrl }}">{{ owner.name }}</a>{% elsif owner.twitterUrl %}<a href="{{ owner.twitterUrl }}">{{ owner.name }}</a>{% elsif owner.website %}<a href="{{ owner.website }}">{{ owner.name }}</a>{% else %}{{ owner.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>
@@ -194,7 +194,7 @@ Mozilla Public License 2.0
 <h3>Contributors</h3>
 <ul class="contributor-list">
 {% for d in page.contributor %}
-	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d }}">{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d | replace: site.url,'' }}">{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>
@@ -205,7 +205,7 @@ Mozilla Public License 2.0
 <h3>Involved Organizations</h3>
 <ul class="involved-organization-list">
 {% for d in page.involvedOrganization %}
-	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d contains site.url %}<a href="{{ d | replace: site.url,'' }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>
@@ -216,7 +216,7 @@ Mozilla Public License 2.0
 <h3>Users</h3>
 <ul class="user-list">
 {% for d in page.user %}
-	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d }}">{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>{% endfor %}
+	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d | replace: site.url,'' }}">{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>{% endfor %}
 </ul>
 </div>
 {% endif %}
@@ -226,7 +226,7 @@ Mozilla Public License 2.0
 <h3>Used in Projects</h3>
 <ul class="used-in-list">
 {% for d in page.usedIn %}
-	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d }}">{% for p in site.project %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d | replace: site.url,'' }}">{% for p in site.project %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>

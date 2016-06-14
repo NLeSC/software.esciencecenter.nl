@@ -30,6 +30,7 @@ keep_files:
 - assets
 - images
 - schema
+- js
 permalink: pretty
 collections:
   software:
