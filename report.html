@@ -1,0 +1,21 @@
+---
+layout: page
+title: Reports
+---
+
+<div class="home">
+
+<p>
+The NLeSC Knowledge Base captures eScience knowledge and best practices. It is comprised of a collection of reports, most written by NLeSC engineers.
+</p>
+
+<div class="reports">
+    {% assign sorted = (site.report | sort: 'date') | reverse %}
+    {% for report in sorted %}
+
+    {% include report.html %}
+
+    {% endfor %}
+</div>
+
+</div>
