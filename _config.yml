@@ -23,7 +23,9 @@ json_excludes:
 - content  # renamed to 'description'
 - url  # renamed to '@id'
 - collection
-
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
 # Build settings
 markdown: kramdown
 keep_files:
