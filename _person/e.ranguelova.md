@@ -19,6 +19,7 @@ contributorOf:
 githubUrl: https://github.com/elboyran
 jobTitle: eScience Coordinator
 name: Elena Ranguelova
+email: e.ranguelova@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-elena-ranguelova

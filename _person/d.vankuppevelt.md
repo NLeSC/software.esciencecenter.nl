@@ -1,5 +1,6 @@
 ---
 name: Dafne van Kuppevelt
+email: d.vankuppevelt@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dafne-van-kuppevelt-msc

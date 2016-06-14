@@ -1,5 +1,6 @@
 ---
 name: Lode Kulik
+email: l.kulik@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/lode-kulik-msc

@@ -103,7 +103,6 @@ layout: default
 </div>
 {% endif %}
 
-
 {% capture d %}{{ page.authorOfReport }}{% endcapture %}
 {% if d != empty %}
 <div class="property">
@@ -116,9 +115,13 @@ layout: default
 </div>
 {% endif %}
 
-
+{% if page.email != empty %}
+<div class="property">
+	<h3>Email address</h3>
+	Contact <a href="mailto:{{ page.email }}?Subject=eScience Technology Platform" target="_top">{{ page.name }}</a>
 </div>
-
+{% endif %}
+</div>
 <hr/>
 
 {{ page.content }}

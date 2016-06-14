@@ -163,6 +163,11 @@
 				"type" : "string"
 
 			}
+		},
+		"email": {
+			"description": "Email address of the person",
+			"type": "string",
+			"format": "email"
 		}
 	},
 	"required": ["name", "affiliation"],

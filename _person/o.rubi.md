@@ -29,6 +29,7 @@ githubUrl: https://github.com/oscarmartinezrubi
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/oscarmartinezrubi/en
 name: Oscar Martinez Rubi
+email: o.rubi@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/oscar-martinez-rubi-msc

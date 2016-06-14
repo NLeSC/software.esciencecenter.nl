@@ -16,6 +16,7 @@ githubUrl: https://github.com/blootsvoets
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/jorisborgdorff
 name: Joris Borgdorff
+email: j.borgdorff@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-joris-borgdorff

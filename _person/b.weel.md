@@ -1,5 +1,6 @@
 ---
 name: Berend Weel
+email: b.weel@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/berend-weel-msc

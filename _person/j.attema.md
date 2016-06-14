@@ -24,6 +24,7 @@ githubUrl: https://github.com/jiskattema
 jobTitle: eScience Coordinator
 linkedInUrl: https://www.linkedin.com/in/jiskattema
 name: Jisk Attema
+email: j.attema@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-jisk-attema

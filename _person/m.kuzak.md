@@ -6,6 +6,7 @@ contributorOf:
 githubUrl: https://github.com/mkuzak
 jobTitle: eScience Research Engineer
 name: Mateusz Kuzak
+email: m.kuzak@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/mateusz-kuzak-msc

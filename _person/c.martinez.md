@@ -1,5 +1,6 @@
 ---
 name: Carlos Martinez-Ortiz
+email: c.martinez@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-carlos-martinez-ortiz

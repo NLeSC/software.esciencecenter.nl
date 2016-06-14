@@ -1,5 +1,6 @@
 ---
 name: Arnold Kuzniar
+email: a.kuzniar@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-arnold-kuzniar

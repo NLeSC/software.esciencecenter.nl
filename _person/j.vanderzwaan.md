@@ -32,6 +32,7 @@ githubUrl: https://github.com/jvdzwaan
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/jvdzwaan
 name: Janneke van der Zwaan
+email: j.vanderzwaan@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-janneke-van-der-zwaan

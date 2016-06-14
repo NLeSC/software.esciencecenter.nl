@@ -1,5 +1,6 @@
 ---
 name: Lourens Veen
+email: l.veen@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/ir.-lourens-veen

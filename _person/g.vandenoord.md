@@ -1,5 +1,6 @@
 ---
 name: Gijs van den Oord
+email: g.vandenoord@esciencecenter.nl
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-gijs-van-den-oord

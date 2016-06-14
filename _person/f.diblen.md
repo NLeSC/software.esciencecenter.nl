@@ -1,5 +1,6 @@
 ---
 name: Faruk Diblen
+email: f.diblen@esciencecenter.nl
 inGroup:
 - NLeSC
 jobTitle: eScience Research Engineer
