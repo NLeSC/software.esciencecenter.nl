@@ -116,5 +116,6 @@ $(document).ready(function() {
   });
   $('.search-panel-toggle').click(function() {
     $('.search-panel').toggle();
+    $('#search-box').focus();
   });
 });
