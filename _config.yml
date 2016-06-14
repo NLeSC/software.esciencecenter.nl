@@ -26,6 +26,10 @@ json_excludes:
 
 # Build settings
 markdown: kramdown
+keep_files:
+- assets
+- images
+- schema
 permalink: pretty
 collections:
   software:
@@ -35,6 +39,10 @@ collections:
   person:
     output: true
   organization:
+    output: true
+#  publication:
+#    output: true
+  report:
     output: true
 defaults:
   - scope:
@@ -61,3 +69,15 @@ defaults:
     values:
       layout: organization
       schema: http://software.esciencecenter.nl/schema/organization
+#  - scope:
+#      path: ""
+#      type: publication
+#    values:
+#      layout: publication
+#      schema: http://software.esciencecenter.nl/schema/publication
+  - scope:
+      path: ""
+      type: report
+    values:
+      layout: report
+      schema: http://software.esciencecenter.nl/schema/report
