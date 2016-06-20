@@ -130,7 +130,7 @@ def validate(schemadir, resolve_local=True, resolve_remote=False, path=None, sch
         LOGGER.warning('No errors found')
 
 
-def generate_reciprocal():
+def generate_reciprocal(schemadir):
     config = Config()
     validator = Validators(relationship.get_validators())
 
@@ -142,7 +142,7 @@ def generate_reciprocal():
             # Must loop over whole iterator, otherwise no items are stored.
             list(validator.iter_errors(document))
 
-    schemas = load_schemas(config.schema_uris())
+    schemas = load_schemas(config.schema_uris(), schemadir)
 
     missings = list(validator.missing())
     nr_errors = len(missings)
@@ -191,7 +191,7 @@ def main(argv=sys.argv[1:]):
 
     Usage:
       estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
-      estep generate reciprocal [-v | -vv]
+      estep generate reciprocal [--local] [-v | -vv]
 
     Options:
       -h, --help                     Show this screen.
@@ -223,4 +223,8 @@ def main(argv=sys.argv[1:]):
                  schema_type=arguments['<schema_type>'],
                  )
     elif arguments['generate'] and arguments['reciprocal']:
-        generate_reciprocal()
+        schemadir = None
+        if arguments['--local']:
+            schemadir = 'schema'
+        generate_reciprocal(schemadir=schemadir,
+                            )

@@ -51,3 +51,16 @@ The website can be viewed on http://localhost:4000
 
 The docker container will fail when there is a virtualenv in the current working directory.
 Resolve by putting virtualenv somewhere else or prefixing it with '.'.
+
+To preview without Docker:
+1. Install Ruby using your favourite option from https://www.ruby-lang.org/
+2. Use gem package manager to install jekyll and github-pages
+```
+gem install jekyll
+gem install github-pages
+```
+3. Run the jekyll page generator and webserver
+```
+jekyll serve -w
+```
+4. steer your browser to http://localhost:4000 (or wherever jekyll serve reported it's port to be in the previous step)
