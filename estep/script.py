@@ -151,8 +151,9 @@ def generate_reciprocal():
         for (url, property_name, value) in missings:
             LOGGER.debug("* Found missing relationship {0}#{1}: {2}".format(url, property_name, value))
             if url not in faulty_docs:
-                path = url_to_path(parse_url(url))
-                collection_name = url_to_collection_name(url)
+                parsed_url = parse_url(url)
+                path = url_to_path(parsed_url)
+                collection_name = url_to_collection_name(parsed_url)
                 try:
                     faulty_docs[url] = jekyllfile2object(path, schemaType=collection_name)
                 except IOError:
@@ -174,7 +175,7 @@ def generate_reciprocal():
                 doc[property_name] = value
 
         for url, document in faulty_docs.items():
-            path = url_to_path(url)
+            path = url_to_path(parse_url(url))
             LOGGER.info("Writing fixed file %s", path)
             with codecs.open(path, encoding='utf-8', mode='w') as f:
                 f.write(object2jekyll(document, 'description'))

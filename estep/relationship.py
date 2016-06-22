@@ -16,7 +16,8 @@ import logging
 
 import six
 
-from .utils import AbstractValidator, ValidationError, check_internal_url, url_to_schema
+from .utils import (AbstractValidator, ValidationError, check_internal_url,
+                    url_to_schema, parse_url)
 
 LOGGER = logging.getLogger('estep')
 
@@ -61,9 +62,9 @@ def is_relationship_value(value, otherschema):
     if not isinstance(value, str):
         return False
     try:
-        check_internal_url(value)
-        myschema = url_to_schema(value)
-        if myschema != otherschema:
+        url = parse_url(value)
+        check_internal_url(url)
+        if url_to_schema(url) != otherschema:
             raise ValueError(value)
     except ValueError:
         return False
@@ -72,9 +73,7 @@ def is_relationship_value(value, otherschema):
 
 
 def instance_relationships(instance, schema, property_name, otherschema):
-    myschema = instance['schema']
-
-    if myschema != schema:
+    if instance['schema'] != schema:
         raise TypeError(instance)
     if property_name not in instance:
         raise KeyError(property_name)
@@ -111,22 +110,17 @@ class RelationshipValidator(AbstractValidator):
         myid = instance['@id']
 
         try:
-            self.memory1[myid] = instance_relationships(instance, self.schema1, self.prop1, self.schema2)
-        except TypeError:
-            pass
-        except KeyError:
-            pass
-        except ValueError:
-            pass
+            if instance['schema'] == self.schema1 and self.prop1 in instance:
+                self.memory1[myid] = instance_relationships(
+                    instance, self.schema1, self.prop1, self.schema2)
+        except Exception as ex:
+            yield ex
         try:
-            self.memory2[myid] = instance_relationships(instance, self.schema2, self.prop2, self.schema1)
-        except TypeError:
-            pass
-        except KeyError:
-            pass
-        except ValueError:
-            pass
-        return []
+            if instance['schema'] == self.schema2 and self.prop2 in instance:
+                self.memory2[myid] = instance_relationships(
+                    instance, self.schema2, self.prop2, self.schema1)
+        except Exception as ex:
+            yield ex
 
     def missing(self):
         for myid, myvalues in six.iteritems(self.memory1):

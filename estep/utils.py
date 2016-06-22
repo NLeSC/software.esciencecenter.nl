@@ -36,11 +36,12 @@ class ValidationError(ValueError):
 
     def __str__(self):
         return '{}:{}: {}'.format(
-            url_to_path(self.document_name), self.property_name, self.message)
+            url_to_path(parse_url(self.document_name)), self.property_name,
+            self.message)
 
     def __repr__(self):
         return "ValidationError('{}', '{}', '{}')".format(
-            self.message,self.document_name, self.property_name)
+            self.message, self.document_name, self.property_name)
 
     def __eq__(self, other):
         return (self.message == other.message and
@@ -78,7 +79,7 @@ def url_to_schema(url):
 
 
 def url_to_collection_name(url):
-    return url['path'].split('/')[0]
+    return url['path'].split('/')[1]
 
 
 def parse_url(url):

@@ -58,9 +58,10 @@ class SchemaValidator(AbstractValidator):
     def __init__(self, schema_uris, schemadir=None, resolve_local=True,
                  resolve_remote=False, resolve_cache_expire=5):
 
-        self.http_session = requests.Session()
-        self.http_session.mount('http://', HTTPAdapter(max_retries=3))
-        self.http_session.mount('https://', HTTPAdapter(max_retries=3))
+        if resolve_remote:
+            self.http_session = requests.Session()
+            self.http_session.mount('http://', HTTPAdapter(max_retries=3))
+            self.http_session.mount('https://', HTTPAdapter(max_retries=3))
 
         store = load_schemas(schema_uris, schemadir)
 
@@ -113,12 +114,14 @@ class SchemaValidator(AbstractValidator):
         # handle local urls
         if self.resolve_local and is_internal_url(url):
             path = url_to_path(url)
+            # path is either available as _[dir]/[file].md
             if os.path.isdir(os.path.dirname(path)):
-                # do not look for missing directories.
                 if not os.path.isfile(path):
                     raise ValueError("{} not found locally as {}"
                                      .format(instance, path))
+            # or as [dir]/[file]
             else:
+                # absolute URL to relative URL
                 path = url['path'].lstrip('/')
                 if not os.path.isdir(os.path.dirname(path)):
                     raise ValueError("No local directory for {} found"
