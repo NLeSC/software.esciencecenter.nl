@@ -3,9 +3,9 @@ competence:
 - Optimized Data Handling
 - Big Data Analytics
 contactPerson: http://software.esciencecenter.nl/person/o.rubi
-dataMagnitude: GB
 dataFormat:
 - Octree
+dataMagnitude: GB
 discipline:
 - Humanities & Social Sciences
 endDate: 2015-04-30
@@ -29,9 +29,9 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/spinlab
 - http://software.esciencecenter.nl/organization/knir
 - http://software.esciencecenter.nl/organization/potree
+logo: /images/project/viaappia-patty.jpg
 name: Mapping the Via Appia in 3D
 nlescWebsite: https://www.esciencecenter.nl/project/mapping-the-via-appia-in-3d
-logo: https://www.esciencecenter.nl/img/projects/1.P024-large.jpg
 principalInvestigator:
 - affiliation:
   - http://software.esciencecenter.nl/organization/vua

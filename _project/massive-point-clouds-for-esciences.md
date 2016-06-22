@@ -12,7 +12,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/oracle
 - http://software.esciencecenter.nl/organization/rijkswaterstaat
 - http://software.esciencecenter.nl/organization/potree
-logo: http://www.esciencecenter.nl/img/projects/1.P017-large.jpg
+logo: /images/project/massive-point-clouds-for-esciences.jpg
 name: Massive Point Clouds for eSciences
 tagLine: Massive Point-Clouds for eSciences
 uses:

@@ -300,7 +300,7 @@ d3.json("/software.json", function (software_data) {
     .size(100)
     .columns([
         function(d) {
-            return '<a href="' + d['@id'].replace('{{ site.url }}', '') + '">' + d.name + '</a>';
+            return '<a href="' + d['@id'].replace('http://software.esciencecenter.nl', '') + '">' + d.name + '</a>';
         },
         function(d) { return d.tagLine; }
     ])

@@ -27,7 +27,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 license:
 - apache-2.0
-logo: http://nlesc.github.io/Xenon/images/NLeSC_Xenon_logo.png
+logo: /images/software/xenon.png
 name: Xenon
 nlescWebsite: https://www.esciencecenter.nl/technology/software/xenon
 owner:

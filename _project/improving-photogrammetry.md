@@ -6,7 +6,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/utwente
 - http://software.esciencecenter.nl/organization/ign
 - http://software.esciencecenter.nl/organization/nlesc
-logo: https://www.esciencecenter.nl/img/projects/P053-large2.jpg
+logo: /images/project/improving-photogrammetry.jpg
 name: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
 tagLine: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
 uses:

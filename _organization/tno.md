@@ -1,6 +1,6 @@
 ---
 linkedInUrl: https://www.linkedin.com/company/tno
-logo: https://www.esciencecenter.nl/img/partners/tno_ifl_zwart.jpg
+logo: /images/organization/tno.jpg
 name: TNO
 ownerOf:
 - http://software.esciencecenter.nl/software/common-sense

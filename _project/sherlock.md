@@ -1,5 +1,4 @@
 ---
-logo: http://avatars2.githubusercontent.com/u/15137410?v=3&s=200
 competence:
 - Big Data Analytics
 - Optimized Data Handling
@@ -24,6 +23,7 @@ expertise:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/nfi
+logo: /images/project/sherlock.png
 name: Sherlock
 startDate: 2015-10-20
 tagLine: Sherlock is an NLeSC-wide project in which all eScience Research engineers

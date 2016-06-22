@@ -13,7 +13,7 @@ coordinatorOf:
 - http://software.esciencecenter.nl/project/3d-e-chem
 jobTitle: eScience Coordinator
 name: Lars Ridder
-photo: https://www.esciencecenter.nl/img/team/lars_ridder_web.jpg
+photo: /images/person/l.ridder.jpg
 principalInvestigatorOf:
 - http://software.esciencecenter.nl/project/emetabolomics
 userOf:

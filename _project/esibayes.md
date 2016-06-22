@@ -18,12 +18,12 @@ expertise:
 - Data Assimilation
 - Distributed Computing
 - High Performance Computing
-logo: https://www.esciencecenter.nl/img/projects/1.P019-large.jpg
 infrastructure: surfSARA's LISA cluster
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
 - http://software.esciencecenter.nl/organization/surfsara
 - http://software.esciencecenter.nl/organization/nlesc
+logo: /images/project/esibayes.jpg
 name: esibayes
 nlescWebsite: https://www.esciencecenter.nl/project/esibayes
 principalInvestigator:
@@ -55,5 +55,3 @@ _References_
 - Jasper A. Vrugt, Hoshin V. Gupta, Breand&aacute;nn &Oacute; Nuall&aacute;in, and Willem Bouten. Real-time data assimilation for operational ensemble streamflow forecasting. Journal of Hydrometeorology, 7(3):548–575, 2006a. doi: 10.1175/JHM504.1.
 - Jasper A. Vrugt, Breand&aacute;nn &Oacute; Nuall&aacute;in, Bruce A. Robinson, Willem Bouten, Stefan C. Dekker, and Peter M. A. Sloot. Application of parallel computing to stochastic parameter estimation in environmental models. Computers & Geosciences, 32:1139–1155, 2006b. doi:10.1016/j.cageo.2005.10.015.
 - Jasper A. Vrugt, Philip H. Stauffer, Th. W&ouml;hling, Bruce A. Robinson, and Velimir V. Vesselinov. Inverse modeling of subsurface flow and transport properties: A review with new developments. Vadose Zone Journal, 7(2):843–864, 2008. doi: 10.2136/vzj2007.0078.
-
-

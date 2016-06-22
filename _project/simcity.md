@@ -25,7 +25,7 @@ infrastructure: Clouds and clusters
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva
-logo: https://www.esciencecenter.nl/img/projects/1.P014-small.jpg
+logo: /images/project/simcity.jpg
 name: SIM-CITY
 nlescWebsite: https://www.esciencecenter.nl/project/sim-city
 principalInvestigator:

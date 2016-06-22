@@ -21,7 +21,7 @@ expertise:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/nikhef
-logo: https://www.esciencecenter.nl/img/projects/1.p047-small.jpg
+logo: /images/project/pandas-root.jpg
 name: Giving pandas ROOT To Chew On
 nlescWebsite: https://www.esciencecenter.nl/project/giving-pandas-a-root-to-chew-on
 principalInvestigator:
@@ -30,11 +30,6 @@ principalInvestigator:
   jobTitle: PostDoc
   name: Dr. Christopher Tunnell
   website: http://www.nikhef.nl/~decowski/Group.html
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/nikhef
-uses:
-- http://software.esciencecenter.nl/software/root-conda-recipes
 startDate: 2015-06-20
 tagLine: Modern Big Data front and backends in the hunt for Dark Matter.
 uses:

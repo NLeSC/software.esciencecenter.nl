@@ -23,14 +23,14 @@ githubUrl: https://github.com/jspaaks
 jobTitle: eScience Research Engineer
 name: Jurriaan H. Spaaks
 nlescWebsite: https://www.esciencecenter.nl/profile/drs-jurriaan-spaaks
-photo: https://www.esciencecenter.nl/img/team/jurriaan-spaaks-cropped-bw-new.jpg
-userOf:
-- http://software.esciencecenter.nl/software/metrochart
+ownerOf:
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
 - http://software.esciencecenter.nl/software/differential-evolution
 - http://software.esciencecenter.nl/software/matrix-of-scatter
 - http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
-ownerOf:
+photo: /images/person/j.spaaks.jpg
+userOf:
+- http://software.esciencecenter.nl/software/metrochart
 - http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
 - http://software.esciencecenter.nl/software/differential-evolution
 - http://software.esciencecenter.nl/software/matrix-of-scatter

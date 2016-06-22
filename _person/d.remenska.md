@@ -15,7 +15,7 @@ name: Daniela Remenska
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-daniela-remenska
 ownerOf:
 - http://software.esciencecenter.nl/software/root-conda-recipes
-photo: https://www.esciencecenter.nl/img/team/daniela_remenska-web.jpg
+photo: /images/person/d.remenska.jpg
 ---
 Daniela graduated from the Institute of Informatics in Macedonia as an informatics engineer. During her last year of study, she was also a lab assistant at the institute, teaching basic computer science courses. After graduating, she worked about one and a half year as a Java software developer for a large company specializing in enterprise medical software.
 

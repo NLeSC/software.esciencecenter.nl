@@ -19,7 +19,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 license:
 - apache-2.0
-logo: https://raw.githubusercontent.com/nlesc-sherlock/Rig/develop/app/images/noun_95045_cc.png
+logo: /images/software/rig.png
 name: Rig
 owner:
 - http://software.esciencecenter.nl/organization/nlesc

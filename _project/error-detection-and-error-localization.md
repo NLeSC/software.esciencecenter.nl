@@ -1,34 +1,34 @@
 ---
-name: "Error Detection and Error Localization Approaches for Radio Telescope System Health Management"
-tagLine: Machine Learning for System Health Management in radio astronomy
-nlescWebsite: https://www.esciencecenter.nl/project/error-detection-and-error-localization
-logo: https://www.esciencecenter.nl/img/projects/p62-large.jpg
 competence:
 - Big Data Analytics
 - Efficient Computing
+contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
+coordinator: http://software.esciencecenter.nl/person/e.ranguelova
+dataMagnitude: PB
 discipline:
 - Physics & Beyond
+engineer:
+- http://software.esciencecenter.nl/person/c.meijer
 expertise:
 - Handling Sensor Data
 - Machine Learning
 - Information Integration
 - High Performance Computing
 infrastructure: LOFAR
-dataMagnitude: PB
-coordinator: http://software.esciencecenter.nl/person/e.ranguelova
-contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
-engineer:
-- http://software.esciencecenter.nl/person/c.meijer
-#- http://software.esciencecenter.nl/person/h.spreeuw
-principalInvestigator:
-  - name: Dr. Albert-Jan Boonstra
-    affiliation:
-    - http://software.esciencecenter.nl/organization/astron
-    website: https://www.astron.nl/r-d-laboratory/competence-and-support-groups/staff/albert-jan-boonstra/albert-jan-boonstra
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/astron
 - http://software.esciencecenter.nl/organization/nlesc
+logo: /images/project/error-detection-and-error-localization.jpg
+name: Error Detection and Error Localization Approaches for Radio Telescope System
+  Health Management
+nlescWebsite: https://www.esciencecenter.nl/project/error-detection-and-error-localization
+principalInvestigator:
+- affiliation:
+  - http://software.esciencecenter.nl/organization/astron
+  name: Dr. Albert-Jan Boonstra
+  website: https://www.astron.nl/r-d-laboratory/competence-and-support-groups/staff/albert-jan-boonstra/albert-jan-boonstra
 startDate: 2016-01-01
+tagLine: Machine Learning for System Health Management in radio astronomy
 ---
 In modern radio telescopes, System Health Management (SHM) systems are
 crucial for (early) detection of errors and for remedying them. Due to
