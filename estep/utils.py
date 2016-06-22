@@ -67,6 +67,14 @@ def is_internal_url(url):
     return is_internal
 
 
+def absolute_url(url):
+    url = parse_url(url)
+    if url['authority'] is None:
+        url['scheme'] = 'http'
+        url['authority'] = 'software.esciencecenter.nl'
+    return rfc3987.compose(**url)
+
+
 def url_to_path(url):
     check_internal_url(url)
     return '_' + url['path'].lstrip('/') + '.md'

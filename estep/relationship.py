@@ -17,7 +17,7 @@ import logging
 import six
 
 from .utils import (AbstractValidator, ValidationError, check_internal_url,
-                    url_to_schema, parse_url)
+                    url_to_schema, parse_url, absolute_url)
 
 LOGGER = logging.getLogger('estep')
 
@@ -80,7 +80,7 @@ def instance_relationships(instance, schema, property_name, otherschema):
 
     value = instance[property_name]
     if is_relationship_value(value, otherschema):
-        return set([value])
+        return set([absolute_url(value)])
     elif isinstance(value, dict):
         # not a @id
         raise ValueError(value)
@@ -88,7 +88,7 @@ def instance_relationships(instance, schema, property_name, otherschema):
         result = set()
         for entry in value:
             if is_relationship_value(entry, otherschema):
-                result.add(entry)
+                result.add(absolute_url(entry))
         return result
 
 
@@ -143,4 +143,5 @@ class RelationshipValidator(AbstractValidator):
             yield ValidationError(message, source, property_name)
 
     def __repr__(self):
-        return 'RelationshipValidator<{}, {}, {}, {}>'.format(self.schema1, self.prop1, self.schema2, self.prop2)
+        return 'RelationshipValidator<{}, {}, {}, {}>'.format(
+            self.schema1, self.prop1, self.schema2, self.prop2)
