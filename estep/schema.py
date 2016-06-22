@@ -20,14 +20,10 @@ import yaml
 import codecs
 import jsonschema
 import requests
+from requests.adapters import HTTPAdapter
+from .utils import parse_url, url_to_path, AbstractValidator, is_internal_url
 
-from .utils import url_to_path, AbstractValidator
-
-try:
-    from jsonschema._format import is_uri as is_uri_orig
-except ImportError:
-    def is_uri_orig(instance):
-        pass
+from jsonschema.validators import Draft4Validator
 
 LOGGER = logging.getLogger('estep')
 
@@ -42,24 +38,30 @@ def load_schemas(schema_uris, schemadir=None):
             try:
                 request.raise_for_status()
             except requests.exceptions.HTTPError as ex:
-                LOGGER.error("cannot load schema %s:\n\t%s\nUse --local to load local schemas.", schema_uri, ex)
+                LOGGER.error("cannot load schema %s:\n\t%s\n"
+                             "Use --local to load local schemas.",
+                             schema_uri, ex)
 
             store[schema_uri] = request.json()
         else:
             LOGGER.debug('Loading schema %s from %s', schema_uri, schemadir)
-            schema_fn = schema_uri.replace('http://software.esciencecenter.nl/schema', schemadir)
+            schema_uri_prefix = 'http://software.esciencecenter.nl/schema'
+            schema_fn = schema_uri.replace(schema_uri_prefix, schemadir)
             with codecs.open(schema_fn, encoding='utf-8') as f:
                 store[schema_uri] = json.load(f)
     return store
 
 
 class SchemaValidator(AbstractValidator):
-    def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False,
-                 resolve_cache_expire=5):
+    cache_path = os.path.join(*['.cache', 'resolve', 'resolve.yml'])
 
-        self.http_session = requests.Session()
-        self.http_session.mount('http://', requests.adapters.HTTPAdapter(max_retries=3))
-        self.http_session.mount('https://', requests.adapters.HTTPAdapter(max_retries=3))
+    def __init__(self, schema_uris, schemadir=None, resolve_local=True,
+                 resolve_remote=False, resolve_cache_expire=5):
+
+        if resolve_remote:
+            self.http_session = requests.Session()
+            self.http_session.mount('http://', HTTPAdapter(max_retries=3))
+            self.http_session.mount('https://', HTTPAdapter(max_retries=3))
 
         store = load_schemas(schema_uris, schemadir)
 
@@ -77,10 +79,11 @@ class SchemaValidator(AbstractValidator):
 
         if resolve_remote and resolve_cache_expire > 0:
             try:
-                with open('.cache/resolve/resolve.yml') as f:
+                with open(SchemaValidator.cache_path) as f:
                     urls = yaml.load(f)
             except IOError:
-                LOGGER.debug('No resolve cache available (.cache/resolve/resolve.yml)')
+                LOGGER.debug('No resolve cache available ({0})'
+                             .format(SchemaValidator.cache_path))
             else:
                 now = datetime.datetime.now()
                 for url, stamp in urls.items():
@@ -88,12 +91,10 @@ class SchemaValidator(AbstractValidator):
                         self.resolve_cache[url] = stamp
 
         # Resolve date-time as dates as well as strings
-        if isinstance(jsonschema.compat.str_types, type):
-            str_types = [jsonschema.compat.str_types]
-        else:
-            str_types = list(jsonschema.compat.str_types)
-        str_types.append(datetime.date)
-        types = {u'string': tuple(str_types)}
+        try:
+            types = {u'string': (basestring, datetime.date)}
+        except NameError:
+            types = {u'string': (str, datetime.date)}
 
         format_checker = jsonschema.draft4_format_checker
         format_checker.checkers['uri'] = (self.url_ref, ValueError)
@@ -101,28 +102,36 @@ class SchemaValidator(AbstractValidator):
         self.validators = {}
         for schema_uri in schema_uris:
             schema = store[schema_uri]
-            resolver = jsonschema.RefResolver(schema_uri, schema,  store=store)
-            self.validators[schema_uri] = jsonschema.validators.Draft4Validator(schema,
-                                                                                resolver=resolver,
-                                                                                types=types,
-                                                                                format_checker=format_checker,
-                                                                                )
+            resolver = jsonschema.RefResolver(schema_uri, schema, store=store)
+            self.validators[schema_uri] = Draft4Validator(
+                schema, resolver=resolver, types=types,
+                format_checker=format_checker)
 
     def url_ref(self, instance):
-        # only consider valid uris
-        if not is_uri_orig(instance):
-            return False
+        # consider valid uris and relative references
+        url = parse_url(instance)
 
         # handle local urls
-        if self.resolve_local and '://software.esciencecenter.nl/' in instance:
-            location = url_to_path(instance)
-            # do not look for missing directories.
-            if os.path.isdir(os.path.dirname(location)) and not os.path.isfile(location):
-                err = "{} not found locally as {}".format(instance, location)
-                raise ValueError(err)
+        if self.resolve_local and is_internal_url(url):
+            path = url_to_path(url)
+            # path is either available as _[dir]/[file].md
+            if os.path.isdir(os.path.dirname(path)):
+                if not os.path.isfile(path):
+                    raise ValueError("{} not found locally as {}"
+                                     .format(instance, path))
+            # or as [dir]/[file]
+            else:
+                # absolute URL to relative URL
+                path = url['path'].lstrip('/')
+                if not os.path.isdir(os.path.dirname(path)):
+                    raise ValueError("No local directory for {} found"
+                                     .format(instance))
+                if not os.path.isfile(path):
+                    raise ValueError("{} not found locally as {}"
+                                     .format(instance, path))
 
         # handle remote urls
-        if self.resolve_remote and '://software.esciencecenter.nl/' not in instance:
+        if self.resolve_remote and not is_internal_url(url):
             self.resolve(instance)
 
         return True
@@ -134,10 +143,13 @@ class SchemaValidator(AbstractValidator):
         try:
             result = self.http_session.head(url)
             if result.status_code == 404:
-                raise ValueError("Remote URL {0} cannot be resolved: not found.".format(url))
+                raise ValueError(
+                    "Remote URL {0} cannot be resolved: not found."
+                    .format(url))
             self.resolve_cache[url] = datetime.datetime.now()
         except IOError as ex:
-            raise ValueError("Remote URL {0} cannot be resolved: {1}".format(url, ex))
+            raise ValueError("Remote URL {0} cannot be resolved: {1}"
+                             .format(url, ex))
 
     def iter_errors(self, instance):
         schema_uri = instance['schema']
@@ -146,14 +158,18 @@ class SchemaValidator(AbstractValidator):
 
     def finalize(self):
         if self.resolve_cache_expire > 0:
-            cache_str = yaml.safe_dump(self.resolve_cache, default_flow_style=False)
+            cache_str = yaml.safe_dump(self.resolve_cache,
+                                       default_flow_style=False)
             try:
-                if not os.path.isdir('.cache/resolve'):
-                    os.makedirs('.cache/resolve')
-                with open('.cache/resolve/resolve.yml', 'w') as f:
+                cache_dir = os.path.dirname(SchemaValidator.cache_path)
+                if not os.path.isdir(cache_dir):
+                    os.makedirs(cache_dir)
+                with open(SchemaValidator.cache_path, 'w') as f:
                     f.write(cache_str)
-                LOGGER.debug('Stored resolve cache (.cache/resolve/resolve.yml)')
+                LOGGER.debug('Stored resolve cache ({0})'
+                             .format(SchemaValidator.cache_path))
             except IOError:
-                LOGGER.warning('Cannot write to resolve cache (.cache/resolve/resolve.yml)')
+                LOGGER.warning('Cannot write to resolve cache ({0})'
+                               .format(SchemaValidator.cache_path))
 
         return []

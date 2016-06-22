@@ -4,15 +4,15 @@ competence:
 - Big Data Analytics
 - Optimized Data Handling
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/j.maassen
+contactPerson: /person/j.maassen
 dataFormat:
 - JSON
 dataMagnitude: GB
 discipline:
 - eScience Methodology
 engineer:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
-- http://software.esciencecenter.nl/person/j.spaaks
+- /person/j.vanderzwaan
+- /person/j.spaaks
 expertise:
 - Text Mining
 - Machine Learning
@@ -22,16 +22,16 @@ expertise:
 - Distributed Computing
 - High Performance Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/nfi
+- /organization/nlesc
+- /organization/nfi
 name: Sherlock
 startDate: 2015-10-20
 tagLine: Sherlock is an NLeSC-wide project in which all eScience Research engineers
   of the NLeSC work together.
 uses:
-- http://software.esciencecenter.nl/software/rig
-- http://software.esciencecenter.nl/software/metrochart
-- http://software.esciencecenter.nl/software/matrix-of-scatter
+- /software/rig
+- /software/metrochart
+- /software/matrix-of-scatter
 website: https://github.com/nlesc-sherlock
 ---
 Sherlock is an NLeSC-wide project in which all eScience Research engineers of the NLeSC work together. The goals of Sherlock are:

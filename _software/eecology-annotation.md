@@ -2,11 +2,11 @@
 codeRepository: https://github.com/NLeSC/eEcology-Annotation-WS
 competence:
 - Optimized Data Handling
-contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
+contactPerson: /person/s.verhoeven
 contributor:
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/s.verhoeven
 dependency:
-- http://software.esciencecenter.nl/software/extjs-datetime
+- /software/extjs-datetime
 discipline:
 - Environment & Sustainability
 doi: http://dx.doi.org/10.5281/zenodo.45200
@@ -19,14 +19,14 @@ expertise:
 - Scientific Visualization
 - Databases
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/surfsara
+- /organization/nlesc
+- /organization/uva
+- /organization/surfsara
 name: eEcology Annotation Tool
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /organization/nlesc
+- /organization/uva
+- /person/s.verhoeven
 programmingLanguage:
 - Python
 - JavaScript
@@ -38,9 +38,9 @@ technologyTag:
 - GIS
 - Website
 usedIn:
-- http://software.esciencecenter.nl/project/eecology
+- /project/eecology
 user:
-- http://software.esciencecenter.nl/organization/uva
+- /organization/uva
 website: https://services.e-ecology.sara.nl/aws/
 ---
 Rich web interface to virtualize & annotate GPS measurements.

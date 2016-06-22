@@ -1,21 +1,21 @@
 ---
 name: 3D Geospatial Data Exploration for Modern Risk Management Systems
 tagLine: 'COMMIT valorization project: 3D geospatial data exploration for modern risk management systems'
-contactPerson: http://software.esciencecenter.nl/person/r.goncalves
+contactPerson: /person/r.goncalves
 logo: http://www.esciencecenter.nl/img/projects/p054-large.jpg
 engineer:
-- http://software.esciencecenter.nl/person/r.goncalves
+- /person/r.goncalves
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/commit
-- http://software.esciencecenter.nl/organization/monetdb
-- http://software.esciencecenter.nl/organization/deltares
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/geodan
-- http://software.esciencecenter.nl/organization/fugro
+- /organization/commit
+- /organization/monetdb
+- /organization/deltares
+- /organization/cwi
+- /organization/geodan
+- /organization/fugro
 uses:
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/datavaults
-- http://software.esciencecenter.nl/software/kernel_tuner
+- /software/monetdb
+- /software/datavaults
+- /software/kernel_tuner
 competence:
 - Optimized Data Handling
 - Big Data Analytics

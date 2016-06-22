@@ -20,21 +20,21 @@ expertise:
 - Information Visualization
 - Data Assimilation
 supportLevel: advanced
-contactPerson: http://software.esciencecenter.nl/person/p.bos
+contactPerson: /person/p.bos
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/p.bos
-- http://software.esciencecenter.nl/person/l.buitinck
+- /person/p.bos
+- /person/l.buitinck
 user:
-- http://software.esciencecenter.nl/organization/university.of.groningen
+- /organization/university.of.groningen
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/university.of.groningen
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/surfsara
+- /organization/nlesc
+- /organization/university.of.groningen
+- /organization/uva
+- /organization/surfsara
 usedIn:
-- http://software.esciencecenter.nl/project/pidimehs
+- /project/pidimehs
 startDate: 2014-08-01
 status: inactive
 dependency:

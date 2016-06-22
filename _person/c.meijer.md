@@ -1,11 +1,11 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributorOf:
-- http://software.esciencecenter.nl/software/xenon
+- /software/xenon
 engineerOf:
-- http://software.esciencecenter.nl/project/eecology
-- http://software.esciencecenter.nl/project/error-detection-and-error-localization
+- /project/eecology
+- /project/error-detection-and-error-localization
 githubUrl: https://github.com/cwmeijer
 jobTitle: eScience Research Engineer
 name: Christiaan Meijer

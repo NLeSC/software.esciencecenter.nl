@@ -1,14 +1,14 @@
 ---
 logo: http://www.esciencecenter.nl/img/projects/1.p049-large.jpg
-contactPerson: http://software.esciencecenter.nl/person/v.hees
+contactPerson: /person/v.hees
 engineer:
-- http://software.esciencecenter.nl/person/v.hees
+- /person/v.hees
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/cwi
+- /organization/cwi
 name: Compressing the Sky Into a Large Collection of Statistical Models
 tagLine: 'PathFinder project: Compressing the sky into a large collection of statistical models'
 uses:
-- http://software.esciencecenter.nl/software/monetdb
+- /software/monetdb
 competence:
 - Optimized Data Handling
 - Big Data Analytics

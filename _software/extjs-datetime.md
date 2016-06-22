@@ -17,24 +17,24 @@ expertise:
 license:
 - apache-2.0
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
+contactPerson: /person/s.verhoeven
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
+- /organization/nlesc
+- /organization/uva
 contributor:
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/s.verhoeven
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/surfsara
+- /organization/nlesc
+- /organization/uva
+- /organization/surfsara
 usedIn:
-- http://software.esciencecenter.nl/project/eecology
+- /project/eecology
 user:
-- http://software.esciencecenter.nl/organization/uva
+- /organization/uva
 startDate: 2013-08-23
 status: active
 dependencyOf:
-- http://software.esciencecenter.nl/software/eecology-annotation
+- /software/eecology-annotation
 technologyTag:
 - Web UI component
 - ExtJS

@@ -4,22 +4,22 @@ jobTitle: eScience Research Engineer
 photo: https://www.esciencecenter.nl/img/team/Vincent-van-Hees-web.jpg
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-vincent-van-hees
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 photo: http://www.esciencecenter.nl/img/team/Vincent-van-Hees-web.jpg
 
 contactPersonOf:
-- http://software.esciencecenter.nl/project/compressing-the-sky-into-a-large-collection-of-statistical-models
+- /project/compressing-the-sky-into-a-large-collection-of-statistical-models
 
 ownerOf:
 
 contributorOf:
-- http://software.esciencecenter.nl/software/monetdb
+- /software/monetdb
 
 userOf:
-- http://software.esciencecenter.nl/software/monetdb
+- /software/monetdb
 
 engineerOf:
-- http://software.esciencecenter.nl/project/compressing-the-sky-into-a-large-collection-of-statistical-models
+- /project/compressing-the-sky-into-a-large-collection-of-statistical-models
 ---
 Vincent graduated in Human kinetic technology (BEng) at The Hague University of Applied Sciences and in Human movement sciences (MSc with cum laude) at the VU University in Amsterdam. In 2008 Vincent moved to England to complete a PhD in Epidemiology at the MRC Epidemiology Unit within the University of Cambridge. Vincent did a post-doc at the Institute of Cellular Medicine within Newcastle University.
 

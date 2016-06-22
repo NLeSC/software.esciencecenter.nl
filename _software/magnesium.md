@@ -2,23 +2,23 @@
 codeRepository: https://github.com/NLeSC/eSalsa-MPI
 competence:
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/j.maassen
+contactPerson: /person/j.maassen
 contributor:
-- http://software.esciencecenter.nl/person/j.maassen
+- /person/j.maassen
 dependencyOf:
-- http://software.esciencecenter.nl/project/esalsa
+- /project/esalsa
 discipline:
 - eScience Methodology
 expertise:
 - Distributed Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - apache-2.0
 name: Magnesium
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/j.maassen
+- /organization/nlesc
+- /person/j.maassen
 programmingLanguage:
 - C
 - Java
@@ -30,10 +30,10 @@ technologyTag:
 - Distributed
 - Library
 usedIn:
-- http://software.esciencecenter.nl/project/esalsa
+- /project/esalsa
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/j.maassen
+- /organization/nlesc
+- /person/j.maassen
 ---
 Magnesium is an MPI wrapper library that allows traditional MPI 
 applications to be run on a combination of multiple supercomputers 

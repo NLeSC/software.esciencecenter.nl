@@ -18,24 +18,24 @@ dataFormat:
 - 'RDF serializations'
 - 'JSON-LD'
 contactPerson:
-coordinator: http://software.esciencecenter.nl/person/l.ridder
+coordinator: /person/l.ridder
 engineer:
-- http://software.esciencecenter.nl/person/a.kuzniar
+- /person/a.kuzniar
 principalInvestigator:
 - name: Barend Mons
   affiliation:
-  - http://software.esciencecenter.nl/organization/lumc
-  - http://software.esciencecenter.nl/organization/dtl
+  - /organization/lumc
+  - /organization/dtl
   website: http://biosemantics.humgen.nl
   description: "Prof. Barend Mons is Professor of BioSemantics and founder of the BioSemantics group at the LUMC. Next to his leading role in the research of the group, Barend plays a leading role in the international development of 'FAIR data stewardship' for biomedical data. For instance, he is head-of-node of Elixir-NL. Elixir is a pan-European project to develop and foster bioinformatics infrastructure across the member states. The focus of the contribution of the BioSemantics group is on developing an interoperability backbone for biomedical applications in general and rare disease in particular."
   photo: https://www.esciencecenter.nl/img/team/barend-mons-cropped-bw.jpg
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/lumc
-- http://software.esciencecenter.nl/organization/dtl
-- http://software.esciencecenter.nl/organization/wur
+- /organization/nlesc
+- /organization/lumc
+- /organization/dtl
+- /organization/wur
 uses:
-- http://software.esciencecenter.nl/software/fairdatapoint
+- /software/fairdatapoint
 startDate: 2015-06-01
 endDate: 2017-06-01
 ---

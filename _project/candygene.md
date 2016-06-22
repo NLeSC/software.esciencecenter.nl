@@ -21,25 +21,25 @@ dataFormat:
 - 'RDF serializations'
 - 'JSON-LD'
 contactPerson:
-coordinator: http://software.esciencecenter.nl/person/l.ridder
+coordinator: /person/l.ridder
 engineer:
-- http://software.esciencecenter.nl/person/a.kuzniar
+- /person/a.kuzniar
 
 principalInvestigator:
 - name: Richard Finkers
   affiliation:
-  - http://software.esciencecenter.nl/organization/wur
-  - http://software.esciencecenter.nl/organization/dtl
+  - /organization/wur
+  - /organization/dtl
   website: http://www.finkers.tk
   description: 
   photo: https://www.vcard.wur.nl/WebServices/GetMedia.ashx?id=1700
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/wur
+- /organization/nlesc
+- /organization/wur
 
 uses:
-- http://software.esciencecenter.nl/software/fairdatapoint
-- http://software.esciencecenter.nl/software/xtas
+- /software/fairdatapoint
+- /software/xtas
 
 startDate: 2015-06-01
 endDate: 2018-06-01

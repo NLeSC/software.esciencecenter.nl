@@ -3,16 +3,16 @@ competence:
 - Big Data Analytics
 - Efficient Computing
 contactPerson:
-- http://software.esciencecenter.nl/person/j.spaaks
-- http://software.esciencecenter.nl/person/s.branchett
-coordinator: http://software.esciencecenter.nl/person/s.branchett
+- /person/j.spaaks
+- /person/s.branchett
+coordinator: /person/s.branchett
 dataFormat:
 - MATLAB
 dataMagnitude: GB
 discipline:
 - eScience Methodology
 engineer:
-- http://software.esciencecenter.nl/person/j.spaaks
+- /person/j.spaaks
 expertise:
 - Machine Learning
 - Data Assimilation
@@ -21,20 +21,20 @@ expertise:
 logo: https://www.esciencecenter.nl/img/projects/1.P019-large.jpg
 infrastructure: surfSARA's LISA cluster
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/surfsara
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/uva
+- /organization/surfsara
+- /organization/nlesc
 name: esibayes
 nlescWebsite: https://www.esciencecenter.nl/project/esibayes
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/uva
+  - /organization/uva
   name: Willem Bouten
   photo: https://www.esciencecenter.nl/img/team/willem-bouten-bw.jpg
   website: http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/b/o/w.bouten/w.bouten.html
 tagLine: An eScience infrastructure for Bayesian inverse modeling
 uses:
-- http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
+- /software/mmsoda-toolbox-for-matlab
 ---
 An eScience infrastructure for Bayesian inverse modeling
 

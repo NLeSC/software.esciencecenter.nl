@@ -17,16 +17,16 @@ discipline:
 expertise:
 - Computer Vision
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
+contactPerson: /person/e.ranguelova
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/e.ranguelova
-- http://software.esciencecenter.nl/person/d.vankuppevelt
+- /person/e.ranguelova
+- /person/d.vankuppevelt
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 usedIn:
 
 startDate: 2015-04-01

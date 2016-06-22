@@ -14,19 +14,19 @@ expertise:
 - High Performance Computing
 infrastructure: Apertif, A 75-GPU cluster and 10 PB storage
 dataMagnitude: PB
-coordinator: http://software.esciencecenter.nl/person/j.attema
-contactPerson: http://software.esciencecenter.nl/person/j.attema
+coordinator: /person/j.attema
+contactPerson: /person/j.attema
 engineer:
-- http://software.esciencecenter.nl/person/j.attema
-- http://software.esciencecenter.nl/person/o.rubi
+- /person/j.attema
+- /person/o.rubi
 principalInvestigator:
   - name: Dr. Joeri van Leeuwen
     affiliation:
-    - http://software.esciencecenter.nl/organization/astron
+    - /organization/astron
     website: http://www.astron.nl/astronomy-group/people/joeri-van-leeuwen/joeri-van-leeuwen
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/astron
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/astron
+- /organization/nlesc
 startDate: 2016-07-01
 ---
 In our largely unchanging Universe, highly dynamic components were

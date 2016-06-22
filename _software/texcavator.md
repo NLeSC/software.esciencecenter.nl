@@ -21,26 +21,26 @@ expertise:
 - Distributed Computing
 - Information Visualization
 supportLevel: advanced
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/uu
+- /organization/nlesc
+- /organization/uva
+- /organization/uu
 contributor:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/j.vanderzwaan
 - name: Martijn van der Klis
   affiliation:
-  - http://software.esciencecenter.nl/organization/uu
+  - /organization/uu
   website: http://www.uu.nl/staff/MHvanderKlis/
 user:
-- http://software.esciencecenter.nl/organization/uu
+- /organization/uu
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/uu
+- /organization/nlesc
+- /organization/uva
+- /organization/uu
 usedIn:
-- http://software.esciencecenter.nl/project/texcavator
-- http://software.esciencecenter.nl/project/shico
+- /project/texcavator
+- /project/shico
 startDate: 2013-12-04
 status: inactive
 dependency:

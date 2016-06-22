@@ -1,14 +1,14 @@
 ---
 contributor:
-- http://software.esciencecenter.nl/person/n.drost
+- /person/n.drost
 name: OpenDA
 tagLine: Data Assimilation Toolbox
 usedIn:
-- http://software.esciencecenter.nl/project/ewatercycle
-- http://software.esciencecenter.nl/project/large-scale-data-assimilation
-contactPerson: http://software.esciencecenter.nl/person/n.drost
+- /project/ewatercycle
+- /project/large-scale-data-assimilation
+contactPerson: /person/n.drost
 user:
-- http://software.esciencecenter.nl/person/n.drost
+- /person/n.drost
 discipline:
 - Environment & Sustainability
 - eScience Methodology
@@ -25,11 +25,11 @@ owner:
 - name: OpenDA Association
 status: active
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/tu-delft
-- http://software.esciencecenter.nl/organization/deltares
+- /organization/nlesc
+- /organization/tu-delft
+- /organization/deltares
 startDate: 2010-01-01
-contactPerson: http://software.esciencecenter.nl/person/n.drost
+contactPerson: /person/n.drost
 technologyTag:
 - Calibration
 ---

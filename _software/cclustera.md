@@ -13,17 +13,17 @@ discipline:
 expertise:
 - Information Visualization
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/s.georgievska
+contactPerson: /person/s.georgievska
 owner: 
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/s.georgievska
+- /person/s.georgievska
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 usedIn:
-- http://software.esciencecenter.nl/project/massive-biological-data-clustering-reporting-and-visualization-tools
+- /project/massive-biological-data-clustering-reporting-and-visualization-tools
 startDate: 2015-05-01
 status: active
 technologyTag:

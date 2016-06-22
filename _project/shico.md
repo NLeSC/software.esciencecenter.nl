@@ -1,13 +1,13 @@
 ---
 competence:
 - Optimized Data Handling
-contactPerson: http://software.esciencecenter.nl/person/c.martinez
-coordinator: http://software.esciencecenter.nl/person/j.attema
+contactPerson: /person/c.martinez
+coordinator: /person/j.attema
 logo: https://www.esciencecenter.nl/img/projects/1.p50-large.jpg
 discipline:
 - Humanities & Social Sciences
 engineer:
-- http://software.esciencecenter.nl/person/c.martinez
+- /person/c.martinez
 expertise:
 - Text Mining
 - Information Visualization
@@ -15,22 +15,22 @@ expertise:
 - Information Retrieval
 infrastructure: Web platform
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/uu
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/uu
+- /organization/nlesc
 name: Mining Shifting Concepts Through Time (ShiCo)
 nlescWebsite: https://www.esciencecenter.nl/project/mining-shifting-concepts-through-time-shico
 principalInvestigator:
 - name: Prof. Joris van Eijnatten
   affiliation:
-  - http://software.esciencecenter.nl/organization/uu
+  - /organization/uu
   website: http://www.uu.nl/medewerkers/JvanEijnatten/
 - name: Dr. Jaap Verheul
   affiliation:
-  - http://software.esciencecenter.nl/organization/uu
+  - /organization/uu
   website: http://www.uu.nl/staff/JVerheul/
 tagLine: Understanding the past through the history of concepts
 uses:
-- http://software.esciencecenter.nl/software/texcavator
+- /software/texcavator
 website:
 ---
 # Word vector text mining change and continuity in conceptual history
