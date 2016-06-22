@@ -10,6 +10,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/osmium
 - http://software.esciencecenter.nl/software/pattyanalytics
 - http://software.esciencecenter.nl/software/python-pcl
+- http://software.esciencecenter.nl/software/common-sense
 engineerOf:
 - http://software.esciencecenter.nl/project/simcity
 githubUrl: https://github.com/blootsvoets
