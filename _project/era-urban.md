@@ -22,24 +22,24 @@ dataFormat:
 - Little-R
 - JSON
 - CSV
-contactPerson: http://software.esciencecenter.nl/person/r.vanharen
-coordinator: http://software.esciencecenter.nl/person/e.ranguelova
+contactPerson: /person/r.vanharen
+coordinator: /person/e.ranguelova
 engineer:
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/r.vanharen
 principalInvestigator:
 - name: Bert Holtslag
   affiliation:
-  - http://software.esciencecenter.nl/organization/wur
+  - /organization/wur
   website: https://www.wageningenur.nl/en/Persons/prof.dr.-AAM-Bert-Holtslag.htm
   description: "Prof. Bert Holtslag is affiliated to Wageningen University as Professor of Meteorology and as chair of the Meteorology and Air Quality Section. His particular interest is advancing the knowledge of the atmospheric boundary layer and the further understanding of the complex atmosphere-land interactions."
   photo: https://www.esciencecenter.nl/img/team/bert-holtslag-cropped-bw.jpg
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/wur
+- /organization/nlesc
+- /organization/wur
 uses:
-- http://software.esciencecenter.nl/software/netcdf2littler
-- http://software.esciencecenter.nl/software/wrfpy
-- http://software.esciencecenter.nl/software/pyxenon
+- /software/netcdf2littler
+- /software/wrfpy
+- /software/pyxenon
 ---
 The ERA-URBAN project takes up this eScience challenge and develops an environmental re-analysis on the scale of the urban environment; a long-term archive of urban energy and water balances at very high resolution (100m). Developing such an archive is now feasible as a direct and immediate extension of the (modelling and observational) infrastructure that has been built within NLeSC's Summer in the City project.
 

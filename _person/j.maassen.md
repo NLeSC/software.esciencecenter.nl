@@ -1,40 +1,40 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/magnesium
-- http://software.esciencecenter.nl/project/sherlock
-- http://software.esciencecenter.nl/project/abcmuse
-- http://software.esciencecenter.nl/project/esalsa
-- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+- /software/xenon
+- /software/magnesium
+- /project/sherlock
+- /project/abcmuse
+- /project/esalsa
+- /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 contributorOf:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/sfm
-- http://software.esciencecenter.nl/software/magnesium
+- /software/xenon
+- /software/sfm
+- /software/magnesium
 coordinatorOf:
-- http://software.esciencecenter.nl/project/pandas-root
-- http://software.esciencecenter.nl/project/ewatercycle
-- http://software.esciencecenter.nl/project/large-scale-data-assimilation
-- http://software.esciencecenter.nl/project/esalsa
-- http://software.esciencecenter.nl/project/amuse
-- http://software.esciencecenter.nl/project/abcmuse
+- /project/pandas-root
+- /project/ewatercycle
+- /project/large-scale-data-assimilation
+- /project/esalsa
+- /project/amuse
+- /project/abcmuse
 engineerOf:
-- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+- /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 githubUrl: https://github.com/jmaassen
 jobTitle: Technology Lead Efficient Computing
 linkedInUrl: https://nl.linkedin.com/in/jason-maassen-6795ba4
 name: Jason Maassen
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-jason-maassen
 ownerOf:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/magnesium
-- http://software.esciencecenter.nl/project/sherlock
+- /software/xenon
+- /software/magnesium
+- /project/sherlock
 photo: https://www.esciencecenter.nl/img/team/jason-maassen-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/Jason_Maassen
 userOf:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/magnesium
+- /software/xenon
+- /software/magnesium
 ---
 Jason studied Computer Science at the VU University Amsterdam, where he graduated cum laude in 1998. The focus of his PhD research (1998-2003) was on developing object oriented programming models for parallel and distributed 
 programming. Between 2003 and 2012 he has participated in several research projects, where he has looked at a range of topics related to large scale distributed computing. During this time he has developed a monitoring system for a world-wide 

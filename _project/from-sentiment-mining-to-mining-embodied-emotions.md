@@ -16,20 +16,20 @@ dataMagnitude: MB
 dataFormat:
 - XML
 - KAF
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 engineer:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/j.vanderzwaan
 principalInvestigator:
   - name: Prof. Inger Leemans
     affiliation:
-    - http://software.esciencecenter.nl/organization/vua
+    - /organization/vua
     website: http://www.fgw.vu.nl/nl/over-de-faculteit/medewerkers/medewerkers-i-l/prof-dr-i-leemans/index.aspx
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
-- http://software.esciencecenter.nl/organization/meertens
+- /organization/nlesc
+- /organization/vua
+- /organization/meertens
 uses:
-- http://software.esciencecenter.nl/software/heem-dataset
+- /software/heem-dataset
 startDate: 2015-03-01
 endDate: 2015-06-30
 ---

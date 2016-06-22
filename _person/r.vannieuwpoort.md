@@ -1,28 +1,28 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/vua
 contactPersonOf:
-- http://software.esciencecenter.nl/software/eastroviz
-- http://software.esciencecenter.nl/project/generic-escience-technologies
-- http://software.esciencecenter.nl/project/biomarker
-- http://software.esciencecenter.nl/project/beyond-the-data-explosion
+- /software/eastroviz
+- /project/generic-escience-technologies
+- /project/biomarker
+- /project/beyond-the-data-explosion
 contributorOf:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/eastroviz
+- /software/xenon
+- /software/eastroviz
 coordinatorOf:
-- http://software.esciencecenter.nl/project/emetabolomics
-- http://software.esciencecenter.nl/project/biomarker
-- http://software.esciencecenter.nl/project/generic-escience-technologies
-- http://software.esciencecenter.nl/project/beyond-the-data-explosion
+- /project/emetabolomics
+- /project/biomarker
+- /project/generic-escience-technologies
+- /project/beyond-the-data-explosion
 engineerOf:
-- http://software.esciencecenter.nl/project/generic-escience-technologies
-- http://software.esciencecenter.nl/project/viaappia-patty
-- http://software.esciencecenter.nl/project/beyond-the-data-explosion
+- /project/generic-escience-technologies
+- /project/viaappia-patty
+- /project/beyond-the-data-explosion
 photo: https://www.esciencecenter.nl/img/team/rob-van-nieuwpoort-new.jpg
 userOf:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/eastroviz
+- /software/xenon
+- /software/eastroviz
 name: Rob van Nieuwpoort
 jobTitle: Director eScience Technology & Project Leader
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-rob-van-nieuwpoort

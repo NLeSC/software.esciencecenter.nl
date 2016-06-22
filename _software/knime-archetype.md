@@ -15,19 +15,19 @@ discipline:
 expertise:
 - Information Integration
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
+contactPerson: /person/s.verhoeven
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/vua
 contributor:
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/s.verhoeven
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/vua
 usedIn:
-- http://software.esciencecenter.nl/project/3d-e-chem
+- /project/3d-e-chem
 startDate: 2015-10-01
 status: active
 technologyTag:

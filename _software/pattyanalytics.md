@@ -2,19 +2,19 @@
 codeRepository: https://github.com/NLeSC/PattyAnalytics
 competence:
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/j.attema
+contactPerson: /person/j.attema
 contributor:
-- http://software.esciencecenter.nl/person/j.attema
-- http://software.esciencecenter.nl/person/l.buitinck
-- http://software.esciencecenter.nl/person/j.borgdorff
-- http://software.esciencecenter.nl/person/c.martinez
+- /person/j.attema
+- /person/l.buitinck
+- /person/j.borgdorff
+- /person/c.martinez
 discipline:
 - eScience Methodology
 expertise:
 - Databases
 - Handling Sensor Data
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - apache-2.0
 name: PattyAnalytics
@@ -25,14 +25,14 @@ status: active
 supportLevel: specialized
 tagLine: Reusable point cloud analytics software (segmentation, registration, file format conversion)
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/o.rubi
+- /organization/nlesc
+- /person/o.rubi
 usedIn:
-- http://software.esciencecenter.nl/project/viaappia-patty
+- /project/viaappia-patty
 owner: 
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 dependency:
-- http://software.esciencecenter.nl/software/python-pcl
+- /software/python-pcl
 technologyTag:
 - Point clouds
 - GIS

@@ -2,18 +2,18 @@
 codeRepository: https://github.com/NLeSC/structure-from-motion
 competence:
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/n.drost
+contactPerson: /person/n.drost
 contributor:
-- http://software.esciencecenter.nl/person/n.drost
-- http://software.esciencecenter.nl/person/j.spaaks
-- http://software.esciencecenter.nl/person/j.maassen
+- /person/n.drost
+- /person/j.spaaks
+- /person/j.maassen
 discipline:
 - eScience Methodology
 expertise:
 - Handling Sensor Data
 - High Performance Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - apache-2.0
 name: Structure-From-Motion 
@@ -25,12 +25,12 @@ status: active
 supportLevel: specialized
 tagLine: Structure from Motion pipeline (from images to point clouds)
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/o.rubi
+- /organization/nlesc
+- /person/o.rubi
 usedIn:
-- http://software.esciencecenter.nl/project/viaappia-patty
+- /project/viaappia-patty
 owner: 
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 technologyTag:
 - Point clouds
 - Photogrammetry

@@ -16,23 +16,23 @@ discipline:
 - eScience Methodology
 expertise:
 - Reproducible Research
-contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
+contactPerson: /person/s.verhoeven
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/vua
 contributor:
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/s.verhoeven
 - name: Ross McGuire
   affiliation:
-  - http://software.esciencecenter.nl/organization/radboud.university.nijmegen
+  - /organization/radboud.university.nijmegen
   linkedInUrl: https://nl.linkedin.com/in/ross-mcguire-71457523
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/vua
 usedIn:
-- http://software.esciencecenter.nl/project/3d-e-chem
+- /project/3d-e-chem
 startDate: 2016-01-11
 status: active
 technologyTag:
@@ -40,7 +40,7 @@ technologyTag:
 - Vagrant
 - Packer
 dependency:
-- http://software.esciencecenter.nl/software/chemical-analytics-platform
+- /software/chemical-analytics-platform
 ---
 ![Screenshot of Desktop](https://3d-e-chem.github.io/3D-e-Chem-VM/assets/images/3d-e-chem-vm-screenshot.png "Screenshot")
 

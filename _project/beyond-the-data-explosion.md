@@ -15,22 +15,22 @@ expertise:
 - Low Power Computing
 infrastructure: LOFAR
 dataMagnitude: PB
-contactPerson: http://software.esciencecenter.nl/person/r.vannieuwpoort
-coordinator: http://software.esciencecenter.nl/person/r.vannieuwpoort
+contactPerson: /person/r.vannieuwpoort
+coordinator: /person/r.vannieuwpoort
 engineer:
-- http://software.esciencecenter.nl/person/r.vannieuwpoort
+- /person/r.vannieuwpoort
 principalInvestigator:
   - name: Dr. Marco de Vos
     affiliation:
-    - http://software.esciencecenter.nl/organization/astron
+    - /organization/astron
     website: https://www.linkedin.com/in/devoscm
 logo: http://www.esciencecenter.nl/img/projects/1.P006-large.jpg
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/astron
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/astron
+- /organization/nlesc
 startDate: 2012-06-12
 uses:
-- http://software.esciencecenter.nl/software/eastroviz
+- /software/eastroviz
 ---
 People are used to the stunning visual images taken by telescopes like
 the Hubble or the great telescopes in Hawaii and Chile, but maybe only

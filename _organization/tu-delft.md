@@ -1,9 +1,9 @@
 ---
 involvedIn:
-- http://software.esciencecenter.nl/project/large-scale-data-assimilation
-- http://software.esciencecenter.nl/project/ewatercycle
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-- http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
+- /project/large-scale-data-assimilation
+- /project/ewatercycle
+- /project/massive-point-clouds-for-esciences
+- /project/big-data-analytics-in-the-geo-spatial-domain
 logo: https://intranet.tudelft.nl/fileadmin/Files/medewerkersportal/mc/huisstijl/Downloads/TU_Delft_logo_RGB.png
 name: Delft University of Technology
 website: http://www.tudelft.nl

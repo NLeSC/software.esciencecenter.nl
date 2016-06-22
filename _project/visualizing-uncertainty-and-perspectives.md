@@ -2,7 +2,7 @@
 logo: http://www.esciencecenter.nl/img/projects/1P038-large.jpg
 competence:
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
+contactPerson: /person/m.vanmeersbergen
 dataFormat:
 - XML
 - JSON
@@ -10,26 +10,26 @@ dataMagnitude: MB
 discipline:
 - Humanities & Social Sciences
 engineer:
-- http://software.esciencecenter.nl/person/m.vanmeersbergen
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/m.vanmeersbergen
+- /person/j.vanderzwaan
 expertise:
 - Information Visualization
 - Text Mining
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/vua
 name: Visualizing Uncertainty and Perspectives
 nlescWebsite: https://www.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/vua
+  - /organization/vua
   name: Prof. Piek Vossen
   website: http://vossen.info/
 startDate: 2014-12-18
 tagLine: Strengthening the methodology of digital humanities
 uses:
-- http://software.esciencecenter.nl/software/storyteller
-- http://software.esciencecenter.nl/software/heem-dataset
+- /software/storyteller
+- /software/heem-dataset
 ---
 Subjectivity and uncertainty form an integral part of Humanities research, sometimes even of the research object. Topics include subjectivity of authors (this chronicle's writer is pro Burgundian), the nature of data (this chronicle likely mentions battles, but unlikely mentions raping and pillaging) and the time in which the data was created (‘a lot of people' usually is summarised as "10.000 people" in the late Middle-Ages). Text dominantly reflects interpersonal and subjective points of view rather than objective facts. In addition, language is often imprecise or underspecified resulting in another level of subjectivity (for example spatial information is not well captured in language and perceptual values are expressed through scalar and relative words). Even humanities scholars aiming to be objective generally bring their own perspective and view of the past, a text tradition or painting.
 

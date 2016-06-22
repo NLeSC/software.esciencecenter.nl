@@ -1,15 +1,15 @@
 ---
 name: Johannes Hidding
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/noodles
+- /software/noodles
 contributorOf:
-- http://software.esciencecenter.nl/software/pyxenon
-- http://software.esciencecenter.nl/software/noodles
+- /software/pyxenon
+- /software/noodles
 userOf:
-- http://software.esciencecenter.nl/software/pyxenon
-- http://software.esciencecenter.nl/software/noodles
+- /software/pyxenon
+- /software/noodles
 jobTitle: eScience Research Engineer
 photo: https://www.esciencecenter.nl/img/team/johan_hidding_web.jpg
 ---

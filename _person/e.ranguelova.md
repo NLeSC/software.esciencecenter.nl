@@ -1,21 +1,21 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/project/eecology
-- http://software.esciencecenter.nl/project/error-detection-and-error-localization
-- http://software.esciencecenter.nl/software/salient-region-detectors
+- /project/eecology
+- /project/error-detection-and-error-localization
+- /software/salient-region-detectors
 coordinatorOf:
-- http://software.esciencecenter.nl/project/era-urban
-- http://software.esciencecenter.nl/project/eecology
-- http://software.esciencecenter.nl/project/summer-in-the-city
-- http://software.esciencecenter.nl/software/salient-region-detectors
-- http://software.esciencecenter.nl/project/error-detection-and-error-localization
+- /project/era-urban
+- /project/eecology
+- /project/summer-in-the-city
+- /software/salient-region-detectors
+- /project/error-detection-and-error-localization
 engineerOf:
-- http://software.esciencecenter.nl/project/biomarker
+- /project/biomarker
 contributorOf:
-- http://software.esciencecenter.nl/software/salient-region-detectors
-- http://software.esciencecenter.nl/software/pattydata
+- /software/salient-region-detectors
+- /software/pattydata
 githubUrl: https://github.com/elboyran
 jobTitle: eScience Coordinator
 name: Elena Ranguelova

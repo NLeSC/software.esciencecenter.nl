@@ -16,23 +16,23 @@ discipline:
 expertise:
 - Reproducible Research
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
+contactPerson: /person/s.verhoeven
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/vua
 contributor:
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/s.verhoeven
 - name: Ross McGuire
   affiliation:
-  - http://software.esciencecenter.nl/organization/radboud.university.nijmegen
+  - /organization/radboud.university.nijmegen
   linkedInUrl: https://nl.linkedin.com/in/ross-mcguire-71457523
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/vua
 usedIn:
-- http://software.esciencecenter.nl/project/3d-e-chem
+- /project/3d-e-chem
 startDate: 2015-08-05
 status: active
 technologyTag:
@@ -40,7 +40,7 @@ technologyTag:
 - Vagrant
 - Packer
 dependencyOf:
-- http://software.esciencecenter.nl/software/3d-e-chem-vm
+- /software/3d-e-chem-vm
 ---
 Scripts to create a Vagrant box using packer and ansible.
 

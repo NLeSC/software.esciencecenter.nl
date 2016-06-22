@@ -13,20 +13,20 @@ expertise:
 - Linked Data 
 infrastructure: DAS-5
 dataMagnitude: TB
-coordinator: http://software.esciencecenter.nl/person/r.vannieuwpoort
-contactPerson: http://software.esciencecenter.nl/person/r.vannieuwpoort
+coordinator: /person/r.vannieuwpoort
+contactPerson: /person/r.vannieuwpoort
 principalInvestigator:
   - name: Prof. Cees de Laat
     affiliation:
-    - http://software.esciencecenter.nl/organization/uva
+    - /organization/uva
     website: http://delaat.net/
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/vua
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/uva
+- /organization/vua
+- /organization/cwi
+- /organization/nlesc
 engineer:
-- http://software.esciencecenter.nl/person/r.vannieuwpoort
+- /person/r.vannieuwpoort
 startDate: 2013-01-01
 ---
 This project addresses several research challenges in computer science

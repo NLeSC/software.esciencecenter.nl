@@ -17,25 +17,25 @@ dataMagnitude: TB
 dataFormat:
 - JSON
 - XML
-contactPerson: http://software.esciencecenter.nl/person/p.bos
+contactPerson: /person/p.bos
 engineer:
-- http://software.esciencecenter.nl/person/p.bos
+- /person/p.bos
 principalInvestigator:
   - name: Prof. Huub Wijfjes
     affiliation:
-    - http://software.esciencecenter.nl/organization/university.of.groningen
+    - /organization/university.of.groningen
     website: http://www.huubwijfjes.nl/
   - name: Prof. Gerrit Voerman
     affiliation:
-    - http://software.esciencecenter.nl/organization/university.of.groningen
+    - /organization/university.of.groningen
     website: http://www.rug.nl/staff/g.voerman/
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/university.of.groningen
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/surfsara
+- /organization/nlesc
+- /organization/university.of.groningen
+- /organization/uva
+- /organization/surfsara
 uses:
-- http://software.esciencecenter.nl/software/pidilib
+- /software/pidilib
 startDate: 2014-09-01
 endDate: 2016-04-01
 ---

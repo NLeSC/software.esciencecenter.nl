@@ -1,12 +1,12 @@
 ---
 jobTitle: Tech Lead Data Management and Analytics
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/vua
 contributorOf:
-- http://software.esciencecenter.nl/software/rig
+- /software/rig
 coordinatorOf:
-- http://software.esciencecenter.nl/project/simcity
+- /project/simcity
 githubUrl: https://github.com/wrvhage
 nlescWebsite: https://www.esciencecenter.nl/profile/willem-van-hage
 linkedInUrl: https://www.linkedin.com/in/wrvhage

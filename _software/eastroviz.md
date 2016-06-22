@@ -14,18 +14,18 @@ discipline:
 expertise:
 - Handling Sensor Data
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/r.vannieuwpoort
+contactPerson: /person/r.vannieuwpoort
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/r.vannieuwpoort
+- /person/r.vannieuwpoort
 user:
-- http://software.esciencecenter.nl/person/r.vannieuwpoort
+- /person/r.vannieuwpoort
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/astron
+- /organization/nlesc
+- /organization/astron
 usedIn:
-- http://software.esciencecenter.nl/project/beyond-the-data-explosion
+- /project/beyond-the-data-explosion
 startDate: 2013-04-12
 status: active
 dependency:

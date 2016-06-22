@@ -1,6 +1,6 @@
 ---
 contributor:
-- http://software.esciencecenter.nl/person/n.drost
+- /person/n.drost
 name: AMUSE
 tagLine: The Astrophysical Multipurpose Simulation Environment
 website: http://amusecode.org/
@@ -19,15 +19,15 @@ license:
 codeRepository: https://github.com/amusecode/amuse
 discipline:
 - Physics & Beyond
-contactPerson: http://software.esciencecenter.nl/person/n.drost
+contactPerson: /person/n.drost
 status: active
 usedIn:
-- http://software.esciencecenter.nl/project/amuse
-- http://software.esciencecenter.nl/project/abcmuse
+- /project/amuse
+- /project/abcmuse
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 owner:
-- http://software.esciencecenter.nl/organization/leiden-university
+- /organization/leiden-university
 expertise:
 - Distributed Computing
 - Accelerated Computing

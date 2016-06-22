@@ -1,25 +1,25 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/xtas
-- http://software.esciencecenter.nl/project/summer-in-the-city
-- http://software.esciencecenter.nl/project/aa-alert
-- http://software.esciencecenter.nl/software/python-pcl
-- http://software.esciencecenter.nl/software/pattyanalytics
+- /software/xtas
+- /project/summer-in-the-city
+- /project/aa-alert
+- /software/python-pcl
+- /software/pattyanalytics
 contributorOf:
-- http://software.esciencecenter.nl/software/pattyanalytics
-- http://software.esciencecenter.nl/software/python-pcl
+- /software/pattyanalytics
+- /software/python-pcl
 coordinatorOf:
-- http://software.esciencecenter.nl/project/aa-alert
-- http://software.esciencecenter.nl/project/dive-plus
-- http://software.esciencecenter.nl/project/shico
-- http://software.esciencecenter.nl/project/drwatson
-- http://software.esciencecenter.nl/project/beyond-the-book
+- /project/aa-alert
+- /project/dive-plus
+- /project/shico
+- /project/drwatson
+- /project/beyond-the-book
 engineerOf:
-- http://software.esciencecenter.nl/project/summer-in-the-city
-- http://software.esciencecenter.nl/project/aa-alert
-- http://software.esciencecenter.nl/project/viaappia-patty
+- /project/summer-in-the-city
+- /project/aa-alert
+- /project/viaappia-patty
 githubUrl: https://github.com/jiskattema
 jobTitle: eScience Coordinator
 linkedInUrl: https://www.linkedin.com/in/jiskattema

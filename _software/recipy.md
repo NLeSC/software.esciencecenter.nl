@@ -13,23 +13,23 @@ discipline:
 expertise:
 - Reproducible Research
 supportLevel: advanced
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 owner:
 - name: Robin Wilson
   affiliation:
-  - http://software.esciencecenter.nl/organization/uva
+  - /organization/uva
   website: http://www.rtwilson.com
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributor:
 - name: Robin Wilson
   affiliation:
-  - http://software.esciencecenter.nl/organization/uva
+  - /organization/uva
   website: http://www.rtwilson.com
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/j.vanderzwaan
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 startDate: 2015-03-27
 status: active
 technologyTag:
