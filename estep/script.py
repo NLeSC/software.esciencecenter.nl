@@ -24,7 +24,7 @@ import yaml
 from .format import jekyllfile2object, object2jekyll
 from .validate import Validators, EStepValidator, log_error
 from .schema import load_schemas
-from .utils import url_to_path, url_to_collection_name
+from .utils import url_to_path, url_to_collection_name, parse_url
 from .version import __version__
 from . import relationship
 
@@ -82,7 +82,7 @@ class Config(object):
 
 def validate_document(validator, document):
     docid = document['@id']
-    docfn = url_to_path(docid)
+    docfn = url_to_path(parse_url(docid))
 
     errors = list(validator.iter_errors(document))
     nr_errors = len(errors)
@@ -151,18 +151,21 @@ def generate_reciprocal():
         for (url, property_name, value) in missings:
             LOGGER.debug("* Found missing relationship {0}#{1}: {2}".format(url, property_name, value))
             if url not in faulty_docs:
-                path = url_to_path(url)
+                path = url_to_path(parse_url(url))
                 collection_name = url_to_collection_name(url)
                 try:
                     faulty_docs[url] = jekyllfile2object(path, schemaType=collection_name)
                 except IOError:
-                    LOGGER.warning("Cannot read path %s to fix missing relationship %s#%s: %s", path, url, property_name, value)
+                    LOGGER.warning("Cannot read path %s to fix missing "
+                                   "relationship %s#%s: %s", path, url,
+                                   property_name, value)
                     continue
 
             doc = faulty_docs[url]
             schema = schemas[doc['schema']]
 
-            if 'type' in schema['properties'][property_name] and schema['properties'][property_name]['type'] == 'array':
+            if ('type' in schema['properties'][property_name] and
+                    schema['properties'][property_name]['type'] == 'array'):
                 if property_name not in doc:
                     doc[property_name] = []
                 if value not in doc[property_name]:

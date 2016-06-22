@@ -1,7 +1,7 @@
 ---
 involvedIn:
 - http://software.esciencecenter.nl/project/generic-escience-technologies
-- http://software.esciencecenter.nl/projects/computational-chemistry-made-easy
+- http://software.esciencecenter.nl/project/computational-chemistry-made-easy
 - http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
 - http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 - http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
