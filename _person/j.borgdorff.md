@@ -17,7 +17,7 @@ jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/jorisborgdorff
 name: Joris Borgdorff
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-joris-borgdorff
-photo: https://www.esciencecenter.nl/img/team/joris-borgdorff-web.jpg
+photo: /images/person/j.borgdorff.jpg
 researchgateUrl: https://www.researchgate.net/profile/Joris_Borgdorff
 twitterUrl: https://twitter.com/bobbyutreg
 userOf:

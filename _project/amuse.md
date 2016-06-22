@@ -16,7 +16,7 @@ infrastructure: Supercomputer
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/leiden-university
-logo: https://www.esciencecenter.nl/img/projects/1.P020-large.jpg
+logo: /images/project/amuse.jpg
 name: Distributed AMUSE
 nlescWebsite: https://www.esciencecenter.nl/project/amuse
 principalInvestigator:

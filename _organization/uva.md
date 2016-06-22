@@ -9,7 +9,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/eecology
 - http://software.esciencecenter.nl/project/esibayes
 - http://software.esciencecenter.nl/project/idark
-logo: http://static.uva.nl/binaries/content/gallery/logos/p-z/uva-logo_en.jpg
+logo: /images/organization/uva.jpg
 name: University of Amsterdam
 ownerOf:
 - http://software.esciencecenter.nl/software/eecology-annotation

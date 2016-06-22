@@ -18,7 +18,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/tu-delft
 - http://software.esciencecenter.nl/organization/uu
-logo: http://www.esciencecenter.nl/img/projects/1.P011-large.jpg
+logo: /images/project/ewatercycle.jpg
 name: 'eWaterCycle: Data-intensive modeling of the global water cycle'
 nlescWebsite: http://www.esciencecenter.nl/project/ewatercycle
 principalInvestigator:

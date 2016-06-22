@@ -18,7 +18,7 @@ nlescWebsite: https://www.esciencecenter.nl/profile/dr.-ronald-van-haren
 ownerOf:
 - http://software.esciencecenter.nl/software/netcdf2littler
 - http://software.esciencecenter.nl/software/wrfpy
-photo: https://www.esciencecenter.nl/img/team/Ronald-van-Haren-new.jpg
+photo: /images/person/r.vanharen.jpg
 researchgateUrl: https://www.researchgate.net/profile/Ronald_Van_Haren
 userOf:
 - http://software.esciencecenter.nl/software/netcdf2littler

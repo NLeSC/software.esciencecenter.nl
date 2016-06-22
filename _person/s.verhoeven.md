@@ -42,7 +42,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/eecology-annotation
 - http://software.esciencecenter.nl/software/eecology-tracker-calendar
 - http://software.esciencecenter.nl/software/osmium
-photo: https://www.esciencecenter.nl/img/team/stefan-verhoeven-new.jpg
+photo: /images/person/s.verhoeven.jpg
 researchgateUrl: https://www.researchgate.net/profile/Stefan_Verhoeven
 userOf:
 - http://software.esciencecenter.nl/software/xenon

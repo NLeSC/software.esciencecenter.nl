@@ -3,7 +3,6 @@ competence:
 - Big Data Analytics
 contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
 coordinator: http://software.esciencecenter.nl/person/e.ranguelova
-logo: http://www.esciencecenter.nl/img/projects/1.P009-large.jpg
 dataFormat:
 - CSV
 - MATLAB
@@ -24,6 +23,7 @@ infrastructure: Dedicated cluster
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
 - http://software.esciencecenter.nl/organization/nlesc
+logo: /images/project/eecology.jpg
 name: eEcology
 nlescWebsite: https://www.esciencecenter.nl/project/eecology
 principalInvestigator:

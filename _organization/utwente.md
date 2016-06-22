@@ -1,8 +1,8 @@
 ---
-logo: https://www.utwente.nl/repository/utwente/ws2013/img/en/inv-utlogo.png
 involvedIn:
 - http://software.esciencecenter.nl/project/what-works-when-for-whom
 - http://software.esciencecenter.nl/project/improving-photogrammetry
+logo: /images/organization/utwente.png
 name: University of Twente
 website: https://www.utwente.nl/
 ---

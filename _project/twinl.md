@@ -2,7 +2,6 @@
 competence:
 - Big Data Analytics
 contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
-logo: http://www.esciencecenter.nl/img/projects/1.P018-large.jpg
 dataFormat:
 - CSV
 - JSON
@@ -20,6 +19,7 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/radboud.university.nijmegen
 - http://software.esciencecenter.nl/organization/surfsara
+logo: /images/project/twinl.jpg
 name: TwiNL
 nlescWebsite: https://www.esciencecenter.nl/project/twinl
 principalInvestigator:

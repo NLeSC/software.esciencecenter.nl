@@ -27,7 +27,7 @@ jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/niels-drost-664698a
 name: Niels Drost
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-niels-drost
-photo: https://www.esciencecenter.nl/img/team/nielsdrost-new.jpg
+photo: /images/person/n.drost.jpg
 researchgateUrl: https://www.researchgate.net/profile/Niels_Drost
 userOf:
 - http://software.esciencecenter.nl/software/xenon

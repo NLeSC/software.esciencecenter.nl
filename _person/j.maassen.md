@@ -30,7 +30,7 @@ ownerOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/magnesium
 - http://software.esciencecenter.nl/project/sherlock
-photo: https://www.esciencecenter.nl/img/team/jason-maassen-new.jpg
+photo: /images/person/j.maassen.jpg
 researchgateUrl: https://www.researchgate.net/profile/Jason_Maassen
 userOf:
 - http://software.esciencecenter.nl/software/xenon

@@ -37,7 +37,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/shico
 - http://software.esciencecenter.nl/project/beyond-the-book
 linkedInUrl: https://www.linkedin.com/company/netherlands-escience-center
-logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
+logo: /images/organization/nlesc.jpg
 name: Netherlands eScience Center
 organizationOf:
 - http://software.esciencecenter.nl/person/s.verhoeven

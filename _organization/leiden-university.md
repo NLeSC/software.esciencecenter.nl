@@ -3,7 +3,7 @@ involvedIn:
 - http://software.esciencecenter.nl/project/amuse
 - http://software.esciencecenter.nl/project/abcmuse
 linkedInUrl: https://www.linkedin.com/company/leiden-university
-logo: https://www.universiteitleiden.nl/ul2ext/images/zegel.png
+logo: /images/organization/leiden-university.png
 name: Leiden University
 ownerOf:
 - http://software.esciencecenter.nl/software/amuse

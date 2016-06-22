@@ -19,7 +19,7 @@ jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/romulo-goncalves-6999b341
 name: Romulo Goncalves
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-romulo-pereira-goncalves
-photo: http://www.esciencecenter.nl/img/team/Romulo-Pereira-Goncalves-new.jpg
+photo: /images/person/r.goncalves.jpg
 researchgateUrl: https://www.researchgate.net/profile/Romulo_Goncalves
 userOf:
 - http://software.esciencecenter.nl/software/monetdb

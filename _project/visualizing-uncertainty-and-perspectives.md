@@ -1,5 +1,4 @@
 ---
-logo: http://www.esciencecenter.nl/img/projects/1P038-large.jpg
 competence:
 - Big Data Analytics
 contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
@@ -18,6 +17,7 @@ expertise:
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/vua
+logo: /images/project/visualizing-uncertainty-and-perspectives.jpg
 name: Visualizing Uncertainty and Perspectives
 nlescWebsite: https://www.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 principalInvestigator:
