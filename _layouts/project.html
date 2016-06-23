@@ -169,6 +169,7 @@ layout: default
 </ul>
 </div>
 {% endif %}
+
 </div>
 
 <hr/>
@@ -176,3 +177,22 @@ layout: default
 <h1>Description</h1>
 
 {{ page.content }}
+
+{% if page.doi != null %}
+<h2>Publications</h2>
+<ul class="publications">
+{% for d in page.doi %}
+	<li>{% capture pname %}{% endcapture %}
+    <a href="{{ d | replace: site.url,'' }}">
+      {% capture pname %}{{ d }}{% endcapture %}{% for p in site.data.publication %}{% capture urlx %}
+      {{ p['@id'] }}{% endcapture %}
+    {% if urlx contains d %}
+      {% capture pname %}{{ p.bibliography }}{% endcapture %}
+    {% endif %}{% endfor %}
+      {% if pname == "" %}
+      {{ d }}{% else %}{{ pname }}
+      {% endif %}</a>
+      </li>
+{% endfor %}
+</ul>
+{% endif %}

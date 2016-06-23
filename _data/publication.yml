@@ -1,0 +1,20 @@
+- '@id': http://dx.doi.org/10.1002/rcm.6364
+  bibliography: "Ridder, L., van der Hooft, J. J. J., Verhoeven, S., de Vos, R. C.\
+    \ H., van Schaik, R., & Vervoort, J. (2012).  Substructure-based annotation of\
+    \ high-resolution multistage MS  n  spectral trees . Rapid Commun. Mass Spectrom.,\
+    \ 26(20), 2461\xE2\x80\x932471. doi:10.1002/rcm.6364\n"
+  publishedBy:
+  - http://software.esciencecenter.nl/project/emetabolomics
+- '@id': http://dx.doi.org/10.1016/j.daach.2016.03.001
+  bibliography: "De Kleijn, M., de Hond, R., & Martinez-Rubi, O. (2016). A 3D spatial\
+    \ data infrastructure for Mapping the Via Appia. Digital Applications in Archaeology\
+    \ and Cultural Heritage, 3(2), 23\xE2\x80\x9332. doi:10.1016/j.daach.2016.03.001\n"
+  publishedBy:
+  - http://software.esciencecenter.nl/project/viaappia-patty
+- '@id': http://dx.doi.org/10.1021/ac400861a
+  bibliography: "Ridder, L., van der Hooft, J. J. J., Verhoeven, S., de Vos, R. C.\
+    \ H., Bino, R. J., & Vervoort, J. (2013).  Automatic Chemical Structure Annotation\
+    \ of an LC\xE2\x80\x93MS  n  Based Metabolic Profile from Green Tea . Anal. Chem.,\
+    \ 85(12), 6033\xE2\x80\x936040. doi:10.1021/ac400861a\n"
+  publishedBy:
+  - http://software.esciencecenter.nl/project/emetabolomics

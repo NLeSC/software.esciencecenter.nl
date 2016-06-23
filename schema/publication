@@ -1,0 +1,34 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "http://software.esciencecenter.nl/schema/organization",
+	"type": "object",
+	"description": "An organization such as a university, company or foundation.",
+	"properties" : {
+		"schema": {
+			"description": "Fixed property, to validate the JSON object with the current schema.",
+			"type": "string",
+			"format": "uri",
+			"enum": [ "http://software.esciencecenter.nl/schema/organization" ]
+		},
+		"@id" : {
+			"description" : "Digital Object Identifiers (DOI) of publication",
+			"type" : "string",
+			"format" : "uri"
+		},
+		"bibliography" : {
+			"description": "Bibliography as text",
+			"type" : "string"
+		},
+		"publishedBy" : {
+			"description" : "ID of projects that the publication was published by",
+			"type": "array",
+			"items": {
+				"type" : "string",
+				"format" : "uri",
+				"description" : "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics"
+			}
+		}
+	},
+	"required": ["citation", "publishedBy"],
+	"additionalProperties": false
+}

@@ -617,3 +617,19 @@ g.legend text {
     text-decoration: none;
     color: $text-color;
 }   
+
+/*
+ * Publication
+ */
+ul.publications {
+    display: block;
+    list-style: disc outside none;
+}
+
+.publications li {
+    display: list-item;
+}
+
+.publications li:after {
+    content: "";
+}

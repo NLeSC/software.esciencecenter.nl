@@ -202,6 +202,15 @@
 			"description": "Project's official end date.",
 			"type" : "string",
 			"format" : "date-time"
+		},
+		"doi": {
+			"description": "Publications of project as list of Digital Object Identifiers (DOI)",
+			"type": "array",
+			"items": {
+				"description": "URL of DOI (e.g. http://dx.doi.org/10.5281/zenodo.35415).",
+				"type": "string",
+				"format": "uri"
+			}
 		}
 	},
 	"required": ["name"],

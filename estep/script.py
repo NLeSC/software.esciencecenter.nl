@@ -26,6 +26,7 @@ from .validate import Validators, EStepValidator, log_error
 from .schema import load_schemas
 from .utils import url_to_path, url_to_collection_name
 from .version import __version__
+from .publication import generate_publications
 from . import relationship
 
 
@@ -192,6 +193,7 @@ def main(argv=sys.argv[1:]):
     Usage:
       estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
       estep generate reciprocal [--local] [-v | -vv]
+      estep generate publications [-v | -vv]
 
     Options:
       -h, --help                     Show this screen.
@@ -222,9 +224,14 @@ def main(argv=sys.argv[1:]):
                  path=arguments['<file>'],
                  schema_type=arguments['<schema_type>'],
                  )
-    elif arguments['generate'] and arguments['reciprocal']:
-        schemadir = None
-        if arguments['--local']:
-            schemadir = 'schema'
-        generate_reciprocal(schemadir=schemadir,
-                            )
+    elif arguments['generate']:
+        if arguments['reciprocal']:
+            schemadir = None
+            if arguments['--local']:
+                schemadir = 'schema'
+            generate_reciprocal(schemadir=schemadir,
+                                )
+        elif arguments['publications']:
+            project_collection = [c for c in Config().collections() if c.name == 'project'][0]
+            projects = project_collection.documents()
+            generate_publications(projects)

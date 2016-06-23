@@ -50,6 +50,8 @@ uses:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/potreeconverter
 - http://software.esciencecenter.nl/software/python-pcl
+doi:
+- http://dx.doi.org/10.1016/j.daach.2016.03.001
 ---
 The "Mapping the Via Appia" project aims at a thorough inventory and analysis of the Roman interventions in this suburban landscape. The research focuses on a section of two kilometers that covers parts of the fifth and sixth miles of the Via Appia, supplemented with a research area that covers the hinterland as far as nearly one kilometer northeast and about 2.5 kilometers southwest of the road. Based on the physical remains in combination with historical sources, archaeologists aim to reconstruct the functioning of the road in antiquity. The study area contains more than 2000 archaeological objects directly alongside the road. The biggest difficulty for the archaeologists is that the archaeological remains are scattered alongside the road and often not in situ.
 
