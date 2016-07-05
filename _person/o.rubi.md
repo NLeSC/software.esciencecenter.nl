@@ -10,6 +10,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/software/massivepotreeconverter
 - http://software.esciencecenter.nl/software/pattydata
 - http://software.esciencecenter.nl/software/micmac
+- http://software.esciencecenter.nl/software/liblas
 contributorOf:
 - http://software.esciencecenter.nl/software/rig
 - http://software.esciencecenter.nl/software/pattydata
@@ -20,6 +21,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
 - http://software.esciencecenter.nl/software/micmac
 - http://software.esciencecenter.nl/software/pattyvis
+- http://software.esciencecenter.nl/software/liblas
 engineerOf:
 - http://software.esciencecenter.nl/project/aa-alert
 - http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
@@ -46,6 +48,7 @@ userOf:
 - http://software.esciencecenter.nl/software/micmac
 - http://software.esciencecenter.nl/software/noodles
 - http://software.esciencecenter.nl/software/python-pcl
+- http://software.esciencecenter.nl/software/liblas
 ---
 Oscar did Telecommunications Engineering in the Polytechnic University of Catalonia (UPC) in Barcelona. Later on, he obtained a Master's degree in Astrophysics, focusing in software engineering challenges in astronomical projects.
 
