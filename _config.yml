@@ -34,13 +34,13 @@ keep_files:
 permalink: pretty
 collections:
   software:
-    output: true
+    output: false
   project:
-    output: true
+    output: false
   person:
-    output: true
+    output: false
   organization:
-    output: true
+    output: false
 #  publication:
 #    output: true
   report:
