@@ -21,6 +21,14 @@ from .utils import retrying_http_session
 LOGGER = logging.getLogger('estep')
 
 
+def fetch_csljson(doi):
+    headers = {'Accept': 'application/vnd.citationstyles.csl+json'}
+    http_session = retrying_http_session()
+    response = http_session.get(doi, headers=headers)
+    response.raise_for_status()
+    return response.json()
+
+
 def fetch_bibliography(doi):
     style = 'ieee-with-url'
     style = 'apa'
@@ -51,6 +59,14 @@ def generate_publications(projects, publications_fn='_data/publication.yml'):
                 else:
                     dois[doi] = [project['@id']]
 
+    projectless_dois_fn = '_data/dois.projectless.yml'
+    with open(projectless_dois_fn) as f:
+        projectless_dois = yaml.load(f)
+        for doi in projectless_dois:
+            if doi in dois:
+                raise Exception('Duplicate doi detected: {0}'.format(doi))
+            dois[doi] = []
+
     # keep publication which are in projects and for which the bibliography has already been fetched
     # to force bibliography fetching remove the `publications_fn` file.
     publications = []
@@ -69,12 +85,13 @@ def generate_publications(projects, publications_fn='_data/publication.yml'):
         LOGGER.info('Fetching bibliography of {0}'.format(doi))
         publication = {
             '@id': doi,
+            'schema': 'http://software.esciencecenter.nl/schema/publication',
             'bibliography': fetch_bibliography(doi),
             'publishedBy': dois[doi],
+            'csl': fetch_csljson(doi),
         }
         publications.append(publication)
 
     # write publications
     with open(publications_fn, 'w') as fn:
         yaml.safe_dump(publications, fn, default_flow_style=False)
-

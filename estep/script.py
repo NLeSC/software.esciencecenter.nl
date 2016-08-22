@@ -189,6 +189,7 @@ def main(argv=sys.argv[1:]):
     Available commands:
       validate                Validates content.
       generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
+      generate publications   For all dois in projects will fetch meta data and generate the _data/publications.yml file.
 
     Usage:
       estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]

@@ -1,14 +1,14 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "http://software.esciencecenter.nl/schema/organization",
+	"id": "http://software.esciencecenter.nl/schema/publication",
 	"type": "object",
-	"description": "An organization such as a university, company or foundation.",
+	"description": "An publication such as a journal article.",
 	"properties" : {
 		"schema": {
 			"description": "Fixed property, to validate the JSON object with the current schema.",
 			"type": "string",
 			"format": "uri",
-			"enum": [ "http://software.esciencecenter.nl/schema/organization" ]
+			"enum": [ "http://software.esciencecenter.nl/schema/publication" ]
 		},
 		"@id" : {
 			"description" : "Digital Object Identifiers (DOI) of publication",
@@ -27,8 +27,14 @@
 				"format" : "uri",
 				"description" : "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics"
 			}
+		},
+		"csl": {
+		  "type": "object",
+			"description": "CSL json object of doi. Retrieved using `curl http://data.crossref.org/10.1016/j.daach.2016.03.001 -H 'Accept:application/vnd.citationstyles.csl+json'`. Incomplete schema at https://github.com/citation-style-language/schema/raw/master/csl-data.json#items",
+			"additionalProperties": true,
+			"required": ["title", "type", "container-title", "author"]
 		}
 	},
-	"required": ["citation", "publishedBy"],
+	"required": ["citation", "publishedBy", "csl"],
 	"additionalProperties": false
 }
