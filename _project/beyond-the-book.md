@@ -30,6 +30,8 @@ principalInvestigator:
 tagLine: How international is a work of fiction?
 uses:
 website:
+doi:
+- http://dx.doi.org/10.1109/eScience.2015.12
 ---
 # Visualizing the level of international readability of works of fiction
 

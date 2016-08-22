@@ -34,6 +34,8 @@ uses:
 - http://software.esciencecenter.nl/software/heem-dataset
 startDate: 2015-03-01
 endDate: 2015-06-30
+doi:
+- http://dx.doi.org/10.1109/eScience.2015.18
 ---
 
 The goals of the project were to develop a methodology to identify changes

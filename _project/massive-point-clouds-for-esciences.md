@@ -25,6 +25,9 @@ uses:
 - http://software.esciencecenter.nl/software/massivepotreeconverter
 - http://software.esciencecenter.nl/software/ahn2webviewer
 - http://software.esciencecenter.nl/software/potree
+doi:
+- http://dx.doi.org/10.14778/2824032.2824110
+- http://dx.doi.org/10.1016/j.cag.2015.01.007
 ---
 We are witnessing an increased significance of point clouds for societal and scientific applications, such as in smart cities, 3D urban modeling, flood modeling, dike monitoring, forest mapping, and digital object preservation in history and art. Modern Big Data acquisition technologies, such as laser scanning from airborne, mobile, or static platforms, dense image matching from photos, or multi-beam echo-sounding, have the potential to generate point clouds with billions (or even trillions) of elevation/depth points. One example is the height map of the Netherlands (the  AHN2 dataset), which consists of no less than 640.000.000.000 height values.
 
