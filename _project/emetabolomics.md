@@ -38,7 +38,7 @@ uses:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/magma
 website: http://www.emetabolomics.org
-doi:
+publication:
 - http://dx.doi.org/10.1002/rcm.6364
 - http://dx.doi.org/10.1021/ac400861a
 ---

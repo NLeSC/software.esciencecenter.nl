@@ -50,7 +50,7 @@ uses:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/potreeconverter
 - http://software.esciencecenter.nl/software/python-pcl
-doi:
+publication:
 - http://dx.doi.org/10.1016/j.daach.2016.03.001
 - http://dx.doi.org/10.1080/17538947.2016.1205673
 ---

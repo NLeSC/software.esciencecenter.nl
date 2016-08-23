@@ -13,9 +13,13 @@
 # limitations under the License.
 
 from __future__ import print_function
+from datetime import datetime
+from os.path import isfile
 import logging
+from six.moves.urllib.parse import urlparse
 import yaml
 
+from .format import object2jekyll
 from .utils import retrying_http_session
 
 LOGGER = logging.getLogger('estep')
@@ -39,81 +43,53 @@ def fetch_bibliography(doi):
     return response.text
 
 
-def generate_publications(projects, publications_fn='_data/publication.yml'):
-    # load existing publications
-    orig_publications = []
+def doi2fn(doi, collection_dir='_publication'):
+    fn = urlparse(doi).path.lstrip('/').replace('/', '_')
+    return '{0}/{1}.md'.format(collection_dir, fn)
+
+
+def issued(csl):
+    date_parts = csl['issued']['date-parts'][0]
+    year = date_parts[0]
     try:
-        with open(publications_fn, 'r') as fn:
-            orig_publications = yaml.load(fn)
-    except IOError:
-        pass
+        month = date_parts[1]
+    except IndexError:
+        month = 1
+    try:
+        day = date_parts[2]
+    except IndexError:
+        day = 1
 
-    # dois of projects
-    dois = {}
-    for docname, project in projects:
-        if 'doi' in project:
-            project_dois = project['doi']
-            for doi in project_dois:
-                if doi in dois:
-                    dois[doi].append(project['@id'])
-                else:
-                    dois[doi] = [project['@id']]
-
-    projectless_dois_fn = '_data/dois.projectless.yml'
-    with open(projectless_dois_fn) as f:
-        projectless_dois = yaml.load(f)
-        for doi in projectless_dois:
-            if doi in dois:
-                raise Exception('Duplicate doi detected: {0}'.format(doi))
-            dois[doi] = []
-
-    # keep publication which are in projects and for which the bibliography has already been fetched
-    # to force bibliography fetching remove the `publications_fn` file.
-    publications = []
-    fetched_dois = set()
-    for publication in orig_publications:
-        doi = publication['@id']
-        if doi in dois:
-            LOGGER.debug('Not fetching bibliography of {0}, has already been fetched'.format(doi))
-            publication['publishedBy'] = dois[doi]
-            publications.append(publication)
-            fetched_dois.add(publication['@id'])
-
-    # fetch missing bibliographys
-    dois_of_missing_bibliographys = set(dois.keys()) - fetched_dois
-    for doi in dois_of_missing_bibliographys:
-        LOGGER.info('Fetching bibliography of {0}'.format(doi))
-        publication = {
-            '@id': doi,
-            'schema': 'http://software.esciencecenter.nl/schema/publication',
-            'bibliography': fetch_bibliography(doi),
-            'publishedBy': dois[doi],
-            'csl': fetch_csljson(doi),
-        }
-        publications.append(publication)
-
-    # write publications
-    with open(publications_fn, 'w') as fn:
-        yaml.safe_dump(publications, fn, default_flow_style=False)
+    dt = datetime(year, month, day)
+    return dt.isoformat()
 
 
-def doi2fn(doi):
-    # TODO implement
-    fn = doi
-    return '_publication/{0}.md'.format(fn)
+def docs_with_doi(doi, docs):
+    """look in document list for doi fields
+    and return project ids with the given doi
+    """
+    return [p[1]['@id'] for p in docs if 'doi' in p[1] and doi in p[1]['doi']]
 
-def generate_publication(doi, endorser, project):
-    publications_fn = doi2fn(doi)
+
+def generate_publication(doi, endorsers, projects, docs):
+    publication_fn = doi2fn(doi)
+    if isfile(publication_fn):
+        raise IOError(1, '`{0}` file already exists, remove it before regeneration'.format(publication_fn), publication_fn)
+
+    uniq_projects = set(projects) | set(docs_with_doi(doi, docs))
+
     csl = fetch_csljson(doi)
-    bib = fetch_bibliography(doi)
-
     publication = {
         '@id': doi,
-        'bibliography': fetch_bibliography(doi),
-        'publishedBy': project,
-        'inGroup': endorser,
+        'description': fetch_bibliography(doi),
+        'authoredBy': list(uniq_projects),
+        'inGroup': endorsers,
+        'publishedIn': csl['container-title'],
+        'type': csl['type'],
+        'date': issued(csl),
     }
+    publication_md = object2jekyll(publication, 'description', dump_id=True)
 
-    # write publications
-    with open(publications_fn, 'w') as fn:
-        yaml.safe_dump(publication, fn, default_flow_style=False)
+    logging.info('Writing {0}'.format(publication_fn))
+    with open(publication_fn, 'w') as fn:
+        fn.write(publication_md)

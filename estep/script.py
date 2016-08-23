@@ -26,7 +26,7 @@ from .validate import Validators, EStepValidator, log_error
 from .schema import load_schemas
 from .utils import url_to_path, url_to_collection_name
 from .version import __version__
-from .publication import generate_publications
+from .publication import generate_publication
 from . import relationship
 
 
@@ -194,7 +194,7 @@ def main(argv=sys.argv[1:]):
     Usage:
       estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
       estep generate reciprocal [--local] [-v | -vv]
-      estep generate publication [-v | -vv] [--endorser=<endorser>] [--project=<project>] <doi>
+      estep generate publication [-v | -vv] [--endorser=<endorser>]... [--project=<project>]... <doi>
 
     Options:
       -h, --help                     Show this screen.
@@ -203,11 +203,11 @@ def main(argv=sys.argv[1:]):
       -R, --no-local-resolve         Do not resolve local URLs
       -r, --resolve                  Resolve remote URLs
       --resolve-cache-expire=<days>  Timeout in days after the resolve cache expires, use 0 to disable cache [default: 14].
-      --endorser                     Endorser of publication [default: NLeSC].
-      --project                      Project responsible for publication. Format is an url like http://software.esciencecenter.nl/project/eMetabolomics
+      --endorser=<endorser>          Endorser of publication [default: NLeSC].
+      --project=<project>            Project responsible for publication. Format is an url like http://software.esciencecenter.nl/project/eMetabolomics
       <schema_type>                  One of (person, software, organization, project)
       <file>                         Single file to validate
-      <doi>                          Doi of publication. Format is an url like http://dx.doi.org/10.1002/rcm.6364
+      <doi>                          DOI of publication. Format is an url like http://dx.doi.org/10.1002/rcm.6364
     """
     arguments = docopt(main.__doc__, argv, version=__version__)
 
@@ -236,4 +236,9 @@ def main(argv=sys.argv[1:]):
             generate_reciprocal(schemadir=schemadir,
                                 )
         elif arguments['publication']:
-            generate_publication(arguments['<doi>'], endorser=arguments['<endorser>'], project=arguments['<project>'])
+            project_collection = [c for c in Config().collections() if c.name == 'project'][0]
+            generate_publication(arguments['<doi>'],
+                                 endorsers=arguments['--endorser'],
+                                 projects=arguments['--project'],
+                                 docs=project_collection.documents(),
+                                 )

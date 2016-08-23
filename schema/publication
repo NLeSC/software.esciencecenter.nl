@@ -1,40 +1,64 @@
 {
-	"$schema": "http://json-schema.org/draft-04/schema#",
-	"id": "http://software.esciencecenter.nl/schema/publication",
-	"type": "object",
-	"description": "An publication such as a journal article.",
-	"properties" : {
-		"schema": {
-			"description": "Fixed property, to validate the JSON object with the current schema.",
-			"type": "string",
-			"format": "uri",
-			"enum": [ "http://software.esciencecenter.nl/schema/publication" ]
-		},
-		"@id" : {
-			"description" : "Digital Object Identifiers (DOI) of publication",
-			"type" : "string",
-			"format" : "uri"
-		},
-		"bibliography" : {
-			"description": "Bibliography as text",
-			"type" : "string"
-		},
-		"publishedBy" : {
-			"description" : "ID of projects that the publication was published by",
-			"type": "array",
-			"items": {
-				"type" : "string",
-				"format" : "uri",
-				"description" : "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics"
-			}
-		},
-		"csl": {
-		  "type": "object",
-			"description": "CSL json object of doi. Retrieved using `curl http://data.crossref.org/10.1016/j.daach.2016.03.001 -H 'Accept:application/vnd.citationstyles.csl+json'`. Incomplete schema at https://github.com/citation-style-language/schema/raw/master/csl-data.json#items",
-			"additionalProperties": true,
-			"required": ["title", "type", "container-title", "author"]
-		}
-	},
-	"required": ["citation", "publishedBy", "csl"],
-	"additionalProperties": false
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "http://software.esciencecenter.nl/schema/publication",
+    "type": "object",
+    "description": "An publication such as a journal article.",
+    "properties" : {
+        "schema": {
+            "description": "Fixed property, to validate the JSON object with the current schema.",
+            "type": "string",
+            "format": "uri",
+            "enum": [ "http://software.esciencecenter.nl/schema/publication" ]
+        },
+        "@id" : {
+            "description" : "Digital Object Identifiers (DOI) of publication",
+            "type" : "string",
+            "format" : "uri"
+        },
+        "doi" : {
+            "description" : "Digital Object Identifiers (DOI) of publication",
+            "type" : "string",
+            "format" : "uri"
+        },
+        "description" : {
+            "description": "Bibliography as text",
+            "type" : "string"
+        },
+        "inGroup" : {
+            "description": "Organizations that endorse this entry, e.g. software made by, owned by, or used by the this organization; person employed by this organization; publication written at an organization. Used for grouping items on the website per organization.",
+            "type": "array",
+            "items": {
+                "description" : "Tag of the group, e.g., NLeSC, for use in the website.",
+                "type" : "string"
+            }
+        },
+        "author" : {
+            "description" : "ID of projects that are responsible for the publication.",
+            "type": "array",
+            "items": {
+                "type" : "string",
+                "format" : "uri",
+                "description" : "ID of a project, preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics"
+            }
+        },
+        "type": {
+            "description": "Type of citation. In Citation Style Language (CSL) it is the `type` field.",
+            "type": "string",
+            "enum": [
+                "proceedings-article",
+                "journal-article"
+            ]
+        },
+        "publishedIn": {
+            "description": "Title of the container holding the item (e.g. the book title for a book chapter, the journal title for a journal article). In Citation Style Language (CSL) it is the `container-title` field.",
+            "type": "string"
+        },
+        "date": {
+            "description": "Date the item was issued/published. In Citation Style Language (CSL) it is the `issued` field.",
+            "type": "string",
+            "format": "date-time"
+        }
+    },
+    "required": ["@id", "schema", "description", "inGroup", "author", "date"],
+    "additionalProperties": false
 }

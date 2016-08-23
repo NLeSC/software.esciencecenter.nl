@@ -25,7 +25,7 @@ uses:
 - http://software.esciencecenter.nl/software/massivepotreeconverter
 - http://software.esciencecenter.nl/software/ahn2webviewer
 - http://software.esciencecenter.nl/software/potree
-doi:
+publication:
 - http://dx.doi.org/10.14778/2824032.2824110
 - http://dx.doi.org/10.1016/j.cag.2015.01.007
 ---

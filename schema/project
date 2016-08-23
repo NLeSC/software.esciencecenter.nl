@@ -203,11 +203,11 @@
 			"type" : "string",
 			"format" : "date-time"
 		},
-		"doi": {
-			"description": "Publications of project as list of Digital Object Identifiers (DOI)",
+		"publication": {
+			"description": "Publications of project as a list of Digital Object Identifiers (DOI)",
 			"type": "array",
 			"items": {
-				"description": "URL of DOI (e.g. http://dx.doi.org/10.5281/zenodo.35415).",
+				"description": "URL of DOI (e.g. http://dx.doi.org/10.5281/zenodo.35415). Should also be available as Markdown file in `_publication/` directory.",
 				"type": "string",
 				"format": "uri"
 			}
