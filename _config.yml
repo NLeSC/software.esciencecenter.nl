@@ -23,6 +23,11 @@ json_excludes:
 - content  # renamed to 'description'
 - url  # renamed to '@id'
 - collection
+- ext
+- draft
+- excerpt
+- tags
+- categories
 
 # Build settings
 markdown: kramdown
