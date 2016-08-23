@@ -189,12 +189,12 @@ def main(argv=sys.argv[1:]):
     Available commands:
       validate                Validates content.
       generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
-      generate publications   For all dois in projects will fetch meta data and generate the _data/publications.yml file.
+      generate publication    Generates publication Markdown file in _publication/ directory.
 
     Usage:
       estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
       estep generate reciprocal [--local] [-v | -vv]
-      estep generate publications [-v | -vv]
+      estep generate publication [-v | -vv] [--endorser=<endorser>] [--project=<project>] <doi>
 
     Options:
       -h, --help                     Show this screen.
@@ -203,8 +203,11 @@ def main(argv=sys.argv[1:]):
       -R, --no-local-resolve         Do not resolve local URLs
       -r, --resolve                  Resolve remote URLs
       --resolve-cache-expire=<days>  Timeout in days after the resolve cache expires, use 0 to disable cache [default: 14].
+      --endorser                     Endorser of publication [default: NLeSC].
+      --project                      Project responsible for publication. Format is an url like http://software.esciencecenter.nl/project/eMetabolomics
       <schema_type>                  One of (person, software, organization, project)
       <file>                         Single file to validate
+      <doi>                          Doi of publication. Format is an url like http://dx.doi.org/10.1002/rcm.6364
     """
     arguments = docopt(main.__doc__, argv, version=__version__)
 
@@ -232,7 +235,5 @@ def main(argv=sys.argv[1:]):
                 schemadir = 'schema'
             generate_reciprocal(schemadir=schemadir,
                                 )
-        elif arguments['publications']:
-            project_collection = [c for c in Config().collections() if c.name == 'project'][0]
-            projects = project_collection.documents()
-            generate_publications(projects)
+        elif arguments['publication']:
+            generate_publication(arguments['<doi>'], endorser=arguments['<endorser>'], project=arguments['<project>'])

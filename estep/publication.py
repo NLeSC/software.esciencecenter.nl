@@ -95,3 +95,25 @@ def generate_publications(projects, publications_fn='_data/publication.yml'):
     # write publications
     with open(publications_fn, 'w') as fn:
         yaml.safe_dump(publications, fn, default_flow_style=False)
+
+
+def doi2fn(doi):
+    # TODO implement
+    fn = doi
+    return '_publication/{0}.md'.format(fn)
+
+def generate_publication(doi, endorser, project):
+    publications_fn = doi2fn(doi)
+    csl = fetch_csljson(doi)
+    bib = fetch_bibliography(doi)
+
+    publication = {
+        '@id': doi,
+        'bibliography': fetch_bibliography(doi),
+        'publishedBy': project,
+        'inGroup': endorser,
+    }
+
+    # write publications
+    with open(publications_fn, 'w') as fn:
+        yaml.safe_dump(publication, fn, default_flow_style=False)
