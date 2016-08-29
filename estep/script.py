@@ -156,7 +156,8 @@ def generate_reciprocal(schemadir):
                 try:
                     faulty_docs[url] = jekyllfile2object(path, schemaType=collection_name)
                 except IOError:
-                    LOGGER.warning("Cannot read path %s to fix missing relationship %s#%s: %s", path, url, property_name, value)
+                    LOGGER.warning("Cannot read path %s to fix missing relationship %s#%s: %s", path, url,
+                                   property_name, value)
                     continue
 
             doc = faulty_docs[url]
@@ -181,6 +182,20 @@ def generate_reciprocal(schemadir):
         LOGGER.warning('Everything is OK, no missing relationships found')
 
 
+def sort_document_properties():
+    """ Regenerate all files, causes the attributes to be sorted. This reduces merge conflicts. """
+    config = Config()
+
+    LOGGER.info('Parsing documents')
+    for collection in config.collections():
+        LOGGER.info('Collection: %s', collection.name)
+        for path, document in collection.documents():
+            LOGGER.info("Writing fixed file %s", path)
+            with codecs.open(path, encoding='utf-8', mode='w') as f:
+                f.write(object2jekyll(document, 'description'))
+    LOGGER.warning('Done')
+
+
 def main(argv=sys.argv[1:]):
     """
     Utility for estep website.
@@ -191,7 +206,7 @@ def main(argv=sys.argv[1:]):
 
     Usage:
       estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
-      estep generate reciprocal [--local] [-v | -vv]
+      estep generate (reciprocal|sort) [--local] [-v | -vv]
 
     Options:
       -h, --help                     Show this screen.
@@ -222,9 +237,12 @@ def main(argv=sys.argv[1:]):
                  path=arguments['<file>'],
                  schema_type=arguments['<schema_type>'],
                  )
-    elif arguments['generate'] and arguments['reciprocal']:
-        schemadir = None
-        if arguments['--local']:
-            schemadir = 'schema'
-        generate_reciprocal(schemadir=schemadir,
-                            )
+    elif arguments['generate']:
+        if arguments['sort']:
+            sort_document_properties()
+        elif arguments['reciprocal']:
+            schemadir = None
+            if arguments['--local']:
+                schemadir = 'schema'
+            generate_reciprocal(schemadir=schemadir,
+                                )
