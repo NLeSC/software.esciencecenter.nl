@@ -1,7 +1,7 @@
 ---
 codeRepository: https://github.com/NLeSC/pyxenon
 competence:
-- Optimized Data Handling
+- Efficient Computing
 contactPerson: http://software.esciencecenter.nl/person/j.borgdorff
 contributor:
 - http://software.esciencecenter.nl/person/j.borgdorff
