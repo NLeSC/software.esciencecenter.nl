@@ -11,6 +11,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/osmium
 - http://software.esciencecenter.nl/software/pattyanalytics
 - http://software.esciencecenter.nl/software/python-pcl
+- http://software.esciencecenter.nl/software/common-sense
 - http://software.esciencecenter.nl/software/picas
 engineerOf:
 - http://software.esciencecenter.nl/project/simcity
