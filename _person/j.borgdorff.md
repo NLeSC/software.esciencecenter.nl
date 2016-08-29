@@ -4,6 +4,7 @@ affiliation:
 contactPersonOf:
 - http://software.esciencecenter.nl/software/pyxenon
 - http://software.esciencecenter.nl/project/simcity
+- http://software.esciencecenter.nl/software/picas
 contributorOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/pyxenon
@@ -11,6 +12,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/pattyanalytics
 - http://software.esciencecenter.nl/software/python-pcl
 - http://software.esciencecenter.nl/software/common-sense
+- http://software.esciencecenter.nl/software/picas
 engineerOf:
 - http://software.esciencecenter.nl/project/simcity
 githubUrl: https://github.com/blootsvoets
@@ -24,6 +26,7 @@ twitterUrl: https://twitter.com/bobbyutreg
 userOf:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/pyxenon
+- http://software.esciencecenter.nl/software/picas
 website: http://www.jorisborgdorff.nl/
 ---
 Joris studied mathematics and computer science at Utrecht University. He did his PhD on distributed multiscale computing at the University of Amsterdam in the Computational Science Lab. His thesis ranges from multiscale modeling methodology to the performance of distributed multiscale simulations; its application ranges from biomedical research to the simulation of fusion plasma physics. It also resulted in the public domain distributed multiscale simulation runtime environment MUSCLE 2. Because the research was embedded in the European MAPPER project, the formalisms and software found uptake in several application domains and grid middleware.

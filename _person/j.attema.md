@@ -16,6 +16,7 @@ coordinatorOf:
 - http://software.esciencecenter.nl/project/shico
 - http://software.esciencecenter.nl/project/drwatson
 - http://software.esciencecenter.nl/project/beyond-the-book
+- http://software.esciencecenter.nl/project/pidimehs
 engineerOf:
 - http://software.esciencecenter.nl/project/summer-in-the-city
 - http://software.esciencecenter.nl/project/aa-alert
