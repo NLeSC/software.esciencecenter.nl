@@ -22,6 +22,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: PattyVis
+inGroup:
+- NLeSC
 programmingLanguage:
 - JavaScript
 startDate: 2013-01-01

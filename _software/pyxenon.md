@@ -23,6 +23,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: pyxenon
+inGroup:
+- NLeSC
 owner:
 - /organization/nlesc
 programmingLanguage:

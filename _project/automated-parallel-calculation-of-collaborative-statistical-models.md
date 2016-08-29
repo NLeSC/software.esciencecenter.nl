@@ -1,5 +1,7 @@
 ---
 name: Automated Parallel Calculation of Collaborative Statistical Models
+inGroup:
+- NLeSC
 tagLine: Looking for unconfirmed or unknown fundamental physics
 nlescWebsite: https://www.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
 logo: http://www.esciencecenter.nl/img/projects/p57-large.jpg

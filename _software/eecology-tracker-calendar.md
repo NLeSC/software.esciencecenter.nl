@@ -17,6 +17,8 @@ involvedOrganization:
 - /organization/uva
 - /organization/surfsara
 name: eEcology Tracker calendar
+inGroup:
+- NLeSC
 license:
 - apache-2.0
 owner:

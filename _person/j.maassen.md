@@ -25,6 +25,9 @@ githubUrl: https://github.com/jmaassen
 jobTitle: Technology Lead Efficient Computing
 linkedInUrl: https://nl.linkedin.com/in/jason-maassen-6795ba4
 name: Jason Maassen
+email: j.maassen@esciencecenter.nl
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-jason-maassen
 ownerOf:
 - /software/xenon

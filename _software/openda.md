@@ -2,6 +2,8 @@
 contributor:
 - /person/n.drost
 name: OpenDA
+inGroup:
+- NLeSC
 tagLine: Data Assimilation Toolbox
 usedIn:
 - /project/ewatercycle

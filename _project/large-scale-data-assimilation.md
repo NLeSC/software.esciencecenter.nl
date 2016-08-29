@@ -1,5 +1,7 @@
 ---
 name: Large Scale Data Assimilation
+inGroup:
+- NLeSC
 tagLine: Handling data assimilation on a large scale
 nlescWebsite: https://www.esciencecenter.nl/project/large-scale-data-assimilation
 logo: https://www.esciencecenter.nl/img/projects/1P045-large.jpg

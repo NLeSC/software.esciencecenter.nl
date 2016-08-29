@@ -16,6 +16,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: metrochart.js
+inGroup:
+- NLeSC
 owner:
 - /organization/nlesc
 programmingLanguage:

@@ -2,6 +2,8 @@
 contributor:
 - /person/n.drost
 name: AMUSE
+inGroup:
+- NLeSC
 tagLine: The Astrophysical Multipurpose Simulation Environment
 website: http://amusecode.org/
 documentationUrl: http://amusecode.org/doc/

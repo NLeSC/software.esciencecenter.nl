@@ -1,5 +1,7 @@
 ---
 name: ODEX4all
+inGroup:
+- NLeSC
 tagLine: 'ODEX4all: Open discovery and exchange for all'
 nlescWebsite: https://www.esciencecenter.nl/project/odex4all
 website:

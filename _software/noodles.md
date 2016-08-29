@@ -25,6 +25,8 @@ involvedOrganization:
 license:
 - lgpl-3.0
 name: Noodles
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/technology/software/noodles
 owner:
 - /organization/nlesc

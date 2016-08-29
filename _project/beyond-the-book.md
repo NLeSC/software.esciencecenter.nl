@@ -18,6 +18,8 @@ involvedOrganization:
 - /organization/huygens
 - /organization/nlesc
 name: Beyond the Book
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/beyond-the-book
 principalInvestigator:
 - affiliation:

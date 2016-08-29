@@ -18,6 +18,9 @@ githubUrl: https://github.com/egpbos
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/egpbos
 name: Patrick Bos
+email: p.bos@esciencecenter.nl
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/patrick-bos-msc
 photo: https://www.esciencecenter.nl/img/team/patrick-bos-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/E_G_Patrick_Bos

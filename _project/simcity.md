@@ -27,6 +27,8 @@ involvedOrganization:
 - /organization/uva
 logo: https://www.esciencecenter.nl/img/projects/1.P014-small.jpg
 name: SIM-CITY
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/sim-city
 principalInvestigator:
 - affiliation:

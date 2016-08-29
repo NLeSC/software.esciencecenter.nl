@@ -18,6 +18,8 @@ involvedOrganization:
 license:
 - bsd-2-clause
 name: Massive-PotreeConverter
+inGroup:
+- NLeSC
 programmingLanguage:
 - Python
 startDate: 2011-01-01

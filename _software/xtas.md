@@ -19,6 +19,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: xtas
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/technology/software/xtas
 owner:
 - /organization/nlesc

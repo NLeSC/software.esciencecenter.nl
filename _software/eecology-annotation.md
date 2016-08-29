@@ -23,6 +23,8 @@ involvedOrganization:
 - /organization/uva
 - /organization/surfsara
 name: eEcology Annotation Tool
+inGroup:
+- NLeSC
 owner:
 - /organization/nlesc
 - /organization/uva

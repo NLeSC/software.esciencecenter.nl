@@ -1,5 +1,7 @@
 ---
 name: CClusTera
+inGroup:
+- NLeSC
 tagLine: A 3D web tool for interactive visualization of hierarchically clustered big data
 codeRepository: http://github.com/NLeSC/CClusTera
 programmingLanguage:

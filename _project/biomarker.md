@@ -1,5 +1,7 @@
 ---
 name: biomarker
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/biomarker-boosting
 logo: https://www.esciencecenter.nl/img/projects/1.P008-large.jpg
 coordinator: /person/r.vannieuwpoort

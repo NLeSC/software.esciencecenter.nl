@@ -14,6 +14,8 @@ involvedOrganization:
 - /organization/potree
 logo: http://www.esciencecenter.nl/img/projects/1.P017-large.jpg
 name: Massive Point Clouds for eSciences
+inGroup:
+- NLeSC
 tagLine: Massive Point-Clouds for eSciences
 uses:
 - /software/monetdb

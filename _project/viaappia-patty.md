@@ -30,6 +30,8 @@ involvedOrganization:
 - /organization/knir
 - /organization/potree
 name: Mapping the Via Appia in 3D
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/mapping-the-via-appia-in-3d
 logo: https://www.esciencecenter.nl/img/projects/1.P024-large.jpg
 principalInvestigator:

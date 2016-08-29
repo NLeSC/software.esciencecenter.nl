@@ -1,5 +1,7 @@
 ---
 name: iDark
+inGroup:
+- NLeSC
 tagLine: Project combines the worldwide data within the most general models of Dark Matter. 
 nlescWebsite: http://www.esciencecenter.nl/project/idark
 logo: http://www.esciencecenter.nl/img/projects/p63-large.jpg

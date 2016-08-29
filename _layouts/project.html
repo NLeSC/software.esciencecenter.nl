@@ -99,7 +99,7 @@ layout: default
 {% capture d %}{{ page.contactPerson }}{% endcapture %}
 {% capture pname %}{% endcapture %}
 {% if d contains site.url or d | slice: 0, 1 == "/" %}
-	<a href="{{ d }}">
+	<a href="{{ d | replace: site.url,'' }}">
 	{% capture pname %}{{ d }}{% endcapture %}
 	{% for p in site.person %}
 		{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}
@@ -131,7 +131,7 @@ layout: default
 <h3>Principal investigator</h3>
 <ul class="principal-investigator-list">
 {% for d in page.principalInvestigator %}
-	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d }}">{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d | replace: site.url,'' }}">{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 {% endif %}
@@ -142,7 +142,7 @@ layout: default
 <h3>Project coordinator</h3>
 <ul class="coordinator-list">
 {% for d in page.coordinator %}
-	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d }}">{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d.name == null %}<a href="{{ d | replace: site.url,'' }}">{% for p in site.person %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.githubUrl %}<a href="{{ d.githubUrl }}">{{ d.name }}</a>{% elsif d.linkedInUrl %}<a href="{{ d.linkedInUrl }}">{{ d.name }}</a>{% elsif d.twitterUrl %}<a href="{{ d.twitterUrl }}">{{ d.name }}</a>{% elsif d.website %}<a href="{{ d.website }}">{{ d.name }}</a>{% else %}{{ d.name }}{% endif %}{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>
@@ -153,7 +153,7 @@ layout: default
 <h3>Involved organizations</h3>
 <ul class="involved-organization-list">
 {% for d in page.involvedOrganization %}
-	<li>{% capture pname %}{% endcapture %}{% if d contains site.url or d | slice: 0, 1 == "/"  %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d contains site.url or d | slice: 0, 1 == "/" %}<a href="{{ d | replace: site.url,'' }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.organization %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>
@@ -164,7 +164,7 @@ layout: default
 <h3>Uses software</h3>
 <ul class="uses-list">
 {% for d in page.uses %}
-	<li>{% capture pname %}{% endcapture %}{% if d contains site.url or d | slice: 0, 1 == "/" %}<a href="{{ d }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.software %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
+	<li>{% capture pname %}{% endcapture %}{% if d contains site.url or d | slice: 0, 1 == "/" %}<a href="{{ d | replace: site.url,'' }}">{% capture pname %}{{ d }}{% endcapture %}{% for p in site.software %}{% capture urlx %}{{ p.url | replace:'.html','' | prepend: site.url }}{% endcapture %}{% if urlx contains d %}{% capture pname %}{{ p.name }}{% endcapture %}{% endif %}{% endfor %}{% if pname == "" %}{{ d }}{% else %}{{ pname }}{% endif %}</a>{% elsif d.name %}{% if d.link %}<a href="{{ d.website }}">{% endif %}{{ d.name }}{% if d.link %}</a>{% endif %}{% else %}{{ d }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>

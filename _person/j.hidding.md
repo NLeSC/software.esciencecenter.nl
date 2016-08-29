@@ -1,5 +1,8 @@
 ---
 name: Johannes Hidding
+email: j.hidding@esciencecenter.nl
+inGroup:
+- NLeSC
 affiliation:
 - /organization/nlesc
 contactPersonOf:

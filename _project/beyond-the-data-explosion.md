@@ -1,5 +1,7 @@
 ---
 name: An eScience infrastructure for huge interferometric datasets
+inGroup:
+- NLeSC
 tagLine: Big Data for the Big Bang
 nlescWebsite: https://www.esciencecenter.nl/project/beyond-the-data-explosion
 competence:

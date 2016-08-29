@@ -25,6 +25,8 @@ involvedOrganization:
 - /organization/uva
 - /organization/nlesc
 name: eEcology
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/eecology
 principalInvestigator:
 - affiliation:

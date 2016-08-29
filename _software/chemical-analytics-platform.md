@@ -1,5 +1,7 @@
 ---
 name: Chemical Analytics Virtual Machine
+inGroup:
+- NLeSC
 tagLine: Packer template to create Vagrant box with Knime inside
 codeRepository: https://github.com/NLeSC/Chemical-Analytics-Platform
 website: https://github.com/NLeSC/Chemical-Analytics-Platform

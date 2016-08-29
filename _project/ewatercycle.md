@@ -20,6 +20,8 @@ involvedOrganization:
 - /organization/uu
 logo: http://www.esciencecenter.nl/img/projects/1.P011-large.jpg
 name: 'eWaterCycle: Data-intensive modeling of the global water cycle'
+inGroup:
+- NLeSC
 nlescWebsite: http://www.esciencecenter.nl/project/ewatercycle
 principalInvestigator:
 - affiliation:

@@ -1,5 +1,7 @@
 ---
 name: What Works When for Whom?
+inGroup:
+- NLeSC
 tagLine: Advancing therapy change process research
 nlescWebsite: https://www.esciencecenter.nl/project/what-works-when-for-whom
 logo: http://www.esciencecenter.nl/img/projects/p66-large.jpg

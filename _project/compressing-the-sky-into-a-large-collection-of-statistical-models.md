@@ -6,6 +6,8 @@ engineer:
 involvedOrganization:
 - /organization/cwi
 name: Compressing the Sky Into a Large Collection of Statistical Models
+inGroup:
+- NLeSC
 tagLine: 'PathFinder project: Compressing the sky into a large collection of statistical models'
 uses:
 - /software/monetdb

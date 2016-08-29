@@ -19,6 +19,8 @@ involvedOrganization:
 - /organization/nlesc
 - /organization/vua
 name: Visualizing Uncertainty and Perspectives
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 principalInvestigator:
 - affiliation:

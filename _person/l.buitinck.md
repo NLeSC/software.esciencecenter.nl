@@ -8,6 +8,8 @@ contributorOf:
 - /software/python-pcl
 - /software/pidilib
 name: Lars Buitinck
+inGroup:
+- NLeSC
 jobTitle: eScience Research Engineer
 nlescWebsite: https://www.esciencecenter.nl/profile/drs.-lars-buitinck
 ---

@@ -21,6 +21,8 @@ license:
 - apache-2.0
 logo: https://raw.githubusercontent.com/nlesc-sherlock/Rig/develop/app/images/noun_95045_cc.png
 name: Rig
+inGroup:
+- NLeSC
 owner:
 - /organization/nlesc
 programmingLanguage:
