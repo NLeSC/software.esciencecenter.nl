@@ -14,6 +14,8 @@
 import requests
 from requests.packages.urllib3 import Retry
 
+import rfc3987
+
 
 class AbstractValidator(object):
     def validate(self, instance):
@@ -35,39 +37,63 @@ class ValidationError(ValueError):
         self.property_name = property_name
 
     def __str__(self):
-        return '{}:{}: {}'.format(url_to_path(self.document_name), self.property_name, self.message)
+        return '{}:{}: {}'.format(
+            url_to_path(parse_url(self.document_name)), self.property_name,
+            self.message)
 
     def __repr__(self):
-        return "ValidationError('{}', '{}', '{}')".format(self.message, self.document_name, self.property_name)
+        return "ValidationError('{}', '{}', '{}')".format(
+            self.message, self.document_name, self.property_name)
 
     def __eq__(self, other):
-        return self.message == other.message and self.document_name == other.document_name and self.property_name == other.property_name
+        return (self.message == other.message and
+                self.document_name == other.document_name and
+                self.property_name == other.property_name)
 
 
 def check_internal_url(url):
-    if '://software.esciencecenter.nl/' not in url:
-        raise ValueError('Url {} is not internal'.format(url))
+    if not is_internal_url(url):
+        raise ValueError('Url {} is not internal'
+                         .format(rfc3987.compose(**url)))
+
+
+def is_internal_url(url):
+    is_internal = url['authority'] in (None, 'software.esciencecenter.nl')
+    if is_internal and not url['path'].startswith('/'):
+        raise ValueError('Path {} must start with /'
+                         .format(rfc3987.compose(**url)))
+
+    if is_internal and url['scheme'] == 'https':
+        raise ValueError('For the time being, use http instead of https '
+                         'prefixes for http://software.esciencecenter.nl')
+    return is_internal
+
+
+def absolute_url(url):
+    url = parse_url(url)
+    if url['authority'] is None:
+        url['scheme'] = 'http'
+        url['authority'] = 'software.esciencecenter.nl'
+    return rfc3987.compose(**url)
 
 
 def url_to_path(url):
     check_internal_url(url)
-    prefix, path = url.split('://software.esciencecenter.nl/')
-    if prefix == 'https':
-        raise ValueError('For the time being, use http instead of https prefixes for http://software.esciencecenter.nl')
-
-    # remove additional indicator
-    path = path.split('#')[0]
-    return '_' + path + '.md'
+    return '_' + url['path'].lstrip('/') + '.md'
 
 
 def url_to_schema(url):
     check_internal_url(url)
-    return 'http://software.esciencecenter.nl/schema/' + url_to_collection_name(url)
+    return ('http://software.esciencecenter.nl/schema/' +
+            url_to_collection_name(url))
 
 
 def url_to_collection_name(url):
-    path = url.split('://software.esciencecenter.nl/')[1]
-    return path.split('/')[0]
+    return url['path'].split('/')[1]
+
+
+def parse_url(url):
+    return rfc3987.parse(url)
 
 
 def retrying_http_session(retries=3):

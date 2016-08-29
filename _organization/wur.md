@@ -1,8 +1,7 @@
 ---
 involvedIn:
-- http://software.esciencecenter.nl/projects/magma
-- http://software.esciencecenter.nl/projects/summer-in-the-city
-- http://software.esciencecenter.nl/projects/era-urban
+- http://software.esciencecenter.nl/project/summer-in-the-city
+- http://software.esciencecenter.nl/project/era-urban
 - http://software.esciencecenter.nl/project/emetabolomics
 - http://software.esciencecenter.nl/project/era-urban
 - http://software.esciencecenter.nl/project/summer-in-the-city

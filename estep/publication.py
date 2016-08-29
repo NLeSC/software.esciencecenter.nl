@@ -17,7 +17,6 @@ from datetime import datetime
 from os.path import isfile
 import logging
 from six.moves.urllib.parse import urlparse
-import yaml
 
 from .format import object2jekyll
 from .utils import retrying_http_session

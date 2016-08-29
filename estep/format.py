@@ -19,6 +19,7 @@ import codecs
 
 import yaml
 import frontmatter
+from .utils import absolute_url
 
 
 def json_serializer(obj):
@@ -71,6 +72,8 @@ def jekyllfile2object(filename, schemaType=None, contentProperty='description', 
 
     if 'schema' not in obj:
         obj['schema'] = uriPrefix + '/schema/' + schemaType
+
+    obj['schema'] = absolute_url(obj['schema'])
 
     return obj
 
