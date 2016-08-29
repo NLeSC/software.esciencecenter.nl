@@ -28,6 +28,7 @@ json_excludes:
 - excerpt
 - tags
 - categories
+- date  # converted to iso8601 format
 
 # Build settings
 markdown: kramdown
