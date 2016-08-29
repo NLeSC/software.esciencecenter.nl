@@ -23,6 +23,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/uva
 - http://software.esciencecenter.nl/organization/surfsara
 name: eEcology Annotation Tool
+inGroup:
+- NLeSC
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/organization/uva

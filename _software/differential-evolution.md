@@ -20,6 +20,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: Differential Evolution
+inGroup:
+- NLeSC
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
 - http://software.esciencecenter.nl/person/j.spaaks

@@ -51,6 +51,11 @@ relationships = [
     # From project
     ('http://software.esciencecenter.nl/schema/project', 'involvedOrganization',
      'http://software.esciencecenter.nl/schema/organization', 'involvedIn'),
+    ('http://software.esciencecenter.nl/schema/report', 'author',
+     'http://software.esciencecenter.nl/schema/organization', 'authorOfReport'),
+    ('http://software.esciencecenter.nl/schema/report', 'author',
+     'http://software.esciencecenter.nl/schema/person', 'authorOfReport'),
+
 ]
 
 

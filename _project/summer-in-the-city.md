@@ -1,5 +1,7 @@
 ---
 name: Summer in the City
+inGroup:
+- NLeSC
 tagLine: Forecasting and mapping human thermal comfort in urban areas
 nlescWebsite: https://www.esciencecenter.nl/project/summer-in-the-city
 logo: http://www.esciencecenter.nl/img/projects/1.P013-large.jpg

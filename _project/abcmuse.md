@@ -6,6 +6,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/uu
 - http://software.esciencecenter.nl/organization/leiden-university
 name: ABCmuse
+inGroup:
+- NLeSC
 logo: https://www.esciencecenter.nl/img/projects/1.P026-large.jpg
 discipline: 
 - Physics & Beyond

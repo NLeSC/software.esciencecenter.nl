@@ -1,5 +1,7 @@
 ---
 name: 3D Geospatial Data Exploration for Modern Risk Management Systems
+inGroup:
+- NLeSC
 tagLine: 'COMMIT valorization project: 3D geospatial data exploration for modern risk management systems'
 contactPerson: http://software.esciencecenter.nl/person/r.goncalves
 logo: http://www.esciencecenter.nl/img/projects/p054-large.jpg

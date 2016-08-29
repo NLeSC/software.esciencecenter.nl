@@ -8,6 +8,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc
 logo: https://www.esciencecenter.nl/img/projects/P053-large2.jpg
 name: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
+inGroup:
+- NLeSC
 tagLine: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
 uses:
 - http://software.esciencecenter.nl/software/micmac

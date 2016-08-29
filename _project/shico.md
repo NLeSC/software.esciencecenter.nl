@@ -18,6 +18,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/uu
 - http://software.esciencecenter.nl/organization/nlesc
 name: Mining Shifting Concepts Through Time (ShiCo)
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/mining-shifting-concepts-through-time-shico
 principalInvestigator:
 - name: Prof. Joris van Eijnatten

@@ -25,6 +25,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/wur
 logo: https://www.esciencecenter.nl/img/projects/1.P001-large.jpg
 name: eMetabolomics
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/chemical-informatics-for-metabolite-identification-and-biochemical-network
 principalInvestigator:
 - http://software.esciencecenter.nl/person/l.ridder

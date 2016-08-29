@@ -13,6 +13,8 @@ expertise:
 license:
 - apache-2.0
 name: Cesium-ncWMS
+inGroup:
+- NLeSC
 owner:
 - http://software.esciencecenter.nl/organization/nlesc
 programmingLanguage:

@@ -1,5 +1,7 @@
 ---
 name: Common Sense
+inGroup:
+- NLeSC
 tagLine: User-friendly web application for showing (GIS) data on a map.
 codeRepository: https://github.com/TNOCS/csWeb/
 website: https://tnocs.github.io/csWeb/

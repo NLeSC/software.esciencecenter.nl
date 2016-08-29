@@ -16,6 +16,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/organization/nlesc
 name: DIVE+
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/dive
 principalInvestigator:
 - affiliation:

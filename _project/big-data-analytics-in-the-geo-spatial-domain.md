@@ -1,5 +1,7 @@
 ---
 name: Big-Data-Analytics-in-the-Geo-Spatial-Domain
+inGroup:
+- NLeSC
 tagLine: 'Strategic partnership: Big Data Analytics in the Geo-Spatial Domain'
 logo: http://www.esciencecenter.nl/img/projects/1.P025-large.jpg
 contactPerson: http://software.esciencecenter.nl/person/r.goncalves
