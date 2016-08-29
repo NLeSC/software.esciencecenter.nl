@@ -23,6 +23,12 @@ json_excludes:
 - content  # renamed to 'description'
 - url  # renamed to '@id'
 - collection
+- ext
+- draft
+- excerpt
+- tags
+- categories
+- date  # converted to iso8601 format
 
 # Build settings
 markdown: kramdown
@@ -41,8 +47,8 @@ collections:
     output: false
   organization:
     output: false
-#  publication:
-#    output: true
+  publication:
+   output: false
   report:
     output: false
 defaults:
@@ -66,12 +72,11 @@ defaults:
       type: organization
     values:
       schema: http://software.esciencecenter.nl/schema/organization
-#  - scope:
-#      path: ""
-#      type: publication
-#    values:
-#      layout: publication
-#      schema: http://software.esciencecenter.nl/schema/publication
+  - scope:
+      path: ""
+      type: publication
+    values:
+      schema: http://software.esciencecenter.nl/schema/publication
   - scope:
       path: ""
       type: report

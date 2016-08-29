@@ -69,7 +69,9 @@ function fakify(group) {
       return result;
     },
     top: function(k) {
-      tops = _.take(_.sortBy(_.keys(group.value()),function(item) { return group.value()[item] * -1 }),k);
+      tops = _.take(_.sortBy(_.keys(group.value()),function(item) {
+        return group.value()[item] * -1;
+      }),k);
       var result = [];
       for (var k in tops) {
         result.push({
@@ -78,7 +80,7 @@ function fakify(group) {
         });
       }
       return result;
-    } 
+    }
   };
 }
 
@@ -136,7 +138,7 @@ d3.json("/software.json", function (software_data) {
   var all = ndx.groupAll();
 
   var softwareDimension = ndx.dimension(function(d) { return d['@id']; });
-  var partyDimension = ndx.dimension(function(d) { return d.inGroup || 'Other'; });
+  var endorsedbyDimension = ndx.dimension(function(d) { return d.inGroup || 'Other'; });
   var disciplineDimension = ndx.dimension(function(d) { return d.discipline || 'None'; });
   var competenceDimension = ndx.dimension(function(d) { return d.competence || 'None'; });
   var expertiseDimension = ndx.dimension(function(d) { return d.expertise || 'None'; });
@@ -146,8 +148,8 @@ d3.json("/software.json", function (software_data) {
   var technologyTagDimension = ndx.dimension(function(d) { return d.technologyTag || 'None'; });
   var licenseDimension = ndx.dimension(function(d) { return d.license || 'None'; });
 
-  var partyValues = uniqueFieldValues(software_data,'inGroup');
-  var fakePartyGroup = fakify(partyDimension.groupAll().reduce(reduceFieldsAdd(partyValues,'inGroup'), reduceFieldsRemove(partyValues,'inGroup'), reduceFieldsInitial(partyValues)));
+  var endorsedbyValues = uniqueFieldValues(software_data,'inGroup');
+  var fakePartyGroup = fakify(endorsedbyDimension.groupAll().reduce(reduceFieldsAdd(endorsedbyValues, 'inGroup'), reduceFieldsRemove(endorsedbyValues, 'inGroup'), reduceFieldsInitial(endorsedbyValues)));
   var disciplineValues = uniqueFieldValues(software_data,'discipline');
   var fakeDisciplineGroup = fakify(disciplineDimension.groupAll().reduce(reduceFieldsAdd(disciplineValues,'discipline'), reduceFieldsRemove(disciplineValues,'discipline'), reduceFieldsInitial(disciplineValues)));
   var competenceValues = uniqueFieldValues(software_data,'competence');
@@ -218,9 +220,9 @@ d3.json("/software.json", function (software_data) {
 
   partyChart
     .width(chartwidth)
-    .height(chartheight(partyValues.length))
+    .height(chartheight(endorsedbyValues.length))
     .fixedBarHeight(barheight)
-    .dimension(partyDimension)
+    .dimension(endorsedbyDimension)
     .group(fakePartyGroup)
     .filterHandler(bagFilterHandler)
     .gap(1)
@@ -322,7 +324,8 @@ d3.json("/software.json", function (software_data) {
     .size(100)
     .columns([
         function(d) {
-            return '<a href="' + d['@id'].replace('{{ site.url }}', '') + '">' + d.name + '</a>';
+            // site_url variable should be set before this line is executed.
+            return '<a href="' + d['@id'].replace(site_url, '') + '">' + d.name + '</a>';
         },
         function(d) { return d.tagLine; }
     ])

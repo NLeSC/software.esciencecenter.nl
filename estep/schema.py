@@ -21,7 +21,7 @@ import codecs
 import jsonschema
 import requests
 
-from .utils import url_to_path, AbstractValidator
+from .utils import url_to_path, AbstractValidator, retrying_http_session
 
 try:
     from jsonschema._format import is_uri as is_uri_orig
@@ -57,9 +57,7 @@ class SchemaValidator(AbstractValidator):
     def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False,
                  resolve_cache_expire=5):
 
-        self.http_session = requests.Session()
-        self.http_session.mount('http://', requests.adapters.HTTPAdapter(max_retries=3))
-        self.http_session.mount('https://', requests.adapters.HTTPAdapter(max_retries=3))
+        self.http_session = retrying_http_session()
 
         store = load_schemas(schema_uris, schemadir)
 

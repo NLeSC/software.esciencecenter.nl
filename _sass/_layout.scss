@@ -621,3 +621,19 @@ g.legend text {
 .search-panel {
     display: none;
 }
+
+/*
+ * Publication
+ */
+ul.publications {
+    display: block;
+    list-style: disc outside none;
+}
+
+.publications li {
+    display: list-item;
+}
+
+.publications li:after {
+    content: "";
+}
