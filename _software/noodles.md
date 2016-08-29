@@ -13,6 +13,8 @@ contributor:
 dependency:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/pyxenon
+dependencyOf:
+- http://software.esciencecenter.nl/software/pymicmac
 discipline:
 - Life Sciences & eHealth
 - eScience Methodology
