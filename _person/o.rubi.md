@@ -10,6 +10,7 @@ contactPersonOf:
 - http://software.esciencecenter.nl/software/massivepotreeconverter
 - http://software.esciencecenter.nl/software/pattydata
 - http://software.esciencecenter.nl/software/micmac
+- http://software.esciencecenter.nl/software/liblas
 - http://software.esciencecenter.nl/software/pymicmac
 - http://software.esciencecenter.nl/software/pycoeman
 contributorOf:
@@ -22,6 +23,7 @@ contributorOf:
 - http://software.esciencecenter.nl/software/ahn2webviewer
 - http://software.esciencecenter.nl/software/micmac
 - http://software.esciencecenter.nl/software/pattyvis
+- http://software.esciencecenter.nl/software/liblas
 - http://software.esciencecenter.nl/software/pymicmac
 - http://software.esciencecenter.nl/software/pycoeman
 engineerOf:
@@ -50,6 +52,7 @@ userOf:
 - http://software.esciencecenter.nl/software/micmac
 - http://software.esciencecenter.nl/software/noodles
 - http://software.esciencecenter.nl/software/python-pcl
+- http://software.esciencecenter.nl/software/liblas
 - http://software.esciencecenter.nl/software/pycoeman
 - http://software.esciencecenter.nl/software/pymicmac
 ---
