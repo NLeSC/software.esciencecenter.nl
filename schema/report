@@ -32,11 +32,11 @@
                         "type" : "string",
                         "format" : "uri"
                 },
-                "date" : {
-                        "description": "Date of publication.",
-                        "type" : "string",
-                        "format" : "date-time"
-                },
+    "date" : {
+            "description": "Date of publication.",
+            "type" : "string",
+            "format" : "date-time"
+    },
 		"author" : {
                         "description": "Entity that is the author.",
                         "type": "array",
@@ -53,6 +53,6 @@
                         }
 	        }
 	},
-        "required": ["title", "link"],
+        "required": ["title", "link", "date"],
         "additionalProperties": false
 }

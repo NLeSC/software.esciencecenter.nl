@@ -20,8 +20,8 @@ import yaml
 import codecs
 import jsonschema
 import requests
-from requests.adapters import HTTPAdapter
-from .utils import parse_url, url_to_path, AbstractValidator, is_internal_url
+from .utils import (parse_url, url_to_path, AbstractValidator, is_internal_url,
+                    retrying_http_session)
 
 from jsonschema.validators import Draft4Validator
 
@@ -59,9 +59,7 @@ class SchemaValidator(AbstractValidator):
                  resolve_remote=False, resolve_cache_expire=5):
 
         if resolve_remote:
-            self.http_session = requests.Session()
-            self.http_session.mount('http://', HTTPAdapter(max_retries=3))
-            self.http_session.mount('https://', HTTPAdapter(max_retries=3))
+            self.http_session = retrying_http_session()
 
         store = load_schemas(schema_uris, schemadir)
 

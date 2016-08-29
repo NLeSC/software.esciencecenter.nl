@@ -26,6 +26,7 @@ from .validate import Validators, EStepValidator, log_error
 from .schema import load_schemas
 from .utils import url_to_path, url_to_collection_name, parse_url
 from .version import __version__
+from .publication import generate_publication
 from . import relationship
 
 
@@ -185,6 +186,20 @@ def generate_reciprocal(schemadir):
         LOGGER.warning('Everything is OK, no missing relationships found')
 
 
+def sort_document_properties():
+    """ Regenerate all files, causes the attributes to be sorted. This reduces merge conflicts. """
+    config = Config()
+
+    LOGGER.info('Parsing documents')
+    for collection in config.collections():
+        LOGGER.info('Collection: %s', collection.name)
+        for path, document in collection.documents():
+            LOGGER.info("Writing fixed file %s", path)
+            with codecs.open(path, encoding='utf-8', mode='w') as f:
+                f.write(object2jekyll(document, 'description'))
+    LOGGER.warning('Done')
+
+
 def main(argv=sys.argv[1:]):
     """
     Utility for estep website.
@@ -192,10 +207,14 @@ def main(argv=sys.argv[1:]):
     Available commands:
       validate                Validates content.
       generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
+      generate publication    Generates publication Markdown file in _publication/ directory.
+      sort                    Sorts all YAML properties, to make git merges easier.
 
     Usage:
       estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
       estep generate reciprocal [--local] [-v | -vv]
+      estep generate publication [-v | -vv] [--endorser=<endorser>]... [--project=<project>]... <doi>
+      estep sort [-v | -vv]
 
     Options:
       -h, --help                     Show this screen.
@@ -204,8 +223,11 @@ def main(argv=sys.argv[1:]):
       -R, --no-local-resolve         Do not resolve local URLs
       -r, --resolve                  Resolve remote URLs
       --resolve-cache-expire=<days>  Timeout in days after the resolve cache expires, use 0 to disable cache [default: 14].
+      --endorser=<endorser>          Endorser of publication [default: NLeSC].
+      --project=<project>            Project responsible for publication. Format is an url like http://software.esciencecenter.nl/project/eMetabolomics
       <schema_type>                  One of (person, software, organization, project)
       <file>                         Single file to validate
+      <doi>                          DOI of publication. Format is an url like http://dx.doi.org/10.1002/rcm.6364
     """
     arguments = docopt(main.__doc__, argv, version=__version__)
 
@@ -226,9 +248,19 @@ def main(argv=sys.argv[1:]):
                  path=arguments['<file>'],
                  schema_type=arguments['<schema_type>'],
                  )
-    elif arguments['generate'] and arguments['reciprocal']:
-        schemadir = None
-        if arguments['--local']:
-            schemadir = 'schema'
-        generate_reciprocal(schemadir=schemadir,
-                            )
+    elif arguments['sort']:
+        sort_document_properties()
+    elif arguments['generate']:
+        if arguments['reciprocal']:
+            schemadir = None
+            if arguments['--local']:
+                schemadir = 'schema'
+            generate_reciprocal(schemadir=schemadir,
+                                )
+        elif arguments['publication']:
+            project_collection = [c for c in Config().collections() if c.name == 'project'][0]
+            generate_publication(arguments['<doi>'],
+                                 endorsers=arguments['--endorser'],
+                                 projects=arguments['--project'],
+                                 docs=project_collection.documents(),
+                                 )
