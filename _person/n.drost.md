@@ -16,7 +16,6 @@ contributorOf:
 - /software/sfm
 - /software/amuse
 - /software/ewaterleaf
-- /software/sfm
 engineerOf:
 - /project/large-scale-data-assimilation
 - /project/ewatercycle

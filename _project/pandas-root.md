@@ -13,7 +13,6 @@ discipline:
 - Physics & Beyond
 endDate: 2016-03-01
 engineer:
-- http: /person/d.remenska
 - /person/d.remenska
 expertise:
 - Linked Data
