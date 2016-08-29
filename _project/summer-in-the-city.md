@@ -36,6 +36,8 @@ involvedOrganization:
 uses:
 startDate: 2013-01-21
 endDate: 2016-09-01
+publication:
+- http://dx.doi.org/10.1109/eScience.2015.21
 ---
 
 Forecasting and mapping human thermal comfort in urban areas.
