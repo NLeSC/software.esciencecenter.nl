@@ -88,7 +88,7 @@ def generate_publication(doi, endorsers, projects, docs):
         'type': csl['type'],
         'date': issued(csl),
     }
-    publication_md = object2jekyll(publication, 'description', dump_id=True)
+    publication_md = object2jekyll(publication, 'description')
 
     logging.info('Writing {0}'.format(publication_fn))
     with open(publication_fn, 'w') as fn:
