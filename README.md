@@ -30,14 +30,22 @@ Use `virtualenv` or equivalent to ensure that a recent version of the `six` libr
   * The filename should be lowercase, end with `.md` and contain no url-unfriendly characters (e.g. space, /).
   * Also create/update the related pages in the the `_person/`, `_software/`, `_project/`, `_publication`, `_report` and `_organization/` directories, e.g. some software is used in a project then write a Markdown file in both the `_software` and `_project` directories. If someone else is responsible for the data in related pages, place a stub there with at least the correct `name`. If it concerns a person, also fill in `affiliation`.
   * Many relations are reciprocal, be sure to fill them in for both related objects. For example, when updating software's `user` property, also update that users' `userOf` property. Other examples of reciprocal relations: `organization#involvedIn` vs `project#involvedOrganization`, `software#user` vs `organization#uses`, `software#engineer` vs `person#engineerOf`.
-  * Use `http://` prefixes for all internal URLs, currently HTTPS is not properly supported.
+  * For URLs within the site, `http://software.esciencecenter.nl` can be omitted. HTTPS is not supported on this site.
 
-4. After editing data, test the validity of the entered data with
+4. Many relations are reciprocal, be sure to fill them in for both related objects. For example, when updating software's `user` property, also update that users' `userOf` property. Other examples of reciprocal relations: `organization#involvedIn` vs `project#involvedOrganization`, `software#user` vs `organization#uses`, `software#engineer` vs `person#engineerOf`. Automatically fill them in with
+```
+estep generate reciprocal
+```
+5. Download remote logos (if any) with
+```
+estep generate logo
+```
+6. After editing data, test the validity of the entered data with
 ```
 estep validate -v
 ```
-5. Commit and push changes.
-6. Create a pull request to merge your changes into the gh-pages branch.
+7. Commit and push changes.
+8. Create a pull request to merge your changes into the gh-pages branch.
 
 ### Generate publication
 

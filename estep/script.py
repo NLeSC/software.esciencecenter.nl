@@ -24,11 +24,11 @@ import yaml
 from .format import jekyllfile2object, object2jekyll
 from .validate import Validators, EStepValidator, log_error
 from .schema import load_schemas
-from .utils import url_to_path, url_to_collection_name, parse_url
+from .utils import (url_to_path, url_to_collection_name, parse_url,
+    is_internal_url, download_file)
 from .version import __version__
 from .publication import generate_publication
 from . import relationship
-
 
 LOGGER = logging.getLogger('estep')
 
@@ -44,14 +44,12 @@ class Collection(object):
         self.schema = schema
 
     def documents(self):
-        docs = []
         for dirpath, dirnames, filenames in os.walk(self.directory):
             for filename in filenames:
                 ext = os.path.splitext(filename)[1]
-                if ext.lower() in ['.md', '.markdown', '.mdown']:
+                if ext == '.md':
                     path = os.path.join(dirpath, filename)
-                    docs.append((path, jekyllfile2object(path, schemaType=self.name)))
-        return docs
+                    yield (path, jekyllfile2object(path, schemaType=self.name))
 
 
 class Config(object):
@@ -73,12 +71,15 @@ class Config(object):
         return list(self.schemas().values())
 
     def collections(self):
-        collections = []
         for colname in sorted(self.config['collections'].keys()):
             colschema = self.schemas()[colname]
             collection = Collection(colname, directory='_' + colname, schema=colschema)
-            collections.append(collection)
-        return collections
+            yield collection
+
+    def documents(self):
+        for collection in self.collections():
+            for path, document in collection.documents():
+                yield collection.name, path, document
 
 
 def validate_document(validator, document):
@@ -150,13 +151,15 @@ def generate_reciprocal(schemadir):
     if nr_errors > 0:
         faulty_docs = {}
         for (url, property_name, value) in missings:
-            LOGGER.debug("* Found missing relationship {0}#{1}: {2}".format(url, property_name, value))
+            LOGGER.debug("* Found missing relationship {0}#{1}: {2}"
+                         .format(url, property_name, value))
             if url not in faulty_docs:
                 parsed_url = parse_url(url)
                 path = url_to_path(parsed_url)
                 collection_name = url_to_collection_name(parsed_url)
                 try:
-                    faulty_docs[url] = jekyllfile2object(path, schemaType=collection_name)
+                    faulty_docs[url] = jekyllfile2object(
+                        path, schemaType=collection_name)
                 except IOError:
                     LOGGER.warning("Cannot read path %s to fix missing "
                                    "relationship %s#%s: %s", path, url,
@@ -181,7 +184,8 @@ def generate_reciprocal(schemadir):
             with codecs.open(path, encoding='utf-8', mode='w') as f:
                 f.write(object2jekyll(document, 'description'))
 
-        LOGGER.warning('Fixed %d missing relationships in %d documents', nr_errors, len(faulty_docs))
+        LOGGER.warning('Fixed %d missing relationships in %d documents',
+                       nr_errors, len(faulty_docs))
     else:
         LOGGER.warning('Everything is OK, no missing relationships found')
 
@@ -200,6 +204,49 @@ def sort_document_properties():
     LOGGER.warning('Done')
 
 
+def generate_logo():
+    config = Config()
+
+    logo_name = {
+        'organization': 'logo',
+        'person': 'photo',
+        'project': 'logo',
+        'software': 'logo',
+    }
+
+    LOGGER.info('Parsing documents')
+    success = 0
+    failed = 0
+
+    for collection, doc_path, document in config.documents():
+        logo = logo_name[collection]
+        LOGGER.debug('Document: %s', doc_path)
+
+        if logo in document and not is_internal_url(parse_url(document[logo])):
+            name = os.path.splitext(os.path.basename(doc_path))[0]
+            base_path = os.path.join('images', collection, name)
+            logo_url = document[logo]
+
+            try:
+                logo_path = download_file(logo_url, base_path)
+                document[logo] = '/' + logo_path
+
+                with codecs.open(doc_path, encoding='utf-8', mode='w') as f:
+                    f.write(object2jekyll(document, 'description'))
+                LOGGER.info("Downloaded logo {} to {} for {}"
+                            .format(logo_url, logo_path, doc_path))
+                success += 1
+            except IOError:
+                LOGGER.warning("Failed to download logo {} of {}"
+                            .format(logo_url, doc_path))
+                failed += 1
+    if failed == 0 and success == 0:
+        LOGGER.warning("No new images downloaded")
+    else:
+        LOGGER.warning("Images downloaded: {0} succeeded and {1} failed"
+                       .format(success, failed))
+
+
 def main(argv=sys.argv[1:]):
     """
     Utility for estep website.
@@ -208,12 +255,14 @@ def main(argv=sys.argv[1:]):
       validate                Validates content.
       generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
       generate publication    Generates publication Markdown file in _publication/ directory.
+      generate logo           Downloads logos and puts the local files in the Markdown file
       sort                    Sorts all YAML properties, to make git merges easier.
 
     Usage:
       estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
       estep generate reciprocal [--local] [-v | -vv]
       estep generate publication [-v | -vv] [--endorser=<endorser>]... [--project=<project>]... <doi>
+      estep generate logo [-v | -vv]
       estep sort [-v | -vv]
 
     Options:
@@ -255,8 +304,9 @@ def main(argv=sys.argv[1:]):
             schemadir = None
             if arguments['--local']:
                 schemadir = 'schema'
-            generate_reciprocal(schemadir=schemadir,
-                                )
+            generate_reciprocal(schemadir=schemadir)
+        elif arguments['logo']:
+            generate_logo()
         elif arguments['publication']:
             project_collection = [c for c in Config().collections() if c.name == 'project'][0]
             generate_publication(arguments['<doi>'],

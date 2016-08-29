@@ -15,6 +15,9 @@ import requests
 from requests.packages.urllib3 import Retry
 
 import rfc3987
+import requests
+import mimetypes
+import os
 
 
 class AbstractValidator(object):
@@ -94,6 +97,24 @@ def url_to_collection_name(url):
 
 def parse_url(url):
     return rfc3987.parse(url)
+
+
+def download_file(url, base_path):
+    r = requests.get(url)
+    r.raise_for_status()
+    ext = os.path.splitext(url)[1]
+    if len(ext) == 0:
+        if 'content-type' in r.headers:
+            ext = mimetypes.guess_extension(
+                r.headers['content-type'].split(';')[0])
+        else:
+            raise ValueError("Cannot determine file type of {}".format(url))
+
+    path = base_path + ext
+    with open(path, 'wb') as f:
+        f.write(r.content)
+
+    return path
 
 
 def retrying_http_session(retries=3):
