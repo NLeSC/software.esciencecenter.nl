@@ -26,6 +26,9 @@ githubUrl: https://github.com/nielsdrost
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/niels-drost-664698a
 name: Niels Drost
+email: n.drost@esciencecenter.nl
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-niels-drost
 photo: https://www.esciencecenter.nl/img/team/nielsdrost-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/Niels_Drost

@@ -21,6 +21,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/radboud.university.nijmegen
 - http://software.esciencecenter.nl/organization/surfsara
 name: TwiNL
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/twinl
 principalInvestigator:
 - affiliation:

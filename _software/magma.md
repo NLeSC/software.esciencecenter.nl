@@ -1,5 +1,7 @@
 ---
 name: MAGMa
+inGroup:
+- NLeSC
 tagLine: MAGMa is an online application for the automatic chemical annotation of accurate multistage MSn spectral data.
 codeRepository: https://github.com/NLeSC/MAGMa
 website: http://www.emetabolomics.org/magma

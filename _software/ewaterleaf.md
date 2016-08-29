@@ -3,6 +3,8 @@ contactPerson: http://software.esciencecenter.nl/person/n.drost
 contributor:
 - http://software.esciencecenter.nl/person/n.drost
 name: eWaterLeaf
+inGroup:
+- NLeSC
 tagLine: Web-based visualization for the eWaterCycle project
 license:
 - apache-2.0

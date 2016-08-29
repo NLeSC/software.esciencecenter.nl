@@ -1,5 +1,7 @@
 ---
 name: ERA-URBAN
+inGroup:
+- NLeSC
 tagLine: 'ERA-URBAN: Environmental Re-Analysis of Urban Areas: Quantifying high-resolution energy and water budgets of European cities'
 nlescWebsite: https://www.esciencecenter.nl/project/era-urban
 website:

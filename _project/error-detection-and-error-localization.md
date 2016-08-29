@@ -1,5 +1,7 @@
 ---
 name: "Error Detection and Error Localization Approaches for Radio Telescope System Health Management"
+inGroup:
+- NLeSC
 tagLine: Machine Learning for System Health Management in radio astronomy
 nlescWebsite: https://www.esciencecenter.nl/project/error-detection-and-error-localization
 logo: https://www.esciencecenter.nl/img/projects/p62-large.jpg

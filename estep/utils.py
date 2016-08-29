@@ -11,6 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+import requests
+from requests.packages.urllib3 import Retry
 
 import rfc3987
 import requests
@@ -113,3 +115,23 @@ def download_file(url, base_path):
         f.write(r.content)
 
     return path
+
+
+def retrying_http_session(retries=3):
+    """Returns a requests session with performs retries on dns, connection, read errors.
+
+    Also retries when server returns 500 error code.
+
+    Args:
+        retries (int): Number of retries for a request
+
+    Returns:
+        requests.Session()
+    """
+    http_session = requests.Session()
+    http_adapter = requests.adapters.HTTPAdapter()
+    retry = Retry(total=retries, status_forcelist=[500])
+    http_adapter.max_retries = retry
+    http_session.mount('http://', http_adapter)
+    http_session.mount('https://', http_adapter)
+    return http_session

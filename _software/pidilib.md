@@ -1,5 +1,7 @@
 ---
 name: PIDIlib
+inGroup:
+- NLeSC
 tagLine: A collection of scripts used in the PIDIMEHS project
 codeRepository: https://bitbucket.org/egpbos/pidilib
 nlescWebsite: 

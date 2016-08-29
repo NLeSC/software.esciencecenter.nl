@@ -15,6 +15,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/organization/nlesc
 name: Dr. Watson
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/dr.-watson
 principalInvestigator:
 - affiliation:

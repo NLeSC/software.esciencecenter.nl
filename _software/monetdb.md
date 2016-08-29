@@ -31,6 +31,8 @@ license:
 - mpl-2.0
 logo: http://dev.monetdb.org/imgs/monetdb-final-500.png
 name: MonetDB
+inGroup:
+- NLeSC
 programmingLanguage:
 - C
 startDate: 2014-03-01

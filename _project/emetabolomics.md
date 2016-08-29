@@ -25,6 +25,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/wur
 logo: https://www.esciencecenter.nl/img/projects/1.P001-large.jpg
 name: eMetabolomics
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/chemical-informatics-for-metabolite-identification-and-biochemical-network
 principalInvestigator:
 - http://software.esciencecenter.nl/person/l.ridder
@@ -36,5 +38,8 @@ uses:
 - http://software.esciencecenter.nl/software/xenon
 - http://software.esciencecenter.nl/software/magma
 website: http://www.emetabolomics.org
+publication:
+- http://dx.doi.org/10.1002/rcm.6364
+- http://dx.doi.org/10.1021/ac400861a
 ---
 The eMetabolomics project is funded by the Netherlands eScience Center and is carried out at Wageningen University and the Netherlands eScience Center in collaboration with the Netherlands Metabolomics Centre. The project develops chemo-informatics based methods for metabolite identification and biochemical network reconstruction in an integrative metabolomics data analysis workflow.

@@ -27,6 +27,7 @@ from .schema import load_schemas
 from .utils import (url_to_path, url_to_collection_name, parse_url,
     is_internal_url, download_file)
 from .version import __version__
+from .publication import generate_publication
 from . import relationship
 
 LOGGER = logging.getLogger('estep')
@@ -131,7 +132,7 @@ def validate(schemadir, resolve_local=True, resolve_remote=False, path=None, sch
         LOGGER.warning('No errors found')
 
 
-def generate_reciprocal():
+def generate_reciprocal(schemadir):
     config = Config()
     validator = Validators(relationship.get_validators())
 
@@ -143,7 +144,7 @@ def generate_reciprocal():
             # Must loop over whole iterator, otherwise no items are stored.
             list(validator.iter_errors(document))
 
-    schemas = load_schemas(config.schema_uris())
+    schemas = load_schemas(config.schema_uris(), schemadir)
 
     missings = list(validator.missing())
     nr_errors = len(missings)
@@ -238,10 +239,14 @@ def main(argv=sys.argv[1:]):
     Available commands:
       validate                Validates content.
       generate reciprocal     Checks that relationships are bi-directional and generates the missing ones.
+      generate publication    Generates publication Markdown file in _publication/ directory.
+      generate logo           Downloads logos and puts the local files in the Markdown file
 
     Usage:
       estep validate [--local] [--resolve] [--resolve-cache-expire=<days>] [--no-local-resolve] [-v | -vv] [<schema_type> <file>]
-      estep generate (reciprocal|logo) [-v | -vv]
+      estep generate reciprocal [--local] [-v | -vv]
+      estep generate publication [-v | -vv] [--endorser=<endorser>]... [--project=<project>]... <doi>
+      estep generate logo [-v | -vv]
 
     Options:
       -h, --help                     Show this screen.
@@ -250,8 +255,11 @@ def main(argv=sys.argv[1:]):
       -R, --no-local-resolve         Do not resolve local URLs
       -r, --resolve                  Resolve remote URLs
       --resolve-cache-expire=<days>  Timeout in days after the resolve cache expires, use 0 to disable cache [default: 14].
+      --endorser=<endorser>          Endorser of publication [default: NLeSC].
+      --project=<project>            Project responsible for publication. Format is an url like http://software.esciencecenter.nl/project/eMetabolomics
       <schema_type>                  One of (person, software, organization, project)
       <file>                         Single file to validate
+      <doi>                          DOI of publication. Format is an url like http://dx.doi.org/10.1002/rcm.6364
     """
     arguments = docopt(main.__doc__, argv, version=__version__)
 
@@ -274,6 +282,16 @@ def main(argv=sys.argv[1:]):
                  )
     elif arguments['generate']:
         if arguments['reciprocal']:
-            generate_reciprocal()
+            schemadir = None
+            if arguments['--local']:
+                schemadir = 'schema'
+            generate_reciprocal(schemadir=schemadir)
         elif arguments['logo']:
             generate_logo()
+        elif arguments['publication']:
+            project_collection = [c for c in Config().collections() if c.name == 'project'][0]
+            generate_publication(arguments['<doi>'],
+                                 endorsers=arguments['--endorser'],
+                                 projects=arguments['--project'],
+                                 docs=project_collection.documents(),
+                                 )

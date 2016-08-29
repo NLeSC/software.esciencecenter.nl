@@ -18,6 +18,8 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/huygens
 - http://software.esciencecenter.nl/organization/nlesc
 name: Beyond the Book
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/beyond-the-book
 principalInvestigator:
 - affiliation:
@@ -28,6 +30,8 @@ principalInvestigator:
 tagLine: How international is a work of fiction?
 uses:
 website:
+publication:
+- http://dx.doi.org/10.1109/eScience.2015.12
 ---
 # Visualizing the level of international readability of works of fiction
 

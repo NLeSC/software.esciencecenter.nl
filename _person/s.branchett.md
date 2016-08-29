@@ -6,6 +6,9 @@ contactPersonOf:
 githubUrl: https://github.com/sbranchett
 jobTitle: Director Business Development & Operations
 name: Susan Branchett
+email: s.branchett@esciencecenter.nl
+inGroup:
+- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-susan-branchett
 photo: https://www.esciencecenter.nl/img/team/susan-branchett-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/Susan_Branchett
