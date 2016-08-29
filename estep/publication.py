@@ -82,7 +82,7 @@ def generate_publication(doi, endorsers, projects, docs):
     publication = {
         '@id': doi,
         'description': fetch_bibliography(doi),
-        'authoredBy': list(uniq_projects),
+        'author': list(uniq_projects),
         'inGroup': endorsers,
         'publishedIn': csl['container-title'],
         'type': csl['type'],
