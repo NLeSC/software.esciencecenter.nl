@@ -4,19 +4,19 @@ inGroup:
 - NLeSC
 tagLine: 'Strategic partnership: Big Data Analytics in the Geo-Spatial Domain'
 logo: http://www.esciencecenter.nl/img/projects/1.P025-large.jpg
-contactPerson: http://software.esciencecenter.nl/person/r.goncalves
+contactPerson: /person/r.goncalves
 engineer:
-- http://software.esciencecenter.nl/person/r.goncalves
+- /person/r.goncalves
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/monetdb
-- http://software.esciencecenter.nl/organization/geodan
-- http://software.esciencecenter.nl/organization/tu-delft
-- http://software.esciencecenter.nl/organization/vua
-- http://software.esciencecenter.nl/organization/fugro
+- /organization/cwi
+- /organization/monetdb
+- /organization/geodan
+- /organization/tu-delft
+- /organization/vua
+- /organization/fugro
 uses:
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/datavaults
+- /software/monetdb
+- /software/datavaults
 competence:
 - Optimized Data Handling
 - Big Data Analytics

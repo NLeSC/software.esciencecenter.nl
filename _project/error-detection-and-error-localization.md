@@ -17,19 +17,19 @@ expertise:
 - High Performance Computing
 infrastructure: LOFAR
 dataMagnitude: PB
-coordinator: http://software.esciencecenter.nl/person/e.ranguelova
-contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
+coordinator: /person/e.ranguelova
+contactPerson: /person/e.ranguelova
 engineer:
-- http://software.esciencecenter.nl/person/c.meijer
-#- http://software.esciencecenter.nl/person/h.spreeuw
+- /person/c.meijer
+#- /person/h.spreeuw
 principalInvestigator:
   - name: Dr. Albert-Jan Boonstra
     affiliation:
-    - http://software.esciencecenter.nl/organization/astron
+    - /organization/astron
     website: https://www.astron.nl/r-d-laboratory/competence-and-support-groups/staff/albert-jan-boonstra/albert-jan-boonstra
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/astron
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/astron
+- /organization/nlesc
 startDate: 2016-01-01
 ---
 In modern radio telescopes, System Health Management (SHM) systems are

@@ -1,13 +1,13 @@
 ---
 competence:
 - Optimized Data Handling
-contactPerson: http://software.esciencecenter.nl/person/c.martinez
-coordinator: http://software.esciencecenter.nl/person/j.attema
+contactPerson: /person/c.martinez
+coordinator: /person/j.attema
 logo: https://www.esciencecenter.nl/img/projects/1.P032-large.jpg
 discipline:
 - Humanities & Social Sciences
 engineer:
-- http://software.esciencecenter.nl/person/c.martinez
+- /person/c.martinez
 expertise:
 - Text Mining
 - Information Retrieval
@@ -15,21 +15,23 @@ expertise:
 - Information Integration
 infrastructure:
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/huygens
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/huygens
+- /organization/nlesc
 name: Beyond the Book
 inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/beyond-the-book
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/huygens
+  - /organization/huygens
   name: Karina van Dalen-Oskam
   photo: https://www.esciencecenter.nl/img/team/karina-van-dalen-oskam-cropped-bw.jpg
   website: http://www.huygens.knaw.nl/vandalen/?lang=en
 tagLine: How international is a work of fiction?
 uses:
 website:
+publication:
+- http://dx.doi.org/10.1109/eScience.2015.12
 ---
 # Visualizing the level of international readability of works of fiction
 

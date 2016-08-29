@@ -15,22 +15,22 @@ infrastructure: Supercomputer
 dataMagnitude: TB
 dataFormat:
 - NetCDF
-contactPerson: http://software.esciencecenter.nl/person/n.drost
-coordinator: http://software.esciencecenter.nl/person/j.maassen
+contactPerson: /person/n.drost
+coordinator: /person/j.maassen
 engineer:
-- http://software.esciencecenter.nl/person/n.drost
+- /person/n.drost
 principalInvestigator:
 - name: Prof. dr. Nick van de Giesen
   affiliation:
-  - http://software.esciencecenter.nl/organization/tu-delft
+  - /organization/tu-delft
   website: http://www.citg.tudelft.nl/index.php?id=19972&L=1
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/tu-delft
-- http://software.esciencecenter.nl/organization/deltares
+- /organization/nlesc
+- /organization/tu-delft
+- /organization/deltares
 uses:
-- http://software.esciencecenter.nl/software/openda
-- http://software.esciencecenter.nl/software/xenon
+- /software/openda
+- /software/xenon
 startDate: 2015-01-01
 endDate: 2016-12-31
 ---

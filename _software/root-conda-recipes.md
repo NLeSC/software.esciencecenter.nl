@@ -23,18 +23,18 @@ discipline:
 expertise:
 - Distributed Computing
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/d.remenska
+contactPerson: /person/d.remenska
 owner: 
-- http://software.esciencecenter.nl/person/d.remenska
+- /person/d.remenska
 contributor:
-- http://software.esciencecenter.nl/person/d.remenska
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/d.remenska
+- /person/s.verhoeven
 user:
-- http://software.esciencecenter.nl/organization/nikhef
+- /organization/nikhef
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nikhef
+- /organization/nikhef
 usedIn:
-- http://software.esciencecenter.nl/project/pandas-root
+- /project/pandas-root
 status: active
 dependency:
 - ROOT

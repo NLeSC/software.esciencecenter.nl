@@ -324,7 +324,8 @@ d3.json("/software.json", function (software_data) {
     .size(100)
     .columns([
         function(d) {
-            return '<a href="' + d['@id'].replace('{{ site.url }}', '') + '">' + d.name + '</a>';
+            // site_url variable should be set before this line is executed.
+            return '<a href="' + d['@id'].replace(site_url, '') + '">' + d.name + '</a>';
         },
         function(d) { return d.tagLine; }
     ])

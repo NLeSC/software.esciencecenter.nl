@@ -3,9 +3,9 @@ codeRepository: https://github.com/NLeSC/xtas
 competence:
 - Efficient Computing
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/j.attema
+contactPerson: /person/j.attema
 contributor:
-- http://software.esciencecenter.nl/person/l.veen
+- /person/l.veen
 discipline:
 - Humanities & Social Sciences
 documentationUrl: http://nlesc.github.io/xtas/setup.html
@@ -14,8 +14,8 @@ expertise:
 - Distributed Computing
 - Information Retrieval
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
+- /organization/nlesc
+- /organization/uva
 license:
 - apache-2.0
 name: xtas
@@ -23,11 +23,11 @@ inGroup:
 - NLeSC
 nlescWebsite: https://www.esciencecenter.nl/technology/software/xtas
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
+- /organization/nlesc
+- /organization/uva
 usedIn:
-- http://software.esciencecenter.nl/project/candygene
-- http://software.esciencecenter.nl/project/texcavator
+- /project/candygene
+- /project/texcavator
 programmingLanguage:
 - Java
 - Python
@@ -41,9 +41,9 @@ technologyTag:
 - Parsing
 - Sentiment analysis
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/person/p.bos
+- /organization/nlesc
+- /organization/uva
+- /person/p.bos
 website: http://nlesc.github.io/xtas/
 website: http://xtas.net/
 ---

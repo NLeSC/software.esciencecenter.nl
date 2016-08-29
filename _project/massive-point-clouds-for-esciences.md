@@ -1,30 +1,33 @@
 ---
-contactPerson: http://software.esciencecenter.nl/person/o.rubi
+contactPerson: /person/o.rubi
 engineer:
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/r.goncalves
-- http://software.esciencecenter.nl/person/m.vanmeersbergen
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/o.rubi
+- /person/r.goncalves
+- /person/m.vanmeersbergen
+- /person/s.verhoeven
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/tu-delft
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/fugro
-- http://software.esciencecenter.nl/organization/oracle
-- http://software.esciencecenter.nl/organization/rijkswaterstaat
-- http://software.esciencecenter.nl/organization/potree
+- /organization/tu-delft
+- /organization/cwi
+- /organization/fugro
+- /organization/oracle
+- /organization/rijkswaterstaat
+- /organization/potree
 logo: http://www.esciencecenter.nl/img/projects/1.P017-large.jpg
 name: Massive Point Clouds for eSciences
 inGroup:
 - NLeSC
 tagLine: Massive Point-Clouds for eSciences
 uses:
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/datavaults
-- http://software.esciencecenter.nl/software/pdal
-- http://software.esciencecenter.nl/software/potreeconverter
-- http://software.esciencecenter.nl/software/massivepotreeconverter
-- http://software.esciencecenter.nl/software/ahn2webviewer
-- http://software.esciencecenter.nl/software/potree
+- /software/monetdb
+- /software/datavaults
+- /software/pdal
+- /software/potreeconverter
+- /software/massivepotreeconverter
+- /software/ahn2webviewer
+- /software/potree
+publication:
+- http://dx.doi.org/10.14778/2824032.2824110
+- http://dx.doi.org/10.1016/j.cag.2015.01.007
 ---
 We are witnessing an increased significance of point clouds for societal and scientific applications, such as in smart cities, 3D urban modeling, flood modeling, dike monitoring, forest mapping, and digital object preservation in history and art. Modern Big Data acquisition technologies, such as laser scanning from airborne, mobile, or static platforms, dense image matching from photos, or multi-beam echo-sounding, have the potential to generate point clouds with billions (or even trillions) of elevation/depth points. One example is the height map of the Netherlands (the  AHN2 dataset), which consists of no less than 640.000.000.000 height values.
 

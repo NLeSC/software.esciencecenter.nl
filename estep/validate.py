@@ -14,7 +14,6 @@
 
 import logging
 
-import six
 from jsonschema.exceptions import ValidationError as SchemaValidationError
 
 from . import relationship
@@ -40,19 +39,22 @@ def log_error(error):
         LOGGER.warning(error)
 
 
-class Validators(AbstractValidator, six.moves.UserList):
+class Validators(AbstractValidator):
+    def __init__(self, validators):
+        self.validators = validators
+
     def iter_errors(self, instance):
-        for validator in self.data:
+        for validator in self.validators:
             for error in validator.iter_errors(instance):
                 yield error
 
     def finalize(self):
-        for validator in self.data:
+        for validator in self.validators:
             for error in validator.finalize():
                 yield error
 
     def missing(self):
-        for validator in self.data:
+        for validator in self.validators:
             for missing_tuple in validator.missing():
                 yield missing_tuple
 
@@ -81,10 +83,12 @@ class PropertyTypoValidator(AbstractValidator):
 class EStepValidator(Validators):
     def __init__(self, schema_uris, schemadir=None, resolve_local=True, resolve_remote=False,
                  resolve_cache_expire=5):
-        super(EStepValidator, self).__init__()
-        schema_validator = SchemaValidator(schema_uris, schemadir, resolve_local, resolve_remote,
-                                           resolve_cache_expire=resolve_cache_expire)
-        self.data.append(schema_validator)
-        self.data.append(PropertyTypoValidator('programmingLanguage'))
-        self.data.append(PropertyTypoValidator('technologyTag'))
-        self.data += relationship.get_validators()
+        validators = [
+            SchemaValidator(schema_uris, schemadir, resolve_local,
+                            resolve_remote,
+                            resolve_cache_expire=resolve_cache_expire),
+            PropertyTypoValidator('programmingLanguage'),
+            PropertyTypoValidator('technologyTag'),
+        ]
+        validators += relationship.get_validators()
+        super(EStepValidator, self).__init__(validators)

@@ -18,18 +18,18 @@ discipline:
 expertise:
 - 'Data Assimilation'
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/r.vanharen
+contactPerson: /person/r.vanharen
 owner:
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/r.vanharen
 contributor:
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/r.vanharen
 user:
-- http://software.esciencecenter.nl/person/r.vanharen
-- http://software.esciencecenter.nl/organization/wur
+- /person/r.vanharen
+- /organization/wur
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 usedIn:
-- http://software.esciencecenter.nl/project/era-urban
+- /project/era-urban
 startDate: 2015-6-17
 status: wip
 dependency:

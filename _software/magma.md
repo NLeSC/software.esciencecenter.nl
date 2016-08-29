@@ -20,26 +20,26 @@ expertise:
 - High Performance Computing
 - Scientific Visualization
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/l.ridder
+contactPerson: /person/l.ridder
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/wur
+- /organization/nlesc
+- /organization/wur
 contributor:
-- http://software.esciencecenter.nl/person/l.ridder
-- http://software.esciencecenter.nl/person/s.verhoeven
-- http://software.esciencecenter.nl/person/m.sanders
+- /person/l.ridder
+- /person/s.verhoeven
+- /person/m.sanders
 user:
-- http://software.esciencecenter.nl/person/l.ridder
-- http://software.esciencecenter.nl/person/m.sanders
+- /person/l.ridder
+- /person/m.sanders
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/wur
+- /organization/nlesc
+- /organization/wur
 usedIn:
-- http://software.esciencecenter.nl/project/emetabolomics
+- /project/emetabolomics
 startDate: 2011-05-10
 status: active
 dependency:
-- http://software.esciencecenter.nl/software/osmium
+- /software/osmium
 technologyTag:
 - Distributed
 - Webservice

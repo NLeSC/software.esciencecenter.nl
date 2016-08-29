@@ -1,24 +1,24 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/metrochart
-- http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
-- http://software.esciencecenter.nl/software/differential-evolution
-- http://software.esciencecenter.nl/software/matrix-of-scatter
-- http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
-- http://software.esciencecenter.nl/project/esibayes
+- /software/metrochart
+- /software/google-earth-toolbox-for-matlab
+- /software/differential-evolution
+- /software/matrix-of-scatter
+- /software/mmsoda-toolbox-for-matlab
+- /project/esibayes
 contributorOf:
-- http://software.esciencecenter.nl/software/metrochart
-- http://software.esciencecenter.nl/software/sfm
-- http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
-- http://software.esciencecenter.nl/software/differential-evolution
-- http://software.esciencecenter.nl/software/matrix-of-scatter
-- http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
+- /software/metrochart
+- /software/sfm
+- /software/google-earth-toolbox-for-matlab
+- /software/differential-evolution
+- /software/matrix-of-scatter
+- /software/mmsoda-toolbox-for-matlab
 engineerOf:
-- http://software.esciencecenter.nl/project/sherlock
-- http://software.esciencecenter.nl/project/eecology
-- http://software.esciencecenter.nl/project/esibayes
+- /project/sherlock
+- /project/eecology
+- /project/esibayes
 githubUrl: https://github.com/jspaaks
 jobTitle: eScience Research Engineer
 name: Jurriaan H. Spaaks
@@ -28,18 +28,18 @@ inGroup:
 nlescWebsite: https://www.esciencecenter.nl/profile/drs-jurriaan-spaaks
 photo: https://www.esciencecenter.nl/img/team/jurriaan-spaaks-cropped-bw-new.jpg
 userOf:
-- http://software.esciencecenter.nl/software/metrochart
-- http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
-- http://software.esciencecenter.nl/software/differential-evolution
-- http://software.esciencecenter.nl/software/matrix-of-scatter
-- http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
+- /software/metrochart
+- /software/google-earth-toolbox-for-matlab
+- /software/differential-evolution
+- /software/matrix-of-scatter
+- /software/mmsoda-toolbox-for-matlab
 ownerOf:
-- http://software.esciencecenter.nl/software/google-earth-toolbox-for-matlab
-- http://software.esciencecenter.nl/software/differential-evolution
-- http://software.esciencecenter.nl/software/matrix-of-scatter
-- http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
+- /software/google-earth-toolbox-for-matlab
+- /software/differential-evolution
+- /software/matrix-of-scatter
+- /software/mmsoda-toolbox-for-matlab
 authorOfReport:
-- http://software.esciencecenter.nl/report/xenon-tutorial
+- /report/xenon-tutorial
 ---
 Jurriaan's main responsibility as an eScience engineer is the implementation of inverse modeling algorithms such as DREAM, SCEM-UA, and SODA on cluster computers while improving the usability of these algorithms in the cluster environment.
 

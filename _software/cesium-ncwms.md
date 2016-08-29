@@ -2,10 +2,10 @@
 codeRepository: https://github.com/NLeSC/Cesium-NcWMS
 competence:
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
+contactPerson: /person/m.vanmeersbergen
 contributor:
-- http://software.esciencecenter.nl/person/n.drost
-- http://software.esciencecenter.nl/person/m.vanmeersbergen
+- /person/n.drost
+- /person/m.vanmeersbergen
 discipline:
 - Environment & Sustainability
 expertise:
@@ -16,7 +16,7 @@ name: Cesium-ncWMS
 inGroup:
 - NLeSC
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 programmingLanguage:
 - JavaScript
 - Java
@@ -28,9 +28,9 @@ technologyTag:
 - WebGL
 - 3D
 usedIn:
-- http://software.esciencecenter.nl/project/ewatercycle
+- /project/ewatercycle
 user:
-- http://software.esciencecenter.nl/person/n.drost
+- /person/n.drost
 ---
 Cesium (cesiumjs.org) based visualization using ncWMS to serve NetCDF data and D3 (d3js.org) to display graphs.
 A live running version of this software can be found at http://forecast.ewatercycle.org

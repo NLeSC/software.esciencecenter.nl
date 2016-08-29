@@ -17,17 +17,17 @@ dataMagnitude: MB
 dataFormat:
 - XML
 - JSON
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 engineer:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/j.vanderzwaan
 principalInvestigator:
   - name: Dr. Anneke Sools
     affiliation:
-    - http://software.esciencecenter.nl/organization/utwente
+    - /organization/utwente
     website: https://www.utwente.nl/bms/pgt/en/emp/sools/
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/utwente
+- /organization/nlesc
+- /organization/utwente
 uses:
 startDate: 2016-06-01
 ---

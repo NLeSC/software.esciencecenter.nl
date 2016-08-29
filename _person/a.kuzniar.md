@@ -10,22 +10,22 @@ githubUrl: https://github.com/arnikz
 ORCID: http://orcid.org/0000-0003-1711-7961
 jobTitle: eScience Research Engineer
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 
 photo: https://www.esciencecenter.nl/img/team/Arnold-Kuzniar-web.jpg
 
 contactPersonOf:
-- http://software.esciencecenter.nl/software/fairdatapoint
+- /software/fairdatapoint
 
 contributorOf:
-- http://software.esciencecenter.nl/software/fairdatapoint
+- /software/fairdatapoint
 
 userOf:
-- http://software.esciencecenter.nl/software/fairdatapoint
+- /software/fairdatapoint
 
 engineerOf:
-- http://software.esciencecenter.nl/project/odex4all
-- http://software.esciencecenter.nl/project/candygene
+- /project/odex4all
+- /project/candygene
 ---
 Arnold studied Molecular Biology at the Comenius University in Bratislava, Slovakia. In the last year of his masters, he received a scholarship to study bioinformatics at the Wageningen University and Research Centre (WUR), the Netherlands. He completed his thesis on comparative genomics of White spot syndrome (shrimp) virus isolates. During this period he also developed bioinformatics tools to mine these genomes for epidemiologically relevant biomarkers.
 

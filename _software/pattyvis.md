@@ -2,23 +2,23 @@
 codeRepository: https://github.com/NLeSC/pattyvis
 competence:
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
+contactPerson: /person/m.vanmeersbergen
 contributor:
-- http://software.esciencecenter.nl/person/p.bos
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/m.vanmeersbergen
-- http://software.esciencecenter.nl/person/s.verhoeven
-- http://software.esciencecenter.nl/person/m.kuzak
-- http://software.esciencecenter.nl/person/j.vanderzwaan
-- http://software.esciencecenter.nl/person/b.vanwerkhoven
-- http://software.esciencecenter.nl/person/l.kulik
+- /person/p.bos
+- /person/o.rubi
+- /person/m.vanmeersbergen
+- /person/s.verhoeven
+- /person/m.kuzak
+- /person/j.vanderzwaan
+- /person/b.vanwerkhoven
+- /person/l.kulik
 discipline:
 - eScience Methodology
 expertise:
 - Scientific Visualization
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/vua
 license:
 - apache-2.0
 name: PattyVis
@@ -35,15 +35,15 @@ technologyTag:
 - WebGL
 - GIS
 dependency:
-- http://software.esciencecenter.nl/software/potree
-- http://software.esciencecenter.nl/software/potreeconverter
+- /software/potree
+- /software/potreeconverter
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/o.rubi
+- /organization/nlesc
+- /person/o.rubi
 usedIn:
-- http://software.esciencecenter.nl/project/viaappia-patty
+- /project/viaappia-patty
 owner: 
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 ---
 [![Build Status](https://travis-ci.org/NLeSC/PattyVis.svg?branch=master)](https://travis-ci.org/NLeSC/PattyVis)
 [![Code Climate](https://codeclimate.com/github/NLeSC/PattyVis/badges/gpa.svg)](https://codeclimate.com/github/NLeSC/PattyVis)

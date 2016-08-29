@@ -2,12 +2,12 @@
 codeRepository: https://github.com/nlesc-sherlock/Rig
 competence:
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 contributor:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
-- http://software.esciencecenter.nl/person/w.vanhage
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/l.buitinck
+- /person/j.vanderzwaan
+- /person/w.vanhage
+- /person/o.rubi
+- /person/l.buitinck
 discipline:
 - eScience Methodology
 expertise:
@@ -16,7 +16,7 @@ expertise:
 - Databases
 - Distributed Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - apache-2.0
 logo: https://raw.githubusercontent.com/nlesc-sherlock/Rig/develop/app/images/noun_95045_cc.png
@@ -24,7 +24,7 @@ name: Rig
 inGroup:
 - NLeSC
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 programmingLanguage:
 - Python
 - JavaScript
@@ -35,9 +35,9 @@ tagLine: Big data cleaning toolkit
 technologyTag:
 - Spark
 usedIn:
-- http://software.esciencecenter.nl/project/sherlock
+- /project/sherlock
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 ---
 Every data analysis project starts with exploring and cleaning data. For tabular data, there are some tools available that facilitate data pre-processing, such as OpenRefine and Trifacta Wrangler. However, these tools one big disadvantage; they don't scale to really big data sets. Also, Trifacta Wrangler is not open source. For full text data, no tools for data cleanup exist.
 

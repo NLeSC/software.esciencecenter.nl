@@ -22,24 +22,24 @@ discipline:
 expertise:
 - Databases
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/r.goncalves
+contactPerson: /person/r.goncalves
 contributor:
-- http://software.esciencecenter.nl/person/r.goncalves
+- /person/r.goncalves
 user:
-- http://software.esciencecenter.nl/person/r.goncalves
+- /person/r.goncalves
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/monetdb
-- http://software.esciencecenter.nl/organization/jhu
+- /organization/cwi
+- /organization/monetdb
+- /organization/jhu
 usedIn:
-- http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
-- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
+- /project/big-data-analytics-in-the-geo-spatial-domain
+- /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- /project/massive-point-clouds-for-esciences
 startDate: 2014-03-1
 status: active
 dependency:
 dependencyOf:
-- http://software.esciencecenter.nl/software/monetdb
+- /software/monetdb
 technologyTag:
 - Scientific Databases
 - In-situ data access

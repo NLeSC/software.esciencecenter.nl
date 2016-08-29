@@ -23,63 +23,63 @@ json_excludes:
 - content  # renamed to 'description'
 - url  # renamed to '@id'
 - collection
+- ext
+- draft
+- excerpt
+- tags
+- categories
+- date  # converted to iso8601 format
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
-# Build settings
 markdown: kramdown
 keep_files:
 - assets
 - images
 - schema
+- js
 permalink: pretty
 collections:
   software:
-    output: true
+    output: false
   project:
-    output: true
+    output: false
   person:
-    output: true
+    output: false
   organization:
-    output: true
-#  publication:
-#    output: true
+    output: false
+  publication:
+   output: false
   report:
-    output: true
+    output: false
 defaults:
   - scope:
       path: ""
       type: software
     values:
-      layout: software
       schema: http://software.esciencecenter.nl/schema/software
   - scope:
       path: ""
       type: project
     values:
-      layout: project
       schema: http://software.esciencecenter.nl/schema/project
   - scope:
       path: ""
       type: person
     values:
-      layout: person
       schema: http://software.esciencecenter.nl/schema/person
   - scope:
       path: ""
       type: organization
     values:
-      layout: organization
       schema: http://software.esciencecenter.nl/schema/organization
-#  - scope:
-#      path: ""
-#      type: publication
-#    values:
-#      layout: publication
-#      schema: http://software.esciencecenter.nl/schema/publication
+  - scope:
+      path: ""
+      type: publication
+    values:
+      schema: http://software.esciencecenter.nl/schema/publication
   - scope:
       path: ""
       type: report
     values:
-      layout: report
       schema: http://software.esciencecenter.nl/schema/report

@@ -3,6 +3,6 @@ name: Meertens Institute
 logo: https://www.meertens.knaw.nl/cms/templates/mi_hetgelaat/css/images/logo_meertens_full.png
 website: http://www.meertens.knaw.nl
 involvedIn:
-- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
+- /project/from-sentiment-mining-to-mining-embodied-emotions
 ---
 The Meertens Institute, established in 1926, has been a research institute of the Royal Netherlands Academy of Arts and Sciences (KNAW) since 1952. We study the diversity in language and culture in the Netherlands.

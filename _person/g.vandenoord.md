@@ -9,7 +9,7 @@ linkedInUrl: https://www.linkedin.com/in/gijs-van-den-oord
 githubUrl: https://github.com/c-martinez
 jobTitle: eScience Research Engineer
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 photo:
 contactPersonOf:
 ownerOf:

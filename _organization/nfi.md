@@ -6,13 +6,13 @@ linkedInUrl: https://www.linkedin.com/company/nederlands-forensisch-instituut
 twitterUrl: https://twitter.com/nedforinst
 tagLine: In feiten het beste
 involvedIn:
-- http://software.esciencecenter.nl/project/sherlock
-- http://software.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+- /project/sherlock
+- /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 organizationOf:
 ownerOf:
 userOf:
-- http://software.esciencecenter.nl/project/sherlock
-- http://software.esciencecenter.nl/software/metrochart
+- /project/sherlock
+- /software/metrochart
 ---
 Het Nederlands Forensisch Instituut (NFI) bevordert het optimaal functioneren van de rechtshandhaving en rechtspleging vanuit een focus op natuurwetenschappelijke informatieposities.
 

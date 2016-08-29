@@ -15,24 +15,24 @@ infrastructure:
 dataMagnitude: GB
 dataFormat:
 - XML
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 engineer:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/j.vanderzwaan
 principalInvestigator:
   - name: Dr. Maarten Marx
     affiliation:
-    - http://software.esciencecenter.nl/organization/uva
+    - /organization/uva
     website: http://mashup2.science.uva.nl/marx/
   - name: Dr. Jaap Kamps
     affiliation:
-    - http://software.esciencecenter.nl/organization/uva
+    - /organization/uva
     website: http://humanities.uva.nl/~kamps/
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
+- /organization/nlesc
+- /organization/uva
 uses:
-- http://software.esciencecenter.nl/software/cptm
-- http://software.esciencecenter.nl/software/topic-coherence-for-dutch
+- /software/cptm
+- /software/topic-coherence-for-dutch
 startDate: 2014-12-18
 endDate: 2016-04-01
 ---

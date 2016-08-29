@@ -21,21 +21,23 @@ dataFormat:
   - NetCDF
   - GRIB
   - CSV
-contactPerson: http://software.esciencecenter.nl/person/j.attema
+contactPerson: /person/j.attema
 engineer:
-  - http://software.esciencecenter.nl/person/j.attema
+  - /person/j.attema
 coordinator:
-  - http://software.esciencecenter.nl/person/e.ranguelova
+  - /person/e.ranguelova
 principalInvestigator:
   - name: Prof. dr. Bert Holtslag
     affiliation:
-    - http://software.esciencecenter.nl/organization/wur
+    - /organization/wur
     website: http://www.wageningenur.nl/en/Persons/prof.dr.-AAM-Bert-Holtslag.htm
 involvedOrganization:
-  - http://software.esciencecenter.nl/organization/wur
+  - /organization/wur
 uses:
 startDate: 2013-01-21
 endDate: 2016-09-01
+publication:
+- http://dx.doi.org/10.1109/eScience.2015.21
 ---
 
 Forecasting and mapping human thermal comfort in urban areas.

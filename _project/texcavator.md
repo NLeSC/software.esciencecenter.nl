@@ -18,30 +18,30 @@ infrastructure: Elasticsearch for indexing and searching newspaper data
 dataMagnitude: GB
 dataFormat:
 - XML
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 engineer:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/j.vanderzwaan
 principalInvestigator:
   - name: Prof. Joris van Eijnatten
     affiliation:
-    - http://software.esciencecenter.nl/organization/uu
+    - /organization/uu
     website: http://www.uu.nl/medewerkers/JvanEijnatten/
   - name: Prof. Toine Pieters
     affiliation:
-    - http://software.esciencecenter.nl/organization/uu
+    - /organization/uu
     website: http://www.uu.nl/staff/AHLMPieters/
   - name: Dr. Jaap Verheul
     affiliation:
-    - http://software.esciencecenter.nl/organization/uu
+    - /organization/uu
     website: http://www.uu.nl/staff/JVerheul/
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/uu
-- http://software.esciencecenter.nl/organization/surfsara
+- /organization/nlesc
+- /organization/uva
+- /organization/uu
+- /organization/surfsara
 uses:
-- http://software.esciencecenter.nl/software/texcavator
-- http://software.esciencecenter.nl/software/xtas
+- /software/texcavator
+- /software/xtas
 startDate: 2013-12-04
 endDate: 2015-03-20
 ---
