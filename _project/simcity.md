@@ -1,8 +1,8 @@
 ---
 competence:
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/j.borgdorff
-coordinator: http://software.esciencecenter.nl/person/w.vanhage
+contactPerson: /person/j.borgdorff
+coordinator: /person/w.vanhage
 dataFormat:
 - GeoJSON
 - JSON
@@ -14,7 +14,7 @@ dataMagnitude: TB
 discipline:
 - Humanities & Social Sciences
 engineer:
-- http://software.esciencecenter.nl/person/j.borgdorff
+- /person/j.borgdorff
 expertise:
 - Information Visualization
 - Scientific Visualization
@@ -23,8 +23,8 @@ expertise:
 - Distributed Computing
 infrastructure: Clouds and clusters
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
+- /organization/nlesc
+- /organization/uva
 logo: https://www.esciencecenter.nl/img/projects/1.P014-small.jpg
 name: SIM-CITY
 inGroup:
@@ -32,9 +32,9 @@ inGroup:
 nlescWebsite: https://www.esciencecenter.nl/project/sim-city
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/uva
-  - http://software.esciencecenter.nl/organization/itmo
-  - http://software.esciencecenter.nl/organization/ntu
+  - /organization/uva
+  - /organization/itmo
+  - /organization/ntu
   description: Prof. Peter Sloot is Distinguished Research Professor at the University
     of Amsterdam. He studies 'natural information processing' in complex systems by
     computational modeling and simulation as well as through formal methods.
@@ -43,9 +43,9 @@ principalInvestigator:
   website: http://www.peter-sloot.com
 tagLine: 'SIM-CITY: Decision support for urban social economic complexity'
 uses:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/pyxenon
-- http://software.esciencecenter.nl/software/common-sense
+- /software/xenon
+- /software/pyxenon
+- /software/common-sense
 website: http://simcity.amsterdam-complexity.nl
 publication:
 - http://dx.doi.org/10.1016/j.procs.2015.05.399

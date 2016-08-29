@@ -3,18 +3,18 @@ name: A Jungle Computing approach to large scale online Forensic Analysis
 inGroup:
 - NLeSC
 tagLine: 'Programming tools that simplify application development and deployment'
-contactPerson: http://software.esciencecenter.nl/person/j.maassen
+contactPerson: /person/j.maassen
 nlescWebsite: https://www.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 logo: https://www.esciencecenter.nl/img/projects/1.P027-large.jpg
 engineer:
-- http://software.esciencecenter.nl/person/j.maassen
-- http://software.esciencecenter.nl/person/b.vanwerkhoven
+- /person/j.maassen
+- /person/b.vanwerkhoven
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nfi
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nfi
+- /organization/nlesc
+- /organization/vua
 uses:
-- http://software.esciencecenter.nl/software/kernel_tuner
+- /software/kernel_tuner
 competence:
 - Optimized Data Handling
 - Big Data Analytics

@@ -1,24 +1,24 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/ahn2webviewer
-- http://software.esciencecenter.nl/software/potree
-- http://software.esciencecenter.nl/software/storyteller
-- http://software.esciencecenter.nl/software/pattyvis
-- http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
-- http://software.esciencecenter.nl/software/cesium-ncwms
+- /software/ahn2webviewer
+- /software/potree
+- /software/storyteller
+- /software/pattyvis
+- /project/visualizing-uncertainty-and-perspectives
+- /software/cesium-ncwms
 contributorOf:
-- http://software.esciencecenter.nl/software/storyteller
-- http://software.esciencecenter.nl/software/massivepotreeconverter
-- http://software.esciencecenter.nl/software/potree
-- http://software.esciencecenter.nl/software/ahn2webviewer
-- http://software.esciencecenter.nl/software/pattyvis
-- http://software.esciencecenter.nl/software/cesium-ncwms
+- /software/storyteller
+- /software/massivepotreeconverter
+- /software/potree
+- /software/ahn2webviewer
+- /software/pattyvis
+- /software/cesium-ncwms
 engineerOf:
-- http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-- http://software.esciencecenter.nl/project/viaappia-patty
+- /project/visualizing-uncertainty-and-perspectives
+- /project/massive-point-clouds-for-esciences
+- /project/viaappia-patty
 jobTitle: eScience Research Engineer
 name: Maarten van Meersbergen
 email: m.vanmeersbergen@esciencecenter.nl

@@ -2,7 +2,7 @@
 competence:
 - Optimized Data Handling
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/o.rubi
+contactPerson: /person/o.rubi
 dataMagnitude: GB
 dataFormat:
 - Octree
@@ -10,25 +10,25 @@ discipline:
 - Humanities & Social Sciences
 endDate: 2015-04-30
 engineer:
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/m.vanmeersbergen
-- http://software.esciencecenter.nl/person/s.verhoeven
-- http://software.esciencecenter.nl/person/n.drost
-- http://software.esciencecenter.nl/person/j.attema
-- http://software.esciencecenter.nl/person/r.vannieuwpoort
+- /person/o.rubi
+- /person/m.vanmeersbergen
+- /person/s.verhoeven
+- /person/n.drost
+- /person/j.attema
+- /person/r.vannieuwpoort
 expertise:
 - Databases
 - Handling Sensor Data
 - Scientific Visualization
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
-- http://software.esciencecenter.nl/organization/fugro
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/university.of.groningen
-- http://software.esciencecenter.nl/organization/spinlab
-- http://software.esciencecenter.nl/organization/knir
-- http://software.esciencecenter.nl/organization/potree
+- /organization/nlesc
+- /organization/vua
+- /organization/fugro
+- /organization/radboud.university.nijmegen
+- /organization/university.of.groningen
+- /organization/spinlab
+- /organization/knir
+- /organization/potree
 name: Mapping the Via Appia in 3D
 inGroup:
 - NLeSC
@@ -36,20 +36,20 @@ nlescWebsite: https://www.esciencecenter.nl/project/mapping-the-via-appia-in-3d
 logo: https://www.esciencecenter.nl/img/projects/1.P024-large.jpg
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/vua
+  - /organization/vua
   name: MA, Maurice de Kleijn
   website: http://www.feweb.vu.nl/gis/organisation/staff2.asp?id=72
 startDate: 2013-10-01
 tagLine: Developing a 4D geographic information system for archaeological purposes
 uses:
-- http://software.esciencecenter.nl/software/pattyvis
-- http://software.esciencecenter.nl/software/pattydata
-- http://software.esciencecenter.nl/software/pattyanalytics
-- http://software.esciencecenter.nl/software/sfm
-- http://software.esciencecenter.nl/software/potree
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/potreeconverter
-- http://software.esciencecenter.nl/software/python-pcl
+- /software/pattyvis
+- /software/pattydata
+- /software/pattyanalytics
+- /software/sfm
+- /software/potree
+- /software/xenon
+- /software/potreeconverter
+- /software/python-pcl
 publication:
 - http://dx.doi.org/10.1016/j.daach.2016.03.001
 - http://dx.doi.org/10.1080/17538947.2016.1205673

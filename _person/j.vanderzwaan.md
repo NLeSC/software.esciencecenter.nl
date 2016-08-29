@@ -1,33 +1,33 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/cptm
-- http://software.esciencecenter.nl/project/dilipad
-- http://software.esciencecenter.nl/project/texcavator
-- http://software.esciencecenter.nl/software/texcavator
-- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
-- http://software.esciencecenter.nl/software/recipy
-- http://software.esciencecenter.nl/software/rig
-- http://software.esciencecenter.nl/project/what-works-when-for-whom
-- http://software.esciencecenter.nl/software/topic-coherence-for-dutch
-- http://software.esciencecenter.nl/software/heem-dataset
+- /software/cptm
+- /project/dilipad
+- /project/texcavator
+- /software/texcavator
+- /project/from-sentiment-mining-to-mining-embodied-emotions
+- /software/recipy
+- /software/rig
+- /project/what-works-when-for-whom
+- /software/topic-coherence-for-dutch
+- /software/heem-dataset
 contributorOf:
-- http://software.esciencecenter.nl/software/cptm
-- http://software.esciencecenter.nl/software/texcavator
-- http://software.esciencecenter.nl/software/recipy
-- http://software.esciencecenter.nl/software/rig
-- http://software.esciencecenter.nl/software/pattyvis
-- http://software.esciencecenter.nl/software/storyteller
-- http://software.esciencecenter.nl/software/topic-coherence-for-dutch
-- http://software.esciencecenter.nl/software/heem-dataset
+- /software/cptm
+- /software/texcavator
+- /software/recipy
+- /software/rig
+- /software/pattyvis
+- /software/storyteller
+- /software/topic-coherence-for-dutch
+- /software/heem-dataset
 engineerOf:
-- http://software.esciencecenter.nl/project/dilipad
-- http://software.esciencecenter.nl/project/texcavator
-- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
-- http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
-- http://software.esciencecenter.nl/project/sherlock
-- http://software.esciencecenter.nl/project/what-works-when-for-whom
+- /project/dilipad
+- /project/texcavator
+- /project/from-sentiment-mining-to-mining-embodied-emotions
+- /project/visualizing-uncertainty-and-perspectives
+- /project/sherlock
+- /project/what-works-when-for-whom
 githubUrl: https://github.com/jvdzwaan
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/jvdzwaan

@@ -14,20 +14,20 @@ discipline:
 expertise:
 - Accelerated Computing
 - Information Visualization
-contactPerson: http://software.esciencecenter.nl/person/f.diblen
+contactPerson: /person/f.diblen
 engineer:
-- http://software.esciencecenter.nl/person/f.diblen
+- /person/f.diblen
 principalInvestigator:
   - name: Dr. Sascha Caron
     affiliation:
-    - http://software.esciencecenter.nl/organization/radboud.university.nijmegen
+    - /organization/radboud.university.nijmegen
     website: http://www.nikhef.nl/~scaron
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/upv
-- http://software.esciencecenter.nl/organization/icl
+- /organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/uva
+- /organization/upv
+- /organization/icl
 uses:
 startDate: 2016-04-01
 endDate: 2019-04-01

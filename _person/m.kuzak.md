@@ -1,8 +1,8 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributorOf:
-- http://software.esciencecenter.nl/software/pattyvis
+- /software/pattyvis
 githubUrl: https://github.com/mkuzak
 jobTitle: eScience Research Engineer
 name: Mateusz Kuzak

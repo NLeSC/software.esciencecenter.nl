@@ -1,8 +1,8 @@
 ---
 competence:
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/n.drost
-coordinator: http://software.esciencecenter.nl/person/j.maassen
+contactPerson: /person/n.drost
+coordinator: /person/j.maassen
 dataFormat:
 - NetCDF
 dataMagnitude: TB
@@ -10,14 +10,14 @@ discipline:
 - Environment & Sustainability
 endDate: 2015-12-31
 engineer:
-- http://software.esciencecenter.nl/person/n.drost
+- /person/n.drost
 expertise:
 - High Performance Computing
 infrastructure: Supercomputer
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/tu-delft
-- http://software.esciencecenter.nl/organization/uu
+- /organization/nlesc
+- /organization/tu-delft
+- /organization/uu
 logo: http://www.esciencecenter.nl/img/projects/1.P011-large.jpg
 name: 'eWaterCycle: Data-intensive modeling of the global water cycle'
 inGroup:
@@ -25,14 +25,14 @@ inGroup:
 nlescWebsite: http://www.esciencecenter.nl/project/ewatercycle
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/tu-delft
+  - /organization/tu-delft
   name: Prof. dr. Nick van de Giesen
   website: http://www.citg.tudelft.nl/index.php?id=19972&L=1
 startDate: 2012-05-01
 tagLine: Global water information when it matters
 uses:
-- http://software.esciencecenter.nl/software/openda
-- http://software.esciencecenter.nl/software/cesium-ncwms
+- /software/openda
+- /software/cesium-ncwms
 website: http://ewatercycle.org
 ---
 If you would know that ten days from now a flood will be at your doorstep, what would you do? You would have time to prepare emergency measures but also move your belongings to higher grounds. It might even be possible to sacrifice inexpensive farmland to save a central business district. Ten days can make a major difference. This is exactly the aim of the eWaterCycle project: to predict flood and drought events 10 days in advance, worldwide and in high resolution. The featured movie shows a setting in which the city of Mandalay is saved from a hypothetical flood. The model can act as an early warning system and enable companies, people and governments to prepare for the rising water.

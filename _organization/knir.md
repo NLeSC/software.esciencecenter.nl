@@ -1,7 +1,7 @@
 ---
 involvedIn:
-- http://software.esciencecenter.nl/project/hadrianus
-- http://software.esciencecenter.nl/project/viaappia-patty
+- /project/hadrianus
+- /project/viaappia-patty
 logo: http://www.knir.it/templates/koninklijknederlandsinstituutrome/images/logo.png
 name: Koninklijk Nederlands Instituut in Rome
 tagLine: Koninklijk Nederlands Instituut in Rome

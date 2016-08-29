@@ -2,9 +2,9 @@
 codeRepository: https://github.com/NLeSC/eEcology-script-wrapper
 competence:
 - Optimized Data Handling
-contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
+contactPerson: /person/s.verhoeven
 contributor:
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/s.verhoeven
 discipline:
 - Environment & Sustainability
 expertise:
@@ -13,18 +13,18 @@ expertise:
 - Scientific Visualization
 - Databases
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/surfsara
+- /organization/nlesc
+- /organization/uva
+- /organization/surfsara
 name: eEcology Tracker calendar
 inGroup:
 - NLeSC
 license:
 - apache-2.0
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /organization/nlesc
+- /organization/uva
+- /person/s.verhoeven
 programmingLanguage:
 - Python
 startDate: 2013-02-15
@@ -35,9 +35,9 @@ technologyTag:
 - GIS
 - Website
 usedIn:
-- http://software.esciencecenter.nl/project/eecology
+- /project/eecology
 user:
-- http://software.esciencecenter.nl/organization/uva
+- /organization/uva
 website: https://public.e-ecology.sara.nl/sw/tool/calendar/
 ---
 The tracker calendar shows daily statistics or metrics of tracker as a calendar heatmap. It can be used to find days when something interesting happened or to find repeating patterns.

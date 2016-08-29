@@ -7,10 +7,10 @@ nlescWebsite: https://www.esciencecenter.nl/profile/ir.-lourens-veen
 githubUrl: https://github.com/LourensVeen
 jobTitle: eScience Research Engineer
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 photo: https://www.esciencecenter.nl/img/team/Lourens_Veen-web.jpg
 contributorOf:
-- http://software.esciencecenter.nl/software/xtas
+- /software/xtas
 ---
 Lourens studied Computer Science at the University of Twente in
 The Netherlands, where he received an MSc (Hons.) in Databases and Information

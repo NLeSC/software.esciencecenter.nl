@@ -21,22 +21,22 @@ expertise:
 - 'High Performance Computing'
 - 'Databases'
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/r.vanharen
+contactPerson: /person/r.vanharen
 owner:
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/r.vanharen
 contributor:
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/r.vanharen
 user:
-- http://software.esciencecenter.nl/person/r.vanharen
-- http://software.esciencecenter.nl/organization/wur
+- /person/r.vanharen
+- /organization/wur
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 usedIn:
-- http://software.esciencecenter.nl/project/era-urban
+- /project/era-urban
 startDate: 2015-10-15
 status: wip
 dependency:
-- http://software.esciencecenter.nl/software/pyxenon
+- /software/pyxenon
 - f90nml
 - WRF
 - WRFDA

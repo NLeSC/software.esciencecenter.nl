@@ -1,19 +1,19 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/datavaults
-- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
-- http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
+- /software/monetdb
+- /software/datavaults
+- /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- /project/big-data-analytics-in-the-geo-spatial-domain
 contributorOf:
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/datavaults
-- http://software.esciencecenter.nl/software/pattydata
+- /software/monetdb
+- /software/datavaults
+- /software/pattydata
 engineerOf:
-- http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
-- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
+- /project/big-data-analytics-in-the-geo-spatial-domain
+- /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- /project/massive-point-clouds-for-esciences
 githubUrl: https://github.com/romulogoncalves
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/romulo-goncalves-6999b341
@@ -25,8 +25,8 @@ nlescWebsite: https://www.esciencecenter.nl/profile/dr.-romulo-pereira-goncalves
 photo: http://www.esciencecenter.nl/img/team/Romulo-Pereira-Goncalves-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/Romulo_Goncalves
 userOf:
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/datavaults
+- /software/monetdb
+- /software/datavaults
 ---
 In March 2014 Romulo joined Netherlands eScience Center after his post-doctoral research at IBM Almaden research center.
 

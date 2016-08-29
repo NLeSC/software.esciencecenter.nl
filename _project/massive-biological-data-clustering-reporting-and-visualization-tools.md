@@ -10,10 +10,10 @@ competence:
 - Big Data Analytics
 expertise:
 - Information Visualization
-contactPerson: http://software.esciencecenter.nl/person/s.georgievska
+contactPerson: /person/s.georgievska
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/cbs-knaw
+- /organization/cbs-knaw
 uses:
-- http://software.esciencecenter.nl/software/cclustera
+- /software/cclustera
 ---
 A stepping stone for an online service for identification and classification of fungal species.
