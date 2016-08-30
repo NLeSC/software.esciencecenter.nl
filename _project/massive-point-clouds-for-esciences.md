@@ -1,28 +1,4 @@
 ---
-contactPerson: http://software.esciencecenter.nl/person/o.rubi
-engineer:
-- http://software.esciencecenter.nl/person/m.vanmeersbergen
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/r.goncalves
-- http://software.esciencecenter.nl/person/s.verhoeven
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/fugro
-- http://software.esciencecenter.nl/organization/potree
-- http://software.esciencecenter.nl/organization/oracle
-- http://software.esciencecenter.nl/organization/tu-delft
-- http://software.esciencecenter.nl/organization/rijkswaterstaat
-uses:
-- http://software.esciencecenter.nl/software/potreeconverter
-- http://software.esciencecenter.nl/software/potree
-- http://software.esciencecenter.nl/software/pdal
-- http://software.esciencecenter.nl/software/datavaults
-- http://software.esciencecenter.nl/software/massivepotreeconverter
-- http://software.esciencecenter.nl/software/ahn2webviewer
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/liblas
----
---
 contactPerson: /person/o.rubi
 engineer:
 - /person/o.rubi

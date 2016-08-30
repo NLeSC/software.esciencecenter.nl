@@ -6,7 +6,7 @@ tagLine: User-friendly web application for showing (GIS) data on a map.
 codeRepository: https://github.com/TNOCS/csWeb/
 website: https://tnocs.github.io/csWeb/
 documentationUrl: https://github.com/TNOCS/csWeb/wiki/Getting-started
-logo: http://software.esciencecenter.nl/images/software/common-sense.png
+logo: /images/software/common-sense.png
 programmingLanguage:
 - JavaScript
 - TypeScript

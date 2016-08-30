@@ -10,8 +10,7 @@ contributorOf:
 - /software/monetdb
 - /software/datavaults
 - /software/pattydata
-- software/liblas
-- http://software.esciencecenter.nl/software/liblas
+- /software/liblas
 email: r.goncalves@esciencecenter.nl
 engineerOf:
 - /project/big-data-analytics-in-the-geo-spatial-domain

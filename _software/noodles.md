@@ -15,7 +15,7 @@ dependency:
 - /software/pyxenon
 dependencyOf:
 - /pymicmac
-- http://software.esciencecenter.nl/software/pymicmac
+- /software/pymicmac
 discipline:
 - Life Sciences & eHealth
 - eScience Methodology

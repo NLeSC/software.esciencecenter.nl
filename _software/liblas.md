@@ -2,15 +2,15 @@
 codeRepository: http://www.liblas.org/
 competence:
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/o.rubi
+contactPerson: /person/o.rubi
 contributor:
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/r.goncalves
+- /person/o.rubi
+- /person/r.goncalves
 discipline:
 - eScience Methodology
 expertise:
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - bsd-2-clause
 name: PDAL
@@ -22,13 +22,13 @@ status: active
 supportLevel: specialized
 tagLine: C/C++ library for reading and writing the very common LAS Lidar format.
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/r.goncalves
+- /organization/nlesc
+- /person/o.rubi
+- /person/r.goncalves
 usedIn:
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-- http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
-- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- /project/massive-point-clouds-for-esciences
+- /project/big-data-analytics-in-the-geo-spatial-domain
+- /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
 technologyTag:
 - Point clouds
 - Library

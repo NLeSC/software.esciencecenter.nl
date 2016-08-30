@@ -1,20 +1,4 @@
 ---
-contactPerson: http://software.esciencecenter.nl/person/r.goncalves
-engineer:
-- http://software.esciencecenter.nl/person/r.goncalves
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/fugro
-- http://software.esciencecenter.nl/organization/geodan
-- http://software.esciencecenter.nl/organization/monetdb
-- http://software.esciencecenter.nl/organization/tu-delft
-- http://software.esciencecenter.nl/organization/vua
-uses:
-- http://software.esciencecenter.nl/software/datavaults
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/liblas
----
---
 name: Big-Data-Analytics-in-the-Geo-Spatial-Domain
 inGroup:
 - NLeSC
