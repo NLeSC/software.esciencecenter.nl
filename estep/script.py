@@ -169,6 +169,13 @@ def generate_reciprocal(schemadir):
             doc = faulty_docs[url]
             schema = schemas[doc['schema']]
 
+            try:
+                parsed_value = parse_url(value)
+                if is_internal_url(parsed_value):
+                    value = parsed_value['path']
+            except ValueError:
+                pass
+
             if ('type' in schema['properties'][property_name] and
                     schema['properties'][property_name]['type'] == 'array'):
                 if property_name not in doc:
