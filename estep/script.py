@@ -212,6 +212,7 @@ def generate_logo():
         'person': 'photo',
         'project': 'logo',
         'software': 'logo',
+        'report': 'cover',
     }
 
     LOGGER.info('Parsing documents')
@@ -219,6 +220,9 @@ def generate_logo():
     failed = 0
 
     for collection, doc_path, document in config.documents():
+        if collection not in logo_name:
+            continue
+
         logo = logo_name[collection]
         LOGGER.debug('Document: %s', doc_path)
 
