@@ -15,17 +15,17 @@ contributorOf:
 - /software/ahn2webviewer
 - /software/pattyvis
 - /software/cesium-ncwms
+email: m.vanmeersbergen@esciencecenter.nl
 engineerOf:
 - /project/visualizing-uncertainty-and-perspectives
 - /project/massive-point-clouds-for-esciences
 - /project/viaappia-patty
-jobTitle: eScience Research Engineer
-name: Maarten van Meersbergen
-email: m.vanmeersbergen@esciencecenter.nl
 inGroup:
 - NLeSC
+jobTitle: eScience Research Engineer
+name: Maarten van Meersbergen
 nlescWebsite: https://www.esciencecenter.nl/profile/maarten-van-meersbergen-msc
-photo: https://www.esciencecenter.nl/img/team/maarten-van-meersbergen-new.jpg
+photo: /images/person/m.vanmeersbergen.jpg
 ---
 Maarten studied Computer Science at the VU University in Amsterdam, where he specialized in Multimedia Applications. His Master's thesis focused on visualization of the inner workings of the Ibis Complex HPC framework. During his studies, Maarten worked in IT support at the Faculty of Science at the VU University for 6 years, helping researchers to use the faculty's computing services to their full extent. During this time, he also engaged in some early eScience by parallelizing his code to verify a Math algorithm on a large scale.
 

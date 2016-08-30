@@ -13,15 +13,15 @@ engineer:
 - /person/n.drost
 expertise:
 - High Performance Computing
+inGroup:
+- NLeSC
 infrastructure: Supercomputer
 involvedOrganization:
 - /organization/nlesc
 - /organization/tu-delft
 - /organization/uu
-logo: http://www.esciencecenter.nl/img/projects/1.P011-large.jpg
+logo: /images/project/ewatercycle.jpg
 name: 'eWaterCycle: Data-intensive modeling of the global water cycle'
-inGroup:
-- NLeSC
 nlescWebsite: http://www.esciencecenter.nl/project/ewatercycle
 principalInvestigator:
 - affiliation:

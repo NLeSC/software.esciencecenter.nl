@@ -2,7 +2,7 @@
 involvedIn:
 - /project/automated-parallel-calculation-of-collaborative-statistical-models
 - /project/pandas-root
-logo: https://www.nikhef.nl/fileadmin/design/resources/logo.jpg
+logo: /images/organization/nikhef.jpg
 name: NIKHEF
 tagLine: National Institute for Subatomic Physics
 userOf:

@@ -19,21 +19,21 @@ coordinatorOf:
 - /project/esalsa
 - /project/amuse
 - /project/abcmuse
+email: j.maassen@esciencecenter.nl
 engineerOf:
 - /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 githubUrl: https://github.com/jmaassen
+inGroup:
+- NLeSC
 jobTitle: Technology Lead Efficient Computing
 linkedInUrl: https://nl.linkedin.com/in/jason-maassen-6795ba4
 name: Jason Maassen
-email: j.maassen@esciencecenter.nl
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-jason-maassen
 ownerOf:
 - /software/xenon
 - /software/magnesium
 - /project/sherlock
-photo: https://www.esciencecenter.nl/img/team/jason-maassen-new.jpg
+photo: /images/person/j.maassen.jpg
 researchgateUrl: https://www.researchgate.net/profile/Jason_Maassen
 userOf:
 - /software/xenon

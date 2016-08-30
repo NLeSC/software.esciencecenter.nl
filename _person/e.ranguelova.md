@@ -1,32 +1,32 @@
 ---
 affiliation:
 - /organization/nlesc
+authorOfReport:
+- /report/large-scale-computer-vision
+- /report/wood-image-classification
 contactPersonOf:
 - /project/eecology
 - /project/error-detection-and-error-localization
 - /software/salient-region-detectors
+contributorOf:
+- /software/salient-region-detectors
+- /software/pattydata
 coordinatorOf:
 - /project/era-urban
 - /project/eecology
 - /project/summer-in-the-city
 - /software/salient-region-detectors
 - /project/error-detection-and-error-localization
+email: e.ranguelova@esciencecenter.nl
 engineerOf:
 - /project/biomarker
-contributorOf:
-- /software/salient-region-detectors
-- /software/pattydata
 githubUrl: https://github.com/elboyran
-jobTitle: eScience Coordinator
-name: Elena Ranguelova
-email: e.ranguelova@esciencecenter.nl
 inGroup:
 - NLeSC
+jobTitle: eScience Coordinator
+name: Elena Ranguelova
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-elena-ranguelova
-photo: https://www.esciencecenter.nl/img/team/elena-ranguelova-new.jpg
-authorOfReport:
-- /report/large-scale-computer-vision
-- /report/wood-image-classification
+photo: /images/person/e.ranguelova.jpg
 ---
 Elena finished MS in Computer engineering and MS in Applied computer science at Technical University, Sofia, Bulgaria and worked for 2 years at the Institute of Information Technologies, Bulgarian Academy of Sciences. In 2003 she received a PhD degree in Computer Science with specialization in image processing from Trinity College, Dublin, Ireland. Her thesis is dedicated to 3D texture analysis and modeling with application to MRI brain images.
 

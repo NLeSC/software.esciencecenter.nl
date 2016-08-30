@@ -1,5 +1,4 @@
 ---
-logo: http://avatars2.githubusercontent.com/u/15137410?v=3&s=200
 competence:
 - Big Data Analytics
 - Optimized Data Handling
@@ -21,12 +20,13 @@ expertise:
 - Computer Vision
 - Distributed Computing
 - High Performance Computing
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/nlesc
 - /organization/nfi
+logo: /images/project/sherlock.png
 name: Sherlock
-inGroup:
-- NLeSC
 startDate: 2015-10-20
 tagLine: Sherlock is an NLeSC-wide project in which all eScience Research engineers
   of the NLeSC work together.

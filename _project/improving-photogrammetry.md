@@ -2,14 +2,14 @@
 contactPerson: /person/o.rubi
 engineer:
 - /person/o.rubi
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/utwente
 - /organization/ign
 - /organization/nlesc
-logo: https://www.esciencecenter.nl/img/projects/P053-large2.jpg
+logo: /images/project/improving-photogrammetry.jpg
 name: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
-inGroup:
-- NLeSC
 tagLine: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
 uses:
 - /software/micmac

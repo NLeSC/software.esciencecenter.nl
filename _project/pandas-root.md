@@ -17,13 +17,13 @@ engineer:
 expertise:
 - Linked Data
 - High Performance Computing
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/nlesc
 - /organization/nikhef
-logo: https://www.esciencecenter.nl/img/projects/1.p047-small.jpg
+logo: /images/project/pandas-root.jpg
 name: Giving pandas ROOT To Chew On
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/giving-pandas-a-root-to-chew-on
 principalInvestigator:
 - affiliation:
@@ -31,11 +31,6 @@ principalInvestigator:
   jobTitle: PostDoc
   name: Dr. Christopher Tunnell
   website: http://www.nikhef.nl/~decowski/Group.html
-involvedOrganization:
-- /organization/nlesc
-- /organization/nikhef
-uses:
-- /software/root-conda-recipes
 startDate: 2015-06-20
 tagLine: Modern Big Data front and backends in the hunt for Dark Matter.
 uses:

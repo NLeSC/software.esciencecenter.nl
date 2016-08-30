@@ -4,7 +4,7 @@ involvedIn:
 - /project/ewatercycle
 - /project/abcmuse
 - /project/shico
-logo: http://www.uu.nl/sites/all/themes/uubasetheme/images/logo-en.svg
+logo: /images/organization/uu.svg
 name: Utrecht University
 ownerOf:
 - /software/texcavator

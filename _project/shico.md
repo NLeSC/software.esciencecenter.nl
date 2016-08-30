@@ -3,7 +3,6 @@ competence:
 - Optimized Data Handling
 contactPerson: /person/c.martinez
 coordinator: /person/j.attema
-logo: https://www.esciencecenter.nl/img/projects/1.p50-large.jpg
 discipline:
 - Humanities & Social Sciences
 engineer:
@@ -13,27 +12,27 @@ expertise:
 - Information Visualization
 - Scientific Visualization
 - Information Retrieval
+inGroup:
+- NLeSC
 infrastructure: Web platform
 involvedOrganization:
 - /organization/uu
 - /organization/nlesc
+logo: /images/project/shico.jpg
 name: Mining Shifting Concepts Through Time (ShiCo)
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/mining-shifting-concepts-through-time-shico
 principalInvestigator:
-- name: Prof. Joris van Eijnatten
-  affiliation:
+- affiliation:
   - /organization/uu
+  name: Prof. Joris van Eijnatten
   website: http://www.uu.nl/medewerkers/JvanEijnatten/
-- name: Dr. Jaap Verheul
-  affiliation:
+- affiliation:
   - /organization/uu
+  name: Dr. Jaap Verheul
   website: http://www.uu.nl/staff/JVerheul/
 tagLine: Understanding the past through the history of concepts
 uses:
 - /software/texcavator
-website:
 ---
 # Word vector text mining change and continuity in conceptual history
 

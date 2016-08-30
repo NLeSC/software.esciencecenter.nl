@@ -21,6 +21,7 @@ contributorOf:
 - /software/storyteller
 - /software/topic-coherence-for-dutch
 - /software/heem-dataset
+email: j.vanderzwaan@esciencecenter.nl
 engineerOf:
 - /project/dilipad
 - /project/texcavator
@@ -29,17 +30,15 @@ engineerOf:
 - /project/sherlock
 - /project/what-works-when-for-whom
 githubUrl: https://github.com/jvdzwaan
+inGroup:
+- NLeSC
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/jvdzwaan
 name: Janneke van der Zwaan
-email: j.vanderzwaan@esciencecenter.nl
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-janneke-van-der-zwaan
-photo: https://www.esciencecenter.nl/img/team/Janneke-van-der-Zwaan-new.jpg
+photo: /images/person/j.vanderzwaan.jpg
 researchgateUrl: https://www.researchgate.net/profile/Janneke_Van_der_Zwaan
 ---
-
 Janneke van der Zwaan has a background in Artificial Intelligence (2006, University of Amsterdam, cum laude). During her Master's project, she worked on medical text classification in cooperation with the Dutch national network and registry of histo- and cytopathology (Stichting PALGA). She also completed a
 Master's specialization in Science Communication (2008, VU University).
 

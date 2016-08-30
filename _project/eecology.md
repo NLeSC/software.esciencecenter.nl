@@ -3,7 +3,6 @@ competence:
 - Big Data Analytics
 contactPerson: /person/e.ranguelova
 coordinator: /person/e.ranguelova
-logo: http://www.esciencecenter.nl/img/projects/1.P009-large.jpg
 dataFormat:
 - CSV
 - MATLAB
@@ -20,13 +19,14 @@ expertise:
 - Scientific Visualization
 - Handling Sensor Data
 - Databases
+inGroup:
+- NLeSC
 infrastructure: Dedicated cluster
 involvedOrganization:
 - /organization/uva
 - /organization/nlesc
+logo: /images/project/eecology.jpg
 name: eEcology
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/eecology
 principalInvestigator:
 - affiliation:

@@ -23,14 +23,14 @@ doi: http://dx.doi.org/10.5281/zenodo.35415
 downloadUrl: https://bintray.com/nlesc/xenon/xenon/view
 expertise:
 - Distributed Computing
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/nlesc
 license:
 - apache-2.0
-logo: http://nlesc.github.io/Xenon/images/NLeSC_Xenon_logo.png
+logo: /images/software/xenon.png
 name: Xenon
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/technology/software/xenon
 owner:
 - /organization/nlesc

@@ -1,36 +1,36 @@
 ---
-name: An eScience infrastructure for huge interferometric datasets
-inGroup:
-- NLeSC
-tagLine: Big Data for the Big Bang
-nlescWebsite: https://www.esciencecenter.nl/project/beyond-the-data-explosion
 competence:
 - Optimized Data Handling
 - Big Data Analytics
 - Efficient Computing
+contactPerson: /person/r.vannieuwpoort
+coordinator: /person/r.vannieuwpoort
+dataMagnitude: PB
 discipline:
 - Physics & Beyond
+engineer:
+- /person/r.vannieuwpoort
 expertise:
 - Handling Sensor Data
 - High Performance Computing
 - Accelerated Computing
 - Low Power Computing
+inGroup:
+- NLeSC
 infrastructure: LOFAR
-dataMagnitude: PB
-contactPerson: /person/r.vannieuwpoort
-coordinator: /person/r.vannieuwpoort
-engineer:
-- /person/r.vannieuwpoort
-principalInvestigator:
-  - name: Dr. Marco de Vos
-    affiliation:
-    - /organization/astron
-    website: https://www.linkedin.com/in/devoscm
-logo: http://www.esciencecenter.nl/img/projects/1.P006-large.jpg
 involvedOrganization:
 - /organization/astron
 - /organization/nlesc
+logo: /images/project/beyond-the-data-explosion.jpg
+name: An eScience infrastructure for huge interferometric datasets
+nlescWebsite: https://www.esciencecenter.nl/project/beyond-the-data-explosion
+principalInvestigator:
+- affiliation:
+  - /organization/astron
+  name: Dr. Marco de Vos
+  website: https://www.linkedin.com/in/devoscm
 startDate: 2012-06-12
+tagLine: Big Data for the Big Bang
 uses:
 - /software/eastroviz
 ---

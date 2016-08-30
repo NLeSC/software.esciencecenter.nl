@@ -1,20 +1,20 @@
 ---
-coordinator: /person/j.maassen
+competence:
+- Efficient Computing
 contactPerson: /person/j.maassen
-nlescWebsite: https://www.esciencecenter.nl/project/abc-muse
+coordinator: /person/j.maassen
+discipline:
+- Physics & Beyond
+expertise:
+- Distributed Computing
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/uu
 - /organization/leiden-university
+logo: /images/project/abcmuse.jpg
 name: ABCmuse
-inGroup:
-- NLeSC
-logo: https://www.esciencecenter.nl/img/projects/1.P026-large.jpg
-discipline: 
-- Physics & Beyond
-competence:
-- Efficient Computing
-expertise:
-- Distributed Computing
+nlescWebsite: https://www.esciencecenter.nl/project/abc-muse
 uses:
 - /software/xenon
 - /software/amuse

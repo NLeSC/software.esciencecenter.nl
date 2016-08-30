@@ -1,43 +1,46 @@
 ---
-name: ERA-URBAN
-inGroup:
-- NLeSC
-tagLine: 'ERA-URBAN: Environmental Re-Analysis of Urban Areas: Quantifying high-resolution energy and water budgets of European cities'
-nlescWebsite: https://www.esciencecenter.nl/project/era-urban
-website:
-logo: https://www.esciencecenter.nl/img/projects/1P039-large.jpg
 competence:
 - Big Data Analytics
 - Efficient Computing
-discipline:
-- Environment & Sustainability
-expertise:
-- 'Data Assimilation'
-- 'Scientific Visualization'
-- 'Distributed Computing'
-- 'High Performance Computing'
-- 'Databases'
-infrastructure: 'Supercomputer'
-dataMagnitude: 'PB'
+contactPerson: /person/r.vanharen
+coordinator: /person/e.ranguelova
 dataFormat:
 - NetCDF
 - Little-R
 - JSON
 - CSV
-contactPerson: /person/r.vanharen
-coordinator: /person/e.ranguelova
+dataMagnitude: PB
+discipline:
+- Environment & Sustainability
 engineer:
 - /person/r.vanharen
-principalInvestigator:
-- name: Bert Holtslag
-  affiliation:
-  - /organization/wur
-  website: https://www.wageningenur.nl/en/Persons/prof.dr.-AAM-Bert-Holtslag.htm
-  description: "Prof. Bert Holtslag is affiliated to Wageningen University as Professor of Meteorology and as chair of the Meteorology and Air Quality Section. His particular interest is advancing the knowledge of the atmospheric boundary layer and the further understanding of the complex atmosphere-land interactions."
-  photo: https://www.esciencecenter.nl/img/team/bert-holtslag-cropped-bw.jpg
+expertise:
+- Data Assimilation
+- Scientific Visualization
+- Distributed Computing
+- High Performance Computing
+- Databases
+inGroup:
+- NLeSC
+infrastructure: Supercomputer
 involvedOrganization:
 - /organization/nlesc
 - /organization/wur
+logo: /images/project/era-urban.jpg
+name: ERA-URBAN
+nlescWebsite: https://www.esciencecenter.nl/project/era-urban
+principalInvestigator:
+- affiliation:
+  - /organization/wur
+  description: Prof. Bert Holtslag is affiliated to Wageningen University as Professor
+    of Meteorology and as chair of the Meteorology and Air Quality Section. His particular
+    interest is advancing the knowledge of the atmospheric boundary layer and the
+    further understanding of the complex atmosphere-land interactions.
+  name: Bert Holtslag
+  photo: https://www.esciencecenter.nl/img/team/bert-holtslag-cropped-bw.jpg
+  website: https://www.wageningenur.nl/en/Persons/prof.dr.-AAM-Bert-Holtslag.htm
+tagLine: 'ERA-URBAN: Environmental Re-Analysis of Urban Areas: Quantifying high-resolution
+  energy and water budgets of European cities'
 uses:
 - /software/netcdf2littler
 - /software/wrfpy

@@ -3,17 +3,17 @@ affiliation:
 - /organization/nlesc
 contactPersonOf:
 - /project/esibayes
-githubUrl: https://github.com/sbranchett
-jobTitle: Director Business Development & Operations
-name: Susan Branchett
-email: s.branchett@esciencecenter.nl
-inGroup:
-- NLeSC
-nlescWebsite: https://www.esciencecenter.nl/profile/dr.-susan-branchett
-photo: https://www.esciencecenter.nl/img/team/susan-branchett-new.jpg
-researchgateUrl: https://www.researchgate.net/profile/Susan_Branchett
 coordinatorOf:
 - /project/esibayes
+email: s.branchett@esciencecenter.nl
+githubUrl: https://github.com/sbranchett
+inGroup:
+- NLeSC
+jobTitle: Director Business Development & Operations
+name: Susan Branchett
+nlescWebsite: https://www.esciencecenter.nl/profile/dr.-susan-branchett
+photo: /images/person/s.branchett.jpg
+researchgateUrl: https://www.researchgate.net/profile/Susan_Branchett
 ---
 Susan studied physics at Bristol University and got her PhD for quantum mechanical calculations on ‘Bound and Continuum states of Diatomic Molecules using the R-matrix method’ from University College London.
 

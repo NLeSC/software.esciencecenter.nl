@@ -3,20 +3,20 @@ competence:
 - Big Data Analytics
 contactPerson: /person/c.martinez
 coordinator: /person/j.attema
-logo: https://www.esciencecenter.nl/img/projects/1.P030-large.jpg
 discipline:
 - Humanities & Social Sciences
 engineer:
 - /person/c.martinez
 expertise:
 - Linked Data
+inGroup:
+- NLeSC
 infrastructure: Web platform
 involvedOrganization:
 - /organization/vua
 - /organization/nlesc
+logo: /images/project/drwatson.jpg
 name: Dr. Watson
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/dr.-watson
 principalInvestigator:
 - affiliation:
@@ -25,8 +25,6 @@ principalInvestigator:
   photo: https://www.esciencecenter.nl/img/team/lora-aroyo-cropped-bw.jpg
   website: http://www.cs.vu.nl/~laroyo/
 tagLine: Crowdsourcing gold standard data in the medical sciences
-uses:
-website:
 ---
 # Medical experts helping machines diagnose
 

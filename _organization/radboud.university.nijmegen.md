@@ -6,7 +6,7 @@ involvedIn:
 - /project/viaappia-patty
 - /project/biomarker
 - /project/3d-e-chem
-logo: http://www.ru.nl/views/ru-baseline/images/extra/logo-l.png
+logo: /images/organization/radboud.university.nijmegen.png
 name: Radboud University Nijmegen
 ownerOf:
 - /software/twiqs.nl

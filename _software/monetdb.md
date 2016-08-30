@@ -1,15 +1,5 @@
 ---
 codeRepository: https://www.monetdb.org/Downloads
-website: http://www.monetdb.org/
-website: https://github.com/MonetDB
-website: https://en.wikipedia.org/wiki/MonetDB
-nlescWebsite: 
-documentationUrl: https://www.monetdb.org/Documentation
-downloadUrl: https://www.monetdb.org/Downloads
-doi: 
-logo: http://dev.monetdb.org/imgs/monetdb-final-500.png
-programmingLanguage:
-- C
 competence:
 - Optimized Data Handling
 contactPerson: /person/r.goncalves
@@ -24,15 +14,15 @@ documentationUrl: https://www.monetdb.org/Documentation
 downloadUrl: https://www.monetdb.org/Downloads
 expertise:
 - Databases
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/cwi
 - /organization/monetdb
 license:
 - mpl-2.0
-logo: http://dev.monetdb.org/imgs/monetdb-final-500.png
+logo: /images/software/monetdb.png
 name: MonetDB
-inGroup:
-- NLeSC
 programmingLanguage:
 - C
 startDate: 2014-03-01

@@ -1,4 +1,8 @@
 ---
+authorOfReport:
+- /report/guide
+- /report/software-sustainability
+- /report/data-stewardship
 involvedIn:
 - /project/beyond-the-data-explosion
 - /project/computational-chemistry-made-easy
@@ -37,7 +41,7 @@ involvedIn:
 - /project/shico
 - /project/beyond-the-book
 linkedInUrl: https://www.linkedin.com/company/netherlands-escience-center
-logo: https://www.esciencecenter.nl/img/cdn/logo_netherlands_escience_center.jpg
+logo: /images/organization/nlesc.jpg
 name: Netherlands eScience Center
 organizationOf:
 - /person/s.verhoeven
@@ -127,10 +131,6 @@ userOf:
 - /software/differential-evolution
 - /software/liblas
 website: http://www.esciencecenter.nl/
-authorOfReport:
-- /report/guide
-- /report/software-sustainability
-- /report/data-stewardship
 ---
 Historically, scientific domains were defined by their own unique tools (microscopes, telescopes, distillation glass). Nowadays, the most important tool in all scientific disciplines is the computer. In this digital era, eScience is the developing discipline that provides the domain overarching software instruments (software, workflows and protocols) to support diverse scientific initiatives - making possible the creation of new, even unforeseen, applications - with the potential to transform current scientific practice, optimize scientific investments and significantly accelerate scientific discovery. eScience has the potential to underpin all scientific endeavor in the same way that applied mathematics currently does.
 

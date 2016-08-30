@@ -26,20 +26,20 @@ contributorOf:
 - /software/liblas
 - /software/pymicmac
 - /software/pycoeman
+email: o.rubi@esciencecenter.nl
 engineerOf:
 - /project/aa-alert
 - /project/massive-point-clouds-for-esciences
 - /project/viaappia-patty
 - /project/improving-photogrammetry
 githubUrl: https://github.com/oscarmartinezrubi
+inGroup:
+- NLeSC
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/oscarmartinezrubi/en
 name: Oscar Martinez Rubi
-email: o.rubi@esciencecenter.nl
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/oscar-martinez-rubi-msc
-photo: http://www.esciencecenter.nl/img/team/oscar-martinez-rubi-new.jpg
+photo: /images/person/o.rubi.jpg
 researchgateUrl: https://www.researchgate.net/profile/Oscar_Martinez_Rubi
 userOf:
 - /software/monetdb

@@ -12,14 +12,14 @@ engineer:
 - /person/n.drost
 expertise:
 - High Performance Computing
+inGroup:
+- NLeSC
 infrastructure: Supercomputer
 involvedOrganization:
 - /organization/nlesc
 - /organization/leiden-university
-logo: https://www.esciencecenter.nl/img/projects/1.P020-large.jpg
+logo: /images/project/amuse.jpg
 name: Distributed AMUSE
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/amuse
 principalInvestigator:
 - affiliation:

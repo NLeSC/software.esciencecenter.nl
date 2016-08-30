@@ -1,26 +1,26 @@
 ---
 affiliation:
 - /organization/nlesc
+authorOfReport:
+- /report/rootcondarecipes
 contactPersonOf:
 - /project/pandas-root
 - /software/root-conda-recipes
 contributorOf:
 - /software/root-conda-recipes
+email: d.remenska@esciencecenter.nl
 engineerOf:
 - /project/pandas-root
 githubUrl: https://github.com/remenska
+inGroup:
+- NLeSC
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/remenska
 name: Daniela Remenska
-email: d.remenska@esciencecenter.nl
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-daniela-remenska
 ownerOf:
 - /software/root-conda-recipes
-photo: https://www.esciencecenter.nl/img/team/daniela_remenska-web.jpg
-authorOfReport:
-- /report/rootcondarecipes
+photo: /images/person/d.remenska.jpg
 ---
 Daniela graduated from the Institute of Informatics in Macedonia as an informatics engineer. During her last year of study, she was also a lab assistant at the institute, teaching basic computer science courses. After graduating, she worked about one and a half year as a Java software developer for a large company specializing in enterprise medical software.
 

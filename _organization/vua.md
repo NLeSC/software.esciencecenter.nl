@@ -11,7 +11,7 @@ involvedIn:
 - /project/dive-plus
 - /project/drwatson
 linkedInUrl: https://www.linkedin.com/company/vrije-universiteit-amsterdam
-logo: https://www.esciencecenter.nl/img/partners/VUlogo_EN_Wit_HR_RGB_tcm9-201385.png
+logo: /images/organization/vua.png
 name: VU University Amsterdam
 organizationOf:
 - /software/heem-dataset
@@ -27,3 +27,4 @@ userOf:
 - /software/noodles
 website: http://www.vu.nl/
 ---
+

@@ -1,32 +1,31 @@
 ---
-name: A Jungle Computing approach to large scale online Forensic Analysis
-inGroup:
-- NLeSC
-tagLine: 'Programming tools that simplify application development and deployment'
-contactPerson: /person/j.maassen
-nlescWebsite: https://www.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
-logo: https://www.esciencecenter.nl/img/projects/1.P027-large.jpg
-engineer:
-- /person/j.maassen
-- /person/b.vanwerkhoven
-involvedOrganization:
-- /organization/nfi
-- /organization/nlesc
-- /organization/vua
-uses:
-- /software/kernel_tuner
 competence:
 - Optimized Data Handling
 - Big Data Analytics
 - Efficient Computing
+contactPerson: /person/j.maassen
 discipline:
 - eScience Methodology
+engineer:
+- /person/j.maassen
+- /person/b.vanwerkhoven
 expertise:
 - Distributed Computing
 - Accelerated Computing
 - High Performance Computing
+inGroup:
+- NLeSC
+involvedOrganization:
+- /organization/nfi
+- /organization/nlesc
+- /organization/vua
+logo: /images/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis.jpg
+name: A Jungle Computing approach to large scale online Forensic Analysis
+nlescWebsite: https://www.esciencecenter.nl/project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+tagLine: Programming tools that simplify application development and deployment
+uses:
+- /software/kernel_tuner
 ---
-
 Computing devices (including mobile phones) feature in many of the day-to-day crimes. Computer forensics has emerged as a discipline to assist law enforcement agencies in addressing the increasing use of digital storage devices in criminal acts. Forensic examination of for example mobile phones and personal computers can reveal a wealth of evidence.
 
 Increasingly, high profile criminal cases are benefitting from digital evidence gathered via a computer forensic examination. However, analyzing these large volume data sets of evidence can prove to be a very time consuming process due to the variety of the data and the quantity of potential evidence in a digital environment. For this reason, the Netherlands Forensic Institute (NFI) designed the HANSKEN platform - an important aid in modern police investigation, capable of micro level analysis of digital traces contained in digital devices such as hard disks and mobile phones, and generating macro level forensic views.

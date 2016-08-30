@@ -1,35 +1,36 @@
 ---
-name: Access and Acceleration of the Apertif Legacy Exploration of the Radio Transient Sky
-inGroup:
-- NLeSC
-tagLine: A mystery of modern astrophysics
-nlescWebsite: https://www.esciencecenter.nl/project/aa-alert
-logo: http://www.esciencecenter.nl/img/projects/p55-large.jpg
 competence:
 - Big Data Analytics
 - Efficient Computing
+contactPerson: /person/j.attema
+coordinator: /person/j.attema
+dataMagnitude: PB
 discipline:
 - Physics & Beyond
+engineer:
+- /person/j.attema
+- /person/o.rubi
 expertise:
 - Accelerated Computing
 - Handling Sensor Data
 - High Performance Computing
+inGroup:
+- NLeSC
 infrastructure: Apertif, A 75-GPU cluster and 10 PB storage
-dataMagnitude: PB
-coordinator: /person/j.attema
-contactPerson: /person/j.attema
-engineer:
-- /person/j.attema
-- /person/o.rubi
-principalInvestigator:
-  - name: Dr. Joeri van Leeuwen
-    affiliation:
-    - /organization/astron
-    website: http://www.astron.nl/astronomy-group/people/joeri-van-leeuwen/joeri-van-leeuwen
 involvedOrganization:
 - /organization/astron
 - /organization/nlesc
+logo: /images/project/aa-alert.jpg
+name: Access and Acceleration of the Apertif Legacy Exploration of the Radio Transient
+  Sky
+nlescWebsite: https://www.esciencecenter.nl/project/aa-alert
+principalInvestigator:
+- affiliation:
+  - /organization/astron
+  name: Dr. Joeri van Leeuwen
+  website: http://www.astron.nl/astronomy-group/people/joeri-van-leeuwen/joeri-van-leeuwen
 startDate: 2016-07-01
+tagLine: A mystery of modern astrophysics
 ---
 In our largely unchanging Universe, highly dynamic components were
 recently discovered: flashes of bright radio emission that last only

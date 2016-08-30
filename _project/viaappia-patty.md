@@ -3,9 +3,9 @@ competence:
 - Optimized Data Handling
 - Big Data Analytics
 contactPerson: /person/o.rubi
-dataMagnitude: GB
 dataFormat:
 - Octree
+dataMagnitude: GB
 discipline:
 - Humanities & Social Sciences
 endDate: 2015-04-30
@@ -20,6 +20,8 @@ expertise:
 - Databases
 - Handling Sensor Data
 - Scientific Visualization
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/nlesc
 - /organization/vua
@@ -29,16 +31,17 @@ involvedOrganization:
 - /organization/spinlab
 - /organization/knir
 - /organization/potree
+logo: /images/project/viaappia-patty.jpg
 name: Mapping the Via Appia in 3D
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/mapping-the-via-appia-in-3d
-logo: https://www.esciencecenter.nl/img/projects/1.P024-large.jpg
 principalInvestigator:
 - affiliation:
   - /organization/vua
   name: MA, Maurice de Kleijn
   website: http://www.feweb.vu.nl/gis/organisation/staff2.asp?id=72
+publication:
+- http://dx.doi.org/10.1016/j.daach.2016.03.001
+- http://dx.doi.org/10.1080/17538947.2016.1205673
 startDate: 2013-10-01
 tagLine: Developing a 4D geographic information system for archaeological purposes
 uses:
@@ -50,9 +53,6 @@ uses:
 - /software/xenon
 - /software/potreeconverter
 - /software/python-pcl
-publication:
-- http://dx.doi.org/10.1016/j.daach.2016.03.001
-- http://dx.doi.org/10.1080/17538947.2016.1205673
 ---
 The "Mapping the Via Appia" project aims at a thorough inventory and analysis of the Roman interventions in this suburban landscape. The research focuses on a section of two kilometers that covers parts of the fifth and sixth miles of the Via Appia, supplemented with a research area that covers the hinterland as far as nearly one kilometer northeast and about 2.5 kilometers southwest of the road. Based on the physical remains in combination with historical sources, archaeologists aim to reconstruct the functioning of the road in antiquity. The study area contains more than 2000 archaeological objects directly alongside the road. The biggest difficulty for the archaeologists is that the archaeological remains are scattered alongside the road and often not in situ.
 

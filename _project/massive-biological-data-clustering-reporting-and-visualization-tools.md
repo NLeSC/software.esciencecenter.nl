@@ -1,18 +1,18 @@
 ---
-name: Massive Biological Data Clustering, Reporting and Visualization Tools
-inGroup:
-- NLeSC
-nlescWebsite: https://www.esciencecenter.nl/project/massive-biological-data-clustering-reporting-and-visualization-tools
-logo: https://www.esciencecenter.nl/img/projects/1.p48-large.jpg
-discipline:
-- Life Sciences & eHealth
 competence:
 - Big Data Analytics
+contactPerson: /person/s.georgievska
+discipline:
+- Life Sciences & eHealth
 expertise:
 - Information Visualization
-contactPerson: /person/s.georgievska
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/cbs-knaw
+logo: /images/project/massive-biological-data-clustering-reporting-and-visualization-tools.jpg
+name: Massive Biological Data Clustering, Reporting and Visualization Tools
+nlescWebsite: https://www.esciencecenter.nl/project/massive-biological-data-clustering-reporting-and-visualization-tools
 uses:
 - /software/cclustera
 ---

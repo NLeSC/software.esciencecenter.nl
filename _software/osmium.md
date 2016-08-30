@@ -16,15 +16,15 @@ discipline:
 downloadUrl: https://github.com/NLeSC/osmium/releases
 expertise:
 - Distributed Computing
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/nlesc
 - /organization/wur
 license:
 - apache-2.0
-logo: https://raw.githubusercontent.com/NLeSC/osmium/master/src/site/resources/images/logo.png
+logo: /images/software/osmium.png
 name: Osmium
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/technology/software/osmium
 owner:
 - /organization/nlesc

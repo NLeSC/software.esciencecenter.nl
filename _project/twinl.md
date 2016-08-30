@@ -2,7 +2,6 @@
 competence:
 - Big Data Analytics
 contactPerson: /person/e.tjongkimsang
-logo: http://www.esciencecenter.nl/img/projects/1.P018-large.jpg
 dataFormat:
 - CSV
 - JSON
@@ -15,14 +14,15 @@ engineer:
 expertise:
 - Text Mining
 - Information Retrieval
+inGroup:
+- NLeSC
 infrastructure: Cloud for data ingestion and retrieval, Hadoop for indexing and searching
 involvedOrganization:
 - /organization/nlesc
 - /organization/radboud.university.nijmegen
 - /organization/surfsara
+logo: /images/project/twinl.jpg
 name: TwiNL
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/twinl
 principalInvestigator:
 - affiliation:

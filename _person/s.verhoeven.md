@@ -27,6 +27,7 @@ contributorOf:
 - /software/3d-e-chem-vm
 - /software/knime-archetype
 - /software/chemical-analytics-platform
+email: s.verhoeven@esciencecenter.nl
 engineerOf:
 - /project/emetabolomics
 - /project/eecology
@@ -34,18 +35,17 @@ engineerOf:
 - /project/viaappia-patty
 - /project/3d-e-chem
 githubUrl: https://github.com/sverhoeven
+inGroup:
+- NLeSC
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/stefan-verhoeven-15381122
 name: Stefan Verhoeven
-email: s.verhoeven@esciencecenter.nl
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/ing.-stefan-verhoeven
 ownerOf:
 - /software/eecology-annotation
 - /software/eecology-tracker-calendar
 - /software/osmium
-photo: https://www.esciencecenter.nl/img/team/stefan-verhoeven-new.jpg
+photo: /images/person/s.verhoeven.jpg
 researchgateUrl: https://www.researchgate.net/profile/Stefan_Verhoeven
 userOf:
 - /software/xenon

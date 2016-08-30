@@ -1,16 +1,6 @@
 ---
-name: Carlos Martinez-Ortiz
-email: c.martinez@esciencecenter.nl
-inGroup:
-- NLeSC
-nlescWebsite: https://www.esciencecenter.nl/profile/dr.-carlos-martinez-ortiz
-researchgateUrl: https://www.researchgate.net/profile/Carlos_Martinez_Ortiz
-linkedInUrl: https://www.linkedin.com/in/carlosmartinezortiz
-githubUrl: https://github.com/c-martinez
-jobTitle: eScience Research Engineer
 affiliation:
 - /organization/nlesc
-photo: https://www.esciencecenter.nl/img/team/carlos-martinez-ortiz.jpg
 contactPersonOf:
 - /software/common-sense
 - /project/beyond-the-book
@@ -21,11 +11,21 @@ contributorOf:
 - /software/common-sense
 - /software/pattyanalytics
 - /software/python-pcl
+email: c.martinez@esciencecenter.nl
 engineerOf:
 - /project/beyond-the-book
 - /project/dive-plus
 - /project/drwatson
 - /project/shico
+githubUrl: https://github.com/c-martinez
+inGroup:
+- NLeSC
+jobTitle: eScience Research Engineer
+linkedInUrl: https://www.linkedin.com/in/carlosmartinezortiz
+name: Carlos Martinez-Ortiz
+nlescWebsite: https://www.esciencecenter.nl/profile/dr.-carlos-martinez-ortiz
+photo: /images/person/c.martinez.jpg
+researchgateUrl: https://www.researchgate.net/profile/Carlos_Martinez_Ortiz
 ---
 Carlos obtained his BSc in computer engineering at La Salle University in Mexico City. At the University of Exeter, he obtained his MSc in applied artificial intelligence and PhD on the topic of shape descriptors for image classification.
 

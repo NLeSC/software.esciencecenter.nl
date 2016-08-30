@@ -1,35 +1,34 @@
 ---
-name: Automated Parallel Calculation of Collaborative Statistical Models
-inGroup:
-- NLeSC
-tagLine: Looking for unconfirmed or unknown fundamental physics
-nlescWebsite: https://www.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
-logo: http://www.esciencecenter.nl/img/projects/p57-large.jpg
 competence:
-  - Optimized Data Handling
-  - Efficient Computing
-discipline:
-  - Physics & Beyond
-expertise:
-  - Accelerated Computing
-  - High Performance Computing
-infrastructure: DAS5 and NIKHEF computer cluster for testing and benchmarking
-dataMagnitude: TB
+- Optimized Data Handling
+- Efficient Computing
+contactPerson: /person/p.bos
 dataFormat:
 - ROOT binary format
-contactPerson: /person/p.bos
+dataMagnitude: TB
+discipline:
+- Physics & Beyond
+endDate: 2019-12-31
 engineer:
 - /person/p.bos
-principalInvestigator:
-  - name: Dr. Wouter Verkerke
-    affiliation:
-    - /organization/nikhef
-    website: https://www.nikhef.nl/en/for-nikhef-users/departments/scientific-departments/atlas/atlas-staff/?groupview=0&search=Wouter%20Verkerke
+expertise:
+- Accelerated Computing
+- High Performance Computing
+inGroup:
+- NLeSC
+infrastructure: DAS5 and NIKHEF computer cluster for testing and benchmarking
 involvedOrganization:
 - /organization/nlesc
 - /organization/nikhef
+logo: /images/project/automated-parallel-calculation-of-collaborative-statistical-models.jpg
+name: Automated Parallel Calculation of Collaborative Statistical Models
+nlescWebsite: https://www.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
+principalInvestigator:
+- affiliation:
+  - /organization/nikhef
+  name: Dr. Wouter Verkerke
+  website: https://www.nikhef.nl/en/for-nikhef-users/departments/scientific-departments/atlas/atlas-staff/?groupview=0&search=Wouter%20Verkerke
 startDate: 2016-05-15
-endDate: 2019-12-31
+tagLine: Looking for unconfirmed or unknown fundamental physics
 ---
-
 Large scale statistical data analysis in particle physics

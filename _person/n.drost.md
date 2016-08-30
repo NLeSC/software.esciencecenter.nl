@@ -16,20 +16,20 @@ contributorOf:
 - /software/sfm
 - /software/amuse
 - /software/ewaterleaf
+email: n.drost@esciencecenter.nl
 engineerOf:
 - /project/large-scale-data-assimilation
 - /project/ewatercycle
 - /project/amuse
 - /project/viaappia-patty
 githubUrl: https://github.com/nielsdrost
+inGroup:
+- NLeSC
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/niels-drost-664698a
 name: Niels Drost
-email: n.drost@esciencecenter.nl
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-niels-drost
-photo: https://www.esciencecenter.nl/img/team/nielsdrost-new.jpg
+photo: /images/person/n.drost.jpg
 researchgateUrl: https://www.researchgate.net/profile/Niels_Drost
 userOf:
 - /software/xenon

@@ -1,6 +1,8 @@
 ---
 affiliation:
 - /organization/nlesc
+authorOfReport:
+- /report/summerinthecity
 contactPersonOf:
 - /software/xtas
 - /project/summer-in-the-city
@@ -17,22 +19,20 @@ coordinatorOf:
 - /project/drwatson
 - /project/beyond-the-book
 - /project/pidimehs
+email: j.attema@esciencecenter.nl
 engineerOf:
 - /project/summer-in-the-city
 - /project/aa-alert
 - /project/viaappia-patty
 githubUrl: https://github.com/jiskattema
+inGroup:
+- NLeSC
 jobTitle: eScience Coordinator
 linkedInUrl: https://www.linkedin.com/in/jiskattema
 name: Jisk Attema
-email: j.attema@esciencecenter.nl
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-jisk-attema
-photo: https://www.esciencecenter.nl/img/team/jisk-attema-new.jpg
+photo: /images/person/j.attema.jpg
 researchgateUrl: https://www.researchgate.net/profile/Jisk_Attema
-authorOfReport:
-- /report/summerinthecity
 ---
 Jisk studied physics at the University of Groningen, graduating with honors from the theoretical physics program. After that he did his PhD on the topic of numerical solid state physics at the university of Nijmegen. His thesis focuses on the search for new (magnetic) materials for use in the semiconductor industry; this by using computational methods (density functional theory). This ignited his passion for high performance computing and big data. After finishing his PhD Jisk worked at SURFsara, the national HPC and e-science support center.
 

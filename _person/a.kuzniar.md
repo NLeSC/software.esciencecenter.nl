@@ -1,31 +1,26 @@
 ---
-name: Arnold Kuzniar
-email: a.kuzniar@esciencecenter.nl
-inGroup:
-- NLeSC
-nlescWebsite: https://www.esciencecenter.nl/profile/dr.-arnold-kuzniar
-researchgateUrl: https://www.researchgate.net/profile/Arnold_Kuzniar
-linkedInUrl: https://www.linkedin.com/in/arnold-kuzniar-06312210
-githubUrl: https://github.com/arnikz
 ORCID: http://orcid.org/0000-0003-1711-7961
-jobTitle: eScience Research Engineer
 affiliation:
 - /organization/nlesc
-
-photo: https://www.esciencecenter.nl/img/team/Arnold-Kuzniar-web.jpg
-
 contactPersonOf:
 - /software/fairdatapoint
-
 contributorOf:
 - /software/fairdatapoint
-
-userOf:
-- /software/fairdatapoint
-
+email: a.kuzniar@esciencecenter.nl
 engineerOf:
 - /project/odex4all
 - /project/candygene
+githubUrl: https://github.com/arnikz
+inGroup:
+- NLeSC
+jobTitle: eScience Research Engineer
+linkedInUrl: https://www.linkedin.com/in/arnold-kuzniar-06312210
+name: Arnold Kuzniar
+nlescWebsite: https://www.esciencecenter.nl/profile/dr.-arnold-kuzniar
+photo: /images/person/a.kuzniar.jpg
+researchgateUrl: https://www.researchgate.net/profile/Arnold_Kuzniar
+userOf:
+- /software/fairdatapoint
 ---
 Arnold studied Molecular Biology at the Comenius University in Bratislava, Slovakia. In the last year of his masters, he received a scholarship to study bioinformatics at the Wageningen University and Research Centre (WUR), the Netherlands. He completed his thesis on comparative genomics of White spot syndrome (shrimp) virus isolates. During this period he also developed bioinformatics tools to mine these genomes for epidemiologically relevant biomarkers.
 

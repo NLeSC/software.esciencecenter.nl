@@ -1,35 +1,33 @@
 ---
-name: What Works When for Whom?
-inGroup:
-- NLeSC
-tagLine: Advancing therapy change process research
-nlescWebsite: https://www.esciencecenter.nl/project/what-works-when-for-whom
-logo: http://www.esciencecenter.nl/img/projects/p66-large.jpg
 competence:
-  - Big Data Analytics
-discipline:
-  - Life Sciences & eHealth
-expertise:
-  - Text Mining
-  - Information Visualization
-infrastructure:
-dataMagnitude: MB
+- Big Data Analytics
+contactPerson: /person/j.vanderzwaan
 dataFormat:
 - XML
 - JSON
-contactPerson: /person/j.vanderzwaan
+dataMagnitude: MB
+discipline:
+- Life Sciences & eHealth
 engineer:
 - /person/j.vanderzwaan
-principalInvestigator:
-  - name: Dr. Anneke Sools
-    affiliation:
-    - /organization/utwente
-    website: https://www.utwente.nl/bms/pgt/en/emp/sools/
+expertise:
+- Text Mining
+- Information Visualization
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/nlesc
 - /organization/utwente
-uses:
+logo: /images/project/what-works-when-for-whom.jpg
+name: What Works When for Whom?
+nlescWebsite: https://www.esciencecenter.nl/project/what-works-when-for-whom
+principalInvestigator:
+- affiliation:
+  - /organization/utwente
+  name: Dr. Anneke Sools
+  website: https://www.utwente.nl/bms/pgt/en/emp/sools/
 startDate: 2016-06-01
+tagLine: Advancing therapy change process research
 ---
 Mental illnesses, like depression and anxiety, are among the leading causes of the global burden of disease. E-mental health (EMH) interventions, such as web-based psychotherapy treatments, are increasingly used to improve access to psychotherapy for a wider audience. Whereas different EMH interventions tend to be equally effective, the responsiveness to a specific treatment shows large individual differences. The personalization of treatments is seen as the major road for improvement.
 

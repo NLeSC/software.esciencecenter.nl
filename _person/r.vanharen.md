@@ -9,19 +9,19 @@ contributorOf:
 - /software/netcdf2littler
 - /software/wrfpy
 - /software/pattydata
+email: r.vanharen@esciencecenter.nl
 engineerOf:
 - /project/era-urban
 githubUrl: https://github.com/rvanharen
-jobTitle: eScience Research Engineer
-name: Ronald van Haren
-email: r.vanharen@esciencecenter.nl
 inGroup:
 - NLeSC
+jobTitle: eScience Research Engineer
+name: Ronald van Haren
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-ronald-van-haren
 ownerOf:
 - /software/netcdf2littler
 - /software/wrfpy
-photo: https://www.esciencecenter.nl/img/team/Ronald-van-Haren-new.jpg
+photo: /images/person/r.vanharen.jpg
 researchgateUrl: https://www.researchgate.net/profile/Ronald_Van_Haren
 userOf:
 - /software/netcdf2littler

@@ -13,17 +13,17 @@ contributorOf:
 - /software/python-pcl
 - /software/common-sense
 - /software/picas
+email: j.borgdorff@esciencecenter.nl
 engineerOf:
 - /project/simcity
 githubUrl: https://github.com/blootsvoets
+inGroup:
+- NLeSC
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/jorisborgdorff
 name: Joris Borgdorff
-email: j.borgdorff@esciencecenter.nl
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-joris-borgdorff
-photo: https://www.esciencecenter.nl/img/team/joris-borgdorff-web.jpg
+photo: /images/person/j.borgdorff.jpg
 researchgateUrl: https://www.researchgate.net/profile/Joris_Borgdorff
 twitterUrl: https://twitter.com/bobbyutreg
 userOf:

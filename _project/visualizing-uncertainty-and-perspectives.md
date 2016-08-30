@@ -1,5 +1,4 @@
 ---
-logo: http://www.esciencecenter.nl/img/projects/1P038-large.jpg
 competence:
 - Big Data Analytics
 contactPerson: /person/m.vanmeersbergen
@@ -15,12 +14,13 @@ engineer:
 expertise:
 - Information Visualization
 - Text Mining
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/nlesc
 - /organization/vua
+logo: /images/project/visualizing-uncertainty-and-perspectives.jpg
 name: Visualizing Uncertainty and Perspectives
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
 principalInvestigator:
 - affiliation:

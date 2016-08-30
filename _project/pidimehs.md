@@ -1,48 +1,50 @@
 ---
-name: "PIDIMEHS: Pillarization and depillarization tested in digitized media historical sources"
-inGroup:
-- NLeSC
-tagLine: Visualizing relations between politics and media during 'Verzuiling' in the Netherlands
-nlescWebsite: https://www.esciencecenter.nl/project/pidimehs
-logo: http://www.esciencecenter.nl/img/projects/1.P034-large.jpg
 competence:
-  - Big Data Analytics
-discipline:
-  - Humanities & Social Sciences
-expertise:
-  - Text Mining
-  - Information Retrieval
-  - Information Visualization
-  - Data Assimilation
-infrastructure: Elasticsearch for indexing and searching newspaper data, iPython notebook for interactive analysis
-dataMagnitude: TB
+- Big Data Analytics
+contactPerson: /person/p.bos
+coordinator: /person/j.attema
 dataFormat:
 - JSON
 - XML
-coordinator: /person/j.attema
-contactPerson: /person/p.bos
+dataMagnitude: TB
+discipline:
+- Humanities & Social Sciences
+endDate: 2016-04-01
 engineer:
 - /person/p.bos
-principalInvestigator:
-  - name: Prof. Huub Wijfjes
-    affiliation:
-    - /organization/university.of.groningen
-    website: http://www.huubwijfjes.nl/
-  - name: Prof. Gerrit Voerman
-    affiliation:
-    - /organization/university.of.groningen
-    website: http://www.rug.nl/staff/g.voerman/
+expertise:
+- Text Mining
+- Information Retrieval
+- Information Visualization
+- Data Assimilation
+inGroup:
+- NLeSC
+infrastructure: Elasticsearch for indexing and searching newspaper data, iPython notebook
+  for interactive analysis
 involvedOrganization:
 - /organization/nlesc
 - /organization/university.of.groningen
 - /organization/uva
 - /organization/surfsara
+logo: /images/project/pidimehs.jpg
+name: 'PIDIMEHS: Pillarization and depillarization tested in digitized media historical
+  sources'
+nlescWebsite: https://www.esciencecenter.nl/project/pidimehs
+principalInvestigator:
+- affiliation:
+  - /organization/university.of.groningen
+  name: Prof. Huub Wijfjes
+  website: http://www.huubwijfjes.nl/
+- affiliation:
+  - /organization/university.of.groningen
+  name: Prof. Gerrit Voerman
+  website: http://www.rug.nl/staff/g.voerman/
+startDate: 2014-09-01
+tagLine: Visualizing relations between politics and media during 'Verzuiling' in the
+  Netherlands
 uses:
 - /software/pidilib
-startDate: 2014-09-01
-endDate: 2016-04-01
 ---
-
 Visualizing relations between politics and media during 'Verzuiling' in the Netherlands. For further information and results see:
 
 - the [NLeSC project site](https://www.esciencecenter.nl/project/pidimehs);

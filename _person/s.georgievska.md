@@ -1,20 +1,19 @@
 ---
-name: Sonja Georgievska
-email: s.georgievska@esciencecenter.nl
-inGroup:
-- NLeSC
-nlescWebsite: https://www.esciencecenter.nl/profile/dr.-sonja-georgievska
-jobTitle: eScience Research Engineer
 affiliation:
 - /organization/nlesc
-photo: https://www.esciencecenter.nl/img/team/sonja_georgievska-web.jpg
 contactPersonOf:
 - /software/cclustera
 - /project/massive-biological-data-clustering-reporting-and-visualization-tools
 contributorOf:
 - /software/cclustera
+email: s.georgievska@esciencecenter.nl
 engineerOf:
 - /software/cclustera
-
+inGroup:
+- NLeSC
+jobTitle: eScience Research Engineer
+name: Sonja Georgievska
+nlescWebsite: https://www.esciencecenter.nl/profile/dr.-sonja-georgievska
+photo: /images/person/s.georgievska.jpg
 ---
 

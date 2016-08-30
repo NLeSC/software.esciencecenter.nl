@@ -1,18 +1,16 @@
 ---
-name: Nederlands Forensisch Instituut
-logo: http://www.nederlandsforensischinstituut.nl/Images/logo-justitie-NFI.gif
-website: http://www.nederlandsforensischinstituut.nl/
-linkedInUrl: https://www.linkedin.com/company/nederlands-forensisch-instituut
-twitterUrl: https://twitter.com/nedforinst
-tagLine: In feiten het beste
 involvedIn:
 - /project/sherlock
 - /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
-organizationOf:
-ownerOf:
+linkedInUrl: https://www.linkedin.com/company/nederlands-forensisch-instituut
+logo: /images/organization/nfi.gif
+name: Nederlands Forensisch Instituut
+tagLine: In feiten het beste
+twitterUrl: https://twitter.com/nedforinst
 userOf:
 - /project/sherlock
 - /software/metrochart
+website: http://www.nederlandsforensischinstituut.nl/
 ---
 Het Nederlands Forensisch Instituut (NFI) bevordert het optimaal functioneren van de rechtshandhaving en rechtspleging vanuit een focus op natuurwetenschappelijke informatieposities.
 

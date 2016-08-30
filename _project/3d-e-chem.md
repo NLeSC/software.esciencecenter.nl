@@ -1,7 +1,4 @@
 ---
-name: 3D-e-Chem
-inGroup:
-- NLeSC
 competence:
 - Optimized Data Handling
 contactPerson: /person/s.verhoeven
@@ -20,12 +17,15 @@ engineer:
 expertise:
 - Information Integration
 - Reproducible Research
+inGroup:
+- NLeSC
 infrastructure: Virtual Machine
 involvedOrganization:
 - /organization/nlesc
 - /organization/radboud.university.nijmegen
 - /organization/vua
-logo: https://www.esciencecenter.nl/img/projects/1P040-small.jpg
+logo: /images/project/3d-e-chem.jpg
+name: 3D-e-Chem
 nlescWebsite: https://www.esciencecenter.nl/project/3d-e-chem
 principalInvestigator:
 - affiliation:

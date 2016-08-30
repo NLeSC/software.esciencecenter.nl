@@ -5,7 +5,7 @@ involvedIn:
 - /project/texcavator
 - /project/pidimehs
 - /project/esibayes
-logo: https://userinfo.surfsara.nl/sites/all/themes/surfsara27/images/logo.png
+logo: /images/organization/surfsara.png
 name: SURFsara
 ownerOf:
 - /software/twiqs.nl
