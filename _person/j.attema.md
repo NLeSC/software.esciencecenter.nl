@@ -16,6 +16,7 @@ coordinatorOf:
 - /project/shico
 - /project/drwatson
 - /project/beyond-the-book
+- /project/pidimehs
 engineerOf:
 - /project/summer-in-the-city
 - /project/aa-alert

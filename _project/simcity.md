@@ -46,6 +46,7 @@ uses:
 - /software/xenon
 - /software/pyxenon
 - /software/common-sense
+- /software/picas
 website: http://simcity.amsterdam-complexity.nl
 publication:
 - http://dx.doi.org/10.1016/j.procs.2015.05.399

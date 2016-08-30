@@ -2,6 +2,7 @@
 affiliation:
 - /organization/nlesc
 contactPersonOf:
+<<<<<<< HEAD
 - /project/massive-point-clouds-for-esciences
 - /project/viaappia-patty
 - /project/improving-photogrammetry
@@ -10,6 +11,9 @@ contactPersonOf:
 - /software/massivepotreeconverter
 - /software/pattydata
 - /software/micmac
+- /software/liblas
+- /software/pymicmac
+- /software/pycoeman
 contributorOf:
 - /software/rig
 - /software/pattydata
@@ -20,6 +24,9 @@ contributorOf:
 - /software/ahn2webviewer
 - /software/micmac
 - /software/pattyvis
+- /software/liblas
+- /software/pymicmac
+- /software/pycoeman
 engineerOf:
 - /project/aa-alert
 - /project/massive-point-clouds-for-esciences
@@ -36,6 +43,7 @@ nlescWebsite: https://www.esciencecenter.nl/profile/oscar-martinez-rubi-msc
 photo: http://www.esciencecenter.nl/img/team/oscar-martinez-rubi-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/Oscar_Martinez_Rubi
 userOf:
+<<<<<<< HEAD
 - /software/monetdb
 - /software/pattydata
 - /software/pattyanalytics
@@ -49,6 +57,9 @@ userOf:
 - /software/micmac
 - /software/noodles
 - /software/python-pcl
+- /software/liblas
+- /software/pycoeman
+- /software/pymicmac
 ---
 Oscar did Telecommunications Engineering in the Polytechnic University of Catalonia (UPC) in Barcelona. Later on, he obtained a Master's degree in Astrophysics, focusing in software engineering challenges in astronomical projects.
 

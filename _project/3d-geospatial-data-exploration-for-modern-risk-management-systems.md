@@ -1,4 +1,4 @@
----
+--
 name: 3D Geospatial Data Exploration for Modern Risk Management Systems
 inGroup:
 - NLeSC
@@ -18,6 +18,7 @@ uses:
 - /software/monetdb
 - /software/datavaults
 - /software/kernel_tuner
+- /software/liblas
 competence:
 - Optimized Data Handling
 - Big Data Analytics

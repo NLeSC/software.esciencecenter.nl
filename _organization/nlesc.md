@@ -90,6 +90,8 @@ ownerOf:
 - /software/3d-e-chem-vm
 - /software/knime-archetype
 - /software/chemical-analytics-platform
+- /software/pycoeman
+- /software/pymicmac
 researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
@@ -123,6 +125,7 @@ userOf:
 - /software/topic-coherence-for-dutch
 - /software/heem-dataset
 - /software/differential-evolution
+- /software/liblas
 website: http://www.esciencecenter.nl/
 authorOfReport:
 - /report/guide

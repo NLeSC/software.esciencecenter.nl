@@ -10,6 +10,7 @@ contributorOf:
 - /software/monetdb
 - /software/datavaults
 - /software/pattydata
+- software/liblas
 engineerOf:
 - /project/big-data-analytics-in-the-geo-spatial-domain
 - /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
@@ -27,6 +28,7 @@ researchgateUrl: https://www.researchgate.net/profile/Romulo_Goncalves
 userOf:
 - /software/monetdb
 - /software/datavaults
+- /software/liblas
 ---
 In March 2014 Romulo joined Netherlands eScience Center after his post-doctoral research at IBM Almaden research center.
 

@@ -13,6 +13,8 @@ contributor:
 dependency:
 - /software/xenon
 - /software/pyxenon
+dependencyOf:
+- /pymicmac
 discipline:
 - Life Sciences & eHealth
 - eScience Methodology

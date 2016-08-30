@@ -1,4 +1,4 @@
----
+--
 name: Big-Data-Analytics-in-the-Geo-Spatial-Domain
 inGroup:
 - NLeSC
@@ -17,6 +17,7 @@ involvedOrganization:
 uses:
 - /software/monetdb
 - /software/datavaults
+- /software/liblas
 competence:
 - Optimized Data Handling
 - Big Data Analytics

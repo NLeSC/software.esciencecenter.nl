@@ -1,4 +1,4 @@
----
+--
 contactPerson: /person/o.rubi
 engineer:
 - /person/o.rubi
@@ -25,6 +25,7 @@ uses:
 - /software/massivepotreeconverter
 - /software/ahn2webviewer
 - /software/potree
+- /software/liblas
 publication:
 - http://dx.doi.org/10.14778/2824032.2824110
 - http://dx.doi.org/10.1016/j.cag.2015.01.007
