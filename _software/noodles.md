@@ -15,20 +15,21 @@ dependency:
 - /software/pyxenon
 dependencyOf:
 - /pymicmac
+- http://software.esciencecenter.nl/software/pymicmac
 discipline:
 - Life Sciences & eHealth
 - eScience Methodology
 documentationUrl: http://nlesc.github.io/noodles/sphinxdoc/html/index.html
 expertise:
 - Orchestrated Computing
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/nlesc
 - /organization/vua
 license:
 - lgpl-3.0
 name: Noodles
-inGroup:
-- NLeSC
 nlescWebsite: https://www.esciencecenter.nl/technology/software/noodles
 owner:
 - /organization/nlesc

@@ -2,7 +2,6 @@
 affiliation:
 - /organization/nlesc
 contactPersonOf:
-<<<<<<< HEAD
 - /project/massive-point-clouds-for-esciences
 - /project/viaappia-patty
 - /project/improving-photogrammetry
@@ -43,7 +42,6 @@ nlescWebsite: https://www.esciencecenter.nl/profile/oscar-martinez-rubi-msc
 photo: http://www.esciencecenter.nl/img/team/oscar-martinez-rubi-new.jpg
 researchgateUrl: https://www.researchgate.net/profile/Oscar_Martinez_Rubi
 userOf:
-<<<<<<< HEAD
 - /software/monetdb
 - /software/pattydata
 - /software/pattyanalytics
