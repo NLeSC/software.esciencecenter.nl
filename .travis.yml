@@ -17,6 +17,8 @@ script:
   - nosetests
   - if [ $TRAVIS_BRANCH == "gh-pages" ] || [ $TRAVIS_PULL_REQUEST ]; then
     estep validate -v --resolve;
+    elif [ $TRAVIS_BRANCH == "develop" ]; then
+    estep validate -v --local;
     else
     estep validate -v;
     fi
