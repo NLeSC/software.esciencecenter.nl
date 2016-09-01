@@ -7,7 +7,7 @@ codeRepository: https://github.com/NLeSC/docker-couch-admin
 downloadUrl: https://hub.docker.com/r/nlesc/couch-admin/
 doi: http://dx.doi.org/10.5281/zenodo.61301
 programmingLanguage:
-- Javascript
+- JavaScript
 - HTML
 - Dockerfile
 license:
