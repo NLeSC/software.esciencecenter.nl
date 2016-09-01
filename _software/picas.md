@@ -14,6 +14,8 @@ contributor:
 - affiliation:
   - /organization/surfsara
   name: Anatoli Danezi
+dependency:
+- /software/couchdb
 dependencyOf:
 - /software/couchdb
 discipline:

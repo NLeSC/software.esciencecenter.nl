@@ -4,10 +4,10 @@ competence:
 - Optimized Data Handling
 contactPerson: /person/j.borgdorff
 dependency:
-- /software/couch-admin
 - /software/picas
 dependencyOf:
 - /software/docker-couch-admin
+- /software/picas
 discipline:
 - eScience Methodology
 documentationUrl: http://docs.couchdb.org/en/stable/
