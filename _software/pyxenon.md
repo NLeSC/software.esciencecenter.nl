@@ -15,6 +15,7 @@ dependencyOf:
 discipline:
 - Physics & Beyond
 - eScience Methodology
+doi: http://dx.doi.org/10.5281/zenodo.60929
 downloadUrl: https://pypi.python.org/pypi/pyxenon
 expertise:
 - Distributed Computing
