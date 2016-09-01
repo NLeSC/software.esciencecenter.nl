@@ -5,17 +5,17 @@ competence:
 contactPerson: /person/j.borgdorff
 contributor:
 - /person/j.borgdorff
-- name: Jan Bot
-  affiliation:
+- affiliation:
   - /organization/surfsara
-- name: Maarten Kooyman
-  affiliation:
+  name: Jan Bot
+- affiliation:
   - /organization/surfsara
-- name: Anatoli Danezi
-  affiliation:
+  name: Maarten Kooyman
+- affiliation:
   - /organization/surfsara
-dependency:
+  name: Anatoli Danezi
 dependencyOf:
+- /software/couchdb
 discipline:
 - eScience Methodology
 expertise:

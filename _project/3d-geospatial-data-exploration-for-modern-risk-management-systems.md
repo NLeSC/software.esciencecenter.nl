@@ -1,34 +1,8 @@
 ---
-name: 3D Geospatial Data Exploration for Modern Risk Management Systems
-inGroup:
-- NLeSC
-tagLine: 'COMMIT valorization project: 3D geospatial data exploration for modern risk management systems'
-contactPerson: /person/r.goncalves
-logo: http://www.esciencecenter.nl/img/projects/p054-large.jpg
-engineer:
-- /person/r.goncalves
-involvedOrganization:
-- /organization/commit
-- /organization/monetdb
-- /organization/deltares
-- /organization/cwi
-- /organization/geodan
-- /organization/fugro
-uses:
-- /software/monetdb
-- /software/datavaults
-- /software/kernel_tuner
-- /software/liblas
 competence:
 - Optimized Data Handling
 - Big Data Analytics
-discipline:
-- eScience Methodology
-expertise:
-- Information Visualization
-- Information Integration
-- Databases
-dataMagnitude: TB
+contactPerson: /person/r.goncalves
 dataFormat:
 - LAS
 - LAZ
@@ -36,6 +10,33 @@ dataFormat:
 - NetCDF
 - GeoJSON
 - Shapefiles
+dataMagnitude: TB
+discipline:
+- eScience Methodology
+engineer:
+- /person/r.goncalves
+expertise:
+- Information Visualization
+- Information Integration
+- Databases
+inGroup:
+- NLeSC
+involvedOrganization:
+- /organization/commit
+- /organization/monetdb
+- /organization/deltares
+- /organization/cwi
+- /organization/geodan
+- /organization/fugro
+logo: /images/project/3d-geospatial-data-exploration-for-modern-risk-management-systems.jpg
+name: 3D Geospatial Data Exploration for Modern Risk Management Systems
+tagLine: 'COMMIT valorization project: 3D geospatial data exploration for modern risk
+  management systems'
+uses:
+- /software/monetdb
+- /software/datavaults
+- /software/kernel_tuner
+- /software/liblas
 ---
 55% of The Netherlands is below sea level. This area contains 60% of the population and generates 65% of the Gross National Product. Obviously, The Netherlands requires efficient risk and water management.
 

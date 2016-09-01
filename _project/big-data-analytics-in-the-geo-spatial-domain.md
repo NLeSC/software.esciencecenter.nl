@@ -1,12 +1,22 @@
 ---
-name: Big-Data-Analytics-in-the-Geo-Spatial-Domain
-inGroup:
-- NLeSC
-tagLine: 'Strategic partnership: Big Data Analytics in the Geo-Spatial Domain'
-logo: http://www.esciencecenter.nl/img/projects/1.P025-large.jpg
+competence:
+- Optimized Data Handling
+- Big Data Analytics
 contactPerson: /person/r.goncalves
+dataFormat:
+- LAS/LAZ
+- GML
+dataMagnitude: TB
+discipline:
+- eScience Methodology
 engineer:
 - /person/r.goncalves
+expertise:
+- Information Visualization
+- Information Integration
+- Databases
+inGroup:
+- NLeSC
 involvedOrganization:
 - /organization/cwi
 - /organization/monetdb
@@ -14,23 +24,13 @@ involvedOrganization:
 - /organization/tu-delft
 - /organization/vua
 - /organization/fugro
+logo: /images/project/big-data-analytics-in-the-geo-spatial-domain.jpg
+name: Big-Data-Analytics-in-the-Geo-Spatial-Domain
+tagLine: 'Strategic partnership: Big Data Analytics in the Geo-Spatial Domain'
 uses:
 - /software/monetdb
 - /software/datavaults
 - /software/liblas
-competence:
-- Optimized Data Handling
-- Big Data Analytics
-discipline:
-- eScience Methodology
-expertise:
-- Information Visualization
-- Information Integration
-- Databases
-dataMagnitude: TB
-dataFormat:
-- LAS/LAZ
-- GML
 ---
 Digital 3D city models play a crucial role in research of urban phenomena; they form the basis of flow simulations (wind streams, water runoff and heat island effects), urban planning and analysis of underground formations. Urban scenes consist of large collections of complex objects which have rich semantic properties, such as materials and colors. Modeling and storing these properties indicating the relationships between them is best handled in a relational database.
 
