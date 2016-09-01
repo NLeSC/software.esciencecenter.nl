@@ -96,6 +96,7 @@ ownerOf:
 - /software/chemical-analytics-platform
 - /software/pycoeman
 - /software/pymicmac
+- /software/docker-couch-admin
 researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_Center
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
@@ -130,6 +131,7 @@ userOf:
 - /software/heem-dataset
 - /software/differential-evolution
 - /software/liblas
+- /software/docker-couch-admin
 website: http://www.esciencecenter.nl/
 ---
 Historically, scientific domains were defined by their own unique tools (microscopes, telescopes, distillation glass). Nowadays, the most important tool in all scientific disciplines is the computer. In this digital era, eScience is the developing discipline that provides the domain overarching software instruments (software, workflows and protocols) to support diverse scientific initiatives - making possible the creation of new, even unforeseen, applications - with the potential to transform current scientific practice, optimize scientific investments and significantly accelerate scientific discovery. eScience has the potential to underpin all scientific endeavor in the same way that applied mathematics currently does.

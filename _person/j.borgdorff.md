@@ -5,6 +5,8 @@ contactPersonOf:
 - /software/pyxenon
 - /project/simcity
 - /software/picas
+- /software/couchdb
+- /software/docker-couch-admin
 contributorOf:
 - /software/xenon
 - /software/pyxenon
@@ -13,6 +15,7 @@ contributorOf:
 - /software/python-pcl
 - /software/common-sense
 - /software/picas
+- /software/docker-couch-admin
 email: j.borgdorff@esciencecenter.nl
 engineerOf:
 - /project/simcity
@@ -30,6 +33,7 @@ userOf:
 - /software/xenon
 - /software/pyxenon
 - /software/picas
+- /software/couchdb
 website: http://www.jorisborgdorff.nl/
 ---
 Joris studied mathematics and computer science at Utrecht University. He did his PhD on distributed multiscale computing at the University of Amsterdam in the Computational Science Lab. His thesis ranges from multiscale modeling methodology to the performance of distributed multiscale simulations; its application ranges from biomedical research to the simulation of fusion plasma physics. It also resulted in the public domain distributed multiscale simulation runtime environment MUSCLE 2. Because the research was embedded in the European MAPPER project, the formalisms and software found uptake in several application domains and grid middleware.
