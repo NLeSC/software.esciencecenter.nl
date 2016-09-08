@@ -18,8 +18,8 @@ engineerOf:
 - /project/drwatson
 - /project/shico
 githubUrl: https://github.com/c-martinez
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/carlosmartinezortiz
 name: Carlos Martinez-Ortiz

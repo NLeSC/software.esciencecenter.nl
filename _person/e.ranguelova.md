@@ -21,8 +21,8 @@ email: e.ranguelova@esciencecenter.nl
 engineerOf:
 - /project/biomarker
 githubUrl: https://github.com/elboyran
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Coordinator
 name: Elena Ranguelova
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-elena-ranguelova

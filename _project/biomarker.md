@@ -9,8 +9,8 @@ engineer:
 - /person/e.ranguelova
 expertise:
 - Distributed Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/radboud.university.nijmegen
 - /organization/nlesc

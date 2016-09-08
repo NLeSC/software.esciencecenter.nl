@@ -20,8 +20,8 @@ expertise:
 - Databases
 - Handling Sensor Data
 - Scientific Visualization
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/vua

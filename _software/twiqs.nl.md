@@ -14,8 +14,8 @@ involvedOrganization:
 - /organization/radboud.university.nijmegen
 - /organization/surfsara
 name: twiqs.nl
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 owner:
 - /organization/nlesc
 - /organization/radboud.university.nijmegen

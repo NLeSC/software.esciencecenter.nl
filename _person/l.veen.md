@@ -5,8 +5,8 @@ contributorOf:
 - /software/xtas
 email: l.veen@esciencecenter.nl
 githubUrl: https://github.com/LourensVeen
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Lourens Veen
 nlescWebsite: https://www.esciencecenter.nl/profile/ir.-lourens-veen

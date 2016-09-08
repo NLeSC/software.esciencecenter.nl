@@ -1,7 +1,7 @@
 ---
 name: StoryTeller
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: Visualizing complex humanities data
 codeRepository: https://github.com/NLeSC/UncertaintyVisualization
 nlescWebsite:

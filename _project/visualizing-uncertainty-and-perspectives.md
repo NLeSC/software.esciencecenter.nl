@@ -14,8 +14,8 @@ engineer:
 expertise:
 - Information Visualization
 - Text Mining
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/vua

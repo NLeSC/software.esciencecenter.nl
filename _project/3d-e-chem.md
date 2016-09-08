@@ -17,8 +17,8 @@ engineer:
 expertise:
 - Information Integration
 - Reproducible Research
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Virtual Machine
 involvedOrganization:
 - /organization/nlesc

@@ -1,7 +1,7 @@
 ---
 name: 3D-e-Chem Virtual machine
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: Virtual machine with all software and sample data to run 3D-e-Chem Knime workflows
 codeRepository: https://github.com/3D-e-Chem/3D-e-Chem-VM
 website: https://3d-e-chem.github.io/3D-e-Chem-VM

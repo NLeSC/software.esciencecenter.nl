@@ -12,8 +12,8 @@ expertise:
 - Distributed Computing
 - Accelerated Computing
 - High Performance Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 license:
 - gpl-2.0
 logo: /images/software/amuse.png

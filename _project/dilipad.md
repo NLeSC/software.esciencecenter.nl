@@ -12,8 +12,8 @@ engineer:
 - /person/j.vanderzwaan
 expertise:
 - Text Mining
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/uva

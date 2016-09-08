@@ -22,8 +22,8 @@ involvedOrganization:
 license:
 - lgpl-3.0
 name: GoogleEarth Toolbox for MATLAB
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 owner:
 - /person/j.spaaks
 - name: Scott Lee Davis

@@ -1,7 +1,7 @@
 ---
 name: Docker Couch Admin
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: Configures a web service using angular-schema-form and CouchDB
 codeRepository: https://github.com/NLeSC/docker-couch-admin
 downloadUrl: https://hub.docker.com/r/nlesc/couch-admin/

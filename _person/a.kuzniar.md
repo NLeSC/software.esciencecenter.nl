@@ -11,8 +11,8 @@ engineerOf:
 - /project/odex4all
 - /project/candygene
 githubUrl: https://github.com/arnikz
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/arnold-kuzniar-06312210
 name: Arnold Kuzniar

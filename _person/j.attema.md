@@ -25,8 +25,8 @@ engineerOf:
 - /project/aa-alert
 - /project/viaappia-patty
 githubUrl: https://github.com/jiskattema
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Coordinator
 linkedInUrl: https://www.linkedin.com/in/jiskattema
 name: Jisk Attema

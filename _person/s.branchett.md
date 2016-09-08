@@ -7,8 +7,8 @@ coordinatorOf:
 - /project/esibayes
 email: s.branchett@esciencecenter.nl
 githubUrl: https://github.com/sbranchett
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: Director Business Development & Operations
 name: Susan Branchett
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-susan-branchett

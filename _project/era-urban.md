@@ -20,8 +20,8 @@ expertise:
 - Distributed Computing
 - High Performance Computing
 - Databases
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Supercomputer
 involvedOrganization:
 - /organization/nlesc

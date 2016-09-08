@@ -6,8 +6,8 @@ discipline:
 - Life Sciences & eHealth
 expertise:
 - Information Visualization
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/cbs-knaw
 logo: /images/project/massive-biological-data-clustering-reporting-and-visualization-tools.jpg

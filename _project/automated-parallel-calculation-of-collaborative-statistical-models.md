@@ -14,8 +14,8 @@ engineer:
 expertise:
 - Accelerated Computing
 - High Performance Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: DAS5 and NIKHEF computer cluster for testing and benchmarking
 involvedOrganization:
 - /organization/nlesc

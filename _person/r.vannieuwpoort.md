@@ -20,8 +20,8 @@ engineerOf:
 - /project/generic-escience-technologies
 - /project/viaappia-patty
 - /project/beyond-the-data-explosion
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: Director eScience Technology & Project Leader
 name: Rob van Nieuwpoort
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-rob-van-nieuwpoort

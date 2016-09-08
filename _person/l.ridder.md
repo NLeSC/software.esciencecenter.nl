@@ -12,8 +12,8 @@ coordinatorOf:
 - /project/odex4all
 - /project/3d-e-chem
 email: l.ridder@esciencecenter.nl
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Coordinator
 name: Lars Ridder
 photo: /images/person/l.ridder.jpg

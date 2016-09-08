@@ -18,8 +18,8 @@ expertise:
 - Data Assimilation
 - Distributed Computing
 - High Performance Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: surfSARA's LISA cluster
 involvedOrganization:
 - /organization/uva

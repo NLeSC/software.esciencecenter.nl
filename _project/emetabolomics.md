@@ -19,8 +19,8 @@ engineer:
 expertise:
 - High Performance Computing
 - Scientific Visualization
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Cloud
 involvedOrganization:
 - /organization/nlesc

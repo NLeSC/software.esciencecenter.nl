@@ -1,7 +1,7 @@
 ---
 contactPerson: /person/l.ridder
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/vua

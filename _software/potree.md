@@ -20,8 +20,8 @@ involvedOrganization:
 license:
 - bsd-2-clause
 name: Potree
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 owner:
 - /organization/potree
 programmingLanguage:

@@ -20,8 +20,8 @@ expertise:
 - Information Visualization
 - Information Integration
 - Handling Sensor Data
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Supercomputer for perfoming weather forecasts
 involvedOrganization:
 - /organization/wur

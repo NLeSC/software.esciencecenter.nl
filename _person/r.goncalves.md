@@ -17,8 +17,8 @@ engineerOf:
 - /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
 - /project/massive-point-clouds-for-esciences
 githubUrl: https://github.com/romulogoncalves
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/romulo-goncalves-6999b341
 name: Romulo Goncalves

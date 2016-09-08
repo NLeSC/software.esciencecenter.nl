@@ -17,8 +17,8 @@ expertise:
 - Information Retrieval
 - Information Visualization
 - Data Assimilation
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Elasticsearch for indexing and searching newspaper data, iPython notebook
   for interactive analysis
 involvedOrganization:

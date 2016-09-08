@@ -5,8 +5,8 @@ engineer:
 - /person/r.goncalves
 - /person/m.vanmeersbergen
 - /person/s.verhoeven
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/tu-delft
 - /organization/cwi

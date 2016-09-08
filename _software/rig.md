@@ -15,8 +15,8 @@ expertise:
 - Information Visualization
 - Databases
 - Distributed Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 license:

@@ -4,8 +4,8 @@ affiliation:
 contributorOf:
 - /software/magma
 name: Marijn Sanders
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 userOf:
 - /software/magma
 ---

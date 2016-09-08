@@ -9,8 +9,8 @@ engineer:
 - /person/c.martinez
 expertise:
 - Linked Data
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Web platform
 involvedOrganization:
 - /organization/vua

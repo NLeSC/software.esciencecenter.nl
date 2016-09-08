@@ -20,8 +20,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: Differential Evolution
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 owner:
 - /organization/nlesc
 - /person/j.spaaks

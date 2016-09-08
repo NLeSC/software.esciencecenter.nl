@@ -23,8 +23,8 @@ engineerOf:
 - /project/amuse
 - /project/viaappia-patty
 githubUrl: https://github.com/nielsdrost
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/niels-drost-664698a
 name: Niels Drost

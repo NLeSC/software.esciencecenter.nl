@@ -13,8 +13,8 @@ expertise:
 - Distributed Computing
 - Accelerated Computing
 - High Performance Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nfi
 - /organization/nlesc

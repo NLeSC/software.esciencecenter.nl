@@ -1,7 +1,7 @@
 ---
 name: FAIR Data Point
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: FAIR Data Point Metadata Service
 codeRepository: https://github.com/NLeSC/ODEX-FAIRDataPoint
 nlescWebsite: https://www.esciencecenter.nl/technology/software/fairdatapoint

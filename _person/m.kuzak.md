@@ -5,8 +5,8 @@ contributorOf:
 - /software/pattyvis
 email: m.kuzak@esciencecenter.nl
 githubUrl: https://github.com/mkuzak
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Mateusz Kuzak
 nlescWebsite: https://www.esciencecenter.nl/profile/mateusz-kuzak-msc

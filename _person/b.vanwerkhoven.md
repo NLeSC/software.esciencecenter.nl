@@ -11,8 +11,8 @@ email: b.vanwerkhoven@esciencecenter.nl
 engineerOf:
 - /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 githubUrl: https://github.com/benvanwerkhoven
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/ben-van-werkhoven-3010528b
 name: Ben van Werkhoven

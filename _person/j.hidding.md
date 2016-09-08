@@ -7,8 +7,8 @@ contributorOf:
 - /software/pyxenon
 - /software/noodles
 email: j.hidding@esciencecenter.nl
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Johannes Hidding
 photo: /images/person/j.hidding.jpg

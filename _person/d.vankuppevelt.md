@@ -1,8 +1,8 @@
 ---
 name: Dafne van Kuppevelt
 email: d.vankuppevelt@esciencecenter.nl
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 nlescWebsite: https://www.esciencecenter.nl/profile/dafne-van-kuppevelt-msc
 linkedInUrl: https://nl.linkedin.com/in/dafne-van-kuppevelt-45416753
 githubUrl: https://github.com/dafnevk

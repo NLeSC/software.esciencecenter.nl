@@ -19,8 +19,8 @@ expertise:
 - Information Visualization
 - Information Integration
 - Databases
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/commit
 - /organization/monetdb

@@ -16,8 +16,8 @@ engineerOf:
 - /project/hadrianus
 - /project/automated-parallel-calculation-of-collaborative-statistical-models
 githubUrl: https://github.com/egpbos
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/egpbos
 name: Patrick Bos

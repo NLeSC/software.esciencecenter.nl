@@ -15,8 +15,8 @@ involvedOrganization:
 license:
 - bsd-2-clause
 name: PotreeConverter
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 programmingLanguage:
 - C++
 startDate: 2011-01-01

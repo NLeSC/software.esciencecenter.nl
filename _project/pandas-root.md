@@ -17,8 +17,8 @@ engineer:
 expertise:
 - Linked Data
 - High Performance Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/nikhef

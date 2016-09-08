@@ -17,8 +17,8 @@ involvedOrganization:
 license:
 - CeCILL-B
 name: MicMac
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 programmingLanguage:
 - C++
 startDate: 2013-10-01

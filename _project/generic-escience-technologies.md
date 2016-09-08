@@ -12,8 +12,8 @@ engineer:
 expertise:
 - Accelerated Computing
 - Linked Data
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: DAS-5
 involvedOrganization:
 - /organization/uva

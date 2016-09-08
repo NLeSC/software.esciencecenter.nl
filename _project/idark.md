@@ -12,8 +12,8 @@ engineer:
 expertise:
 - Accelerated Computing
 - Information Visualization
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/radboud.university.nijmegen

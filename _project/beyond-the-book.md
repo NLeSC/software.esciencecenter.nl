@@ -12,8 +12,8 @@ expertise:
 - Information Retrieval
 - Linked Data
 - Information Integration
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/huygens
 - /organization/nlesc

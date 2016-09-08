@@ -18,8 +18,8 @@ expertise:
 - Text Mining
 - Databases
 - Machine Learning
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Compute cloud and/or cluster
 involvedOrganization:
 - /organization/nlesc

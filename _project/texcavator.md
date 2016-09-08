@@ -15,8 +15,8 @@ expertise:
 - Text Mining
 - Distributed Computing
 - Information Visualization
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Elasticsearch for indexing and searching newspaper data
 involvedOrganization:
 - /organization/nlesc

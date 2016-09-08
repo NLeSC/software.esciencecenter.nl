@@ -1,7 +1,7 @@
 ---
 name: NetCDF2LittleR
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: A fortran application to convert NetCDF files to the Little-R format.
 codeRepository: https://github.com/rvanharen/netcdf2littler
 downloadUrl: https://github.com/rvanharen/netcdf2littler/releases

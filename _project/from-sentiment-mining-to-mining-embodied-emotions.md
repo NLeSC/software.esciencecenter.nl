@@ -15,8 +15,8 @@ expertise:
 - Text Mining
 - Machine Learning
 - Information Visualization
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/vua

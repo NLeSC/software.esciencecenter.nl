@@ -12,8 +12,8 @@ engineer:
 - /person/n.drost
 expertise:
 - High Performance Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Supercomputer
 involvedOrganization:
 - /organization/nlesc

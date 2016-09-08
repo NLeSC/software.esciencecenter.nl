@@ -16,8 +16,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: Magnesium
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 owner:
 - /organization/nlesc
 - /person/j.maassen

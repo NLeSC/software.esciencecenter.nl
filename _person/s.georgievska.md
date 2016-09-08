@@ -9,8 +9,8 @@ contributorOf:
 email: s.georgievska@esciencecenter.nl
 engineerOf:
 - /software/cclustera
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Sonja Georgievska
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-sonja-georgievska

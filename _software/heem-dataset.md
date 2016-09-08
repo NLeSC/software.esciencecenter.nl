@@ -1,7 +1,7 @@
 ---
 name: Historic Embodied Emotions Model (HEEM) dataset
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: 279 17th and 18th century Dutch theater texts with HEEM labels
 doi: http://dx.doi.org/10.5281/zenodo.47751
 license:

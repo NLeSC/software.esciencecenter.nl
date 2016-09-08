@@ -1,7 +1,7 @@
 ---
 name: ROOT-conda-recipes
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: Conda recipes for building CERN ROOT binaries and its dependencies, with Python 3 support. It provides a "pythonic" interface (pandas DataFrames) to the ROOT I/O format.
 
 codeRepository: http://github.com/NLeSC/root-conda-recipes

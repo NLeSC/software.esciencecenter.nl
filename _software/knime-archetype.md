@@ -1,7 +1,7 @@
 ---
 name: Knime node archetype
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: Generator for Knime workflow node skeleton repository with sample code.
 codeRepository: https://github.com/3D-e-Chem/tycho-knime-node-archetype
 website: https://github.com/3D-e-Chem/tycho-knime-node-archetype

@@ -19,8 +19,8 @@ expertise:
 - Scientific Visualization
 - Handling Sensor Data
 - Databases
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Dedicated cluster
 involvedOrganization:
 - /organization/uva

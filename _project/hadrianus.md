@@ -14,8 +14,8 @@ engineer:
 expertise:
 - Linked Data
 - Information Visualization
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: OpenLink Virtuoso for hosting and serving the Linked Data view on
   the data
 involvedOrganization:

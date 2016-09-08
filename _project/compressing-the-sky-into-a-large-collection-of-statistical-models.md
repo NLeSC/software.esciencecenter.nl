@@ -12,8 +12,8 @@ engineer:
 - /person/v.hees
 expertise:
 - Databases
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/cwi
 logo: /images/project/compressing-the-sky-into-a-large-collection-of-statistical-models.jpg

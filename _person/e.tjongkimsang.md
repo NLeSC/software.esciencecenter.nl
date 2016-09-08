@@ -12,8 +12,8 @@ engineerOf:
 githubUrl: https://github.com/eriktks
 jobTitle: eScience Research Engineer
 name: Erik Tjong Kim Sang
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 ownerOf:
 - /software/twiqs.nl
 website: http://ifarm.nl/erikt/

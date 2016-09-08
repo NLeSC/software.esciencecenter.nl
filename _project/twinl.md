@@ -14,8 +14,8 @@ engineer:
 expertise:
 - Text Mining
 - Information Retrieval
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Cloud for data ingestion and retrieval, Hadoop for indexing and searching
 involvedOrganization:
 - /organization/nlesc

@@ -14,8 +14,8 @@ expertise:
 - Machine Learning
 - Information Integration
 - High Performance Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: LOFAR
 involvedOrganization:
 - /organization/astron

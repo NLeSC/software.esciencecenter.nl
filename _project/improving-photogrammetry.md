@@ -2,8 +2,8 @@
 contactPerson: /person/o.rubi
 engineer:
 - /person/o.rubi
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/utwente
 - /organization/ign

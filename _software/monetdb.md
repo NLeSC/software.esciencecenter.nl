@@ -14,8 +14,8 @@ documentationUrl: https://www.monetdb.org/Documentation
 downloadUrl: https://www.monetdb.org/Downloads
 expertise:
 - Databases
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/cwi
 - /organization/monetdb

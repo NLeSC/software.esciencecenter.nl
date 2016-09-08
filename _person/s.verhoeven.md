@@ -35,8 +35,8 @@ engineerOf:
 - /project/viaappia-patty
 - /project/3d-e-chem
 githubUrl: https://github.com/sverhoeven
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/stefan-verhoeven-15381122
 name: Stefan Verhoeven

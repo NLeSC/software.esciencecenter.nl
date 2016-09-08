@@ -17,8 +17,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: Structure-From-Motion 
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 programmingLanguage:
 - Python
 - C++

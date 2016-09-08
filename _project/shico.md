@@ -12,8 +12,8 @@ expertise:
 - Information Visualization
 - Scientific Visualization
 - Information Retrieval
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Web platform
 involvedOrganization:
 - /organization/uu

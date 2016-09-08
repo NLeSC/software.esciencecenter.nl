@@ -18,8 +18,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: PattyAnalytics
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 programmingLanguage:
 - Python
 startDate: 2013-10-01

@@ -1,7 +1,7 @@
 ---
 name: WRFpy
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: Python workflow application to set up/run WRF simulations (optionally including data assimilation).
 codeRepository: https://github.com/rvanharen/wrfpy
 downloadUrl: https://github.com/rvanharen/wrfpy/releases

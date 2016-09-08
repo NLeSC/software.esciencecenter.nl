@@ -20,8 +20,8 @@ expertise:
 - Computer Vision
 - Distributed Computing
 - High Performance Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/nfi

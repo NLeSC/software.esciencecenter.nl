@@ -14,8 +14,8 @@ expertise:
 - Accelerated Computing
 - Handling Sensor Data
 - High Performance Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Apertif, A 75-GPU cluster and 10 PB storage
 involvedOrganization:
 - /organization/astron

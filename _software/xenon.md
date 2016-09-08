@@ -23,8 +23,8 @@ doi: http://dx.doi.org/10.5281/zenodo.35415
 downloadUrl: https://bintray.com/nlesc/xenon/xenon/view
 expertise:
 - Distributed Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 license:

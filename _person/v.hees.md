@@ -8,8 +8,8 @@ contributorOf:
 email: v.hees@esciencecenter.nl
 engineerOf:
 - /project/compressing-the-sky-into-a-large-collection-of-statistical-models
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Vincent van Hees
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-vincent-van-hees

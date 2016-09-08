@@ -1,7 +1,7 @@
 ---
 name: Cross-perspective Topic Modeling
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: A Gibbs sampler that implements Cross-Perspective Topic Modeling
 codeRepository: https://github.com/NLeSC/cptm
 nlescWebsite:

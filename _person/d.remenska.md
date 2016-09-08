@@ -12,8 +12,8 @@ email: d.remenska@esciencecenter.nl
 engineerOf:
 - /project/pandas-root
 githubUrl: https://github.com/remenska
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/remenska
 name: Daniela Remenska

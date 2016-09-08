@@ -16,8 +16,8 @@ discipline:
 downloadUrl: https://github.com/NLeSC/osmium/releases
 expertise:
 - Distributed Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/wur

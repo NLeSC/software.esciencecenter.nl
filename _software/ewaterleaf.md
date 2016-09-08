@@ -4,8 +4,8 @@ contactPerson: /person/n.drost
 contributor:
 - /person/n.drost
 name: eWaterLeaf
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: Web-based visualization for the eWaterCycle project
 license:
 - apache-2.0

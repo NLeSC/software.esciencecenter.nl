@@ -4,8 +4,8 @@ affiliation:
 contributorOf:
 - /software/pattyvis
 email: l.kulik@esciencecenter.nl
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: Communications Advisor
 linkedInUrl: https://nl.linkedin.com/in/lodekulik
 name: Lode Kulik

@@ -7,8 +7,8 @@ discipline:
 - Physics & Beyond
 expertise:
 - Distributed Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/uu
 - /organization/leiden-university

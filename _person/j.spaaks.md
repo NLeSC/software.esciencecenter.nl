@@ -23,8 +23,8 @@ engineerOf:
 - /project/eecology
 - /project/esibayes
 githubUrl: https://github.com/jspaaks
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Jurriaan H. Spaaks
 nlescWebsite: https://www.esciencecenter.nl/profile/drs-jurriaan-spaaks

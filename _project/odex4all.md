@@ -15,8 +15,8 @@ expertise:
 - Information Integration
 - Linked Data
 - Databases
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Cloud
 involvedOrganization:
 - /organization/nlesc

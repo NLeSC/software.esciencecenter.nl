@@ -14,8 +14,8 @@ expertise:
 license:
 - apache-2.0
 name: Kernel Tuner
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 owner:
 - /organization/nlesc
 - /person/b.vanwerkhoven

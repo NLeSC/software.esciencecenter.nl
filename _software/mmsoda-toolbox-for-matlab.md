@@ -30,8 +30,8 @@ license:
 - apache-2.0
 logo:
 name: MMSODA Toolbox for MATLAB
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 nlescWebsite: https://www.esciencecenter.nl/project/esibayes
 owner:
 - /organization/nlesc

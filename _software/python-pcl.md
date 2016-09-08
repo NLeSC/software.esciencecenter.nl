@@ -17,8 +17,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: python-pcl
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 programmingLanguage:
 - Python
 startDate: 2014-10-01

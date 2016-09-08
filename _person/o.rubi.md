@@ -33,8 +33,8 @@ engineerOf:
 - /project/viaappia-patty
 - /project/improving-photogrammetry
 githubUrl: https://github.com/oscarmartinezrubi
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/oscarmartinezrubi/en
 name: Oscar Martinez Rubi

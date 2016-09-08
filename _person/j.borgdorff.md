@@ -20,8 +20,8 @@ email: j.borgdorff@esciencecenter.nl
 engineerOf:
 - /project/simcity
 githubUrl: https://github.com/blootsvoets
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://www.linkedin.com/in/jorisborgdorff
 name: Joris Borgdorff

@@ -1,7 +1,7 @@
 ---
 name: ReciPy
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: Effortless provenance in Python
 codeRepository: https://github.com/recipy/recipy
 programmingLanguage:

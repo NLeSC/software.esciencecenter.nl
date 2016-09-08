@@ -15,8 +15,8 @@ expertise:
 - High Performance Computing
 - Accelerated Computing
 - Low Power Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: LOFAR
 involvedOrganization:
 - /organization/astron

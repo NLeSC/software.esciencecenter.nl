@@ -10,8 +10,8 @@ engineer:
 expertise:
 - Linked Data
 - Information Integration
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Web platform
 involvedOrganization:
 - /organization/vua

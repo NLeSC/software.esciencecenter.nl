@@ -13,8 +13,8 @@ email: r.vanharen@esciencecenter.nl
 engineerOf:
 - /project/era-urban
 githubUrl: https://github.com/rvanharen
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Ronald van Haren
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-ronald-van-haren

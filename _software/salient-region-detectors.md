@@ -1,7 +1,7 @@
 ---
 name: Salient Region Detectors
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 tagLine: Software package for detecting salient regions in images.
 codeRepository: https://github.com/NLeSC/SalientDetector-python
 website:

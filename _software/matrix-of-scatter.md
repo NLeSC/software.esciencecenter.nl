@@ -19,8 +19,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: Matrix of scatter
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 owner:
 - /person/j.spaaks
 programmingLanguage:

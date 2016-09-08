@@ -23,8 +23,8 @@ email: j.maassen@esciencecenter.nl
 engineerOf:
 - /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 githubUrl: https://github.com/jmaassen
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: Technology Lead Efficient Computing
 linkedInUrl: https://nl.linkedin.com/in/jason-maassen-6795ba4
 name: Jason Maassen

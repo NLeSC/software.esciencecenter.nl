@@ -21,8 +21,8 @@ expertise:
 - Handling Sensor Data
 - Information Integration
 - Distributed Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 infrastructure: Clouds and clusters
 involvedOrganization:
 - /organization/nlesc

@@ -30,8 +30,8 @@ engineerOf:
 - /project/sherlock
 - /project/what-works-when-for-whom
 githubUrl: https://github.com/jvdzwaan
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/jvdzwaan
 name: Janneke van der Zwaan

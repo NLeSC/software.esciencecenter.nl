@@ -8,8 +8,8 @@ engineerOf:
 - /project/eecology
 - /project/error-detection-and-error-localization
 githubUrl: https://github.com/cwmeijer
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Christiaan Meijer
 nlescWebsite: https://www.esciencecenter.nl/profile/christiaan-meijer-msc

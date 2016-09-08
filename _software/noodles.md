@@ -22,8 +22,8 @@ discipline:
 documentationUrl: http://nlesc.github.io/noodles/sphinxdoc/html/index.html
 expertise:
 - Orchestrated Computing
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/vua

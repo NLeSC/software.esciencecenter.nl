@@ -8,8 +8,8 @@ coordinatorOf:
 - /project/simcity
 email: w.vanhage@esciencecenter.nl
 githubUrl: https://github.com/wrvhage
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: Tech Lead Data Management and Analytics
 linkedInUrl: https://www.linkedin.com/in/wrvhage
 name: Willem van Hage

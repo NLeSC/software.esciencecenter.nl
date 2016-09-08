@@ -20,8 +20,8 @@ engineerOf:
 - /project/visualizing-uncertainty-and-perspectives
 - /project/massive-point-clouds-for-esciences
 - /project/viaappia-patty
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Maarten van Meersbergen
 nlescWebsite: https://www.esciencecenter.nl/profile/maarten-van-meersbergen-msc

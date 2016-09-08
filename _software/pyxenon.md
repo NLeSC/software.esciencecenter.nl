@@ -24,8 +24,8 @@ involvedOrganization:
 license:
 - apache-2.0
 name: pyxenon
-inGroup:
-- NLeSC
+endorsedBy:
+- /organization/nlesc
 owner:
 - /organization/nlesc
 programmingLanguage:
