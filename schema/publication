@@ -24,14 +24,15 @@
             "description": "Bibliography as text",
             "type" : "string"
         },
-        "inGroup" : {
-            "description": "Organizations that endorse this entry, e.g. software made by, owned by, or used by the this organization; person employed by this organization; publication written at an organization. Used for grouping items on the website per organization.",
-            "type": "array",
-            "items": {
-                "description" : "Tag of the group, e.g., NLeSC, for use in the website.",
-                "type" : "string"
-            }
-        },
+		"endorsedBy" : {
+			"description": "Organizations that endorse this entry, e.g. software made by, owned by, or used by the this organization; Used for grouping items on the website per organization.",
+			"type": "array",
+			"items": {
+				"description" : "ID of the organization. This is preferably an URI where the organization's metadata can be resolved, e.g., /organization/nlesc.",
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
         "author" : {
             "description" : "ID of projects that are responsible for the publication.",
             "type": "array",
@@ -59,6 +60,6 @@
             "format": "date-time"
         }
     },
-    "required": ["@id", "schema", "description", "inGroup", "author", "date"],
+    "required": ["@id", "schema", "description", "endorsedBy", "author", "date"],
     "additionalProperties": false
 }

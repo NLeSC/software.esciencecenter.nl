@@ -123,14 +123,18 @@
 			"description": "Organizations that endorse this entry, e.g. software made by, owned by, or used by the this organization; Used for grouping items on the website per organization.",
 			"type": "array",
 			"items": {
-				{ "$ref": "organization" }
+				"description" : "ID of the organization. This is preferably an URI where the organization's metadata can be resolved, e.g., /organization/nlesc",
+				"type" : "string",
+				"format" : "uri"
 			}
 		},
 		"contributingOrganization" : {
 			"description": "Organizations that have contributed to this entry, e.g. software made by, or contributed to (either financially or otherwise) by this organisation; Used for grouping items on the website per organization.",
 			"type": "array",
 			"items": {
-				{ "$ref": "organization" }
+				"description" : "ID of the organization. This is preferably an URI where the organization's metadata can be resolved, e.g., /organization/nlesc",
+				"type" : "string",
+				"format" : "uri"
 			}
 		},
 		"owner" : {
