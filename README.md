@@ -9,14 +9,43 @@ Data on projects, people and software in eStep.
 
 Requirements:
 
-* libyaml, C library and development headers
-
 Install the estep website utility by running
 ```shell
+# install python's package manager, pip
+sudo apt-get install python-pip
+
+# install python virtual environment
+sudo apt-get install python-virtualenv
+
+# clone the repo
+git clone https://github.com/NLeSC/software.esciencecenter.nl.git
+
+# change directory into it
+cd software.esciencecenter.nl
+
+# make a new branch for the content you're about to add
+git branch mybranch
+
+# switch to the new branch
+git checkout mybranch
+
+# make a new python virtual environment, whose settings are stored in a
+# new directory .venv. Use python3
+virtualenv -p /usr/bin/python3  .venv
+
+# activate the python virtual environment by sourcing the activate file
+source .venv/bin/activate
+
+# install the requirements listed in requirements.txt
 pip install -r requirements.txt
+
+# do some unidentified magic
 pip install -e .
+
+# check that the estep validation tool works as it should
+estep validate -v
+
 ```
-Use `virtualenv` or equivalent to ensure that a recent version of the `six` library is used.
 
 ## How to edit
 
