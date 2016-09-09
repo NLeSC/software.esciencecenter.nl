@@ -15,7 +15,7 @@ involvedOrganization:
 - /organization/nlesc
 license:
 - bsd-2-clause
-name: PDAL
+name: libLAS
 programmingLanguage:
 - C++
 - C
