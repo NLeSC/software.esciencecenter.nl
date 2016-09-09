@@ -22,7 +22,7 @@
 			"type" : "string"
 		},
 		"@id" : {
-			"description" : "ID of the software. This is preferably an URI where the software's metadata can be resolved, e.g., http://software.esciencecenter.nl/software/xenon.",
+			"description" : "ID of the software. This is preferably an URI where the software's metadata can be resolved, e.g., /software/xenon.",
 			"type" : "string",
 			"format" : "uri"
 		},
@@ -113,7 +113,7 @@
 			"anyOf" : [
 				 { "$ref": "person" },
 				 {
-					"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+					"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., /person/s.verhoeven.",
 					"type" : "string",
 					"format" : "uri"
 				 }
@@ -136,7 +136,7 @@
 					 { "$ref": "person" },
 					 { "$ref": "organization" },
 					 {
-						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., /person/s.verhoeven.",
 						"type" : "string",
 						"format" : "uri"
 					 }
@@ -150,7 +150,7 @@
 				"anyOf" : [
 					 { "$ref": "person" },
 					 {
-						"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., /person/s.verhoeven.",
 						"type" : "string",
 						"format" : "uri"
 					 }
@@ -174,7 +174,7 @@
 					 { "$ref": "person" },
 					 { "$ref": "organization" },
 					 {
-						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., /person/s.verhoeven.",
 						"type" : "string",
 						"format" : "uri"
 					 }
@@ -188,7 +188,7 @@
 				"anyOf" : [
 					 { "$ref": "organization" },
 					 {
-						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
+						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., /project/emetabolomics.",
 						"type" : "string",
 						"format" : "uri"
 					 }
@@ -202,7 +202,7 @@
 				"anyOf" : [
 					 { "$ref": "project" },
 					 {
-						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
+						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., /project/emetabolomics.",
 						"type" : "string",
 						"format" : "uri"
 					 }
@@ -223,7 +223,7 @@
 			"description": "Dependencies to run or compile the current software.",
 			"type" : "array",
 			"items" : {
-				"description" : "e.g. internal software as URI (http://software.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc.",
+				"description" : "e.g. internal software as URI (/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc.",
 				"type" : "string"
 			}
 		},
@@ -231,7 +231,7 @@
 			"description": "Other software that this software is a dependency of.",
 			"type" : "array",
 			"items" : {
-				"description" : "e.g. internal software as URI (http://software.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc.",
+				"description" : "e.g. internal software as URI (/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc.",
 				"type" : "string"
 			}
 		},
