@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/DifferentialEvolution
 competence:
 - Big Data Analytics
 contactPerson: /person/j.spaaks
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.spaaks
 dependency:

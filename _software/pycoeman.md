@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/pycoeman
 competence:
 - Efficient Computing
 contactPerson: /person/o.rubi
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/o.rubi
 dependency:

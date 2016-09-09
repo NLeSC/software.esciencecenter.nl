@@ -1,6 +1,8 @@
 ---
 codeRepository: https://github.com/eWaterCycle/eWaterleaf
 contactPerson: /person/n.drost
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/n.drost
 name: eWaterLeaf

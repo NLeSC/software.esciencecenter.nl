@@ -3,6 +3,8 @@ codeRepository: https://www.monetdb.org/Downloads
 competence:
 - Optimized Data Handling
 contactPerson: /person/r.goncalves
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/r.goncalves
 - /person/v.hees

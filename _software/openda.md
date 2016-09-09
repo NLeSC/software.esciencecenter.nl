@@ -1,4 +1,6 @@
 ---
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/n.drost
 name: OpenDA

@@ -3,6 +3,8 @@ codeRepository: https://github.com/nlesc-sherlock/Rig
 competence:
 - Big Data Analytics
 contactPerson: /person/j.vanderzwaan
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.vanderzwaan
 - /person/w.vanhage

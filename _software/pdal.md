@@ -3,6 +3,8 @@ codeRepository: http://www.pdal.io/
 competence:
 - Big Data Analytics
 contactPerson: /person/o.rubi
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/o.rubi
 discipline:

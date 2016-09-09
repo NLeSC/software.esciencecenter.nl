@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/pyxenon
 competence:
 - Efficient Computing
 contactPerson: /person/j.borgdorff
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.borgdorff
 - /person/j.hidding

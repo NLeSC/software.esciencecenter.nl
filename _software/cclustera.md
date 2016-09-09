@@ -18,6 +18,8 @@ supportLevel: specialized
 contactPerson: /person/s.georgievska
 owner: 
 - /organization/nlesc
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/s.georgievska
 user:

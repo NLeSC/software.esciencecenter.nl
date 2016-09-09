@@ -4,6 +4,8 @@ competence:
 - Big Data Analytics
 - Efficient Computing
 contactPerson: /person/j.spaaks
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.spaaks
 - name: Willem Bouten

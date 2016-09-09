@@ -24,6 +24,8 @@ supportLevel: specialized
 contactPerson: /person/m.vanmeersbergen
 owner:
 - /organization/nlesc
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/m.vanmeersbergen
 - /person/j.vanderzwaan

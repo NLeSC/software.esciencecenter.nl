@@ -4,6 +4,8 @@ website: http://ahn2.pointclouds.nl/
 competence:
 - Big Data Analytics
 contactPerson: /person/m.vanmeersbergen
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/m.vanmeersbergen
 - /person/o.rubi

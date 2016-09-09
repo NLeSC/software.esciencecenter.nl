@@ -19,6 +19,8 @@ supportLevel: specialized
 contactPerson: /person/r.vannieuwpoort
 owner:
 - /organization/nlesc
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/r.vannieuwpoort
 user:

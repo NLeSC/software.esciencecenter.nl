@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/structure-from-motion
 competence:
 - Efficient Computing
 contactPerson: /person/n.drost
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/n.drost
 - /person/j.spaaks

@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/Cesium-NcWMS
 competence:
 - Big Data Analytics
 contactPerson: /person/m.vanmeersbergen
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/n.drost
 - /person/m.vanmeersbergen

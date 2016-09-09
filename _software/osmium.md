@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/osmium
 competence:
 - Optimized Data Handling
 contactPerson: /person/s.verhoeven
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/s.verhoeven
 - /person/j.borgdorff

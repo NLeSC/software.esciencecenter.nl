@@ -3,6 +3,8 @@ codeRepository: https://github.com/scottleedavis/googleearthtoolbox/
 competence:
 - Big Data Analytics
 contactPerson: /person/j.spaaks
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - name: Scott Lee Davis
   affiliation:

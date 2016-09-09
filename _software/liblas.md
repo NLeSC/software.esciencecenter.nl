@@ -3,6 +3,8 @@ codeRepository: http://www.liblas.org/
 competence:
 - Big Data Analytics
 contactPerson: /person/o.rubi
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/o.rubi
 - /person/r.goncalves

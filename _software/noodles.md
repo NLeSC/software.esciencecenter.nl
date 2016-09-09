@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/noodles
 competence:
 - Efficient Computing
 contactPerson: /person/j.hidding
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.hidding
 - /person/b.weel

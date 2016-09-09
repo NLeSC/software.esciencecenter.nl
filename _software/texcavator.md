@@ -28,6 +28,8 @@ owner:
 - /organization/nlesc
 - /organization/uva
 - /organization/uu
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.vanderzwaan
 - name: Martijn van der Klis

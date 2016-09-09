@@ -3,6 +3,8 @@ codeRepository: https://github.com/potree/potree
 competence:
 - Big Data Analytics
 contactPerson: /person/m.vanmeersbergen
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/m.vanmeersbergen
 - /person/o.rubi

@@ -22,6 +22,8 @@ owner:
   - /organization/uva
   website: http://www.rtwilson.com
 - /organization/nlesc
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - name: Robin Wilson
   affiliation:

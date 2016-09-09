@@ -23,6 +23,8 @@ contactPerson: /person/s.verhoeven
 owner:
 - /organization/nlesc
 - /organization/uva
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/s.verhoeven
 involvedOrganization:

@@ -17,6 +17,8 @@ contactPerson: /person/j.vanderzwaan
 owner:
 - /organization/nlesc
 - /organization/vua
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.vanderzwaan
 user:

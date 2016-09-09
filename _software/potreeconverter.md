@@ -3,6 +3,8 @@ codeRepository: https://github.com/potree/PotreeConverter
 competence:
 - Optimized Data Handling
 contactPerson: /person/o.rubi
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/o.rubi
 discipline:

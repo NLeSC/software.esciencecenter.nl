@@ -24,6 +24,8 @@ contactPerson: /person/l.ridder
 owner:
 - /organization/nlesc
 - /organization/wur
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/l.ridder
 - /person/s.verhoeven

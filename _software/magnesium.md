@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/eSalsa-MPI
 competence:
 - Efficient Computing
 contactPerson: /person/j.maassen
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.maassen
 dependencyOf:

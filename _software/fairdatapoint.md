@@ -27,6 +27,8 @@ contactPerson: /person/a.kuzniar
 owner:
 - /organization/nlesc
 
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/a.kuzniar
 - name: Rajaram Kaliyaperuma

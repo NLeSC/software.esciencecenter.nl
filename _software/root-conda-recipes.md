@@ -26,6 +26,8 @@ supportLevel: specialized
 contactPerson: /person/d.remenska
 owner: 
 - /person/d.remenska
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/d.remenska
 - /person/s.verhoeven

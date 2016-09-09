@@ -23,6 +23,8 @@ expertise:
 - Databases
 supportLevel: specialized
 contactPerson: /person/r.goncalves
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/r.goncalves
 user:

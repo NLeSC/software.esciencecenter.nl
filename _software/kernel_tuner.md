@@ -3,6 +3,8 @@ codeRepository: https://github.com/benvanwerkhoven/kernel_tuner
 competence:
 - Efficient Computing
 contactPerson: /person/b.vanwerkhoven
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/b.vanwerkhoven
 discipline:

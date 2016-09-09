@@ -24,6 +24,8 @@ supportLevel: specialized
 contactPerson: /person/r.vanharen
 owner:
 - /person/r.vanharen
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/r.vanharen
 user:

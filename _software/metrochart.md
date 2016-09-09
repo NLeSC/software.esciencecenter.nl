@@ -3,6 +3,8 @@ codeRepository: https://github.com/jspaaks/metrochart
 competence:
 - Big Data Analytics
 contactPerson: /person/j.spaaks
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.spaaks
 discipline:

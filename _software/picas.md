@@ -3,6 +3,8 @@ codeRepository: https://github.com/sara-nl/picasclient
 competence:
 - Efficient Computing
 contactPerson: /person/j.borgdorff
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.borgdorff
 - affiliation:

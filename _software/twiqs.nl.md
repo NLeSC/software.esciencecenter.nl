@@ -2,6 +2,8 @@
 competence:
 - Big Data Analytics
 contactPerson: /person/e.tjongkimsang
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/e.tjongkimsang
 discipline:

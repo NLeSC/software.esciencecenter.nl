@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/python-pcl
 competence:
 - Big Data Analytics
 contactPerson: /person/j.attema
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.attema
 - /person/l.buitinck

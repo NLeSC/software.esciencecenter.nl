@@ -25,6 +25,8 @@ supportLevel: advanced
 contactPerson: /person/p.bos
 owner:
 - /organization/nlesc
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/p.bos
 - /person/l.buitinck

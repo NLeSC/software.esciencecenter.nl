@@ -3,6 +3,8 @@ codeRepository: https://geoportail.forge.ign.fr/hg/culture3d
 competence:
 - Optimized Data Handling
 contactPerson: /person/o.rubi
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/o.rubi
 discipline:

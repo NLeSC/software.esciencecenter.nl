@@ -22,6 +22,8 @@ owner:
 - /organization/nlesc
 - /organization/radboud.university.nijmegen
 - /organization/vua
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/s.verhoeven
 involvedOrganization:

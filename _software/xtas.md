@@ -4,6 +4,8 @@ competence:
 - Efficient Computing
 - Big Data Analytics
 contactPerson: /person/j.attema
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/l.veen
 discipline:

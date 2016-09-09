@@ -22,6 +22,8 @@ supportLevel: specialized
 contactPerson: /person/e.ranguelova
 owner:
 - /organization/nlesc
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/e.ranguelova
 - /person/d.vankuppevelt

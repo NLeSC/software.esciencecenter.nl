@@ -23,6 +23,8 @@ contactPerson: /person/j.vanderzwaan
 owner:
 - /organization/nlesc
 - /organization/uva
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.vanderzwaan
 user:

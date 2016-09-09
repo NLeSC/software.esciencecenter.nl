@@ -22,6 +22,8 @@ supportLevel: specialized
 contactPerson: /person/j.borgdorff
 owner:
 - /organization/nlesc
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/j.borgdorff
 user:

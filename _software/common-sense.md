@@ -22,6 +22,8 @@ supportLevel: specialized
 contactPerson: /person/c.martinez
 owner:
 - /organization/tno
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/c.martinez
 - /person/b.weel

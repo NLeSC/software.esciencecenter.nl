@@ -3,6 +3,8 @@ codeRepository: https://github.com/NLeSC/pattyvis
 competence:
 - Big Data Analytics
 contactPerson: /person/m.vanmeersbergen
+contributingOrganization:
+- /organization/nlesc
 contributor:
 - /person/p.bos
 - /person/o.rubi
