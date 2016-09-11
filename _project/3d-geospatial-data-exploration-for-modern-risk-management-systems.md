@@ -16,6 +16,7 @@ uses:
 - http://software.esciencecenter.nl/software/monetdb
 - http://software.esciencecenter.nl/software/datavaults
 - http://software.esciencecenter.nl/software/kernel_tuner
+- http://software.esciencecenter.nl/software/liblas
 competence:
 - Optimized Data Handling
 - Big Data Analytics

@@ -17,6 +17,7 @@ dataMagnitude: TB
 dataFormat:
 - JSON
 - XML
+coordinator: http://software.esciencecenter.nl/person/j.attema
 contactPerson: http://software.esciencecenter.nl/person/p.bos
 engineer:
 - http://software.esciencecenter.nl/person/p.bos
@@ -40,4 +41,9 @@ startDate: 2014-09-01
 endDate: 2016-04-01
 ---
 
-Visualizing relations between politics and media during 'Verzuiling' in the Netherlands
+Visualizing relations between politics and media during 'Verzuiling' in the Netherlands. For further information and results see:
+
+- the [NLeSC project site](https://www.esciencecenter.nl/project/pidimehs);
+- the [KB-NIAS fellowship page of Huub Wijfjes](https://www.kb.nl/organisatie/kb-fellowship/huub-wijfjes);
+- [our paper for the HistoInformatics 2016 workshop proceedings](http://ceur-ws.org/Vol-1632/paper_8.pdf);
+- the [newspaper selection and indicator dataset at DANS](http://dx.doi.org/10.17026/dans-xzj-vhgd).

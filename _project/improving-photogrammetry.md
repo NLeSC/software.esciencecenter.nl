@@ -12,6 +12,8 @@ tagLine: Improving Open-Source Photogrammetric Workflows for Processing Big Data
 uses:
 - http://software.esciencecenter.nl/software/micmac
 - http://software.esciencecenter.nl/software/noodles
+- http://software.esciencecenter.nl/software/pycoeman
+- http://software.esciencecenter.nl/software/pymicmac
 ---
 Aerial imagery over urban areas is increasingly being used to provide detailed imagery and 3D models to support many applications such as map updating, urban planning and water management. The size of such photogrammetric projects is increasing rapidly, causing a scramble for hardware with more memory and processing power. A conventional UAV (Unmanned Aerial Vehicle) flight can collect thousands of images and conventional photogrammetric sensors can acquire images of more than 200 Megapixels in size.
 

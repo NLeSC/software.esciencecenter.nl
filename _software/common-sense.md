@@ -4,7 +4,7 @@ tagLine: User-friendly web application for showing (GIS) data on a map.
 codeRepository: https://github.com/TNOCS/csWeb/
 website: https://tnocs.github.io/csWeb/
 documentationUrl: https://github.com/TNOCS/csWeb/wiki/Getting-started
-logo:
+logo: http://software.esciencecenter.nl/images/software/common-sense.png
 programmingLanguage:
 - JavaScript
 - TypeScript
@@ -22,6 +22,8 @@ owner:
 - http://software.esciencecenter.nl/organization/tno
 contributor:
 - http://software.esciencecenter.nl/person/c.martinez
+- http://software.esciencecenter.nl/person/b.weel
+- http://software.esciencecenter.nl/person/j.borgdorff
 - name: Erik Vullings
   githubUrl: https://github.com/erikvullings
   affiliation:
