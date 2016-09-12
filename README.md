@@ -3,20 +3,24 @@
 [![Build Status](https://travis-ci.org/NLeSC/software.esciencecenter.nl.svg?branch=gh-pages)](https://travis-ci.org/NLeSC/software.esciencecenter.nl)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/30fa8eb9a38c44cf85dbfd353b7f4688)](https://www.codacy.com/app/NLeSC/software-esciencecenter-nl)
 
-Data on projects, people and software in eStep.
+Data on software, projects, people, publications and reports in eStep.
+
+## tl;dr
+
+1. Create/update Markdown file(s) in `_software/`, `_person/`, `_project/`, `_publication/`, `_report/` and `_organization/` directories.
+2. Commit & push changes
+3. Create a Pull Request
 
 ## Installation
 
-Requirements:
-
-* libyaml, C library and development headers
-
 Install the estep website utility by running
+
 ```shell
-pip install -r requirements.txt
-pip install -e .
+pyvenv .env3
+. .env3/bin/activate
+pip install -U pip wheel
+pip install -r requirements.txt -e .
 ```
-Use `virtualenv` or equivalent to ensure that a recent version of the `six` library is used.
 
 ## How to edit
 
@@ -28,7 +32,7 @@ Use `virtualenv` or equivalent to ensure that a recent version of the `six` libr
   * The front matter is in yaml format and must adhere to json schemas defined in the `schema/` directory.
   * Use the existing Markdown files as examples.
   * The filename should be lowercase, end with `.md` and contain no url-unfriendly characters (e.g. space, /).
-  * Also create/update the related pages in the the `_person/`, `_software/`, `_project/`, `_publication`, `_report` and `_organization/` directories, e.g. some software is used in a project then write a Markdown file in both the `_software` and `_project` directories. If someone else is responsible for the data in related pages, place a stub there with at least the correct `name`. If it concerns a person, also fill in `affiliation`.
+  * Also create/update the related pages in the the `_software/`, `_person/`, `_project/`, `_publication/`, `_report/` and `_organization/` directories, e.g. some software is used in a project then write a Markdown file in both the `_software` and `_project` directories. If someone else is responsible for the data in related pages, place a stub there with at least the correct `name`. If it concerns a person, also fill in `affiliation`.
   * Many relations are reciprocal, be sure to fill them in for both related objects. For example, when updating software's `user` property, also update that users' `userOf` property. Other examples of reciprocal relations: `organization#involvedIn` vs `project#involvedOrganization`, `software#user` vs `organization#uses`, `software#engineer` vs `person#engineerOf`.
   * For URLs within the site, `http://software.esciencecenter.nl` can be omitted. HTTPS is not supported on this site.
 
@@ -50,7 +54,7 @@ estep validate -v
 ### Generate publication
 
 Publications are stored in the `_publication/` directory.
-A publication Markdown file can be generatated with it's [DOI](http://www.doi.org/) by running:
+A publication Markdown file can be generated with it's [DOI](http://www.doi.org/) by running:
 ```
 estep generate publication http://dx.doi.org/10.1002/cpe.3416
 ```
