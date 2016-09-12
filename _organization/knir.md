@@ -1,9 +1,10 @@
 ---
-name: Koninklijk Nederlands Instituut in Rome
-website: http://www.knir.it/
-tagLine: Koninklijk Nederlands Instituut in Rome
-logo: http://www.knir.it/templates/koninklijknederlandsinstituutrome/images/logo.png
 involvedIn:
-- http://software.esciencecenter.nl/project/hadrianus
+- /project/hadrianus
+- /project/viaappia-patty
+logo: /images/organization/knir.png
+name: Koninklijk Nederlands Instituut in Rome
+tagLine: Koninklijk Nederlands Instituut in Rome
+website: http://www.knir.it/
 ---
 Koninklijk Nederlands Instituut in Rome

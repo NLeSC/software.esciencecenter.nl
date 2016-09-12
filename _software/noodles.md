@@ -1,49 +1,58 @@
 ---
-name: Noodles
-tagLine: Programmable workflow engine for Python.
 codeRepository: https://github.com/NLeSC/noodles
-nlescWebsite: https://www.esciencecenter.nl/technology/software/noodles
-website: http://nlesc.github.io/noodles/
-documentationUrl: http://nlesc.github.io/noodles/sphinxdoc/html/index.html
-logo:
-programmingLanguage:
-- Python
-license:
-- lgpl-3.0
 competence:
 - Efficient Computing
+contactPerson: /person/j.hidding
+contributingOrganization:
+- /organization/nlesc
+contributor:
+- /person/j.hidding
+- /person/b.weel
+- affiliation:
+  - /organization/vua
+  githubUrl: https://github.com/felipeZ
+  name: Felipe Zapata
+dependency:
+- /software/xenon
+- /software/pyxenon
+dependencyOf:
+- /pymicmac
+- /software/pymicmac
 discipline:
 - Life Sciences & eHealth
 - eScience Methodology
+documentationUrl: http://nlesc.github.io/noodles/sphinxdoc/html/index.html
 expertise:
 - Orchestrated Computing
-supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/j.hidding
-owner:
-- http://software.esciencecenter.nl/organization/nlesc
-contributor:
-- http://software.esciencecenter.nl/person/j.hidding
-- http://software.esciencecenter.nl/person/b.weel
-- name: Felipe Zapata
-  githubUrl: https://github.com/felipeZ
-  affiliation:
-    - http://software.esciencecenter.nl/organization/vua
-user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
-usedIn:
-- http://software.esciencecenter.nl/project/computational-chemistry-made-easy
+- /organization/nlesc
+- /organization/vua
+license:
+- lgpl-3.0
+name: Noodles
+nlescWebsite: https://www.esciencecenter.nl/technology/software/noodles
+owner:
+- /organization/nlesc
+programmingLanguage:
+- Python
 startDate: 2015-10-11
 status: active
-dependency:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/pyxenon
-dependencyOf:
+supportLevel: specialized
+tagLine: Programmable workflow engine for Python.
 technologyTag:
 - Workflow
+usedIn:
+- /project/computational-chemistry-made-easy
+- /project/improving-photogrammetry
+user:
+- /organization/nlesc
+- /organization/vua
+- /person/j.hidding
+- /person/o.rubi
+- /person/l.ridder
+website: http://nlesc.github.io/noodles/
 ---
 Noodles is a programmable workflow engine for Python. It can be used to parallelize your code with minimal effort.
 

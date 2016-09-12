@@ -1,10 +1,12 @@
 ---
 name: Common Sense
+endorsedBy:
+- /organization/nlesc
 tagLine: User-friendly web application for showing (GIS) data on a map.
 codeRepository: https://github.com/TNOCS/csWeb/
 website: https://tnocs.github.io/csWeb/
 documentationUrl: https://github.com/TNOCS/csWeb/wiki/Getting-started
-logo:
+logo: /images/software/common-sense.png
 programmingLanguage:
 - JavaScript
 - TypeScript
@@ -17,23 +19,27 @@ discipline:
 expertise:
 - Information Visualization
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/c.martinez
+contactPerson: /person/c.martinez
 owner:
-- http://software.esciencecenter.nl/organization/tno
+- /organization/tno
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/c.martinez
+- /person/c.martinez
+- /person/b.weel
+- /person/j.borgdorff
 - name: Erik Vullings
   githubUrl: https://github.com/erikvullings
   affiliation:
-  - http://software.esciencecenter.nl/organization/tno
+  - /organization/tno
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/tno
+- /organization/nlesc
+- /organization/tno
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/tno
+- /organization/nlesc
+- /organization/tno
 usedIn:
-- http://software.esciencecenter.nl/project/simcity
+- /project/simcity
 startDate: 2014-09-11
 status: active
 dependency:

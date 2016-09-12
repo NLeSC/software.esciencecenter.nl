@@ -1,9 +1,13 @@
 ---
-name: TNO
-website: http://www.tno.nl/
-researchgateUrl: https://www.researchgate.net/institution/TNO
 linkedInUrl: https://www.linkedin.com/company/tno
+logo: /images/organization/tno.jpg
+name: TNO
+ownerOf:
+- /software/common-sense
+researchgateUrl: https://www.researchgate.net/institution/TNO
 tagLine: Nederlandse organisatie voor Toegepast-Natuurwetenschappelijk Onderzoek
-logo: https://www.esciencecenter.nl/img/partners/tno_ifl_zwart.jpg
+userOf:
+- /software/common-sense
+website: http://www.tno.nl/
 ---
 

@@ -1,23 +1,40 @@
 ---
-name: Joris Borgdorff
-githubUrl: https://github.com/blootsvoets
-linkedInUrl: https://www.linkedin.com/in/jorisborgdorff
-nlescWebsite: https://www.esciencecenter.nl/profile/dr.-joris-borgdorff
-website: http://www.jorisborgdorff.nl/
-researchgateUrl: https://www.researchgate.net/profile/Joris_Borgdorff
-twitterUrl: https://twitter.com/bobbyutreg
-jobTitle: eScience Research Engineer
-photo: https://www.esciencecenter.nl/img/team/joris-borgdorff-web.jpg
 affiliation:
 - http://sofware.esciencecenter.nl/organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/pyxenon
+- /software/pyxenon
+- /project/simcity
+- /software/picas
+- /software/couchdb
+- /software/docker-couch-admin
 contributorOf:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/pyxenon
+- /software/xenon
+- /software/pyxenon
+- /software/osmium
+- /software/pattyanalytics
+- /software/python-pcl
+- /software/common-sense
+- /software/picas
+- /software/docker-couch-admin
+email: j.borgdorff@esciencecenter.nl
+engineerOf:
+- /project/simcity
+githubUrl: https://github.com/blootsvoets
+endorsedBy:
+- /organization/nlesc
+jobTitle: eScience Research Engineer
+linkedInUrl: https://www.linkedin.com/in/jorisborgdorff
+name: Joris Borgdorff
+nlescWebsite: https://www.esciencecenter.nl/profile/dr.-joris-borgdorff
+photo: /images/person/j.borgdorff.jpg
+researchgateUrl: https://www.researchgate.net/profile/Joris_Borgdorff
+twitterUrl: https://twitter.com/bobbyutreg
 userOf:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/pyxenon
+- /software/xenon
+- /software/pyxenon
+- /software/picas
+- /software/couchdb
+website: http://www.jorisborgdorff.nl/
 ---
 Joris studied mathematics and computer science at Utrecht University. He did his PhD on distributed multiscale computing at the University of Amsterdam in the Computational Science Lab. His thesis ranges from multiscale modeling methodology to the performance of distributed multiscale simulations; its application ranges from biomedical research to the simulation of fusion plasma physics. It also resulted in the public domain distributed multiscale simulation runtime environment MUSCLE 2. Because the research was embedded in the European MAPPER project, the formalisms and software found uptake in several application domains and grid middleware.
 

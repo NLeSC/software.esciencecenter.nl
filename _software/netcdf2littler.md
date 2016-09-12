@@ -1,5 +1,7 @@
 ---
 name: NetCDF2LittleR
+endorsedBy:
+- /organization/nlesc
 tagLine: A fortran application to convert NetCDF files to the Little-R format.
 codeRepository: https://github.com/rvanharen/netcdf2littler
 downloadUrl: https://github.com/rvanharen/netcdf2littler/releases
@@ -7,7 +9,7 @@ programmingLanguage:
 - FORTRAN
 license:
 - apache-2.0
-- extended bsd-3-clause (custom)
+- bsd-3-clause (custom extension)
 competence:
 - Big Data Analytics
 discipline:
@@ -16,18 +18,20 @@ discipline:
 expertise:
 - 'Data Assimilation'
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/r.vanharen
+contactPerson: /person/r.vanharen
 owner:
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/r.vanharen
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/r.vanharen
 user:
-- http://software.esciencecenter.nl/person/r.vanharen
-- http://software.esciencecenter.nl/organization/wur
+- /person/r.vanharen
+- /organization/wur
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 usedIn:
-- http://software.esciencecenter.nl/project/ERA-URBAN
+- /project/era-urban
 startDate: 2015-6-17
 status: wip
 dependency:

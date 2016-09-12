@@ -1,5 +1,7 @@
 ---
 name: WRFpy
+endorsedBy:
+- /organization/nlesc
 tagLine: Python workflow application to set up/run WRF simulations (optionally including data assimilation).
 codeRepository: https://github.com/rvanharen/wrfpy
 downloadUrl: https://github.com/rvanharen/wrfpy/releases
@@ -19,22 +21,24 @@ expertise:
 - 'High Performance Computing'
 - 'Databases'
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/r.vanharen
+contactPerson: /person/r.vanharen
 owner:
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/r.vanharen
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/r.vanharen
 user:
-- http://software.esciencecenter.nl/person/r.vanharen
-- http://software.esciencecenter.nl/organization/wur
+- /person/r.vanharen
+- /organization/wur
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 usedIn:
-- http://software.esciencecenter.nl/project/ERA-URBAN
+- /project/era-urban
 startDate: 2015-10-15
 status: wip
 dependency:
-- http://software.esciencecenter.nl/software/pyxenon
+- /software/pyxenon
 - f90nml
 - WRF
 - WRFDA

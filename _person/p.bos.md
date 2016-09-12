@@ -1,23 +1,32 @@
 ---
+affiliation:
+- /organization/nlesc
+contactPersonOf:
+- /project/hadrianus
+- /project/pidimehs
+- /project/automated-parallel-calculation-of-collaborative-statistical-models
+- /software/pidilib
+contributorOf:
+- /software/pattyvis
+- /software/cptm
+- /software/pidilib
+email: p.bos@esciencecenter.nl
+engineerOf:
+- /project/pidimehs
+- /project/hadrianus
+- /project/automated-parallel-calculation-of-collaborative-statistical-models
+githubUrl: https://github.com/egpbos
+endorsedBy:
+- /organization/nlesc
+jobTitle: eScience Research Engineer
+linkedInUrl: https://www.linkedin.com/in/egpbos
 name: Patrick Bos
 nlescWebsite: https://www.esciencecenter.nl/profile/patrick-bos-msc
-githubUrl: https://github.com/egpbos
-linkedInUrl: https://www.linkedin.com/in/egpbos
-website: http://egpbos.nl
+photo: /images/person/p.bos.jpg
 researchgateUrl: https://www.researchgate.net/profile/E_G_Patrick_Bos
-jobTitle: eScience Research Engineer
-affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
-photo: https://www.esciencecenter.nl/img/team/patrick-bos-new.jpg
-contributorOf:
-- http://software.esciencecenter.nl/software/pattyvis
-- http://software.esciencecenter.nl/software/cptm
 userOf:
-- http://software.esciencecenter.nl/software/xtas
-engineerOf:
-- http://software.esciencecenter.nl/project/pidimehs
-- http://software.esciencecenter.nl/project/hadrianus
-- http://software.esciencecenter.nl/project/automated-parallel-calculation-of-collaborative-statistical-models
+- /software/xtas
+website: http://egpbos.nl
 ---
 Patrick has studied astronomy and philosophy and is finishing his PhD in cosmology at the Kapteyn Astronomical Institute of the University of Groningen. Patrick has worked on theoretical and observational problems in cosmology and extragalactic astronomy and has always taken a strongly computational approach.
 

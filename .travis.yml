@@ -1,14 +1,26 @@
 language: python
+sudo: required
+services:
+  - docker
+cache:
+  pip: true
+  directories:
+    - .cache/resolve
 branches:
   only:
     - gh-pages
     - /^.*$/
 install:
   - pip install -e .
+  - pip install nose
 script:
-  - if [ $TRAVIS_BRANCH == "gh-pages" ] || [ $TRAVIS_PULL_REQUEST ]; then
+  - nosetests
+  # Always test whether the code is internally consistent
+  - estep validate -v --local;
+  # according to https://docs.travis-ci.com/user/environment-variables/, the following
+  # will build for gh-pages and pull requests to gh-pages. In that case, make sure the
+  # links and schemas are also externally valid
+  - if [ $TRAVIS_BRANCH == "gh-pages" ]; then
     estep validate -v --resolve;
-    else
-    estep validate -v;
     fi
-
+  - docker run --rm --volume=$(pwd):/srv/jekyll jekyll/jekyll:pages jekyll build
