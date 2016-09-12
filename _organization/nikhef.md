@@ -7,6 +7,12 @@ name: NIKHEF
 tagLine: National Institute for Subatomic Physics
 userOf:
 - /software/root-conda-recipes
+- /software/root
+- /software/pyroot
+- /software/gaudi
+- /software/mcatnlo
+- /software/roofit
+- /software/paxer
 website: http://www.nikhef.nl/
 ---
 NIKHEF

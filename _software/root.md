@@ -15,6 +15,8 @@ user:
 - /organization/nikhef
 involvedOrganization:
 - /organization/nikhef
+usedIn:
+- /project/pandas-root
 ---
 A modular scientific software framework. It provides all the functionalities needed to deal with big data processing, statistical analysis, visualisation and storage. It is mainly written in C++ but integrated with other languages such as Python and R.
 
