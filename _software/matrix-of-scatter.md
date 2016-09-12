@@ -2,9 +2,11 @@
 codeRepository: https://github.com/jspaaks/matrix-of-scatter
 competence:
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/j.spaaks
+contactPerson: /person/j.spaaks
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.spaaks
+- /person/j.spaaks
 dependency:
 - https://plot.ly/python/
 - https://www.python.org/
@@ -15,12 +17,14 @@ expertise:
 - Information Visualization
 - Scientific Visualization
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - apache-2.0
 name: Matrix of scatter
+endorsedBy:
+- /organization/nlesc
 owner:
-- http://software.esciencecenter.nl/person/j.spaaks
+- /person/j.spaaks
 programmingLanguage:
 - Python3
 startDate: 2016-03-16
@@ -36,9 +40,9 @@ technologyTag:
 - multi-dimensional
 - Plotly
 usedIn:
-- http://software.esciencecenter.nl/project/sherlock
+- /project/sherlock
 user:
-- http://software.esciencecenter.nl/person/j.spaaks
+- /person/j.spaaks
 website: https://github.com/jspaaks/matrix-of-scatter
 ---
 Visualization of multi-dimensional data using a matrix of linked scatter plots

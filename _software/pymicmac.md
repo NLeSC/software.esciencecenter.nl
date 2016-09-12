@@ -2,12 +2,14 @@
 codeRepository: https://github.com/ImproPhoto/pymicmac
 competence:
 - Optimized Data Handling
-contactPerson: http://software.esciencecenter.nl/person/o.rubi
+contactPerson: /person/o.rubi
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/o.rubi
+- /person/o.rubi
 dependency:
-- http://software.esciencecenter.nl/software/pycoeman
-- http://software.esciencecenter.nl/software/noodles
+- /software/pycoeman
+- /software/noodles
 dependencyOf:
 discipline:
 - eScience Methodology
@@ -15,12 +17,12 @@ downloadUrl: https://github.com/ImproPhoto/pymicmac
 expertise:
 - Distributed Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - apache-2.0
 name: pymicmac
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 programmingLanguage:
 - Python
 startDate: 2016-05-03
@@ -33,9 +35,9 @@ technologyTag:
 - Library
 - Point clouds
 usedIn:
-- http://software.esciencecenter.nl/project/improving-photogrammetry
+- /project/improving-photogrammetry
 user:
-- http://software.esciencecenter.nl/person/o.rubi
+- /person/o.rubi
 ---
 pymicmac provides a python interface for MicMac workflows execution and distributed computing tools for MicMac. pymicmac uses pycoeman (Python Commands Execution Manager) (https://github.com/NLeSC/pycoeman) which also provides CPU/MEM/disk monitoring.
 

@@ -1,12 +1,12 @@
 ---
-name: ASTRON
-website: http://www.astron.nl/
-tagLine: Netherlands Institute for Radio Astronomy
-logo: http://www.astron.nl/sites/astron.nl/files/logo.gif
 involvedIn:
-- http://software.esciencecenter.nl/project/beyond-the-data-explosion
-- http://software.esciencecenter.nl/project/error-detection-and-error-localization
-- http://software.esciencecenter.nl/project/aa-alert
+- /project/beyond-the-data-explosion
+- /project/error-detection-and-error-localization
+- /project/aa-alert
+logo: /images/organization/astron.gif
+name: ASTRON
+tagLine: Netherlands Institute for Radio Astronomy
+website: http://www.astron.nl/
 ---
 ASTRON is the Netherlands Institute for Radio Astronomy. Its mission
 is to make discoveries in radio astronomy happen, via the development

@@ -1,5 +1,7 @@
 ---
 name: Historic Embodied Emotions Model (HEEM) dataset
+endorsedBy:
+- /organization/nlesc
 tagLine: 279 17th and 18th century Dutch theater texts with HEEM labels
 doi: http://dx.doi.org/10.5281/zenodo.47751
 license:
@@ -11,20 +13,22 @@ discipline:
 expertise:
 - Text Mining
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/vua
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/j.vanderzwaan
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/vua
 usedIn:
-- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
-- http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
+- /project/from-sentiment-mining-to-mining-embodied-emotions
+- /project/visualizing-uncertainty-and-perspectives
 startDate: 2016-03-17
 status: inactive
 technologyTag:

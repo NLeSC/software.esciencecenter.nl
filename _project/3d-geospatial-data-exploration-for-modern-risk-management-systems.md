@@ -1,32 +1,8 @@
 ---
-name: 3D Geospatial Data Exploration for Modern Risk Management Systems
-tagLine: 'COMMIT valorization project: 3D geospatial data exploration for modern risk management systems'
-contactPerson: http://software.esciencecenter.nl/person/r.goncalves
-logo: http://www.esciencecenter.nl/img/projects/p054-large.jpg
-engineer:
-- http://software.esciencecenter.nl/person/r.goncalves
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/commit
-- http://software.esciencecenter.nl/organization/monetdb
-- http://software.esciencecenter.nl/organization/deltares
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/geodan
-- http://software.esciencecenter.nl/organization/fugro
-uses:
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/datavaults
-- http://software.esciencecenter.nl/software/kernel_tuner
-- http://software.esciencecenter.nl/software/liblas
 competence:
 - Optimized Data Handling
 - Big Data Analytics
-discipline:
-- eScience Methodology
-expertise:
-- Information Visualization
-- Information Integration
-- Databases
-dataMagnitude: TB
+contactPerson: /person/r.goncalves
 dataFormat:
 - LAS
 - LAZ
@@ -34,6 +10,33 @@ dataFormat:
 - NetCDF
 - GeoJSON
 - Shapefiles
+dataMagnitude: TB
+discipline:
+- eScience Methodology
+engineer:
+- /person/r.goncalves
+expertise:
+- Information Visualization
+- Information Integration
+- Databases
+endorsedBy:
+- /organization/nlesc
+involvedOrganization:
+- /organization/commit
+- /organization/monetdb
+- /organization/deltares
+- /organization/cwi
+- /organization/geodan
+- /organization/fugro
+logo: /images/project/3d-geospatial-data-exploration-for-modern-risk-management-systems.jpg
+name: 3D Geospatial Data Exploration for Modern Risk Management Systems
+tagLine: 'COMMIT valorization project: 3D geospatial data exploration for modern risk
+  management systems'
+uses:
+- /software/monetdb
+- /software/datavaults
+- /software/kernel_tuner
+- /software/liblas
 ---
 55% of The Netherlands is below sea level. This area contains 60% of the population and generates 65% of the Gross National Product. Obviously, The Netherlands requires efficient risk and water management.
 

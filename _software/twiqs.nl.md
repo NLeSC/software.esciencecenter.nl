@@ -1,24 +1,28 @@
 ---
 competence:
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/e.tjongkimsang
+contactPerson: /person/e.tjongkimsang
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/e.tjongkimsang
+- /person/e.tjongkimsang
 discipline:
 - Humanities & Social Sciences
 expertise:
 - Text Mining
 - Information Retrieval
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/surfsara
+- /organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/surfsara
 name: twiqs.nl
+endorsedBy:
+- /organization/nlesc
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/surfsara
-- http://software.esciencecenter.nl/person/e.tjongkimsang
+- /organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/surfsara
+- /person/e.tjongkimsang
 programmingLanguage:
 - Perl
 - Java
@@ -33,7 +37,7 @@ technologyTag:
 - Twitter
 - Website
 usedIn:
-- http://software.esciencecenter.nl/project/twinl
+- /project/twinl
 website: http://twiqs.nl/
 ---
 twiqs.nl provides researchers and students the opportunity to search through Dutch tweets. You can look up words and find out where, when and how often they are used, by whom and with what other words they frequently occur together.

@@ -1,33 +1,33 @@
 ---
-name: What Works When for Whom?
-tagLine: Advancing therapy change process research
-nlescWebsite: https://www.esciencecenter.nl/project/what-works-when-for-whom
-logo: http://www.esciencecenter.nl/img/projects/p66-large.jpg
 competence:
-  - Big Data Analytics
-discipline:
-  - Life Sciences & eHealth
-expertise:
-  - Text Mining
-  - Information Visualization
-infrastructure:
-dataMagnitude: MB
+- Big Data Analytics
+contactPerson: /person/j.vanderzwaan
 dataFormat:
 - XML
 - JSON
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+dataMagnitude: MB
+discipline:
+- Life Sciences & eHealth
 engineer:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
-principalInvestigator:
-  - name: Dr. Anneke Sools
-    affiliation:
-    - http://software.esciencecenter.nl/organization/utwente
-    website: https://www.utwente.nl/bms/pgt/en/emp/sools/
+- /person/j.vanderzwaan
+expertise:
+- Text Mining
+- Information Visualization
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/utwente
-uses:
+- /organization/nlesc
+- /organization/utwente
+logo: /images/project/what-works-when-for-whom.jpg
+name: What Works When for Whom?
+nlescWebsite: https://www.esciencecenter.nl/project/what-works-when-for-whom
+principalInvestigator:
+- affiliation:
+  - /organization/utwente
+  name: Dr. Anneke Sools
+  website: https://www.utwente.nl/bms/pgt/en/emp/sools/
 startDate: 2016-06-01
+tagLine: Advancing therapy change process research
 ---
 Mental illnesses, like depression and anxiety, are among the leading causes of the global burden of disease. E-mental health (EMH) interventions, such as web-based psychotherapy treatments, are increasingly used to improve access to psychotherapy for a wider audience. Whereas different EMH interventions tend to be equally effective, the responsiveness to a specific treatment shows large individual differences. The personalization of treatments is seen as the major road for improvement.
 

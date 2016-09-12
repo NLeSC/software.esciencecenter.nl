@@ -1,35 +1,29 @@
 ---
 codeRepository: https://www.monetdb.org/Downloads
-website: http://www.monetdb.org/
-website: https://github.com/MonetDB
-website: https://en.wikipedia.org/wiki/MonetDB
-nlescWebsite: 
-documentationUrl: https://www.monetdb.org/Documentation
-downloadUrl: https://www.monetdb.org/Downloads
-doi: 
-logo: http://dev.monetdb.org/imgs/monetdb-final-500.png
-programmingLanguage:
-- C
 competence:
 - Optimized Data Handling
-contactPerson: http://software.esciencecenter.nl/person/r.goncalves
+contactPerson: /person/r.goncalves
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/r.goncalves
-- http://software.esciencecenter.nl/person/v.hees
+- /person/r.goncalves
+- /person/v.hees
 dependency:
-- http://software.esciencecenter.nl/software/datavaults
+- /software/datavaults
 discipline:
 - eScience Methodology
 documentationUrl: https://www.monetdb.org/Documentation
 downloadUrl: https://www.monetdb.org/Downloads
 expertise:
 - Databases
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/monetdb
+- /organization/cwi
+- /organization/monetdb
 license:
 - mpl-2.0
-logo: http://dev.monetdb.org/imgs/monetdb-final-500.png
+logo: /images/software/monetdb.png
 name: MonetDB
 programmingLanguage:
 - C
@@ -43,14 +37,14 @@ technologyTag:
 - DBMS
 - Scientific Databases
 usedIn:
-- http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
-- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-- http://software.esciencecenter.nl/project/compressing-the-sky-into-a-large-collection-of-statistical-models
+- /project/big-data-analytics-in-the-geo-spatial-domain
+- /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- /project/massive-point-clouds-for-esciences
+- /project/compressing-the-sky-into-a-large-collection-of-statistical-models
 user:
-- http://software.esciencecenter.nl/person/r.goncalves
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/v.hees
+- /person/r.goncalves
+- /person/o.rubi
+- /person/v.hees
 website: https://en.wikipedia.org/wiki/MonetDB
 ---
 MonetDB is an open source column-oriented database management system developed

@@ -1,9 +1,13 @@
 ---
 codeRepository: https://github.com/eWaterCycle/eWaterleaf
-contactPerson: http://software.esciencecenter.nl/person/n.drost
+contactPerson: /person/n.drost
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/n.drost
+- /person/n.drost
 name: eWaterLeaf
+endorsedBy:
+- /organization/nlesc
 tagLine: Web-based visualization for the eWaterCycle project
 license:
 - apache-2.0
@@ -20,9 +24,9 @@ technologyTag:
 supportLevel: basic
 status: inactive
 startDate: 2014-06-06
-contactPerson: http://software.esciencecenter.nl/person/n.drost
+contactPerson: /person/n.drost
 owner: 
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 ---
 eWaterLeaf is a simple web-based visualization for the eWaterCycle project. It relies heavily on the Leaflet Javascript library, and ncWMS Web Map Service implementation.
 

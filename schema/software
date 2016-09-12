@@ -22,7 +22,7 @@
 			"type" : "string"
 		},
 		"@id" : {
-			"description" : "ID of the software. This is preferably an URI where the software's metadata can be resolved, e.g., http://software.esciencecenter.nl/software/xenon.",
+			"description" : "ID of the software. This is preferably an URI where the software's metadata can be resolved, e.g., /software/xenon.",
 			"type" : "string",
 			"format" : "uri"
 		},
@@ -113,11 +113,20 @@
 			"anyOf" : [
 				 { "$ref": "person" },
 				 {
-					"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+					"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., /person/s.verhoeven.",
 					"type" : "string",
 					"format" : "uri"
 				 }
 			]
+		},
+		"endorsedBy" : {
+			"description": "Organizations that endorse this entry, e.g. software made by, owned by, or used by the this organization; Used for grouping items on the website per organization.",
+			"type": "array",
+			"items": {
+				"description" : "ID of the organization. This is preferably an URI where the organization's metadata can be resolved, e.g., /organization/nlesc",
+				"type" : "string",
+				"format" : "uri"
+			}
 		},
 		"owner" : {
 			"description": "Entity that is the copyright holder of the software (usually NLeSC and project partners).",
@@ -127,7 +136,7 @@
 					 { "$ref": "person" },
 					 { "$ref": "organization" },
 					 {
-						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., /person/s.verhoeven.",
 						"type" : "string",
 						"format" : "uri"
 					 }
@@ -141,11 +150,20 @@
 				"anyOf" : [
 					 { "$ref": "person" },
 					 {
-						"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"description" : "ID of the person. This is preferably an URI where the person's metadata can be resolved, e.g., /person/s.verhoeven.",
 						"type" : "string",
 						"format" : "uri"
 					 }
 				]
+			}
+		},
+		"contributingOrganization" : {
+			"description": "Organizations that have contributed to this entry, e.g. software made by, or contributed to (either financially or otherwise) by this organisation; Used for grouping items on the website per organization.",
+			"type": "array",
+			"items": {
+				"description" : "ID of the organization. This is preferably an URI where the organization's metadata can be resolved, e.g., /organization/nlesc",
+				"type" : "string",
+				"format" : "uri"
 			}
 		},
 		"user" : {
@@ -156,7 +174,7 @@
 					 { "$ref": "person" },
 					 { "$ref": "organization" },
 					 {
-						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., http://software.esciencecenter.nl/person/s.verhoeven.",
+						"description" : "ID of the person or organization. This is preferably an URI where the person's or organization's metadata can be resolved, e.g., /person/s.verhoeven.",
 						"type" : "string",
 						"format" : "uri"
 					 }
@@ -170,7 +188,7 @@
 				"anyOf" : [
 					 { "$ref": "organization" },
 					 {
-						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
+						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., /project/emetabolomics.",
 						"type" : "string",
 						"format" : "uri"
 					 }
@@ -184,7 +202,7 @@
 				"anyOf" : [
 					 { "$ref": "project" },
 					 {
-						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., http://software.esciencecenter.nl/project/emetabolomics.",
+						"description" : "ID of the project. This is preferably an URI where the project's metadata can be resolved, e.g., /project/emetabolomics.",
 						"type" : "string",
 						"format" : "uri"
 					 }
@@ -205,7 +223,7 @@
 			"description": "Dependencies to run or compile the current software.",
 			"type" : "array",
 			"items" : {
-				"description" : "e.g. internal software as URI (http://software.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc.",
+				"description" : "e.g. internal software as URI (/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc.",
 				"type" : "string"
 			}
 		},
@@ -213,7 +231,7 @@
 			"description": "Other software that this software is a dependency of.",
 			"type" : "array",
 			"items" : {
-				"description" : "e.g. internal software as URI (http://software.esciencecenter.nl/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc.",
+				"description" : "e.g. internal software as URI (/software/xenon) or external software package name (D3, Elasticsearch, AngularJS, Spark, Hadoop), etc.",
 				"type" : "string"
 			}
 		},
@@ -223,6 +241,14 @@
 			"items" : {
 					"description" : "e.g. Simulation, Modeling, MultiModel, ImageClassification, NER, NeuralNetworks, etc.",
 					"type" : "string"
+			}
+		},
+		"badges": {
+			"description": "List of badges",
+			"type": "array",
+			"items": {
+				"description": "Single badge",
+				"type": "string"
 			}
 		}
 	},

@@ -2,19 +2,21 @@
 codeRepository: https://github.com/NLeSC/Xenon
 competence:
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/j.maassen
+contactPerson: /person/j.maassen
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.maassen
-- http://software.esciencecenter.nl/person/s.verhoeven
-- http://software.esciencecenter.nl/person/n.drost
-- http://software.esciencecenter.nl/person/r.vannieuwpoort
-- http://software.esciencecenter.nl/person/j.borgdorff
-- http://software.esciencecenter.nl/person/c.meijer
-- http://software.esciencecenter.nl/person/b.vanwerkhoven
+- /person/j.maassen
+- /person/s.verhoeven
+- /person/n.drost
+- /person/r.vannieuwpoort
+- /person/j.borgdorff
+- /person/c.meijer
+- /person/b.vanwerkhoven
 dependencyOf:
-- http://software.esciencecenter.nl/software/noodles
-- http://software.esciencecenter.nl/software/pyxenon
-- http://software.esciencecenter.nl/software/osmium
+- /software/noodles
+- /software/pyxenon
+- /software/osmium
 discipline:
 - Physics & Beyond
 - eScience Methodology
@@ -23,16 +25,18 @@ doi: http://dx.doi.org/10.5281/zenodo.35415
 downloadUrl: https://bintray.com/nlesc/xenon/xenon/view
 expertise:
 - Distributed Computing
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - apache-2.0
-logo: http://nlesc.github.io/Xenon/images/NLeSC_Xenon_logo.png
+logo: /images/software/xenon.png
 name: Xenon
 nlescWebsite: https://www.esciencecenter.nl/technology/software/xenon
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/j.maassen
+- /organization/nlesc
+- /person/j.maassen
 programmingLanguage:
 - Java
 startDate: 2013-04-12
@@ -44,23 +48,23 @@ technologyTag:
 - Distributed
 - Library
 usedIn:
-- http://software.esciencecenter.nl/project/emetabolomics
-- http://software.esciencecenter.nl/project/simcity
-- http://software.esciencecenter.nl/project/viaappia-patty
-- http://software.esciencecenter.nl/project/esalsa
-- http://software.esciencecenter.nl/project/amuse
-- http://software.esciencecenter.nl/project/abcmuse
-- http://software.esciencecenter.nl/project/biomarker
-- http://software.esciencecenter.nl/project/computational-chemistry-made-easy
-- http://software.esciencecenter.nl/project/large-scale-data-assimilation
+- /project/emetabolomics
+- /project/simcity
+- /project/viaappia-patty
+- /project/esalsa
+- /project/amuse
+- /project/abcmuse
+- /project/biomarker
+- /project/computational-chemistry-made-easy
+- /project/large-scale-data-assimilation
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/j.maassen
-- http://software.esciencecenter.nl/person/n.drost
-- http://software.esciencecenter.nl/person/s.verhoeven
-- http://software.esciencecenter.nl/person/j.borgdorff
-- http://software.esciencecenter.nl/person/b.vanwerkhoven
-- http://software.esciencecenter.nl/person/r.vannieuwpoort
+- /organization/nlesc
+- /person/j.maassen
+- /person/n.drost
+- /person/s.verhoeven
+- /person/j.borgdorff
+- /person/b.vanwerkhoven
+- /person/r.vannieuwpoort
 website: http://nlesc.github.io/Xenon/
 ---
 Xenon is a middleware abstraction library. It provides a simple

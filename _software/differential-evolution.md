@@ -2,9 +2,11 @@
 codeRepository: https://github.com/NLeSC/DifferentialEvolution
 competence:
 - Big Data Analytics
-contactPerson: http://software.esciencecenter.nl/person/j.spaaks
+contactPerson: /person/j.spaaks
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.spaaks
+- /person/j.spaaks
 dependency:
 - JFreeChart
 - D3
@@ -16,13 +18,15 @@ expertise:
 - Scientific Visualization
 - Machine Learning
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - apache-2.0
 name: Differential Evolution
+endorsedBy:
+- /organization/nlesc
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/j.spaaks
+- /organization/nlesc
+- /person/j.spaaks
 programmingLanguage:
 - Java
 - JavaScript
@@ -38,8 +42,8 @@ technologyTag:
 - Calibration
 usedIn:
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/j.spaaks
+- /organization/nlesc
+- /person/j.spaaks
 website: https://github.com/NLeSC/DifferentialEvolution
 ---
 Java implementation of the Differential Evolution algorithm by Storn & Price.
