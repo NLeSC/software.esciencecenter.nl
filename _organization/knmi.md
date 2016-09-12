@@ -1,6 +1,6 @@
 ---
-involvedIn:
-- /project/primavera
+#involvedIn:
+#- /project/primavera
 logo: /images/organization/knmi.png
 name: KNMI
 tagLine: Koninklijk Nederlands Meteorologisch Instituut
