@@ -8,5 +8,6 @@ tagLine: National Institute for Subatomic Physics
 userOf:
 - /software/root-conda-recipes
 website: http://www.nikhef.nl/
+description: Nikhef is the National Institute for Subatomic Physics. Our research is aimed at particle and astroparticle physics.
 ---
 NIKHEF

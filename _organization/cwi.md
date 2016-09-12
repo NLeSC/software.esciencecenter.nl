@@ -9,5 +9,6 @@ logo: /images/organization/cwi.png
 name: CWI
 tagLine: Centrum Wiskunde & Informatica
 website: http://www.cwi.nl/
+description: CWI is the national research institute for mathematics and computer science in the Netherlands and is an institute of the Netherlands Organisation for Scientific Research (NWO). The institute was founded in 1946 and is located at Amsterdam Science Park.
 ---
 CWI
