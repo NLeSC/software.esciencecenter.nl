@@ -1,5 +1,6 @@
 ---
 name: Langident
+tagLine: This is a language guesser for 17th century German, English, French, Latin and Dutch.
 endorsedBy:
 - /organization/huygens
 codeRepository: https://github.com/HuygensING/langident

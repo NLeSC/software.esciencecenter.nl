@@ -1,5 +1,6 @@
 ---
 name: Timbuctoo
+tagLine: Data management for historical interpretative research.
 endorsedBy:
 - /organization/huygens
 codeRepository: https://github.com/HuygensING/timbuctoo
