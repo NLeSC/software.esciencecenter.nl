@@ -1,4 +1,5 @@
 ---
+name: PyCRTools
 contributingOrganization:
 - /organization/astron
 - /organization/radboud.university.nijmegen

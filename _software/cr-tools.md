@@ -1,4 +1,5 @@
 ---
+name: CR-Tools
 contactPerson: /person/l.bähren
 contributingOrganization:
 - /organization/astron
