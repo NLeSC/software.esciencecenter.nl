@@ -18,7 +18,7 @@
 			"type" : "string"
 		},
 		"description" : {
-			"description": "Full description of the software.",
+			"description": "Full description of the software, in Markdown format underneath Frontmatter (---) in Markdown files",
 			"type" : "string"
 		},
 		"@id" : {

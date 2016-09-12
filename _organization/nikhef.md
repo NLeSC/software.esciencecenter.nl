@@ -9,4 +9,4 @@ userOf:
 - /software/root-conda-recipes
 website: http://www.nikhef.nl/
 ---
-NIKHEF
+Nikhef is the National Institute for Subatomic Physics. Our research is aimed at particle and astroparticle physics.
