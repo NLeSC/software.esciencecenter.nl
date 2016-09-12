@@ -14,13 +14,13 @@ dataMagnitude: TB
 discipline:
 - Life Sciences & eHealth
 endDate: 2014-10-01
+endorsedBy:
+- /organization/nlesc
 engineer:
 - /person/s.verhoeven
 expertise:
 - High Performance Computing
 - Scientific Visualization
-endorsedBy:
-- /organization/nlesc
 infrastructure: Cloud
 involvedOrganization:
 - /organization/nlesc
@@ -40,6 +40,7 @@ uses:
 - /software/osmium
 - /software/xenon
 - /software/magma
+- /software/rdkit
 website: http://www.emetabolomics.org
 ---
 The eMetabolomics project is funded by the Netherlands eScience Center and is carried out at Wageningen University and the Netherlands eScience Center in collaboration with the Netherlands Metabolomics Centre. The project develops chemo-informatics based methods for metabolite identification and biochemical network reconstruction in an integrative metabolomics data analysis workflow.

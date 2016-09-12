@@ -1,50 +1,51 @@
 ---
-name: MAGMa
-endorsedBy:
-- /organization/nlesc
-tagLine: MAGMa is an online application for the automatic chemical annotation of accurate multistage MSn spectral data.
-codeRepository: https://github.com/NLeSC/MAGMa
-website: http://www.emetabolomics.org/magma
 codeRepository: https://github.com/NLeSC/Osmium
-programmingLanguage:
-- Python
-- JavaScript
-license:
-- apache-2.0
 competence:
 - Big Data Analytics
 - Efficient Computing
-discipline:
-- Life Sciences & eHealth
-expertise:
-- High Performance Computing
-- Scientific Visualization
-supportLevel: specialized
 contactPerson: /person/l.ridder
-owner:
-- /organization/nlesc
-- /organization/wur
 contributingOrganization:
 - /organization/nlesc
 contributor:
 - /person/l.ridder
 - /person/s.verhoeven
 - /person/m.sanders
-user:
-- /person/l.ridder
-- /person/m.sanders
+dependency:
+- /software/osmium
+- /software/rdkit
+discipline:
+- Life Sciences & eHealth
+endorsedBy:
+- /organization/nlesc
+expertise:
+- High Performance Computing
+- Scientific Visualization
 involvedOrganization:
 - /organization/nlesc
 - /organization/wur
-usedIn:
-- /project/emetabolomics
+license:
+- apache-2.0
+name: MAGMa
+owner:
+- /organization/nlesc
+- /organization/wur
+programmingLanguage:
+- Python
+- JavaScript
 startDate: 2011-05-10
 status: active
-dependency:
-- /software/osmium
+supportLevel: specialized
+tagLine: MAGMa is an online application for the automatic chemical annotation of accurate
+  multistage MSn spectral data.
 technologyTag:
 - Distributed
 - Webservice
+usedIn:
+- /project/emetabolomics
+user:
+- /person/l.ridder
+- /person/m.sanders
+website: http://www.emetabolomics.org/magma
 ---
 MAGMa is an online application for the automatic chemical annotation of accurate multistage MSn spectral data.
 

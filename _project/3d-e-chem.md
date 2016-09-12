@@ -12,13 +12,13 @@ dataMagnitude: GB
 discipline:
 - Life Sciences & eHealth
 endDate: 2018-10-01
+endorsedBy:
+- /organization/nlesc
 engineer:
 - /person/s.verhoeven
 expertise:
 - Information Integration
 - Reproducible Research
-endorsedBy:
-- /organization/nlesc
 infrastructure: Virtual Machine
 involvedOrganization:
 - /organization/nlesc
@@ -39,6 +39,7 @@ uses:
 - /software/3d-e-chem-vm
 - /software/knime-archetype
 - /software/chemical-analytics-platform
+- /software/rdkit
 website: https://3d-e-chem.github.io/
 ---
 The 3D-e-Chem project will develop technologies to improve the integration of ligand and protein data for structure-based prediction of protein-ligand selectivity and polypharmacology.
