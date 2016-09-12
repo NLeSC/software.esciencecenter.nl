@@ -20,7 +20,7 @@ nlescWebsite: https://www.esciencecenter.nl/project/arena
 principalInvestigator:
 - affiliation:
   - /organization/uva
-  name: Dr. Sander Klaus
+  name: Dr. Sander Klous
   website: https://nl.linkedin.com/in/sanderklous
 startDate: 2015-09-01
 tagLine: Detecting anomalous behaviour in stadium crowds using Wi-Fi positioning
