@@ -4,10 +4,7 @@ tagLine: A Software Architecture and Framework for building HEP Data Processing 
 programmingLanguage:
 - C++
 discipline:
-- Physics & Beyond
-expertise:
 - eScience Methodology
-supportLevel: specialized
 contributingOrganization:
 - /organization/nikhef
 user:

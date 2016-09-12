@@ -2,7 +2,7 @@
 name: MCatNLO
 tagLine: MC@NLO implements the eponymous scheme for combining a Monte Carlo event generator with Next-to-Leading-Order calculations of rates for QCD processes.
 programmingLanguage:
-- Fortran
+- FORTRAN
 discipline:
 - Physics & Beyond
 expertise:
