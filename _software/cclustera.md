@@ -6,6 +6,8 @@ tagLine: A 3D web tool for interactive visualization of hierarchically clustered
 codeRepository: http://github.com/NLeSC/CClusTera
 programmingLanguage:
 - JavaScript
+- C++
+- Python
 license:
 - afl-3.0
 competence:
@@ -28,7 +30,7 @@ involvedOrganization:
 - /organization/nlesc
 usedIn:
 - /project/massive-biological-data-clustering-reporting-and-visualization-tools
-- /project/3dechem
+- /project/3d-e-chem
 - /project/candy-gene
 startDate: 2015-05-01
 status: active
