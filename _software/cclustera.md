@@ -28,11 +28,14 @@ involvedOrganization:
 - /organization/nlesc
 usedIn:
 - /project/massive-biological-data-clustering-reporting-and-visualization-tools
+- /project/3dechem
+- /project/candy-gene
 startDate: 2015-05-01
 status: active
 technologyTag:
 - 3D graphics
 - Website
+- visualizing high dimensional data
 ---
 CClusTera enables interactive and web based 3D visualization of hierarchically clustered data. The application also enables colorizing points based on features other than their clusters. 
 
