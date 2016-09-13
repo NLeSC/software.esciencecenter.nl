@@ -6,6 +6,8 @@ tagLine: A 3D web tool for interactive visualization of hierarchically clustered
 codeRepository: http://github.com/NLeSC/CClusTera
 programmingLanguage:
 - JavaScript
+- C++
+- Python
 license:
 - afl-3.0
 competence:
@@ -14,6 +16,7 @@ discipline:
 - eScience Methodology
 expertise:
 - Information Visualization
+- Machine Learning
 supportLevel: specialized
 contactPerson: /person/s.georgievska
 owner: 
@@ -28,11 +31,14 @@ involvedOrganization:
 - /organization/nlesc
 usedIn:
 - /project/massive-biological-data-clustering-reporting-and-visualization-tools
+- /project/3d-e-chem
+- /project/candygene
 startDate: 2015-05-01
 status: active
 technologyTag:
 - 3D graphics
 - Website
+- visualizing high dimensional data
 ---
 CClusTera enables interactive and web based 3D visualization of hierarchically clustered data. The application also enables colorizing points based on features other than their clusters. 
 
