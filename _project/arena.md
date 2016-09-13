@@ -16,7 +16,7 @@ involvedOrganization:
 - /organization/nlesc
 - /organization/uva
 name: ArenA
-nlescWebsite: https://www.esciencecenter.nl/project/arena
+nlescWebsite: https://www.esciencecenter.nl/project/detecting-anomalous-behavior-in-stadium-crowds
 principalInvestigator:
 - affiliation:
   - /organization/uva
