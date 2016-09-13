@@ -4,6 +4,7 @@ affiliation:
 contactPersonOf:
 - /software/cclustera
 - /project/massive-biological-data-clustering-reporting-and-visualization-tools
+- /project/detecting-anomalous-behavior-in-stadium-crowds
 contributorOf:
 - /software/cclustera
 email: s.georgievska@esciencecenter.nl
