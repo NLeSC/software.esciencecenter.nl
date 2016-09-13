@@ -16,6 +16,7 @@ discipline:
 - eScience Methodology
 expertise:
 - Information Visualization
+- Machine Learning
 supportLevel: specialized
 contactPerson: /person/s.georgievska
 owner: 
@@ -31,7 +32,7 @@ involvedOrganization:
 usedIn:
 - /project/massive-biological-data-clustering-reporting-and-visualization-tools
 - /project/3d-e-chem
-- /project/candy-gene
+- /project/candygene
 startDate: 2015-05-01
 status: active
 technologyTag:
