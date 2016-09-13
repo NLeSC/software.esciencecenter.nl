@@ -1,24 +1,27 @@
 ---
-logo: http://www.esciencecenter.nl/img/projects/1.p049-large.jpg
-contactPerson: http://software.esciencecenter.nl/person/v.hees
-engineer:
-- http://software.esciencecenter.nl/person/v.hees
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/cwi
-name: Compressing-the-Sky-Into-a-Large-Collection-of-Statistical-Models
-tagLine: 'PathFinder project: Compressing the sky into a large collection of statistical models'
-uses:
-- http://software.esciencecenter.nl/software/monetdb
 competence:
 - Optimized Data Handling
 - Big Data Analytics
-discipline:
-- eScience Methodology
-expertise:
-- Databases
-dataMagnitude: GB
+contactPerson: /person/v.hees
 dataFormat:
 - NetCDF
+dataMagnitude: GB
+discipline:
+- eScience Methodology
+engineer:
+- /person/v.hees
+expertise:
+- Databases
+endorsedBy:
+- /organization/nlesc
+involvedOrganization:
+- /organization/cwi
+logo: /images/project/compressing-the-sky-into-a-large-collection-of-statistical-models.jpg
+name: Compressing the Sky Into a Large Collection of Statistical Models
+tagLine: 'PathFinder project: Compressing the sky into a large collection of statistical
+  models'
+uses:
+- /software/monetdb
 ---
 Time-domain astronomy opens up a new era of observational astronomy, covering the spectrum from radio and millimeter to optical wavelengths. The data avalanches from their instruments forces us to overhaul contemporary data storage, data management, and data analytics techniques. 
 

@@ -1,13 +1,16 @@
 ---
+affiliation:
+- /organization/nlesc
+contributorOf:
+- /software/xtas
+email: l.veen@esciencecenter.nl
+githubUrl: https://github.com/LourensVeen
+endorsedBy:
+- /organization/nlesc
+jobTitle: eScience Research Engineer
 name: Lourens Veen
 nlescWebsite: https://www.esciencecenter.nl/profile/ir.-lourens-veen
-githubUrl: https://github.com/LourensVeen
-jobTitle: eScience Research Engineer
-affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
-photo: https://www.esciencecenter.nl/img/team/Lourens_Veen-web.jpg
-contributorOf:
-- http://software.esciencecenter.nl/software/xtas
+photo: /images/person/l.veen.jpg
 ---
 Lourens studied Computer Science at the University of Twente in
 The Netherlands, where he received an MSc (Hons.) in Databases and Information
@@ -35,4 +38,3 @@ services are most affected by these changes.
 While working on these projects, Lourens discovered a love for the
 methodological and technical aspects of doing research, and in February 2016
 he joined the eScience Center.
-

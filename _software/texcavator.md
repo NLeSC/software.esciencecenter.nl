@@ -1,5 +1,7 @@
 ---
 name: Texcavator
+endorsedBy:
+- /organization/nlesc
 tagLine: Texcavator is a text mining application used for historical research
 codeRepository: https://github.com/UUDigitalHumanitieslab/texcavator
 nlescWebsite:
@@ -21,25 +23,28 @@ expertise:
 - Distributed Computing
 - Information Visualization
 supportLevel: advanced
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/uu
+- /organization/nlesc
+- /organization/uva
+- /organization/uu
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/j.vanderzwaan
 - name: Martijn van der Klis
   affiliation:
-  - http://software.esciencecenter.nl/organization/uu
+  - /organization/uu
   website: http://www.uu.nl/staff/MHvanderKlis/
 user:
-- http://software.esciencecenter.nl/organization/uu
+- /organization/uu
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/uu
+- /organization/nlesc
+- /organization/uva
+- /organization/uu
 usedIn:
-- http://software.esciencecenter.nl/project/texcavator
+- /project/texcavator
+- /project/shico
 startDate: 2013-12-04
 status: inactive
 dependency:

@@ -15,9 +15,11 @@
 import datetime
 import os
 import json
+import codecs
 
 import yaml
 import frontmatter
+from .utils import absolute_url
 
 
 def json_serializer(obj):
@@ -46,14 +48,17 @@ def object2jekyll(data, contentProperty):
     metadata = yaml.safe_dump(d, default_flow_style=False)
 
     content = data[contentProperty]
-    return "---\n{0}---\n{1}\n".format(metadata, content)
+    try:
+        return "---\n{0}---\n{1}\n".format(metadata, content)
+    except UnicodeEncodeError:
+        return unicode("---\n{0}---\n{1}\n").format(metadata, content)
 
 
 def jekyllfile2object(filename, schemaType=None, contentProperty='description', uriPrefix='http://software.esciencecenter.nl'):
     """
     Converts a Jekyll file to a python dict. The schema and @id properties are deduced from
     """
-    with open(filename) as f:
+    with codecs.open(filename, encoding='UTF-8') as f:
         obj = jekyll2object(f.read(), contentProperty)
 
     fullpath = os.path.abspath(filename)
@@ -67,6 +72,8 @@ def jekyllfile2object(filename, schemaType=None, contentProperty='description', 
 
     if 'schema' not in obj:
         obj['schema'] = uriPrefix + '/schema/' + schemaType
+
+    obj['schema'] = absolute_url(obj['schema'])
 
     return obj
 
@@ -125,12 +132,12 @@ def jekyll2json(filename, outputDir, contentProperty='description'):
     """
     Converts a Jekyll file to JSON and saves it in given output directory.
     """
-    with open(filename, 'r') as f:
+    with codecs.open(filename, encoding='utf-8') as f:
         dataString = f.read()
 
     obj = jekyll2object(dataString, contentProperty)
 
     last_id_part = obj['@id'].rindex('/') + 1
     fname = os.path.join(outputDir, obj['@id'][last_id_part:] + '.json')
-    with open(fname, 'w') as f:
+    with codecs.open(fname, encoding='utf-8', mode='w') as f:
         json.dump(obj, f)

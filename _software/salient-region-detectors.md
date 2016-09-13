@@ -1,13 +1,15 @@
 ---
 name: Salient Region Detectors
+endorsedBy:
+- /organization/nlesc
 tagLine: Software package for detecting salient regions in images.
-codeRepository: https://github.com/NLeSC/LargeScaleImaging
+codeRepository: https://github.com/NLeSC/SalientDetector-python
 website:
-documentationUrl: https://github.com/NLeSC/LargeScaleImaging/blob/master/Software/Python/README.md
+documentationUrl: http://nlesc.github.io/SalientDetector-python
 logo:
 programmingLanguage:
-- MATLAB
 - Python
+- MATLAB
 license:
 - apache-2.0
 competence:
@@ -17,16 +19,18 @@ discipline:
 expertise:
 - Computer Vision
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/e.ranguelova
+contactPerson: /person/e.ranguelova
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/e.ranguelova
-- http://software.esciencecenter.nl/person/d.vankuppevelt
+- /person/e.ranguelova
+- /person/d.vankuppevelt
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 usedIn:
 
 startDate: 2015-04-01

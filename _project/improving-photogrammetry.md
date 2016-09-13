@@ -1,17 +1,21 @@
 ---
-contactPerson: http://software.esciencecenter.nl/person/o.rubi
+contactPerson: /person/o.rubi
 engineer:
-- http://software.esciencecenter.nl/person/o.rubi
+- /person/o.rubi
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/utwente
-- http://software.esciencecenter.nl/organization/ign
-- http://software.esciencecenter.nl/organization/nlesc
-logo: https://www.esciencecenter.nl/img/projects/P053-large2.jpg
+- /organization/utwente
+- /organization/ign
+- /organization/nlesc
+logo: /images/project/improving-photogrammetry.jpg
 name: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
 tagLine: Improving Open-Source Photogrammetric Workflows for Processing Big Datasets
 uses:
-- http://software.esciencecenter.nl/software/micmac
-- http://software.esciencecenter.nl/software/noodles
+- /software/micmac
+- /software/noodles
+- /software/pycoeman
+- /software/pymicmac
 ---
 Aerial imagery over urban areas is increasingly being used to provide detailed imagery and 3D models to support many applications such as map updating, urban planning and water management. The size of such photogrammetric projects is increasing rapidly, causing a scramble for hardware with more memory and processing power. A conventional UAV (Unmanned Aerial Vehicle) flight can collect thousands of images and conventional photogrammetric sensors can acquire images of more than 200 Megapixels in size.
 

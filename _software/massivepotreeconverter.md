@@ -2,36 +2,45 @@
 codeRepository: https://github.com/NLeSC/Massive-PotreeConverter
 competence:
 - Optimized Data Handling
+contactPerson: /person/o.rubi
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/m.vanmeersbergen
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/o.rubi
+- /person/m.vanmeersbergen
+- /person/s.verhoeven
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Databases
+- Distributed Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/potree
+- /organization/nlesc
+- /organization/potree
 license:
 - bsd-2-clause
 name: Massive-PotreeConverter
+endorsedBy:
+- /organization/nlesc
 programmingLanguage:
 - Python
 startDate: 2011-01-01
 status: active
 supportLevel: specialized
-tagLine: Parallelized convertor of point clouds to potree octree format
-dependency: 
-- http://software.esciencecenter.nl/software/potree
+tagLine: Distributed generation of massive multi-resolution octrees (required by Potree-based renderers)
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/o.rubi
+- /organization/nlesc
+- /person/o.rubi
 usedIn:
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-owner: 
-- http://software.esciencecenter.nl/organization/nlesc
+- /project/massive-point-clouds-for-esciences
+owner:
+- /organization/nlesc
+dependencyOf:
+- /software/ahn2webviewer
+dependency:
+- /software/potreeconverter
+- /software/potree
 technologyTag:
 - Point clouds
 ---
-This repository extends the PotreeConverter through a collection of Python scripts to make it able to convert massive point clouds to the potree format (octree). Done for Linux environments.
+This repository extends the PotreeConverter (</software/potreeconverter>) through a collection of Python scripts to make it able to convert massive point clouds to the potree format (octree).

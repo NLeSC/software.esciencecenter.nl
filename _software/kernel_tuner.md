@@ -2,9 +2,11 @@
 codeRepository: https://github.com/benvanwerkhoven/kernel_tuner
 competence:
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/b.vanwerkhoven
+contactPerson: /person/b.vanwerkhoven
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/b.vanwerkhoven
+- /person/b.vanwerkhoven
 discipline:
 - eScience Methodology
 documentationUrl: http://benvanwerkhoven.github.io/kernel_tuner/sphinxdoc/html/index.html
@@ -14,9 +16,11 @@ expertise:
 license:
 - apache-2.0
 name: Kernel Tuner
+endorsedBy:
+- /organization/nlesc
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/b.vanwerkhoven
+- /organization/nlesc
+- /person/b.vanwerkhoven
 programmingLanguage:
 - Python
 - CUDA
@@ -28,7 +32,10 @@ tagLine: A simple CUDA/OpenCL kernel tuner in Python.
 technologyTag:
 - GPU Computing
 user:
-- http://software.esciencecenter.nl/person/b.vanwerkhoven
+- /person/b.vanwerkhoven
+usedIn:
+- /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+- /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
 website: http://benvanwerkhoven.github.io/kernel_tuner/
 ---
 The goal of this project is to provide a - as simple as possible - tool for tuning CUDA and OpenCL kernels.

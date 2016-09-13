@@ -1,25 +1,30 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/wur
+- /organization/nlesc
+- /organization/wur
 contactPersonOf:
-- http://software.esciencecenter.nl/software/magma
+- /software/magma
+- /project/computational-chemistry-made-easy
 contributorOf:
-- http://software.esciencecenter.nl/software/magma
-name: Lars Ridder
-principalInvestigatorOf:
-- http://software.esciencecenter.nl/project/emetabolomics
-userOf:
-- http://software.esciencecenter.nl/software/magma
-- http://software.esciencecenter.nl/software/osmium
-- http://software.esciencecenter.nl/software/noodles
+- /software/magma
 coordinatorOf:
-- http://software.esciencecenter.nl/project/candygene
-- http://software.esciencecenter.nl/project/odex4all
+- /project/candygene
+- /project/odex4all
+- /project/3d-e-chem
+email: l.ridder@esciencecenter.nl
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Coordinator
-photo: https://www.esciencecenter.nl/img/team/lars_ridder_web.jpg
+name: Lars Ridder
+photo: /images/person/l.ridder.jpg
+principalInvestigatorOf:
+- /project/emetabolomics
+userOf:
+- /software/magma
+- /software/osmium
+- /software/noodles
 ---
-Lars’ research interests cover (bio)chemical informatics and simulations. He is responsible as engineer and project coordinator in multiple projects in the life-sciences and chemistry domains.
+Lars' research interests cover (bio)chemical informatics and simulations. He is responsible as engineer and project coordinator in multiple projects in the life-sciences and chemistry domains.
 
 Lars studied Molecular Sciences at Wageningen University, graduating with honors in 1996. He obtained his PhD at the Wageningen University on Computational Studies of Enzyme Catalysis. In 2000, he was awarded a Marie-Curie fellowship at the School of Chemistry, University of Bristol, UK, during which he investigated the reaction mechanisms of biotransformation enzymes on the basis of combined quantum mechanical/molecular mechanical simulations.
 
@@ -28,6 +33,3 @@ In 2002, he joined Organon R&D, department of Molecular Design and Informatics. 
 From 2012 to 2015, Lars led an academic project on computational interpretation of LC-MS/MS and LC-MSn data of complex biological samples. The project resulted in a user-friendly webapplication allowing metabolomics experts to annotate unknown metabolites and supporting them in the discovery of novel biochemical pathways.
 
 In May 2015 he joined the Netherlands eScience Center as senior eScience research engineer and project coordinator.
-
-
-

@@ -1,11 +1,15 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/person/l.buitinck
+- /person/l.buitinck
 contributorOf:
-- http://software.esciencecenter.nl/software/cptm
-- http://software.esciencecenter.nl/software/rig
-- http://software.esciencecenter.nl/software/pattyanalytics
+- /software/cptm
+- /software/rig
+- /software/pattyanalytics
+- /software/python-pcl
+- /software/pidilib
 name: Lars Buitinck
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 nlescWebsite: https://www.esciencecenter.nl/profile/drs.-lars-buitinck
 ---

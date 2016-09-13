@@ -2,34 +2,43 @@
 codeRepository: https://github.com/potree/PotreeConverter
 competence:
 - Optimized Data Handling
+contactPerson: /person/o.rubi
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/o.rubi
+- /person/o.rubi
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Scientific Visualization
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/potree
+- /organization/nlesc
+- /organization/potree
 license:
 - bsd-2-clause
 name: PotreeConverter
+endorsedBy:
+- /organization/nlesc
 programmingLanguage:
 - C++
 startDate: 2011-01-01
 status: active
 supportLevel: specialized
-tagLine: Convertor from LAS, LAZ, PLY, XYZ and PTX files to Octree format
+tagLine: Generation of multi-resolution octrees (required by Potree-based renderers)
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/o.rubi
+- /organization/nlesc
+- /person/o.rubi
 usedIn:
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-- http://software.esciencecenter.nl/project/viaappia-patty
+- /project/massive-point-clouds-for-esciences
+- /project/viaappia-patty
 owner: 
-- http://software.esciencecenter.nl/organization/potree
+- /organization/potree
+dependencyOf:
+- /software/ahn2webviewer
+- /software/massivepotreeconverter
+- /software/pattyvis
 technologyTag:
 - Point clouds
 - Library
 ---
-Builds a potree octree from las, laz, binary ply, xyz or ptx files.
+Builds a potree octree from las, laz, binary ply, xyz or ptx files. This is required by any Potree-based renderer. For massive point clouds use the Massive-PotreeConverter (</software/massivepotreeconverter>)

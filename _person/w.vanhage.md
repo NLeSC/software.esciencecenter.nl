@@ -1,20 +1,23 @@
 ---
-jobTitle: Tech Lead Data Management and Analytics
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/vua
 contributorOf:
-- http://software.esciencecenter.nl/software/rig
+- /software/rig
 coordinatorOf:
-- http://software.esciencecenter.nl/project/simcity
+- /project/simcity
+email: w.vanhage@esciencecenter.nl
 githubUrl: https://github.com/wrvhage
-nlescWebsite: https://www.esciencecenter.nl/profile/willem-van-hage
+endorsedBy:
+- /organization/nlesc
+jobTitle: Tech Lead Data Management and Analytics
 linkedInUrl: https://www.linkedin.com/in/wrvhage
+name: Willem van Hage
+nlescWebsite: https://www.esciencecenter.nl/profile/willem-van-hage
+photo: /images/person/w.vanhage.jpg
 researchgateUrl: http://www.researchgate.net/profile/Willem_Van_Hage
 twitterUrl: http://twitter.com/wrvhage
 website: http://wrvhage.nl/
-photo: https://www.esciencecenter.nl/img/team/willem_van_hage_web.jpg
-name: Willem van Hage
 ---
 Willem received his PhD at VU University Amsterdam and TNO for work on Ontology Alignment for Information Integration. His main research topics in the past 10 years are semantics, augmented sense making, visual analytics, information integration, and text mining.
 

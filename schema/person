@@ -48,6 +48,11 @@
 			"type": "string",
 			"format": "uri"
 		},
+		"ORCID": {
+			"description": "Person's ORCID ID (e.g. http://orcid.org/0000-0002-4510-0385).",
+			"type": "string",
+			"format": "uri"
+		},
 		"jobTitle" : {
 			"description" : "The job title of the person (for example, eScience Research Engineer).",
 			"type" : "string"
@@ -70,7 +75,7 @@
 			}
 		},
 		"description" : {
-			"description": "Person description, bio and/or CV.",
+			"description": "Person description, bio and/or CV, in Markdown format underneath Frontmatter (---) in Markdown files",
 			"type" : "string"
 		},
 		"photo" : {
@@ -140,6 +145,29 @@
 				"type" : "string",
 				"format" : "uri"
 			}
+		},
+		"authorOfReport" : {
+			"description": "Report that a person is an author of.",
+			"type": "array",
+			"items": {
+				"description": "ID of a report, an URI where the reports's metadata can be resolved, e.g., http://software.esciencecenter.nl/report/guide",
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"endorsedBy" : {
+			"description": "Organizations that endorse this entry, e.g. software made by, owned by, or used by the this organization; Used for grouping items on the website per organization.",
+			"type": "array",
+			"items": {
+				"description" : "ID of the organization. This is preferably an URI where the organization's metadata can be resolved, e.g., /organization/nlesc.",
+				"type" : "string",
+				"format" : "uri"
+			}
+		},
+		"email": {
+			"description": "Email address of the person",
+			"type": "string",
+			"format": "email"
 		}
 	},
 	"required": ["name", "affiliation"],

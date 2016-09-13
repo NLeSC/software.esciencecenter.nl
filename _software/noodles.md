@@ -2,32 +2,39 @@
 codeRepository: https://github.com/NLeSC/noodles
 competence:
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/j.hidding
+contactPerson: /person/j.hidding
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.hidding
-- http://software.esciencecenter.nl/person/b.weel
+- /person/j.hidding
+- /person/b.weel
 - affiliation:
-  - http://software.esciencecenter.nl/organization/vua
+  - /organization/vua
   githubUrl: https://github.com/felipeZ
   name: Felipe Zapata
 dependency:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/pyxenon
+- /software/xenon
+- /software/pyxenon
+dependencyOf:
+- /pymicmac
+- /software/pymicmac
 discipline:
 - Life Sciences & eHealth
 - eScience Methodology
 documentationUrl: http://nlesc.github.io/noodles/sphinxdoc/html/index.html
 expertise:
 - Orchestrated Computing
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
+- /organization/nlesc
+- /organization/vua
 license:
 - lgpl-3.0
 name: Noodles
 nlescWebsite: https://www.esciencecenter.nl/technology/software/noodles
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 programmingLanguage:
 - Python
 startDate: 2015-10-11
@@ -37,14 +44,14 @@ tagLine: Programmable workflow engine for Python.
 technologyTag:
 - Workflow
 usedIn:
-- http://software.esciencecenter.nl/project/computational-chemistry-made-easy
-- http://software.esciencecenter.nl/project/improving-photogrammetry
+- /project/computational-chemistry-made-easy
+- /project/improving-photogrammetry
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
-- http://software.esciencecenter.nl/person/j.hidding
-- http://software.esciencecenter.nl/person/o.rubi
-- http://software.esciencecenter.nl/person/l.ridder
+- /organization/nlesc
+- /organization/vua
+- /person/j.hidding
+- /person/o.rubi
+- /person/l.ridder
 website: http://nlesc.github.io/noodles/
 ---
 Noodles is a programmable workflow engine for Python. It can be used to parallelize your code with minimal effort.

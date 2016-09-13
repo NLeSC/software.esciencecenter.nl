@@ -1,8 +1,7 @@
 ---
+logo: /images/organization/jhu.png
 name: JHU
-website: https://www.jhu.edu
 tagLine: Johns Hopkins University
-logo: http://mktgassets.johnshopkins.edu/~identity/images/download-preview/university.small.vertical.blue.500px.png
-involvedIn:
+website: https://www.jhu.edu
 ---
 JHU

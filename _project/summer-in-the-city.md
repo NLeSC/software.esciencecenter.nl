@@ -1,39 +1,41 @@
 ---
-name: Summer in the City
-tagLine: Forecasting and mapping human thermal comfort in urban areas
-nlescWebsite: https://www.esciencecenter.nl/project/summer-in-the-city
-logo: http://www.esciencecenter.nl/img/projects/1.P013-large.jpg
 competence:
-  - Efficient Computing
-  - Optimized Data Handling
-discipline:
-  - Environment & Sustainability
-expertise:
-  - High Performance Computing
-  - Information Visualization
-  - Information Integration
-  - Handling Sensor Data
-infrastructure: Supercomputer for perfoming weather forecasts
-dataMagnitude: TB
-dataFormat:
-  - NetCDF
-  - GRIB
-  - CSV
-contactPerson: http://software.esciencecenter.nl/person/j.attema
-engineer:
-  - http://software.esciencecenter.nl/person/j.attema
+- Efficient Computing
+- Optimized Data Handling
+contactPerson: /person/j.attema
 coordinator:
-  - http://software.esciencecenter.nl/person/e.ranguelova
-principalInvestigator:
-  - name: Prof. dr. Bert Holtslag
-    affiliation:
-    - http://software.esciencecenter.nl/organization/wur
-    website: http://www.wageningenur.nl/en/Persons/prof.dr.-AAM-Bert-Holtslag.htm
-involvedOrganization:
-  - http://software.esciencecenter.nl/organization/wur
-uses:
-startDate: 2013-01-21
+- /person/e.ranguelova
+dataFormat:
+- NetCDF
+- GRIB
+- CSV
+dataMagnitude: TB
+discipline:
+- Environment & Sustainability
 endDate: 2016-09-01
+engineer:
+- /person/j.attema
+expertise:
+- High Performance Computing
+- Information Visualization
+- Information Integration
+- Handling Sensor Data
+endorsedBy:
+- /organization/nlesc
+infrastructure: Supercomputer for perfoming weather forecasts
+involvedOrganization:
+- /organization/wur
+logo: /images/project/summer-in-the-city.jpg
+name: Summer in the City
+nlescWebsite: https://www.esciencecenter.nl/project/summer-in-the-city
+principalInvestigator:
+- affiliation:
+  - /organization/wur
+  name: Prof. dr. Bert Holtslag
+  website: http://www.wageningenur.nl/en/Persons/prof.dr.-AAM-Bert-Holtslag.htm
+publication:
+- http://dx.doi.org/10.1109/eScience.2015.21
+startDate: 2013-01-21
+tagLine: Forecasting and mapping human thermal comfort in urban areas
 ---
-
 Forecasting and mapping human thermal comfort in urban areas.

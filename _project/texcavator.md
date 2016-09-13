@@ -1,48 +1,51 @@
 ---
-name: "Texcavator"
-tagLine: Facilitating and supporting large-scale text mining in the field of digital humanities
-nlescWebsite: https://www.esciencecenter.nl/project/texcavator
-logo: http://www.esciencecenter.nl/img/projects/1.P023-large.jpg
 competence:
-  - Big Data Analytics
-discipline:
-  - Humanities & Social Sciences
-expertise:
-  - Information Retrieval
-  - Text Mining
-  - Distributed Computing
-  - Information Visualization
-infrastructure: Elasticsearch for indexing and searching newspaper data
-dataMagnitude: GB
+- Big Data Analytics
+contactPerson: /person/j.vanderzwaan
 dataFormat:
 - XML
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
-engineer:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
-principalInvestigator:
-  - name: Prof. Joris van Eijnatten
-    affiliation:
-    - http://software.esciencecenter.nl/organization/uu
-    website: http://www.uu.nl/medewerkers/JvanEijnatten/
-  - name: Prof. Toine Pieters
-    affiliation:
-    - http://software.esciencecenter.nl/organization/uu
-    website: http://www.uu.nl/staff/AHLMPieters/
-  - name: Dr. Jaap Verheul
-    affiliation:
-    - http://software.esciencecenter.nl/organization/uu
-    website: http://www.uu.nl/staff/JVerheul/
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/uu
-- http://software.esciencecenter.nl/organization/surfsara
-uses:
-- http://software.esciencecenter.nl/software/texcavator
-startDate: 2013-12-04
+dataMagnitude: GB
+discipline:
+- Humanities & Social Sciences
 endDate: 2015-03-20
+engineer:
+- /person/j.vanderzwaan
+expertise:
+- Information Retrieval
+- Text Mining
+- Distributed Computing
+- Information Visualization
+endorsedBy:
+- /organization/nlesc
+infrastructure: Elasticsearch for indexing and searching newspaper data
+involvedOrganization:
+- /organization/nlesc
+- /organization/uva
+- /organization/uu
+- /organization/surfsara
+logo: /images/project/texcavator.jpg
+name: Texcavator
+nlescWebsite: https://www.esciencecenter.nl/project/texcavator
+principalInvestigator:
+- affiliation:
+  - /organization/uu
+  name: Prof. Joris van Eijnatten
+  website: http://www.uu.nl/medewerkers/JvanEijnatten/
+- affiliation:
+  - /organization/uu
+  name: Prof. Toine Pieters
+  website: http://www.uu.nl/staff/AHLMPieters/
+- affiliation:
+  - /organization/uu
+  name: Dr. Jaap Verheul
+  website: http://www.uu.nl/staff/JVerheul/
+startDate: 2013-12-04
+tagLine: Facilitating and supporting large-scale text mining in the field of digital
+  humanities
+uses:
+- /software/texcavator
+- /software/xtas
 ---
-
 Texcavator is a text mining application used for historical research. It is an
 interface to an Elasticsearch index (specifically, an ES index containing the
 KB newspaper archive from 1850 - 1990) that allows users to perform full text

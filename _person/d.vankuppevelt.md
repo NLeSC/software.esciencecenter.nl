@@ -1,18 +1,21 @@
 ---
 name: Dafne van Kuppevelt
+email: d.vankuppevelt@esciencecenter.nl
+endorsedBy:
+- /organization/nlesc
 nlescWebsite: https://www.esciencecenter.nl/profile/dafne-van-kuppevelt-msc
 linkedInUrl: https://nl.linkedin.com/in/dafne-van-kuppevelt-45416753
 githubUrl: https://github.com/dafnevk
 jobTitle: eScience Research Engineer
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 photo: 
 contactPersonOf:
 
 ownerOf:
 
 contributorOf:
-- http://software.esciencecenter.nl/software/salient-region-detectors
+- /software/salient-region-detectors
 userOf:
 
 engineerOf:

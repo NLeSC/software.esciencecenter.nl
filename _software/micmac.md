@@ -2,34 +2,40 @@
 codeRepository: https://geoportail.forge.ign.fr/hg/culture3d
 competence:
 - Optimized Data Handling
+contactPerson: /person/o.rubi
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/o.rubi
+- /person/o.rubi
 discipline:
-- Humanities & Social Sciences
+- eScience Methodology
 expertise:
 - Handling Sensor Data
 - High Performance Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/ign
-- http://software.esciencecenter.nl/organization/utwente
+- /organization/nlesc
+- /organization/ign
+- /organization/utwente
 license:
 - CeCILL-B
 name: MicMac
+endorsedBy:
+- /organization/nlesc
 programmingLanguage:
 - C++
 startDate: 2013-10-01
 status: active
 supportLevel: specialized
-tagLine: Open Source tool suite for Photogrammetry
+tagLine: Open Source photogrammetry toolset (from images to point clouds)
 user:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/o.rubi
+- /organization/nlesc
+- /person/o.rubi
 usedIn:
-- http://software.esciencecenter.nl/project/improving-photogrammetry
+- /project/improving-photogrammetry
 owner: 
-- http://software.esciencecenter.nl/organization/ign
+- /organization/ign
 technologyTag:
+- Point clouds
 - Photogrammetry
 ---
-MicMac is an open source set of tools that executes the various steps of the photogrammetric workflow. Moreover, it contains additional tools to perform other auxiliary tasks. 
+MicMac is an open source set of tools that executes the various steps of the photogrammetric workflow (from images to a point cloud).

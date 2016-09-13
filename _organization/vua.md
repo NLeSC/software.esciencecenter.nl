@@ -1,19 +1,30 @@
 ---
 involvedIn:
-- http://software.esciencecenter.nl/project/generic-escience-technologies
-- http://software.esciencecenter.nl/projects/computational-chemistry-made-easy
-- http://software.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
-- http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
-- http://software.esciencecenter.nl/project/big-data-analytics-in-the-geo-spatial-domain
-- http://software.esciencecenter.nl/project/viaappia-patty
+- /project/generic-escience-technologies
+- /project/computational-chemistry-made-easy
+- /project/from-sentiment-mining-to-mining-embodied-emotions
+- /project/visualizing-uncertainty-and-perspectives
+- /project/big-data-analytics-in-the-geo-spatial-domain
+- /project/viaappia-patty
+- /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+- /project/3d-e-chem
+- /project/dive-plus
+- /project/drwatson
 linkedInUrl: https://www.linkedin.com/company/vrije-universiteit-amsterdam
-logo: https://www.esciencecenter.nl/img/partners/VUlogo_EN_Wit_HR_RGB_tcm9-201385.png
+logo: /images/organization/vua.png
 name: VU University Amsterdam
+organizationOf:
+- /software/heem-dataset
+ownerOf:
+- /software/heem-dataset
+- /software/3d-e-chem-vm
+- /software/knime-archetype
+- /software/chemical-analytics-platform
 researchgateUrl: https://www.researchgate.net/institution/VU_University_Amsterdam
 tagLine: VU University Amsterdam
 twitterUrl: https://twitter.com/vuamsterdam
 userOf:
-- http://software.esciencecenter.nl/software/noodles
+- /software/noodles
 website: http://www.vu.nl/
 ---
 

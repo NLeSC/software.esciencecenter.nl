@@ -1,10 +1,14 @@
 ---
-logo: http://www.esciencecenter.nl/img/projects/1P041-large.jpg
+contactPerson: /person/l.ridder
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
+- /organization/vua
+logo: /images/project/computational-chemistry-made-easy.jpg
 name: Computational Chemistry Made Easy
 uses:
-- http://software.esciencecenter.nl/software/noodles
-- http://software.esciencecenter.nl/software/xenon
+- /software/noodles
+- /software/xenon
 ---
 

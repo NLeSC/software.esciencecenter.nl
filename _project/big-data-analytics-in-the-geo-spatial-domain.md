@@ -1,33 +1,36 @@
 ---
-name: Big-Data-Analytics-in-the-Geo-Spatial-Domain
-tagLine: 'Strategic partnership: Big Data Analytics in the Geo-Spatial Domain'
-logo: http://www.esciencecenter.nl/img/projects/1.P025-large.jpg
-contactPerson: http://software.esciencecenter.nl/person/r.goncalves
-engineer:
-- http://software.esciencecenter.nl/person/r.goncalves
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/cwi
-- http://software.esciencecenter.nl/organization/monetdb
-- http://software.esciencecenter.nl/organization/geodan
-- http://software.esciencecenter.nl/organization/tu-delft
-- http://software.esciencecenter.nl/organization/vua
-- http://software.esciencecenter.nl/organization/fugro
-uses:
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/datavaults
 competence:
 - Optimized Data Handling
 - Big Data Analytics
+contactPerson: /person/r.goncalves
+dataFormat:
+- LAS/LAZ
+- GML
+dataMagnitude: TB
 discipline:
 - eScience Methodology
+engineer:
+- /person/r.goncalves
 expertise:
 - Information Visualization
 - Information Integration
 - Databases
-dataMagnitude: TB
-dataFormat:
-- LAS/LAZ
-- GML
+endorsedBy:
+- /organization/nlesc
+involvedOrganization:
+- /organization/cwi
+- /organization/monetdb
+- /organization/geodan
+- /organization/tu-delft
+- /organization/vua
+- /organization/fugro
+logo: /images/project/big-data-analytics-in-the-geo-spatial-domain.jpg
+name: Big-Data-Analytics-in-the-Geo-Spatial-Domain
+tagLine: 'Strategic partnership: Big Data Analytics in the Geo-Spatial Domain'
+uses:
+- /software/monetdb
+- /software/datavaults
+- /software/liblas
 ---
 Digital 3D city models play a crucial role in research of urban phenomena; they form the basis of flow simulations (wind streams, water runoff and heat island effects), urban planning and analysis of underground formations. Urban scenes consist of large collections of complex objects which have rich semantic properties, such as materials and colors. Modeling and storing these properties indicating the relationships between them is best handled in a relational database.
 

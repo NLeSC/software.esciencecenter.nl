@@ -1,30 +1,35 @@
 ---
 codeRepository: https://github.com/NLeSC/pyxenon
 competence:
-- Optimized Data Handling
-contactPerson: http://software.esciencecenter.nl/person/j.borgdorff
+- Efficient Computing
+contactPerson: /person/j.borgdorff
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.borgdorff
-- http://software.esciencecenter.nl/person/j.hidding
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/j.borgdorff
+- /person/j.hidding
+- /person/s.verhoeven
 dependency:
-- http://software.esciencecenter.nl/software/xenon
+- /software/xenon
 dependencyOf:
-- http://software.esciencecenter.nl/software/noodles
-- http://software.esciencecenter.nl/software/wrfpy
+- /software/noodles
+- /software/wrfpy
 discipline:
 - Physics & Beyond
 - eScience Methodology
+doi: http://dx.doi.org/10.5281/zenodo.60929
 downloadUrl: https://pypi.python.org/pypi/pyxenon
 expertise:
 - Distributed Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 license:
 - apache-2.0
 name: pyxenon
+endorsedBy:
+- /organization/nlesc
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 programmingLanguage:
 - Python
 startDate: 2015-11-29
@@ -36,12 +41,12 @@ technologyTag:
 - Distributed
 - Library
 usedIn:
-- http://software.esciencecenter.nl/project/simcity
-- http://software.esciencecenter.nl/project/era-urban
+- /project/simcity
+- /project/era-urban
 user:
-- http://software.esciencecenter.nl/person/j.borgdorff
-- http://software.esciencecenter.nl/person/j.hidding
-- http://software.esciencecenter.nl/person/r.vanharen
+- /person/j.borgdorff
+- /person/j.hidding
+- /person/r.vanharen
 ---
 Xenon is a middleware abstraction library. It provides a simple
 programming interface to various pieces of software that can be used to

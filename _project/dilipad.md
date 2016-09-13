@@ -1,39 +1,40 @@
 ---
-name: "Digging into Parliamentary Data (DiLiPaD)"
-tagLine: A new approach to the history of parliamentary communication and discourse
-nlescWebsite: https://www.esciencecenter.nl/project/dilipad
-logo: http://www.esciencecenter.nl/img/projects/1P044-large.jpg
 competence:
-  - Big Data Analytics
-discipline:
-  - Humanities & Social Sciences
-expertise:
-  - Text Mining
-infrastructure:
-dataMagnitude: GB
+- Big Data Analytics
+contactPerson: /person/j.vanderzwaan
 dataFormat:
 - XML
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
-engineer:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
-principalInvestigator:
-  - name: Dr. Maarten Marx
-    affiliation:
-    - http://software.esciencecenter.nl/organization/uva
-    website: http://mashup2.science.uva.nl/marx/
-  - name: Dr. Jaap Kamps
-    affiliation:
-    - http://software.esciencecenter.nl/organization/uva
-    website: http://humanities.uva.nl/~kamps/
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
-uses:
-- http://software.esciencecenter.nl/software/cptm
-startDate: 2014-12-18
+dataMagnitude: GB
+discipline:
+- Humanities & Social Sciences
 endDate: 2016-04-01
+engineer:
+- /person/j.vanderzwaan
+expertise:
+- Text Mining
+endorsedBy:
+- /organization/nlesc
+involvedOrganization:
+- /organization/nlesc
+- /organization/uva
+logo: /images/project/dilipad.jpg
+name: Digging into Parliamentary Data (DiLiPaD)
+nlescWebsite: https://www.esciencecenter.nl/project/dilipad
+principalInvestigator:
+- affiliation:
+  - /organization/uva
+  name: Dr. Maarten Marx
+  website: http://mashup2.science.uva.nl/marx/
+- affiliation:
+  - /organization/uva
+  name: Dr. Jaap Kamps
+  website: http://humanities.uva.nl/~kamps/
+startDate: 2014-12-18
+tagLine: A new approach to the history of parliamentary communication and discourse
+uses:
+- /software/cptm
+- /software/topic-coherence-for-dutch
 ---
-
 The goals of the DiLiPad project were to:
 
 1. Implement cross-perspective topic modeling (cptm)

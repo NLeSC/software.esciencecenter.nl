@@ -1,5 +1,7 @@
 ---
 name: StoryTeller
+endorsedBy:
+- /organization/nlesc
 tagLine: Visualizing complex humanities data
 codeRepository: https://github.com/NLeSC/UncertaintyVisualization
 nlescWebsite:
@@ -19,20 +21,22 @@ expertise:
 - Information Visualization
 - Text Mining
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/m.vanmeersbergen
+contactPerson: /person/m.vanmeersbergen
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/m.vanmeersbergen
-- http://software.esciencecenter.nl/person/j.vanderzwaan
+- /person/m.vanmeersbergen
+- /person/j.vanderzwaan
 
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 
 usedIn:
-- http://software.esciencecenter.nl/project/visualizing-uncertainty-and-perspectives
+- /project/visualizing-uncertainty-and-perspectives
 startDate: 2014-12-18
 status: active
 dependency:

@@ -1,5 +1,7 @@
 ---
 name: ROOT-conda-recipes
+endorsedBy:
+- /organization/nlesc
 tagLine: Conda recipes for building CERN ROOT binaries and its dependencies, with Python 3 support. It provides a "pythonic" interface (pandas DataFrames) to the ROOT I/O format.
 
 codeRepository: http://github.com/NLeSC/root-conda-recipes
@@ -21,18 +23,20 @@ discipline:
 expertise:
 - Distributed Computing
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/d.remenska
+contactPerson: /person/d.remenska
 owner: 
-- http://software.esciencecenter.nl/person/d.remenska
+- /person/d.remenska
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/d.remenska
-- http://software.esciencecenter.nl/person/s.verhoeven
+- /person/d.remenska
+- /person/s.verhoeven
 user:
-- http://software.esciencecenter.nl/organization/nikhef
+- /organization/nikhef
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nikhef
+- /organization/nikhef
 usedIn:
-- http://software.esciencecenter.nl/project/pandas-root
+- /project/pandas-root
 status: active
 dependency:
 - ROOT
@@ -43,11 +47,11 @@ technologyTag:
 - Anaconda
 - pandas DataFrame
 - Computing model
+badges:
+- "[![Build Status](https://api.travis-ci.org/NLeSC/root-conda-recipes.svg)](https://travis-ci.org/NLeSC/root-conda-recipes/)"
+- "[![DOI](https://zenodo.org/badge/20885/NLeSC/root-conda-recipes.svg)](https://zenodo.org/badge/latestdoi/20885/NLeSC/root-conda-recipes)"
+- "[![Join the chat at https://gitter.im/NLeSC/root-conda-recipes](https://badges.gitter.im/NLeSC/root-conda-recipes.svg)](https://gitter.im/NLeSC/root-conda-recipes?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
 ---
-
-
-[![Build Status](https://api.travis-ci.org/NLeSC/root-conda-recipes.svg)](https://travis-ci.org/NLeSC/root-conda-recipes/) [![DOI](https://zenodo.org/badge/20885/NLeSC/root-conda-recipes.svg)](https://zenodo.org/badge/latestdoi/20885/NLeSC/root-conda-recipes) [![Join the chat at https://gitter.im/NLeSC/root-conda-recipes](https://badges.gitter.im/NLeSC/root-conda-recipes.svg)](https://gitter.im/NLeSC/root-conda-recipes?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-=============
 This repository contains Conda recipes for building CERN [ROOT](https://root.cern.ch/) binaries and its dependencies. For the needs of the [XENON Dark Matter project](http://www.xenon1t.org/), the goal is to provide a "pythonic" interface to the ROOT I/O format, primarily for loading and saving Pandas dataframes in the ROOT format. For this purpose, there are also recipes for building conda binaries of [root-numpy](https://github.com/rootpy/root_numpy) and [rootpy](https://github.com/rootpy/rootpy), the community-driven initiative to provide a more pythonic interface with ROOT on top of the existing PyROOT bindings.
 
 The most most important thing for making things work out of the box is the ABI (binary) compatibility between different gcc(libstdc++)/glibc library versions, on various linux distributions. Typically ROOT would even complain when the GCC headers are not of the same version as the one used for building it, so *shipping the full GCC and glibc as a run dependency* of ROOT, seemed like the best solution.
