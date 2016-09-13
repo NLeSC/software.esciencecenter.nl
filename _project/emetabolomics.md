@@ -1,11 +1,15 @@
 ---
 competence:
+- Big Data Analytics
 - Efficient Computing
 contactPerson: http://software.esciencecenter.nl/person/s.verhoeven
 coordinator: http://software.esciencecenter.nl/person/r.vannieuwpoort
 dataFormat:
 - CSV
 - JSON
+- mzXML
+- MGF
+- sqlite3
 dataMagnitude: TB
 discipline:
 - Life Sciences & eHealth
@@ -14,6 +18,7 @@ engineer:
 - http://software.esciencecenter.nl/person/s.verhoeven
 expertise:
 - High Performance Computing
+- Scientific Visualization
 infrastructure: Cloud
 involvedOrganization:
 - http://software.esciencecenter.nl/organization/nlesc

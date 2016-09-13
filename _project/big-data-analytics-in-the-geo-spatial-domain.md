@@ -9,12 +9,25 @@ involvedOrganization:
 - http://software.esciencecenter.nl/organization/cwi
 - http://software.esciencecenter.nl/organization/monetdb
 - http://software.esciencecenter.nl/organization/geodan
-- http://software.esciencecenter.nl/organization/tudelft
+- http://software.esciencecenter.nl/organization/tu-delft
 - http://software.esciencecenter.nl/organization/vua
 - http://software.esciencecenter.nl/organization/fugro
 uses:
 - http://software.esciencecenter.nl/software/monetdb
 - http://software.esciencecenter.nl/software/datavaults
+competence:
+- Optimized Data Handling
+- Big Data Analytics
+discipline:
+- eScience Methodology
+expertise:
+- Information Visualization
+- Information Integration
+- Databases
+dataMagnitude: TB
+dataFormat:
+- LAS/LAZ
+- GML
 ---
 Digital 3D city models play a crucial role in research of urban phenomena; they form the basis of flow simulations (wind streams, water runoff and heat island effects), urban planning and analysis of underground formations. Urban scenes consist of large collections of complex objects which have rich semantic properties, such as materials and colors. Modeling and storing these properties indicating the relationships between them is best handled in a relational database.
 

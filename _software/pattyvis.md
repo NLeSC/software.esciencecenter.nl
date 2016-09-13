@@ -27,7 +27,7 @@ programmingLanguage:
 startDate: 2013-01-01
 status: active
 supportLevel: specialized
-tagLine: Webgl pointcloud visualization of the Via Appia based on potree
+tagLine: WebGL point cloud visualization of the Via Appia based on potree
 technologyTag:
 - Point clouds
 - WebGL
@@ -35,6 +35,11 @@ technologyTag:
 dependency:
 - Potree
 user:
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/person/o.rubi
+usedIn:
+- http://software.esciencecenter.nl/project/viaappia-patty
+owner: 
 - http://software.esciencecenter.nl/organization/nlesc
 ---
 [![Build Status](https://travis-ci.org/NLeSC/PattyVis.svg?branch=master)](https://travis-ci.org/NLeSC/PattyVis)
@@ -45,7 +50,7 @@ user:
 [![Codacy Badge](https://www.codacy.com/project/badge/a2ebd9977fe04aa1af6e5c47dc8d6927)](https://www.codacy.com/public/sverhoeven/PattyVis)
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45923.svg)](http://dx.doi.org/10.5281/zenodo.45923)
 
-Webgl pointcloud visualization of the Via Appia based on http://potree.org
+Webgl point cloud visualization of the Via Appia based on http://potree.org
 --------------------------------------------------------------------------
 ![logo](https://github.com/NLeSC/PattyVis/raw/master/DOCS/pattyvis_fp_ss4.png "A beautiful vista")
 A big step towards a 3D GIS Application.  
@@ -54,8 +59,8 @@ With 3D footprints of grave monuments based on GPS coordinates.
 ![logo](https://github.com/NLeSC/PattyVis/raw/master/DOCS/pattyvis_fp_ss1.png "With 3D footprints based on GPS coordinates")
 A 'background' or reference frame was made with Fugro's drive-map technology http://www.drive-map.eu/  
 ![logo](https://github.com/NLeSC/PattyVis/raw/master/DOCS/pattyvis_fp_ss9.png "The drive map visualized")
-Several monuments have been photographed extensively and made into seperate pointclouds. This is an ongoing process.  
-![logo](https://github.com/NLeSC/PattyVis/raw/master/DOCS/pattyvis_fp_ss5.png "Here you can see the drive-map and the site-specific photography based pointcloud next to eachother")
+Several monuments have been photographed extensively and made into seperate point clouds. This is an ongoing process.  
+![logo](https://github.com/NLeSC/PattyVis/raw/master/DOCS/pattyvis_fp_ss5.png "Here you can see the drive-map and the site-specific photography based point cloud next to eachother")
 ![logo](https://github.com/NLeSC/PattyVis/raw/master/DOCS/pattyvis_fp_ss3.png "A particularly well-captured monument.")
 Measurements can be made in the 3D environment.  
 ![logo](https://github.com/NLeSC/PattyVis/raw/master/DOCS/pattyvis_fp_ss8.png "Measurements can be made in the 3D environment.")

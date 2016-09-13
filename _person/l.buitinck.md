@@ -4,6 +4,7 @@ affiliation:
 contributorOf:
 - http://software.esciencecenter.nl/software/cptm
 - http://software.esciencecenter.nl/software/rig
+- http://software.esciencecenter.nl/software/pattyanalytics
 name: Lars Buitinck
 jobTitle: eScience Research Engineer
 nlescWebsite: https://www.esciencecenter.nl/profile/drs.-lars-buitinck
