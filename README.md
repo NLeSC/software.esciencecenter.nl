@@ -39,10 +39,11 @@ pip install -r requirements.txt -e .
   - `organization#involvedIn` vs `project#involvedOrganization`
   - `software#user` vs `organization#uses`
   - `software#engineer` vs `person#engineerOf`.
+  
   Reciprocal relations can be filled in automatically by the ``estep`` tool (provided that the required files already exist). Create the related pages in the `_software/`, `_person/`, `_project/`, `_publication/`, `_report/` and `_organization/` directories as necessary, then run ``estep generate reciprocal`` to automatically write content to those files.
 8. Test the validity of the entered data again with ``estep validate -v``. At this stage, it needs to pass without any errors.
 9. ``git add file1 file2 fileN`` your changes, ``git commit -m 'commit message'``, then ``git push origin mybranch``.
-10. On GitHub create a pull request to ask the repository's Administrators to merge your changes into the gh-pages branch.
+10. On GitHub, create a pull request to ask the repository's Administrators to merge your changes into the gh-pages branch.
 
 
 ### Generate publication
