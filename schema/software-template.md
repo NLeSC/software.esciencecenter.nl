@@ -7,7 +7,6 @@ contributingOrganization: array, see /schema/software
 contributor: array, see /schema/software
 dependency: array, see /schema/software
 dependencyOf: array, see /schema/software
-description: string
 discipline: array, see /schema/software
 documentationUrl: string
 doi: string
@@ -30,3 +29,5 @@ type: string
 usedIn: array, see /schema/software
 user: array, see /schema/software
 website: string
+---
+Type your MarkDown description of the software here

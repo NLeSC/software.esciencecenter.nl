@@ -1,6 +1,5 @@
 ---
 authorOfReport: array
-description: string
 involvedIn: array
 linkedInUrl: string
 logo: string
@@ -12,3 +11,5 @@ tagLine: string
 twitterUrl: string
 userOf: array
 website: string
+---
+Type your MarkDown description of the organization here

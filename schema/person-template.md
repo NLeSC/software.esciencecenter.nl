@@ -1,9 +1,9 @@
+---
 affiliation: array
 authorOfReport: array
 contactPersonOf: array
 contributorOf: array
 coordinatorOf: array
-description: string
 email: string
 endorsedBy: array
 engineerOf: array
@@ -20,3 +20,5 @@ researchgateUrl: string
 twitterUrl:  string
 userOf: array
 website: string
+---
+Type your MarkDown description of the person here

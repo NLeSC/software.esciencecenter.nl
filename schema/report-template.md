@@ -2,6 +2,8 @@
 author: array
 cover: string
 date: string
-description: string
 link: string
 title: string
+---
+Type your MarkDown description of the report here
+

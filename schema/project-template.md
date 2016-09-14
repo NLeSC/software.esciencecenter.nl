@@ -4,7 +4,6 @@ contactPerson: a person
 coordinator: a person
 dataFormat: array
 dataMagnitude: string
-description: string
 discipline: array
 endDate: string
 endorsedBy: array
@@ -21,3 +20,5 @@ startDate: string
 tagLine: string
 uses: array
 website: string
+---
+Type your MarkDown description of the project here
