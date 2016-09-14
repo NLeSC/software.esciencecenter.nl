@@ -33,12 +33,7 @@ pip install -r requirements.txt -e .
     * The front matter is in YAML format and must adhere to predefined JSON schemas. Refer to the `schema/` directory to see the expected type of input for each property.
     * Use (copies of) the templates from the `schema` directory as a starting point for editing; also look at existing Markdown files for example usage, e.g those from the `_software` or `_project` directories.    
     * For URLs within the site, `http://software.esciencecenter.nl` can be omitted, so you should write ``/person/s.verhoeven`` instead of ``http://software.esciencecenter.nl/person/s.verhoeven``. Also note that HTTPS is not supported on this site.
-5. Every time you edit data, test the validity of the entered data again with ``estep validate -v``. At this stage you can ignore any errors relating to relations not being reciprocal, for example errors like these:
-```
-* Error      : '/software/differential-evolution' is not a 'uri'
-  Cause      : /software/differential-evolution not found locally as _software/differential-evolution.md
-  On property: userOf.items.format
-```
+5. Every time you edit data, test the validity of the entered data again with ``estep validate -v``. At this stage you can ignore any errors relating to relations not being reciprocal, for example errors like ``'/software/differential-evolution' is not a 'uri'``
 6. Let the estep tool make local copies of remote logos (if you have any) with ``estep generate logo``
 7. Some relations are reciprocal, e.g.
   - `organization#involvedIn` vs `project#involvedOrganization`
