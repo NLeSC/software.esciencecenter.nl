@@ -25,31 +25,25 @@ pip install -r requirements.txt -e .
 ## How to edit
 
 1. Clone this repo
-2. Create a branch for your additions with the gh-pages branch as a starting point.
-
-3. In `_software` directory, add a Markdown file with front matter (https://jekyllrb.com/docs/frontmatter/) for your software.
-
-  * The front matter is in yaml format and must adhere to json schemas defined in the `schema/` directory.
-  * Use the existing Markdown files as examples.
-  * The filename should be lowercase, end with `.md` and contain no url-unfriendly characters (e.g. space, /).
-  * Also create/update the related pages in the the `_software/`, `_person/`, `_project/`, `_publication/`, `_report/` and `_organization/` directories, e.g. some software is used in a project then write a Markdown file in both the `_software` and `_project` directories. If someone else is responsible for the data in related pages, place a stub there with at least the correct `name`. If it concerns a person, also fill in `affiliation`.
-  * Many relations are reciprocal, be sure to fill them in for both related objects. For example, when updating software's `user` property, also update that users' `userOf` property. Other examples of reciprocal relations: `organization#involvedIn` vs `project#involvedOrganization`, `software#user` vs `organization#uses`, `software#engineer` vs `person#engineerOf`.
+2. Create a branch for your additions with the gh-pages branch as a starting point (``git branch mybranch`` followed by ``git checkout mybranch``).
+3. Let's say you want to add an item about some software.
+  * Copy `schema/software-template.md` to the `_software` directory, rename it according to the name of your software. The filename should be lowercase, end with `.md` and contain no url-unfriendly characters (e.g. space, /).
+  * Edit the file's '[front matter](https://jekyllrb.com/docs/frontmatter/)', i.e. the block between the triple minuses.
+    * The front matter is in YAML format and must adhere to predefined JSON schemas. Refer to the `schema/` directory to see the expected type of input for each property.
+    * Use (copies of) the templates from the `schema` directory as a starting point for editing; also look at existing Markdown files for example usage, e.g those from the `_software` or `_project` directories.    
+  * Create/update the related pages in the `_software/`, `_person/`, `_project/`, `_publication/`, `_report/` and `_organization/` directories, e.g. if some software is used in a project then write a Markdown file in both the `_software` and `_project` directories. If someone else is responsible for the data in related pages, place a stub there with at least the correct `name`. If it concerns a person, also fill in `affiliation`.
+  * Some relations are reciprocal, e.g. `organization#involvedIn` vs `project#involvedOrganization`, `software#user` vs `organization#uses`, `software#engineer` vs `person#engineerOf`. Reciprocal relations can be filled in automatically by the ``estep`` tool. Run ``estep generate reciprocal`` to do so.
   * For URLs within the site, `http://software.esciencecenter.nl` can be omitted. HTTPS is not supported on this site.
-
-4. Many relations are reciprocal, be sure to fill them in for both related objects. For example, when updating software's `user` property, also update that users' `userOf` property. Other examples of reciprocal relations: `organization#involvedIn` vs `project#involvedOrganization`, `software#user` vs `organization#uses`, `software#engineer` vs `person#engineerOf`. Automatically fill them in with
-```
-estep generate reciprocal
-```
 5. Download remote logos (if any) with
 ```
 estep generate logo
 ```
-6. After editing data, test the validity of the entered data with
+6. After editing data, test the validity of the entered data again with
 ```
 estep validate -v
 ```
-7. Commit and push changes.
-8. Create a pull request to merge your changes into the gh-pages branch.
+7. ``git add file1 file2 fileN`` your changes, ``git commit -m 'commit message'``, then ``git push origin mybranch``.
+8. On GitHub create a pull request to ask the repository's Administrators to merge your changes into the gh-pages branch.
 
 ### Generate publication
 
