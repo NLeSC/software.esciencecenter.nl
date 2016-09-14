@@ -16,10 +16,18 @@ Data on software, projects, people, organizations, publications and reports in e
 Install the estep website utility by running
 
 ```shell
+# install Python3 virtual environment (Ubuntu/Debian)
+sudo apt install python3-venv
+# create a virtual environment, call it .env3
 pyvenv .env3
+# activate the python virtual environment
 . .env3/bin/activate
+# install Python packages pip and wheel in the active virtual environment
 pip install -U pip wheel
+# install the estep tool's requirements
 pip install -r requirements.txt -e .
+# check that the estep tool works
+estep validate -v
 ```
 
 ## How to edit
