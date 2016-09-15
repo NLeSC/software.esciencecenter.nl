@@ -6,6 +6,8 @@ tagLine: A 3D web tool for interactive visualization of hierarchically clustered
 codeRepository: http://github.com/NLeSC/CClusTera
 programmingLanguage:
 - JavaScript
+- Python
+- C++
 license:
 - afl-3.0
 competence:
@@ -14,6 +16,7 @@ discipline:
 - eScience Methodology
 expertise:
 - Information Visualization
+- Machine Learning
 supportLevel: specialized
 contactPerson: /person/s.georgievska
 owner: 
@@ -28,6 +31,8 @@ involvedOrganization:
 - /organization/nlesc
 usedIn:
 - /project/massive-biological-data-clustering-reporting-and-visualization-tools
+- /project/3d-e-chem
+- /project/prediction-of-candidate-genes-for-traits-using-interoperable-genome-annotat
 startDate: 2015-05-01
 status: active
 technologyTag:
