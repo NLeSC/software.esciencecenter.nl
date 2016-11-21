@@ -1,8 +1,9 @@
 ---
-#involvedIn:
-#- /project/primavera
+involvedIn:
+- /project/primavera
+- /project/towards-large-scale-cloud-resolving-climate-simulations
 logo: /images/organization/knmi.png
-name: KNMI
+name: Koninklijk Nederlands Meteorologisch Instituut
 tagLine: Koninklijk Nederlands Meteorologisch Instituut
 website: http://www.knmi.nl/
 ---
