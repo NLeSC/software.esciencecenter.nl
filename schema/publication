@@ -21,7 +21,7 @@
             "format" : "uri"
         },
         "description" : {
-            "description": "Bibliography as text",
+            "description": "Bibliography as text, in Markdown format underneath Frontmatter (---) in Markdown files",
             "type" : "string"
         },
 		"endorsedBy" : {
