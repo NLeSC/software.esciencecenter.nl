@@ -43,6 +43,7 @@ usedIn:
 startDate: 2014-09-11
 status: active
 dependency:
+- /software/cesium
 dependencyOf:
 technologyTag:
 - GIS

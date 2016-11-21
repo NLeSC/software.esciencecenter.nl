@@ -1,9 +1,15 @@
 ---
 affiliation:
 - /organization/nlesc
+contactPersonOf:
+- /project/enhancing-protein-drug-binding-prediction
+- /project/e-musc
 contributorOf:
 - /software/xtas
 email: l.veen@esciencecenter.nl
+engineerOf:
+- /project/e-musc
+- /project/enhancing-protein-drug-binding-prediction
 githubUrl: https://github.com/LourensVeen
 endorsedBy:
 - /organization/nlesc
