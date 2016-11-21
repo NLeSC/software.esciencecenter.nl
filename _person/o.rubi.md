@@ -1,60 +1,63 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-- http://software.esciencecenter.nl/project/viaappia-patty
-- http://software.esciencecenter.nl/project/improving-photogrammetry
-- http://software.esciencecenter.nl/software/pdal
-- http://software.esciencecenter.nl/software/potreeconverter
-- http://software.esciencecenter.nl/software/massivepotreeconverter
-- http://software.esciencecenter.nl/software/pattydata
-- http://software.esciencecenter.nl/software/micmac
-- http://software.esciencecenter.nl/software/liblas
-- http://software.esciencecenter.nl/software/pymicmac
-- http://software.esciencecenter.nl/software/pycoeman
+- /project/massive-point-clouds-for-esciences
+- /project/viaappia-patty
+- /project/improving-photogrammetry
+- /software/pdal
+- /software/potreeconverter
+- /software/massivepotreeconverter
+- /software/pattydata
+- /software/micmac
+- /software/liblas
+- /software/pymicmac
+- /software/pycoeman
 contributorOf:
-- http://software.esciencecenter.nl/software/rig
-- http://software.esciencecenter.nl/software/pattydata
-- http://software.esciencecenter.nl/software/potree
-- http://software.esciencecenter.nl/software/potreeconverter
-- http://software.esciencecenter.nl/software/massivepotreeconverter
-- http://software.esciencecenter.nl/software/pdal
-- http://software.esciencecenter.nl/software/ahn2webviewer
-- http://software.esciencecenter.nl/software/micmac
-- http://software.esciencecenter.nl/software/pattyvis
-- http://software.esciencecenter.nl/software/liblas
-- http://software.esciencecenter.nl/software/pymicmac
-- http://software.esciencecenter.nl/software/pycoeman
+- /software/rig
+- /software/pattydata
+- /software/potree
+- /software/potreeconverter
+- /software/massivepotreeconverter
+- /software/pdal
+- /software/ahn2webviewer
+- /software/micmac
+- /software/pattyvis
+- /software/liblas
+- /software/pymicmac
+- /software/pycoeman
+email: o.rubi@esciencecenter.nl
 engineerOf:
-- http://software.esciencecenter.nl/project/aa-alert
-- http://software.esciencecenter.nl/project/massive-point-clouds-for-esciences
-- http://software.esciencecenter.nl/project/viaappia-patty
-- http://software.esciencecenter.nl/project/improving-photogrammetry
+- /project/aa-alert
+- /project/massive-point-clouds-for-esciences
+- /project/viaappia-patty
+- /project/improving-photogrammetry
 githubUrl: https://github.com/oscarmartinezrubi
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 linkedInUrl: https://nl.linkedin.com/in/oscarmartinezrubi/en
 name: Oscar Martinez Rubi
 nlescWebsite: https://www.esciencecenter.nl/profile/oscar-martinez-rubi-msc
-photo: http://www.esciencecenter.nl/img/team/oscar-martinez-rubi-new.jpg
+photo: /images/person/o.rubi.jpg
 researchgateUrl: https://www.researchgate.net/profile/Oscar_Martinez_Rubi
 userOf:
-- http://software.esciencecenter.nl/software/monetdb
-- http://software.esciencecenter.nl/software/pattydata
-- http://software.esciencecenter.nl/software/pattyanalytics
-- http://software.esciencecenter.nl/software/pattyvis
-- http://software.esciencecenter.nl/software/sfm
-- http://software.esciencecenter.nl/software/potree
-- http://software.esciencecenter.nl/software/potreeconverter
-- http://software.esciencecenter.nl/software/massivepotreeconverter
-- http://software.esciencecenter.nl/software/pdal
-- http://software.esciencecenter.nl/software/ahn2webviewer
-- http://software.esciencecenter.nl/software/micmac
-- http://software.esciencecenter.nl/software/noodles
-- http://software.esciencecenter.nl/software/python-pcl
-- http://software.esciencecenter.nl/software/liblas
-- http://software.esciencecenter.nl/software/pycoeman
-- http://software.esciencecenter.nl/software/pymicmac
+- /software/monetdb
+- /software/pattydata
+- /software/pattyanalytics
+- /software/pattyvis
+- /software/sfm
+- /software/potree
+- /software/potreeconverter
+- /software/massivepotreeconverter
+- /software/pdal
+- /software/ahn2webviewer
+- /software/micmac
+- /software/noodles
+- /software/python-pcl
+- /software/liblas
+- /software/pycoeman
+- /software/pymicmac
 ---
 Oscar did Telecommunications Engineering in the Polytechnic University of Catalonia (UPC) in Barcelona. Later on, he obtained a Master's degree in Astrophysics, focusing in software engineering challenges in astronomical projects.
 

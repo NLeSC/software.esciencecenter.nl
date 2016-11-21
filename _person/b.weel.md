@@ -1,15 +1,17 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributorOf:
-- http://software.esciencecenter.nl/software/noodles
-- http://software.esciencecenter.nl/software/common-sense
+- /software/noodles
+- /software/common-sense
 githubUrl: https://github.com/bpmweel
 jobTitle: eScience Research Engineer
 name: Berend Weel
 nlescWebsite: https://www.esciencecenter.nl/profile/berend-weel-msc
-photo: https://www.esciencecenter.nl/img/team/Berend_Weel-web.jpg
+photo: /images/person/b.weel.jpg
 researchgateUrl: https://www.researchgate.net/profile/Berend_Weel
+userOf:
+- /software/couchdb
 ---
 Berend did his BSc. in Computer Science and MSc. in Technical Artificial Intelligence at the VU University Amsterdam. He did his PhD on artificial evolution of robot organisms. The idea behind his thesis was the creation of real world objects that evolve, in this case robot organisms.
 

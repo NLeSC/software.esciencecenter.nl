@@ -1,31 +1,31 @@
 ---
 competence:
 - Optimized Data Handling
-contactPerson: http://software.esciencecenter.nl/person/c.martinez
-coordinator: http://software.esciencecenter.nl/person/j.attema
-logo: https://www.esciencecenter.nl/img/projects/1P037-large.jpg
+contactPerson: /person/c.martinez
+coordinator: /person/j.attema
 discipline:
 - Humanities & Social Sciences
 engineer:
-- http://software.esciencecenter.nl/person/c.martinez
+- /person/c.martinez
 expertise:
 - Linked Data
 - Information Integration
+endorsedBy:
+- /organization/nlesc
 infrastructure: Web platform
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/vua
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/vua
+- /organization/nlesc
+logo: /images/project/dive-plus.jpg
 name: DIVE+
 nlescWebsite: https://www.esciencecenter.nl/project/dive
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/uva
+  - /organization/uva
   name: Lora Aroyo
   photo: https://www.esciencecenter.nl/img/team/lora-aroyo-cropped-bw.jpg
   website: http://www.cs.vu.nl/~laroyo/
 tagLine: Online exploration of heritage collections
-uses:
-website:
 ---
 # Interacting with Historical Events in Linked Cultural Heritage
 

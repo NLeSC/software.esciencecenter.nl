@@ -1,39 +1,41 @@
 ---
-name: Emotional styles on the Dutch stage between 1600-1800
-tagLine: Tracing emotion styles in theater texts
-nlescWebsite: https://www.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
-logo: http://www.esciencecenter.nl/img/projects/1.P031-large.jpg
 competence:
-  - Big Data Analytics
-discipline:
-  - Humanities & Social Sciences
-expertise:
-  - Text Mining
-  - Machine Learning
-  - Information Visualization
-infrastructure:
-dataMagnitude: MB
+- Big Data Analytics
+contactPerson: /person/j.vanderzwaan
 dataFormat:
 - XML
 - KAF
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
-engineer:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
-principalInvestigator:
-  - name: Prof. Inger Leemans
-    affiliation:
-    - http://software.esciencecenter.nl/organization/vua
-    website: http://www.fgw.vu.nl/nl/over-de-faculteit/medewerkers/medewerkers-i-l/prof-dr-i-leemans/index.aspx
-involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/vua
-- http://software.esciencecenter.nl/organization/meertens
-uses:
-- http://software.esciencecenter.nl/software/heem-dataset
-startDate: 2015-03-01
+dataMagnitude: MB
+discipline:
+- Humanities & Social Sciences
 endDate: 2015-06-30
+engineer:
+- /person/j.vanderzwaan
+expertise:
+- Text Mining
+- Machine Learning
+- Information Visualization
+endorsedBy:
+- /organization/nlesc
+involvedOrganization:
+- /organization/nlesc
+- /organization/vua
+- /organization/meertens
+logo: /images/project/from-sentiment-mining-to-mining-embodied-emotions.jpg
+name: Emotional styles on the Dutch stage between 1600-1800
+nlescWebsite: https://www.esciencecenter.nl/project/from-sentiment-mining-to-mining-embodied-emotions
+principalInvestigator:
+- affiliation:
+  - /organization/vua
+  name: Prof. Inger Leemans
+  website: http://www.fgw.vu.nl/nl/over-de-faculteit/medewerkers/medewerkers-i-l/prof-dr-i-leemans/index.aspx
+publication:
+- http://dx.doi.org/10.1109/eScience.2015.18
+startDate: 2015-03-01
+tagLine: Tracing emotion styles in theater texts
+uses:
+- /software/heem-dataset
 ---
-
 The goals of the project were to develop a methodology to identify changes
 over time in the relationship between emotional expressions and body parts in
 (historical) texts and  to apply this methodology to 17th and 18th century

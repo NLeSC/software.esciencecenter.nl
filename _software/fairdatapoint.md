@@ -1,5 +1,7 @@
 ---
 name: FAIR Data Point
+endorsedBy:
+- /organization/nlesc
 tagLine: FAIR Data Point Metadata Service
 codeRepository: https://github.com/NLeSC/ODEX-FAIRDataPoint
 nlescWebsite: https://www.esciencecenter.nl/technology/software/fairdatapoint
@@ -21,35 +23,37 @@ expertise:
 - 'Linked Data'
 - 'Information Integration'
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/a.kuzniar
+contactPerson: /person/a.kuzniar
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/a.kuzniar
+- /person/a.kuzniar
 - name: Rajaram Kaliyaperuma
   githubUrl: https://github.com/rajaram5
   affiliation:
-    - http://software.esciencecenter.nl/organization/lumc
+    - /organization/lumc
 - name: Luiz Olavo Bonino da Silva Santos
   linkedInUrl: http://www.linkedin.com/in/luizolavo
   affiliation:
-    - http://software.esciencecenter.nl/organization/dtl
+    - /organization/dtl
 
 user:
-- http://software.esciencecenter.nl/person/a.kuzniar
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/lumc
-- http://software.esciencecenter.nl/organization/wur
+- /person/a.kuzniar
+- /organization/nlesc
+- /organization/lumc
+- /organization/wur
 
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/lumc
-- http://software.esciencecenter.nl/organization/dtl
+- /organization/nlesc
+- /organization/lumc
+- /organization/dtl
 
 usedIn:
-- http://software.esciencecenter.nl/project/odex4all
-- http://software.esciencecenter.nl/project/candygene
+- /project/odex4all
+- /project/candygene
 
 startDate: 2015-06-01
 status: active

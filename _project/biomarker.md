@@ -1,24 +1,24 @@
 ---
-name: biomarker
-nlescWebsite: https://www.esciencecenter.nl/project/biomarker-boosting
-logo: https://www.esciencecenter.nl/img/projects/1.P008-large.jpg
-coordinator: http://software.esciencecenter.nl/person/r.vannieuwpoort
-engineer: 
-- http://software.esciencecenter.nl/person/r.vannieuwpoort
-contactPerson: http://software.esciencecenter.nl/person/r.vannieuwpoort
-discipline:
-- Life Sciences & eHealth
 competence:
 - Efficient Computing
+contactPerson: /person/r.vannieuwpoort
+coordinator: /person/r.vannieuwpoort
+discipline:
+- Life Sciences & eHealth
+engineer:
+- /person/e.ranguelova
 expertise:
 - Distributed Computing
-uses:
-- http://software.esciencecenter.nl/software/xenon
-engineer:
-- http://software.esciencecenter.nl/person/e.ranguelova
+endorsedBy:
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/radboud.university.nijmegen
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/radboud.university.nijmegen
+- /organization/nlesc
+logo: /images/project/biomarker.jpg
+name: biomarker
+nlescWebsite: https://www.esciencecenter.nl/project/biomarker-boosting
+uses:
+- /software/xenon
 ---
 Better biomarkers through datasharing.
 Developing tools and services to combine datasets obtained by different medical centers.

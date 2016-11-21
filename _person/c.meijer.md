@@ -1,16 +1,19 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributorOf:
-- http://software.esciencecenter.nl/software/xenon
+- /software/xenon
+email: c.meijer@esciencecenter.nl
 engineerOf:
-- http://software.esciencecenter.nl/project/eecology
-- http://software.esciencecenter.nl/project/error-detection-and-error-localization
+- /project/eecology
+- /project/error-detection-and-error-localization
 githubUrl: https://github.com/cwmeijer
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Christiaan Meijer
 nlescWebsite: https://www.esciencecenter.nl/profile/christiaan-meijer-msc
-photo: https://www.esciencecenter.nl/img/team/christiaanmeijer_web.jpg
+photo: /images/person/c.meijer.jpg
 ---
 Christiaan has studied Psychology, Physics and Artificial Intelligence, all at the University of Amsterdam (UvA). Christiaan received his MSc in both Psychology and Artificial Intelligence, track Intelligent Systems. In his thesis he applied reinforcement learning to the problem of learning new behavior in the field of robotics. His specialties include machine learning, computer vision, reinforcement learning and deep learning.
 

@@ -1,29 +1,32 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contactPersonOf:
-- http://software.esciencecenter.nl/software/netcdf2littler
-- http://software.esciencecenter.nl/software/wrfpy
-- http://software.esciencecenter.nl/project/era-urban
+- /software/netcdf2littler
+- /software/wrfpy
+- /project/era-urban
 contributorOf:
-- http://software.esciencecenter.nl/software/netcdf2littler
-- http://software.esciencecenter.nl/software/wrfpy
-- http://software.esciencecenter.nl/software/pattydata
+- /software/netcdf2littler
+- /software/wrfpy
+- /software/pattydata
+email: r.vanharen@esciencecenter.nl
 engineerOf:
-- http://software.esciencecenter.nl/project/era-urban
+- /project/era-urban
 githubUrl: https://github.com/rvanharen
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Ronald van Haren
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-ronald-van-haren
 ownerOf:
-- http://software.esciencecenter.nl/software/netcdf2littler
-- http://software.esciencecenter.nl/software/wrfpy
-photo: https://www.esciencecenter.nl/img/team/Ronald-van-Haren-new.jpg
+- /software/netcdf2littler
+- /software/wrfpy
+photo: /images/person/r.vanharen.jpg
 researchgateUrl: https://www.researchgate.net/profile/Ronald_Van_Haren
 userOf:
-- http://software.esciencecenter.nl/software/netcdf2littler
-- http://software.esciencecenter.nl/software/wrfpy
-- http://software.esciencecenter.nl/software/pyxenon
+- /software/netcdf2littler
+- /software/wrfpy
+- /software/pyxenon
 ---
 Ronald joined the Netherlands eScience Center in 2015 to work as an eScience research engineer on the ERA-URBAN project. The project is aimed at developing an environmental re-analysis specifically on the scale of the urban environment, a long-term archive of urban energy and water balances at very high resolution (~100m).
 

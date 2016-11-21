@@ -2,32 +2,36 @@
 codeRepository: https://github.com/sara-nl/picasclient
 competence:
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/j.borgdorff
+contactPerson: /person/j.borgdorff
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.borgdorff
-- name: Jan Bot
-  affiliation:
-  - http://software.esciencecenter.nl/organization/surfsara
-- name: Maarten Kooyman
-  affiliation:
-  - http://software.esciencecenter.nl/organization/surfsara
-- name: Anatoli Danezi
-  affiliation:
-  - http://software.esciencecenter.nl/organization/surfsara
+- /person/j.borgdorff
+- affiliation:
+  - /organization/surfsara
+  name: Jan Bot
+- affiliation:
+  - /organization/surfsara
+  name: Maarten Kooyman
+- affiliation:
+  - /organization/surfsara
+  name: Anatoli Danezi
 dependency:
+- /software/couchdb
 dependencyOf:
+- /software/couchdb
 discipline:
 - eScience Methodology
 expertise:
 - Distributed Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/surfsara
+- /organization/nlesc
+- /organization/surfsara
 license:
 - mit
 name: picas
 owner:
-- http://software.esciencecenter.nl/organization/surfsara
+- /organization/surfsara
 programmingLanguage:
 - Python
 startDate: 2012-06-12
@@ -39,9 +43,9 @@ technologyTag:
 - Library
 - CouchDB
 usedIn:
-- http://software.esciencecenter.nl/project/simcity
+- /project/simcity
 user:
-- http://software.esciencecenter.nl/person/j.borgdorff
+- /person/j.borgdorff
 ---
 PiCaS is a simple task execution framework using a CouchDB database. All tasks
 are stored in a single database, before, during, and after processing, thereby

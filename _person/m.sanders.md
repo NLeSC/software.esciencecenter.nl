@@ -1,10 +1,12 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 contributorOf:
-- http://software.esciencecenter.nl/software/magma
+- /software/magma
 name: Marijn Sanders
+endorsedBy:
+- /organization/nlesc
 userOf:
-- http://software.esciencecenter.nl/software/magma
+- /software/magma
 ---
 

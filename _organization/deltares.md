@@ -1,10 +1,10 @@
 ---
 involvedIn:
-- http://software.esciencecenter.nl/project/3d-geospatial-data-exploration-for-modern-risk-management-systems
-- http://software.esciencecenter.nl/project/large-scale-data-assimilation
-logo: http://www.knowseas.com/partner-institutions-1/DELTARES_ENABLING_RGB.jpg/image
+- /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- /project/large-scale-data-assimilation
+logo: /images/organization/deltares.jpe
 name: Deltares
-tagLine: Centrum Wiskunde & Informatica
+tagLine: Deltares
 website: http://www.deltares.nl
 ---
-Deltares
+Deltaris is an independent applied research institure in the field of water and soil, globally working on smart innovations, solution and applications for people, environment and society.

@@ -3,18 +3,20 @@ codeRepository: https://github.com/NLeSC/esibayes
 competence:
 - Big Data Analytics
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/j.spaaks
+contactPerson: /person/j.spaaks
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.spaaks
+- /person/j.spaaks
 - name: Willem Bouten
   affiliation:
-  - http://software.esciencecenter.nl/organization/uva
+  - /organization/uva
 - name: Jasper A. Vrugt
   affiliation:
-  - http://software.esciencecenter.nl/organization/uva
+  - /organization/uva
 - name: Jeroen Engelberts
   affiliation:
-  - http://software.esciencecenter.nl/organization/surfsara
+  - /organization/surfsara
 dependencyOf:
 discipline:
 - eScience Methodology
@@ -25,16 +27,18 @@ expertise:
 - Distributed Computing
 - High Performance Computing
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/uva
+- /organization/uva
 license:
 - apache-2.0
 logo:
 name: MMSODA Toolbox for MATLAB
+endorsedBy:
+- /organization/nlesc
 nlescWebsite: https://www.esciencecenter.nl/project/esibayes
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/person/j.spaaks
-- http://software.esciencecenter.nl/organization/uva
+- /organization/nlesc
+- /person/j.spaaks
+- /organization/uva
 programmingLanguage:
 - MATLAB
 - C
@@ -53,10 +57,10 @@ technologyTag:
 - Dynamic Modeling
 - Uncertainty Estimation
 usedIn:
-- http://software.esciencecenter.nl/project/esibayes
+- /project/esibayes
 user:
-- http://software.esciencecenter.nl/person/j.spaaks
-- http://software.esciencecenter.nl/organization/nlesc
+- /person/j.spaaks
+- /organization/nlesc
 website: https://github.com/NLeSC/esibayes
 ---
 An eScience infrastructure for Bayesian inverse modeling

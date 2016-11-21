@@ -3,38 +3,40 @@ competence:
 - Big Data Analytics
 - Efficient Computing
 contactPerson:
-- http://software.esciencecenter.nl/person/j.spaaks
-- http://software.esciencecenter.nl/person/s.branchett
-coordinator: http://software.esciencecenter.nl/person/s.branchett
+- /person/j.spaaks
+- /person/s.branchett
+coordinator: /person/s.branchett
 dataFormat:
 - MATLAB
 dataMagnitude: GB
 discipline:
 - eScience Methodology
 engineer:
-- http://software.esciencecenter.nl/person/j.spaaks
+- /person/j.spaaks
 expertise:
 - Machine Learning
 - Data Assimilation
 - Distributed Computing
 - High Performance Computing
-logo: https://www.esciencecenter.nl/img/projects/1.P019-large.jpg
+endorsedBy:
+- /organization/nlesc
 infrastructure: surfSARA's LISA cluster
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/uva
-- http://software.esciencecenter.nl/organization/surfsara
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/uva
+- /organization/surfsara
+- /organization/nlesc
+logo: /images/project/esibayes.jpg
 name: esibayes
 nlescWebsite: https://www.esciencecenter.nl/project/esibayes
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/uva
+  - /organization/uva
   name: Willem Bouten
   photo: https://www.esciencecenter.nl/img/team/willem-bouten-bw.jpg
   website: http://www.uva.nl/over-de-uva/organisatie/medewerkers/content/b/o/w.bouten/w.bouten.html
 tagLine: An eScience infrastructure for Bayesian inverse modeling
 uses:
-- http://software.esciencecenter.nl/software/mmsoda-toolbox-for-matlab
+- /software/mmsoda-toolbox-for-matlab
 ---
 An eScience infrastructure for Bayesian inverse modeling
 
@@ -55,5 +57,3 @@ _References_
 - Jasper A. Vrugt, Hoshin V. Gupta, Breand&aacute;nn &Oacute; Nuall&aacute;in, and Willem Bouten. Real-time data assimilation for operational ensemble streamflow forecasting. Journal of Hydrometeorology, 7(3):548–575, 2006a. doi: 10.1175/JHM504.1.
 - Jasper A. Vrugt, Breand&aacute;nn &Oacute; Nuall&aacute;in, Bruce A. Robinson, Willem Bouten, Stefan C. Dekker, and Peter M. A. Sloot. Application of parallel computing to stochastic parameter estimation in environmental models. Computers & Geosciences, 32:1139–1155, 2006b. doi:10.1016/j.cageo.2005.10.015.
 - Jasper A. Vrugt, Philip H. Stauffer, Th. W&ouml;hling, Bruce A. Robinson, and Velimir V. Vesselinov. Inverse modeling of subsurface flow and transport properties: A review with new developments. Vadose Zone Journal, 7(2):843–864, 2008. doi: 10.2136/vzj2007.0078.
-
-

@@ -1,12 +1,12 @@
 ---
 involvedIn:
-- http://software.esciencecenter.nl/project/amuse
-- http://software.esciencecenter.nl/project/abcmuse
+- /project/amuse
+- /project/abcmuse
 linkedInUrl: https://www.linkedin.com/company/leiden-university
-logo: https://www.universiteitleiden.nl/ul2ext/images/zegel.png
+logo: /images/organization/leiden-university.png
 name: Leiden University
 ownerOf:
-- http://software.esciencecenter.nl/software/amuse
+- /software/amuse
 researchgateUrl: https://www.researchgate.net/institution/Leiden_University
 tagLine: Leiden University
 twitterUrl: https://twitter.com/UniLeidenNews

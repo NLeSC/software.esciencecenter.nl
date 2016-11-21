@@ -1,12 +1,15 @@
 ---
 name: Gijs van den Oord
+email: g.vandenoord@esciencecenter.nl
+endorsedBy:
+- /organization/nlesc
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-gijs-van-den-oord
 researchgateUrl:
 linkedInUrl: https://www.linkedin.com/in/gijs-van-den-oord
 githubUrl: https://github.com/c-martinez
 jobTitle: eScience Research Engineer
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 photo:
 contactPersonOf:
 ownerOf:

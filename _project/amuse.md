@@ -1,33 +1,35 @@
 ---
 competence:
 - Efficient Computing
-contactPerson: http://software.esciencecenter.nl/person/n.drost
-coordinator: http://software.esciencecenter.nl/person/j.maassen
+contactPerson: /person/n.drost
+coordinator: /person/j.maassen
 dataFormat:
 - HDF5
 dataMagnitude: TB
 discipline:
 - Physics & Beyond
 engineer:
-- http://software.esciencecenter.nl/person/n.drost
+- /person/n.drost
 expertise:
 - High Performance Computing
+endorsedBy:
+- /organization/nlesc
 infrastructure: Supercomputer
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/leiden-university
-logo: https://www.esciencecenter.nl/img/projects/1.P020-large.jpg
+- /organization/nlesc
+- /organization/leiden-university
+logo: /images/project/amuse.jpg
 name: Distributed AMUSE
 nlescWebsite: https://www.esciencecenter.nl/project/amuse
 principalInvestigator:
 - affiliation:
-  - http://software.esciencecenter.nl/organization/leiden-university
+  - /organization/leiden-university
   name: Simon Portegies Zwart
   website: http://home.strw.leidenuniv.nl/~spz/
 tagLine: Simulating complex astrophysical phenomena using Distributed Computing.
 uses:
-- http://software.esciencecenter.nl/software/xenon
-- http://software.esciencecenter.nl/software/amuse
+- /software/xenon
+- /software/amuse
 ---
 ##The evolution of embedded star clusters
 

@@ -1,25 +1,28 @@
 ---
 affiliation:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/wur
+- /organization/nlesc
+- /organization/wur
 contactPersonOf:
-- http://software.esciencecenter.nl/software/magma
-- http://software.esciencecenter.nl/project/computational-chemistry-made-easy
+- /software/magma
+- /project/computational-chemistry-made-easy
 contributorOf:
-- http://software.esciencecenter.nl/software/magma
+- /software/magma
 coordinatorOf:
-- http://software.esciencecenter.nl/project/candygene
-- http://software.esciencecenter.nl/project/odex4all
-- http://software.esciencecenter.nl/project/3d-e-chem
+- /project/candygene
+- /project/odex4all
+- /project/3d-e-chem
+email: l.ridder@esciencecenter.nl
+endorsedBy:
+- /organization/nlesc
 jobTitle: eScience Coordinator
 name: Lars Ridder
-photo: https://www.esciencecenter.nl/img/team/lars_ridder_web.jpg
+photo: /images/person/l.ridder.jpg
 principalInvestigatorOf:
-- http://software.esciencecenter.nl/project/emetabolomics
+- /project/emetabolomics
 userOf:
-- http://software.esciencecenter.nl/software/magma
-- http://software.esciencecenter.nl/software/osmium
-- http://software.esciencecenter.nl/software/noodles
+- /software/magma
+- /software/osmium
+- /software/noodles
 ---
 Lars' research interests cover (bio)chemical informatics and simulations. He is responsible as engineer and project coordinator in multiple projects in the life-sciences and chemistry domains.
 

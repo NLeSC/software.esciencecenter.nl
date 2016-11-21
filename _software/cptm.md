@@ -1,5 +1,7 @@
 ---
 name: Cross-perspective Topic Modeling
+endorsedBy:
+- /organization/nlesc
 tagLine: A Gibbs sampler that implements Cross-Perspective Topic Modeling
 codeRepository: https://github.com/NLeSC/cptm
 nlescWebsite:
@@ -19,21 +21,23 @@ discipline:
 expertise:
 - Text Mining
 supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/j.vanderzwaan
+contactPerson: /person/j.vanderzwaan
 owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
+- /organization/nlesc
+- /organization/uva
+contributingOrganization:
+- /organization/nlesc
 contributor:
-- http://software.esciencecenter.nl/person/j.vanderzwaan
-- http://software.esciencecenter.nl/person/l.buitinck
-- http://software.esciencecenter.nl/person/p.bos
+- /person/j.vanderzwaan
+- /person/l.buitinck
+- /person/p.bos
 user:
-- http://software.esciencecenter.nl/organization/nlesc
+- /organization/nlesc
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/uva
+- /organization/nlesc
+- /organization/uva
 usedIn:
-- http://software.esciencecenter.nl/project/dilipad
+- /project/dilipad
 startDate: 2016-03-17
 status: inactive
 dependency:

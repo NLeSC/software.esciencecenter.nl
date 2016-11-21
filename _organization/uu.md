@@ -1,15 +1,15 @@
 ---
 involvedIn:
-- http://software.esciencecenter.nl/project/texcavator
-- http://software.esciencecenter.nl/project/ewatercycle
-- http://software.esciencecenter.nl/project/abcmuse
-- http://software.esciencecenter.nl/project/shico
-logo: http://www.uu.nl/sites/all/themes/uubasetheme/images/logo-en.svg
+- /project/texcavator
+- /project/ewatercycle
+- /project/abcmuse
+- /project/shico
+logo: /images/organization/uu.svg
 name: Utrecht University
 ownerOf:
-- http://software.esciencecenter.nl/software/texcavator
+- /software/texcavator
 userOf:
-- http://software.esciencecenter.nl/software/texcavator
+- /software/texcavator
 website: http://www.uu.nl
 ---
 Utrecht University is an international research university of the highest

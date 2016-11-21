@@ -1,46 +1,51 @@
 ---
-name: MAGMa
-tagLine: MAGMa is an online application for the automatic chemical annotation of accurate multistage MSn spectral data.
-codeRepository: https://github.com/NLeSC/MAGMa
-website: http://www.emetabolomics.org/magma
 codeRepository: https://github.com/NLeSC/Osmium
-programmingLanguage:
-- Python
-- JavaScript
-license:
-- apache-2.0
 competence:
 - Big Data Analytics
 - Efficient Computing
+contactPerson: /person/l.ridder
+contributingOrganization:
+- /organization/nlesc
+contributor:
+- /person/l.ridder
+- /person/s.verhoeven
+- /person/m.sanders
+dependency:
+- /software/osmium
+- /software/rdkit
 discipline:
 - Life Sciences & eHealth
+endorsedBy:
+- /organization/nlesc
 expertise:
 - High Performance Computing
 - Scientific Visualization
-supportLevel: specialized
-contactPerson: http://software.esciencecenter.nl/person/l.ridder
-owner:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/wur
-contributor:
-- http://software.esciencecenter.nl/person/l.ridder
-- http://software.esciencecenter.nl/person/s.verhoeven
-- http://software.esciencecenter.nl/person/m.sanders
-user:
-- http://software.esciencecenter.nl/person/l.ridder
-- http://software.esciencecenter.nl/person/m.sanders
 involvedOrganization:
-- http://software.esciencecenter.nl/organization/nlesc
-- http://software.esciencecenter.nl/organization/wur
-usedIn:
-- http://software.esciencecenter.nl/project/emetabolomics
+- /organization/nlesc
+- /organization/wur
+license:
+- apache-2.0
+name: MAGMa
+owner:
+- /organization/nlesc
+- /organization/wur
+programmingLanguage:
+- Python
+- JavaScript
 startDate: 2011-05-10
 status: active
-dependency:
-- http://software.esciencecenter.nl/software/osmium
+supportLevel: specialized
+tagLine: MAGMa is an online application for the automatic chemical annotation of accurate
+  multistage MSn spectral data.
 technologyTag:
 - Distributed
 - Webservice
+usedIn:
+- /project/emetabolomics
+user:
+- /person/l.ridder
+- /person/m.sanders
+website: http://www.emetabolomics.org/magma
 ---
 MAGMa is an online application for the automatic chemical annotation of accurate multistage MSn spectral data.
 
