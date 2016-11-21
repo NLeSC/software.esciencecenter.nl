@@ -5,7 +5,11 @@ involvedIn:
 - /project/aa-alert
 logo: /images/organization/astron.gif
 name: ASTRON
+ownerOf:
+- /software/casacore
 tagLine: Netherlands Institute for Radio Astronomy
+userOf:
+- /software/casacore
 website: http://www.astron.nl/
 ---
 ASTRON is the Netherlands Institute for Radio Astronomy. Its mission

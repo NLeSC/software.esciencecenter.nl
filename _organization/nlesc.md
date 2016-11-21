@@ -105,6 +105,7 @@ researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_C
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
 userOf:
+- /software/casacore
 - /software/xenon
 - /software/metrochart
 - /software/noodles
