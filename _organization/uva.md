@@ -1,5 +1,6 @@
 ---
 involvedIn:
+- /project/e-musc
 - /project/generic-escience-technologies
 - /project/simcity
 - /project/hadrianus

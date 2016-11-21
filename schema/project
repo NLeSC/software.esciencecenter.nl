@@ -23,7 +23,7 @@
 			"type" : "string"
 		},
 		"description" : {
-			"description" : "Technical project description",
+			"description" : "Technical project description, in Markdown format underneath Frontmatter (---) in Markdown files",
 			"type" : "string"
 		},
 		"nlescWebsite": {
