@@ -26,6 +26,8 @@ jobTitle: eScience Research Engineer
 name: Maarten van Meersbergen
 nlescWebsite: https://www.esciencecenter.nl/profile/maarten-van-meersbergen-msc
 photo: /images/person/m.vanmeersbergen.jpg
+userOf:
+- /software/cesium
 ---
 Maarten studied Computer Science at the VU University in Amsterdam, where he specialized in Multimedia Applications. His Master's thesis focused on visualization of the inner workings of the Ibis Complex HPC framework. During his studies, Maarten worked in IT support at the Faculty of Science at the VU University for 6 years, helping researchers to use the faculty's computing services to their full extent. During this time, he also engaged in some early eScience by parallelizing his code to verify a Math algorithm on a large scale.
 
