@@ -16,43 +16,40 @@ Data on software, projects, people, organizations, publications and reports in e
 Install the estep website utility by running
 
 ```shell
-# install Python3 virtual environment (Ubuntu/Debian)
-sudo apt install python3-venv
-# create a virtual environment, call it .env3
 pyvenv .env3
-# activate the python virtual environment
 . .env3/bin/activate
-# install Python packages pip and wheel in the active virtual environment
 pip install -U pip wheel
-# install the estep tool's requirements
 pip install -r requirements.txt -e .
-# check that the estep tool works
-estep validate -v
 ```
 
 ## How to edit
 
-1. Clone this repo, ``git clone https://github.com/NLeSC/software.esciencecenter.nl.git``
-2. ``cd software.esciencecenter.nl``
-3. Create a branch for your additions with the gh-pages branch as a starting point (``git branch mybranch`` followed by ``git checkout mybranch``).
-4. Let's say you want to add an item about some software.
-  * Copy `schema/software-template.md` to the `_software` directory, rename it according to the name of your software. The filename should be lowercase, end with `.md` and contain no url-unfriendly characters (e.g. space, /).
-  * Edit the file's '[front matter](https://jekyllrb.com/docs/frontmatter/)', i.e. the block between the triple minuses.
-    * The front matter is in YAML format and must adhere to predefined JSON schemas. Refer to the `schema/` directory to see the expected type of input for each property.
-    * Use (copies of) the templates from the `schema` directory as a starting point for editing; also look at existing Markdown files for example usage, e.g those from the `_software` or `_project` directories.    
-    * For URLs within the site, `http://software.esciencecenter.nl` can be omitted, so you should write ``/person/s.verhoeven`` instead of ``http://software.esciencecenter.nl/person/s.verhoeven``. Also note that HTTPS is not supported on this site.
-5. Every time you edit data, test the validity of the entered data again with ``estep validate -v``. At this stage you can ignore any errors relating to relations not being reciprocal, for example errors like ``'/software/differential-evolution' is not a 'uri'``
-6. Let the estep tool make local copies of remote logos (if you have any) with ``estep generate logo``
-7. Some relations are reciprocal, e.g.
-  - `organization#involvedIn` vs `project#involvedOrganization`
-  - `software#user` vs `organization#uses`
-  - `software#engineer` vs `person#engineerOf`.
-  
-  Reciprocal relations can be filled in automatically by the ``estep`` tool (provided that the required files already exist). Create the related pages in the `_software/`, `_person/`, `_project/`, `_publication/`, `_report/` and `_organization/` directories as necessary, then run ``estep generate reciprocal`` to automatically write content to those files.
-8. Test the validity of the entered data again with ``estep validate -v``. At this stage, it needs to pass without any errors.
-9. ``git add file1 file2 fileN`` your changes, ``git commit -m 'commit message'``, then ``git push origin mybranch``.
-10. On GitHub, create a pull request to ask the repository's Administrators to merge your changes into the gh-pages branch.
+1. Clone this repo
+2. Create a branch for your additions with the gh-pages branch as a starting point.
 
+3. In `_software` directory, add a Markdown file with front matter (https://jekyllrb.com/docs/frontmatter/) for your software.
+
+  * The front matter is in yaml format and must adhere to json schemas defined in the `schema/` directory.
+  * Use the existing Markdown files as examples.
+  * The filename should be lowercase, end with `.md` and contain no url-unfriendly characters (e.g. space, /).
+  * Also create/update the related pages in the the `_software/`, `_person/`, `_project/`, `_publication/`, `_report/` and `_organization/` directories, e.g. some software is used in a project then write a Markdown file in both the `_software` and `_project` directories. If someone else is responsible for the data in related pages, place a stub there with at least the correct `name`. If it concerns a person, also fill in `affiliation`.
+  * Many relations are reciprocal, be sure to fill them in for both related objects. For example, when updating software's `user` property, also update that users' `userOf` property. Other examples of reciprocal relations: `organization#involvedIn` vs `project#involvedOrganization`, `software#user` vs `organization#uses`, `software#engineer` vs `person#engineerOf`.
+  * For URLs within the site, `http://software.esciencecenter.nl` can be omitted. HTTPS is not supported on this site.
+
+4. Many relations are reciprocal, be sure to fill them in for both related objects. For example, when updating software's `user` property, also update that users' `userOf` property. Other examples of reciprocal relations: `organization#involvedIn` vs `project#involvedOrganization`, `software#user` vs `organization#uses`, `software#engineer` vs `person#engineerOf`. Automatically fill them in with
+```
+estep generate reciprocal
+```
+5. Download remote logos (if any) with
+```
+estep generate logo
+```
+6. After editing data, test the validity of the entered data with
+```
+estep validate -v
+```
+7. Commit and push changes.
+8. Create a pull request to merge your changes into the gh-pages branch.
 
 ### Generate publication
 
