@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/NLeSC/software.esciencecenter.nl.svg?branch=gh-pages)](https://travis-ci.org/NLeSC/software.esciencecenter.nl)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/30fa8eb9a38c44cf85dbfd353b7f4688)](https://www.codacy.com/app/NLeSC/software-esciencecenter-nl)
 
-Data on software, projects, people, publications and reports in eStep.
+Data on software, projects, people, organizations, publications and reports in eStep.
 
 ## tl;dr
 

@@ -75,7 +75,7 @@
 			}
 		},
 		"description" : {
-			"description": "Person description, bio and/or CV.",
+			"description": "Person description, bio and/or CV, in Markdown format underneath Frontmatter (---) in Markdown files",
 			"type" : "string"
 		},
 		"photo" : {

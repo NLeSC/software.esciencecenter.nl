@@ -4,11 +4,15 @@ authorOfReport:
 - /report/software-sustainability
 - /report/data-stewardship
 involvedIn:
+- /project/primavera
 - /project/beyond-the-data-explosion
 - /project/computational-chemistry-made-easy
+- /project/enhancing-protein-drug-binding-prediction
+- /project/e-musc
 - /project/simcity
 - /project/biomarker
 - /project/emetabolomics
+- /project/towards-large-scale-cloud-resolving-climate-simulations
 - /project/twinl
 - /project/odex4all
 - /project/candygene

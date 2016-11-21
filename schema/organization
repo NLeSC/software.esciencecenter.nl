@@ -20,7 +20,7 @@
 			"format" : "uri"
 		},
 		"description" : {
-			"description": "Organization description.",
+			"description": "Organization description, in Markdown format underneath Frontmatter (---) in Markdown files",
 			"type" : "string"
 		},
 		"website": {
