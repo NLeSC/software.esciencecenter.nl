@@ -5,6 +5,7 @@ involvedIn:
 - /project/big-data-analytics-in-the-geo-spatial-domain
 - /project/massive-point-clouds-for-esciences
 - /project/compressing-the-sky-into-a-large-collection-of-statistical-models
+- /project/towards-large-scale-cloud-resolving-climate-simulations
 logo: /images/organization/cwi.png
 name: CWI
 tagLine: Centrum Wiskunde & Informatica

@@ -21,7 +21,7 @@ dataFormat:
 - Grib
 - HDF5
 - CSV
-contactPerson: http://software.esciencecenter.nl/person/g.vandenoord
+contactPerson: /person/g.vandenoord
 coordinator: http://software.esciencecenter.nl/person/r.bakhshi
 engineer:
 - http://software.esciencecenter.nl/person/g.vandenoord
@@ -54,4 +54,4 @@ This project team will use state-of-the-art high performance computing (HPC) tec
 
 The overarching goal is to develop and explore a computational tool that is able to realistically resolve the interaction between the large-scale atmospheric circulation and the smaller scale cloud and convective processes.
 
-Image source: [Perhaps the most impressive of cloud formations, cumulonimbus (from the Latin for “pile” and “rain cloud”) clouds form due to vigorous convection (rising and overturning) of warm, moist, and unstable air – by NASA](http://eol.jsc.nasa.gov/SearchPhotos/photo.pl?mission=ISS016&roll=E&frame=27426) 
+Image source: [Perhaps the most impressive of cloud formations, cumulonimbus (from the Latin for “pile” and “rain cloud”) clouds form due to vigorous convection (rising and overturning) of warm, moist, and unstable air – by NASA](http://eol.jsc.nasa.gov/SearchPhotos/photo.pl?mission=ISS016&roll=E&frame=27426)
