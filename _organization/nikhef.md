@@ -15,4 +15,4 @@ userOf:
 - /software/paxer
 website: http://www.nikhef.nl/
 ---
-NIKHEF
+Nikhef is the National Institute for Subatomic Physics. Our research is aimed at particle and astroparticle physics.

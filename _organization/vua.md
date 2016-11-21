@@ -2,6 +2,7 @@
 involvedIn:
 - /project/generic-escience-technologies
 - /project/computational-chemistry-made-easy
+- /project/enhancing-protein-drug-binding-prediction
 - /project/from-sentiment-mining-to-mining-embodied-emotions
 - /project/visualizing-uncertainty-and-perspectives
 - /project/big-data-analytics-in-the-geo-spatial-domain
@@ -27,4 +28,3 @@ userOf:
 - /software/noodles
 website: http://www.vu.nl/
 ---
-
