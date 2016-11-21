@@ -3,6 +3,7 @@ competence:
 - Efficient Computing
 - Optimized Data Handling
 contactPerson: /person/f.diblen
+coordinator: /person/r.bakhshi
 discipline:
 - Physics & Beyond
 - eScience Methodology
@@ -32,4 +33,3 @@ startDate: 2016-04-01
 tagLine: Project combines the worldwide data within the most general models of Dark
   Matter.
 ---
-

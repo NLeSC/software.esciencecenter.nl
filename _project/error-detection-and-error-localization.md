@@ -31,6 +31,8 @@ principalInvestigator:
   website: https://www.astron.nl/r-d-laboratory/competence-and-support-groups/staff/albert-jan-boonstra/albert-jan-boonstra
 startDate: 2016-01-01
 tagLine: Machine Learning for System Health Management in radio astronomy
+uses:
+- /software/casacore
 ---
 In modern radio telescopes, System Health Management (SHM) systems are
 crucial for (early) detection of errors and for remedying them. Due to

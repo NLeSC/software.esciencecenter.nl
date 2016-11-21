@@ -9,7 +9,7 @@ githubUrl: https://github.com/dafnevk
 jobTitle: eScience Research Engineer
 affiliation:
 - /organization/nlesc
-photo: 
+photo:
 contactPersonOf:
 
 ownerOf:
@@ -19,6 +19,8 @@ contributorOf:
 userOf:
 
 engineerOf:
+- /project/enhancing-protein-drug-binding-prediction
+
 
 ---
 Dafne studied Computer Science and Mathematics at Utrecht University. During her master studies, she focused on Machine Learning and Data Analytics. Her master thesis was on recognizing product names using Conditional Random Fields, which she developed during her internship at VigLink in San Francisco.

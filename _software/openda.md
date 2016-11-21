@@ -6,6 +6,7 @@ contributor:
 name: OpenDA
 endorsedBy:
 - /organization/nlesc
+- /organization/deltares
 tagLine: Data Assimilation Toolbox
 usedIn:
 - /project/ewatercycle
