@@ -1,7 +1,8 @@
 ---
 codeRepository: https://github.com/AnalyticalGraphicsInc/cesium
 competence:
-- eScience Methodology
+- Optimized Data Handling
+- Efficient Computing
 contactPerson:
 contributingOrganization:
 contributor:
