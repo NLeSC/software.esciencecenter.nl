@@ -55,6 +55,7 @@ organizationOf:
 - /person/j.vanderzwaan
 - /person/o.rubi
 ownerOf:
+- /software/oxfrei-dataset
 - /software/fairdatapoint
 - /software/xenon
 - /software/eastroviz
@@ -101,6 +102,7 @@ researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_C
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
 userOf:
+- /software/oxfrei-dataset
 - /software/xenon
 - /software/metrochart
 - /software/noodles

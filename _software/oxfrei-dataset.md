@@ -9,7 +9,7 @@ license:
 competence:
 - Big Data Analytics
 discipline:
-- eScience methodology
+- eScience Methodology
 expertise:
 - Computer Vision
 supportLevel: specialized
