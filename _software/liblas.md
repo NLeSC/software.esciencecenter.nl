@@ -8,6 +8,8 @@ contributingOrganization:
 contributor:
 - /person/o.rubi
 - /person/r.goncalves
+dependencyOf:
+- /software/casacore
 discipline:
 - eScience Methodology
 expertise:

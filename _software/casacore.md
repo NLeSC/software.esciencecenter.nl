@@ -6,8 +6,6 @@ contributingOrganization:
 - /organization/astron
 dependency:
 - /software/liblas
-dependencyOf:
-- /software/pycasa
 discipline:
 - Physics & Beyond
 documentationUrl: http://casacore.github.io/casacore
@@ -21,11 +19,11 @@ name: Casacore
 owner:
 - /organization/astron
 programmingLanguage:
-- c++
+- C++
 status: active
 tagLine: A suite of c++ libraries for radio astronomy data processing.
 usedIn:
-- /project/error-detection-and-error-localization.md
+- /project/error-detection-and-error-localization
 user:
 - /organization/astron
 - /organization/nlesc

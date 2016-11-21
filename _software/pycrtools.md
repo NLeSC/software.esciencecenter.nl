@@ -5,7 +5,9 @@ contributingOrganization:
 - /organization/astron
 - /organization/radboud.university.nijmegen
 contributor:
-- /person/m.vandenakker
+- name: M. Vandenakker
+  affiliation:
+  - /organization/astron
 discipline:
 - Physics & Beyond
 programmingLanguage:
@@ -15,4 +17,3 @@ dependency:
 website: http://www.astro.ru.nl/software/pycrtools
 ---
 Python wrapper around CR-Tools.
-
