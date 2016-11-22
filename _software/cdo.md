@@ -1,7 +1,7 @@
 ---
 name: cdo
 endorsedBy:
-- /organization/knmi
+- http://software.esciencecenter.nl/organization/knmi
 programmingLanguage:
 - Fortran
 license:
@@ -18,8 +18,8 @@ owner:
 - name: Max Planck Institute for Meteorology  
   website: https://code.zmaw.de/
 user:
-- /organization/knmi
-- /organization/nlesc
+- http://software.esciencecenter.nl/organization/knmi
+- http://software.esciencecenter.nl/organization/nlesc
 status: active
 technologyTag:
 - data analysis

@@ -1,7 +1,7 @@
 ---
 name: EC-Earth
 endorsedBy:
-- /organization/knmi
+- http://software.esciencecenter.nl/organization/knmi
 tagLine: Atmosphere-ocean general circulation model
 codeRepository: https://svn.ec-earth.org/ecearth3
 programmingLanguage:
@@ -21,11 +21,11 @@ owner:
 - name: The EC-Earth consortium
   website: http://www.ec-earth.org
 contributingOrganization:
-- /organization/knmi
+- http://software.esciencecenter.nl/organization/knmi
 user:
-- /organization/nlesc
+- http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
-- /organization/nlesc
+- http://software.esciencecenter.nl/organization/nlesc
 status: active
 technologyTag:
 - Simulation

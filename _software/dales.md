@@ -1,8 +1,8 @@
 ---
 name: dales
 endorsedBy:
-- /organization/knmi
-- /organization/tudelft
+- http://software.esciencecenter.nl/organization/knmi
+- http://software.esciencecenter.nl/organization/tudelft
 tagLine:
 codeRepository: https://github.com/dalesteam/dales
 programmingLanguage:
@@ -19,12 +19,12 @@ supportLevel: advanced
 owner:
 - name: TU Delft
 contributingOrganization:
-- /organization/knmi
+- http://software.esciencecenter.nl/organization/knmi
 user:
-- /organization/nlesc
+- http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
-- /organization/nlesc
-- /organization/knmi
+- http://software.esciencecenter.nl/organization/nlesc
+- http://software.esciencecenter.nl/organization/knmi
 status: active
 technologyTag:
 - Simulation

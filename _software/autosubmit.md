@@ -20,9 +20,9 @@ owner:
 - name: Barcelona Supercomputing Center (BSC)
   website: https://www.bsc.es/
 user:
-- /organization/knmi
+- http://software.esciencecenter.nl/organization/nlesc
 involvedOrganization:
-- /organization/nlesc
+- http://software.esciencecenter.nl/organization/nlesc
 status: active
 technologyTag:
 - orchestrated computing
