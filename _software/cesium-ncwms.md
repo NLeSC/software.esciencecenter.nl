@@ -24,6 +24,8 @@ programmingLanguage:
 - Java
 startDate: 2014-10-08
 status: active
+dependency:
+- /software/cesium
 tagLine: 3D Globe Visualization of NetCDF data.
 technologyTag:
 - Visualization

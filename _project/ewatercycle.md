@@ -33,6 +33,7 @@ tagLine: Global water information when it matters
 uses:
 - /software/openda
 - /software/cesium-ncwms
+- /software/cesium
 website: http://ewatercycle.org
 ---
 If you would know that ten days from now a flood will be at your doorstep, what would you do? You would have time to prepare emergency measures but also move your belongings to higher grounds. It might even be possible to sacrifice inexpensive farmland to save a central business district. Ten days can make a major difference. This is exactly the aim of the eWaterCycle project: to predict flood and drought events 10 days in advance, worldwide and in high resolution. The featured movie shows a setting in which the city of Mandalay is saved from a hypothetical flood. The model can act as an early warning system and enable companies, people and governments to prepare for the rising water.

@@ -35,6 +35,8 @@ startDate: 2015-06-20
 tagLine: Modern Big Data front and backends in the hunt for Dark Matter.
 uses:
 - /software/root-conda-recipes
+- /software/pyroot
+- /software/root
 website: http://www.xenon1t.org
 ---
 This project presents a way to harmonize two ecosystems: High Energy Physics (domain-specific) and the Big Data Analytics (generic). The goal is to organize software and data such that researchers can work with existing particle physics infrastructure, yet still use modern communal Big Data tools.
