@@ -2,7 +2,7 @@
 name: autosubmit
 endorsedBy:
 - /organization/knmi
-tagLine:
+tagLine: Versatile tool to manage Weather and Climate Experiments in diverse Supercomputing Environments
 programmingLanguage:
 - Python
 license:
