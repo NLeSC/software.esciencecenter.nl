@@ -1,5 +1,6 @@
 ---
 involvedIn:
+- /project/e-musc
 - /project/generic-escience-technologies
 - /project/simcity
 - /project/hadrianus
@@ -9,6 +10,7 @@ involvedIn:
 - /project/eecology
 - /project/esibayes
 - /project/idark
+- /project/arena
 logo: /images/organization/uva.jpg
 name: University of Amsterdam
 ownerOf:

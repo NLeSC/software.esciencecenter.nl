@@ -31,7 +31,7 @@ supportLevel: specialized
 tagLine: pymicmac provides a python interface for MicMac workflows execution and distributed computing tools for MicMac.
 technologyTag:
 - Distributed
-- Workflow
+- workflow
 - Library
 - Point clouds
 usedIn:

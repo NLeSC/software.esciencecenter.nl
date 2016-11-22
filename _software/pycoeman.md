@@ -30,7 +30,7 @@ supportLevel: specialized
 tagLine: pycoeman (Python Commands Execution Manager) is a Python toolkit for executing command-line commands.
 technologyTag:
 - Distributed
-- Workflow
+- workflow
 - Library
 usedIn:
 - /project/improving-photogrammetry

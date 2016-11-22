@@ -42,7 +42,7 @@ status: active
 supportLevel: specialized
 tagLine: Programmable workflow engine for Python.
 technologyTag:
-- Workflow
+- workflow
 usedIn:
 - /project/computational-chemistry-made-easy
 - /project/improving-photogrammetry

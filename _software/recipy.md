@@ -19,7 +19,7 @@ contactPerson: /person/j.vanderzwaan
 owner:
 - name: Robin Wilson
   affiliation:
-  - /organization/uva
+  - /organization/university.of.southampton
   website: http://www.rtwilson.com
 - /organization/nlesc
 contributingOrganization:
@@ -27,7 +27,7 @@ contributingOrganization:
 contributor:
 - name: Robin Wilson
   affiliation:
-  - /organization/uva
+  - /organization/university.of.southampton
   website: http://www.rtwilson.com
 - /person/j.vanderzwaan
 user:

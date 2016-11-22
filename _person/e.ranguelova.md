@@ -8,10 +8,13 @@ contactPersonOf:
 - /project/eecology
 - /project/error-detection-and-error-localization
 - /software/salient-region-detectors
+- /software/oxfrei-dataset
 contributorOf:
 - /software/salient-region-detectors
 - /software/pattydata
+- /software/oxfrei-dataset
 coordinatorOf:
+- /project/arena
 - /project/era-urban
 - /project/eecology
 - /project/summer-in-the-city

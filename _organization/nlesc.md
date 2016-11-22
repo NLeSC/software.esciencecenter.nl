@@ -4,11 +4,16 @@ authorOfReport:
 - /report/software-sustainability
 - /report/data-stewardship
 involvedIn:
+- /project/arena
+- /project/primavera
 - /project/beyond-the-data-explosion
 - /project/computational-chemistry-made-easy
+- /project/enhancing-protein-drug-binding-prediction
+- /project/e-musc
 - /project/simcity
 - /project/biomarker
 - /project/emetabolomics
+- /project/towards-large-scale-cloud-resolving-climate-simulations
 - /project/twinl
 - /project/odex4all
 - /project/candygene
@@ -55,6 +60,7 @@ organizationOf:
 - /person/j.vanderzwaan
 - /person/o.rubi
 ownerOf:
+- /software/oxfrei-dataset
 - /software/fairdatapoint
 - /software/xenon
 - /software/eastroviz
@@ -101,6 +107,14 @@ researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_C
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
 userOf:
+- /software/harmony
+- /software/openifs
+- /software/dales
+- /software/ec-earth
+- /software/cdo
+- /software/autosubmit
+- /software/oxfrei-dataset
+- /software/casacore
 - /software/xenon
 - /software/metrochart
 - /software/noodles

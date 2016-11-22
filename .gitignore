@@ -65,3 +65,7 @@ target/
 # Idea/PyCharm
 .idea
 
+# ignore Python virtual environment (assuming people follow the naming 
+# from the README)
+.env3
+
