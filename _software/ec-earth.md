@@ -5,7 +5,7 @@ endorsedBy:
 tagLine: Atmosphere-ocean general circulation model
 codeRepository: https://svn.ec-earth.org/ecearth3
 programmingLanguage:
-- Fortran
+- FORTRAN
 - C++
 license:
 - Unknown

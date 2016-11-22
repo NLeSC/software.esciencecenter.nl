@@ -107,6 +107,12 @@ researchgateUrl: https://www.researchgate.net/institution/Netherlands_eScience_C
 tagLine: Netherlands eScience Center
 twitterUrl: https://twitter.com/esciencecenter
 userOf:
+- /software/harmony
+- /software/openifs
+- /software/dales
+- /software/ec-earth
+- /software/cdo
+- /software/autosubmit
 - /software/oxfrei-dataset
 - /software/casacore
 - /software/xenon

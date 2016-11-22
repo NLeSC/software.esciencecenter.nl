@@ -4,8 +4,9 @@ endorsedBy:
 - /organization/knmi
 - /organization/ecmwf
 programmingLanguage:
-- Fortran
-license: Unknown
+- FORTRAN
+license:
+- Unknown
 competence:
 - Efficient Computing
 discipline:

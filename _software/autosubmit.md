@@ -3,7 +3,6 @@ name: autosubmit
 endorsedBy:
 - /organization/knmi
 tagLine:
-codeRepository: unknown
 programmingLanguage:
 - Python
 license:

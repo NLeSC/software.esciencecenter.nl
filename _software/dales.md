@@ -6,7 +6,7 @@ endorsedBy:
 tagLine:
 codeRepository: https://github.com/dalesteam/dales
 programmingLanguage:
-- Fortran
+- FORTRAN
 license:
 - gpl-3.0
 competence:

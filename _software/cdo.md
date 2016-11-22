@@ -3,7 +3,7 @@ name: cdo
 endorsedBy:
 - http://software.esciencecenter.nl/organization/knmi
 programmingLanguage:
-- Fortran
+- FORTRAN
 license:
 - gpl-2.0
 competence:

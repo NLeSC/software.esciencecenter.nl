@@ -3,9 +3,8 @@ name: Harmony
 endorsedBy:
 - /organization/knmi
 tagLine: Regional Atmospheric model
-codeRepository: unknown
 programmingLanguage:
-- Fortran
+- FORTRAN
 license:
 - Unknown
 competence:
