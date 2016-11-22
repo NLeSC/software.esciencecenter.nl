@@ -1,9 +1,13 @@
 ---
 name: Koninklijk Nederlands Meteorologisch Instituut
-website: http://www.knmi.nl
+website: http://www.knmi.nl/
 tagLine: Koninklijk Nederlands Meteorologisch Instituut
-logo: http://cdn.knmi.nl/assets/logo_large-877e5d8acaf3b3728d1951a1119ac002.png
+logo: /images/organization/knmi.png
 involvedIn:
-- http://software.esciencecenter.nl/project/hadrianus
+- /project/primavera
+- /project/towards-large-scale-cloud-resolving-climate-simulations
+userOf:
+- /software/openifs
+- /software/cdo
 ---
-Koninklijk Nederlands Instituut in Rome
+The Royal Netherlands Meteorological Institute (KNMI) is the Dutch national weather service. Primary tasks of KNMI are weather forecasting, and monitoring of weather, climate, air quality and seismic activity. KNMI is also the national research and information centre for meteorology, climate, air quality, and seismology.

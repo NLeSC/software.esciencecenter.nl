@@ -127,13 +127,13 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
@@ -245,7 +245,8 @@
  * Software
  */
 .logo {
-    width: 400px;
+    max-width: 400px;
+    max-height: 350px;
 }
 
 .diagram {
@@ -301,6 +302,7 @@
 .expertise-list li:after,
 .technology-tag-list li:after,
 .competence-list li:after,
+.license-list li:after,
 .programming-language-list li:after {
     content: "";
 }
@@ -310,6 +312,7 @@
 .expertise-list li,
 .technology-tag-list li,
 .competence-list li,
+.license-list li,
 .programming-language-list li
 {
     border: 1px solid #01769D;
@@ -322,6 +325,7 @@
     display: inline-block;
 }
 .status a:visited, .status a:active, .status a:link,
+.license-list a:visited, .license-list a:active, .license-list a:link,
 .discipline-list li a:visited, .discipline-list li a:active, .discipline-list li a:link,
 .expertise-list li a:visited, .expertise-list li a:active, .expertise-list li a:link,
 .technology-tag-list li a:visited, .technology-tag-list li a:active, .technology-tag-list li a:link,
@@ -395,6 +399,18 @@ ul li:last-child:after {
     content: "";
 }
 
+ul.social-media-list {
+    display: block;
+    list-style: initial;
+}
+ul.social-media-list li {
+    display: block;
+}
+ul.social-media-list li:after {
+    content: "";
+}
+
+
 .person-container, .project-container, .organization-container {
     flex-wrap: wrap;
   -ms-box-orient: horizontal;
@@ -457,6 +473,7 @@ img.empty {
     width: 220px;
 }
 
+
 /*
  * Organization
  */
@@ -469,4 +486,154 @@ img.empty {
     display: block;
     margin-bottom: 10px;
     margin-right: 15px;
+}
+
+
+.nlesc-logo {
+    width: 300px;
+}
+
+#network-eb-graph {
+    margin: 30px;
+}
+
+#network-fd-graph {
+    margin: 30px;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.node {
+  font: 300 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: #bbb;
+}
+
+.node:hover {
+  fill: #000;
+}
+
+.link {
+  stroke: steelblue;
+  stroke-opacity: .4;
+  fill: none;
+  pointer-events: none;
+}
+
+.node:hover,
+.node--source,
+.node--target {
+  font-weight: 700;
+}
+
+.node--source {
+  fill: #2ca02c;
+}
+
+.node--target {
+  fill: #d62728;
+}
+
+.link--source,
+.link--target {
+  stroke-opacity: 1;
+  stroke-width: 2px;
+}
+
+.link--source {
+  stroke: #d62728;
+}
+
+.link--target {
+  stroke: #2ca02c;
+}
+
+g.legend text {
+  font-size: x-small;
+}
+
+
+/*
+ * Report
+ */
+
+.reports {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.report {
+   box-shadow: 0px 0px 3px 1px $grey-color-light;
+   margin: 5px;
+   padding: 5px;
+   overflow: auto;
+   display: block;
+   text-decoration: none;
+   height: 315px;
+   width: 425px;
+}
+
+.report a {
+   text-decoration: none;
+}
+
+.report:hover a {
+   background: darken($background-color, 5%);
+   text-decoration: none;
+}
+
+.report:hover {
+   background: darken($background-color, 5%);
+   text-decoration: none;
+}
+
+.cover {
+    box-shadow: 0px 0px 1px 1px $grey-color-dark;
+#    display: block;
+    float: left;
+    height: 165px;
+    width: 117px;
+    margin: 5px;
+}
+
+.report h2 {
+    margin-bottom: 2px;
+    color: $brand-color;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.report h3 {
+    margin-bottom: 2px;
+    color: darken($brand-color, 20%);
+    text-decoration: none;
+    font-size: 1.20em;
+}
+
+.report p {
+    margin-bottom: 2px;
+    text-decoration: none;
+    color: $text-color;
+}
+
+.search-panel {
+    display: none;
+}
+
+/*
+ * Publication
+ */
+ul.publications {
+    display: block;
+    list-style: disc outside none;
+}
+
+.publications li {
+    display: list-item;
+}
+
+.publications li:after {
+    content: "";
 }

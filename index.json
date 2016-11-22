@@ -1,0 +1,49 @@
+---
+layout: null
+---
+{
+  "software": [{% for item in site.software %}{
+      "@id": {{ item.url | replace:'.html','' | prepend:site.url | jsonify }},
+      {% for k in item %}{% unless site.json_excludes contains k %}{{ k | jsonify }}: {{ item[k] | jsonify }},
+      {% endunless %}{% endfor %}
+      "description": {{ item.content | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}],
+  "project": [{% for item in site.project %}{
+      "@id": {{ item.url | replace:'.html','' | prepend:site.url | jsonify }},
+      {% for k in item %}{% unless site.json_excludes contains k %}{{ k | jsonify }}: {{ item[k] | jsonify }},
+      {% endunless %}{% endfor %}
+      "description": {{ item.content | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}],
+  "person": [{% for item in site.person %}{
+      "@id": {{ item.url | replace:'.html','' | prepend:site.url | jsonify }},
+      {% for k in item %}{% unless site.json_excludes contains k %}{{ k | jsonify }}: {{ item[k] | jsonify }},
+      {% endunless %}{% endfor %}
+      "description": {{ item.content | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}],
+  "organization": [{% for item in site.organization %}{
+      "@id": {{ item.url | replace:'.html','' | prepend:site.url | jsonify }},
+      {% for k in item %}{% unless site.json_excludes contains k %}{{ k | jsonify }}: {{ item[k] | jsonify }},
+      {% endunless %}{% endfor %}
+      "description": {{ item.content | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}],
+  "report": [{% for item in site.report %}{
+      "@id": {{ item.url | replace:'.html','' | prepend:site.url | jsonify }},
+      {% for k in item %}{% unless site.json_excludes contains k %}{{ k | jsonify }}: {{ item[k] | jsonify }},
+      {% endunless %}{% endfor %}
+      "date": {{ item.date | date_to_xmlschema | jsonify }},
+      "description": {{ item.content | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}],
+  "publication": [{% for item in site.publication %}{
+      "@id": {{ item.url | replace:'.html','' | prepend:site.url | jsonify }},
+      {% for k in item %}{% unless site.json_excludes contains k %}{{ k | jsonify }}: {{ item[k] | jsonify }},
+      {% endunless %}{% endfor %}
+      "date": {{ item.date | date_to_xmlschema | jsonify }},
+      "description": {{ item.content | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}]
+}

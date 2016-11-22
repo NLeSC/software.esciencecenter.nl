@@ -1,4 +1,7 @@
 ---
+involvedIn:
+- /project/from-sentiment-mining-to-mining-embodied-emotions
+logo: /images/organization/meertens.png
 name: Meertens Institute
 website: http://www.meertens.knaw.nl
 ---
