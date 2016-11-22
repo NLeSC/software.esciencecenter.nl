@@ -27,5 +27,6 @@ involvedOrganization:
 status: active
 technologyTag:
 - Simulation
+tagLine: Easy-to-use version of the ECMWF Integrated Forecasting System
 ---
 The OpenIFS programme at ECMWF provides academic and research institutions with an easy-to-use version of the ECMWF IFS (Integrated Forecasting System) (OpenIFS model), the single column model (SCM) and the offline-surface model (OSM). The OpenIFS model provides the full forecast capability of IFS, supporting software and documentation but without the data assimilation system. OpenIFS has a support team at ECMWF for technical assistance but limited resources for detailed scientific assistance.

@@ -3,7 +3,7 @@ name: dales
 endorsedBy:
 - http://software.esciencecenter.nl/organization/knmi
 - http://software.esciencecenter.nl/organization/tudelft
-tagLine:
+tagLine: large-eddy simulation code designed for studies of the physics of the atmospheric boundary layer
 codeRepository: https://github.com/dalesteam/dales
 programmingLanguage:
 - FORTRAN

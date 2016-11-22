@@ -24,6 +24,7 @@ status: active
 technologyTag:
 - data analysis
 - postprocessing
+tagLine: A collection of command line operators to manipulate and analyse climate and NWP model data.
 ---
 CDO is a collection of command line Operators to manipulate and analyse Climate and NWP model Data.
 Supported data formats are GRIB 1/2, netCDF 3/4, SERVICE, EXTRA and IEG. There are more than 600 operators available.
