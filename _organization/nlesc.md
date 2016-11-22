@@ -4,6 +4,7 @@ authorOfReport:
 - /report/software-sustainability
 - /report/data-stewardship
 involvedIn:
+- /project/arena
 - /project/beyond-the-data-explosion
 - /project/computational-chemistry-made-easy
 - /project/simcity

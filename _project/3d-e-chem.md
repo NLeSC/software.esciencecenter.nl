@@ -37,6 +37,7 @@ tagLine: Integration of ligand and protein data for structure-based prediction o
   protein-ligand selectivity and polypharmacology
 uses:
 - /software/3d-e-chem-vm
+- /software/cclustera
 - /software/knime-archetype
 - /software/chemical-analytics-platform
 - /software/rdkit

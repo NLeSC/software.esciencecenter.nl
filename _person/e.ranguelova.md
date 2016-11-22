@@ -12,6 +12,7 @@ contributorOf:
 - /software/salient-region-detectors
 - /software/pattydata
 coordinatorOf:
+- /project/arena
 - /project/era-urban
 - /project/eecology
 - /project/summer-in-the-city
