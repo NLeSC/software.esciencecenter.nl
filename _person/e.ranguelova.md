@@ -14,6 +14,7 @@ contributorOf:
 - /software/pattydata
 - /software/oxfrei-dataset
 coordinatorOf:
+- /project/arena
 - /project/era-urban
 - /project/eecology
 - /project/summer-in-the-city
