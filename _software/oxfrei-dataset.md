@@ -3,7 +3,7 @@ name: OxFrei dataset dataset
 endorsedBy:
 - /organization/nlesc
 tagLine: image dataset for transformation-independant interest region detection
-doi: http://dx.doi.org/10.5281/zenodo.5156
+doi: http://dx.doi.org/10.5281/zenodo.45155
 license:
 - cc-by
 competence:
