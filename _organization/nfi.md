@@ -9,7 +9,7 @@ tagLine: In feiten het beste
 twitterUrl: https://twitter.com/nedforinst
 userOf:
 - /project/sherlock
-- /software/metrochart
+- /software/metrochartjs
 website: http://www.nederlandsforensischinstituut.nl/
 ---
 Het Nederlands Forensisch Instituut (NFI) bevordert het optimaal functioneren van de rechtshandhaving en rechtspleging vanuit een focus op natuurwetenschappelijke informatieposities.
