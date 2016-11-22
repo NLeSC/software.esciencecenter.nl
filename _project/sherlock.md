@@ -32,7 +32,7 @@ tagLine: Sherlock is an NLeSC-wide project in which all eScience Research engine
   of the NLeSC work together.
 uses:
 - /software/rig
-- /software/metrochart
+- /software/metrochartjs
 - /software/matrix-of-scatter
 website: https://github.com/nlesc-sherlock
 ---

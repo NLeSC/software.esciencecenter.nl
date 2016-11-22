@@ -65,7 +65,7 @@ ownerOf:
 - /software/xenon
 - /software/eastroviz
 - /software/noodles
-- /software/metrochart
+- /software/metrochartjs
 - /software/cptm
 - /software/recipy
 - /software/eecology-annotation
@@ -116,7 +116,7 @@ userOf:
 - /software/oxfrei-dataset
 - /software/casacore
 - /software/xenon
-- /software/metrochart
+- /software/metrochartjs
 - /software/noodles
 - /software/recipy
 - /software/pattyvis

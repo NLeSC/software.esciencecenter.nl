@@ -1,5 +1,5 @@
 ---
-codeRepository: https://github.com/jspaaks/metrochart
+codeRepository: https://github.com/nlesc-sherlock/metrochartjs
 competence:
 - Big Data Analytics
 contactPerson: /person/j.spaaks
@@ -9,7 +9,7 @@ contributor:
 - /person/j.spaaks
 discipline:
 - eScience Methodology
-documentationUrl: http://jspaaks.github.io/metrochart/tsdoc
+documentationUrl: http://nlesc-sherlock.github.io/metrochartjs/sites/tsdoc/
 expertise:
 - Information Visualization
 - Scientific Visualization
@@ -17,7 +17,7 @@ involvedOrganization:
 - /organization/nlesc
 license:
 - apache-2.0
-name: metrochart.js
+name: metrochartjs
 endorsedBy:
 - /organization/nlesc
 owner:
@@ -39,6 +39,6 @@ user:
 - /organization/nlesc
 - /organization/nfi
 - /person/j.spaaks
-website: http://jspaaks.github.io/metrochart
+website: https://github.com/nlesc-sherlock/metrochartjs
 ---
 TypeScript library to visualize graphs in the style of metroline maps.

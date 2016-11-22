@@ -4,14 +4,14 @@ affiliation:
 authorOfReport:
 - /report/xenon-tutorial
 contactPersonOf:
-- /software/metrochart
+- /software/metrochartjs
 - /software/google-earth-toolbox-for-matlab
 - /software/differential-evolution
 - /software/matrix-of-scatter
 - /software/mmsoda-toolbox-for-matlab
 - /project/esibayes
 contributorOf:
-- /software/metrochart
+- /software/metrochartjs
 - /software/sfm
 - /software/google-earth-toolbox-for-matlab
 - /software/differential-evolution
@@ -35,7 +35,7 @@ ownerOf:
 - /software/mmsoda-toolbox-for-matlab
 photo: /images/person/j.spaaks.jpg
 userOf:
-- /software/metrochart
+- /software/metrochartjs
 - /software/google-earth-toolbox-for-matlab
 - /software/differential-evolution
 - /software/matrix-of-scatter
