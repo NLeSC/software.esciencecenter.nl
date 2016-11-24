@@ -2,7 +2,6 @@
 programmingLanguage:
     - C
 license:
-    - null
 competence:
     - 'Big Data Analytics'
 discipline:
@@ -13,16 +12,12 @@ expertise:
 endorsedBy: []
 contributingOrganization:
     - /organization/cwi
-usedIn:
-    - null
-dependency:
-    - null
+usedIn:    
+dependency:    
 dependencyOf:
-    - null
 technologyTag:
     - PatternDiscovery
 badges:
-    - null
 name: CompLearn
 tagLine: 'CompLearn is a suite of simple-to-use utilities to apply compression techniques on discovering and learning patterns.'
 codeRepository: 'https://github.com/rudi-cilibrasi/libcomplearn'
