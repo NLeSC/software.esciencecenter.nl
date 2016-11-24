@@ -2,7 +2,6 @@
 programmingLanguage:
     - MATLAB
 license:
-    - null
 competence:
     - 'Big Data Analytics'
 discipline:
@@ -14,15 +13,12 @@ endorsedBy: []
 contributingOrganization:
     - /organization/cwi
 usedIn:
-    - null
 dependency:
-    - null
 dependencyOf:
     - 'http://nl.mathworks.com/products/matlab/'
 technologyTag:
     - ImageProcessing
 badges:
-    - null
 name: Matifus
 tagLine: 'Matifus is a Matlab ® toolbox for 2D image fusion.'
 website: 'http://homepages.cwi.nl/%7Epauldz/Bulk/Codes/MATIFUS/'
