@@ -45,6 +45,7 @@ involvedIn:
 - /project/drwatson
 - /project/shico
 - /project/beyond-the-book
+- /project/neutrino
 linkedInUrl: https://www.linkedin.com/company/netherlands-escience-center
 logo: /images/organization/nlesc.jpg
 name: Netherlands eScience Center
@@ -116,6 +117,7 @@ userOf:
 - /software/oxfrei-dataset
 - /software/casacore
 - /software/xenon
+- /software/kernel_tuner
 - /software/metrochartjs
 - /software/noodles
 - /software/recipy

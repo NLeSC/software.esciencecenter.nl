@@ -2,6 +2,7 @@
 involvedIn:
 - /project/automated-parallel-calculation-of-collaborative-statistical-models
 - /project/pandas-root
+- /project/neutrino
 logo: /images/organization/nikhef.jpg
 name: NIKHEF
 tagLine: National Institute for Subatomic Physics
