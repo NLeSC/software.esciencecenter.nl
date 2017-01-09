@@ -3,9 +3,10 @@ competence:
 - Optimized Data Handling
 - Efficient Computing
 contactPerson: /person/p.bos
+coordinator: /person/j.attema
 dataFormat:
 - ROOT binary format
-dataMagnitude: TB
+dataMagnitude: MB
 discipline:
 - Physics & Beyond
 endDate: 2019-12-31
@@ -26,9 +27,11 @@ nlescWebsite: https://www.esciencecenter.nl/project/automated-parallel-calculati
 principalInvestigator:
 - affiliation:
   - /organization/nikhef
-  name: Dr. Wouter Verkerke
+  name: Prof. dr. Wouter Verkerke
   website: https://www.nikhef.nl/en/for-nikhef-users/departments/scientific-departments/atlas/atlas-staff/?groupview=0&search=Wouter%20Verkerke
 startDate: 2016-05-15
 tagLine: Looking for unconfirmed or unknown fundamental physics
+uses:
+- /software/roofit
 ---
 Large scale statistical data analysis in particle physics

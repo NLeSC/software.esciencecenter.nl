@@ -19,6 +19,7 @@ coordinatorOf:
 - /project/drwatson
 - /project/beyond-the-book
 - /project/pidimehs
+- /project/automated-parallel-calculation-of-collaborative-statistical-models
 email: j.attema@esciencecenter.nl
 engineerOf:
 - /project/summer-in-the-city
