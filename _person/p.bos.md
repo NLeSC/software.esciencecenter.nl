@@ -6,10 +6,12 @@ contactPersonOf:
 - /project/pidimehs
 - /project/automated-parallel-calculation-of-collaborative-statistical-models
 - /software/pidilib
+- /software/roofit
 contributorOf:
 - /software/pattyvis
 - /software/cptm
 - /software/pidilib
+- /software/roofit
 email: p.bos@esciencecenter.nl
 engineerOf:
 - /project/pidimehs
@@ -28,7 +30,7 @@ userOf:
 - /software/xtas
 website: http://egpbos.nl
 ---
-Patrick has studied astronomy and philosophy and is finishing his PhD in cosmology at the Kapteyn Astronomical Institute of the University of Groningen. Patrick has worked on theoretical and observational problems in cosmology and extragalactic astronomy and has always taken a strongly computational approach.
+Patrick has studied astronomy and philosophy and has a PhD in cosmology from the Kapteyn Astronomical Institute of the University of Groningen. Patrick has worked on theoretical and observational problems in cosmology and extragalactic astronomy and has always taken a strongly computational approach.
 
 As an undergrad he used automated galaxy detection codes and the Astro-WISE database and later on focused on N-body simulations and structural analysis/visualization thereof. During his PhD, Patrick developed a Bayesian framework for inverting gravity to reconstruct the (ensemble of possible) initial conditions of the universe.
 
