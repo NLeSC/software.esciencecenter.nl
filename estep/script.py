@@ -283,7 +283,7 @@ def main(argv=sys.argv[1:]):
       -R, --no-local-resolve         Do not resolve local URLs
       -r, --resolve                  Resolve remote URLs
       --resolve-cache-expire=<days>  Timeout in days after the resolve cache expires, use 0 to disable cache [default: 14].
-      --endorser=<endorser>          Endorser of publication [default: NLeSC].
+      --endorser=<endorser>          Endorser of publication [default: /organization/nlesc].
       --project=<project>            Project responsible for publication. Format is an url like http://software.esciencecenter.nl/project/eMetabolomics
       <schema_type>                  One of (person, software, organization, project)
       <file>                         Single file to validate
