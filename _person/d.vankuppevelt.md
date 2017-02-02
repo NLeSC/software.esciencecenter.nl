@@ -16,7 +16,9 @@ ownerOf:
 
 contributorOf:
 - /software/salient-region-detectors
+- /software/mcfly
 userOf:
+- /software/mcfly
 
 engineerOf:
 - /project/enhancing-protein-drug-binding-prediction
