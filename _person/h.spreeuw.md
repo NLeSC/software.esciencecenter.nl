@@ -1,12 +1,15 @@
 ---
 affiliation:
 - /organization/nlesc
+engineerOf:
+- /project/neutrino
 githubUrl: https://github.com/HannoSpreeuw
 name: Hanno Spreeuw
 nlescWebsite: https://www.esciencecenter.nl/profile/dr.-hanno-spreeuw
 photo: https://www.esciencecenter.nl/img/team/hanno-spreeuw-web.jpg
 userOf:
 - /software/casacore
+- /software/kernel_tuner
 ---
 Hanno graduated in astronomy on the search and detection of low frequency radio transients with LOFAR. This involved the development of (Python) code for source extraction in radio maps.
 

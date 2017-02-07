@@ -3,6 +3,7 @@ affiliation:
 - /organization/nlesc
 contactPersonOf:
 - /software/kernel_tuner
+- /project/neutrino
 contributorOf:
 - /software/kernel_tuner
 - /software/xenon
@@ -10,6 +11,7 @@ contributorOf:
 email: b.vanwerkhoven@esciencecenter.nl
 engineerOf:
 - /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
+- /project/neutrino
 githubUrl: https://github.com/benvanwerkhoven
 endorsedBy:
 - /organization/nlesc

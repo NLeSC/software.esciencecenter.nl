@@ -33,9 +33,12 @@ technologyTag:
 - GPU Computing
 user:
 - /person/b.vanwerkhoven
+- /person/h.spreeuw
+- /organization/nlesc
 usedIn:
 - /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
 - /project/3d-geospatial-data-exploration-for-modern-risk-management-systems
+- /project/neutrino
 website: http://benvanwerkhoven.github.io/kernel_tuner/
 ---
 The goal of this project is to provide a - as simple as possible - tool for tuning CUDA and OpenCL kernels.

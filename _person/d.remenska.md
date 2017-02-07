@@ -11,6 +11,7 @@ contributorOf:
 email: d.remenska@esciencecenter.nl
 engineerOf:
 - /project/pandas-root
+- /project/neutrino
 githubUrl: https://github.com/remenska
 endorsedBy:
 - /organization/nlesc

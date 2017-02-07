@@ -2,6 +2,7 @@
 involvedIn:
 - /project/amuse
 - /project/abcmuse
+- /project/neutrino
 linkedInUrl: https://www.linkedin.com/company/leiden-university
 logo: /images/organization/leiden-university.png
 name: Leiden University

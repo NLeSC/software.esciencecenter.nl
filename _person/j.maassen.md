@@ -19,6 +19,7 @@ coordinatorOf:
 - /project/esalsa
 - /project/amuse
 - /project/abcmuse
+- /project/neutrino
 email: j.maassen@esciencecenter.nl
 engineerOf:
 - /project/a-jungle-computing-approach-to-large-scale-online-forensic-analysis
