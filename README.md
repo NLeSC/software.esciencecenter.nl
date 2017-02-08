@@ -67,7 +67,7 @@ The website uses Jekyll powered Github pages.
 
 To preview locally use docker:
 ```
-docker run --rm --volume=$(pwd):/srv/jekyll -i -t  -p 127.0.0.1:4000:4000 jekyll/jekyll:pages
+docker run --rm --volume=$(pwd):/srv/jekyll -i -t  -p 127.0.0.1:4000:4000 jekyll/jekyll:pages jekyll serve
 ```
 The website can be viewed on http://localhost:4000
 
