@@ -10,6 +10,8 @@ contactPersonOf:
 - /software/matrix-of-scatter
 - /software/mmsoda-toolbox-for-matlab
 - /project/esibayes
+- /software/spiraljs
+- /software/punchcardjs
 contributorOf:
 - /software/metrochartjs
 - /software/sfm
@@ -17,14 +19,16 @@ contributorOf:
 - /software/differential-evolution
 - /software/matrix-of-scatter
 - /software/mmsoda-toolbox-for-matlab
+- /software/spiraljs
+- /software/punchcardjs
 email: j.spaaks@esciencecenter.nl
+endorsedBy:
+- /organization/nlesc
 engineerOf:
 - /project/sherlock
 - /project/eecology
 - /project/esibayes
 githubUrl: https://github.com/jspaaks
-endorsedBy:
-- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Jurriaan H. Spaaks
 nlescWebsite: https://www.esciencecenter.nl/profile/drs-jurriaan-spaaks
@@ -40,6 +44,8 @@ userOf:
 - /software/differential-evolution
 - /software/matrix-of-scatter
 - /software/mmsoda-toolbox-for-matlab
+- /software/spiraljs
+- /software/punchcardjs
 ---
 Jurriaan's main responsibility as an eScience engineer is the implementation of inverse modeling algorithms such as DREAM, SCEM-UA, and SODA on cluster computers while improving the usability of these algorithms in the cluster environment.
 

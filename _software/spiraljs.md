@@ -1,5 +1,5 @@
 ---
-codeRepository: https://github.com/nlesc-sherlock/metrochartjs
+codeRepository: https://github.com/nlesc-sherlock/spiraljs
 competence:
 - Big Data Analytics
 contactPerson: /person/j.spaaks
@@ -13,7 +13,7 @@ contributor:
 - /person/l.veen
 discipline:
 - eScience Methodology
-documentationUrl: http://nlesc-sherlock.github.io/metrochartjs/sites/tsdoc/
+documentationUrl: http://nlesc-sherlock.github.io/spiraljs/sites/tsdoc
 expertise:
 - Information Visualization
 - Scientific Visualization
@@ -21,7 +21,7 @@ involvedOrganization:
 - /organization/nlesc
 license:
 - apache-2.0
-name: metrochartjs
+name: spiraljs
 endorsedBy:
 - /organization/nlesc
 owner:
@@ -31,11 +31,10 @@ programmingLanguage:
 startDate: 2015-11-17
 status: active
 supportLevel: specialized
-tagLine: Graph visualization using metrolines.
+tagLine: Time line data visualization using spiral charts.
 technologyTag:
 - Visualization
 - Website
-- Graph
 - Timeline
 usedIn:
 - /project/sherlock
@@ -43,6 +42,6 @@ user:
 - /organization/nlesc
 - /organization/nfi
 - /person/j.spaaks
-website: https://github.com/nlesc-sherlock/metrochartjs
+website: https://github.com/nlesc-sherlock/spiraljs
 ---
-TypeScript library to visualize graphs in the style of metroline maps.
+TypeScript library to visualize seasonal time line data on a spiral chart.
