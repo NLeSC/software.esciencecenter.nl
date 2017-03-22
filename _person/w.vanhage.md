@@ -6,6 +6,7 @@ contributorOf:
 - /software/rig
 coordinatorOf:
 - /project/simcity
+- /project/microscopy
 email: w.vanhage@esciencecenter.nl
 githubUrl: https://github.com/wrvhage
 endorsedBy:

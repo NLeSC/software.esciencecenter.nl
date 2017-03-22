@@ -2,6 +2,7 @@
 involvedIn:
 - /project/large-scale-data-assimilation
 - /project/ewatercycle
+- /project/microscopy
 - /project/massive-point-clouds-for-esciences
 - /project/big-data-analytics-in-the-geo-spatial-domain
 logo: /images/organization/tu-delft.png
