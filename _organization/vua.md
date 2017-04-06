@@ -21,6 +21,9 @@ ownerOf:
 - /software/3d-e-chem-vm
 - /software/knime-archetype
 - /software/chemical-analytics-platform
+- /software/knime-gpcrdb
+- /software/knime-klifs
+- /software/knime-molviewer
 researchgateUrl: https://www.researchgate.net/institution/VU_University_Amsterdam
 tagLine: VU University Amsterdam
 twitterUrl: https://twitter.com/vuamsterdam

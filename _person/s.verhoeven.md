@@ -11,6 +11,9 @@ contactPersonOf:
 - /software/knime-archetype
 - /software/3d-e-chem-vm
 - /software/chemical-analytics-platform
+- /software/knime-gpcrdb
+- /software/knime-klifs
+- /software/knime-molviewer
 contributorOf:
 - /software/xenon
 - /software/pyxenon
@@ -26,6 +29,9 @@ contributorOf:
 - /software/pattyvis
 - /software/3d-e-chem-vm
 - /software/knime-archetype
+- /software/knime-gpcrdb
+- /software/knime-klifs
+- /software/knime-molviewer
 - /software/chemical-analytics-platform
 email: s.verhoeven@esciencecenter.nl
 engineerOf:

@@ -100,6 +100,9 @@ ownerOf:
 - /software/pidilib
 - /software/3d-e-chem-vm
 - /software/knime-archetype
+- /software/knime-gpcrdb
+- /software/knime-klifs
+- /software/knime-molviewer
 - /software/chemical-analytics-platform
 - /software/pycoeman
 - /software/pymicmac
