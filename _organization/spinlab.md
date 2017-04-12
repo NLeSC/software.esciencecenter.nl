@@ -3,7 +3,7 @@ involvedIn:
 - /project/viaappia-patty
 logo: /images/organization/spinlab.jpg
 name: SPINlab
-website: https://www.feweb.vu.nl/gis/home/
+website: https://spinlab.vu.nl
 ---
 The Spatial Information Laboratory (SPINlab) is the centre for research and education in Geo-Information Science at VU University Amsterdam.
 
