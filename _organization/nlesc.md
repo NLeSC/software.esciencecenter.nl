@@ -79,6 +79,7 @@ ownerOf:
 - /software/texcavator
 - /software/pyxenon
 - /software/magma
+- /software/mcfly
 - /software/extjs-datetime
 - /software/storyteller
 - /software/kernel_tuner
@@ -115,6 +116,7 @@ userOf:
 - /software/harmony
 - /software/openifs
 - /software/dales
+- /software/mcfly
 - /software/ec-earth
 - /software/cdo
 - /software/autosubmit
