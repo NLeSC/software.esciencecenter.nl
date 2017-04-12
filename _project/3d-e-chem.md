@@ -39,6 +39,9 @@ uses:
 - /software/3d-e-chem-vm
 - /software/cclustera
 - /software/knime-archetype
+- /software/knime-gpcrdb
+- /software/knime-klifs
+- /software/knime-molviewer
 - /software/chemical-analytics-platform
 - /software/rdkit
 website: https://3d-e-chem.github.io/
