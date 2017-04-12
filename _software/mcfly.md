@@ -22,6 +22,7 @@ involvedOrganization:
 - /organization/nlesc
 license:
 - apache-2.0
+logo: /images/software/mcfly.png
 name: mcfly
 nlescWebsite: https://www.esciencecenter.nl/technology/software/mcfly
 owner:
