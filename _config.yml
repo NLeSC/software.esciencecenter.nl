@@ -29,8 +29,9 @@ json_excludes:
 - tags
 - categories
 - date  # converted to iso8601 format
-
-# Build settings
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
 markdown: kramdown
 keep_files:
 - assets
