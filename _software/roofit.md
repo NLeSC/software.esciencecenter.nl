@@ -1,6 +1,7 @@
 ---
 name: RooFit
 tagLine: The Toolkit for Data Modeling with ROOT allows for modeling probability distributions in a compact and abstract way. 
+codeRepository: https://github.com/nlesc/root-roofit-dev
 programmingLanguage:
 - C++
 competence:
@@ -9,6 +10,7 @@ discipline:
 - Physics & Beyond
 expertise:
 - High Performance Computing
+- Data Assimilation
 contributingOrganization:
 - /organization/nikhef
 - /organization/nlesc

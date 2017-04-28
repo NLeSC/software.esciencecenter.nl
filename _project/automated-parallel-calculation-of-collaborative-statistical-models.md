@@ -28,10 +28,11 @@ principalInvestigator:
 - affiliation:
   - /organization/nikhef
   name: Prof. dr. Wouter Verkerke
-  website: https://www.nikhef.nl/en/for-nikhef-users/departments/scientific-departments/atlas/atlas-staff/?groupview=0&search=Wouter%20Verkerke
+  website: https://www.nikhef.nl/medewerker/dr-wouter-verkerke/
 startDate: 2016-05-15
 tagLine: Looking for unconfirmed or unknown fundamental physics
 uses:
 - /software/roofit
+- /software/root
 ---
 Large scale statistical data analysis in particle physics
