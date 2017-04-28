@@ -8,7 +8,6 @@ competence:
 discipline:
 - Physics & Beyond
 expertise:
-- Statistical Inference
 - High Performance Computing
 contributingOrganization:
 - /organization/nikhef
