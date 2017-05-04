@@ -76,7 +76,7 @@ Resolve by putting virtualenv somewhere else or prefixing it with '.'.
 
 To preview without Docker:
 1. Install Ruby using your favourite option from https://www.ruby-lang.org/
-2. Use gem package manager to install jekyll and github-pages
+2. Use gem package manager to install jekyll and github-pages, make sure to use same versions as https://pages.github.com/versions/
 ```
 gem install jekyll
 gem install github-pages
