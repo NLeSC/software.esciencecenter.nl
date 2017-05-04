@@ -3,7 +3,6 @@ name: EC-Earth
 endorsedBy:
 - http://software.esciencecenter.nl/organization/knmi
 tagLine: Atmosphere-ocean general circulation model
-codeRepository: https://svn.ec-earth.org/ecearth3
 programmingLanguage:
 - FORTRAN
 - C++
