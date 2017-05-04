@@ -1,6 +1,7 @@
 ---
 name: RooFit
 tagLine: The Toolkit for Data Modeling with ROOT allows for modeling probability distributions in a compact and abstract way. 
+codeRepository: https://github.com/nlesc/root-roofit-dev
 programmingLanguage:
 - C++
 competence:
@@ -8,14 +9,21 @@ competence:
 discipline:
 - Physics & Beyond
 expertise:
-- Information Integration
+- High Performance Computing
+- Data Assimilation
 contributingOrganization:
 - /organization/nikhef
+- /organization/nlesc
 user:
 - /organization/nikhef
 involvedOrganization:
 - /organization/nikhef
 dependency:
 - ROOT
+contactPerson: /person/p.bos
+usedIn:
+- /project/automated-parallel-calculation-of-collaborative-statistical-models
+contributor:
+- /person/p.bos
 ---
-PyROOT is a Python extension module that allows the user to interact with any ROOT class from the Python interpreter.
+RooFit is a module in the ROOT package that allows for the interactive and flexible modeling of complex physical processes and the subsequent fitting of physical parameters to collision data from particle physics experiments. A prime current example is the Higgs boson experiment carried out by the ATLAS and CMS detectors at CERN.
