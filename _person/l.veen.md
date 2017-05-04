@@ -6,13 +6,16 @@ contactPersonOf:
 - /project/e-musc
 contributorOf:
 - /software/xtas
+- /software/spiraljs
+- /software/metrochartjs
+- /software/punchcardjs
 email: l.veen@esciencecenter.nl
+endorsedBy:
+- /organization/nlesc
 engineerOf:
 - /project/e-musc
 - /project/enhancing-protein-drug-binding-prediction
 githubUrl: https://github.com/LourensVeen
-endorsedBy:
-- /organization/nlesc
 jobTitle: eScience Research Engineer
 name: Lourens Veen
 nlescWebsite: https://www.esciencecenter.nl/profile/ir.-lourens-veen

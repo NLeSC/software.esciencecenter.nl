@@ -9,6 +9,8 @@ dataFormat:
 dataMagnitude: GB
 discipline:
 - eScience Methodology
+endorsedBy:
+- /organization/nlesc
 engineer:
 - /person/j.vanderzwaan
 - /person/j.spaaks
@@ -20,8 +22,6 @@ expertise:
 - Computer Vision
 - Distributed Computing
 - High Performance Computing
-endorsedBy:
-- /organization/nlesc
 involvedOrganization:
 - /organization/nlesc
 - /organization/nfi
@@ -34,6 +34,8 @@ uses:
 - /software/rig
 - /software/metrochartjs
 - /software/matrix-of-scatter
+- /software/spiraljs
+- /software/punchcardjs
 website: https://github.com/nlesc-sherlock
 ---
 Sherlock is an NLeSC-wide project in which all eScience Research engineers of the NLeSC work together. The goals of Sherlock are:

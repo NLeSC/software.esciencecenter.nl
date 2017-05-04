@@ -3,10 +3,13 @@ affiliation:
 - /organization/nlesc
 contributorOf:
 - /software/pattyvis
+- /software/spiraljs
+- /software/metrochartjs
+- /software/punchcardjs
 email: m.kuzak@esciencecenter.nl
-githubUrl: https://github.com/mkuzak
 endorsedBy:
 - /organization/nlesc
+githubUrl: https://github.com/mkuzak
 jobTitle: eScience Research Engineer
 name: Mateusz Kuzak
 nlescWebsite: https://www.esciencecenter.nl/profile/mateusz-kuzak-msc

@@ -6,6 +6,9 @@ contactPersonOf:
 contributorOf:
 - /software/pyxenon
 - /software/noodles
+- /software/spiraljs
+- /software/metrochartjs
+- /software/punchcardjs
 email: j.hidding@esciencecenter.nl
 endorsedBy:
 - /organization/nlesc
