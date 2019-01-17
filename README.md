@@ -1,3 +1,5 @@
+# Deprecated website, has been replaced with Research Software Directory at https://github.com/research-software-directory/research-software-directory
+
 # eStep software website
 
 [![Build Status](https://travis-ci.org/NLeSC/software.esciencecenter.nl.svg?branch=gh-pages)](https://travis-ci.org/NLeSC/software.esciencecenter.nl)
